@@ -13,7 +13,7 @@ const Footer: React.FC<Props> = ({ author, title }: Props) => (
       <hr className="border-primary" />
       <p>
         {title}
-        <Link to="/profile/">
+        <Link to="/">
           <br />
           <strong>{author}</strong> on Profile
         </Link>

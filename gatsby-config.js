@@ -1,12 +1,15 @@
 /* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
-    title: 'Gatstrap',
-    description: 'Gatsby starter for bootstrap a blog',
-    siteUrl: 'https://gatstrap.netlify.com',
-    author: 'jaxx2104',
-    twitter: 'jaxx2104',
+    title: 'The Body Natural',
+    description: 'Nutrition Response Testing For Animals',
+    siteUrl: 'https://the-body-natural.com',
+    author: '',
+    twitter: '',
     adsense: '',
+  },
+  flags: {
+    DEV_SSR: false,
   },
   pathPrefix: '/',
   plugins: [

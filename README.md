@@ -1,4 +1,4 @@
-# Gatstrap
+# The Body Natural
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fa249a3a-68ea-4b4b-9aa6-394c87099ee1/deploy-status)](https://app.netlify.com/sites/gatstrap/deploys)
 [![CircleCI](https://circleci.com/gh/jaxx2104/gatsby-starter-bootstrap.svg?style=svg)](https://circleci.com/gh/jaxx2104/gatsby-starter-bootstrap)
@@ -7,13 +7,6 @@
 Gatsby starter for bootstrap a blog
 
 ![thumb](https://user-images.githubusercontent.com/2681007/42584980-656c9406-856f-11e8-882f-cafa9d89b395.png)
-
-## GatsbyJS v2, v1, v0
-
-- For v2 version of this starter, check out the [master branch](https://github.com/jaxx2104/gatsby-starter-bootstrap).
-- For v1 version, check out the [v1 branch](https://github.com/jaxx2104/gatsby-starter-bootstrap/tree/v1).
-- For v0 version, check out the [v0 branch](https://github.com/jaxx2104/gatsby-starter-bootstrap/tree/v0).
-- Make sure to read the [migration guide](https://next.gatsbyjs.org/docs/migrating-from-v1-to-v2/) when porting v1 projects to v2.
 
 ## Features
 

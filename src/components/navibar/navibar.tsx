@@ -30,13 +30,57 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
               </li>
               <li
                 className={
-                  location.pathname === '/profile/'
+                  location.pathname === '/about/'
                     ? 'nav-item active'
                     : 'nav-item'
                 }
               >
-                <Link to="/profile/" className="nav-link">
-                  Profile
+                <Link to="/about/" className="nav-link">
+                  About
+                </Link>
+              </li>
+              <li
+                className={
+                  location.pathname === '/services/'
+                    ? 'nav-item active'
+                    : 'nav-item'
+                }
+              >
+                <Link to="/services/" className="nav-link">
+                  Services
+                </Link>
+              </li>
+              <li
+                className={
+                  location.pathname === '/products/'
+                    ? 'nav-item active'
+                    : 'nav-item'
+                }
+              >
+                <Link to="/products/" className="nav-link">
+                  Products
+                </Link>
+              </li>
+              <li
+                className={
+                  location.pathname === '/Blog/'
+                    ? 'nav-item active'
+                    : 'nav-item'
+                }
+              >
+                <Link to="/blog/" className="nav-link">
+                  Blog
+                </Link>
+              </li>
+              <li
+                className={
+                  location.pathname === '/contact/'
+                    ? 'nav-item active'
+                    : 'nav-item'
+                }
+              >
+                <Link to="/contact/" className="nav-link">
+                  Contact
                 </Link>
               </li>
             </ul>
