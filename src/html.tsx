@@ -1,4 +1,5 @@
 import React from 'react'
+import gatstrap from 'scss/gatstrap.css'
 
 interface Props {
   headComponents: React.ReactNode[]

@@ -14,6 +14,7 @@ interface Props {
 
 const Profile: React.FC<Props> = ({ location, data }: Props) => {
   const profile = data.profile?.childImageSharp?.fixed
+  const test = data.test?.childImageSharp?.fixed
 
   return (
     <Layout location={location}>
@@ -22,6 +23,7 @@ const Profile: React.FC<Props> = ({ location, data }: Props) => {
         <section className="text-center">
           <div className="container">
             <Img fixed={profile as FixedObject} className="rounded-circle" />
+            <Img fixed={test as FixedObject} className="rounded-circle" />
             <h1>jaxx2104</h1>
             <p className="lead text-muted">Front-end engineer.</p>
             <div>
@@ -50,6 +52,14 @@ export const query = graphql`
           ...GatsbyImageSharpFixed_withWebp
         }
       }
-    }
+    },
+    test: file(name: { eq: "test" }) {
+      childImageSharp {
+        fixed(width: 120, height: 120) {
+          ...GatsbyImageSharpFixed_withWebp
+        }
+      }
+    },
+
   }
 `

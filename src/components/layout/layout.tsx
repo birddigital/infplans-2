@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import emergence from 'emergence.js'
 
-import Navibar from '../navibar/navibar'
-import Footer from '../footer/footer'
+import Navibar from 'components/navibar/navibar'
+import Footer from 'components/footer/footer'
 import { siteMetadata } from '../../../gatsby-config'
 
 import 'modern-normalize/modern-normalize.css'
