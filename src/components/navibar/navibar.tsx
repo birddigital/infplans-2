@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import 'components/navibar/style.scss'
+import Logo from '../../../content/images/logo.png'
 
 interface Props {
   title: string
@@ -13,7 +14,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
       <div className="container">
         <div className="col-sm-6">
           <Link className="text-center" to="/">
-            <h1 className="navbar-brand mb-0">{title}</h1>
+            <img src={Logo} id="logo" alt="the body natural"/>
           </Link>
         </div>
         <div className="col-sm-6">

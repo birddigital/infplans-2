@@ -30,6 +30,7 @@
     "gatsby-source-filesystem": "^2.3.10",
     "gatsby-transformer-remark": "2.8.14",
     "gatsby-transformer-sharp": "2.5.4",
+    "react-owl-carousel": "^2.3.3",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
