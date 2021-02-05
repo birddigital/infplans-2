@@ -1,4 +1,6 @@
 /* eslint-disable @typescript-eslint/camelcase */
+const path = require('path')
+
 module.exports = {
   siteMetadata: {
     title: 'The Body Natural',
@@ -27,6 +29,14 @@ module.exports = {
         name: 'images',
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/components/`,
+        name: 'components',
+      },
+    },
+    `gatsby-plugin-styled-components`,
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -76,12 +86,12 @@ module.exports = {
         ],
       },
     },
-    {
+    /*{
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: '',
       },
-    },
+    },*/
     {
       resolve: 'gatsby-plugin-netlify',
       options: {

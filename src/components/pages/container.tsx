@@ -7,10 +7,6 @@ interface Props {
 }
 
 const Container: React.FC<Props> = ({ children, location }: Props) => {
-  useEffect(() => {
-    emergence.init()
-  })
-
   return (
     <div className="container">
       <div className="row">

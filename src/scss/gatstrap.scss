@@ -145,13 +145,18 @@ img {
   margin-right: 20px;
 }
 
-#hero-section {
+/*#hero-section {
   background: #e9f4f8;
-}
+}*/
 
-#hero-section .col-md-4 {
+/*#hero-section .col-md-4 {
   padding-top:45px;
   padding-bottom:45px;
+}*/
+
+.hero-section-bg {
+  background-size: contain !important;
+  background-position: center right !important; 
 }
 
 #hero-section h1 {
@@ -164,6 +169,11 @@ img {
 #hero-section .hero-text {
   margin-bottom: 35px;
   font-size:20px;
+}
+
+.services-bg {
+  z-index: 9;
+  background-position: bottom center !important;
 }
 
 #home-services-section .container-small {
@@ -200,15 +210,17 @@ img {
 }
 
 #home-products-sections {
-  background: $pink;
-  padding-top: 50px;
-  padding-bottom: 70px;
+  padding-bottom: 20px;
 }
 
 #home-products-sections h2, #home-new-patients-section h2 {
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 70px;
+}
+
+.new-patients-bg {
+  background-position: top center !important;
 }
 
 .single-line {
@@ -224,8 +236,8 @@ img {
 }
 
 #home-new-patients-section {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #home-new-patients-section h2 {
@@ -237,7 +249,7 @@ img {
 }
 
 .form-column {
-  background: rgba(222,85,251,0.5);
+  background: rgba(222,85,251,0.8);
   border-radius: 10px;
   padding: 20px;
 }
@@ -260,5 +272,11 @@ img {
 @media only screen and (min-width: 1024px) {
   .form-column {
     min-height: 183px;
+  }
+}
+
+@media only screen and (max-width:981px) {
+  .col {
+    width: 100% !important;
   }
 }
