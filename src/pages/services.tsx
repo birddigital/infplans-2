@@ -53,7 +53,7 @@ const ServicesPage: React.FC<Props> = ({ data, location }: Props) => {
                 Services
               </h1>
               <p className="hero-text text-black">
-                Nutrition Response Testing
+                Lorem ipsum dolor sit amet
               </p>
             </div>
           </Container>
@@ -72,6 +72,7 @@ const ServicesPage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
             </div>
             <div className="col-md-9">
+              <h2 className="text-left">Nutrition Coaching</h2>
               <p className="text-black text-left">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
@@ -86,6 +87,10 @@ const ServicesPage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
             </div>
             <div className="col-md-9">
+              <h2 className="text-left">The Emotion Code</h2>
+              <p className="text-black text-left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
             </div>
             <div className="col-md-3">
               <div className="rounded service-column">
@@ -97,17 +102,25 @@ const ServicesPage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
             </div>
             <div className="col-md-9">
+              <h2 className="text-left">The Body Code</h2>
+              <p className="text-black text-left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
             </div>
             <div className="col-md-3">
               <div className="rounded service-column">
                 <Img fixed={services_shape} className="service-shape" />
                 <div className="service-content">
                   <Img fluid={milk} className="service-img" />
-                  <p className="text-center">Nutrition Response Testing for animals</p>
+                  <p className="text-center">Nutrition Response Testing for Animals</p>
                 </div>
               </div>
             </div>
             <div className="col-md-9">
+              <h2 className="text-left">Nutrition Response Testing for Animals</h2>
+              <p className="text-black text-left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
             </div>
             <div className="col-md-3">
               <div className="rounded service-column">
@@ -119,6 +132,10 @@ const ServicesPage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
             </div>
             <div className="col-md-9">
+              <h2 className="text-left">Equine Touch Bodywork</h2>
+              <p className="text-black text-left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
             </div>
           </Container>
       </div>

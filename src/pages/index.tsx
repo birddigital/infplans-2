@@ -60,7 +60,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
       >
         <div id="hero-section">
           <Container>
-            <div className="col-md-4">
+            <div className="col-lg-4">
               <h1 className="text-black">
                 The Body <br />Natural
               </h1>
@@ -75,7 +75,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 </button>
               </Link>
             </div>
-            <div className="col-md-8">
+            <div className="col-lg-8">
             </div>
           </Container>
         </div>
@@ -136,7 +136,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
           </Container>
           <Container>
-            <div className="col-md-12">
+            <div className="col-lg-12">
               <img src={Animals} className="service-image-animals" />
             </div>
           </Container>
@@ -151,7 +151,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
       >
         <div id="home-products-sections" className="text-center">
           <Container>
-            <div className="col-md-12">
+            <div className="col-lg-12">
               <h2 className="text-light text-center">Our Products</h2>
             </div>
             <div className="col">
@@ -206,14 +206,14 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
       >
         <div id="home-new-patients-section">
           <Container>
-            <div className="col-md-12">
+            <div className="col-lg-12">
               <h2 className="text-white text-light">
                 New Patients
               </h2>
             </div>
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <div className="row">
-                <div className="col-md-4">
+                <div className="col-lg-4">
                   <div className="form-column text-center">
                     <div className="icon-container rounded-circle">
                       <img src={FormIcon} />
@@ -221,7 +221,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                     <p className="text-light">New Patient Routing Form</p>
                   </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-lg-4">
                   <div className="form-column text-center">
                     <div className="icon-container rounded-circle">
                       <img src={FormIcon} />
@@ -229,7 +229,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                     <p className="text-light">New Patient Introduction Form</p>
                   </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-lg-4">
                   <div className="form-column text-center">
                     <div className="icon-container rounded-circle">
                       <img src={FormIcon} />
@@ -239,7 +239,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-lg-6">
 
             </div>
           </Container>
@@ -254,7 +254,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
       >
         <div id="home-what-we-do">
           <Container>
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <h3>ABOUT US</h3>
               <h2 className="text-black">What We Do</h2>
               <p>
@@ -264,14 +264,14 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
               </p>
               <div className="row guarantee-badge-row">
-                <div className="col-md-7">
+                <div className="col-lg-7">
                 </div>
-                <div className="col-md-5">
+                <div className="col-lg-5">
                   <Img fluid={guarantee_badge} />
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <Img fluid={what_we_do} />
             </div>
           </Container>
@@ -286,7 +286,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
       >
         <div id="home-blog-posts">
           <Container>
-            <div className="col-md-12">
+            <div className="col-lg-12">
               <h2 className="text-black text-center">
                 Our Blogs
               </h2>

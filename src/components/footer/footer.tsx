@@ -88,7 +88,7 @@ const Footer = ({ className }) => {
       </div>
       <div id="footer-contact-info" className="text-center text-white">
         <Container>
-          <div className="col-md-4">
+          <div className="col-lg-4">
             <h2>Hours</h2>
             <p>
               Monday 8 – 6:30
@@ -107,7 +107,7 @@ const Footer = ({ className }) => {
             </p>
             <button className="btn btn-outline-white">REQUEST AN APPOINTMENT</button>
           </div>
-          <div className="col-md-4">
+          <div className="col-lg-4">
             <h2>Location</h2>
             <p>
               3376 Niagara Falls Blvd. Suite 5 
@@ -120,13 +120,10 @@ const Footer = ({ className }) => {
             </p>
             <button className="btn btn-outline-white">GET DIRECTIONS</button>
           </div>
-          <div className="col-md-4">
+          <div className="col-lg-4">
             <a href="tel:716-264-4248" className="big-cta">Call Us: <br />(716) 264 4248</a>
             <Img fixed={accredited} />
             <button className="btn btn-outline-white">CALL NOW</button>
-          </div>
-          <div className="col-md-12">
-            <p className="copyright text-center">Copyrights © The Body Natural {new Date().getFullYear()}. All Rights Reserved</p>
           </div>
         </Container>
       </div>
@@ -137,7 +134,59 @@ const Footer = ({ className }) => {
           </div>
         </ContainerFluid>
       </div>
+      <div id="site-footer">
+        <Container>
+          <div className="footer-social">
+            <div className="footer-icon-container">
+                <a href="#">
+                  <i className="fa fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i className="fa fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i className="fa fa-linkedin"></i>
+                </a>
+                <a href="#">
+                  <i className="fa fa-skype"></i>
+                </a>
+                <a href="#">
+                  <i className="fa fa-youtube"></i>
+                </a>
+              </div>
+          </div>
+        </Container>
+        <Container>
+          <div className="search-container">
+            <form action="/" id="search-bar">
+              <input type="text" placeholder="Search.." name="search"/>
+               <button type="submit"><i className="fa fa-search"></i></button>
+            </form>
+          </div>
+        </Container>
+        <Container>
+          <div className="footer-link">
+            <ul>
+              <li><Link to="/">Terms of Service</Link></li>
+              <li><Link to="/">Privacy Policy</Link></li>
+              <li><Link to="/">HIPAA</Link></li>
+            </ul>
+          </div>
+        </Container>
+        <Container>
+          <div className="footer-content text-center">
+            All documentation and practices are based on the research and opinions of our practitioners and have not been evaluated/approved by the FDA.<br/>
+            We do not diagnose or treat diseases; participation is at the sole discretion of the user. Individual results may vary.
+          </div>
+        </Container>
+        <Container>
+          <div className="col-md-12">
+            <p className="footer-copyright copyright text-center">Copyrights © The Body Natural {new Date().getFullYear()}. All Rights Reserved</p>
+          </div>
+        </Container>
+      </div>
     </div>
+
   )
 }
 

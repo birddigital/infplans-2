@@ -33,7 +33,7 @@ const AboutPage: React.FC<Props> = ({ data, location }: Props) => {
           <Container>
             <div className="col-md-6">
               <h1 className="text-black">
-                We Are Synergy
+                About Us
               </h1>
               <p className="hero-text text-black">
                 When the right combination of natural health therapies and whole food supplementation comes together to heal the body, we call this synergy.

@@ -39,7 +39,7 @@ const Post: React.FC<Props> = ({ data, options }: Props) => {
   const isMore = isIndex && !!html.match('<!--more-->')
 
   return (
-    <div className="article col-md-4" key={path}>
+    <div className="article col-lg-4" key={path}>
       <Link style={{ boxShadow: 'none' }} to={path}>
         <div className="content">
           {image?.childImageSharp?.fluid && (

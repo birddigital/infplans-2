@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import 'components/navibar/style.scss'
 import Logo from '../../../content/images/logo.png'
+import MobileDropdown from 'components/navibar/navibar-mobile'
 
 interface Props {
   title: string
@@ -18,7 +19,8 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
           </Link>
         </div>
         <div className="col-sm-6">
-          <div className="navbar-nav-scroll">
+          
+          <div className="navbar-nav-scroll hidden-md-down">
             <ul className="navbar-nav bd-navbar-nav justify-content-end">
               <li
                 className={
@@ -87,7 +89,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
             </ul>
           </div>
         </div>
-          <div className="navbar-nav flex-row ml-md-auto d-none d-md-flex" />
+        <div className="navbar-nav flex-row ml-md-auto d-none d-md-flex" />
       </div>
     </nav>
   )
