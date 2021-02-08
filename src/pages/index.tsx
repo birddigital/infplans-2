@@ -67,7 +67,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               <p className="hero-text text-black">
                 Nutrition Response Testing <br />For Animals 
               </p>
-              <Link to="contact-us">
+              <Link to="contact">
                 <button className="btn btn-sm btn-outline-dark contact-us-btn no-border-radius btn-black">
                   <strong>
                     Contact Us <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
