@@ -34,20 +34,29 @@ class MobileDropdown extends Component {
   render() {
     return (
       <div>
-        <button className="mobile-nav" onClick={this.showMenu}>
-          Show menu
-        </button>
-        
+        {
+          this.state.showMenu
+            ? (
+              <button className="mobile-nav text-center" onClick={this.showMenu}>
+                <i className="fa fa-times"></i>
+              </button>
+            )
+            : (
+              <button className="mobile-nav text-center" onClick={this.showMenu}>
+                <i className="fa fa-bars"></i>
+              </button>
+            )
+        }
         {
           this.state.showMenu
             ? (
               <div
-                className="menu"
+                className="menu mobile-menu"
                 ref={(element) => {
                   this.dropdownMenu = element;
                 }}
               >
-                <div className="navbar-nav-scroll hidden-md-up">
+                <div className="hidden-md-up">
                   <ul className="navbar-nav bd-navbar-nav justify-content-end">
                     <li
                       className={
@@ -113,7 +122,7 @@ class MobileDropdown extends Component {
                         Contact
                       </Link>
                     </li>
-                  </ul>
+                  </ul> 
                 </div>
               </div>
             )

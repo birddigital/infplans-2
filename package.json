@@ -31,6 +31,8 @@
     "gatsby-transformer-remark": "2.8.14",
     "gatsby-transformer-sharp": "2.5.4",
     "react-owl-carousel": "^2.3.3",
+    "react-slick": "^0.28.0",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {

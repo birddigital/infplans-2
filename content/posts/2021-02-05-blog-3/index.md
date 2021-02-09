@@ -1,6 +1,6 @@
 ---
 title: 'Blog Post 3'
-date: '2020-02-03T22:12:03.284Z'
+date: '2020-02-04T22:12:03.284Z'
 layout: post
 path: '/blog-post-3/'
 image: ./blog-post-3.jpg

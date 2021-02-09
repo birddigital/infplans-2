@@ -1,7 +1,7 @@
 import { graphql } from 'gatsby'
 import React from 'react'
 
-import Post from './post/post'
+import Post from './post/single-post'
 import Meta from '../components/meta/meta'
 import Layout from '../components/layout/layout'
 import Page from './page/page'
@@ -15,7 +15,7 @@ interface Props {
 const Template: React.FC<Props> = ({ data, location }: Props) => {
   const isPage = data.post?.frontmatter?.layout != 'page'
   return (
-    <div>
+    <div className="single-blog">
       <Layout location={location}>
         <Meta
           title={data.post?.frontmatter?.title || ''}

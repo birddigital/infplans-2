@@ -19,6 +19,7 @@ import Milk from '../../content/images/milk.png'
 import Smiley from '../../content/images/smiley.png'
 import NutritionCoaching from '../../content/images/nutrition_coaching.png'
 import Dog from '../../content/images/dog.png'
+import Video from "components/video"
 
 
 interface Props {
@@ -39,28 +40,33 @@ const ServicesPage: React.FC<Props> = ({ data, location }: Props) => {
   return (
     <Layout location={location}>
       <Meta site={meta} title="Services"/>
-      <BackgroundImage
-        Tag="section"
-        className="hero-section-bg"
-        fluid={hero}
-        backgroundColor={`#e9f4f8`}
-        alt="the body natural"
-      >
-        <div id="hero-section">
-          <Container>
-            <div className="col-md-6">
-              <h1 className="text-black">
-                Services
-              </h1>
-              <p className="hero-text text-black">
-                Lorem ipsum dolor sit amet
-              </p>
-            </div>
-          </Container>
-        </div>
-      </BackgroundImage>
+      <section id="hero-section" className="hero-section">
+        <Container>
+          <div className="col-lg-6">
+            <h1 className="text-black">
+              Services
+            </h1>
+            <p className="hero-text text-black">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan arcu sed metus congue, quis tincidunt massa tempus.
+            </p>
+            <Link to="contact">
+              <button className="btn btn-sm btn-outline-dark contact-us-btn no-border-radius btn-black">
+                <strong>
+                  Contact Us <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </strong>
+              </button>
+            </Link>
+          </div>
+          <div className="col-lg-6">
+            <Video
+              videoSrcURL="https://www.youtube.com/embed/u31qwQUeGuM"
+              videoTitle="Official Music Video on YouTube"
+            />
+          </div>
+        </Container>
+      </section>
 
-      <div id="services-us-section1" className="text-center">
+      <section id="services-section-1" className="text-center page-section">
         <Container>
             <div className="col-md-3">
               <div className="rounded service-column">
@@ -138,7 +144,7 @@ const ServicesPage: React.FC<Props> = ({ data, location }: Props) => {
               </p>
             </div>
           </Container>
-      </div>
+      </section>
     </Layout>
   )
 }

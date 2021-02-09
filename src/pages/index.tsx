@@ -1,5 +1,6 @@
 import { graphql } from 'gatsby'
 import Img, { FixedObject } from 'gatsby-image'
+import { Link } from 'gatsby'
 import React from 'react'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -12,7 +13,6 @@ import styled from 'styled-components'
 import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
-import { Link } from 'gatsby'
 import EssentialOils from '../../content/images/essential-oils-img.png'
 import Herbs from '../../content/images/herbs-img.png'
 import WholeFoodSupplements from '../../content/images/whole-foods-supplements-img.png'
@@ -20,6 +20,7 @@ import Homeopathic from '../../content/images/homeopathic-remedies-img.png'
 import FormIcon from '../../content/images/form-icon.png'
 import Animals from '../../content/images/animals.png'
 import ServiceShape from '../../content/images/services_shape.png'
+import BlogSlider from 'components/blogs/blog-slider'
 
 
 interface Props {
@@ -60,6 +61,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
       >
         <div id="hero-section">
           <Container>
+
             <div className="col-lg-4">
               <h1 className="text-black">
                 The Body <br />Natural
@@ -294,15 +296,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 The relatively unrestricted circulation of information — including revolutionary ideas — transcended borders, captured the masses in the Reformation and threatened the power of political and religious authorities; the sharp increase in literacy broke.
               </p>
             </div>
-            {posts.map((post, i) => (
-              <Post
-                data={post as PostByPathQuery}
-                options={{
-                  isIndex: true,
-                }}
-                key={i}
-              />
-            ))}
+            <BlogSlider />
           </Container>
         </div>
       </BackgroundImage>
