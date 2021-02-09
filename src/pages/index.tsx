@@ -65,7 +65,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 The Body <br />Natural
               </h1>
               <p className="hero-text text-black">
-                Nutrition Response Testing <br />For Animals 
+                Nutrition Response Testing <br />For Animals
               </p>
               <Link to="contact">
                 <button className="btn btn-sm btn-outline-dark contact-us-btn no-border-radius btn-black">
@@ -367,7 +367,7 @@ export const query = graphql`
     services_shape: file(name: { eq: "services_shape" }) {
       childImageSharp {
         fixed(width: 206, height: 206, quality: 100) {
-          ...GatsbyImageSharpFixed
+          ...GatsbyImageSharpFixed_tracedSVG
         }
       }
     },

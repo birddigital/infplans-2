@@ -19,7 +19,9 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
           </Link>
         </div>
         <div className="col-sm-6">
-          
+          <div className="hidden-md-up">
+            <MobileDropdown />
+          </div>
           <div className="navbar-nav-scroll hidden-md-down">
             <ul className="navbar-nav bd-navbar-nav justify-content-end">
               <li

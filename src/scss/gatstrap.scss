@@ -91,6 +91,9 @@ body {
   color: $white;
 }
 
+
+/* Mobile Dropdown */
+
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -164,7 +167,7 @@ img {
 
 .hero-section-bg {
   /*background-size: contain !important;*/
-  background-position: center right !important; 
+  background-position: center right !important;
 }
 
 #hero-section h1 {
@@ -441,7 +444,7 @@ img {
 }
 
 .copyright {
-  margin-top:50px;  
+  margin-top:50px;
 }
 
 #footer-contact-info {
@@ -587,8 +590,8 @@ form#search-bar button {
   }
 
   .single-line {
-    line-height: 2.95;  
-  } 
+    line-height: 2.95;
+  }
 }
 
 @media only screen and (max-width:981px) {
@@ -597,7 +600,7 @@ form#search-bar button {
   }
 
   .hero-section-bg {
-    background: #E9F4F8 !important; 
+    background: #E9F4F8 !important;
   }
 }
 
@@ -658,7 +661,7 @@ form#search-bar button {
   top: 40px;
   width: 100%;
   padding-left: 40px;
-  padding-right: 0px; 
+  padding-right: 0px;
   max-width: 185px;
   margin: 0 auto;
 }
@@ -730,7 +733,7 @@ form#search-bar button {
   #hero-section h1 {
     margin-bottom: 5px;
     line-height: 1.3;
-    font-size: 45px;  
+    font-size: 45px;
   }
 
   #hero-section h1 br {
@@ -911,7 +914,6 @@ form#search-bar button {
 
   .footer-link li {
     padding: 0px 20px;
-    text-align: left;
   }
 
   #site-footer {
@@ -948,7 +950,7 @@ form#search-bar button {
   #hero-section h1 {
     margin-bottom: 5px;
     line-height: 1.3;
-    font-size: 30px;  
+    font-size: 30px;
   }
 
   #hero-section .hero-text {

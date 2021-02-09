@@ -110,7 +110,7 @@ const Footer = ({ className }) => {
           <div className="col-lg-4">
             <h2>Location</h2>
             <p>
-              3376 Niagara Falls Blvd. Suite 5 
+              3376 Niagara Falls Blvd. Suite 5
             </p>
             <p>
               N. Tonawanda, NY 14120
@@ -157,7 +157,7 @@ const Footer = ({ className }) => {
           </div>
         </Container>
         <Container>
-          <div className="search-container">
+          <div className="search-container col-md-12 text-center">
             <form action="/" id="search-bar">
               <input type="text" placeholder="Search.." name="search"/>
                <button type="submit"><i className="fa fa-search"></i></button>
@@ -165,7 +165,7 @@ const Footer = ({ className }) => {
           </div>
         </Container>
         <Container>
-          <div className="footer-link">
+          <div className="footer-link col-md-12">
             <ul>
               <li><Link to="/">Terms of Service</Link></li>
               <li><Link to="/">Privacy Policy</Link></li>

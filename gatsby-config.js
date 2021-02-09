@@ -12,6 +12,7 @@ module.exports = {
   },
   flags: {
     DEV_SSR: false,
+    FAST_REFRESH: true,
   },
   pathPrefix: '/',
   plugins: [
@@ -100,12 +101,12 @@ module.exports = {
         mergeCachingHeaders: true,
       },
     },
-    {
+    /*{
       resolve: 'gatsby-plugin-graphql-codegen',
       options: {
         fileName: `types/graphql-types.d.ts`,
       },
-    },
+    },*/
     'gatsby-plugin-catch-links',
     'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
