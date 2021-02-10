@@ -7,8 +7,8 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { IndexQueryQuery, PostByPathQuery } from '../../types/graphql-types'
 import Post from '../templates/post/post'
-import Meta from '../components/meta/meta'
-import Layout from '../components/layout/layout'
+import Meta from 'components/meta/meta'
+import Layout from 'components/layout/layout'
 import styled from 'styled-components'
 import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
@@ -21,6 +21,7 @@ import FormIcon from '../../content/images/form-icon.png'
 import Animals from '../../content/images/animals.png'
 import ServiceShape from '../../content/images/services_shape.png'
 import BlogSlider from 'components/blogs/blog-slider'
+import ButtonBlack from 'components/button/button-black'
 
 
 interface Props {
@@ -69,13 +70,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               <p className="hero-text text-black">
                 Nutrition Response Testing <br />For Animals
               </p>
-              <Link to="contact">
-                <button className="btn btn-sm btn-outline-dark contact-us-btn no-border-radius btn-black">
-                  <strong>
-                    Contact Us <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
-                  </strong>
-                </button>
-              </Link>
+              <ButtonBlack path="/contact" label="Contact Us" />
             </div>
             <div className="col-lg-8">
             </div>
@@ -162,6 +157,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                   <img src={EssentialOils} alt="essential oils" />
                 </div>
                 <p className="text-center single-line">Essential Oils</p>
+                <ButtonBlack path="/products/essential-oils" label="Read More" />
               </div>
             </div>
             <div className="col">
@@ -170,6 +166,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                   <img src={Herbs} alt="herbs" />
                 </div>
                 <p className="text-center single-line">Herbs</p>
+                <ButtonBlack path="/products/herbs" label="Read More" />
               </div>
             </div>
             <div className="col">
@@ -178,6 +175,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                   <img src={WholeFoodSupplements} alt="whole food supplements" />
                 </div>
                 <p className="text-center">Whole Food Supplements</p>
+                <ButtonBlack path="/products/whole-food-supplements" label="Read More" />
               </div>
            </div>
             <div className="col">
@@ -186,14 +184,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                   <img src={Homeopathic} alt="homeopathic remedies" />
                 </div>
                 <p className="text-center">Homeopathic Remedies</p>
-              </div>
-            </div>
-            <div className="col">
-              <div className="product-column bg-white">
-                <div className="product-container">
-                  <img src={EssentialOils} alt="laser therapy" />
-                </div>
-                <p className="text-center single-line">Laser Therapy</p>
+                <ButtonBlack path="/products/homeopathic-remedies" label="Read More" />
               </div>
             </div>
           </Container>

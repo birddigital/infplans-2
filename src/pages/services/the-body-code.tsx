@@ -1,13 +1,12 @@
 import { graphql } from 'gatsby'
 import Img, { FixedObject } from 'gatsby-image'
 import React from 'react'
-
-import { IndexQueryQuery, PostByPathQuery } from '../../types/graphql-types'
+import { Link } from 'gatsby'
+import { IndexQueryQuery, PostByPathQuery } from '../../../types/graphql-types'
 import Meta from 'components/meta/meta'
 import Layout from 'components/layout/layout'
 import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
-import { Link } from 'gatsby'
 import Video from "components/video"
 
 interface Props {
@@ -15,21 +14,22 @@ interface Props {
   location: Location
 }
 
-const ExistingPatientsPage: React.FC<Props> = ({ data, location }: Props) => {
+const TheBodyCodePage: React.FC<Props> = ({ data, location }: Props) => {
   const meta = data.site?.meta
   const hero = data.hero?.childImageSharp?.fluid
+  const product1 = data.product1?.childImageSharp?.fluid
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Existing Patients" />
-      <section id="hero-section" className="hero-section">
+      <Meta site={meta} title="The Body Code" />
+      <section id="hero-section" class="hero-section">
         <Container>
           <div className="col-lg-6">
             <h1 className="text-black">
-              Existing Patients
+              The Body Code
             </h1>
             <p className="hero-text text-black">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan arcu se.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan arcu sed metus congue, quis tincidunt massa tempus.
             </p>
             <Link to="/contact">
               <button className="btn btn-sm btn-outline-dark contact-us-btn no-border-radius btn-black">
@@ -51,13 +51,20 @@ const ExistingPatientsPage: React.FC<Props> = ({ data, location }: Props) => {
   )
 }
 
-export default ExistingPatientsPage
+export default TheBodyCodePage
 
 export const query = graphql`
-  query ExistingPatientsPageQuery {
+  query TheBodyCodePageQuery {
     hero: file(name: { eq: "hero-image" }) {
       childImageSharp {
         fluid(maxWidth: 800, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    product1: file(relativePath: { eq: "images/marco-pharma.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 300, quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }

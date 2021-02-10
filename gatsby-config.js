@@ -37,6 +37,27 @@ module.exports = {
         name: 'components',
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/types/`,
+        name: 'types',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/content/`,
+        name: 'content',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/`,
+        name: 'src',
+      },
+    },
     `gatsby-plugin-styled-components`,
     {
       resolve: 'gatsby-transformer-remark',

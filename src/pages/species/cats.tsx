@@ -1,7 +1,6 @@
 import { graphql } from 'gatsby'
 import Img, { FixedObject } from 'gatsby-image'
 import React from 'react'
-
 import { IndexQueryQuery, PostByPathQuery } from '../../types/graphql-types'
 import Meta from 'components/meta/meta'
 import Layout from 'components/layout/layout'
@@ -15,18 +14,18 @@ interface Props {
   location: Location
 }
 
-const ExistingPatientsPage: React.FC<Props> = ({ data, location }: Props) => {
+const CatsPage: React.FC<Props> = ({ data, location }: Props) => {
   const meta = data.site?.meta
   const hero = data.hero?.childImageSharp?.fluid
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Existing Patients" />
+      <Meta site={meta} title="Cats" />
       <section id="hero-section" className="hero-section">
         <Container>
           <div className="col-lg-6">
             <h1 className="text-black">
-              Existing Patients
+              Cats
             </h1>
             <p className="hero-text text-black">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas accumsan arcu se.
@@ -51,10 +50,10 @@ const ExistingPatientsPage: React.FC<Props> = ({ data, location }: Props) => {
   )
 }
 
-export default ExistingPatientsPage
+export default CatsPage
 
 export const query = graphql`
-  query ExistingPatientsPageQuery {
+  query CatsPageQuery {
     hero: file(name: { eq: "hero-image" }) {
       childImageSharp {
         fluid(maxWidth: 800, quality: 100) {
