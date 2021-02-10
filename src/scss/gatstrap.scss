@@ -52,6 +52,7 @@ $body-color: $gray-700 !default;
 $inverse-bg: $gray-900 !default;
 $inverse-color: $gray-600 !default;
 
+
 // Links
 //
 // Style anchor elements.
@@ -71,6 +72,10 @@ body {
   width: 100%;
   font-family: Poppins;
   color: $black;
+}
+
+.bg-lightblue {
+  background: $lightblue;
 }
 
 * {
@@ -726,6 +731,21 @@ form#search-bar button {
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+/* New Patients */
+#color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#a1d26d;
+  opacity: 0.8;
+}
+
+#new-patients-section-1 h3, #new-patients-section-2 h3 {
+  margin-top: 35px;
 }
 
 .hidden-md-up {
