@@ -3,9 +3,9 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: 'The Body Natural',
-    description: 'Nutrition Response Testing For Animals',
-    siteUrl: 'https://the-body-natural.com',
+    title: 'Gatsby Bootstrap Starter',
+    description: 'Gatsby Bootstrap Starter',
+    siteUrl: 'https://www.gatsbyjs.com/',
     author: '',
     twitter: '',
     adsense: '',
@@ -58,6 +58,17 @@ module.exports = {
         name: 'src',
       },
     },
+    {
+      resolve: 'gatsby-plugin-root-import',
+      options: {
+        src: path.join(__dirname, 'src'),
+        pages: path.join(__dirname, 'src/pages'),
+        images: path.join(__dirname, 'src/images'),
+        components: path.join(__dirname, 'src/components'),
+        scss: path.join(__dirname, 'src/scss'),
+        templates: path.join(__dirname, 'src/templates'),
+      },
+    },
     `gatsby-plugin-styled-components`,
     {
       resolve: 'gatsby-transformer-remark',
@@ -86,10 +97,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Gatstrap',
-        short_name: 'Gatstrap',
+        name: 'Gatsby Bootstrap Starter',
+        short_name: 'Gatsby Bootstrap Starter',
         description: 'Gatsby starter for bootstrap a blog',
-        homepage_url: 'https://gatstrap.netlify.com',
+        homepage_url: '',
         start_url: '/',
         background_color: '#fff',
         theme_color: '#673ab7',
