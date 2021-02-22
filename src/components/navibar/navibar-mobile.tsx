@@ -4,30 +4,30 @@ import { Link } from 'gatsby'
 class MobileDropdown extends Component {
   constructor() {
     super();
-    
+
     this.state = {
       showMenu: false,
     };
-    
+
     this.showMenu = this.showMenu.bind(this);
     this.closeMenu = this.closeMenu.bind(this);
   }
-  
+
   showMenu(event) {
     event.preventDefault();
-    
+
     this.setState({ showMenu: true }, () => {
       document.addEventListener('click', this.closeMenu);
     });
   }
-  
+
   closeMenu(event) {
-    
+
     if (!this.dropdownMenu.contains(event.target)) {
-      
+
       this.setState({ showMenu: false }, () => {
         document.removeEventListener('click', this.closeMenu);
-      });  
+      });
     }
   }
 
@@ -38,12 +38,12 @@ class MobileDropdown extends Component {
           this.state.showMenu
             ? (
               <button className="mobile-nav text-center" onClick={this.showMenu}>
-                <i className="fa fa-times"></i>
+                Close
               </button>
             )
             : (
               <button className="mobile-nav text-center" onClick={this.showMenu}>
-                <i className="fa fa-bars"></i>
+                Open
               </button>
             )
         }

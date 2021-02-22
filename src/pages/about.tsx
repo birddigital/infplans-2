@@ -2,8 +2,6 @@ import { graphql } from 'gatsby'
 import Img, { FixedObject } from 'gatsby-image'
 import { Link } from 'gatsby'
 import React from 'react'
-import { IndexQueryQuery, PostByPathQuery } from '../../types/graphql-types'
-import Post from '../templates/post/post'
 import Meta from 'components/meta/meta'
 import Layout from 'components/layout/layout'
 import styled from 'styled-components'
@@ -13,19 +11,17 @@ import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 
 interface Props {
-  data: IndexQueryQuery
   location: Location
 }
 
-const HomePage: React.FC<Props> = ({ data, location }: Props) => {
+const AboutPage: React.FC<Props> = ({ data, location }: Props) => {
   const meta = data.site?.meta
-  const posts = data.remark.posts
   const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
 
   return (
     <Layout location={location}>
-      <Meta site={meta} />
+      <Meta site={meta} title="About" />
       <BackgroundImage
         Tag="section"
         className="hero-section-bg"
@@ -57,44 +53,15 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
   )
 }
 
-export default HomePage
+export default AboutPage
 
 export const query = graphql`
-  query HomePageQuery {
+  query AboutPageQuery {
     site {
       meta: siteMetadata {
         title
         description
         siteUrl
-        author
-        twitter
-        adsense
-      }
-    },
-    remark: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      posts: edges {
-        post: node {
-          html
-          frontmatter {
-            layout
-            title
-            path
-            category
-            author
-            tags
-            description
-            date(formatString: "YYYY/MM/DD")
-            image {
-              childImageSharp {
-                fluid(maxHeight: 362) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
       }
     },
     hero_background: file(name: { eq: "bg" }) {
