@@ -13,6 +13,7 @@ module.exports = {
   flags: {
     DEV_SSR: false,
     FAST_REFRESH: true,
+    FAST_DEV: true,
   },
   pathPrefix: '/',
   plugins: [
