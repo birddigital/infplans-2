@@ -59,6 +59,7 @@ module.exports = {
         name: 'src',
       },
     },
+    `gatsby-plugin-preact`,
     {
       resolve: 'gatsby-plugin-root-import',
       options: {
