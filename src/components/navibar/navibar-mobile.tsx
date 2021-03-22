@@ -1,34 +1,29 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby'
+import { FaTimes } from "@react-icons/all-files/fa/FaTimes";
+import { FaBars } from "@react-icons/all-files/fa/FaBars";
 
-class MobileDropdown extends Component {
+class MobileNavigation extends Component {
   constructor() {
     super();
 
     this.state = {
       showMenu: false,
+      hideMenu: true,
     };
 
     this.showMenu = this.showMenu.bind(this);
-    this.closeMenu = this.closeMenu.bind(this);
+    this.hideMenu = this.hideMenu.bind(this);
   }
 
   showMenu(event) {
     event.preventDefault();
-
-    this.setState({ showMenu: true }, () => {
-      document.addEventListener('click', this.closeMenu);
-    });
+    this.setState({ showMenu: true });
   }
 
-  closeMenu(event) {
-
-    if (!this.dropdownMenu.contains(event.target)) {
-
-      this.setState({ showMenu: false }, () => {
-        document.removeEventListener('click', this.closeMenu);
-      });
-    }
+  hideMenu(event) {
+    event.preventDefault();
+    this.setState({ showMenu: false });
   }
 
   render() {
@@ -37,13 +32,13 @@ class MobileDropdown extends Component {
         {
           this.state.showMenu
             ? (
-              <button className="mobile-nav text-center" onClick={this.showMenu}>
-                Close
+              <button className="mobile-nav text-center" onClick={this.hideMenu}>
+                <FaTimes size="21px" className="svg-icon-middle text-white"/>
               </button>
             )
             : (
               <button className="mobile-nav text-center" onClick={this.showMenu}>
-                Open
+                <FaBars size="21px" className="svg-icon-middle text-white"/>
               </button>
             )
         }
@@ -106,4 +101,4 @@ class MobileDropdown extends Component {
   }
 }
 
-export default MobileDropdown
+export default MobileNavigation
