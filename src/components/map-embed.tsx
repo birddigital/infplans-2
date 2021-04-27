@@ -13,8 +13,6 @@ class Map extends Component {
     this.showMap = this.showMap.bind(this);
   }
 
-
-
   showMap(event) {
     event.preventDefault();
 

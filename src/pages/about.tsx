@@ -27,7 +27,7 @@ const AboutPage: React.FC<Props> = ({ data, location }: Props) => {
         className="hero-section-bg"
         fluid={hero_background}
         backgroundColor={`#e9f4f8`}
-        alt="the body natural"
+        alt=""
       >
         <div id="hero-section">
           <Container>
