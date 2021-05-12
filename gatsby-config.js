@@ -3,9 +3,9 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Bootstrap Starter',
-    description: 'Gatsby Bootstrap Starter',
-    siteUrl: 'https://www.gatsbyjs.com/',
+    title: 'Infplans',
+    description: 'Infplans',
+    siteUrl: 'https://www.infplans.com/',
     author: '',
     twitter: '',
     adsense: '',
