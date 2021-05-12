@@ -14,14 +14,14 @@ interface Props {
   location: Location
 }
 
-const AboutPage: React.FC<Props> = ({ data, location }: Props) => {
+const WhyINFPage: React.FC<Props> = ({ data, location }: Props) => {
   const meta = data.site?.meta
   const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="About Us - INF Visitor Insurance" />
+      <Meta site={meta} title="Why INF - INF Visitor Insurance" />
       <BackgroundImage
         Tag="section"
         className="hero-section-bg"
@@ -33,7 +33,7 @@ const AboutPage: React.FC<Props> = ({ data, location }: Props) => {
           <Container>
             <div className="col-lg-12">
               <h1 className="text-black">
-                Your Title Here
+                Why INF page
               </h1>
               <p className="hero-text text-black">
                 subtitle here
@@ -53,10 +53,10 @@ const AboutPage: React.FC<Props> = ({ data, location }: Props) => {
   )
 }
 
-export default AboutPage
+export default WhyINFPage
 
 export const query = graphql`
-  query AboutPageQuery {
+  query WhyINFPageQuery {
     site {
       meta: siteMetadata {
         title

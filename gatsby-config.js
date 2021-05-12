@@ -4,7 +4,8 @@ const path = require('path')
 module.exports = {
   siteMetadata: {
     title: 'Infplans',
-    description: 'Infplans',
+    description:
+      'This website sells Insurance for Visitors for Parents. Relatives visiting USA. Full Pre-Existing Insurance for Visitors for Parents visiting USA. We cover all Pre-Existing Conditions. Insurance for Non-US Citizens Living in the USA. H1-B, K1, J1 Visa Insurance',
     siteUrl: 'https://www.infplans.com/',
     author: '',
     twitter: '',
@@ -99,9 +100,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Gatsby Bootstrap Starter',
-        short_name: 'Gatsby Bootstrap Starter',
-        description: 'Gatsby starter for bootstrap a blog',
+        name: 'Infplans',
+        short_name: 'Infplans',
+        description:
+          'This website sells Insurance for Visitors for Parents. Relatives visiting USA. Full Pre-Existing Insurance for Visitors for Parents visiting USA. We cover all Pre-Existing Conditions. Insurance for Non-US Citizens Living in the USA. H1-B, K1, J1 Visa Insurance',
         homepage_url: '',
         start_url: '/',
         background_color: '#fff',
