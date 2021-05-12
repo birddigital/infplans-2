@@ -27,31 +27,38 @@ const VisitorInsuranceQuotePage: React.FC<Props> = ({ data, location }: Props) =
       <Meta site={meta} title="INF Visitor Insurance Quote"/>
       <BackgroundImage
         Tag="section"
-        className="hero-section-bg"
+        className="get-a-quote-hero-section-bg"
         fluid={hero_background}
-        backgroundColor={`#e9f4f8`}
-        alt=""
+        alt="get a quote"
       >
-        <div id="hero-section">
+        <div id="get-a-quote-hero-section">
           <Container>
             <div className="col-lg-12">
-              <h1 className="text-black">
-                Visitor Insurance Quote Page
+              <h1 className="text-white text-center">
+                GET A VISITORS INSURANCE QUOTE
               </h1>
-              <p className="hero-text text-black">
-                subtitle here
+              <p className="hero-text text-white text-center">
+                INF has provided insurance options for millions of travelers since 1988. Built during the early-ages of the internet, INF has always been a technology first company.
               </p>
-              <ButtonBlack path="/contact" label="Button Text" />
-            </div>
-            <div className="col-lg-8">
+              <button className="hero-btn"> Get a Quote </button>
             </div>
           </Container>
         </div>
       </BackgroundImage>
-      <div id="your-id-here">
+
+      <section id="get-a-quote-section-1">
         <Container>
+          <div className="col-lg-12">
+            <h2 className="text-center text-blue">Why choose INF Insurance? </h2>
+            <p className="text-black text-center">
+              INF has provided insurance options for millions of travelers since 1988. Built during the early-ages of the internet, INF has always been a technology first company. INF was the first company to allow insurance applications Online and over fax, and the first company to incorporate technology into their claims process. INF uses technology to bring better products, services, and customer experience to travelers across the globe.
+            </p>
+            <p className="text-black text-center">
+              Get the Peace of Mind while you are traveling knowing you'll be covered no matter what. INF covers <a href="/">All Pre-Existing Conditions</a> with <a href="/">no acute onset limitation</a> for visitors to/from the United States & Canada.
+            </p>
+          </div>
         </Container>
-      </div>
+      </section>
     </Layout>
   )
 }
@@ -96,7 +103,7 @@ export const query = graphql`
         }
       }
     },
-    hero_background: file(name: { eq: "bg" }) {
+    hero_background: file(name: { eq: "get-a-quote-hero-bg" }) {
       childImageSharp {
         fluid(maxWidth: 1400, quality: 100) {
           ...GatsbyImageSharpFluid

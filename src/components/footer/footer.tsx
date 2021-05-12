@@ -7,6 +7,8 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import { Link } from 'gatsby'
 
+import Logo from '../../../content/images/footer-logo.png'
+
 const Footer = ({ className }) => {
   const data = useStaticQuery(
     graphql`
@@ -38,19 +40,42 @@ const Footer = ({ className }) => {
 
   return (
     <div>
-      <div id="footer-map">
+      <div id="footer">
         <ContainerFluid>
-          <div className="map-frame">
-            <iframe width="100%" height="300px" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.107737267264!2d-2.2301981846090193!3d53.484404772062845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb128ce95b9bf%3A0x4f61665f8424cc34!2sThe%20Body%20Natural!5e0!3m2!1sen!2sph!4v1612778213974!5m2!1sen!2sph"></iframe>
+          <div className="col-lg-3 text-left">
+            <img src={Logo} />
+            <p>INFPlans.com provides innovating visitor insurance options for international travelers</p>
+          </div>
+          <div className="col-lg-3">
+            <h4>Navigate Our Site</h4>
+            <p>Home</p>
+            <p>Apply</p>
+            <p>Plans</p>
+            <p>Extend</p>
+          </div>
+          <div className="col-lg-3">
+            <h4>Our Plan</h4>
+            <p>Standard</p>
+            <p>Elite Network</p>
+            <p>Premium</p>
+            <p>Traveler USA</p>
+            <p>INF BMI</p>
+          </div>
+          <div className="col-lg-3">
+            <h4>About Our Company</h4>
+            <p>About Us</p>
+            <p>Contact Us</p>
+            <p>Why INF?</p>
+          </div>
+          <div className="col-md-12 text-center">
+            <ul className="list-inline">
+              <li className="list-inline-item">© INFPLANS {new Date().getFullYear()}</li>
+              <li className="list-inline-item">Privacy policy</li>
+              <li className="list-inline-item">Cookies policy</li>
+              <li className="list-inline-item">Terms of use</li>
+            </ul>
           </div>
         </ContainerFluid>
-      </div>
-      <div id="footer">
-        <Container>
-          <div className="col-md-12">
-            <p className="footer-copyright copyright text-center">Copyrights © {meta.title} {new Date().getFullYear()}. All Rights Reserved</p>
-          </div>
-        </Container>
       </div>
     </div>
 

@@ -27,31 +27,45 @@ const InsuranceQuotePage: React.FC<Props> = ({ data, location }: Props) => {
       <Meta site={meta} title="INF Visitor Insurance Quote"/>
       <BackgroundImage
         Tag="section"
-        className="hero-section-bg"
+        className="quote-hero-section-bg"
         fluid={hero_background}
-        backgroundColor={`#e9f4f8`}
-        alt=""
+        alt="quote"
       >
-        <div id="hero-section">
+        <div id="quote-hero-section">
           <Container>
             <div className="col-lg-12">
-              <h1 className="text-black">
-                Insurance Quote Page
+              <h1 className="text-white text-center">
+                GET A VISITORS INSURANCE QUOTE
               </h1>
-              <p className="hero-text text-black">
-                subtitle here
+              <p className="hero-text text-white text-center">
+                The plans may cover medically necessary testing for COVID-19 in accordance with the plan terms, conditions and exclusions, while the person is in the US.
               </p>
-              <ButtonBlack path="/contact" label="Button Text" />
-            </div>
-            <div className="col-lg-8">
+              <button className="hero-btn"> Get a Quote </button>
             </div>
           </Container>
         </div>
       </BackgroundImage>
-      <div id="your-id-here">
+
+      <section id="quote-section-1">
         <Container>
+          <div className="col-lg-12">
+            <div className="quote-container">
+              <h2 className="text-center text-blue">Statement on COVID-19 coverage</h2>
+              <h3 className="text-black">Statement on COVID-19 Testing </h3>
+              <p className="text-black">
+                The plans may cover medically necessary testing for COVID-19 in accordance with the plan terms, conditions and exclusions, while the person is in the US. Medically necessary COVID-19 testing and screening will be covered without any cost-sharing (deductible / copay / coinsurance).
+              </p>
+              <p className="text-black">
+                All cost-sharing for office, urgent care center, laboratory, hospital and emergency room visits will be waived when testing for COVID-19, but only to the extent such items and services relate to the furnishing or administration of such testing or to the evaluation of such individual for purposes of determining the need of such individual for such testing.
+              </p>
+              <h3 className="text-black">Statement on COVID-19 Treatment </h3>
+              <p className="text-black">
+                The plans may cover medically necessary treatment for COVID-19 in accordance with the plan terms, conditions and exclusions, while the person is in the US. COVID-19 treatment may be covered in the program as any other eligible sickness.
+              </p>
+            </div>
+          </div>
         </Container>
-      </div>
+      </section>
     </Layout>
   )
 }
@@ -96,7 +110,7 @@ export const query = graphql`
         }
       }
     },
-    hero_background: file(name: { eq: "bg" }) {
+    hero_background: file(name: { eq: "quote-hero-bg" }) {
       childImageSharp {
         fluid(maxWidth: 1400, quality: 100) {
           ...GatsbyImageSharpFluid
