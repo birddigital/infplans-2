@@ -7,7 +7,7 @@ import Layout from 'components/layout/layout'
 import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
-import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight";
+import { FaLongArrowAltRight } from "@react-icons/all-files/fa/FaLongArrowAltRight";
 
 interface Props {
   data: IndexQueryQuery
@@ -22,6 +22,22 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
   const covers_preexisting_conditions = data.covers_preexisting_conditions?.childImageSharp?.fluid
   const trustpilot_background = data.trustpilot_background?.childImageSharp?.fluid
   const trustpilot_stars = data.trustpilot_stars?.childImageSharp?.fluid
+  const trustpilot_logo = data.trustpilot_logo?.childImageSharp?.fluid
+  const non_us_citizen = data.non_us_citizen?.childImageSharp?.fluid
+  const green_card_holder = data.green_card_holder?.childImageSharp?.fluid
+  const student_or_scholar = data.student_or_scholar?.childImageSharp?.fluid
+  const permanent_resident = data.permanent_resident?.childImageSharp?.fluid
+  const built_with_technology = data.built_with_technology?.childImageSharp?.fluid
+  const over_30_year_track_record = data.over_30_year_track_record?.childImageSharp?.fluid
+  const expert_in_visitor_insurance = data.expert_in_visitor_insurance?.childImageSharp?.fluid
+  const customer_service = data.customer_service?.childImageSharp?.fluid
+  const full_transparency = data.full_transparency?.childImageSharp?.fluid
+  const company_with_patents = data.company_with_patents?.childImageSharp?.fluid
+  const exclusive_plan_offerings = data.exclusive_plan_offerings?.childImageSharp?.fluid
+  const no_paperworks = data.permanent_resident?.childImageSharp?.fluid
+  const unique_plans_color_bg = data.unique_plans_color_bg?.childImageSharp?.fluid
+  const unique_plans_bg = data.unique_plans_bg?.childImageSharp?.fluid
+
   
   return (
     <Layout location={location}>
@@ -49,27 +65,27 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
         <ContainerFluid>
           <div className="col-lg-4 service-column text-center">
             <div className="service-icon">
-              <Img fluid={international_health_protection} />
+              <Img fluid={international_health_protection} alt="International Health Protection" />
             </div>
             <h3 className="text-black">International Health Protection</h3>
             <p>We provide international visitor accident & sickness insurance for visiting parents, relatives, students, and temporary workers traveling outside of their home country to the United States, Canada or Mexico.</p>
-            <a href="#" className="service-link">Learn More <BsArrowRight className="right-arrow" /></a>
+            <a href="#" className="service-link">Learn More <FaLongArrowAltRight className="right-arrow" /></a>
           </div>
           <div className="col-lg-4 service-column text-center">
             <div className="service-icon">
-              <Img fluid={travel_insurance} />
+              <Img fluid={travel_insurance} alt="Travel Insurance"/>
             </div>
             <h3 className="text-black">Travel Insurance </h3>
             <p>You are able to access international visitor accident & sickness insurance, find coverage options for pre-existing medical conditions, and help ease the possible financial burden due to unforeseen medical expenses during your stay in the United States, Canada, or Mexico.</p>
-            <a href="#" className="service-link">Learn More <BsArrowRight className="right-arrow" /></a>
+            <a href="#" className="service-link">Learn More <FaLongArrowAltRight className="right-arrow" /></a>
           </div>
           <div className="col-lg-4 service-column text-center">
             <div className="service-icon">
-              <Img fluid={covers_preexisting_conditions} />
+              <Img fluid={covers_preexisting_conditions} alt="Covers Pre Existing Conditions" />
             </div>
             <h3 className="text-black">Covers Pre Existing Conditions</h3>
             <p>Our A-rated underwriting partners provide the strong financial support needed from an insurance company to continue offering International Visitor Accident and Sickness plans with pre-existing conditions coverage.</p>
-            <a href="#" className="service-link">Learn More <BsArrowRight className="right-arrow" /></a>
+            <a href="#" className="service-link">Learn More <FaLongArrowAltRight className="right-arrow" /></a>
           </div>
         </ContainerFluid>
       </div>
@@ -80,22 +96,233 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
         alt="trustpilot review"
         id="truspilot-section-background"
       >
-        <Container>
-          <div className="col-lg-6">
-            <h3 className="text-white text-center">
-              Our customer say
-            </h3>
-            <h2 className="text-white text-center">
-              EXCELLENT
-            </h2>
-            <div className="trustpilot-stars">
-              <Img fluid={trustpilot_stars} />
+        <div id="trustpilot-section">
+          <Container>
+            <div className="col-lg-6">
+              <h3 className="text-white text-center">
+                Our customer say
+              </h3>
+              <h2 className="text-white text-center">
+                EXCELLENT
+              </h2>
+              <div className="trustpilot-stars">
+                <Img fluid={trustpilot_stars} alt="trustpilot stars" />
+              </div>
+              <h4 className="text-white text-center mt-15"><strong>4.9</strong> out of 5 on <strong>196</strong> reviews</h4>
+              <div className="trustpilot-logo">
+                <Img fluid={trustpilot_logo} alt="trustpilot" />
+              </div>
             </div>
-            <h4><strong>4.9</strong> out of 5 on <strong>196</strong> reviews</h4>
+          </Container>
+        </div>
+      </BackgroundImage>
+      <div id="what-describes-you">
+        <ContainerFluid>
+          <div className="col-lg-4 bg-blue">
+            <h3 className="text-white">
+              What best <br />describes you?
+            </h3>
+            <p className="text-white">
+              Select the plan that you are <br />looking for
+            </p>
+          </div>
+          <div className="col-lg-8">
+            <div className="row">
+              <div className="col-lg-6 bg-white">
+                <div className="what-describes-you-icon">
+                  <Img fluid={non_us_citizen} alt="Non US Citizen" />
+                </div>
+                <p className="text-center">Non US Citizen</p>
+              </div>
+              <div className="col-lg-6 bg-lightgray">
+                <div className="what-describes-you-icon">
+                  <Img fluid={green_card_holder} alt="Green Card Holder" />
+                </div>
+                <p className="text-center">Green Card Holder</p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-6 bg-lightgray">
+                <div className="what-describes-you-icon">
+                  <Img fluid={student_or_scholar} alt="Student or Scholar on J-1, F-1, M-1, or Q-1 Visa"/>
+                </div>
+                <p className="text-center">Student or Scholar on <br />J-1, F-1, M-1, or Q-1 Visa</p>
+              </div>
+              <div className="col-lg-6 bg-white">
+                <div className="what-describes-you-icon">
+                  <Img fluid={permanent_resident} alt="Permanent Resident" />
+                </div>
+                <p className="text-center">Permanent Resident</p>
+              </div>
+            </div>
+          </div>
+        </ContainerFluid>
+      </div>
+      <section id="why-choose-inf-insurance">
+        <Container>
+          <div className="col-lg-12 mb-20 mt-20">
+            <p className="text-center mb-0">We Really do Care about Our Members</p>
+            <h2 className="text-center text-primary">
+              Why choose INF Insurance? 
+            </h2>
+          </div>
+          <div className="col-lg-3 why-choose-inf-icon-container">
+            <div className="why-choose-inf-icons">
+              <Img fluid={built_with_technology} 
+                alt="Built in Technology & With Simplicity" 
+                style={{ maxHeight: '55px' }}
+                imgStyle={{ objectFit: 'contain' }} 
+              />
+            </div>
+            <p>Built in Technology<br /> & With Simplicity</p>
+          </div>
+          <div className="col-lg-3 why-choose-inf-icon-container">
+            <div className="why-choose-inf-icons">
+              <Img fluid={over_30_year_track_record} 
+                alt="Our 30 year Track Record" 
+                style={{ maxHeight: '55px' }}
+                imgStyle={{ objectFit: 'contain' }} 
+              />
+            </div>
+            <p>Our 30 year<br /> Track Record</p>
+          </div>
+          <div className="col-lg-3 why-choose-inf-icon-container">
+            <div className="why-choose-inf-icons">
+              <Img 
+                fluid={expert_in_visitor_insurance} 
+                  alt="Expertise in Visitors Insurance" 
+                  style={{ maxHeight: '55px' }}
+                  imgStyle={{ objectFit: 'contain' }} 
+                />
+            </div>
+            <p>Expertise in Visitors<br /> Insurance</p>
+          </div>
+          <div className="col-lg-3 why-choose-inf-icon-container">
+            <div className="why-choose-inf-icons">
+              <Img fluid={customer_service} 
+                alt="24-hour Customer Service" 
+                style={{ maxHeight: '55px' }}
+                imgStyle={{ objectFit: 'contain' }} 
+              />
+            </div>
+            <p>24-hour Customer<br /> Service</p>
+          </div>
+          <div className="col-lg-3 why-choose-inf-icon-container">
+            <div className="why-choose-inf-icons">
+              <Img fluid={full_transparency} 
+                alt="Full Transparency" 
+                style={{ maxHeight: '55px' }}
+                imgStyle={{ objectFit: 'contain' }} 
+              />
+            </div>
+            <p>Full<br /> Transparency</p>
+          </div>
+          <div className="col-lg-3 why-choose-inf-icon-container">
+            <div className="why-choose-inf-icons">
+              <Img fluid={company_with_patents} 
+                alt="The Company with Patents" 
+                style={{ maxHeight: '55px' }}
+                imgStyle={{ objectFit: 'contain' }} 
+              />
+            </div>
+            <p>The Company<br /> with Patents</p>
+          </div>
+          <div className="col-lg-3 why-choose-inf-icon-container">
+            <div className="why-choose-inf-icons">
+              <Img fluid={exclusive_plan_offerings} 
+                alt="Exclusive Plan Offerings" 
+                style={{ maxHeight: '55px' }}
+                imgStyle={{ objectFit: 'contain' }} 
+              /> 
+            </div>
+            <p>Exclusive Plan<br /> Offerings</p>
+          </div>
+          <div className="col-lg-3 why-choose-inf-icon-container">
+            <div className="why-choose-inf-icons">
+              <Img fluid={no_paperworks} 
+                alt="No paperwork. Instant ID. Secure Purchase" 
+                style={{ maxHeight: '55px' }}
+                imgStyle={{ objectFit: 'contain' }} 
+              />
+            </div>
+            <p>No paperwork. Instant<br /> ID. Secure Purchase</p>
+          </div>
+          <div className="col-lg-12 text-center mt-30 mb-20">
+            <a href="#">
+              <button className="btn btn-main">
+                Learn More
+              </button>
+            </a>
           </div>
         </Container>
-
-      </BackgroundImage>
+      </section>
+      <div id="unique-plans-for-travel">
+        <ContainerFluid>
+        <BackgroundImage
+          Tag="div"
+          className="col-lg-6"
+          fluid={unique_plans_bg}
+          alt="unique-plans"
+          id=""
+        >
+        </BackgroundImage>
+        <BackgroundImage
+          Tag="div"
+          className="col-lg-6"
+          fluid={unique_plans_color_bg}
+          alt="unique-plans"
+          id="unique-plans-column-2"
+        >
+          <h3 className="text-white">
+            Unique Plans For Your Travel
+          </h3>
+          <ul className="text-white">
+            <li>
+              Offers pre-existing conditions coverage
+            </li>
+            <li>
+              Coverage to non-US Citizens traveling to the US, Canada or Mexico
+            </li>
+            <li>
+              Emergency Medical Evacuation Benefits
+            </li>
+            <li>
+              Accidental Death and Dismemberment Benefits
+            </li>
+            <li>
+              Covid-19 testing and screening coverage
+            </li>
+          </ul>
+          <a href="#">
+            <button className="btn btn-white mt-15">
+              Get a Quote
+            </button>
+          </a>
+        </BackgroundImage>
+        </ContainerFluid>
+      </div>
+      <section id="members-producers">
+        <Container>
+          <div className="col-lg-6">
+            <div className="members-producers-column text-center">
+              <h3 className="text-primary">Members</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus pellentesque tortor ac libero, dolor. 
+              </p>
+              <a href="#" className="service-link">Lorem Ipsum <FaLongArrowAltRight className="right-arrow" /></a>
+            </div>
+          </div>
+          <div className="col-lg-6">
+            <div className="members-producers-column text-center">
+              <h3 className="text-primary">Producers</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus pellentesque tortor ac libero, dolor. 
+              </p>
+              <a href="#" className="service-link">Lorem Ipsum <FaLongArrowAltRight className="right-arrow" /></a>
+            </div>
+          </div>
+        </Container>
+      </section>
     </Layout>
   )
 }
@@ -151,6 +378,111 @@ export const query = graphql`
     trustpilot_stars: file(name: { eq: "trustpilot-stars" }) {
       childImageSharp {
         fluid(maxWidth: 400, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    trustpilot_logo: file(name: { eq: "trustpilot-logo" }) {
+      childImageSharp {
+        fluid(maxWidth: 400, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    non_us_citizen: file(name: { eq: "non-us-citizen-icon" }) {
+      childImageSharp {
+        fluid(maxWidth: 100, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    green_card_holder: file(name: { eq: "green-card-holder-icon" }) {
+      childImageSharp {
+        fluid(maxWidth: 100, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    student_or_scholar: file(name: { eq: "student-or-scholar-icon" }) {
+      childImageSharp {
+        fluid(maxWidth: 100, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    permanent_resident: file(name: { eq: "permanent-resident-icon" }) {
+      childImageSharp {
+        fluid(maxWidth: 150, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    built_with_technology: file(name: { eq: "built-with-technology-icon" }) {
+      childImageSharp {
+        fluid(maxWidth: 150, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    over_30_year_track_record: file(name: { eq: "over-30-year-track-record-icon" }) {
+      childImageSharp {
+        fluid(maxWidth: 150, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    expert_in_visitor_insurance: file(name: { eq: "expert-in-visitor-insurance-icon" }) {
+      childImageSharp {
+        fluid(maxWidth: 150, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    customer_service: file(name: { eq: "24-hour-customer-service-icon" }) {
+      childImageSharp {
+        fluid(maxWidth: 150, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    full_transparency: file(name: { eq: "full-transparency-icon" }) {
+      childImageSharp {
+        fluid(maxWidth: 150, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    company_with_patents: file(name: { eq: "company-with-patents-icon" }) {
+      childImageSharp {
+        fluid(maxWidth: 150, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    exclusive_plan_offerings: file(name: { eq: "exclusive-plan-offerings-icon" }) {
+      childImageSharp {
+        fluid(maxWidth: 150, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    no_paperworks: file(name: { eq: "no-paperworks-icon" }) {
+      childImageSharp {
+        fluid(maxWidth: 150, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    unique_plans_color_bg: file(name: { eq: "unique-plans-color-bg" }) {
+      childImageSharp {
+        fluid(maxWidth: 700, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    unique_plans_bg: file(name: { eq: "unique-plans-bg" }) {
+      childImageSharp {
+        fluid(maxWidth: 700, quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }

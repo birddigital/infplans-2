@@ -21,37 +21,47 @@ const ProducersPage: React.FC<Props> = ({ data, location }: Props) => {
   const posts = data.remark.posts
   const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
+  const infplans_big_logo = data.infplans_big_logo?.childImageSharp?.fluid
 
   return (
     <Layout location={location}>
       <Meta site={meta} title="Producers - INF Visitor Insurance"/>
       <BackgroundImage
         Tag="section"
-        className="hero-section-bg"
+        className="producers-hero-section-bg"
         fluid={hero_background}
-        backgroundColor={`#e9f4f8`}
-        alt=""
+        alt="producers"
       >
-        <div id="hero-section">
+        <div id="producers-hero-section">
           <Container>
             <div className="col-lg-12">
-              <h1 className="text-black">
-                Producers Page
+              <h1 className="text-white text-center">
+                PRODUCERS
               </h1>
-              <p className="hero-text text-black">
-                subtitle here
-              </p>
-              <ButtonBlack path="/contact" label="Button Text" />
-            </div>
-            <div className="col-lg-8">
+              <button className="hero-btn"> Get a Quote </button>
             </div>
           </Container>
         </div>
       </BackgroundImage>
-      <div id="your-id-here">
+
+      <section id="producers-section1">
         <Container>
+          <div className="col-lg-12">
+            <div className="row producers-container">
+              <div className="col-lg-5">
+                <Img fluid={infplans_big_logo} className="big-logo"/>
+                <h3 className="text-blue text-center">Member Sign In</h3>
+              </div>
+              <div className="col-lg-7">
+                <form method="POST" action="">
+                  <input type="email" id="email" name="email" placeholder="Email Address" />
+                  <input type="submit" value="Next" />
+                </form>
+              </div>
+            </div>
+          </div>
         </Container>
-      </div>
+      </section>
     </Layout>
   )
 }
@@ -96,9 +106,16 @@ export const query = graphql`
         }
       }
     },
-    hero_background: file(name: { eq: "bg" }) {
+    hero_background: file(name: { eq: "producers-hero-bg" }) {
       childImageSharp {
         fluid(maxWidth: 1400, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    infplans_big_logo: file(name: { eq: "infplans-big-logo" }) {
+      childImageSharp {
+        fluid(maxWidth: 600, quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }

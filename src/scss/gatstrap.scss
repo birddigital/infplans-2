@@ -79,6 +79,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+
+
+.text-primary {
+  color: $primary !important
+}
+
 #logo {
   max-width: 250px;
   margin-bottom: 0;
@@ -97,6 +123,38 @@ p {
 img {
   margin-bottom: 15px;
   max-width: 100%;
+}
+
+button {
+  transition: 0.5s;
+}
+
+.btn {
+  border-radius: 30px;
+  min-width: 200px;
+  padding: 7px 20px;
+}
+
+.btn-white {
+  color: $primary;
+  background: $white;
+  border: 2px solid $white
+}
+
+.btn-white:hover {
+  background: $primary;
+  color: $white;
+}
+
+.btn-main {
+  background: $primary;
+  color: #ffffff;
+  border: 2px solid $primary;
+}
+
+.btn-main:hover {
+  background: #ffffff;
+  color: $primary;
 }
 
 .btn-black {
@@ -473,16 +531,115 @@ h2 {
 
 #truspilot-section-background h3 {
   margin-bottom: 0;
-  font-size: 35px;
+  font-size: 38px;
   font-weight: 400;
   line-height: 1;
 }
 
+#truspilot-section-background h2 {
+  font-size: 43px;
+}
+
 .trustpilot-stars {
-  max-width: 300px;
+  max-width: 335px;
   margin-left: auto;
   margin-right: auto;
 }
+
+#trustpilot-section h4 {
+  font-weight: 400;
+}
+
+.trustpilot-logo {
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#trustpilot-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* What Describes You */
+.what-describes-you-icon {
+  max-width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+#what-describes-you .bg-white {
+  padding: 30px;
+}
+
+#what-describes-you .bg-lightgray {
+  background: #F4F4F4;
+  padding: 30px;
+}
+
+#what-describes-you .bg-blue {
+  background: #5EACEE;
+  padding: 90px 40px;
+}
+
+#what-describes-you .bg-blue h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+/* End of What Describes you */
+
+/* Why Choose Inf Insurance */
+
+#why-choose-inf-insurance h2 {
+  text-transform: none;
+}
+
+.why-choose-inf-icons {
+  margin-bottom: 20px;
+}
+
+.why-choose-inf-icon-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.service-link {
+  text-decoration: none;
+}
+
+#unique-plans-column-2 ul {
+  padding-left: 20px;
+  max-width: 405px;
+}
+
+#unique-plans-column-2 ul li {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+#unique-plans-column-2 h3 {
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+#unique-plans-column-2 {
+  padding: 45px 30px;
+}
+
+.members-producers-column {
+  padding: 30px 85px;
+  box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.4);
+}
+
+.members-producers-column h3 {
+  font-size: 23px;
+  font-weight: 400
+}
+
+
+/* End of Home CSS */
 
 
 
@@ -497,9 +654,17 @@ a {
   text-decoration: underline;
 }
 
+h2 {
+  text-transform: none!important;
+}
+
 /* get a qoute page */
 section.get-a-quote-hero-section-bg {
-  min-height: 550px;
+  min-height: 600px;
+}
+
+section#get-a-quote-section-1 {
+  padding-top: 60px;
 }
 
 .get-a-quote-hero-section-bg::after {
@@ -528,7 +693,7 @@ section.get-a-quote-hero-section-bg {
   font-size: 50px;
   font-weight: 500;
   letter-spacing: 3px;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 #get-a-quote-hero-section .hero-text {
@@ -544,7 +709,11 @@ section.get-a-quote-hero-section-bg {
 
 /* qoute page */
 section.quote-hero-section-bg {
-  min-height: 550px;
+  min-height: 600px;
+}
+
+section#quote-section-1 {
+  padding-bottom: 70px;
 }
 
 .quote-hero-section-bg::after {
@@ -573,7 +742,7 @@ section.quote-hero-section-bg {
   font-size: 50px;
   font-weight: 500;
   letter-spacing: 3px;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 #quote-hero-section .hero-text {
@@ -596,6 +765,686 @@ section.quote-hero-section-bg {
   padding: 50px;
 }
 /* end of qoute page */
+
+/* Plan ID Card page*/
+section.plan-id-hero-section-bg {
+  min-height: 600px;
+}
+
+section#plan-id-hero-section {
+  padding-bottom: 70px;
+}
+
+section#plan-id-section1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.plan-id-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#plan-id-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#plan-id-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plan-id-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#plan-id-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#plan-id-section1 h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#plan-id-section1 .big-logo {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plan-id-section1  p {
+  line-height: 2;
+}
+
+#plan-id-section1 .row-title {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#plan-id-section1 .plan-id-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 30px 50px;
+  align-items:center;
+}
+
+#plan-id-section1 input#email {
+  width: 90%;
+  background: #F2F2F2;
+  border: 2px solid #F2F2F2;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  outline: none;
+}
+
+#plan-id-section1 input[type="submit"] {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #7DA9DA;
+  background: #7DA9DA;
+  color: #ffffff;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#plan-id-section1 input[type="submit"]:hover {
+  background: #ffffff;
+  color: #7DA9DA;
+}
+
+#plan-id-section1 form {
+  text-align: center;
+}
+/* End of Plan ID Card page*/
+
+/* Provider Search Page*/
+section.provider-search-hero-section-bg {
+  min-height: 600px;
+}
+
+section#provider-search-hero-section {
+  padding-bottom: 70px;
+}
+
+section#provider-search-section1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.provider-search-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#provider-search-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#provider-search-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#provider-search-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#provider-search-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#provider-search-section1 .row {
+  align-items: center;
+}
+
+#provider-search-section1 .big-logo {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#provider-search-section1 .provider-search-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#provider-search-section1 p {
+  line-height: 2;
+}
+
+#provider-search-section1 strong {
+  font-weight: 600;
+}
+
+#provider-search-section1 .row2-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 35px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#provider-search-section1 .row2-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+/* End of Provider Search Page*/
+
+/* Contact Us Page*/
+section.contact-hero-section-bg {
+  min-height: 600px;
+}
+
+section#contact-hero-section {
+  padding-bottom: 70px;
+}
+
+section#contact-section1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#contact-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#contact-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#contact-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#contact-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#contact-section1 input, #contact-section1 textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #c6c6c6;
+  outline: none;
+}
+
+#contact-section1 textarea {
+  margin-bottom: 10px!important;
+}
+
+#contact-section1 input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #252362;
+  background: #252362;
+  color: #ffffff;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#contact-section1 input[type="submit"]:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#contact-section1 .left-content {
+  box-shadow: 0px 0px 12px 0px #888888;
+  border-radius: 10px;
+  padding: 40px 70px;
+}
+
+#contact-section1 h2 {
+  margin-bottom: 30px;
+  font-weight: 600px;
+}
+
+#contact-section1 .right-content {
+  background: #252362;
+  border-radius: 10px;
+  margin-left: 0px;
+  padding:50px;
+  box-shadow: 0px 0px 12px 0px #888888;
+}
+
+#contact-section1 .contact-icon {
+  position: absolute;
+  color: #fff;
+  font-size: 25px;
+}
+
+#contact-section1 .hours-subtitle {
+  padding-left: 40px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact-section1 p {
+  margin-bottom: 0;
+}
+
+#contact-section1 .business-hours {
+  margin-top: 30px;
+}
+
+/* End of Contact Us Page*/
+
+/*  Members Page*/
+section.members-hero-section-bg {
+  min-height: 600px;
+}
+
+section#members-hero-section {
+  padding-bottom: 70px;
+}
+
+section#members-section1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.members-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#members-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#members-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#members-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#members-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#members-section1 h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#members-section1 .big-logo {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#members-section1  p {
+  line-height: 2;
+}
+
+#members-section1 .members-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px;
+  align-items:center;
+}
+
+#members-section1 .members-row-container {
+  align-items:center;
+}
+
+#members-section1 input#email {
+  width: 90%;
+  background: #F2F2F2;
+  border: 2px solid #F2F2F2;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  outline: none;
+}
+
+#members-section1 input[type="submit"] {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #7DA9DA;
+  background: #7DA9DA;
+  color: #ffffff;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#members-section1 input[type="submit"]:hover {
+  background: #ffffff;
+  color: #7DA9DA;
+}
+
+#members-section1 form {
+  text-align: center;
+}
+/* End of Members Page*/
+
+/* Producers Page*/
+section.producers-hero-section-bg {
+  min-height: 600px;
+}
+
+section#producers-hero-section {
+  padding-bottom: 70px;
+}
+
+section#producers-section1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.producers-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#producers-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#producers-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#producers-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#producers-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#producers-section1 h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#producers-section1 .big-logo {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#producers-section1  p {
+  line-height: 2;
+}
+
+#producers-section1 .producers-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px;
+  align-items:center;
+}
+
+#producers-section1 input#email {
+  width: 90%;
+  background: #F2F2F2;
+  border: 2px solid #F2F2F2;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  outline: none;
+}
+
+#producers-section1 input[type="submit"] {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #7DA9DA;
+  background: #7DA9DA;
+  color: #ffffff;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#producers-section1 input[type="submit"]:hover {
+  background: #ffffff;
+  color: #7DA9DA;
+}
+
+#producers-section1 form {
+  text-align: center;
+}
+/* End of Producers Page*/
+
+/* FAQs Page */
+section.faqs-hero-section-bg {
+  min-height: 600px;
+}
+
+section#faqs-hero-section {
+  padding-bottom: 70px;
+}
+
+section#faqs-section1 {
+  padding-top: 100px;
+}
+
+.faqs-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#faqs-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#faqs-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#faqs-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#faqs-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#faqs-section1 .faqs-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 30px 50px 50px 50px;
+}
+
+#faqs-section1 .faqs-section1-column {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 30px;
+  border-radius: 5px;
+}
+
+#faqs-section1 h4.faqs-section1-title {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#faqs-section1 .faqs-section1-content {
+  min-height: 72px;
+}
+
+#faqs-section1 .faqs-section1-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#faqs-section1 .faqs-section1-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+section#faqs-section2 {
+  background: #252362;
+}
+
+#faqs-section2 h4 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#faqs-section2 li {
+  margin-bottom: 10px;
+}
+
+#faqs-section2 li:hover {
+  text-decoration: underline;
+}
+
+#faqs-section2 .col-lg-6 {
+  padding-left: 100px;
+}
+
+#faqs-section3 .faqs-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 30px 50px 30px 50px;
+}
+
+#faqs-section2 a, #faqs-section3 a, #faqs-section4 a, #faqs-section5 a {
+  text-decoration: none!important;
+}
+
+#faqs-section3 li {
+  margin-bottom: 10px;
+}
+
+#faqs-section3 li:hover {
+  text-decoration: underline;
+  color: #252362;
+}
+
+section#faqs-section4 {
+  background: #252362;
+}
+
+#faqs-section4 h4 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#faqs-section4 li {
+  margin-bottom: 10px;
+}
+
+#faqs-section4 li:hover {
+  text-decoration: underline;
+}
+
+#faqs-section5 .faqs-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 30px 50px 30px 50px;
+}
+
+#faqs-section5 li {
+  margin-bottom: 10px;
+}
+
+#faqs-section5 li:hover {
+  text-decoration: underline;
+  color: #252362;
+}
+/* End of FAQs Page */
 
 /* Enf of Klint css */
 
