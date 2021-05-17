@@ -191,10 +191,7 @@ button {
 .navbar {
   z-index: 99;
   padding-top: 20px;
-}
-
-.nav-dropdown {
-  padding-right: 15px;
+  padding-bottom: 20px;
 }
 
 #main-navigation .nav-link {
@@ -202,6 +199,12 @@ button {
   font-size: 15px;
   margin-right: 10px;
   margin-left: 10px;
+  text-decoration: none;
+}
+
+#main-navigation.fixed {
+  position: fixed;
+  background: rgba(37,35,98, 1);
 }
 
 #main-navigation .navbar-nav>.nav-item:after {
@@ -296,6 +299,7 @@ button {
 
 .navibar-top a{
   color: $white;
+  text-decoration: none;
 }
 
 .navibar-top #resource-page{
@@ -307,7 +311,16 @@ button {
   padding-top: 20px;
 }
 
+.navibar-top .col-lg-2, .navibar-top .col-lg-10 {
+  display: inherit;
+  padding-left: 0;
+  padding-right: 0;
+}
 
+.navibar-top p{
+  padding-top: 5px;
+  padding-left: 10px;
+}
 
 .nav-submenu {
   list-style: none;
@@ -442,6 +455,11 @@ button {
   margin-top: 30px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+#footer a {
+  color: $white;
+  text-decoration: none;
 }
 /* End of Footer */
 
@@ -1527,6 +1545,15 @@ section#faqs-section4 {
   .service-column:nth-child(2), .service-column:nth-child(3) {
     border-left: 0;
   }
+
+
+  /* top navibar responsive */
+
+  .navibar-top p {
+    padding-top: 0;
+  }
+
+  /* end of top navibar responsive */
 
 }
 

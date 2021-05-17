@@ -167,6 +167,98 @@ class MobileNavigation extends Component {
                       Extend
                     </Link>
                   </li>
+
+                  <li
+                    className={
+                      location.pathname === '/'
+                        ? 'nav-item active nav-dropdown'
+                        : 'nav-item nav-dropdown'
+                    }
+                  >
+                    <Link to="/plans" className="nav-link">
+                      Plans
+                    </Link>
+                    <ul className="nav-submenu">
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/elite-network" className="nav-link">
+                          INF Elite
+                        </Link>
+                      </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/traveler-usa" className="nav-link">
+                          INF Traveler USA
+                        </Link>
+                      </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/premier" className="nav-link">
+                          INF Premier
+                        </Link>
+                      </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/standard" className="nav-link">
+                          INF Standard
+                        </Link>
+                      </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/bmi-travel" className="nav-link">
+                          INF BMI Plan (New)
+                        </Link>
+                      </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/diplomat-america" className="nav-link">
+                          Diplomat America
+                        </Link>
+                      </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/diplomat-international" className="nav-link">
+                          Diplomat International
+                        </Link>
+                      </li>
+                    </ul>
+                    </li>
+  
                   <li
                     className={
                       location.pathname === '/'
