@@ -21,37 +21,61 @@ const RenewPage: React.FC<Props> = ({ data, location }: Props) => {
   const posts = data.remark.posts
   const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
+  const infplans_big_logo = data.infplans_big_logo?.childImageSharp?.fluid
 
   return (
     <Layout location={location}>
       <Meta site={meta} title="Insurance for Visitors Extension: Extend INF Visitor Insurance Insurance"/>
       <BackgroundImage
         Tag="section"
-        className="hero-section-bg"
+        className="extend-hero-section-bg"
         fluid={hero_background}
-        backgroundColor={`#e9f4f8`}
-        alt=""
+        alt="extend"
       >
-        <div id="hero-section">
+        <div id="extend-hero-section">
           <Container>
             <div className="col-lg-12">
-              <h1 className="text-black">
-                Extend Plan Page
+              <h1 className="text-white text-center">
+                EXTENSION
               </h1>
-              <p className="hero-text text-black">
-                subtitle here
+              <p className="hero-text text-white text-center">
+                INF Plans can be Extended up to a maximum of 364 days. To extend coverage for you, please click on one of the links below. If you have any questions, please reach us at 408-540-3601.
               </p>
-              <ButtonBlack path="/contact" label="Button Text" />
-            </div>
-            <div className="col-lg-8">
+              <button className="hero-btn"> Get a Quote </button>
             </div>
           </Container>
         </div>
       </BackgroundImage>
-      <div id="your-id-here">
+
+      <section id="extend-section1">
         <Container>
+          <div className="col-lg-12">
+            <div className="row extend-container">
+              <div className="col-lg-5">
+                <Img fluid={infplans_big_logo} className="big-logo"/>
+                <h3 className="text-blue text-center">INF Policy Extensions</h3>
+              </div>
+              <div className="col-lg-7">
+                <form method="POST" action="">
+                  <input type="email" id="email" name="email" placeholder="Email Address" />
+                  <input type="submit" value="Next" />
+                </form>
+              </div>
+              <div className="row mt-5">
+                <div className="col-lg-12">
+                  <h3 className="text-blue text-center row-title">To extend coverage please complete the following steps:</h3>
+                  <ol>
+                    <li>Enter email  in the Member Sign In</li>
+                    <li>We will send a 6-digit OTP to your email. Enter this OTP as the password.</li>
+                    <li>Once you're logged in, click on 'Active Plans.'</li>
+                    <li>On the right hand side of the Active Plans record will be a "Extend" Button. Click this button to Extend coverage.</li>
+                  </ol>
+                  </div>
+              </div>
+            </div>
+          </div>
         </Container>
-      </div>
+      </section>
     </Layout>
   )
 }
@@ -96,9 +120,16 @@ export const query = graphql`
         }
       }
     },
-    hero_background: file(name: { eq: "bg" }) {
+    hero_background: file(name: { eq: "extend-hero-bg" }) {
       childImageSharp {
         fluid(maxWidth: 1400, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    infplans_big_logo: file(name: { eq: "infplans-big-logo" }) {
+      childImageSharp {
+        fluid(maxWidth: 600, quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
