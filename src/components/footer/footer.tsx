@@ -43,36 +43,38 @@ const Footer = ({ className }) => {
       <div id="footer">
         <ContainerFluid>
           <div className="col-lg-3 text-left">
-            <img src={Logo} />
+            <Link to="/">
+              <img src={Logo} />
+            </Link>
             <p>INFPlans.com provides innovating visitor insurance options for international travelers</p>
           </div>
           <div className="col-lg-3">
             <h4>Navigate Our Site</h4>
-            <p>Home</p>
-            <p>Apply</p>
-            <p>Plans</p>
-            <p>Extend</p>
+            <Link to="/"><p>Home</p></Link>
+            <Link to="/apply"><p>Apply</p></Link>
+            <Link to="/plans"><p>Plans</p></Link>
+            <Link to="/extend"><p>Extend</p></Link>
           </div>
           <div className="col-lg-3">
             <h4>Our Plan</h4>
-            <p>Standard</p>
-            <p>Elite Network</p>
-            <p>Premium</p>
-            <p>Traveler USA</p>
-            <p>INF BMI</p>
+            <Link to="/standard"><p>Standard</p></Link>
+            <Link to="/elite-network"><p>Elite Network</p></Link>
+            <Link to="/premier"><p>Premium</p></Link>
+            <Link to="/traveler-usa"><p>Traveler USA</p></Link>
+            <Link to="/bmi-travel"><p>INF BMI</p></Link>
           </div>
           <div className="col-lg-3">
             <h4>About Our Company</h4>
-            <p>About Us</p>
-            <p>Contact Us</p>
-            <p>Why INF?</p>
+            <Link to="/about"><p>About Us</p></Link>
+            <Link to="/contact-us"><p>Contact Us</p></Link>
+            <Link to="/why-inf"><p>Why INF?</p></Link>
           </div>
           <div className="col-md-12 text-center">
             <ul className="list-inline">
               <li className="list-inline-item">© INFPLANS {new Date().getFullYear()}</li>
-              <li className="list-inline-item">Privacy policy</li>
-              <li className="list-inline-item">Cookies policy</li>
-              <li className="list-inline-item">Terms of use</li>
+              <Link to="/"><li className="list-inline-item">Privacy policy</li></Link>
+              <Link to="/"><li className="list-inline-item">Cookies policy</li></Link>
+              <Link to="/"><li className="list-inline-item">Terms of use</li></Link>
             </ul>
           </div>
         </ContainerFluid>

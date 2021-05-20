@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import { Link } from 'gatsby'
 import 'components/navibar/style.scss'
 import Logo from '../../../content/images/logo.png'
@@ -12,27 +12,49 @@ interface Props {
 }
 
 const Navibar: React.FC<Props> = ({ location, title }: Props) => {
+
+  const [scrolled, setScrolled] = useState("navbar navbar-expand navbar-light flex-column flex-md-row");
+
+  // change state on scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 20;
+      if (isScrolled) {
+        setScrolled("navbar navbar-expand navbar-light flex-column flex-md-row fixed");
+      } else {
+        setScrolled("navbar navbar-expand navbar-light flex-column flex-md-row");
+      }
+    };
+
+    document.addEventListener('scroll', handleScroll, { passive: "navbar navbar-expand navbar-light flex-column flex-md-row fixed" });
+
+    return () => {
+      // clean up the event handler when the component unmounts
+      document.removeEventListener('scroll', handleScroll);
+    };
+  }, [scrolled]);
+
   return (
     <div>
       <div className="navibar-top">
         <div className="container">
           <div className="row">
-            <div className="col-lg-9">
-              <p><strong>COVID-19</strong>:For answers to frequently asked questions, please see our <a href="" target="_blank" id="resource-page">COVID-19 Resource Page</a></p>
+            <div className="col-lg-10">
+              <span><img src={Megaphone} /></span><p><strong>COVID-19</strong>:For answers to frequently asked questions, please see our <a href="" target="_blank" id="resource-page">COVID-19 Resource Page</a></p>
             </div>
-            <div className="col-lg-3 text-right">
-              <a href="tel:4085403601"><p>Tel:408-540-3601</p></a>
+            <div className="col-lg-2">
+              <span><img src={Whatsapp} /></span><a href="tel:4085403601"><p className="text-right">Tel:408-540-3601</p></a>
             </div>
           </div>
         </div>
-        <nav className="navbar navbar-expand navbar-light flex-column flex-md-row" id="main-navigation">
+        <nav className={scrolled} id="main-navigation">
           <div className="container-fluid">
             <div className="hidden-md-up">
               <MobileDropdown />
             </div>
             <div className="col-lg-3">
               <Link className="text-center" to="/">
-                <img src={Logo} id="logo" alt="the body natural"/>
+                <img src={Logo} id="logo" alt="infplans logo"/>
               </Link>
 
             </div>
@@ -154,6 +176,98 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                       Extend
                     </Link>
                   </li>
+
+                  <li
+                    className={
+                      location.pathname === '/'
+                        ? 'nav-item active nav-dropdown'
+                        : 'nav-item nav-dropdown'
+                    }
+                  >
+                    <Link to="/plans" className="nav-link">
+                      Plans
+                    </Link>
+                    <ul className="nav-submenu">
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/elite-network" className="nav-link">
+                          INF Elite
+                        </Link>
+                      </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/traveler-usa" className="nav-link">
+                          INF Traveler USA
+                        </Link>
+                      </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/premier" className="nav-link">
+                          INF Premier
+                        </Link>
+                      </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/standard" className="nav-link">
+                          INF Standard
+                        </Link>
+                      </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/bmi-travel" className="nav-link">
+                          INF BMI Plan (New)
+                        </Link>
+                      </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/diplomat-america" className="nav-link">
+                          Diplomat America
+                        </Link>
+                      </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/diplomat-international" className="nav-link">
+                          Diplomat International
+                        </Link>
+                      </li>
+                    </ul>
+                    </li>
+
                   <li
                     className={
                       location.pathname === '/'
