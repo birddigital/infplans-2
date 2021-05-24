@@ -1467,7 +1467,1160 @@ section#faqs-section4 {
 /* Enf of Klint css */
 
 
+/* Gillian CSS */
 
+/* Claims Form Styles */
+section.claims-form-hero-section-bg {
+  min-height: 600px;
+}
+
+section#claims-form-hero-section {
+  padding-bottom: 70px;
+}
+
+section#claims-form-section-1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.claims-form-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#claims-form-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#claims-form-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#claims-form-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#claims-form-section-1 .row {
+  align-items: center;
+}
+
+#claims-form-section-1 .big-logo {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#claims-form-section-1 .claims-form-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#claims-form-section-1 p {
+  line-height: 2;
+}
+
+#claims-form-section-1 .inf-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 35px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#claims-form-section-1 .inf-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#claims-form-section-1 .submit-img {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#claims-form-section-2 h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#claims-form-section-2 .section2-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+  align-items:center;
+}
+
+#claims-form-section-2 .sign-in-container {
+  align-items:center;
+}
+
+#claims-form-section-2 input#email {
+  width: 90%;
+  background: #F2F2F2;
+  border: 2px solid #F2F2F2;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  outline: none;
+}
+
+#claims-form-section-2 input[type="submit"] {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #7DA9DA;
+  background: #7DA9DA;
+  color: #ffffff;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#claims-form-section-2 input[type="submit"]:hover {
+  background: #ffffff;
+  color: #7DA9DA;
+}
+
+#claims-form-section-2 form {
+  text-align: center;
+}
+
+#claims-form-section-3 .claim-information-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#claims-form-section-3 h4 {
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+#claims-form-section-3 p {
+  font-size: 14px;
+  line-height: 0.5;
+  padding-top: 5px;
+}
+
+#claims-form-section-3 .pdf-icon {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#claims-form-section-3 .download-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
+  color: #ffffff;
+  padding: 8px 35px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#claims-form-section-3 .download-btn2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 35px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#claims-form-section-3 .download-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#claims-form-section-3 .download-btn2:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#claims-form-section-4 .additional-information-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#claims-form-section-4 h3 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+#claims-form-section-4 h4 {
+  padding-top: 15px;
+  font-weight: 600;
+}
+
+#claims-form-section-4 p {
+  line-height: 2;
+}
+
+#claims-form-section-5 .claims-process-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#claims-form-section-5 h3 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+#claims-form-section-5 h4 {
+  padding-top: 15px;
+  font-weight: 600;
+}
+
+#claims-form-section-5 p {
+  line-height: 2;
+}
+
+#claims-form-section-3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#claims-form-section-3 .tab-links {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#claims-form-section-3 li {
+  display: table-cell;
+  width: 20%;
+}
+
+#claims-form-section-3 li a {
+  display: block;
+  padding: .5em;
+  background: #eee;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+#claims-form-section-3 :not(:first-child) a {
+  border-left: none;
+}
+
+#claims-form-section-3  .is-active a {
+  border-bottom-color: transparent;
+  background: #fff;
+}
+
+#claims-form-section-3  .is-active a {
+  border-bottom-color: transparent;
+  background: #fff;
+}
+
+
+/* Tab css */
+.pc-tab > input,
+.pc-tab section > div {
+ display: none;
+}
+
+#tab1:checked ~ section .tab1,
+#tab2:checked ~ section .tab2 {
+ display: block;
+}
+
+#tab1:checked ~ nav .tab1,
+#tab2:checked ~ nav .tab2 {
+
+ color: red;
+}
+
+h1 {
+ text-align: center;
+ font-weight: 100;
+ font-size: 60px;
+ color: #e74c3c;
+}
+
+.pc-tab {
+ width: 100%;
+ margin: 0 auto;
+}
+
+.pc-tab ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+.pc-tab ul li label {
+ font-family: "poppins";
+ float: left;
+ padding: 15px 25px;
+ border: 1px solid #ddd;
+ border-bottom: 0;
+ background: #eeeeee;
+ color: #000000;
+ font-weight: 600;
+}
+
+.pc-tab ul li label:hover {
+ background: #dddddd;
+}
+
+.pc-tab ul li label:active {
+ background: #ffffff;
+}
+
+.pc-tab ul li:not(:last-child) label {
+ border-right-width: 0;
+}
+
+.pc-tab section {
+ font-family: "poppins";
+ clear: both;
+}
+
+.pc-tab section div {
+ line-height: 1.5em;
+ letter-spacing: 0.3px;
+}
+
+.pc-tab section div h2 {
+ margin: 0;
+ font-family: "poppins";
+ letter-spacing: 1px;
+ color: #34495e;
+}
+
+#tab1:checked ~ nav .tab1 label,
+#tab2:checked ~ nav .tab2 label {
+ background: white;
+ color: #111;
+ position: relative;
+ font-weight: 600;
+}
+
+#tab1:checked ~ nav .tab1 label:after,
+#tab2:checked ~ nav .tab2 label:after {
+ content: "";
+ display: block;
+ position: absolute;
+ height: 2px;
+ width: 100%;
+ background: #ffffff;
+ left: 0;
+ bottom: -1px;
+}
+/* End of Tab css */
+/* End of Claims Form Styles */
+
+
+/* Diplomat America Styles */
+
+section.diplomat-america-hero-section-bg {
+  min-height: 600px;
+}
+
+section#diplomat-america-hero-section {
+  padding-bottom: 70px;
+}
+
+.diplomat-america-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#diplomat-america-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#diplomat-america-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#diplomat-america-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#diplomat-america-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#diplomat-america-section-1 h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#diplomat-america-section-1 p {
+  padding-top: 30px;
+  line-height: 2;
+}
+
+#diplomat-america-section-1 .diplomat-america-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#diplomat-america-section-2 h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#diplomat-america-section-2 p {
+  padding-top: 30px;
+  line-height: 2;
+}
+
+#diplomat-america-section-2 .diplomat-america-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#diplomat-america-section-2 .second-content {
+  padding-top: 20px;
+}
+
+section#diplomat-america-section-3 {
+  background: #252362;
+}
+
+#diplomat-america-section-3 {
+  padding-top: 50px;
+}
+
+#diplomat-america-section-3 .second-title {
+  padding-top: 25px;
+}
+
+#diplomat-america-section-3 h4 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#diplomat-america-section-3 li {
+  margin-bottom: 10px;
+}
+
+#diplomat-america-section-4 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+#diplomat-america-section-4 .first-content {
+  padding-top: 20px;
+}
+
+#diplomat-america-section-4 p {
+  padding-top: 30px;
+  line-height: 2;
+}
+
+#diplomat-america-section-4 .diplomat-america-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#diplomat-america-section-5 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+#diplomat-america-section-5 .diplomat-america-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#diplomat-america-section-5 li {
+  margin-bottom: 10px;
+}
+
+#diplomat-america-section-6 .diplomat-america-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#diplomat-america-section-6 .visit-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
+  color: #ffffff;
+  padding: 8px 90px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#diplomat-america-section-6 .visit-btn1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
+  color: #ffffff;
+  padding: 8px 100px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#diplomat-america-section-6 .visit-btn2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 100px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#diplomat-america-section-6 .visit-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#diplomat-america-section-6 .visit-btn2:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+/* End of Diplomat America Styles */
+
+/* Plans Styles */
+
+section.plans-hero-section-bg {
+  min-height: 600px;
+}
+
+section#plans-hero-section {
+  padding-bottom: 70px;
+}
+
+.plans-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#plans-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#plans-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plans-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#plans-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#plans-section-1 {
+  padding-top: 80px;
+}
+
+#plans-section-1 h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-1 p {
+  padding-top: 30px;
+  line-height: 2;
+}
+
+#plans-section-1 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-2 h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#plans-section-2 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-2 .sub-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#plans-section-2 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-2  li:before {
+  content: '✓';
+  padding: 1px 8px 1px 15px;
+  color: #00B67A;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+}
+
+#plans-section-2 ul {
+  list-style-type: none;
+}
+
+#plans-section-2 li {
+  font-size: 12px;
+  line-height: 2;
+}
+
+#plans-section-2 .plans-img {
+  margin-top: 50px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plans-section-2 .plans-logo {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+#plans-section-2 .plan-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#plans-section-2 .plan-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plans-section-2 .get-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #252362;
+  color: #252362;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#plans-section-2 .get-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+#plans-section-3 h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#plans-section-3 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-3 .sub-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#plans-section-3 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-3  li:before {
+  content: '✓';
+  padding: 1px 8px 1px 15px;
+  color: #00B67A;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+}
+
+#plans-section-3 ul {
+  list-style-type: none;
+}
+
+#plans-section-3 li {
+  font-size: 12px;
+  line-height: 2;
+}
+
+#plans-section-3 .plans-img {
+  margin-top: 10px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plans-section-3 .plans-logo {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+#plans-section-3 .plan-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#plans-section-3 .plan-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plans-section-3 .get-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #252362;
+  color: #252362;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#plans-section-3 .get-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+#plans-section-4 h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#plans-section-4 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-4 .sub-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#plans-section-4 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-4  li:before {
+  content: '✓';
+  padding: 1px 8px 1px 15px;
+  color: #00B67A;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+}
+
+#plans-section-4 ul {
+  list-style-type: none;
+}
+
+#plans-section-4 li {
+  font-size: 12px;
+  line-height: 2;
+}
+
+#plans-section-4 .plans-img {
+  margin-top: 30px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plans-section-4 .plans-logo {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+#plans-section-4 .plan-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#plans-section-4 .plan-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plans-section-4 .get-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #252362;
+  color: #252362;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#plans-section-4 .get-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+#plans-section-3 h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#plans-section-3 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-3 .sub-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#plans-section-3 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-3  li:before {
+  content: '✓';
+  padding: 1px 8px 1px 15px;
+  color: #00B67A;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+}
+
+#plans-section-3 ul {
+  list-style-type: none;
+}
+
+#plans-section-3 li {
+  font-size: 12px;
+  line-height: 2;
+}
+
+#plans-section-3 .plans-img {
+  margin-top: 10px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plans-section-3 .plans-logo {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+#plans-section-3 .plan-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#plans-section-3 .plan-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plans-section-3 .get-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #252362;
+  color: #252362;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#plans-section-3 .get-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+#plans-section-5 h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#plans-section-5 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-5 .sub-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#plans-section-5 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-5  li:before {
+  content: '✓';
+  padding: 1px 8px 1px 15px;
+  color: #00B67A;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+}
+
+#plans-section-5 ul {
+  list-style-type: none;
+}
+
+#plans-section-5 li {
+  font-size: 12px;
+  line-height: 2;
+}
+
+#plans-section-5 .plans-img {
+  margin-top: 30px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plans-section-5 .plans-logo {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+#plans-section-5 .plan-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#plans-section-5 .plan-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plans-section-5 .get-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #252362;
+  color: #252362;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#plans-section-5 .get-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+/* End of Plans Styles */
+
+/* Premium Styles */
+
+section.plans-hero-section-bg {
+  min-height: 600px;
+}
+
+section#premium-hero-section {
+  padding-bottom: 50px;
+}
+
+.premium-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#premium-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#premium-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#premium-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#premium-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+
+
+
+/*End of Premium Styles */
+
+
+
+/* End of Gillian CSS */
 
 
 

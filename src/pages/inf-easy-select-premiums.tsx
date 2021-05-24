@@ -27,31 +27,28 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
       <Meta site={meta} title="INF Visitor Insurance Quote"/>
       <BackgroundImage
         Tag="section"
-        className="hero-section-bg"
+        className="premium-hero-section-bg"
         fluid={hero_background}
         backgroundColor={`#e9f4f8`}
-        alt=""
+        alt="inf premium hero background"
       >
-        <div id="hero-section">
+        <div id="premium-hero-section">
           <Container>
             <div className="col-lg-12">
-              <h1 className="text-black">
-                Premiums Page
+            <h1 className="text-white text-center">
+                PREMIUMS
               </h1>
-              <p className="hero-text text-black">
-                subtitle here
-              </p>
-              <ButtonBlack path="/contact" label="Button Text" />
-            </div>
-            <div className="col-lg-8">
+              <button className="hero-btn"> Get a Quote </button>
             </div>
           </Container>
         </div>
       </BackgroundImage>
-      <div id="your-id-here">
-        <Container>
-        </Container>
-      </div>
+
+
+
+
+
+
     </Layout>
   )
 }
@@ -96,7 +93,7 @@ export const query = graphql`
         }
       }
     },
-    hero_background: file(name: { eq: "bg" }) {
+    hero_background: file(name: { eq: "premium-hero-bg" }) {
       childImageSharp {
         fluid(maxWidth: 1400, quality: 100) {
           ...GatsbyImageSharpFluid
