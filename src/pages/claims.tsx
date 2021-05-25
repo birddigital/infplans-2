@@ -225,19 +225,19 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                 <section>
                   <div class="tab1">
                   <div className="col-lg-12">
-                        <h4>For Policies starting with INF:</h4>
-                        <p>All claims must be filed by completing the claim form found above in the Member portal. This form should be completed by the Policy Holder.</p>
-                        <p>This form must be completed ONCE PER SICKNESS OR INJURY. The INF Claims Form for Providers should be completed by the Policy Holder & Providers (Doctors office, Hospitals etc.).</p>
-                        <p>The Policy Holder should complete Section A. Providers should complete Section B of the form. The form can be mailed to the Insurance by the Provider's office or the Policy Holder. Providers can also submit claims online using EDI Pay#: 22384.</p>
+                    <h4>For Policies starting with INF:</h4>
+                     <p>All claims must be filed by completing the claim form found above in the Member portal. This form should be completed by the Policy Holder.</p>
+                     <p>This form must be completed ONCE PER SICKNESS OR INJURY. The INF Claims Form for Providers should be completed by the Policy Holder & Providers (Doctors office, Hospitals etc.).</p>
+                     <p>The Policy Holder should complete Section A. Providers should complete Section B of the form. The form can be mailed to the Insurance by the Provider's office or the Policy Holder. Providers can also submit claims online using EDI Pay#: 22384.</p>
                  </div>
                 </div>
                   <div class="tab2">
                   <div className="col-lg-12">
-                        <h4>For Policies starting with SRPO:</h4>
-                        <p>Generally, providers file insurance claim directly with WebTPA. Additionally, all policyholders are required to complete an informational Section of the claim form found in the member portal above.</p>
-                        <p>In the event a provider wishes to collect from policy holder directly, the second section of claim Form found at (or Standard Insurance Claims Form 1500 CMS/HCFA 1500 or UB92/UB04) should be completed by the doctor's office and submitted by policy holder to the Insurance Company for prompt processing.</p>
-                        <p>Failure to do so would delay the claim processing or result in denial of claims by WebTPA.</p>
-                        <p>The Policy Holder should complete Section A. Providers should complete Section B of the form. The form can be mailed to the Insurance by the Provider's office or the Policy Holder. Providers can also submit claims online using EDI Pay#: 22384.</p>
+                    <h4>For Policies starting with SRPO:</h4>
+                     <p>Generally, providers file insurance claim directly with WebTPA. Additionally, all policyholders are required to complete an informational Section of the claim form found in the member portal above.</p>
+                     <p>In the event a provider wishes to collect from policy holder directly, the second section of claim Form found at (or Standard Insurance Claims Form 1500 CMS/HCFA 1500 or UB92/UB04) should be completed by the doctor's office and submitted by policy holder to the Insurance Company for prompt processing.</p>
+                     <p>Failure to do so would delay the claim processing or result in denial of claims by WebTPA.</p>
+                     <p>The Policy Holder should complete Section A. Providers should complete Section B of the form. The form can be mailed to the Insurance by the Provider's office or the Policy Holder. Providers can also submit claims online using EDI Pay#: 22384.</p>
                  </div>
                  </div>
                 </section>
@@ -255,7 +255,8 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
 
             <div class="pc-tab">
               <input checked="checked" id="tab1" type="radio" name="pct" />
-              <input id="tab2s" type="radio" name="pct" />
+              <input id="tab2" type="radio" name="pct" />
+              <input id="tab3" type="radio" name="pct" />
                 <nav>
                   <ul>
                     <li class="tab1">
@@ -270,12 +271,17 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                   </ul>
                 </nav>
                 <section>
+                  <div class="tab1">
+                  <div className="col-lg-12">
+                    <p>Simply fill out the claim form & follow the instructions, as well as providing the additional required documentation. Make sure to complete this paperwork carefully to ensure prompt payment for eligible expenses incurred.</p>
+                 </div>
+                 </div>
                   <div class="tab2">
                   <div className="col-lg-12">
                     <p>Yes. We highly advise individuals to file a claim with the insurance company, regardless of whether they have paid for the medical treatment up front. This creates a record with the insurance company, and will assist the claims process. If you do not file a claim, the payment may not go through to the health care provider, causing a delay in payment. This could result in a liability for you.</p>
                    </div>
                   </div>
-                  <div class="tab2">
+                  <div class="tab3">
                   <div className="col-lg-12">
                     <p>Yes, eligible claims incurred while coverage is in effect will be paid. On the claims form, you need to designate where to send the check from the insurance company.</p>
                 </div>

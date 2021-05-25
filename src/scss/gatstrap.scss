@@ -1743,6 +1743,7 @@ section#claims-form-section-1 {
   border-bottom-color: transparent;
   background: #fff;
 }
+/* End of Claims Form Styles */
 
 
 /* Tab css */
@@ -1752,13 +1753,16 @@ section#claims-form-section-1 {
 }
 
 #tab1:checked ~ section .tab1,
-#tab2:checked ~ section .tab2 {
+#tab2:checked ~ section .tab2,
+#tab3:checked ~ section .tab3,
+#tab4:checked ~ section .tab4 {
  display: block;
 }
 
 #tab1:checked ~ nav .tab1,
-#tab2:checked ~ nav .tab2 {
-
+#tab2:checked ~ nav .tab2,
+#tab3:checked ~ nav .tab3,
+#tab4:checked ~ nav .tab4 {
  color: red;
 }
 
@@ -1821,7 +1825,9 @@ h1 {
 }
 
 #tab1:checked ~ nav .tab1 label,
-#tab2:checked ~ nav .tab2 label {
+#tab2:checked ~ nav .tab2 label,
+#tab3:checked ~ nav .tab3 label,
+#tab4:checked ~ nav .tab4 label {
  background: white;
  color: #111;
  position: relative;
@@ -1829,7 +1835,9 @@ h1 {
 }
 
 #tab1:checked ~ nav .tab1 label:after,
-#tab2:checked ~ nav .tab2 label:after {
+#tab2:checked ~ nav .tab2 label:after,
+#tab3:checked ~ nav .tab3 label:after,
+#tab4:checked ~ nav .tab4 label:after {
  content: "";
  display: block;
  position: absolute;
@@ -1840,8 +1848,6 @@ h1 {
  bottom: -1px;
 }
 /* End of Tab css */
-/* End of Claims Form Styles */
-
 
 /* Diplomat America Styles */
 
@@ -2035,6 +2041,50 @@ section#diplomat-america-section-3 {
   color: #252362;
 }
 
+#diplomat-america-section-6 input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#diplomat-america-section-6 p {
+  margin-top: 15px;
+}
+
+.first-bg {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.second-bg {
+  background-color: #252362;
+  padding: 1px;
+}
+
+#diplomat-america-section-4 .alpha-list li {
+  list-style-type: lower-alpha;
+}
+
+#diplomat-america-section-4 .number-list li {
+  list-style-type: decimal;
+}
+
+#diplomat-america-section-5 .claims li {
+  list-style-type: disc;
+}
+
+#diplomat-america-section-5 .exclusions li {
+  list-style-type: disc;
+}
+
+#diplomat-america-section-5 .accident li {
+  list-style-type: disc;
+}
+
 /* End of Diplomat America Styles */
 
 /* Plans Styles */
@@ -2101,20 +2151,15 @@ section#plans-hero-section {
   padding: 50px 50px 40px 50px;
 }
 
-#plans-section-2 h4 {
-  font-size: 14px;
-  font-weight: 700;
-}
-
-#plans-section-2 p {
+#plans-section-2 h3 {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
+  padding-bottom: 40px;
 }
 
-#plans-section-2 .sub-title {
-  font-size: 16px;
-  font-weight: 700;
-  padding-top: 20px;
+#plans-section-2 h4 {
+  font-size: 17px;
+  font-weight: 500;
 }
 
 #plans-section-2 .plans-container {
@@ -2122,169 +2167,52 @@ section#plans-hero-section {
   padding: 50px 50px 40px 50px;
 }
 
-#plans-section-2  li:before {
-  content: '✓';
-  padding: 1px 8px 1px 15px;
-  color: #00B67A;
-  position: absolute;
-  left: 0;
-  font-weight: 800;
-}
-
 #plans-section-2 ul {
-  list-style-type: none;
-}
-
-#plans-section-2 li {
-  font-size: 12px;
+  padding-top: 30px;
+  font-size: 14px;
   line-height: 2;
 }
 
-#plans-section-2 .plans-img {
-  margin-top: 50px;
-  max-width: 200px;
-  margin-left: auto;
-  margin-right: auto;
+#plans-section-2 .notice {
+  font-size: 23px;
+  font-weight: 500;
 }
 
-#plans-section-2 .plans-logo {
-  max-width: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-}
-
-#plans-section-2 .plan-btn {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  display: block;
-  background: #252362;
-  border: 2px solid #252362;
-  color: #ffffff;
-  padding: 5px 30px;
-  border-radius: 50px;
-  transition: .5s;
+#plans-section-2 p {
   font-size: 16px;
-  margin-top: 0px;
+  line-height: 2;
 }
 
-#plans-section-2 .plan-btn:hover {
-  background: #ffffff;
-  color: #252362;
+#plans-section-2 .bmi-bg {
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 
-#plans-section-2 .get-btn {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  display: block;
-  background: #ffffff;
-  border: 2px solid #252362;
-  color: #252362;
-  padding: 5px 30px;
-  border-radius: 50px;
-  transition: .5s;
-  font-size: 16px;
-  margin-top: 15px;
-}
 
-#plans-section-2 .get-btn:hover {
-  background: #252362;
-  color: #ffffff;
-}
-
-#plans-section-3 h4 {
-  font-size: 14px;
-  font-weight: 700;
-}
-
-#plans-section-3 p {
+#plans-section-3 h2 {
   font-size: 30px;
   font-weight: 500;
 }
 
-#plans-section-3 .sub-title {
-  font-size: 16px;
-  font-weight: 700;
-  padding-top: 20px;
+#plans-section-3 p {
+  padding-top: 30px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+#plans-section-3 ul {
+  list-style-type: disc;
+}
+
+#plans-section-3 li {
+  font-size: 14px;
+  line-height: 2;
 }
 
 #plans-section-3 .plans-container {
   box-shadow: 0px 0px 12px 0px #888888;
   padding: 50px 50px 40px 50px;
-}
-
-#plans-section-3  li:before {
-  content: '✓';
-  padding: 1px 8px 1px 15px;
-  color: #00B67A;
-  position: absolute;
-  left: 0;
-  font-weight: 800;
-}
-
-#plans-section-3 ul {
-  list-style-type: none;
-}
-
-#plans-section-3 li {
-  font-size: 12px;
-  line-height: 2;
-}
-
-#plans-section-3 .plans-img {
-  margin-top: 10px;
-  max-width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#plans-section-3 .plans-logo {
-  max-width: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5px;
-}
-
-#plans-section-3 .plan-btn {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  display: block;
-  background: #252362;
-  border: 2px solid #252362;
-  color: #ffffff;
-  padding: 5px 30px;
-  border-radius: 50px;
-  transition: .5s;
-  font-size: 16px;
-  margin-top: 0px;
-}
-
-#plans-section-3 .plan-btn:hover {
-  background: #ffffff;
-  color: #252362;
-}
-
-#plans-section-3 .get-btn {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  display: block;
-  background: #ffffff;
-  border: 2px solid #252362;
-  color: #252362;
-  padding: 5px 30px;
-  border-radius: 50px;
-  transition: .5s;
-  font-size: 16px;
-  margin-top: 15px;
-}
-
-#plans-section-3 .get-btn:hover {
-  background: #252362;
-  color: #ffffff;
 }
 
 #plans-section-4 h4 {
@@ -2327,7 +2255,7 @@ section#plans-hero-section {
 }
 
 #plans-section-4 .plans-img {
-  margin-top: 30px;
+  margin-top: 50px;
   max-width: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -2337,7 +2265,7 @@ section#plans-hero-section {
   max-width: 150px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5px;
+  margin-top: 30px;
 }
 
 #plans-section-4 .plan-btn {
@@ -2376,99 +2304,6 @@ section#plans-hero-section {
 }
 
 #plans-section-4 .get-btn:hover {
-  background: #252362;
-  color: #ffffff;
-}
-
-#plans-section-3 h4 {
-  font-size: 14px;
-  font-weight: 700;
-}
-
-#plans-section-3 p {
-  font-size: 30px;
-  font-weight: 500;
-}
-
-#plans-section-3 .sub-title {
-  font-size: 16px;
-  font-weight: 700;
-  padding-top: 20px;
-}
-
-#plans-section-3 .plans-container {
-  box-shadow: 0px 0px 12px 0px #888888;
-  padding: 50px 50px 40px 50px;
-}
-
-#plans-section-3  li:before {
-  content: '✓';
-  padding: 1px 8px 1px 15px;
-  color: #00B67A;
-  position: absolute;
-  left: 0;
-  font-weight: 800;
-}
-
-#plans-section-3 ul {
-  list-style-type: none;
-}
-
-#plans-section-3 li {
-  font-size: 12px;
-  line-height: 2;
-}
-
-#plans-section-3 .plans-img {
-  margin-top: 10px;
-  max-width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#plans-section-3 .plans-logo {
-  max-width: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5px;
-}
-
-#plans-section-3 .plan-btn {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  display: block;
-  background: #252362;
-  border: 2px solid #252362;
-  color: #ffffff;
-  padding: 5px 30px;
-  border-radius: 50px;
-  transition: .5s;
-  font-size: 16px;
-  margin-top: 0px;
-}
-
-#plans-section-3 .plan-btn:hover {
-  background: #ffffff;
-  color: #252362;
-}
-
-#plans-section-3 .get-btn {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  display: block;
-  background: #ffffff;
-  border: 2px solid #252362;
-  color: #252362;
-  padding: 5px 30px;
-  border-radius: 50px;
-  transition: .5s;
-  font-size: 16px;
-  margin-top: 15px;
-}
-
-#plans-section-3 .get-btn:hover {
   background: #252362;
   color: #ffffff;
 }
@@ -2513,7 +2348,7 @@ section#plans-hero-section {
 }
 
 #plans-section-5 .plans-img {
-  margin-top: 30px;
+  margin-top: 10px;
   max-width: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -2562,6 +2397,285 @@ section#plans-hero-section {
 }
 
 #plans-section-5 .get-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+#plans-section-6 h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#plans-section-6 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-6 .sub-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#plans-section-6 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-6  li:before {
+  content: '✓';
+  padding: 1px 8px 1px 15px;
+  color: #00B67A;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+}
+
+#plans-section-6 ul {
+  list-style-type: none;
+}
+
+#plans-section-6 li {
+  font-size: 12px;
+  line-height: 2;
+}
+
+#plans-section-6 .plans-img {
+  margin-top: 30px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plans-section-6 .plans-logo {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+#plans-section-6 .plan-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#plans-section-6 .plan-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plans-section-6 .get-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #252362;
+  color: #252362;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#plans-section-6 .get-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+#plans-section-5 h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#plans-section-5 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-5 .sub-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#plans-section-5 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-5  li:before {
+  content: '✓';
+  padding: 1px 8px 1px 15px;
+  color: #00B67A;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+}
+
+#plans-section-5 ul {
+  list-style-type: none;
+}
+
+#plans-section-5 li {
+  font-size: 12px;
+  line-height: 2;
+}
+
+#plans-section-5 .plans-img {
+  margin-top: 10px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plans-section-5 .plans-logo {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+#plans-section-5 .plan-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#plans-section-5 .plan-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plans-section-5 .get-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #252362;
+  color: #252362;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#plans-section-5 .get-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+#plans-section-7 h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#plans-section-7 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-7 .sub-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#plans-section-7 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-7  li:before {
+  content: '✓';
+  padding: 1px 8px 1px 15px;
+  color: #00B67A;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+}
+
+#plans-section-7 ul {
+  list-style-type: none;
+}
+
+#plans-section-7 li {
+  font-size: 12px;
+  line-height: 2;
+}
+
+#plans-section-7 .plans-img {
+  margin-top: 30px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plans-section-7 .plans-logo {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+#plans-section-7 .plan-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#plans-section-7 .plan-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plans-section-7 .get-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #252362;
+  color: #252362;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#plans-section-7 .get-btn:hover {
   background: #252362;
   color: #ffffff;
 }
