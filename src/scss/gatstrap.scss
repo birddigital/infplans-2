@@ -2684,7 +2684,7 @@ section#plans-hero-section {
 
 /* Premium Styles */
 
-section.plans-hero-section-bg {
+section.premium-hero-section-bg {
   min-height: 600px;
 }
 
@@ -2727,9 +2727,125 @@ section#premium-hero-section {
   margin-top: 20px;
 }
 
+#premium-section-1 h3 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+#premium-section-1 .blue-bg {
+  background-color: #252362;
+  padding: 80px;
+  border-radius: 10px;
+}
+
+#premium-section-1 .premium-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 8px 60px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 20px;
+}
+
+#premium-section-1 .premium-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#premium-section-1 .premium1-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 8px 65px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 15px;
+  color: #000000;
+}
+
+#premium-section-1 .premium1-btn:hover {
+  background: #252362;
+  color: #252362;
+  color: #ffffff  ;
+}
+
+#premium-section-1 .premium2-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 8px 75px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 15px;
+}
+
+#premium-section-1 .premium2-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#premium-section-1 .premium3-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 8px 85px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 15px;
+}
+
+#premium-section-1 .premium3-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#premium-section-2 {
+  padding-top: 20px;
+}
+
+#premium-section-2 .premium-container {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px 0px #888888;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#premium-section-2 .title {
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 30px;
+}
+
+#premium-section-2 .network {
+  min-height: 358px;
+}
 
 
+#premium-section-2 .pre-existing {
+  min-height: 406px;
+  margin-top: 45px;
+}
 
+#premium-section-2 .acute {
+  margin-top: 45px;
+}
 /*End of Premium Styles */
 
 
