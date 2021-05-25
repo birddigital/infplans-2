@@ -2848,6 +2848,216 @@ section#premium-hero-section {
 }
 /*End of Premium Styles */
 
+/* BMI Travel Styles */
+section.bmi-travel-hero-section-bg {
+  min-height: 600px;
+}
+
+section#bmi-travel-hero-section {
+  padding-bottom: 70px;
+}
+
+.bmi-travel-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#bmi-travel-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#bmi-travel-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#bmi-travel-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#bmi-travel-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#bmi-travel-section-1 .row {
+  align-items: center;
+}
+
+#bmi-travel-section-1 .big-logo {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bmi-travel-section-1 .bmi-travel-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#bmi-travel-section-1 p {
+  line-height: 2;
+}
+
+#bmi-travel-section-1 h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+#bmi-travel-section-1 .sub-title {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#bmi-travel-section-1 .inf-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 6px 35px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 15px;
+  margin-top: -10px;
+  }
+
+#bmi-travel-section-1 .inf-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#bmi-travel-section-1 .bmi-logo {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
+}
+
+#bmi-travel-section-2 h4 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+section#bmi-travel-section-2 {
+  background: #252362;
+}
+
+#bmi-travel-section-2 li {
+  list-style: decimal;
+}
+
+#bmi-travel-section-2 ul {
+  line-height: 3;
+  padding-top: 30px;
+}
+
+#bmi-travel-section-3 .bmi-travel-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#bmi-travel-section-2 h2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#bmi-travel-section-3 ul {
+  line-height: 2.5;
+  list-style: decimal;
+  padding-top: 10px;
+}
+
+#bmi-travel-section-3 .blue-bg {
+  background: #252362;
+  padding: 30px;
+}
+
+#bmi-travel-section-4 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+#bmi-travel-section-5 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+#bmi-travel-section-6 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+#bmi-travel-section-6 li {
+  list-style: decimal;
+}
+
+#bmi-travel-section-7 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+#bmi-travel-section-8 h3 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+#bmi-travel-section-9 h3 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+#bmi-travel-section-9 .book-icon {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bmi-travel-section-9  .read-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 6px 55px;
+  border-radius: 50px;
+  transition: .5s;
+  margin-top: 15px;
+}
+
+#bmi-travel-section-9 .read-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#bmi-travel-section-9 h4 {
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+/* End of BMI Travel Styles */
+
 
 
 /* End of Gillian CSS */
