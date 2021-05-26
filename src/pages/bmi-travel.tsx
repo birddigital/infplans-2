@@ -106,8 +106,8 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
 
        <div className="blue-bg">
         <p className="text-center text-white">**Important Notice**</p>
-        <p className="text-center text-white">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage</p>
-        <p className="text-center text-white">Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
+        <p className="text-center text-white notice">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage</p>
+        <p className="text-center text-white notice">Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
        </div>
      </div>
      </div>
@@ -227,7 +227,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
           <p>The coverage provided for chronic and / or pre-existing diseases includes the following eventualities:</p>
             <ul>
               <li>Acute episode or unpredictable event</li>
-              <li>Decompensation of</li>
+              <li className="conditions">Decompensation of</li>
                 <ul>
                   <li>A Chronic issue</li>
                   <li>A Pre-existing diseases known</li>
@@ -371,8 +371,47 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
      <section id="bmi-travel-section-8">
        <Container>
          <div className="col-lg-12">
-           <h3 className="text-blue text-center row-title">Plan Options for Visitors to USA</h3>
-           <p className="text-center">Different plan options according to the type and length of the trip, whether for business, pleasure, studies, and regardless if you travel by air, sea or land.​</p>
+           <h3 className="text-blue text-center">Plan Options for Visitors to USA</h3>
+           <p className="text-center content">Different plan options according to the type and length of the trip, whether for business, pleasure, studies, and regardless if you travel by air, sea or land.​</p>
+
+           <div className="col-lg-12">
+             <div className="row bmi-travel-container">
+               <div className="col-lg-2">
+                 <h4 className="text-center">Daily Plan</h4>
+               </div>
+               <div className="col-lg-2">
+                 <h4 className="text-center">Family Plan</h4>
+               </div>
+               <div className="col-lg-2">
+                 <h4 className="text-center">Student Plan</h4>
+               </div>
+               <div className="col-lg-2">
+                 <h4 className="text-center">Extended Stay Plan</h4>
+               </div>
+               <div className="col-lg-2">
+                 <h4 className="text-center">Multi-Trip Annual Plan</h4>
+               </div>
+               <div className="col-lg-2">
+                 <h4 className="text-center">Corporate Plan</h4>
+               </div>
+
+            <div className="col-lg-12">
+              <ul>
+                <li>Offers protection for a single round trip</li>
+                <li>Minimum 5 day - Maximum 90 consecutive days of travel</li>
+                <li>Pay for the exact days of your trip</li>
+              </ul>
+
+              <p>Optional:</p>
+
+              <ul>
+                <li>Expectant Mother</li>
+                <li>Preexisting Condition</li>
+                <li>COVID-19 for people over 70 years old</li>
+              </ul>
+            </div>
+           </div>
+          </div>
          </div>
        </Container>
       </section>
