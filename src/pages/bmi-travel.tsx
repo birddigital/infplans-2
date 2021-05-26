@@ -118,6 +118,57 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
    <Container>
      <div className="col-lg-12">
        <h3 className="text-blue text-center row-title">BMI Plan 60 days Travel Assistance Cost</h3>
+
+        <table>
+          <tr className="text-center text-white">
+            <th>Name of the Plan</th>
+            <th>Trip Duration (60 days)</th>
+            <th>Plan Cost (0-65)</th>
+            <th>Plan Cost* (66-74)</th>
+            <th>Plan Cost* (75-84)</th>
+          </tr>
+
+          <tr className="text-center">
+            <td>Classico</td>
+            <td>Policy Max $10K</td>
+            <td>$151.53</td>
+            <td>$151.89</td>
+            <td>$455.67</td>
+          </tr>
+
+          <tr className="text-center">
+            <td>Ultra</td>
+            <td>Policy Max: $30K</td>
+            <td>$183.00</td>
+            <td>$265.35</td>
+            <td>$796.05</td>
+          </tr>
+
+          <tr className="text-center">
+            <td>Ultra Plus</td>
+            <td>Policy Max: $60K</td>
+            <td>$230.26</td>
+            <td>$417.24</td>
+            <td>$1,251.72</td>
+          </tr>
+
+          <tr className="text-center">
+            <td>VIP</td>
+            <td>Policy Max: $100K</td>
+            <td>$303.40</td>
+            <td>$530.70</td>
+            <td>$1,592.10</td>
+          </tr>
+
+          <tr className="text-center">
+            <td>VIP Plus</td>
+            <td>Policy Max: $250K</td>
+            <td>$425.00</td>
+            <td>$730.17</td>
+            <td>NA</td>
+          </tr>
+        </table>
+
        <p className="text-center">*Quotes are for 61 days to get the optimal pricing.</p>
      </div>
    </Container>
@@ -127,13 +178,51 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
     <Container>
       <div className="col-lg-12">
         <h3 className="text-blue text-center row-title">Plan Options With Policy Maximums</h3>
+
+        <table>
+          <tr className="text-center text-white">
+            <th className="option">Coverage Option</th>
+            <th>Coverage Limit (No deductible / 100% coverage)</th>
+          </tr>
+
+          <tr className="text-center">
+            <td className="option">Classico</td>
+            <td>$10,000</td>
+          </tr>
+
+          <tr className="text-center">
+            <td className="option">Ultra</td>
+            <td>$30,000</td>
+          </tr>
+
+          <tr className="text-center">
+            <td className="option">Ultra 50</td>
+            <td>$50,000</td>
+          </tr>
+
+          <tr className="text-center">
+            <td className="option">Ultra Plus</td>
+            <td>$60,000</td>
+          </tr>
+
+          <tr className="text-center">
+            <td className="option">VIP</td>
+            <td>$100,000</td>
+          </tr>
+
+          <tr className="text-center">
+            <td className="option">VIP Plus</td>
+            <td>$250,000</td>
+          </tr>
+        </table>
+
       </div>
     </Container>
    </section>
 
    <section id="bmi-travel-section-6">
      <Container>
-       <div className="col-lg-12">
+      <div className="col-lg-12">
          <h3 className="text-blue text-center row-title">Pre-Existing Conditions Coverage</h3>
           <p>The coverage provided for chronic and / or pre-existing diseases includes the following eventualities:</p>
             <ul>
@@ -145,7 +234,95 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                   <li>A previously asymptomatic pre-existing condition</li>
                 </ul>
             </ul>
-       </div>
+          </div>
+
+        <div className="col-lg-12">
+          <div className="row bmi-travel-container">
+            <div className="col-lg-4">
+              <h4 className="text-center">Medical Benefits | $0 Deductible Plans With 100% Coverage</h4>
+            </div>
+            <div className="col-lg-4">
+              <h4 className="text-center">Travel Assistance Benefits</h4>
+            </div>
+            <div className="col-lg-4">
+              <h4 className="text-center">Other Plan Benefits</h4>
+            </div>
+
+          <table>
+            <tr className="text-center text-white">
+              <th>Benefits</th>
+              <th>Classico</th>
+              <th>Ultra</th>
+              <th>Ultra Plus</th>
+              <th>VIP</th>
+              <th>VIP Plus</th>
+            </tr>
+
+            <tr className="text-center">
+              <td>​Medical Assistance for Accident</td>
+              <td>​$10,000</td>
+              <td>$30,000</td>
+              <td>​$60,000</td>
+              <td>​$100,000</td>
+              <td>​$250,000</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>​Medical Assistance for Illness</td>
+              <td>​$10,000</td>
+              <td>$30,000</td>
+              <td>​$60,000</td>
+              <td>​$100,000</td>
+              <td>​$250,000</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>​Medical Assistance in Case of Pre-Existing Medical Condition</td>
+              <td>$300</td>
+              <td>$500</td>
+              <td>​​$700</td>
+              <td>​$2,000</td>
+              <td>$6,000</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>Medical Assistance for COVID-19 up to 64 years old</td>
+              <td>Included</td>
+              <td>Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>​​Medical Assistance for COVID-19 - 65 to 70 years old country of origin</td>
+              <td>​$0</td>
+              <td>$30,000</td>
+              <td>$30,000</td>
+              <td>​$30,000</td>
+              <td>​$30,000</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>​Prescription Drugs</td>
+              <td>Included</td>
+              <td>Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>​​Dental Emergency</td>
+              <td>​$150</td>
+              <td>$300</td>
+              <td>​$​750</td>
+              <td>​$1,500</td>
+              <td>​$1,750</td>
+            </tr>
+          </table>
+        </div>
+      </div>
      </Container>
     </section>
 
@@ -153,6 +330,40 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
       <Container>
         <div className="col-lg-12">
           <h3 className="text-blue text-center row-title">Benefits for BMI Travel Assist</h3>
+
+          <table>
+            <tr className="text-center text-white">
+              <th>Medical Benefits </th>
+              <th>Non-Medical Benefits </th>
+            </tr>
+
+            <tr>
+              <td>
+                <ul className="medical">
+                  <li>Medical assistance for accident or illness</li>
+                  <li>Medical assistance for COVID-19</li>
+                  <li>Prescription drugs</li>
+                  <li>Dental emergency</li>
+                  <li>​Repatriation or sanitary transfer</li>
+                </ul>
+              </td>
+
+              <td>
+                <ul className="non-medical">
+                  <li>Accidental death</li>
+                  <li>Repatriation of mortal remains</li>
+                  <li>Transportation of family member due to hospitalization</li>
+                  <li>Hotel expenses due to convalescence</li>
+                  <li>Late arrival</li>
+                  <li>Return due to death of family member</li>
+                  <li>Early return due to serious disaster at home</li>
+                  <li>Lost or delayed luggage</li>
+                  <li>Delayed or cancelled flight</li>
+                  <li>Theft or loss of passport during a trip</li>
+                </ul>
+              </td>
+            </tr>
+         </table>
         </div>
       </Container>
      </section>

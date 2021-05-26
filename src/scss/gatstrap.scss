@@ -2993,10 +2993,71 @@ section#bmi-travel-section-2 {
   padding-bottom: 40px;
 }
 
+#bmi-travel-section-4 table, th, td {
+  border: 1px solid $black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bmi-travel-section-4 th {
+  background-color: #252362;
+  padding: 20px;
+  font-weight: 500;
+}
+
+#bmi-travel-section-4 td {
+  background-color: #F8F8F8;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#bmi-travel-section-4 p {
+  padding-top: 40px;
+  font-weight: 500;
+}
+
+
+#bmi-travel-section-5 table, th, td {
+  border: 1px solid $black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bmi-travel-section-5 th {
+  background-color: #252362;
+  padding: 20px 50px 20px 50px;
+  font-weight: 500;
+}
+
+#bmi-travel-section-5 td {
+  background-color: #F8F8F8;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#bmi-travel-section-5 .option {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 #bmi-travel-section-5 h3 {
   font-weight: 500;
   font-size: 30px;
   padding-bottom: 40px;
+}
+
+#bmi-travel-section-6 .bmi-travel-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#bmi-travel-section-6  h4 {
+  font-size: 17px;
+  font-weight: 500;
 }
 
 #bmi-travel-section-6 h3 {
@@ -3007,6 +3068,69 @@ section#bmi-travel-section-2 {
 
 #bmi-travel-section-6 li {
   list-style: decimal;
+}
+
+#bmi-travel-section-6 table, th, td {
+  border: 1px solid $black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bmi-travel-section-6 th {
+  background-color: #252362;
+  padding: 20px;
+  font-weight: 500;
+}
+
+#bmi-travel-section-6 td {
+  background-color: #F8F8F8;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#bmi-travel-section-7 .bmi-travel-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#bmi-travel-section-7  h4 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#bmi-travel-section-7 li {
+  list-style: disc;
+  font-weight: 400;
+}
+
+#bmi-travel-section-7 .medical {
+  margin-top: -80px;
+}
+
+#bmi-travel-section-7 .non-medical {
+  margin-top: 20px;
+}
+
+#bmi-travel-section-7 table, th, td {
+  border: 1px solid $black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bmi-travel-section-7 th {
+  background-color: #252362;
+  padding: 20px;
+  font-weight: 500;
+}
+
+#bmi-travel-section-7 td {
+  background-color: #F8F8F8;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 #bmi-travel-section-7 h3 {
