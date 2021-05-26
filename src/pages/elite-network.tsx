@@ -79,7 +79,7 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="elite-section2">
         <Container>
           <div className="col-lg-12">
-            <h3 className="text-white text-center">As a member of INF, you will also have access to additional Non-Insurance Features when traveling to the USA including:</h3>
+            <h3 className="text-white text-center">As a member of INF you will also have access to additional Non-Insurance Features when traveling to the USA including:</h3>
           </div>
           <div className="col-lg-12">
             <div className="row mt-5">
