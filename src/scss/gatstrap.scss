@@ -1676,6 +1676,7 @@ section#elite-section1 {
   font-weight: 500;
   letter-spacing: 3px;
   margin-top: 150px;
+  text-align: left;
 }
 
 #elite-hero-section .hero-text {
@@ -1847,95 +1848,97 @@ section#elite-section7 {
   padding-bottom: 100px;
 }
 
-/* Tab css */
-.pc-tab > input,
-.pc-tab section > div {
+.elite-co-insurance-tab > input,
+.elite-co-insurance-tab section > div {
   display: none;
 }
 
-#tab1:checked ~ section .tab1,
-#tab2:checked ~ section .tab2 {
+#elite-co-insurance-tab1:checked ~ section .elite-co-insurance-tab1,
+#elite-co-insurance-tab2:checked ~ section .elite-co-insurance-tab2 {
   display: block;
+  text-align: center;
 }
 
-#tab1:checked ~ nav .tab1,
-#tab2:checked ~ nav .tab2 {
+#elite-co-insurance-tab1:checked ~ nav .elite-co-insurance-tab1,
+#elite-co-insurance-tab2:checked ~ nav .elite-co-insurance-tab2 {
   color: red;
 }
 
-h1 {
-  text-align: center;
-  font-weight: 100;
-  font-size: 60px;
-  color: #e74c3c;
-}
-
-.pc-tab {
+.elite-co-insurance-tab {
   width: 100%;
   margin: 0 auto;
+  margin-top:30px;
+  box-shadow: 0px 8px 12px 0px #ddd;
 }
 
-.pc-tab ul {
+.elite-co-insurance-tab ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
-.pc-tab ul li label {
+.elite-co-insurance-tab ul li label {
   font-family: "poppins";
   float: left;
   padding: 15px 25px;
-  border: 1px solid #ddd;
   border-bottom: 0;
   background: #eeeeee;
   color: #000000;
   font-weight: 600;
+  width: 50%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
 }
 
-.pc-tab ul li label:hover {
+.elite-co-insurance-tab ul li label:hover {
   background: #dddddd;
+  cursor:pointer;
 }
 
-.pc-tab ul li label:active {
+.elite-co-insurance-tab ul li label:active {
   background: #ffffff;
 }
 
-.pc-tab ul li:not(:last-child) label {
+.elite-co-insurance-tab ul li:not(:last-child) label {
   border-right-width: 0;
 }
 
-.pc-tab section {
+.elite-co-insurance-tab section {
   font-family: "poppins";
   clear: both;
+  padding-top: 20px;
+  padding-bottom: 0;
+  min-height: 110px;
 }
 
-.pc-tab section div {
+.elite-co-insurance-tab section div {
   padding: 20px;
   width: 100%;
-  border: 1px solid #ddd;
   background: #fff;
   line-height: 1.5em;
   letter-spacing: 0.3px;
   color: #444;
 }
 
-.pc-tab section div h2 {
+.elite-co-insurance-tab section div h2 {
   margin: 0;
   font-family: "poppins";
   letter-spacing: 1px;
   color: #34495e;
 }
 
-#tab1:checked ~ nav .tab1 label,
-#tab2:checked ~ nav .tab2 label {
+#elite-co-insurance-tab1:checked ~ nav .elite-co-insurance-tab1 label,
+#elite-co-insurance-tab2:checked ~ nav .elite-co-insurance-tab2 label {
   background: white;
   color: #111;
   position: relative;
   font-weight: 600;
+  border-top: 10px solid #252362;
 }
 
-#tab1:checked ~ nav .tab1 label:after,
-#tab2:checked ~ nav .tab2 label:after {
+#elite-co-insurance-tab1:checked ~ nav .elite-co-insurance-tab1 label:after,
+#elite-co-insurance-tab2:checked ~ nav .elite-co-insurance-tab2 label:after {
   content: "";
   display: block;
   position: absolute;
@@ -1945,8 +1948,569 @@ h1 {
   left: 0;
   bottom: -1px;
 }
-/* End of Tab css */
+
+.elite-coverages-tab > input,
+.elite-coverages-tab section > div {
+  display: none;
+}
+
+#elite-coverages-tab1:checked ~ section .elite-coverages-tab1,
+#elite-coverages-tab2:checked ~ section .elite-coverages-tab2 {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#elite-coverages-tab1:checked ~ nav .elite-coverages-tab1,
+#elite-coverages-tab2:checked ~ nav .elite-coverages-tab2 {
+  color: red;
+}
+
+.elite-coverages-tab {
+  width: 100%;
+  margin: 0 auto;
+  margin-top:30px;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.elite-coverages-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.elite-coverages-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 15px 25px;
+  border-bottom: 0;
+  background: #eeeeee;
+  color: #000000;
+  font-weight: 600;
+  width: 50%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
+}
+
+.elite-coverages-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.elite-coverages-tab ul li label:active {
+  background: #ffffff;
+}
+
+.elite-coverages-tab ul li:not(:last-child) label {
+  border-right-width: 0;
+}
+
+.elite-coverages-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 0px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.elite-coverages-tab section div {
+  padding: 20px;
+  width: 100%;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  color: #444;
+}
+
+.elite-coverages-tab section div h2 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#elite-coverages-tab1:checked ~ nav .elite-coverages-tab1 label,
+#elite-coverages-tab2:checked ~ nav .elite-coverages-tab2 label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#elite-coverages-tab1:checked ~ nav .elite-coverages-tab1 label:after,
+#elite-coverages-tab2:checked ~ nav .elite-coverages-tab2 label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+.elite-coverages-tab .age-title {
+  font-size: 16px;
+}
+
+.elite-coverages-tab .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+  min-height: 114px;
+}
+
+.elite-coverages-tab .column-tab-title {
+  margin-bottom: 0;
+}
+
+.elite-coverages-tab .tab-content {
+  margin-bottom: 0;
+  font-size: 25px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 50px;
+  padding-top: 6px;
+}
+
+.elite-coverages-tab .col-lg-3 {
+  padding: 0!important;
+}
+
+.elite-coverages-tab .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
 /* End of Elite Page*/
+
+/* Traveler Usa  Page*/
+section.traveler-usa-hero-section-bg {
+  min-height: 600px;
+}
+
+section#traveler-usa-section1 {
+    padding-top: 100px;
+}
+
+.traveler-usa-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#traveler-usa-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#traveler-usa-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#traveler-usa-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#traveler-usa-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#traveler-usa-section1 .traveler-usa-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#traveler-usa-section1  p {
+  line-height: 2;
+}
+
+#traveler-usa-section1 .row-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 35px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#traveler-usa-section1 .row-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#traveler-usa-section1 h3 {
+  margin-top: 10px;
+  padding-bottom: 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#traveler-usa-section1 a.read-more {
+  color: #252362;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#traveler-usa-section2 {
+  background: #252362;
+}
+
+#traveler-usa-section2 h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#traveler-usa-section2 li {
+  line-height: 2;
+}
+
+#traveler-usa-section2 .section2-img1, #traveler-usa-section2 .section2-img2 {
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.traveler-coverages-tab > input,
+.traveler-coverages-tab section > div {
+  display: none;
+}
+
+#traveler-coverages-tab1:checked ~ section .traveler-coverages-tab1,
+#traveler-coverages-tab2:checked ~ section .traveler-coverages-tab2 {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#traveler-coverages-tab1:checked ~ nav .traveler-coverages-tab1,
+#traveler-coverages-tab2:checked ~ nav .traveler-coverages-tab2 {
+  color: red;
+}
+
+.traveler-coverages-tab {
+  width: 100%;
+  margin: 0 auto;
+  margin-top:30px;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.traveler-coverages-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.traveler-coverages-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 15px 25px;
+  border-bottom: 0;
+  background: #eeeeee;
+  color: #000000;
+  font-weight: 600;
+  width: 50%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
+}
+
+.traveler-coverages-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.traveler-coverages-tab ul li label:active {
+  background: #ffffff;
+}
+
+.traveler-coverages-tab ul li:not(:last-child) label {
+  border-right-width: 0;
+}
+
+.traveler-coverages-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 0px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.traveler-coverages-tab section div {
+  padding: 20px;
+  width: 100%;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  color: #444;
+}
+
+.traveler-coverages-tab section div h2 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#traveler-coverages-tab1:checked ~ nav .traveler-coverages-tab1 label,
+#traveler-coverages-tab2:checked ~ nav .traveler-coverages-tab2 label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#traveler-coverages-tab1:checked ~ nav .traveler-coverages-tab1 label:after,
+#traveler-coverages-tab2:checked ~ nav .traveler-coverages-tab2 label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+.traveler-coverages-tab .age-title {
+  font-size: 16px;
+}
+
+.traveler-coverages-tab .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+}
+
+.traveler-coverages-tab .column-tab-title {
+  margin-bottom: 0;
+}
+
+.traveler-coverages-tab .tab-content {
+  margin-bottom: 0;
+  font-size: 25px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 50px;
+  padding-top: 6px;
+}
+
+.traveler-coverages-tab .col-lg-6 {
+  padding: 0!important;
+}
+
+.traveler-coverages-tab .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#traveler-usa-section4 h3, #traveler-usa-section5 h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.traveler-co-insurance-tab > input,
+.traveler-co-insurance-tab section > div {
+  display: none;
+}
+
+#traveler-co-insurance-tab1:checked ~ section .traveler-co-insurance-tab1,
+#traveler-co-insurance-tab2:checked ~ section .traveler-co-insurance-tab2 {
+  display: block;
+  text-align: center;
+}
+
+#traveler-co-insurance-tab1:checked ~ nav .traveler-co-insurance-tab1,
+#traveler-co-insurance-tab2:checked ~ nav .traveler-co-insurance-tab2 {
+  color: red;
+}
+
+.traveler-co-insurance-tab {
+  width: 100%;
+  margin: 0 auto;
+  margin-top:30px;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.traveler-co-insurance-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.traveler-co-insurance-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 15px 25px;
+  border-bottom: 0;
+  background: #eeeeee;
+  color: #000000;
+  font-weight: 600;
+  width: 50%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
+}
+
+.traveler-co-insurance-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.traveler-co-insurance-tab ul li label:active {
+  background: #ffffff;
+}
+
+.traveler-co-insurance-tab ul li:not(:last-child) label {
+  border-right-width: 0;
+}
+
+.traveler-co-insurance-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.traveler-co-insurance-tab section div {
+  padding: 20px;
+  width: 100%;
+  background: #fff;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  color: #444;
+}
+
+.traveler-co-insurance-tab section div h2 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#traveler-co-insurance-tab1:checked ~ nav .traveler-co-insurance-tab1 label,
+#traveler-co-insurance-tab2:checked ~ nav .traveler-co-insurance-tab2 label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#traveler-co-insurance-tab1:checked ~ nav .traveler-co-insurance-tab1 label:after,
+#traveler-co-insurance-tab2:checked ~ nav .traveler-co-insurance-tab2 label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+#traveler-usa-section4 .subtitle {
+  font-size: 30px!important;
+  margin-bottom: 20px;
+}
+
+#traveler-usa-section5 .book-icon-img {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#traveler-usa-section5 .read-now-btn {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#traveler-usa-section5 .read-now-btn:hover {
+  background: #252362;
+  color: #ffffff;
+  border: 2px solid #252362;
+}
+
+#traveler-usa-cta-section .buy-now-btn {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  color: #252362;
+  padding: 2px 70px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+#traveler-usa-cta-section .buy-now-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+#traveler-usa-cta-section h2 {
+  margin-top: 20px;
+}
+
+#traveler-usa-section7 p{
+  line-height: 2;
+}
+
+#traveler-usa-section7 .blue-bg {
+  background: #252362;
+  margin-top: 50px;
+  padding: 40px 50px 20px 50px;
+  box-shadow: 0px 0px 12px 0px #888888;
+}
+
+#traveler-usa-section7 .white-bg {
+  background: #ffffff;
+  margin-top: 50px;
+  padding: 40px 50px 20px 50px;
+  box-shadow: 0px 0px 12px 0px #888888;
+}
+
+#traveler-usa-section7 h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#traveler-usa-section7 .first-paragraph {
+  margin-bottom: 0px;
+}
+
+section#traveler-usa-section7 {
+  padding-bottom: 100px;
+}
+/* End of Traveler Usa Page */
 
 /* Enf of Klint css */
 

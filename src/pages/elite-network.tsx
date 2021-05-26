@@ -79,7 +79,7 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="elite-section2">
         <Container>
           <div className="col-lg-12">
-            <h3 className="text-white text-center">As a member of INF you will also have access to additional Non-Insurance Features when traveling to the USA including:</h3>
+            <h3 className="text-white text-center">As a member of INF, you will also have access to additional Non-Insurance Features when traveling to the USA including:</h3>
           </div>
           <div className="col-lg-12">
             <div className="row mt-5">
@@ -112,6 +112,119 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
         <Container>
           <div className="col-lg-12">
             <h2 className="text-blue text-center">INF Elite IVAS Insurance Coverages</h2>
+
+            <div className="elite-coverages-tab">
+              <input checked="checked" id="elite-coverages-tab1" type="radio" name="elite-coverages" />
+              <input id="elite-coverages-tab2" type="radio" name="elite-coverages" />
+              <nav>
+                <ul>
+                  <li className="elite-coverages-tab1">
+                    <label for="elite-coverages-tab1">Policy Maximum <br/> <span className="text-black age-title">Age 0-69</span></label>
+                  </li>
+                  <li className="elite-coverages-tab2">
+                    <label for="elite-coverages-tab2">Policy Maximum <br/> <span className="text-black age-title">Age 70-99</span></label>
+                  </li>
+                </ul>
+              </nav>
+              <section>
+                <div className="elite-coverages-tab1">
+                  <div className="row">
+                    <div className="col-lg-3">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">Maximum per Accident or Sickness Expense Benefits</p>
+                      </div>
+                      <p className="tab-content text-black">$150,000</p>
+                      <p className="tab-content text-black">$250,000</p>
+                      <p className="tab-content text-black">$350,000</p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                    </div>
+                    <div className="col-lg-3">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">​Deductible per Accident or Sickness Expense Benefits</p>
+                      </div>
+                      <p className="tab-content text-black">$50</p>
+                      <p className="tab-content text-black">$100</p>
+                      <p className="tab-content text-black">$250</p>
+                      <p className="tab-content text-black">$500</p>
+                      <p className="tab-content text-black">$1,000</p>
+                      <p className="tab-content text-black">$2,500</p>
+                      <p className="tab-content text-black">$5,000</p>
+                    </div>
+                    <div className="col-lg-3">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title pt-2">​Maximum for Pre-Existing Conditions</p>
+                      </div>
+                      <p className="tab-content text-black">$25,000</p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                    </div>
+                    <div className="col-lg-3">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title pt-2">​Deductible for Pre-Existing Conditions</p>
+                      </div>
+                      <p className="tab-content text-black">$1,500</p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                    </div>
+                  </div>
+                </div>
+                <div className="elite-coverages-tab2">
+                  <div className="row">
+                    <div className="col-lg-3">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">Maximum per Accident or Sickness Expense Benefits</p>
+                      </div>
+                      <p className="tab-content text-black">$75,000</p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                    </div>
+                    <div className="col-lg-3">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">​Deductible per Accident or Sickness Expense Benefits</p>
+                      </div>
+                      <p className="tab-content text-black">$250</p>
+                      <p className="tab-content text-black">$500</p>
+                      <p className="tab-content text-black">$1,000</p>
+                      <p className="tab-content text-black">$2,500</p>
+                      <p className="tab-content text-black">$5,000</p>
+                    </div>
+                    <div className="col-lg-3">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title pt-2">​Maximum for Pre-Existing Conditions</p>
+                      </div>
+                      <p className="tab-content text-black">$20,000</p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                    </div>
+                    <div className="col-lg-3">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title pt-2">​Deductible for Pre-Existing Conditions</p>
+                      </div>
+                      <p className="tab-content text-black">$1,500</p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
           </div>
         </Container>
       </section>
@@ -121,30 +234,28 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12">
             <h2 className="text-blue text-center">INF Elite IVAS Co-Insurance</h2>
             <h3 className="text-black text-center">Co-Insurance With INF Elite International Visitor Accident & Sickness Insurance</h3>
-
-            <div class="pc-tab">
-              <input checked="checked" id="tab1" type="radio" name="pct" />
-              <input id="tab2" type="radio" name="pct" />
-                <nav>
-                  <ul>
-                    <li class="tab1">
-                      <label for="tab1">In-Network</label>
-                    </li>
-                    <li class="tab2">
-                      <label for="tab2">Out-of-Network</label>
-                    </li>
-                  </ul>
-                </nav>
-                <section>
-                  <div class="tab1">
-                    <p>​80% of charges up to the Total Maximum for All Accident or Sickness Expense Benefits</p>
-                  </div>
-                  <div class="tab2">
-                    <p>90% of charges up to the Total Maximum for All Accident or Sickness Expense Benefits</p>
-                  </div>
-                </section>
-              </div>
-
+            <div className="elite-co-insurance-tab">
+              <input checked="checked" id="elite-co-insurance-tab1" type="radio" name="elite-co-insurance" />
+              <input id="elite-co-insurance-tab2" type="radio" name="elite-co-insurance" />
+              <nav>
+                <ul>
+                  <li className="elite-co-insurance-tab1">
+                    <label for="elite-co-insurance-tab1">In-Network</label>
+                  </li>
+                  <li className="elite-co-insurance-tab2">
+                    <label for="elite-co-insurance-tab2">Out-of-Network</label>
+                  </li>
+                </ul>
+              </nav>
+              <section>
+                <div className="elite-co-insurance-tab1">
+                  <p className="text-black">​80% of charges up to the Total Maximum for All Accident or Sickness Expense Benefits</p>
+                </div>
+                <div className="elite-co-insurance-tab2">
+                  <p className="text-black">​60% of the Usual and Customary Charges up to the Total Maximum for All Accident or Sickness Expense Benefits</p>
+                </div>
+              </section>
+            </div>
           </div>
         </Container>
       </section>

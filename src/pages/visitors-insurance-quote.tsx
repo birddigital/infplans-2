@@ -53,9 +53,6 @@ const VisitorInsuranceQuotePage: React.FC<Props> = ({ data, location }: Props) =
             <p className="text-black text-center">
               INF has provided insurance options for millions of travelers since 1988. Built during the early-ages of the internet, INF has always been a technology first company. INF was the first company to allow insurance applications Online and over fax, and the first company to incorporate technology into their claims process. INF uses technology to bring better products, services, and customer experience to travelers across the globe.
             </p>
-            <p className="text-black text-center">
-              Get the Peace of Mind while you are traveling knowing you'll be covered no matter what. INF covers <a href="/">All Pre-Existing Conditions</a> with <a href="/">no acute onset limitation</a> for visitors to/from the United States & Canada.
-            </p>
           </div>
         </Container>
       </section>
