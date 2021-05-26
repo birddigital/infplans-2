@@ -1951,7 +1951,1724 @@ h1 {
 /* Enf of Klint css */
 
 
+/* Gillian CSS */
 
+/* Claims Form Styles */
+section.claims-form-hero-section-bg {
+  min-height: 600px;
+}
+
+section#claims-form-hero-section {
+  padding-bottom: 70px;
+}
+
+section#claims-form-section-1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.claims-form-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#claims-form-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#claims-form-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#claims-form-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#claims-form-section-1 .row {
+  align-items: center;
+}
+
+#claims-form-section-1 .big-logo {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#claims-form-section-1 .claims-form-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#claims-form-section-1 p {
+  line-height: 2;
+}
+
+#claims-form-section-1 .inf-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 35px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#claims-form-section-1 .inf-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#claims-form-section-1 .submit-img {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#claims-form-section-2 h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#claims-form-section-2 .section2-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+  align-items:center;
+}
+
+#claims-form-section-2 .sign-in-container {
+  align-items:center;
+}
+
+#claims-form-section-2 input#email {
+  width: 90%;
+  background: #F2F2F2;
+  border: 2px solid #F2F2F2;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  outline: none;
+}
+
+#claims-form-section-2 input[type="submit"] {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #7DA9DA;
+  background: #7DA9DA;
+  color: #ffffff;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#claims-form-section-2 input[type="submit"]:hover {
+  background: #ffffff;
+  color: #7DA9DA;
+}
+
+#claims-form-section-2 form {
+  text-align: center;
+}
+
+#claims-form-section-3 .claim-information-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#claims-form-section-3 h4 {
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+#claims-form-section-3 p {
+  font-size: 14px;
+  line-height: 0.5;
+  padding-top: 5px;
+}
+
+#claims-form-section-3 .pdf-icon {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#claims-form-section-3 .download-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
+  color: #ffffff;
+  padding: 8px 35px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#claims-form-section-3 .download-btn2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 35px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#claims-form-section-3 .download-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#claims-form-section-3 .download-btn2:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#claims-form-section-4 .additional-information-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#claims-form-section-4 h3 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+#claims-form-section-4 h4 {
+  padding-top: 15px;
+  font-weight: 600;
+}
+
+#claims-form-section-4 p {
+  line-height: 2;
+}
+
+#claims-form-section-5 .claims-process-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#claims-form-section-5 h3 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+#claims-form-section-5 h4 {
+  padding-top: 15px;
+  font-weight: 600;
+}
+
+#claims-form-section-5 p {
+  line-height: 2;
+}
+
+#claims-form-section-3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#claims-form-section-3 .tab-links {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#claims-form-section-3 li {
+  display: table-cell;
+  width: 20%;
+}
+
+#claims-form-section-3 li a {
+  display: block;
+  padding: .5em;
+  background: #eee;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+#claims-form-section-3 :not(:first-child) a {
+  border-left: none;
+}
+
+#claims-form-section-3  .is-active a {
+  border-bottom-color: transparent;
+  background: #fff;
+}
+
+#claims-form-section-3  .is-active a {
+  border-bottom-color: transparent;
+  background: #fff;
+}
+/* End of Claims Form Styles */
+
+
+/* Tab css */
+.pc-tab > input,
+.pc-tab section > div {
+ display: none;
+}
+
+#tab1:checked ~ section .tab1,
+#tab2:checked ~ section .tab2,
+#tab3:checked ~ section .tab3,
+#tab4:checked ~ section .tab4 {
+ display: block;
+}
+
+#tab1:checked ~ nav .tab1,
+#tab2:checked ~ nav .tab2,
+#tab3:checked ~ nav .tab3,
+#tab4:checked ~ nav .tab4 {
+ color: red;
+}
+
+h1 {
+ text-align: center;
+ font-weight: 100;
+ font-size: 60px;
+ color: #e74c3c;
+}
+
+.pc-tab {
+ width: 100%;
+ margin: 0 auto;
+}
+
+.pc-tab ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+.pc-tab ul li label {
+ font-family: "poppins";
+ float: left;
+ padding: 15px 25px;
+ border: 1px solid #ddd;
+ border-bottom: 0;
+ background: #eeeeee;
+ color: #000000;
+ font-weight: 600;
+}
+
+.pc-tab ul li label:hover {
+ background: #dddddd;
+}
+
+.pc-tab ul li label:active {
+ background: #ffffff;
+}
+
+.pc-tab ul li:not(:last-child) label {
+ border-right-width: 0;
+}
+
+.pc-tab section {
+ font-family: "poppins";
+ clear: both;
+}
+
+.pc-tab section div {
+ line-height: 1.5em;
+ letter-spacing: 0.3px;
+}
+
+.pc-tab section div h2 {
+ margin: 0;
+ font-family: "poppins";
+ letter-spacing: 1px;
+ color: #34495e;
+}
+
+#tab1:checked ~ nav .tab1 label,
+#tab2:checked ~ nav .tab2 label,
+#tab3:checked ~ nav .tab3 label,
+#tab4:checked ~ nav .tab4 label {
+ background: white;
+ color: #111;
+ position: relative;
+ font-weight: 600;
+}
+
+#tab1:checked ~ nav .tab1 label:after,
+#tab2:checked ~ nav .tab2 label:after,
+#tab3:checked ~ nav .tab3 label:after,
+#tab4:checked ~ nav .tab4 label:after {
+ content: "";
+ display: block;
+ position: absolute;
+ height: 2px;
+ width: 100%;
+ background: #ffffff;
+ left: 0;
+ bottom: -1px;
+}
+/* End of Tab css */
+
+/* Diplomat America Styles */
+
+section.diplomat-america-hero-section-bg {
+  min-height: 600px;
+}
+
+section#diplomat-america-hero-section {
+  padding-bottom: 70px;
+}
+
+.diplomat-america-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#diplomat-america-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#diplomat-america-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#diplomat-america-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#diplomat-america-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#diplomat-america-section-1 h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#diplomat-america-section-1 p {
+  padding-top: 30px;
+  line-height: 2;
+}
+
+#diplomat-america-section-1 .diplomat-america-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#diplomat-america-section-2 h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#diplomat-america-section-2 p {
+  padding-top: 30px;
+  line-height: 2;
+}
+
+#diplomat-america-section-2 .diplomat-america-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#diplomat-america-section-2 .second-content {
+  padding-top: 20px;
+}
+
+section#diplomat-america-section-3 {
+  background: #252362;
+}
+
+#diplomat-america-section-3 {
+  padding-top: 50px;
+}
+
+#diplomat-america-section-3 .second-title {
+  padding-top: 25px;
+}
+
+#diplomat-america-section-3 h4 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#diplomat-america-section-3 li {
+  margin-bottom: 10px;
+}
+
+#diplomat-america-section-4 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+#diplomat-america-section-4 .first-content {
+  padding-top: 20px;
+}
+
+#diplomat-america-section-4 p {
+  padding-top: 30px;
+  line-height: 2;
+}
+
+#diplomat-america-section-4 .diplomat-america-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#diplomat-america-section-5 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+#diplomat-america-section-5 .diplomat-america-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#diplomat-america-section-5 li {
+  margin-bottom: 10px;
+}
+
+#diplomat-america-section-6 .diplomat-america-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#diplomat-america-section-6 .visit-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
+  color: #ffffff;
+  padding: 8px 90px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#diplomat-america-section-6 .visit-btn1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
+  color: #ffffff;
+  padding: 8px 100px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#diplomat-america-section-6 .visit-btn2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 100px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#diplomat-america-section-6 .visit-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#diplomat-america-section-6 .visit-btn2:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#diplomat-america-section-6 input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#diplomat-america-section-6 p {
+  margin-top: 15px;
+}
+
+.first-bg {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.second-bg {
+  background-color: #252362;
+  padding: 1px;
+}
+
+#diplomat-america-section-4 .alpha-list li {
+  list-style-type: lower-alpha;
+}
+
+#diplomat-america-section-4 .number-list li {
+  list-style-type: decimal;
+}
+
+#diplomat-america-section-5 .claims li {
+  list-style-type: disc;
+}
+
+#diplomat-america-section-5 .exclusions li {
+  list-style-type: disc;
+}
+
+#diplomat-america-section-5 .accident li {
+  list-style-type: disc;
+}
+
+/* End of Diplomat America Styles */
+
+/* Plans Styles */
+
+section.plans-hero-section-bg {
+  min-height: 600px;
+}
+
+section#plans-hero-section {
+  padding-bottom: 70px;
+}
+
+.plans-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#plans-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#plans-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plans-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#plans-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#plans-section-1 {
+  padding-top: 80px;
+}
+
+#plans-section-1 h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-1 p {
+  padding-top: 30px;
+  line-height: 2;
+}
+
+#plans-section-1 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-2 h3 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+#plans-section-2 h4 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#plans-section-2 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-2 ul {
+  padding-top: 30px;
+  font-size: 14px;
+  line-height: 2;
+}
+
+#plans-section-2 .notice {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+#plans-section-2 p {
+  font-size: 16px;
+  line-height: 2;
+}
+
+#plans-section-2 .bmi-bg {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+#plans-section-3 h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-3 p {
+  padding-top: 30px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+#plans-section-3 ul {
+  list-style-type: disc;
+}
+
+#plans-section-3 li {
+  font-size: 14px;
+  line-height: 2;
+}
+
+#plans-section-3 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-4 h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#plans-section-4 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-4 .sub-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#plans-section-4 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-4  li:before {
+  content: '✓';
+  padding: 1px 8px 1px 15px;
+  color: #00B67A;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+}
+
+#plans-section-4 ul {
+  list-style-type: none;
+}
+
+#plans-section-4 li {
+  font-size: 12px;
+  line-height: 2;
+}
+
+#plans-section-4 .plans-img {
+  margin-top: 50px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plans-section-4 .plans-logo {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+#plans-section-4 .plan-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#plans-section-4 .plan-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plans-section-4 .get-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #252362;
+  color: #252362;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#plans-section-4 .get-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+#plans-section-5 h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#plans-section-5 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-5 .sub-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#plans-section-5 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-5  li:before {
+  content: '✓';
+  padding: 1px 8px 1px 15px;
+  color: #00B67A;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+}
+
+#plans-section-5 ul {
+  list-style-type: none;
+}
+
+#plans-section-5 li {
+  font-size: 12px;
+  line-height: 2;
+}
+
+#plans-section-5 .plans-img {
+  margin-top: 10px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plans-section-5 .plans-logo {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+#plans-section-5 .plan-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#plans-section-5 .plan-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plans-section-5 .get-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #252362;
+  color: #252362;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#plans-section-5 .get-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+#plans-section-6 h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#plans-section-6 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-6 .sub-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#plans-section-6 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-6  li:before {
+  content: '✓';
+  padding: 1px 8px 1px 15px;
+  color: #00B67A;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+}
+
+#plans-section-6 ul {
+  list-style-type: none;
+}
+
+#plans-section-6 li {
+  font-size: 12px;
+  line-height: 2;
+}
+
+#plans-section-6 .plans-img {
+  margin-top: 30px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plans-section-6 .plans-logo {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+#plans-section-6 .plan-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#plans-section-6 .plan-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plans-section-6 .get-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #252362;
+  color: #252362;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#plans-section-6 .get-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+#plans-section-5 h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#plans-section-5 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-5 .sub-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#plans-section-5 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-5  li:before {
+  content: '✓';
+  padding: 1px 8px 1px 15px;
+  color: #00B67A;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+}
+
+#plans-section-5 ul {
+  list-style-type: none;
+}
+
+#plans-section-5 li {
+  font-size: 12px;
+  line-height: 2;
+}
+
+#plans-section-5 .plans-img {
+  margin-top: 10px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plans-section-5 .plans-logo {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+#plans-section-5 .plan-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#plans-section-5 .plan-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plans-section-5 .get-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #252362;
+  color: #252362;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#plans-section-5 .get-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+#plans-section-7 h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#plans-section-7 p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#plans-section-7 .sub-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+#plans-section-7 .plans-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#plans-section-7  li:before {
+  content: '✓';
+  padding: 1px 8px 1px 15px;
+  color: #00B67A;
+  position: absolute;
+  left: 0;
+  font-weight: 800;
+}
+
+#plans-section-7 ul {
+  list-style-type: none;
+}
+
+#plans-section-7 li {
+  font-size: 12px;
+  line-height: 2;
+}
+
+#plans-section-7 .plans-img {
+  margin-top: 30px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plans-section-7 .plans-logo {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+#plans-section-7 .plan-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#plans-section-7 .plan-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#plans-section-7 .get-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #252362;
+  color: #252362;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#plans-section-7 .get-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+/* End of Plans Styles */
+
+/* Premium Styles */
+
+section.premium-hero-section-bg {
+  min-height: 600px;
+}
+
+section#premium-hero-section {
+  padding-bottom: 50px;
+}
+
+.premium-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#premium-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#premium-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#premium-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#premium-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#premium-section-1 h3 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+#premium-section-1 .blue-bg {
+  background-color: #252362;
+  padding: 80px;
+  border-radius: 10px;
+}
+
+#premium-section-1 .premium-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 8px 60px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 20px;
+}
+
+#premium-section-1 .premium-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#premium-section-1 .premium1-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 8px 65px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 15px;
+  color: #000000;
+}
+
+#premium-section-1 .premium1-btn:hover {
+  background: #252362;
+  color: #252362;
+  color: #ffffff  ;
+}
+
+#premium-section-1 .premium2-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 8px 75px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 15px;
+}
+
+#premium-section-1 .premium2-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#premium-section-1 .premium3-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 8px 85px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 15px;
+}
+
+#premium-section-1 .premium3-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#premium-section-2 {
+  padding-top: 20px;
+}
+
+#premium-section-2 .premium-container {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px 0px #888888;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#premium-section-2 .title {
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 30px;
+}
+
+#premium-section-2 .network {
+  min-height: 358px;
+}
+
+
+#premium-section-2 .pre-existing {
+  min-height: 406px;
+  margin-top: 45px;
+}
+
+#premium-section-2 .acute {
+  margin-top: 45px;
+}
+/*End of Premium Styles */
+
+/* BMI Travel Styles */
+section.bmi-travel-hero-section-bg {
+  min-height: 600px;
+}
+
+section#bmi-travel-hero-section {
+  padding-bottom: 70px;
+}
+
+.bmi-travel-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#bmi-travel-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#bmi-travel-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#bmi-travel-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#bmi-travel-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#bmi-travel-section-1 .row {
+  align-items: center;
+}
+
+#bmi-travel-section-1 .big-logo {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bmi-travel-section-1 .bmi-travel-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#bmi-travel-section-1 p {
+  line-height: 2;
+}
+
+#bmi-travel-section-1 h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+#bmi-travel-section-1 .sub-title {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#bmi-travel-section-1 .inf-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 6px 35px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 15px;
+  margin-top: -10px;
+  }
+
+#bmi-travel-section-1 .inf-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#bmi-travel-section-1 .bmi-logo {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
+}
+
+#bmi-travel-section-2 h4 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+section#bmi-travel-section-2 {
+  background: #252362;
+}
+
+#bmi-travel-section-2 li {
+  list-style: decimal;
+}
+
+#bmi-travel-section-2 ul {
+  line-height: 3;
+  padding-top: 30px;
+}
+
+#bmi-travel-section-3 .bmi-travel-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#bmi-travel-section-2 h2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#bmi-travel-section-3 ul {
+  line-height: 2.5;
+  list-style: decimal;
+  padding-top: 10px;
+}
+
+#bmi-travel-section-3 .blue-bg {
+  background: #252362;
+  padding: 30px;
+}
+
+#bmi-travel-section-4 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+#bmi-travel-section-4 table, th, td {
+  border: 1px solid $black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bmi-travel-section-4 th {
+  background-color: #252362;
+  padding: 20px;
+  font-weight: 500;
+}
+
+#bmi-travel-section-4 td {
+  background-color: #F8F8F8;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#bmi-travel-section-4 p {
+  padding-top: 40px;
+  font-weight: 500;
+}
+
+
+#bmi-travel-section-5 table, th, td {
+  border: 1px solid $black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bmi-travel-section-5 th {
+  background-color: #252362;
+  padding: 20px 50px 20px 50px;
+  font-weight: 500;
+}
+
+#bmi-travel-section-5 td {
+  background-color: #F8F8F8;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#bmi-travel-section-5 .option {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#bmi-travel-section-5 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+#bmi-travel-section-6 .bmi-travel-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#bmi-travel-section-6  h4 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#bmi-travel-section-6 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+#bmi-travel-section-6 li {
+  list-style: decimal;
+}
+
+#bmi-travel-section-6 table, th, td {
+  border: 1px solid $black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bmi-travel-section-6 th {
+  background-color: #252362;
+  padding: 20px;
+  font-weight: 500;
+}
+
+#bmi-travel-section-6 td {
+  background-color: #F8F8F8;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#bmi-travel-section-7 .bmi-travel-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#bmi-travel-section-7  h4 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#bmi-travel-section-7 li {
+  list-style: disc;
+  font-weight: 400;
+}
+
+#bmi-travel-section-7 .medical {
+  margin-top: -80px;
+}
+
+#bmi-travel-section-7 .non-medical {
+  margin-top: 20px;
+}
+
+#bmi-travel-section-7 table, th, td {
+  border: 1px solid $black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bmi-travel-section-7 th {
+  background-color: #252362;
+  padding: 20px;
+  font-weight: 500;
+}
+
+#bmi-travel-section-7 td {
+  background-color: #F8F8F8;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#bmi-travel-section-7 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+#bmi-travel-section-8 h3 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+#bmi-travel-section-9 h3 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+#bmi-travel-section-9 .book-icon {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bmi-travel-section-9  .read-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 6px 55px;
+  border-radius: 50px;
+  transition: .5s;
+  margin-top: 15px;
+}
+
+#bmi-travel-section-9 .read-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#bmi-travel-section-9 h4 {
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+/* End of BMI Travel Styles */
+
+
+
+/* End of Gillian CSS */
 
 
 
