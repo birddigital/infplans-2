@@ -2595,6 +2595,332 @@ section#premier-section1 {
   text-decoration: none;
   font-weight: 600;
 }
+
+#premier-section2 {
+  background: #252362;
+}
+
+#premier-section2 h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#premier-section2 li {
+  line-height: 2;
+}
+
+#premier-section2 .section2-img1, #premier-section2 .section2-img2 {
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.premier-coverages-tab > input,
+.premier-coverages-tab section > div {
+  display: none;
+}
+
+#premier-coverages-tab1:checked ~ section .premier-coverages-tab1,
+#premier-coverages-tab2:checked ~ section .premier-coverages-tab2 {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#premier-coverages-tab1:checked ~ nav .premier-coverages-tab1,
+#premier-coverages-tab2:checked ~ nav .premier-coverages-tab2 {
+  color: red;
+}
+
+.premier-coverages-tab {
+  width: 100%;
+  margin: 0 auto;
+  margin-top:30px;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.premier-coverages-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.premier-coverages-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 15px 25px;
+  border-bottom: 0;
+  background: #eeeeee;
+  color: #000000;
+  font-weight: 600;
+  width: 50%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
+}
+
+.premier-coverages-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.premier-coverages-tab ul li label:active {
+  background: #ffffff;
+}
+
+.premier-coverages-tab ul li:not(:last-child) label {
+  border-right-width: 0;
+}
+
+.premier-coverages-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 0px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.premier-coverages-tab section div {
+  padding: 20px;
+  width: 100%;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  color: #444;
+}
+
+.premier-coverages-tab section div h2 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#premier-coverages-tab1:checked ~ nav .premier-coverages-tab1 label,
+#premier-coverages-tab2:checked ~ nav .premier-coverages-tab2 label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#premier-coverages-tab1:checked ~ nav .premier-coverages-tab1 label:after,
+#premier-coverages-tab2:checked ~ nav .premier-coverages-tab2 label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+.premier-coverages-tab .age-title {
+  font-size: 16px;
+}
+
+.premier-coverages-tab .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+}
+
+.premier-coverages-tab .column-tab-title {
+  margin-bottom: 0;
+}
+
+.premier-coverages-tab .tab-content {
+  margin-bottom: 0;
+  font-size: 25px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 50px;
+  padding-top: 6px;
+}
+
+.premier-coverages-tab .tab-content1 {
+  min-height: 25px;
+  margin-bottom: 0;
+  font-size: 25px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+}
+
+.premier-coverages-tab .col-lg-4 {
+  padding: 0!important;
+}
+
+.premier-coverages-tab .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.premier-coverages-tab .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.premier-benefits1-tab > input,
+.premier-benefits1-tab section > div {
+  display: none;
+}
+
+#premier-benefits1-tab1:checked ~ section .premier-benefits1-tab1,
+#premier-benefits1-tab2:checked ~ section .premier-benefits1-tab2,
+#premier-benefits1-tab3:checked ~ section .premier-benefits1-tab3 {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#premier-benefits1-tab1:checked ~ nav .premier-benefits1-tab1,
+#premier-benefits1-tab2:checked ~ nav .premier-benefits1-tab2,
+#premier-benefits1-tab3:checked ~ nav .premier-benefits1-tab3 {
+  color: red;
+}
+
+.premier-benefits1-tab {
+  width: 100%;
+  margin: 0 auto;
+  margin-top:30px;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.premier-benefits1-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.premier-benefits1-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 15px 25px;
+  border-bottom: 0;
+  background: #eeeeee;
+  color: #000000;
+  font-weight: 600;
+  width: 33.33%;
+  min-height: 136px;
+  font-size: 16px;
+  border-top: 10px solid #fff;
+}
+
+.premier-benefits1-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.premier-benefits1-tab ul li label:active {
+  background: #ffffff;
+}
+
+.premier-benefits1-tab ul li:not(:last-child) label {
+  border-right-width: 0;
+}
+
+.premier-benefits1-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 0px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.premier-benefits1-tab section div {
+  padding: 20px;
+  width: 100%;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  color: #444;
+}
+
+.premier-benefits1-tab section div h2 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#premier-benefits1-tab1:checked ~ nav .premier-benefits1-tab1 label,
+#premier-benefits1-tab2:checked ~ nav .premier-benefits1-tab2 label,
+#premier-benefits1-tab3:checked ~ nav .premier-benefits1-tab3 label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#premier-benefits1-tab1:checked ~ nav .premier-benefits1-tab1 label:after,
+#premier-benefits1-tab2:checked ~ nav .premier-benefits1-tab2 label:after,
+#premier-benefits1-tab3:checked ~ nav .premier-benefits1-tab3 label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+.premier-benefits1-tab .label-content {
+  padding-top: 28px!important;
+}
+
+.premier-benefits1-tab .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+}
+
+.premier-benefits1-tab .column-tab-title {
+  margin-bottom: 0;
+}
+
+.premier-benefits1-tab .tab-content {
+  margin-bottom: 0;
+  font-size: 16px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding: 10px 30px;
+}
+
+.premier-benefits1-tab .tab-content2 {
+  margin-bottom: 0;
+  font-size: 16px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 22px;
+  padding-bottom: 10px;
+  min-height: 69px;
+}
+
+.premier-benefits1-tab .col-lg-6 {
+  padding: 0!important;
+}
+
+.premier-benefits1-tab .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.premier-benefits1-tab .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#premier-section4 .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
 /* End of Premier Page*/
 
 /* End of Klint css */
