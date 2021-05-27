@@ -3060,26 +3060,127 @@ section#claims-form-section-1 {
   text-align: center;
 }
 
-#claims-form-section-3 .claim-information-container {
-  box-shadow: 0px 0px 12px 0px #888888;
-  padding: 50px 50px 40px 50px;
+.claims-info-tab > input,
+.claims-info-tab section > div {
+  display: none;
 }
 
-#claims-form-section-3 h4 {
-  font-weight: 600;
-  padding-top: 10px;
+#claims-info-tabone:checked ~ section .claims-info-tabone,
+#claims-info-tabtwo:checked ~ section .claims-info-tabtwo {
+  display: block;
 }
+
+#claims-info-tabone:checked ~ nav .claims-info-tabone,
+#claims-info-tabtwo:checked ~ nav .claims-info-tabtwo {
+  color: red;
+}
+
+.claims-info-tab {
+  width: 100%;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.claims-info-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.claims-info-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 30px 50px;
+  border-bottom: 0;
+  font-weight: 600;
+  width: 100%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
+}
+
+.claims-info-tabtwo ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 35px 25px;
+  border-bottom: 0;
+  font-weight: 600;
+  width: 33%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
+}
+
+.claims-info-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.claims-info-tab ul li label:active {
+  background: #ffffff;
+}
+
+.claims-info-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.claims-info-tab section div {
+  padding: 20px;
+  width: 100%;
+  letter-spacing: 0.3px;
+}
+
+.claims-info-tab section div h4 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  font-weight: 600;
+  float: left;
+}
+
+#claims-info-tabone:checked ~ nav .claims-info-tabone label,
+#claims-info-tabtwo:checked ~ nav .claims-info-tabtwo label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#claims-info-tabone:checked ~ nav .claims-info-tabone label:after,
+#claims-info-tabtwo:checked ~ nav .claims-info-tabtwo label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+.claims-info-tab .info {
+  margin-top: -70px;
+}
+
+.claims-info-tab .download {
+  margin-top: -50px;
+}
+
 
 #claims-form-section-3 p {
   font-size: 14px;
   line-height: 0.5;
-  padding-top: 5px;
 }
 
 #claims-form-section-3 .pdf-icon {
   max-width: 250px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 40px;
+  margin-top: 20px;
 }
 
 #claims-form-section-3 .download-btn {
@@ -3441,6 +3542,272 @@ section#diplomat-america-section-3 {
 }
 
 /* End of Diplomat America Styles */
+
+/* Diplomat International Styles */
+
+section.diplomat-international-hero-section-bg {
+  min-height: 600px;
+}
+
+section#diplomat-international-hero-section {
+  padding-bottom: 70px;
+}
+
+.diplomat-international-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#diplomat-international-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#diplomat-international-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#diplomat-international-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#diplomat-international-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#diplomat-international-section-1 h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#diplomat-international-section-1 p {
+  padding-top: 30px;
+  line-height: 2;
+}
+
+#diplomat-international-section-1 .diplomat-international-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#diplomat-international-section-2 h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#diplomat-international-section-2 p {
+  padding-top: 30px;
+  line-height: 2;
+}
+
+#diplomat-international-section-2 .diplomat-international-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#diplomat-international-section-2 .second-content {
+  padding-top: 20px;
+}
+
+section#diplomat-international-section-3 {
+  background: #252362;
+}
+
+#diplomat-international-section-3 {
+  padding-top: 50px;
+}
+
+#diplomat-international-section-3 .second-title {
+  padding-top: 25px;
+}
+
+#diplomat-international-section-3 h4 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#diplomat-international-section-3 li {
+  margin-bottom: 10px;
+}
+
+#diplomat-international-section-4 h3 {
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+#diplomat-international-section-4 .diplomat-america-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#diplomat-international-section-4 li {
+  margin-bottom: 10px;
+}
+
+.international-tab table, th, td {
+  border: 1px solid $black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.international-tab th {
+  background-color: #252362;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.international-tab td {
+  background-color: #F8F8F8;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.international-tab .first-content {
+  padding-top: 20px;
+}
+
+.international-tab .first {
+  margin-top: 40px;
+  width: 100%
+}
+
+.international-tab .second {
+  margin-top: 40px;
+  width: 100%
+}
+
+.international-tab .content-bg {
+  background-color: #F8F8F8;
+  padding: 20px;
+}
+
+.international-tab .expenses-content {
+  line-height: 2;
+  margin-top: -50px;
+}
+
+.international-tab .age {
+  margin-top: -45px;
+}
+
+.international-tab > input,
+.international-tab section > div {
+  display: none;
+}
+
+#international-tabone:checked ~ section .international-tabone,
+#international-tabtwo:checked ~ section .international-tabtwo {
+  display: block;
+}
+
+#international-tabone:checked ~ nav .international-tabone,
+#international-tabtwo:checked ~ nav .international-tabtwo {
+  color: red;
+}
+
+.international-tab {
+  width: 100%;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.international-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.international-tab section div ul {
+  line-height: 2;
+  list-style: decimal;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: -20px;
+}
+
+.international-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 30px 50px;
+  border-bottom: 0;
+  font-weight: 600;
+  width: 50%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
+}
+
+.international-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.international-tab ul li label:active {
+  background: #ffffff;
+}
+
+.international-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.international-tab section div {
+  padding: 20px;
+  width: 100%;
+  letter-spacing: 0.3px;
+}
+
+.international-tab section div h4 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  font-weight: 600;
+  float: left;
+}
+
+#international-tabone:checked ~ nav .international-tabone label,
+#international-tabtwo:checked ~ nav .international-tabtwo label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#international-tabone:checked ~ nav .international-tabone label:after,
+#international-tabtwo:checked ~ nav .international-tabtwo label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+
+/* End of Diplomat International Styles */
 
 /* Plans Styles */
 
@@ -3852,7 +4219,7 @@ section#plans-hero-section {
   margin-top: 0px;
 }
 
-#plans-section- .plan-btn:hover {
+#plans-section-5 .plan-btn:hover {
   background: #ffffff;
   color: #252362;
 }
@@ -3889,15 +4256,19 @@ section#plans-hero-section {
   font-weight: 500;
 }
 
-#plans-section-6 .plans-container {
-  box-shadow: 0px 0px 12px 0px #888888;
-  padding: 50px 50px 40px 50px;
+.bmi-plans-tab .first-row {
+  margin-top: -41px;
 }
 
-#plans-section-6 ul {
-  padding-top: 30px;
+.bmi-plans-tab .tabthree {
+  padding-left: 30px;
+}
+
+.bmi-plans-tab section div ul {
   font-size: 14px;
   line-height: 2;
+  list-style: disc;
+  text-align: left;
 }
 
 #plans-section-6 .notice {
@@ -3913,6 +4284,111 @@ section#plans-hero-section {
 #plans-section-6 .bmi-bg {
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+
+.bmi-plans-tab > input,
+.bmi-plans-tab section > div {
+  display: none;
+}
+
+#bmi-plans-tabone:checked ~ section .bmi-plans-tabone,
+#bmi-plans-tabtwo:checked ~ section .bmi-plans-tabtwo,
+#bmi-plans-tabthree:checked ~ section .bmi-plans-tabthree {
+  display: block;
+}
+
+#bmi-plans-tabone:checked ~ nav .bmi-plans-tabone,
+#bmi-plans-tabtwo:checked ~ nav .bmi-plans-tabtwo,
+#bmi-plans-tabthree:checked ~ nav .bmi-plans-tabthree {
+  color: red;
+}
+
+.bmi-plans-tab {
+  width: 100%;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.bmi-plans-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.bmi-plans-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 15px 25px;
+  border-bottom: 0;
+  font-weight: 600;
+  width: 33%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
+}
+
+.bmi-plans-tabtwo ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 35px 25px;
+  border-bottom: 0;
+  font-weight: 600;
+  width: 33%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
+}
+
+.bmi-plans-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.bmi-plans-tab ul li label:active {
+  background: #ffffff;
+}
+
+.bmi-plans-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.bmi-plans-tab section div {
+  padding: 20px;
+  width: 100%;
+  letter-spacing: 0.3px;
+}
+
+.bmi-plans-tab section div h3 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#bmi-plans-tabone:checked ~ nav .bmi-plans-tabone label,
+#bmi-plans-tabtwo:checked ~ nav .bmi-plans-tabtwo label,
+#bmi-plans-tabthree:checked ~ nav .bmi-plans-tabthree label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#bmi-plans-tabone:checked ~ nav .bmi-plans-tabone label:after,
+#bmi-plans-tabtwo:checked ~ nav .bmi-plans-tabtwo label:after,
+#bmi-plans-tabthree:checked ~ nav .bmi-plans-tabthree label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
 }
 
 
@@ -4205,6 +4681,12 @@ section#bmi-travel-hero-section {
 #bmi-travel-section-1 .inf-btn:hover {
   background: #ffffff;
   color: #252362;
+}
+
+#elite-section1 a.read-more-btn {
+  color: #252362;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 #bmi-travel-section-1 .bmi-logo {
@@ -4513,74 +4995,6 @@ section#bmi-travel-section-2 {
 
 /* End of BMI Travel Styles */
 
-
-/* Tab CSS */
-.tabs {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.tabs label {
-  order: 1;
-  display: flex;
-  align-items: center;
-  padding: 20px 70px;
-  margin-right: 0.2rem;
-  cursor: pointer;
-  background-color: #F2F2F2;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.tabs .tab {
-  order: 9;
-  flex-grow: 1;
-  width: 100%;
-  display: none;
-  padding: 1rem;
-  background: #FFFFFF;
-  padding: 20px;
-}
-
-.tabs input[type="radio"] {
-  display: none;
-}
-
-.tabs input[type="radio"]:checked + label {
-  background: #fff;
-  border-top: 5px solid #252362;
-}
-
-.tabs input[type="radio"]:checked + label + .tab {
-  display: block;
-}
-
-#claims-form-section-4 .tabs label {
-  order: 1;
-  display: flex;
-  align-items: center;
-  padding: 20px 90px;
-  margin-right: 0.2rem;
-  cursor: pointer;
-  background-color: #F2F2F2;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-#claims-form-section-5 .tabs label {
-  order: 1;
-  display: flex;
-  align-items: center;
-  padding: 20px 30px;
-  margin-right: 0.2rem;
-  cursor: pointer;
-  background-color: #F2F2F2;
-  font-size: 15px;
-  font-weight: 500;
-}
-
-
-/* End of Tab CSS */
 
 
 /* End of Gillian CSS */
