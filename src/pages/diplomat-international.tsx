@@ -161,6 +161,37 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
                     </ul>
                   </div>
 
+                  <table className="policy">
+                    <tr className="text-center text-white title">
+                      <th colspan="2">Policy Medical Maximum Choices</th>
+                    </tr>
+
+                    <tr className="text-center">
+                      <td>Plan A</td>
+                      <td>$50,000</td>
+                    </tr>
+
+                    <tr className="text-center">
+                      <td>Plan B</td>
+                      <td>$100,000</td>
+                    </tr>
+
+                    <tr className="text-center">
+                      <td>Plan C</td>
+                      <td>$250,000</td>
+                    </tr>
+
+                    <tr className="text-center">
+                      <td>Plan D</td>
+                      <td>$500,000</td>
+                    </tr>
+
+                    <tr className="text-center">
+                      <td>Plan E</td>
+                      <td>$1,000,000</td>
+                    </tr>
+                  </table>
+
                   <div className="content-bg">
                     <p className="age">Persons up to age 69 are eligible for all plans;</p>
                     <p className="age">Persons age 70-79 are eligible for plans A and B;</p>
@@ -227,7 +258,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
 
                 <div className="international-tabtwo">
                   <div className="col-lg-12">
-                    <p className="text-center"><strong>Accidental Death, Dismemberment, Loss of Sight, and Speech and Hearing –</strong> The amount of the Principal Sum is $25,000 (unless the Enhanced AD&D Benefit is purchased). <strong>Enhanced AD&D Benefit</strong> (If Benefit Purchased) – The Principal Sum is increased from $25,000 to the selected amount not to exceed $1,000,000 of coverage.  The Enhanced AD&D Benefit is not available to children under 18 years of age.</p>
+                    <p className="text-center insurance"><strong>Accidental Death, Dismemberment, Loss of Sight, and Speech and Hearing –</strong> The amount of the Principal Sum is $25,000 (unless the Enhanced AD&D Benefit is purchased). <strong>Enhanced AD&D Benefit</strong> (If Benefit Purchased) – The Principal Sum is increased from $25,000 to the selected amount not to exceed $1,000,000 of coverage.  The Enhanced AD&D Benefit is not available to children under 18 years of age.</p>
 
                   <div className="content-bg">
                     <p>If within 365 days after the date of a covered accident, the Insured Person’s Injury results in death or dismemberment, this Plan provides the following benefits for loss of:</p>
@@ -319,6 +350,249 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
        </Container>
       </section>
 
+      <section id="diplomat-america-section-5">
+        <Container>
+          <div className="col-lg-12">
+            <h3 className="text-blue text-center row-title">Miscellaneous Information</h3>
+
+              <div className="miscellaneous-tab">
+                <input checked="checked" id="miscellaneous-tabone" type="radio" name="miscellaneous-information" />
+                <input id="miscellaneous-tabtwo" type="radio" name="miscellaneous-information" />
+                <input id="miscellaneous-tabthree" type="radio" name="miscellaneous-information" />
+                <input id="miscellaneous-tabfour" type="radio" name="miscellaneous-information" />
+
+                <nav>
+                  <ul>
+                    <li className="miscellaneous-tabone">
+                      <label for="miscellaneous-tabone">Exclusions</label>
+                    </li>
+                      <li className="miscellaneous-tabtwo">
+                      <label for="miscellaneous-tabtwo">Claims</label>
+                    </li>
+                    <li className="miscellaneous-tabthree">
+                    <label for="miscellaneous-tabthree">Premium Refund / Cancellation</label>
+                  </li>
+                  <li className="miscellaneous-tabfour">
+                  <label for="miscellaneous-tabfour">Accident Death & Dismemberment Benefits</label>
+                </li>
+                  </ul>
+                </nav>
+
+                <section>
+                  <div className="miscellaneous-tabone">
+                   <div className="col-lg-12">
+                    <p>The Plan Document does not cover any loss resulting from any of the following unless otherwise covered under the Plan Document by Additional Benefits:</p>
+                      <ul>
+                        <li>Suicide, attempted suicide (including drug overdose) self-destruction, attempted self-destruction or intentional self-inflicted Injury while sane or insane;</li>
+                        <li>War or any act of war, declared or undeclared; unless War Risk Benefit was purchased;</li>
+                        <li>An Accident which occurs while the Plan Participant is on Active Duty Service in any Armed Forces, National Guard, military, naval or air service or organized reserve corps;</li>
+                        <li>Injury sustained while in the service of the armed forces of any country. When the Plan Participant enters the armed forces of any country, We will refund the unearned pro rata premium upon request;</li>
+                        <li>Voluntary, active participation in a riot or insurrection;</li>
+                        <li>Medical expenses resulting from a motor vehicle accident in excess of that which is payable under any other valid and collectible insurance;</li>
+                        <li>Organ transplants;</li>
+                        <li>Treatment for an Injury or Sickness caused by, contributed to or resulting from the Plan Participant's voluntary use of alcohol, illegal drugs or any drugs or medication that is intentionally not taken in the dosage recommended by the manufacturer or for the purpose prescribed by the Plan Participant's Physician;</li>
+                        <li>Violation or in violation or attempt to violate any duly-enacted law or regulation, or commission or attempt to commit an assault or felony, or that occurs while engaged in an illegal occupation;</li>
+                        <li>Eligible Expenses for which the Plan Participant would not be responsible in the absence of the Plan Document;</li>
+                        <li>Treatment of acne;</li>
+                        <li>Charges which are in excess of Usual and Customary charges;</li>
+                        <li>Charges that are not Medically Necessary;</li>
+                        <li>Charges provided at no cost to the Plan Participant;</li>
+                        <li>Treatment of HIV infection, HIV related illness and AIDS (acquired immune deficiency syndrome);</li>
+                        <li>Expenses incurred for treatment while in Your Home Country; except as provided under the Home Country Coverage Benefit;</li>
+                        <li>Expenses incurred for an Accident or Sickness after the Benefit Period shown in the Schedule of Benefits or incurred after the termination date of coverage;</li>
+                        <li>Regular health checkups; routine physical, immunizations or other examination where there are no objective indications or impairment in normal health;</li>
+                        <li>Services or treatment rendered by a Physician, Registered Nurse or any other person who is employed or retained by the Participation Organization; or an Immediate family member of the Plan Participant;</li>
+                        <li>Injuries paid under Workers’ Compensation, Employer’s liability laws or similar occupational benefits or while engaging in an occupation for monetary gain from sources other than the Participation Organization;</li>
+                        <li>Benefits for enrolling solely for the purpose of obtaining Medical Treatment, while on a waiting list for a specific treatment, or while traveling against the advice of a Physician;</li>
+                        <li>Aggravation or re-injury of a prior Injury that the Plan Participant suffered prior to his or her coverage Effective Date, unless We receive a written medical release from the Plan Participant’s Physician;</li>
+                        <li>Pre-existing conditions as defined in the definitions; 24) Treatment of a hernia, including sports hernia, whether or not caused by a Covered Accident;</li>
+                        <li>Pregnancy or childbirth, miscarriage; elective abortion; elective cesarean section; or any complications of any of these conditions;</li>
+                        <li>Drug, treatment or procedure that either promotes or prevents conception, or prevents childbirth, including but not limited to: artificial insemination, treatment for infertility or impotency, sterilization or reversal thereof;</li>
+                        <li>Charges incurred for Surgery or treatments which are, Experimental/Investigational, or for research purposes;</li>
+                        <li>Expense incurred for treatment of temporomandibular joint (TMJ) disorders or craniomandibular joint dysfunction and associated myofascial pain;</li>
+                        <li>Dental care or treatment other than care of sound, natural teeth and gums required on account of Injury resulting from an Accident while the Plan Participant is covered under the Plan Document, and rendered within 6 months of the Accident; unless otherwise provided by the plan document;</li>
+                        <li>Eyeglasses, contact lenses, hearing aids braces, appliances, or examinations or prescriptions therefore;</li>
+                        <li>Private-duty nursing services;</li>
+                        <li>The cost of the Covered Person’s unused airline ticket for the transportation back to the Plan Participant’s Home Country, where an Emergency Medical Evacuation or Repatriation and/or Return of Mortal Remains benefit is provided;</li>
+                        <li>For the cost of a one way airplane ticket used in the transportation back to the Plan Participant's country where an air ambulance benefit is provided and medically necessary;</li>
+                        <li>Treatment paid for or furnished under any other individual or group Plan Document, or other service or medical prepayment plan arranged through the employer to the extent so furnished or paid, or under any mandatory government program or facility set up for the treatment without cost to any individual;</li>
+                        <li>Ionizing radiation or contamination by radioactivity from any nuclear fuel or from any nuclear waste, from combustion of nuclear fuel, the radioactive, toxic, explosive or other hazardous properties of any nuclear assembly or nuclear component of such assembly. Exclusions Continued:</li>
+                        <li>Plan Participant being exposed to the utilization of nuclear, chemical, or biological weapons of mass destruction.</li>
+                        <li>Travel in or upon: (a) A snowmobile; (b) A water jet ski; (c) Any two or three wheeled motor vehicle, other than a motorcycle registered for on-road travel; (d) Any off-road motorized vehicle not requiring licensing as a motor vehicle; when used for recreation or competition. Unless Hazardous Activity Benefit is purchased.</li>
+                        <li>Injury sustained while taking part in: mountaineering; hang gliding; parachuting; bungee jumping; racing by horse, motor vehicle or motorcycle; snowmobiling; motorcycle/motor scooter riding; scuba diving, involving underwater breathing apparatus; water skiing; snow skiing; spelunking; parasailing; white water rafting; surfing, unless part of a school credit course; and snowboarding. Unless Hazardous Activity Benefit is purchased.</li>
+                        <li>Practice or play in any amateur, club, intramural, interscholastic, intercollegiate, sports contest or competition; Unless Athletic Sports Activity Benefit is purchased.</li>
+                        <li>Practice or play in any professional or semiprofessional contest or competition;</li>
+                        <li>Rest cures or custodial care;</li>
+                        <li>Treatment of Mental and Nervous Disorders;</li>
+                        <li>Weight reduction programs or surgical treatment of obesity or venereal disease;</li>
+                        <li>Elective or Cosmetic surgery and Elective Treatment or treatment for congenital anomalies (except as specifically provided), except for reconstructive surgery on a diseased or injured part of the body (Correction of a deviated nasal septum is considered cosmetic surgery unless it results from a covered Injury or Sickness);</li>
+                        <li>Travel or flight in or on any vehicle for aerial navigation, including boarding or alighting from: a) While riding as a passenger in any Aircraft not intended or licensed for the transportation of passengers; or b) While being used for any test or experimental purpose; or c) While piloting, operating, learning to operate or serving as a member of the crew thereof; or d) while traveling in any such Aircraft or device which is owned or leased by or on behalf of the Participation Organization of any subsidiary or affiliate of the Participation Organization, or by the Plan Participant or any member of his household. e) A space craft or any craft designed for navigation above or beyond the earth's atmosphere; or f) An ultralight, hang-gliding, parachuting or bungee-cord jumping. Unless Hazardous Activity Benefit is purchased. Except as a fare paying passenger on a regularly scheduled commercial airline or as a passenger in a non-scheduled, private aircraft used for business or pleasure purposes. In addition to any of the exclusions listed above, for Eligible Expenses under Trip Interruption, this Insurance also does not cover the following: 1) The Plan Participant or Traveling Companion or Traveling Companion’s family making changes to personal plans; having business or contractual obligations; being unable to obtain necessary travel documents (passports, visas, etc.); being detained or having property confiscated by customs authorities; carrier caused delays (including bad weather); 2) Prohibition or regulatory by any government; default of yacht charter companies; default of the organization from which the Plan Participant purchased their trip arrangements; 3) A Pre-Existing Condition existing prior to the Plan Participant’s departure from their Home Country. In addition to any of the exclusions listed above, for Eligible Expenses under Baggage Loss and Delay, this Insurance also does not cover the following: (1) Animals; (2) Artificial teeth or limbs, hearing aids; (3) Sunglasses, contact lenses or eyeglasses; (4) Documents of any kind, including but not limited to documents, bills, currency, deeds, evidences of debt, letters of credit, stamps, credit cards, money, notes, securities, transportation or other tickets. Jurisdiction Limitation: Coverage is not available for citizens of the United States or Australia or any travel outside the United States.</li>
+                      </ul>
+                  </div>
+                 </div>
+
+               <div className="miscellaneous-tabtwo">
+                 <div className="col-lg-12">
+                 <p><strong>Claim Forms –</strong> The Company, upon receipt of a written notice of claim, will furnish to the claimant such forms as are usually furnished by it for filing proofs of loss. If such forms are not furnished within 15 days after the giving of such notice, the claimant shall be deemed to have complied with the requirements of this Plan by submitting, within the time fixed in this Plan for filing proofs of loss, written proof showing the occurrence, nature and extent of the loss for which claim is made. View Claim Forms</p>
+                 <p><strong>Proofs of Loss –</strong> Written proof of loss must be furnished to The Company at its said office in case of claim for loss for which this plan provides any periodic payment contingent upon continuing loss within 90 days after termination of each period for which The Company is liable and in case of claim for any other loss within 90 days after the date of such loss. Failure to furnish proof within the time required shall not invalidate nor reduce any claim if it is not reasonably possible to give proof within such time, provided proof is furnished as soon as reasonably possible.</p>
+                 <p><strong>Time of Payment of Claims –</strong> Indemnities payable under the plan for any loss other than loss for which the plan provides any periodic will be paid immediately upon receipt of due written proof of such loss. Subject to due written proof of loss, all accrued indemnities for loss for which the plan provides periodic payment will be paid at the expiration of each four weeks during the continuance of the period for which The Company is liable, and any balance remaining unpaid upon the termination of liability will be paid immediately upon receipt of due written proof.</p>
+                 <p><strong>Payment of Claims –</strong> Indemnity for loss of life will be payable in accordance without the beneficiary designation and the provisions respecting such payment which may be prescribed herein and effective at the time of payment. If no such designation or provision is then effective, such indemnity shall be payable to the estate of the Insured Person. Any other accrued indemnities unpaid at the Insured Person’s death may, at the option of The Company, be paid either to such beneficiary or to such estate. All other indemnities will be payable to the Insured Person. If any indemnity of the policy shall be payable to the estate of an Insured Person, or to an Insured Person who is a minor or otherwise not competent to give a valid release, The Company may pay such indemnity, up to an amount not exceeding $1000 to any relative by blood or connection by marriage of the Insured Person who is deemed by The Company to be equitably entitled thereto. Any payment made by The Company in good faith pursuant to this provision shall fully discharge The Company to the extent of such payment. Subject to any written direction of the Insured Person all or a portion of any indemnities provided by this plan on account of Hospital, nursing, medical or surgical service may, at The Company’s option and unless the Insured Person requests otherwise in writing not later than at the time for filing proof of such loss, be paid directly to the Hospital or person rendering such services, but it is not required that the service be rendered by a particular Hospital or person.</p>
+
+                 <p className="coverage">Home Country Coverage / Follow Me Home</p>
+                 <p>Incidental Trips to Your Home Country: This benefit covers you for incidental trips to your Home Country (60 days per 12 months of purchased coverage or pro rata thereof – example: approximately 5 days per month of purchased coverage). Maximum benefit is reduced to $50,000 for any illness or injury occurring while on an incidental trip to your Home Country. Follow Me Home Coverage: This plan shall pay for Covered Expenses incurred in your Home Country up to $5,000 for conditions first diagnosed outside Your Home Country (Does not apply for Emergency Evacuation or Repatriation).</p>
+
+                 <p className="coverage">War Risk Coverage</p>
+                 <p>In consideration of the payment of premium calculated in the manner stated in the policy to which the rider is attached, it is hereby agreed that for additional premium the policy is amended as follows: Any Exclusion under this Plan for “declared or undeclared war or any act thereof” is waived for an Insured Person’s loss caused in whole or in part by, or resulting in whole or in part from, declared or undeclared war or any act of declared or undeclared war, subject to the following restriction: The waiver applies with respect to accidents that occur within the geographic limits or territorial waters of, or airspace above the geographic limits or territorial waters of a Designated War Risk Territory (as defined herein). War Risk Coverage in a high risk country (listed below) requires payment of an additional premium and advance notice of travel. Termination Date- War Risk Coverage ends on the earliest of: (1) the date the Policy terminates; (2) the date specified in the Company’s written notice to the Policyholder or Participating Organization of the Company’s intent to terminate War Risk Coverage (or 10 days after the date the written notice is received by the Policyholder or Participating Organization, if later).Termination of War Risk Coverage will not affect a claim for a covered loss that occurred while War Risk Coverage was in effect.</p>
+
+                 <p><strong>War Risk Area 1</strong> (High War Risk – coverage is mandatory – covers your travels to countries in War Risk Areas 1, 2, and 3)</p>
+                 <p className="places">Afghanistan, Algeria, Cameroon, Iraq, Israel, Libya, Nigeria, North Korea, Pakistan, Palestinian Territories, Russian Federation (North Caucasus Region of Russia), Saudi Arabia, Somalia, Syria, Ukraine and Yemen.</p>
+                 <p><strong>War Risk Area 2</strong> (Medium War Risk – coverage is highly recommended – covers your travels to countries in War Risk Areas 2 and 3)</p>
+                 <p className="places">Armenia, Azerbaijan, Bahrain, Bangladesh, Bolivia, Burma, Burundi, Central African Republic, Chad, Colombia, Dem. Republic of Congo, East Timor, Egypt, Eritrea, Haiti, India (Jammu, Kashmir and Mumbai), Indonesia, Ivory Coast, Kenya, Kyrgyzstan, Lebanon, Liberia, Mali, Mauritania, Mexico, Nepal, Niger, Oman, Papua New Guinea, Philippines, Qatar, Sierra Leone, South Sudan, Sri Lanka, Sudan, Uzbekistan, Venezuela and Zimbabwe.</p>
+                 <p><strong>War Risk Area 3</strong> (Low War Risk – recommended – covers your travels to countries in War Risk Area 3)</p>
+                 <p className="places">All other countries not listed in Area 1 or Area 2 locations.</p>
+                 <p><strong>Country Specific Information –</strong> We provide Country Specific Information for every country of the world. For each country, you will find information like the location of the U.S. embassy and any consular offices; whether you need a visa; crime and security information; health and medical conditions; drug penalties; and localized hot spots. This is a good place to start learning about where you are going.</p>
+                 <p><strong>Changes in Terms and Conditions –</strong> The terms and conditions of War Risk Coverage, including but not limited to the definition of the Designated War Risk Territory(ies), may be changed at any time to reflect conditions that, in the opinion of the Company, constitute a change in the war risk exposure of the Participating Organization or the Insured Person.</p>
+                 </div>
+                 </div>
+
+                 <div className="miscellaneous-tabthree">
+                 <div className="col-lg-12">
+                    <p className="text-center">Refund of premium, less a $25 processing fee, will be considered if written request is received prior to the effective date of coverage. After that date, the premium is considered fully earned and non-refundable. Partial refunds are not available.</p>
+                 </div>
+                 </div>
+
+                 <div className="miscellaneous-tabfour">
+                 <div className="col-lg-12">
+                    <p className="text-center">Purchase up to $1,000,000 of 24-hour Accidental Death & Dismemberment coverage. Benefits and exclusions are the same as base plan.</p>
+                 </div>
+                 </div>
+                </section>
+              </div>
+              </div>
+            </Container>
+          </section>
+
+          <section id="diplomat-internatinal-section-6">
+            <Container>
+              <div className="col-lg-12">
+               <h3 className="text-blue text-center row-title">Enroll in Diplomat America Below</h3>
+                <div className="row diplomat-international-container">
+                  <div className="col-lg-12">
+                    <h4 className="text-blue text-center">Visitor Application</h4>
+
+                  <div class="first-bg">
+                    <form>
+                    <select id="coverage" name="coverage">
+                      <option value="coverage">Coverage Area</option>
+                      <option value="coverage">Coverage Area</option>
+                    </select>
+
+                    <div className="calendar">
+                      <div className="row">
+                      <div className="col-lg-6">
+                        <input type="date" name="date" placeholder="Coverage Start" />
+                      </div>
+
+                      <div className="col-lg-6">
+                        <input type="date" name="date" placeholder="Coverage End" />
+                      </div>
+                    </div>
+                   </div>
+                 </form>
+                </div>
+
+                  <div className="second-bg">
+                    <p className="text-white text-center">Traveller Ages</p>
+                  </div>
+
+                  <div className="col-lg-12">
+                   <div className="row">
+                    <div className="col-lg-6">
+                    <form>
+                      <select id="traveller" name="traveller">
+                        <option value="traveller">Traveller One Range</option>
+                        <option value="traveller">Traveller One Range</option>
+                      </select>
+                    </form>
+                    </div>
+
+                      <div className="col-lg-6">
+                      <button className="visit-btn"> +Add Traveller </button>
+                      </div>
+                    </div>
+                  </div>
+
+                    <form>
+                    <select id="dependents" name="dependents">
+                      <option value="dependents">Minor Dependents (0-17)</option>
+                      <option value="dependents">Minor Dependents (0-17)</option>
+                    </select>
+                    </form>
+
+                <div className="second-bg">
+                  <p className="text-white text-center">Plan Selection</p>
+                </div>
+
+                <div className="col-lg-12">
+                 <div className="row">
+                  <div className="col-lg-6">
+                    <form>
+                      <select id="plan" name="plan">
+                        <option value="plan">Select Plan</option>
+                        <option value="plan">Select Plan</option>
+                      </select>
+                    </form>
+                    </div>
+
+                  <div className="col-lg-6">
+                    <form>
+                      <select id="maximum" name="maximum">
+                        <option value="maximum">Select Policy Maximum</option>
+                        <option value="maximum">Select Policy Maximum</option>
+                      </select>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+                <div className="col-lg-12">
+                  <div className="row">
+                    <div className="col-lg-6">
+                    <form>
+                      <select id="deductible" name="deductible">
+                        <option value="deductible">Select Policy Deductible</option>
+                        <option value="deductible">Select Policy Deductible</option>
+                      </select>
+                    </form>
+                    </div>
+
+                  <div className="col-lg-6">
+                    <form>
+                      <select id="add" name="add">
+                        <option value="add">Add (Accidental Death & Dismemberment)</option>
+                        <option value="add">Add (Accidental Death & Dismemberment)</option>
+                      </select>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+                <div className="col-lg-12">
+                  <div className="row">
+                   <div className="col-lg-6">
+                    <button className="visit-btn1"> Reset </button>
+                   </div>
+
+                   <div className="col-lg-6">
+                      <button className="visit-btn2"> Next </button>
+                   </div>
+                 </div>
+                </div>
+              </div>
+             </div>
+             </div>
+            </Container>
+          </section>
     </Layout>
   )
 }

@@ -62,7 +62,6 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
          <div className="col-lg-8">
           <p>INF-BMI plans provide assistance for international trips with no deductible or copayments and provides coverage for full pre-existing conditions, acute onset of pre-existing conditions, and COVID-19 as per the limits in the policy.</p>
           <p>INF recommends enrolling in the Ultra Plus, VIP, VIP Plus- which provides comprehensive coverage for pre-existing, acute onset of pre-existing conditions, and COVID-19. INF-BMI plans can provide these innovative visitor insurance options.</p>
-          <a href="#" className="read-more-btn">READ MORE <FaAngleDoubleDown className="double-arrow-down" /></a>
          </div>
           <div className="col-lg-4">
             <Img fluid={bmi_logo} className="bmi-logo"/>
@@ -237,18 +236,27 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
             </ul>
           </div>
 
-        <div className="col-lg-12">
-          <div className="row bmi-travel-container">
-            <div className="col-lg-4">
-              <h4 className="text-center">Medical Benefits | $0 Deductible Plans With 100% Coverage</h4>
-            </div>
-            <div className="col-lg-4">
-              <h4 className="text-center">Travel Assistance Benefits</h4>
-            </div>
-            <div className="col-lg-4">
-              <h4 className="text-center">Other Plan Benefits</h4>
-            </div>
+          <div className="conditions-tab">
+            <input checked="checked" id="conditions-tabone" type="radio" name="conditions" />
+            <input id="conditions-tabtwo" type="radio" name="conditions" />
+            <input id="conditions-tabthree" type="radio" name="conditions" />
 
+            <nav>
+              <ul>
+                <li className="conditions-tabone">
+                  <label for="conditions-tabone">Medical Benefits | $0 Deductible Plans With 100% Coverage</label>
+                </li>
+               <li className="conditions-tabtwo">
+                 <label for="conditions-tabtwo">Travel Assistance Benefits</label>
+                </li>
+                <li className="conditions-tabthree">
+                  <label for="conditions-tabthree">Other Plan Benefits</label>
+                 </li>
+              </ul>
+            </nav>
+
+      <section>
+        <div class="conditions-tabone">
           <table>
             <tr className="text-center text-white">
               <th>Benefits</th>
@@ -323,7 +331,8 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
             </tr>
           </table>
         </div>
-      </div>
+      </section>
+        </div>
      </Container>
     </section>
 
@@ -365,6 +374,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
               </td>
             </tr>
          </table>
+
         </div>
       </Container>
      </section>
@@ -375,29 +385,41 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
            <h3 className="text-blue text-center">Plan Options for Visitors to USA</h3>
            <p className="text-center content">Different plan options according to the type and length of the trip, whether for business, pleasure, studies, and regardless if you travel by air, sea or land.​</p>
 
-           <div className="col-lg-12">
-             <div className="row bmi-travel-container">
-               <div className="col-lg-2">
-                 <h4 className="text-center">Daily Plan</h4>
-               </div>
-               <div className="col-lg-2">
-                 <h4 className="text-center">Family Plan</h4>
-               </div>
-               <div className="col-lg-2">
-                 <h4 className="text-center">Student Plan</h4>
-               </div>
-               <div className="col-lg-2">
-                 <h4 className="text-center">Extended Stay Plan</h4>
-               </div>
-               <div className="col-lg-2">
-                 <h4 className="text-center">Multi-Trip Annual Plan</h4>
-               </div>
-               <div className="col-lg-2">
-                 <h4 className="text-center">Corporate Plan</h4>
-               </div>
+           <div className="options-tab">
+             <input checked="checked" id="options-tabone" type="radio" name="options" />
+             <input id="options-tabtwo" type="radio" name="options" />
+             <input id="options-tabthree" type="radio" name="options" />
+             <input id="options-tabfour" type="radio" name="options" />
+             <input id="options-tabfive" type="radio" name="options" />
+             <input id="options-tabsix" type="radio" name="options" />
 
+             <nav>
+               <ul>
+                 <li className="options-tabone">
+                   <label for="options-tabone">Daily Plan</label>
+                 </li>
+                <li className="options-tabtwo">
+                  <label for="options-tabtwo">Family Plan</label>
+                 </li>
+                 <li className="options-tabthree">
+                   <label for="options-tabthree">Student Plan</label>
+                  </li>
+                  <li className="options-tabfour">
+                    <label for="options-tabfour">Extended Stay Plan</label>
+                   </li>
+                   <li className="options-tabfive">
+                     <label for="options-tabfive">Multi-Trip Annual Plan</label>
+                    </li>
+                    <li className="options-tabsix">
+                      <label for="options-tabsix">Corporate Plan</label>
+                     </li>
+               </ul>
+             </nav>
+
+          <section>
+            <div className="options-tabone">
             <div className="col-lg-12">
-              <ul>
+              <ul className="plan-options">
                 <li>Offers protection for a single round trip</li>
                 <li>Minimum 5 day - Maximum 90 consecutive days of travel</li>
                 <li>Pay for the exact days of your trip</li>
@@ -405,15 +427,67 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
 
               <p>Optional:</p>
 
-              <ul>
+              <ul className="plan-options">
                 <li>Expectant Mother</li>
                 <li>Preexisting Condition</li>
                 <li>COVID-19 for people over 70 years old</li>
               </ul>
             </div>
+            </div>
+
+            <div className="options-tabtwo">
+            <div className="col-lg-12">
+              <ul className="plan-options">
+                <li>Designed for families consisting of 2 adults (spouses or not) over 21 years old</li>
+                <li>Up to 3 children under 21 years of age</li>
+                <li>Minimum 5 days - Maximum 90 consecutive days of travel</li>
+                <li>Three people minimum purchase for this plan.</li>
+              </ul>
+            </div>
+            </div>
+
+            <div className="options-tabthree">
+            <div className="col-lg-12">
+              <ul className="plan-options">
+                <li>Designed for international students up to 45 years old</li>
+                <li>Minimum 4 months - Maximum 12 consecutive months of travel.</li>
+              </ul>
+            </div>
+            </div>
+
+            <div className="options-tabfour">
+            <div className="col-lg-12">
+              <ul className="plan-options">
+                <li>Ideal for parents staying in the USA for long-term pleasure trips</li>
+                <li>Minimum two months (60 days)</li>
+                <li>Maximum one calendar year (365 consecutive days of travel).</li>
+              </ul>
+            </div>
+            </div>
+
+            <div className="options-tabfive">
+            <div className="col-lg-12">
+              <ul className="plan-options">
+                <li>Ideal if you travel for pleasure multiple times during a calendar year </li>
+                <li>Four plan options: Max. 30, 45, 60 or 90 consecutive days of travel.</li>
+                <li>​Optional: COVID-19 for people over 70 years old</li>
+              </ul>
+            </div>
+            </div>
+
+            <div className="options-tabsix">
+            <div className="col-lg-12">
+              <ul className="plan-options">
+                <li>Ideal for companies with a large number of travelers</li>
+                <li>The plan is pre-purchased from 250 or more days of assistance</li>
+                <li>The plan has a validity of 365 days from its purchase</li>
+                <li>Self-management platform for better control and distribution of each traveler.</li>
+              </ul>
+            </div>
+            </div>
+          </section>
            </div>
           </div>
-         </div>
        </Container>
       </section>
 

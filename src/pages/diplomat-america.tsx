@@ -127,28 +127,28 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
       <Container>
         <div className="col-lg-12">
          <h3 className="text-blue text-center row-title">Diplomat America Benefits</h3>
-          <div className="row diplomat-america-container">
-          <div class="pc-tab">
-            <input checked="checked" id="tab1" type="radio" name="pct" />
-            <input id="tab2" type="radio" name="pct" />
 
-              <nav>
-                <ul>
-                  <li className="tabone">
-                    <label for="tabone">Covered Medical Expenses (All Policies)</label>
-                  </li>
-                  <li className="tabtwo">
-                    <label for="tabtwo">Co-Insurance</label>
-                  </li>
-                </ul>
-              </nav>
+         <div className="benefits-tab">
+           <input checked="checked" id="benefits-tabone" type="radio" name="diplomat-america" />
+           <input id="benefits-tabtwo" type="radio" name="diplomat-america" />
 
-              <section>
-                <div className="tabtwo">
+           <nav>
+             <ul>
+               <li className="benefits-tabone">
+                 <label for="benefits-tabone">Covered Medical Expenses (All Policies)</label>
+               </li>
+                 <li className="benefits-tabtwo">
+                 <label for="benefits-tabtwo">Co-Insurance</label>
+               </li>
+             </ul>
+           </nav>
+
+            <section>
+              <div className="benefits-tabone">
                 <div className="col-lg-12">
-                  <div className="row">
-                      <p className="text-center">Expenses that are specifically enumerated in the following list of charges that are incurred for medical care and supplies which are:</p>
-                    </div>
+                 <div className="row">
+                    <p className="text-center expenses">Expenses that are specifically enumerated in the following list of charges that are incurred for medical care and supplies which are:</p>
+                  </div>
 
                     <div className="col-lg-12">
                       <ul className="alpha-list">
@@ -174,7 +174,8 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                     </div>
                   </div>
                   </div>
-              <div className="tabtwo">
+
+              <div className="benefits-tabtwo">
                <div className="col-lg-12">
                 <p className="text-center first-content">After you pay the selected deductible, the plan pays <strong>80% up to $5,000</strong> of eligible costs, then <strong>100% to the Medical Maximum.</strong> There will be an additional $250 deductible for each <strong>emergency room visit as a result of an Illness. The emergency room deductible will be waived if hospital admittance is within 12 hours of the incident.</strong></p>
                 <p className="text-center"><strong>Deductible Choices:</strong> $0, $50, $100, $250, $500, $1,000, $2,500, $5000 (per person per policy period).</p>
@@ -182,7 +183,6 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
            </div>
          </section>
         </div>
-       </div>
       </div>
      </Container>
     </section>
@@ -191,37 +191,38 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
       <Container>
         <div className="col-lg-12">
          <h3 className="text-blue text-center row-title">Miscellaneous Information</h3>
-          <div className="row diplomat-america-container">
-          <div class="pc-tab">
-            <input checked="checked" id="tab1" type="radio" name="pct" />
-            <input id="tab2" type="radio" name="pct" />
-            <input id="tab3" type="radio" name="pct" />
-            <input id="tab4" type="radio" name="pct" />
-              <nav>
-                <ul>
-                  <li class="tab1">
-                    <label for="tab1">Exclusions</label>
-                  </li>
-                  <li class="tab2">
-                    <label for="tab2">Claims</label>
-                  </li>
-                  <li class="tab3">
-                    <label for="tab3">Premium Refund / Cancellation</label>
-                  </li>
-                  <li class="tab4">
-                    <label for="tab4">Accident Death & Dismemberment Benefits</label>
-                  </li>
-                </ul>
-              </nav>
+
+         <div className="info-tab">
+           <input checked="checked" id="info-tabone" type="radio" name="miscellaneous-information" />
+           <input id="info-tabtwo" type="radio" name="miscellaneous-information" />
+           <input id="info-tabthree" type="radio" name="miscellaneous-information" />
+           <input id="info-tabfour" type="radio" name="miscellaneous-information" />
+
+           <nav>
+             <ul>
+               <li className="info-tabone">
+                 <label for="info-tabone">Covered Medical Expenses (All Policies)</label>
+               </li>
+              <li className="info-tabtwo">
+                <label for="info-tabtwo">Claims</label>
+               </li>
+               <li className="info-tabthree">
+                 <label for="info-tabthree">Premium Refund / Cancellation</label>
+                </li>
+                <li className="info-tabfour">
+                  <label for="info-tabfour">Accident Death & Dismemberment Benefits</label>
+                 </li>
+             </ul>
+           </nav>
 
               <section>
-                <div class="tab1">
+                <div class="info-tabone">
                 <div className="col-lg-12">
                   <div className="row">
                       <p className="text-center">The Plan Document does not cover any loss resulting from any of the following unless otherwise covered under the Plan Document by Additional Benefits:</p>
                     </div>
 
-                <div className="col-lg-12">
+                 <div className="col-lg-12">
                       <ul>
                         <li className="exclusions">Suicide, attempted suicide (including drug overdose) self-destruction, attempted self-destruction or intentional self-inflicted Injury while sane or insane;</li>
                         <li className="exclusions">prescribed by a Physician for the therapeutic treatment of a disablement;</li>
@@ -273,14 +274,14 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                   </div>
                 </div>
 
-                <div class="tab2">
+                <div class="info-tabtwo">
                 <div className="col-lg-12">
                   <div className="row">
                       <p className="text-center">Refund of premium, less a $25 processing fee, will be considered if written request is received prior to the effective date of coverage. After that date, the premium is considered fully earned and non-refundable. Partial refunds are not available.</p>
                     </div>
                   </div>
 
-                    <div className="col-lg-12">
+                    <div className="col-lg-12 claims">
                         <p>Claim Forms:</p>
                             <ul>
                               <li className="claims">Accident & Sickness</li>
@@ -292,7 +293,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                             </ul>
                       </div>
 
-                      <div className="col-lg-12">
+                      <div className="col-lg-12 administrator">
                           <p>Claim Administrator: </p>
                           <p>Global Claims Administration</p>
                           <p>3195 Linwood Rd, Suite 201</p>
@@ -303,28 +304,28 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                       </div>
                 </div>
 
-                <div class="tab3">
+                <div class="info-tabthree">
                 <div className="col-lg-12">
                   <div className="row">
                       <p className="text-center">Refund of premium, less a $25 processing fee, will be considered if written request is received prior to the effective date of coverage. After that date, the premium is considered fully earned and non-refundable. Partial refunds are not available.</p>
                     </div>
                 </div>
 
-                <div class="tab4">
+                <div class="info-tabfour">
                 <div className="col-lg-12">
                   <div className="row">
-                      <p className="text-center">Enhanced AD&D Benefit Rates (Per Person / Month) *Enhanced AD&D amount and additional rate apply to age 18+</p>
+                      <p className="text-center enhanced">Enhanced AD&D Benefit Rates (Per Person / Month) *Enhanced AD&D amount and additional rate apply to age 18+</p>
                     </div>
 
                 <div className="col-lg-12">
                   <div className="row mt-4">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 total">
                       <ul>
                         <li className="accident">$100,000 Total Coverage ................ $6.00</li>
                         <li className="accident">$250,000 Total Coverage .................$18.00</li>
                       </ul>
                     </div>
-                   <div className="col-lg-6">
+                   <div className="col-lg-6 total">
                     <ul>
                         <li className="accident">$750,000 Total Coverage................... $58.00</li>
                         <li className="accident">$1,000,000 Total Coverage................. $78.00</li>
@@ -337,7 +338,6 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
               </div>
               </section>
-          </div>
          </div>
        </div>
      </Container>
@@ -357,29 +357,41 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                 <option value="coverage">Coverage Area</option>
                 <option value="coverage">Coverage Area</option>
               </select>
-              </form>
-            </div>
+
+              <div className="calendar">
+                <div className="row">
+                <div className="col-lg-6">
+                  <input type="date" name="date" placeholder="Coverage Start" />
+                </div>
+
+                <div className="col-lg-6">
+                  <input type="date" name="date" placeholder="Coverage End" />
+                </div>
+              </div>
+             </div>
+           </form>
+          </div>
 
             <div className="second-bg">
               <p className="text-white text-center">Traveller Ages</p>
             </div>
 
-              <div className="col-lg-12">
-              <div className="row">
+            <div className="col-lg-12">
+             <div className="row">
               <div className="col-lg-6">
               <form>
-              <select id="traveller" name="traveller">
-                <option value="traveller">Traveller One Range</option>
-                <option value="traveller">Traveller One Range</option>
-              </select>
+                <select id="traveller" name="traveller">
+                  <option value="traveller">Traveller One Range</option>
+                  <option value="traveller">Traveller One Range</option>
+                </select>
               </form>
               </div>
 
-              <div className="col-lg-6">
-              <button className="visit-btn"> +Add Traveller </button>
+                <div className="col-lg-6">
+                <button className="visit-btn"> +Add Traveller </button>
+                </div>
               </div>
-              </div>
-              </div>
+            </div>
 
               <form>
               <select id="dependents" name="dependents">
@@ -388,66 +400,68 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
               </select>
               </form>
 
-              <div className="second-bg">
-                <p className="text-white text-center">Plan Selection</p>
-              </div>
-              <div className="col-lg-12">
-              <div className="row">
-              <div className="col-lg-6">
+                <div className="second-bg">
+                  <p className="text-white text-center">Plan Selection</p>
+                </div>
+
+          <div className="col-lg-12">
+           <div className="row">
+            <div className="col-lg-6">
               <form>
-              <select id="plan" name="plan">
-                <option value="plan">Select Plan</option>
-                <option value="plan">Select Plan</option>
-              </select>
+                <select id="plan" name="plan">
+                  <option value="plan">Select Plan</option>
+                  <option value="plan">Select Plan</option>
+                </select>
               </form>
               </div>
 
-              <div className="col-lg-6">
+            <div className="col-lg-6">
               <form>
-              <select id="maximum" name="maximum">
-                <option value="maximum">Select Policy Maximum</option>
-                <option value="maximum">Select Policy Maximum</option>
-              </select>
+                <select id="maximum" name="maximum">
+                  <option value="maximum">Select Policy Maximum</option>
+                  <option value="maximum">Select Policy Maximum</option>
+                </select>
               </form>
-              </div>
-              </div>
-              </div>
-
-              <div className="col-lg-12">
-              <div className="row">
-              <div className="col-lg-6">
-              <form>
-              <select id="deductible" name="deductible">
-                <option value="deductible">Select Policy Deductible</option>
-                <option value="deductible">Select Policy Deductible</option>
-              </select>
-              </form>
-              </div>
-
-              <div className="col-lg-6">
-              <form>
-              <select id="add" name="add">
-                <option value="add">Add (Accidental Death & Dismemberment)</option>
-                <option value="add">Add (Accidental Death & Dismemberment)</option>
-              </select>
-              </form>
-              </div>
-              </div>
-              </div>
-
-              <div className="col-lg-12">
-              <div className="row">
-              <div className="col-lg-6">
-              <button className="visit-btn1"> Reset </button>
-              </div>
-              <div className="col-lg-6">
-              <button className="visit-btn2"> Next </button>
-              </div>
-              </div>
-              </div>
             </div>
           </div>
         </div>
+
+          <div className="col-lg-12">
+            <div className="row">
+              <div className="col-lg-6">
+              <form>
+                <select id="deductible" name="deductible">
+                  <option value="deductible">Select Policy Deductible</option>
+                  <option value="deductible">Select Policy Deductible</option>
+                </select>
+              </form>
+              </div>
+
+            <div className="col-lg-6">
+              <form>
+                <select id="add" name="add">
+                  <option value="add">Add (Accidental Death & Dismemberment)</option>
+                  <option value="add">Add (Accidental Death & Dismemberment)</option>
+                </select>
+              </form>
+            </div>
+          </div>
+        </div>
+
+          <div className="col-lg-12">
+            <div className="row">
+             <div className="col-lg-6">
+              <button className="visit-btn1"> Reset </button>
+             </div>
+
+             <div className="col-lg-6">
+                <button className="visit-btn2"> Next </button>
+             </div>
+           </div>
+          </div>
+        </div>
+       </div>
+       </div>
       </Container>
     </section>
 

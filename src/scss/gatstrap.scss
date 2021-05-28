@@ -4324,12 +4324,103 @@ section#claims-form-section-1 {
 }
 
 #claims-form-section-4 h4 {
-  padding-top: 15px;
   font-weight: 600;
+  padding-bottom: 20px;
+  margin-top: -40px;
 }
 
 #claims-form-section-4 p {
   line-height: 2;
+}
+
+.additional-tab > input,
+.additional-tab section > div {
+  display: none;
+}
+
+#additional-tabone:checked ~ section .additional-tabone,
+#additional-tabtwo:checked ~ section .additional-tabtwo {
+  display: block;
+}
+
+#additional-tabone:checked ~ nav .additional-tabone,
+#additional-tabtwo:checked ~ nav .additional-tabtwo {
+  color: red;
+}
+
+.additional-tab {
+  width: 100%;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.additional-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.additional-tab section div ul {
+  line-height: 2;
+  list-style: decimal;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: -20px;
+}
+
+.additional-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 30px 50px;
+  border-bottom: 0;
+  font-weight: 600;
+  width: 50%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
+}
+
+.additional-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.additional-tab ul li label:active {
+  background: #ffffff;
+}
+
+.additional-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.additional-tab section div {
+  padding: 20px;
+  width: 100%;
+  letter-spacing: 0.3px;
+}
+
+#additional-tabone:checked ~ nav .additional-tabone label,
+#additional-tabtwo:checked ~ nav .additional-tabtwo label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#additional-tabone:checked ~ nav .additional-tabone label:after,
+#additional-tabtwo:checked ~ nav .additional-tabtwo label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
 }
 
 #claims-form-section-5 .claims-process-container {
@@ -4350,6 +4441,100 @@ section#claims-form-section-1 {
 
 #claims-form-section-5 p {
   line-height: 2;
+}
+
+.process-tab > input,
+.process-tab section > div {
+  display: none;
+}
+
+#process-tabone:checked ~ section .process-tabone,
+#process-tabtwo:checked ~ section .process-tabtwo,
+#process-tabthree:checked ~ section .process-tabthree {
+  display: block;
+}
+
+#process-tabone:checked ~ nav .process-tabone,
+#process-tabtwo:checked ~ nav .process-tabtwo,
+#process-tabthree:checked ~ nav .process-tabthree {
+  color: red;
+}
+
+.process-tab {
+  width: 100%;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.process-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.process-tab section div ul {
+  line-height: 2;
+  list-style: decimal;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: -20px;
+}
+
+.process-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 30px 50px;
+  border-bottom: 0;
+  font-weight: 600;
+  width: 33%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
+}
+
+.process-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.process-tab ul li label:active {
+  background: #ffffff;
+}
+
+.process-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.process-tab section div {
+  padding: 20px;
+  width: 100%;
+  letter-spacing: 0.3px;
+}
+
+#process-tabone:checked ~ nav .process-tabone label,
+#process-tabtwo:checked ~ nav .process-tabtwo label,
+#process-tabthree:checked ~ nav .process-tabthree label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#process-tabone:checked ~ nav .process-tabone label:after,
+#process-tabtwo:checked ~ nav .process-tabtwo label:after,
+#process-tabthree:checked ~ nav .process-tabthree label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
 }
 
 #claims-form-section-3 .tab-content {
@@ -4503,17 +4688,115 @@ section#diplomat-america-section-3 {
 }
 
 #diplomat-america-section-4 .first-content {
-  padding-top: 20px;
+  margin-top: -50px;
 }
 
 #diplomat-america-section-4 p {
-  padding-top: 30px;
   line-height: 2;
 }
 
-#diplomat-america-section-4 .diplomat-america-container {
-  box-shadow: 0px 0px 12px 0px #888888;
-  padding: 50px 50px 40px 50px;
+#diplomat-america-section-4 .expenses{
+  line-height: 2;
+  margin-top: -50px;
+}
+
+
+.benefits-tab > input,
+.benefits-tab section > div {
+  display: none;
+}
+
+#benefits-tabone:checked ~ section .benefits-tabone,
+#benefits-tabtwo:checked ~ section .benefits-tabtwo {
+  display: block;
+}
+
+#benefits-tabone:checked ~ nav .benefits-tabone,
+#benefits-tabtwo:checked ~ nav .benefits-tabtwo {
+  color: $black;
+}
+
+.benefits-tab {
+  width: 100%;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.benefits-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.benefits-tab section div ul {
+  line-height: 2;
+  list-style: disc;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: -20px;
+}
+
+.benefits-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 30px 50px;
+  border-bottom: 0;
+  font-weight: 600;
+  width: 50%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
+}
+
+.benefits-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.benefits-tab ul li label:active {
+  background: #ffffff;
+}
+
+.benefits-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.benefits-tab section div {
+  padding: 20px;
+  width: 100%;
+  letter-spacing: 0.3px;
+}
+
+.benefits-tab section div h4 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  font-weight: 600;
+  float: left;
+}
+
+#benefits-tabone:checked ~ nav .benefits-tabone label,
+#benefits-tabtwo:checked ~ nav .benefits-tabtwo label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#benefits-tabone:checked ~ nav .benefits-tabone label:after,
+#benefits-tabtwo:checked ~ nav .benefits-tabtwo label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
 }
 
 #diplomat-america-section-5 h3 {
@@ -4522,13 +4805,129 @@ section#diplomat-america-section-3 {
   padding-bottom: 40px;
 }
 
-#diplomat-america-section-5 .diplomat-america-container {
-  box-shadow: 0px 0px 12px 0px #888888;
-  padding: 50px 50px 40px 50px;
+.info-tab > input,
+.info-tab section > div {
+  display: none;
+}
+
+#info-tabone:checked ~ section .info-tabone,
+#info-tabtwo:checked ~ section .info-tabtwo,
+#info-tabthree:checked ~ section .info-tabthree,
+#info-tabfour:checked ~ section .info-tabfour {
+  display: block;
+}
+
+#info-tabone:checked ~ nav .info-tabone,
+#info-tabtwo:checked ~ nav .info-tabtwo,
+#info-tabthree:checked ~ section .info-tabthree,
+#info-tabfour:checked ~ section .info-tabfour {
+  color: $black;
+}
+
+.info-tab {
+  width: 100%;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.info-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.info-tab section div ul {
+  line-height: 2;
+  list-style: disc;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.info-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 30px 50px;
+  border-bottom: 0;
+  font-weight: 600;
+  width: 25%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
+}
+
+.info-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.info-tab ul li label:active {
+  background: #ffffff;
+}
+
+.info-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.info-tab section div {
+  padding: 20px;
+  width: 100%;
+  letter-spacing: 0.3px;
+}
+
+.info-tab section div h4 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  font-weight: 600;
+  float: left;
+}
+
+#info-tabone:checked ~ nav .info-tabone label,
+#info-tabtwo:checked ~ nav .info-tabtwo label,
+#info-tabthree:checked ~ section .info-tabthree label,
+#info-tabfour:checked ~ section .info-tabfour label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#info-tabone:checked ~ nav .info-tabone label:after,
+#info-tabtwo:checked ~ nav .info-tabtwo label:after,
+#info-tabthree:checked ~ nav .info-tabthree label:after,
+#info-tabfour:checked ~ nav .info-tabfour label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
 }
 
 #diplomat-america-section-5 li {
   margin-bottom: 10px;
+}
+
+.info-tab .claims {
+  padding-left: 30px;
+}
+
+.info-tab .administrator {
+  padding-left: 50px;
+}
+
+.info-tab .enhanced {
+  margin-top: -60px;
+}
+
+.info-tab .total {
+  margin-top: -50px;
 }
 
 #diplomat-america-section-6 .diplomat-america-container {
@@ -4596,6 +4995,29 @@ section#diplomat-america-section-3 {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  color: #252362;
+}
+
+#diplomat-america-section-6 input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #252362;
+}
+
+#diplomat-america-section-6 input[type="date"]:before {
+  content: attr(placeholder) !important;
+  color: #252362;
+  margin-right: 0.5em;
+}
+
+#diplomat-america-section-6 input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+  content: "";
 }
 
 #diplomat-america-section-6 p {
@@ -4614,6 +5036,7 @@ section#diplomat-america-section-3 {
 
 #diplomat-america-section-4 .alpha-list li {
   list-style-type: lower-alpha;
+  padding-top: 10px;
 }
 
 #diplomat-america-section-4 .number-list li {
@@ -4769,6 +5192,16 @@ section#diplomat-international-section-3 {
   padding: 10px;
   font-weight: 400;
   font-size: 18px;
+  width: 50%;
+}
+
+.international-tab .policy {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.international-tab .insurance {
+  margin-top: -50px;
 }
 
 .international-tab .first-content {
@@ -4777,18 +5210,18 @@ section#diplomat-international-section-3 {
 
 .international-tab .first {
   margin-top: 40px;
-  width: 100%
+  width: 100%;
 }
 
 .international-tab .second {
   margin-top: 40px;
-  width: 100%
+  width: 100%;
 }
 
 .international-tab .content-bg {
   background-color: #F8F8F8;
-  padding: 20px;
-}
+  margin-top: 30px;
+  }
 
 .international-tab .expenses-content {
   line-height: 2;
@@ -4897,6 +5330,225 @@ section#diplomat-international-section-3 {
   bottom: -1px;
 }
 
+.miscellaneous-tab > input,
+.miscellaneous-tab section > div {
+  display: none;
+}
+
+#miscellaneous-tabone:checked ~ section .miscellaneous-tabone,
+#miscellaneous-tabtwo:checked ~ section .miscellaneous-tabtwo,
+#miscellaneous-tabthree:checked ~ section .miscellaneous-tabthree,
+#miscellaneous-tabfour:checked ~ section .miscellaneous-tabfour {
+  display: block;
+}
+
+#miscellaneous-tabone:checked ~ nav .miscellaneous-tabone,
+#miscellaneous-tabtwo:checked ~ nav .miscellaneous-tabtwo,
+#miscellaneous-tabthree:checked ~ section .miscellaneous-tabthree,
+#miscellaneous-tabfour:checked ~ section .miscellaneous-tabfour {
+  color: $black;
+}
+
+.miscellaneous-tab {
+  width: 100%;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.miscellaneous-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.miscellaneous-tab section div ul {
+  line-height: 2;
+  list-style: disc;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: -20px;
+}
+
+.miscellaneous-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 30px 50px;
+  border-bottom: 0;
+  font-weight: 600;
+  width: 25%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
+}
+
+.miscellaneous-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.miscellaneous-tab ul li label:active {
+  background: #ffffff;
+}
+
+.miscellaneous-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.miscellaneous-tab section div {
+  padding: 20px;
+  width: 100%;
+  letter-spacing: 0.3px;
+}
+
+.miscellaneous-tab section div h4 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  font-weight: 600;
+  float: left;
+}
+
+#miscellaneous-tabone:checked ~ nav .miscellaneous-tabone label,
+#miscellaneous-tabtwo:checked ~ nav .miscellaneous-tabtwo label,
+#miscellaneous-tabthree:checked ~ section .miscellaneous-tabthree label,
+#miscellaneous-tabfour:checked ~ section .miscellaneous-tabfour label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#miscellaneous-tabone:checked ~ nav .miscellaneous-tabone label:after,
+#miscellaneous-tabtwo:checked ~ nav .miscellaneous-tabtwo label:after,
+#miscellaneous-tabthree:checked ~ nav .miscellaneous-tabthree label:after,
+#miscellaneous-tabfour:checked ~ nav .miscellaneous-tabfour label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+.miscellaneous-tab .places {
+  padding-left: 30px;
+}
+
+.miscellaneous-tab .coverage {
+  color:#252362;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#diplomat-international-section-6 .diplomat-international-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#diplomat-international-section-6 .visit-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
+  color: #ffffff;
+  padding: 8px 90px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#diplomat-international-section-6 .visit-btn1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
+  color: #ffffff;
+  padding: 8px 100px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#diplomat-international-section-6 .visit-btn2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 100px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#diplomat-international-section-6 .visit-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#diplomat-international-section-6 .visit-btn2:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#diplomat-international-section-6 input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #252362;
+}
+
+#diplomat-international-section-6 input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #252362;
+}
+
+#diplomat-international-section-6 input[type="date"]:before {
+  content: attr(placeholder) !important;
+  color: #252362;
+  margin-right: 0.5em;
+}
+
+#diplomat-international-section-6 input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+  content: "";
+}
+
+#diplomat-international-section-6 p {
+  margin-top: 15px;
+}
+
+.first-bg {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.second-bg {
+  background-color: #252362;
+  padding: 1px;
+}
 
 /* End of Diplomat International Styles */
 
@@ -5055,6 +5707,72 @@ section#plans-hero-section {
 #plans-section-2 .get-btn:hover {
   background: #252362;
   color: #ffffff;
+}
+
+
+.box {
+  position: relative;
+  width: 90%;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+
+.ribbon {
+  width: 150px;
+  height: 146px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 5px solid #252362;
+}
+
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 225px;
+  padding: 15px 0;
+  background-color: #252362;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  color: #fff;
+  font: 700 14px/1 'Lato', sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* top left*/
+.ribbon-top-left {
+  top: -60px;
+  left: -46px;
+}
+
+.ribbon-top-left::before,
+.ribbon-top-left::after {
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+
+.ribbon-top-left::before {
+  top: 0;
+  right: 5px;
+}
+
+.ribbon-top-left::after {
+  bottom: 0;
+  left: 0;
+}
+
+.ribbon-top-left span {
+  right: -25px;
+  top: 30px;
+  transform: rotate(-45deg);
 }
 
 #plans-section-3 h4 {
@@ -5335,176 +6053,28 @@ section#plans-hero-section {
   color: #ffffff;
 }
 
-
-#plans-section-6 h3 {
+#plans-section-6 h2 {
   font-size: 30px;
-  font-weight: 600;
-  padding-bottom: 40px;
-}
-
-#plans-section-6 h4 {
-  font-size: 17px;
-  font-weight: 500;
-}
-
-.bmi-plans-tab .first-row {
-  margin-top: -41px;
-}
-
-.bmi-plans-tab .tabthree {
-  padding-left: 30px;
-}
-
-.bmi-plans-tab section div ul {
-  font-size: 14px;
-  line-height: 2;
-  list-style: disc;
-  text-align: left;
-}
-
-#plans-section-6 .notice {
-  font-size: 23px;
   font-weight: 500;
 }
 
 #plans-section-6 p {
-  font-size: 16px;
-  line-height: 2;
-}
-
-#plans-section-6 .bmi-bg {
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-
-.bmi-plans-tab > input,
-.bmi-plans-tab section > div {
-  display: none;
-}
-
-#bmi-plans-tabone:checked ~ section .bmi-plans-tabone,
-#bmi-plans-tabtwo:checked ~ section .bmi-plans-tabtwo,
-#bmi-plans-tabthree:checked ~ section .bmi-plans-tabthree {
-  display: block;
-}
-
-#bmi-plans-tabone:checked ~ nav .bmi-plans-tabone,
-#bmi-plans-tabtwo:checked ~ nav .bmi-plans-tabtwo,
-#bmi-plans-tabthree:checked ~ nav .bmi-plans-tabthree {
-  color: red;
-}
-
-.bmi-plans-tab {
-  width: 100%;
-  box-shadow: 0px 8px 12px 0px #ddd;
-}
-
-.bmi-plans-tab ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.bmi-plans-tab ul li label {
-  font-family: "poppins";
-  float: left;
-  padding: 15px 25px;
-  border-bottom: 0;
-  font-weight: 600;
-  width: 33%;
-  font-size: 20px;
-  border-top: 10px solid #fff;
-}
-
-.bmi-plans-tabtwo ul li label {
-  font-family: "poppins";
-  float: left;
-  padding: 35px 25px;
-  border-bottom: 0;
-  font-weight: 600;
-  width: 33%;
-  font-size: 20px;
-  border-top: 10px solid #fff;
-}
-
-.bmi-plans-tab ul li label:hover {
-  background: #dddddd;
-  cursor:pointer;
-}
-
-.bmi-plans-tab ul li label:active {
-  background: #ffffff;
-}
-
-.bmi-plans-tab section {
-  font-family: "poppins";
-  clear: both;
-  padding-top: 20px;
-  padding-bottom: 0;
-  min-height: 110px;
-}
-
-.bmi-plans-tab section div {
-  padding: 20px;
-  width: 100%;
-  letter-spacing: 0.3px;
-}
-
-.bmi-plans-tab section div h3 {
-  margin: 0;
-  font-family: "poppins";
-  letter-spacing: 1px;
-  color: #34495e;
-}
-
-#bmi-plans-tabone:checked ~ nav .bmi-plans-tabone label,
-#bmi-plans-tabtwo:checked ~ nav .bmi-plans-tabtwo label,
-#bmi-plans-tabthree:checked ~ nav .bmi-plans-tabthree label {
-  background: white;
-  color: #111;
-  position: relative;
-  font-weight: 600;
-  border-top: 10px solid #252362;
-}
-
-#bmi-plans-tabone:checked ~ nav .bmi-plans-tabone label:after,
-#bmi-plans-tabtwo:checked ~ nav .bmi-plans-tabtwo label:after,
-#bmi-plans-tabthree:checked ~ nav .bmi-plans-tabthree label:after {
-  content: "";
-  display: block;
-  position: absolute;
-  height: 2px;
-  width: 100%;
-  background: #ffffff;
-  left: 0;
-  bottom: -1px;
-}
-
-
-#plans-section-7 h2 {
-  font-size: 30px;
-  font-weight: 500;
-}
-
-#plans-section-7 p {
   padding-top: 30px;
   font-weight: 500;
   padding-left: 20px;
   padding-top: 5px;
 }
 
-#plans-section-7 ul {
+#plans-section-6 ul {
   list-style-type: disc;
 }
 
-#plans-section-7 li {
+#plans-section-6 li {
   font-size: 14px;
   line-height: 2;
 }
 
-#plans-section-7 .plans-container {
+#plans-section-6 .plans-container {
   box-shadow: 0px 0px 12px 0px #888888;
   padding: 50px 50px 40px 50px;
 }

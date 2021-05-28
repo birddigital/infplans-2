@@ -209,21 +209,33 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
         <Container>
           <div className="col-lg-12">
            <h3 className="text-blue text-center row-title">Additional Claims Information</h3>
-            <div className="row additional-information-container">
-            <div class="tabs">
-              <input checked="checked" id="tab1" type="radio" name="tabs" />
-                <label for="tab1">For Policies starting with INF:</label>
-                <div class="tab">
-                  <div className="col-lg-12">
-                   <h4>For Policies starting with INF:</h4>
+
+            <div class="additional-tab">
+              <input checked="checked" id="additional-tabone" type="radio" name="additional-claims" />
+              <input id="additional-tabtwo" type="radio" name="additional-claims" />
+
+              <nav>
+                <ul>
+                  <li className="additional-tabone">
+                    <label for="additional-tabone">For Policies starting with INF:</label>
+                  </li>
+                    <li className="additional-tabtwo">
+                    <label for="additional-tabtwo">For Policies starting with SRPO:</label>
+                  </li>
+                </ul>
+                </nav>
+
+            <section>
+              <div className="additional-tabone">
+                <div className="col-lg-12">
+                  <h4>For Policies starting with INF:</h4>
                     <p>All claims must be filed by completing the claim form found above in the Member portal. This form should be completed by the Policy Holder.</p>
                     <p>This form must be completed ONCE PER SICKNESS OR INJURY. The INF Claims Form for Providers should be completed by the Policy Holder & Providers (Doctors office, Hospitals etc.).</p>
                     <p>The Policy Holder should complete Section A. Providers should complete Section B of the form. The form can be mailed to the Insurance by the Provider's office or the Policy Holder. Providers can also submit claims online using EDI Pay#: 22384.</p>
                  </div>
                 </div>
-              <input id="tab2" type="radio" name="tabs" />
-               <label for="tab2">For Policies starting with SRPO:</label>
-                <div className="tab">
+
+                <div className="additional-tabtwo">
                  <div className="col-lg-12">
                    <h4>For Policies starting with SRPO:</h4>
                     <p>Generally, providers file insurance claim directly with WebTPA. Additionally, all policyholders are required to complete an informational Section of the claim form found in the member portal above.</p>
@@ -231,10 +243,10 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                     <p>Failure to do so would delay the claim processing or result in denial of claims by WebTPA.</p>
                     <p>The Policy Holder should complete Section A. Providers should complete Section B of the form. The form can be mailed to the Insurance by the Provider's office or the Policy Holder. Providers can also submit claims online using EDI Pay#: 22384.</p>
                 </div>
+                </div>
+              </section>
             </div>
            </div>
-          </div>
-         </div>
        </Container>
       </section>
 
@@ -242,36 +254,47 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
         <Container>
           <div className="col-lg-12">
            <h3 className="text-blue text-center row-title">Claims Process FAQs</h3>
-            <div className="row claims-process-container">
 
-            <div class="tabs">
-              <input checked="checked" id="tab1" type="radio" name="tabs" />
-                <label className ="text-center" for="tab1">I paid for my medical care<br /> up front. How can I get reimbursed?</label>
-                <div class="tab">
+           <div class="process-tab">
+             <input checked="checked" id="process-tabone" type="radio" name="process-faqs" />
+             <input id="process-tabtwo" type="radio" name="process-faqs" />
+             <input id="process-tabthree" type="radio" name="process-faqs" />
+
+             <nav>
+               <ul>
+                 <li className="process-tabone">
+                   <label for="process-tabone">For Policies starting with INF:</label>
+                 </li>
+                   <li className="process-tabtwo">
+                   <label for="process-tabtwo">For Policies starting with SRPO:</label>
+                 </li>
+                 <li className="process-tabthree">
+                   <label for="process-tabthree">For Policies starting with INF:</label>
+                 </li>
+               </ul>
+               </nav>
+
+            <section>
+              <div className="process-tabone">
+                <div className="col-lg-12">
+                  <p>Simply fill out the claim form & follow the instructions, as well as providing the additional required documentation. Make sure to complete this paperwork carefully to ensure prompt payment for eligible expenses incurred.</p>
+                </div>
+              </div>
+                <div className="process-tabtwo">
                   <div className="col-lg-12">
-                    <p>Simply fill out the claim form & follow the instructions, as well as providing the additional required documentation. Make sure to complete this paperwork carefully to ensure prompt payment for eligible expenses incurred.</p>
+                    <p>Yes. We highly advise individuals to file a claim with the insurance company, regardless of whether they have paid for the medical treatment up front. This creates a record with the insurance company, and will assist the claims process. If you do not file a claim, the payment may not go through to the health care provider, causing a delay in payment. This could result in a liability for you.</p>
                   </div>
                 </div>
 
-                <input id="tab2" type="radio" name="tabs" />
-                  <label className ="text-center" for="tab2">I took advantage of "Direct<br /> Billing" - do I still need to file a claim?</label>
-                  <div class="tab">
+                  <div className="process-tabthree">
                     <div className="col-lg-12">
-                      <p>Yes. We highly advise individuals to file a claim with the insurance company, regardless of whether they have paid for the medical treatment up front. This creates a record with the insurance company, and will assist the claims process. If you do not file a claim, the payment may not go through to the health care provider, causing a delay in payment. This could result in a liability for you.</p>
+                      <p>Yes, eligible claims incurred while coverage is in effect will be paid. On the claims form, you need to designate where to send the check from the insurance company.</p>
                     </div>
                   </div>
-
-                  <input id="tab3" type="radio" name="tabs" />
-                    <label className ="text-center" for="tab3">If I leave the country will my<br /> claims be paid?</label>
-                    <div class="tab">
-                      <div className="col-lg-12">
-                        <p>Yes, eligible claims incurred while coverage is in effect will be paid. On the claims form, you need to designate where to send the check from the insurance company.</p>
-                      </div>
-                    </div>
-              </div>
+                </section>
+             </div>
            </div>
-         </div>
-       </Container>
+         </Container>
       </section>
     </Layout>
   )
