@@ -119,73 +119,89 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="claims-form-section-3">
         <Container>
           <div className="col-lg-12">
-           <div className="row claim-information-container">
-            <div class="tabs">
-              <input checked="checked" id="tab1" type="radio" name="tabs" />
-                <label for="tab1">Claim Information for INF policies</label>
-                <div class="tab">
-                 <div className="col-lg-12">
-                   <div className="row">
-                     <div className="col-lg-12">
-                       <h4>Claims Office Information:</h4>
-                     </div>
-                     <div className="col-lg-6">
-                       <p>Mail: Administrative Concepts, Inc. (ACI)</p>
-                       <p>994 Old Eagle School Rd., Suite 1005, Wayne, PA 19087-1706</p>
-                       <p>Toll Free: 888-293-9229 (from inside the U.S.)</p>
-                       <p>Fax: 610-293-9299</p>
-                     </div>
-                     <div className="col-lg-6">
-                       <p>Check Claim Status: 888-293-9229</p>
-                       <p>Submit Bills Online:  aciclaims@visit-aci.com</p>
-                       <p>Web: http://www.visit-aci.com</p>
-                       ​<p>EDI Payor#: 22384</p>
-                    </div>
-                  </div>
+           <div className="row">
+
+           <div className="claims-info-tab">
+             <input checked="checked" id="claims-info-tabone" type="radio" name="claims-info" />
+             <input id="claims-info-tabtwo" type="radio" name="claims-info" />
+
+           <nav>
+             <ul>
+               <li className="claims-info-tabone">
+                 <label for="claims-info-tabone">Claim Information for INF policies</label>
+               </li>
+               <li className="claims-info-tabtwo">
+                 <label for="claims-info-tabtwo">Claim Information for SRPO policies</label>
+               </li>
+             </ul>
+           </nav>
+
+           <section>
+             <div className="claims-info-tabone">
+             <div className="col-lg-12 info">
+               <div className="row">
+               <div className="col-lg-12">
+                 <h4>Claims Office Information:</h4>
+               </div>
+
+               <div className="col-lg-6">
+                 <p>Mail: Administrative Concepts, Inc. (ACI)</p>
+                 <p>994 Old Eagle School Rd., Suite 1005, Wayne, PA 19087-1706</p>
+                 <p>Toll Free: 888-293-9229 (from inside the U.S.)</p>
+                 <p>Fax: 610-293-9299</p>
+               </div>
+
+               <div className="col-lg-6">
+                 <p>Check Claim Status: 888-293-9229</p>
+                 <p>Submit Bills Online:  aciclaims@visit-aci.com</p>
+                 <p>Web: http://www.visit-aci.com</p>
+                 ​<p>EDI Payor#: 22384</p>
+              </div>
+              <div className="col-lg-12">
+               <div className="row">
+                <div className="col-lg-6">
+                 <h4 className="download">Download Claims Form Policy Numbers Starting with GLM</h4>
+                  <Img fluid={pdf_icon} className="pdf-icon"/>
+                  <button className="download-btn"> Download </button>
                  </div>
-                <div className="col-lg-12">
-                 <div className="row">
-                  <div className="col-lg-6">
-                   <h4>Download Claims Form Policy Numbers Starting with GLM</h4>
-                    <Img fluid={pdf_icon} className="pdf-icon"/>
-                    <button className="download-btn"> Download </button>
-                   </div>
-                  <div className="col-lg-6">
-                   <h4>Download Claims Form Policy Numbers Starting with INF</h4>
-                   <Img fluid={pdf_icon} className="pdf-icon"/>
-                   <button className="download-btn2"> Download </button>
-                 </div>
-                </div>
+                <div className="col-lg-6">
+                 <h4 className="download">Download Claims Form Policy Numbers Starting with INF</h4>
+                 <Img fluid={pdf_icon} className="pdf-icon"/>
+                 <button className="download-btn2"> Download </button>
                </div>
               </div>
-              <input id="tab2" type="radio" name="tabs" />
-               <label for="tab2">Claim Information for SRPO policies</label>
-                <div class="tab">
-                 <div className="col-lg-12">
-                  <div className="row">
-                   <div className="col-lg-12">
-                    <h4>Claims Office Information:</h4>
-                   </div>
+             </div>
+            </div>
 
-                 <div className="col-lg-6">
-                   <p>WebTPA</p>
-                   <p>PO Box 669</p>
-                   <p>Grapevine, TX 76099-0669</p>
-                   <p>Phone: 928-494-0112</p>
-                   <p>Fax: 469-417-1989</p>
-                 </div>
+            <div className="claims-info-tabtwo">
+              <div className="col-lg-12">
+               <div className="row">
+                <div className="col-lg-12">
+                <h4>Claims Office Information:</h4>
+               </div>
 
-                 <div className="col-lg-6">
-                   <p>Submit Bills Online: helpme@webtpa.com</p>
-                   <p>Web: http://www.visit-aci.com </p>
-                   <p>​EDI Payor#: 22384</p>
-                 </div>
-              </div>
+             <div className="col-lg-6">
+               <p>WebTPA</p>
+               <p>PO Box 669</p>
+               <p>Grapevine, TX 76099-0669</p>
+               <p>Phone: 928-494-0112</p>
+               <p>Fax: 469-417-1989</p>
+             </div>
+
+             <div className="col-lg-6">
+               <p>Submit Bills Online: helpme@webtpa.com</p>
+               <p>Web: http://www.visit-aci.com </p>
+               <p>​EDI Payor#: 22384</p>
+             </div>
+            </div>
             </div>
            </div>
            </div>
+           </div>
+          </section>
           </div>
-         </div>
+          </div>
+          </div>
         </Container>
       </section>
 

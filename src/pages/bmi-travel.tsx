@@ -62,6 +62,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
          <div className="col-lg-8">
           <p>INF-BMI plans provide assistance for international trips with no deductible or copayments and provides coverage for full pre-existing conditions, acute onset of pre-existing conditions, and COVID-19 as per the limits in the policy.</p>
           <p>INF recommends enrolling in the Ultra Plus, VIP, VIP Plus- which provides comprehensive coverage for pre-existing, acute onset of pre-existing conditions, and COVID-19. INF-BMI plans can provide these innovative visitor insurance options.</p>
+          <a href="#" className="read-more-btn">READ MORE <FaAngleDoubleDown className="double-arrow-down" /></a>
          </div>
           <div className="col-lg-4">
             <Img fluid={bmi_logo} className="bmi-logo"/>

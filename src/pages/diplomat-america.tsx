@@ -131,18 +131,20 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
           <div class="pc-tab">
             <input checked="checked" id="tab1" type="radio" name="pct" />
             <input id="tab2" type="radio" name="pct" />
+
               <nav>
                 <ul>
-                  <li class="tab1">
-                    <label for="tab1">Covered Medical Expenses (All Policies)</label>
+                  <li className="tabone">
+                    <label for="tabone">Covered Medical Expenses (All Policies)</label>
                   </li>
-                  <li class="tab2">
-                    <label for="tab2">Co-Insurance</label>
+                  <li className="tabtwo">
+                    <label for="tabtwo">Co-Insurance</label>
                   </li>
                 </ul>
               </nav>
+
               <section>
-                <div class="tab1">
+                <div className="tabtwo">
                 <div className="col-lg-12">
                   <div className="row">
                       <p className="text-center">Expenses that are specifically enumerated in the following list of charges that are incurred for medical care and supplies which are:</p>
@@ -172,7 +174,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                     </div>
                   </div>
                   </div>
-              <div class="tab2">
+              <div className="tabtwo">
                <div className="col-lg-12">
                 <p className="text-center first-content">After you pay the selected deductible, the plan pays <strong>80% up to $5,000</strong> of eligible costs, then <strong>100% to the Medical Maximum.</strong> There will be an additional $250 deductible for each <strong>emergency room visit as a result of an Illness. The emergency room deductible will be waived if hospital admittance is within 12 hours of the incident.</strong></p>
                 <p className="text-center"><strong>Deductible Choices:</strong> $0, $50, $100, $250, $500, $1,000, $2,500, $5000 (per person per policy period).</p>

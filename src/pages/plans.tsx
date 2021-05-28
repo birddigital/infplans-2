@@ -223,65 +223,108 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
  </Container>
 </section>
 
-     <section id="plans-section-6">
+      <section id="plans-section-6">
        <Container>
         <div className="col-lg-12">
          <h3 className="text-blue text-center row-title">INF BMI Plans</h3>
-          <div className="row plans-container">
+          <div className="row">
 
-          <div class="tabs">
-            <input checked="checked" id="tab1" type="radio" name="tabs" />
-              <label for="tab1">Benefits That Come With Inf-BMI Plans</label>
-              <div class="tab">
-                <div className="col-lg-12">
-                  <div className="row">
-                    <div className="col-lg-12">
-                      <ul>
-                        <li>COVID-19 Coverage</li>
-                        <li>All plans have 100% Co-Insurance (We cover 100%) and NO DEDUCTIBLE</li>
-                        <li>We make all the appointments for you- no more hassle of finding a provider who will accept you plan. We do everything on the backend to make sure it's completely cashless.</li>
-                      </ul>
-                   </div>
-                </div>
-              </div>
-              <div className="bmi-bg">
-              <div className="col-lg-12">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <p className="text-blue text-center notice">Important Notice</p>
-                    <p className="text-center">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
-                  </div>
-                </div>
-              </div>
-              </div>
-            </div>
-          </div>
+          <div className="bmi-plans-tab">
+            <input checked="checked" id="bmi-plans-tabone" type="radio" name="bmi-plans" />
+            <input id="bmi-plans-tabtwo" type="radio" name="bmi-plans" />
+            <input id="bmi-plans-tabthree" type="radio" name="bmi-plans" />
 
-          <input id="tab2" type="radio" name="tabs" />
-           <label for="tab2">COVID-19 Coverage</label>
-            <div class="tab">
-              <div className="col-lg-12">
+            <nav>
+              <ul>
+                <li className="bmi-plans-tabone">
+                  <label for="bmi-plans-tabone">Benefits That Come With Inf-BMI Plans</label>
+                </li>
+                <li className="bmi-plans-tabtwo">
+                  <label for="bmi-plans-tabtwo">COVID-19 Coverage</label>
+                </li>
+                <li className="bmi-plans-tabthree">
+                  <label for="bmi-plans-tabthree">Pre-Existing Conditions Coverage</label>
+                </li>
+              </ul>
+            </nav>
+
+            <section>
+              <div className="bmi-plans-tabone">
+              <div className="col-lg-12 first-row">
                 <div className="row">
                   <div className="col-lg-12">
                     <ul>
-                      <li>The Beneficiary must always and without exception contact the Emergency Central, who in turn will coordinate a virtual appointment by Telemedicine.</li>
-                      <li>According to the opinion provided by the Medical Department, if the Beneficiary presents symptoms related to COVID-19, the Assistance Center will coordinate the relevant medical consultation, according to the safety and health protocols of each country.</li>
-                      <li>We will cover the expenses incurred up to the coverage limit indicated in the voucher.</li>
+                      <li>COVID-19 Coverage</li>
+                      <li>All plans have 100% Co-Insurance (We cover 100%) and NO DEDUCTIBLE</li>
+                      <li>We make all the appointments for you- no more hassle of finding a provider who will accept you plan. We do everything on the backend to make sure it's completely cashless.</li>
                     </ul>
-                   </div>
-
-                    <div className="col-lg-12">
-                      <p>The following expenses will be covered under the same limit:</p>
-                    </div>
-
-                    <div className="col-lg-12">
-                      <ul>
-                        <li>Hospital Expenses for COVID-19: In case of requiring hospitalization to stabilize the Beneficiary's condition.</li>
-                        <li>Mechanical respirator fees: If the Medical Department, together with the treating doctor, considers the use of a mechanical respirator necessary, the Central will authorize and cover said expense</li>
-                      </ul>
-                    </div>
                  </div>
+              </div>
+            </div>
+            <div className="bmi-bg">
+            <div className="col-lg-12">
+              <div className="row">
+                <div className="col-lg-12">
+                  <p className="text-blue text-center notice">Important Notice</p>
+                  <p className="text-center">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
                 </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div className="bmi-plans-tabtwo">
+           <div className="col-lg-12 first-row">
+            <div className="row">
+              <div className="col-lg-12">
+                <ul>
+                  <li>The Beneficiary must always and without exception contact the Emergency Central, who in turn will coordinate a virtual appointment by Telemedicine.</li>
+                  <li>According to the opinion provided by the Medical Department, if the Beneficiary presents symptoms related to COVID-19, the Assistance Center will coordinate the relevant medical consultation, according to the safety and health protocols of each country.</li>
+                  <li>We will cover the expenses incurred up to the coverage limit indicated in the voucher.</li>
+                </ul>
+               </div>
+
+                <div className="col-lg-12">
+                  <p>The following expenses will be covered under the same limit:</p>
+                </div>
+
+                <div className="col-lg-12">
+                  <ul className="inf">
+                    <li>Hospital Expenses for COVID-19: In case of requiring hospitalization to stabilize the Beneficiary's condition.</li>
+                    <li>Mechanical respirator fees: If the Medical Department, together with the treating doctor, considers the use of a mechanical respirator necessary, the Central will authorize and cover said expense</li>
+                  </ul>
+                </div>
+             </div>
+            </div>
+
+            <div className="bmi-bg">
+            <div className="col-lg-12">
+              <div className="row">
+                <div className="col-lg-12">
+                  <p className="text-blue text-center notice">Important Notice</p>
+                  <p className="text-center">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div className="bmi-plans-tabthree">
+            <div className="col-lg-12 first-row">
+              <p>The coverage provided for chronic and / or pre-existing diseases includes the following eventualities:</p>
+
+                <ul className="tabthree">
+                  <li>Acute episode or unpredictable event</li>
+                  <li>Decompensation of</li>
+
+                  <ul>
+                    <li>A Chronic issue</li>
+                    <li>A Pre-existing diseases known</li>
+                    <li>A previously asymptomatic pre-existing condition </li>
+                  </ul>
+              </ul>
+             </div>
+
                 <div className="bmi-bg">
                 <div className="col-lg-12">
                   <div className="row">
@@ -291,83 +334,56 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
                     </div>
                   </div>
                 </div>
-                </div>
               </div>
-
-              <input id="tab3" type="radio" name="tabs" />
-                <label className ="text-center" for="tab3">Pre-Existing Conditions Coverage</label>
-                <div class="tab">
-                <div className="col-lg-12">
-                  <p>The coverage provided for chronic and / or pre-existing diseases includes the following eventualities:</p>
-
-                    <ul>
-                      <li>Acute episode or unpredictable event</li>
-                      <li>Decompensation of</li>
-
-                      <ul>
-                        <li>A Chronic issue</li>
-                        <li>A Pre-existing diseases known</li>
-                        <li>A previously asymptomatic pre-existing condition </li>
-                      </ul>
-                     </ul>
-                 </div>
-          <div className="bmi-bg">
-          <div className="col-lg-12">
-            <div className="row">
-              <div className="col-lg-12">
-                <p className="text-blue text-center notice">Important Notice</p>
-                <p className="text-center">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
-              </div>
-            </div>
+             </div>
+            </section>
           </div>
-          </div>
-          </div>
-          </div>
-          </div>
-      </Container>
-    </section>
-
-    <section id="plans-section-7">
-      <Container>
-       <div className="col-lg-12">
-       <div className="plans-container">
-        <h2 className="text-blue text-center">Diplomat America</h2>
-          <p>Diplomat America Plan Features:</p>
-            <ul>
-              <li>Covers COVID-19 or Coronavirus like a New Sickness</li>
-              <li>Emergency Medical Evacuation and Repatriation: $500,000</li>
-              <li>Return of Mortal Remains: $50,000</li>
-              <li>Emergency Medical Reunion: $50,000</li>
-              <li>Return of Minor Child: $50,000</li>
-              <li>Interruption of Trip: $5,000</li>
-              <li>Loss of Baggage: $50 per article; up to a maximum of $250</li>
-              <li>Emergency Dental Treatment: $100</li>
-              <li>Accidental Death and Dismemberment: $25,000 (Enhanced Benefit Amounts available) with paralysis and coma, seat belt and airbag, felonious assault and home alteration and vehicle modification benefits.</li>
-              <li>Athletic & Hazardous Activity Benefit Available Political and Natural Disaster Evacuation: $50,000</li>
-            </ul>
-
-            <div className="col-lg-12">
-              <p>Diplomat America Plan Features:</p>
-            </div>
-
-            <div className="col-lg-12">
-              <div className="row mt-4">
-                <div className="col-lg-6">
-                  <ul>
-                    <li>Non-U.S. Citizens visiting the U.S</li>
-                  </ul>
-                  </div>
-                  <div className="col-lg-6">
-                  <ul>
-                    <li>Parents and relatives visiting the U.S.</li>
-                  </ul>
-                </div>
-              </div>
-              </div>
-      </div>
-       </div>
+         </div>
+        </div>
      </Container>
    </section>
+
+   <section id="plans-section-7">
+     <Container>
+      <div className="col-lg-12">
+      <div className="plans-container">
+       <h2 className="text-blue text-center">Diplomat America</h2>
+         <p>Diplomat America Plan Features:</p>
+           <ul>
+             <li>Covers COVID-19 or Coronavirus like a New Sickness</li>
+             <li>Emergency Medical Evacuation and Repatriation: $500,000</li>
+             <li>Return of Mortal Remains: $50,000</li>
+             <li>Emergency Medical Reunion: $50,000</li>
+             <li>Return of Minor Child: $50,000</li>
+             <li>Interruption of Trip: $5,000</li>
+             <li>Loss of Baggage: $50 per article; up to a maximum of $250</li>
+             <li>Emergency Dental Treatment: $100</li>
+             <li>Accidental Death and Dismemberment: $25,000 (Enhanced Benefit Amounts available) with paralysis and coma, seat belt and airbag, felonious assault and home alteration and vehicle modification benefits.</li>
+             <li>Athletic & Hazardous Activity Benefit Available Political and Natural Disaster Evacuation: $50,000</li>
+           </ul>
+
+           <div className="col-lg-12">
+             <p>Diplomat America Plan Features:</p>
+           </div>
+
+           <div className="col-lg-12">
+             <div className="row mt-4">
+               <div className="col-lg-6">
+                 <ul>
+                   <li>Non-U.S. Citizens visiting the U.S</li>
+                 </ul>
+                 </div>
+                 <div className="col-lg-6">
+                 <ul>
+                   <li>Parents and relatives visiting the U.S.</li>
+                 </ul>
+               </div>
+             </div>
+             </div>
+          </div>
+        </div>
+      </Container>
+     </section>
     </Layout>
   )
 }
