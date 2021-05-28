@@ -5591,20 +5591,19 @@ section#premium-hero-section {
   margin-right: auto;
   margin-top: 30px;
   display: block;
-  background: #ffffff;
-  border: 2px solid #ffffff;
+  background: #252362;
+  border: 2px solid $white;
   color: #ffffff;
   padding: 8px 65px;
   border-radius: 50px;
   transition: .5s;
   font-size: 15px;
-  color: #000000;
+  color: $white;
 }
 
 #premium-section-1 .premium1-btn:hover {
-  background: #252362;
+  background: #ffffff;
   color: #252362;
-  color: #ffffff  ;
 }
 
 #premium-section-1 .premium2-btn {
@@ -5654,6 +5653,8 @@ section#premium-hero-section {
   box-shadow: 0px 0px 10px 0px #888888;
   padding: 30px;
   border-radius: 10px;
+  overflow: hidden;
+  position: relative;
 }
 
 #premium-section-2 .title {
@@ -5675,6 +5676,57 @@ section#premium-hero-section {
 #premium-section-2 .acute {
   margin-top: 45px;
 }
+
+/* new added css victor */
+
+
+.ribbon {
+  margin: 0;
+  padding: 0;
+  background: #252362;
+  color:white;
+  padding:5px 0;
+  position: absolute;
+  top:0;
+  right:0;
+  transform: translateX(30%) translateY(0%) rotate(45deg);
+  transform-origin: top left;
+}
+
+.ribbon::before,
+.ribbon::after {
+  content: '';
+  position: absolute;
+  top:0;
+  margin: 0 -1px; /* tweak */
+  width: 100%;
+  height: 100%;
+  background: #252362;
+}
+
+.ribbon::before {
+  right:100%;
+}
+
+.ribbon::after {
+  left:100%;
+}
+
+#premium-section-1 select {
+  border-radius: 50px;
+  width: 250px;
+  color:#838383;
+}
+
+
+.hidden {
+  display: none;
+}
+#premium-section-1 select option {
+  color:#838383;
+}
+
+/* end of new added css victor */
 /*End of Premium Styles */
 
 /* BMI Travel Styles */
