@@ -104,7 +104,6 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
         </Container>
       </section>
 
-
       <section id="premier-section3">
         <Container>
           <div className="col-lg-12">
@@ -126,7 +125,7 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
               </nav>
               <section>
                 <div className="premier-coverages-tab1">
-                  <p className="text-black text-center tab-row-title">$100,000 Total Maximum Per  Accident or Sickness Expense Benefits</p>
+                  <p className="text-black text-center tab-row-title">$100,000 Total Maximum Per Accident or Sickness Expense Benefits</p>
                   <div className="row">
                     <div className="col-lg-4">
                       <div className="column-tab">
@@ -191,7 +190,7 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
                   </div>
                 </div>
                 <div className="premier-coverages-tab2">
-                  <p className="text-black text-center tab-row-title">$100,000 Total Maximum Per  Accident or Sickness Expense Benefits</p>
+                  <p className="text-black text-center tab-row-title">$100,000 Total Maximum Per Accident or Sickness Expense Benefits</p>
                   <div className="row">
                     <div className="col-lg-4">
                       <div className="column-tab">
@@ -322,7 +321,7 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
                     </div>
                     <div className="col-lg-6">
                       <div className="column-tab">
-                        <p className="text-white column-tab-title">Out-Patient Medical Benefits</p>
+                        <p className="text-white column-tab-title">In-Patient Medical Benefits</p>
                       </div>
                       <p className="tab-content text-black">Charges up to $1,750 per day to a maximum of 30 days</p>
                       <p className="tab-content text-black">Up to an additional $750 maximum per day to a maximum of 8 Days</p>
@@ -380,8 +379,207 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
           </div>
         </Container>
+        <Container>
+          <div className="col-lg-12 mt-4">
+          <p className="text-black text-center tab-row-title">Premier $150,000 Schedule of Benefits</p>
+
+            <div className="premier-benefits2-tab">
+              <input checked="checked" id="premier-benefits2-tab1" type="radio" name="premier-benefits2" />
+              <input id="premier-benefits2-tab2" type="radio" name="premier-benefits2" />
+              <input id="premier-benefits2-tab3" type="radio" name="premier-benefits2" />
+              <nav>
+                <ul>
+                  <li className="premier-benefits2-tab1">
+                    <label for="premier-benefits2-tab1">150k Premier | Medical in-Patient Benefits (Services Rendered Require More Than 24 Hours Stay)<br/> Age 0-69</label>
+                  </li>
+                  <li className="premier-benefits2-tab2">
+                    <label for="premier-benefits2-tab2">150k Premier | Medical Out-Patient Benefits (Services Rendered Require Less Than 24 Hours Stay)<br/> Age 0-69</label>
+                  </li>
+                  <li className="premier-benefits2-tab3">
+                    <label for="premier-benefits2-tab3" className="label-content">150k Premier | Other Covered Services<br/> Age 0-69</label>
+                  </li>
+                </ul>
+              </nav>
+              <section>
+                <div className="premier-benefits2-tab1">
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">Covered Medical Services</p>
+                      </div>
+                      <p className="tab-content text-black">Hospital Room & Board Charges</p>
+                      <p className="tab-content text-black">Hospital Intensive Care Unit Room & Board Charges</p>
+                      <p className="tab-content text-black">Doctors Surgical Expenses</p>
+                      <p className="tab-content text-black">Anesthetics</p>
+                      <p className="tab-content text-black">Assistant Surgeon Expenses</p>
+                      <p className="tab-content text-black">Doctor Non-Surgical Treatment/Examination Expenses</p>
+                      <p className="tab-content text-black">Consultation visits when requested by a Doctor</p>
+                      <p className="tab-content text-black">Pre-Admission Tests within 14 days before hospital admission</p>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">In-Patient Medical Benefits</p>
+                      </div>
+                      <p className="tab-content text-black">Up to $1,900 per day to a maximum of 30 days</p>
+                      <p className="tab-content text-black">Up to an additional $850 per day to a maximum of 8 days</p>
+                      <p className="tab-content text-black">Up to $6,000 maximum</p>
+                      <p className="tab-content text-black">Up to $1,500 maximum</p>
+                      <p className="tab-content text-black">Up to $1,500 maximum</p>
+                      <p className="tab-content text-black">Up to $125 per visit, 1 visit per day, up to a maximum of 30 visits</p>
+                      <p className="tab-content text-black">Up to $500 maximum</p>
+                      <p className="tab-content2 text-black">Up to $1,200 maximum</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="premier-benefits2-tab2">
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">Covered Medical Services</p>
+                      </div>
+                      <p className="tab-content text-black">Surgical Room and Supply Expenses:</p>
+                      <p className="tab-content text-black">Hospital Emergency Room</p>
+                      <p className="tab-content text-black">Doctor Surgical Expenses</p>
+                      <p className="tab-content text-black">Anesthetics</p>
+                      <p className="tab-content text-black">Assistant Surgeon Expenses</p>
+                      <p className="tab-content text-black">Doctor Non-Surgical Treatment/Examination Expenses</p>
+                      <p className="tab-content text-black">X-rays, laboratory procedures</p>
+                      <p className="tab-content text-black">CAT Scan, PET Scan, or MRI</p>
+                      <p className="tab-content text-black">Prescription Drug Expenses</p>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">Out-Patient Medical Benefits</p>
+                      </div>
+                      <p className="tab-content text-black">Up to $1,200 maximum</p>
+                      <p className="tab-content text-black">Up to $750</p>
+                      <p className="tab-content text-black">Up to $6,000 maximum</p>
+                      <p className="tab-content text-black">​Up to $1,500 maximum</p>
+                      <p className="tab-content text-black">​Up to $1,500 maximum</p>
+                      <p className="tab-content text-black">Up to $125 per visit; subject to 1 visit per day, to a maximum of 10 visits</p>
+                      <p className="tab-content text-black">Up to $750 maximum</p>
+                      <p className="tab-content text-black">Up to an additional $1,000</p>
+                      <p className="tab-content text-black">Up to $200 maximum</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="premier-benefits2-tab3">
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">Covered Medical Services</p>
+                      </div>
+                      <p className="tab-content text-black">Ambulance Expenses</p>
+                      <p className="tab-content text-black">Rehabilitative Braces or Appliances</p>
+                      <p className="tab-content text-black">Dental Treatment (Injury )</p>
+                      <p className="tab-content text-black">Chemotherapy and/or Radiation Therapy</p>
+                      <p className="tab-content text-black">Physical & Occupational Therapy: Inpatient and Outpatient</p>
+                      <p className="tab-content text-black">Private Duty Nurse</p>
+                      <p className="tab-content text-black">Pregnancy or Childbirth (Conception must occur after the actual start of the Trip)</p>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">Other Benefits</p>
+                      </div>
+                      <p className="tab-content text-black">Up to $500 maximum</p>
+                      <p className="tab-content text-black">Up to $1,200 maximum</p>
+                      <p className="tab-content text-black">Up to $500</p>
+                      <p className="tab-content text-black">Up to $1,250 maximum</p>
+                      <p className="tab-content text-black">Up to $50 per visit max, 1 Visit per day up to 12 visits maximum</p>
+                      <p className="tab-content text-black">Up to $500 maximum</p>
+                      <p className="tab-content2 text-black">Up to $5,500 maximum</p>
+                    </div>
+                    <div className="column-tab">
+                      <p className="text-white column-tab-title">Additional Benefits</p>
+                    </div>
+                    <div className="col-lg-6">
+                      <p className="tab-content text-black">Emergency Medical Evacuation</p>
+                      <p className="tab-content text-black">Repatriation of Remains</p>
+                      <p className="tab-content text-black">Accidental Death & Dismemberment</p>
+                    </div>
+                    <div className="col-lg-6">
+                      <p className="tab-content text-black">Up to $20,000 maximum</p>
+                      <p className="tab-content text-black">Up to $15,000 maximum​</p>
+                      <p className="tab-content text-black">$25,000 Principal Sum</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </Container>
       </section>
 
+      <section id="premier-section5">
+        <Container>
+          <div className="col-lg-12">
+            <h2 className="text-blue text-center">INF Premier Plan Description</h2>
+          </div>
+          <div className="col-lg-12 ">
+            <div className="row mt-4 justify-content-center">
+              <div className="col-lg-5 text-center">
+                <h3 className="text-black">Read INF Premier Plan<br /> Description for Age 0-69 </h3>
+                <Img fluid={book_icon} className="book-icon-img"/>
+                <button className="read-now-btn"> Read Now </button>
+              </div>
+              <div className="col-lg-5 text-center">
+                <h3 className="text-black">Read INF Premier Plan<br /> Description for Age 70-99 </h3>
+                <Img fluid={book_icon} className="book-icon-img"/>
+                <button className="read-now-btn"> Read Now </button>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      <BackgroundImage
+        Tag="section"
+        className="premier-cta-hero-section-bg"
+        fluid={cta_bg}
+        alt="cta"
+      >
+        <div id="premier-cta-section">
+          <Container>
+            <div className="col-lg-12">
+              <h2 className="text-white text-center">Get Coverage Now</h2>
+              <button className="buy-now-btn"> Buy Now </button>
+            </div>
+          </Container>
+        </div>
+      </BackgroundImage>
+
+      <section id="premier-section7">
+        <Container>
+          <div className="col-lg-12">
+            <p className="text-black text-center first-paragraph">Benefits are provided for eligible Insured Persons. Terms and conditions are briefly outlined in this summary of coverage. Complete provisions pertaining to this insurance are contained in the policy. In the event of any conflict between this summary of coverage and the policy, the policy will govern. The policy is a short term limited duration policy renewable at the option of the insurer. This is a brief description of the important features of the insurance plan. It is not a contract of insurance. The terms and conditions of coverage are set forth in the Plan issued to INF. For a detailed plan description, exclusions, and limitations please view the plan on file with INF. This insurance is not subject to, and will not be administered as a PPACA (Patient Protection and Affordable Care Act) insurance plan. PPACA requires certain US residents and citizens obtain PPACA compliant insurance coverage. This plan is not designed to cover US residents and citizens. This policy is not subject to guaranteed issuance or renewal. PPO Networks are not provided by Crum & Forster, SPC.</p>
+          </div>
+          <div className="col-lg-12">
+            <div className="blue-bg text-center">
+              <h3 className="text-white">Privacy Statement:</h3>
+              <p className="text-white">We know that your privacy is important to you and we strive to protect the confidentiality of your non-public personal information. We do not disclose any non-public personal information about our insureds or former insureds to anyone, except as permitted or required by law. We maintain appropriate physical, electronic and procedural safeguards to ensure the security of your non-public personal information. You may obtain a detailed copy of our privacy policy by calling 408-540-3601.</p>
+            </div>
+          </div>
+          <div className="col-lg-12">
+            <div className="white-bg text-center">
+              <h3 className="text-blue">Complaints:</h3>
+              <p className="text-black">In the event that you remain dissatisfied and wish to make a complaint you can do so to the Complaints team at support@infplans.com</p>
+            </div>
+          </div>
+          <div className="col-lg-12">
+            <div className="blue-bg text-center">
+              <h3 className="text-white">Data Protection:</h3>
+              <p className="text-white">Please note that sensitive health and other information that you provide may be used by us, our representatives, the insurers and industry governing bodies and regulators to process your insurance, handle claims and prevent fraud. This may involve transferring information to other countries (some of which may have limited, or no data protection laws). We have taken steps to ensure your information is held securely. Where sensitive personal information relates to anyone other than you, you must obtain the explicit consent of the person to whom the information relates both to the disclosure of such information to us and its use as set out above. Information we hold will not be shared with third parties for marketing purposes. You have the right to access your personal records.</p>
+            </div>
+          </div>
+          <div className="col-lg-12">
+            <div className="white-bg text-center">
+              <h3 className="text-blue">Note:</h3>
+              <p className="text-black">This insurance is not subject to and does not provide certain insurance benefits required by the United States’ Patient Protection and Affordable Care Act (“PPACA”). This coverage is not a general health insurance product, but is intended for use in the event of a sudden and unexpected event while traveling outside your home country. PPACA requires certain US citizens or US residents to obtain PPACA compliant health insurance, or “minimum essential coverage.” PPACA also requires certain employers to offer PPACA compliant insurance coverage to their employees. Tax penalties may be imposed on U.S. residents or citizens who do not maintain minimum essential coverage, and on certain employers who do not offer PPACA compliant insurance coverage to their employees. In some cases, certain individuals may be deemed to have minimum essential coverage under PPACA even if their insurance coverage does not provide all of the benefits required by PPACA. You should consult your attorney or tax professional to determine whether the policy meets any obligations you may have under PPACA.</p>
+              <p className="text-black">*India Network Foundation (INF) membership is required to enroll in this plan. Membership cost is $10 and will be included in your plan cost.</p>
+            </div>
+          </div>
+        </Container>
+      </section>
     </Layout>
   )
 }

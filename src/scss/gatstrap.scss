@@ -205,6 +205,8 @@ button {
 #main-navigation.fixed {
   position: fixed;
   background: rgba(37,35,98, 1);
+  top:0;
+  transition: ease-in-out .5s;
 }
 
 #main-navigation .navbar-nav>.nav-item:after {
@@ -2921,7 +2923,820 @@ section#premier-section1 {
   font-weight: 600;
   margin-top: 30px;
 }
+
+.premier-benefits2-tab > input,
+.premier-benefits2-tab section > div {
+  display: none;
+}
+
+#premier-benefits2-tab1:checked ~ section .premier-benefits2-tab1,
+#premier-benefits2-tab2:checked ~ section .premier-benefits2-tab2,
+#premier-benefits2-tab3:checked ~ section .premier-benefits2-tab3 {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#premier-benefits2-tab1:checked ~ nav .premier-benefits2-tab1,
+#premier-benefits2-tab2:checked ~ nav .premier-benefits2-tab2,
+#premier-benefits2-tab3:checked ~ nav .premier-benefits2-tab3 {
+  color: red;
+}
+
+.premier-benefits2-tab {
+  width: 100%;
+  margin: 0 auto;
+  margin-top:30px;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.premier-benefits2-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.premier-benefits2-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 15px 25px;
+  border-bottom: 0;
+  background: #eeeeee;
+  color: #000000;
+  font-weight: 600;
+  width: 33.33%;
+  min-height: 136px;
+  font-size: 16px;
+  border-top: 10px solid #fff;
+}
+
+.premier-benefits2-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.premier-benefits2-tab ul li label:active {
+  background: #ffffff;
+}
+
+.premier-benefits2-tab ul li:not(:last-child) label {
+  border-right-width: 0;
+}
+
+.premier-benefits2-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 0px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.premier-benefits2-tab section div {
+  padding: 20px;
+  width: 100%;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  color: #444;
+}
+
+.premier-benefits2-tab section div h2 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#premier-benefits2-tab1:checked ~ nav .premier-benefits2-tab1 label,
+#premier-benefits2-tab2:checked ~ nav .premier-benefits2-tab2 label,
+#premier-benefits2-tab3:checked ~ nav .premier-benefits2-tab3 label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#premier-benefits2-tab1:checked ~ nav .premier-benefits2-tab1 label:after,
+#premier-benefits2-tab2:checked ~ nav .premier-benefits2-tab2 label:after,
+#premier-benefits2-tab3:checked ~ nav .premier-benefits2-tab3 label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+.premier-benefits2-tab .label-content {
+  padding-top: 28px!important;
+}
+
+.premier-benefits2-tab .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+}
+
+.premier-benefits2-tab .column-tab-title {
+  margin-bottom: 0;
+}
+
+.premier-benefits2-tab .tab-content {
+  margin-bottom: 0;
+  font-size: 16px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding: 10px 30px;
+}
+
+.premier-benefits2-tab .tab-content2 {
+  margin-bottom: 0;
+  font-size: 16px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 22px;
+  padding-bottom: 10px;
+  min-height: 69px;
+}
+
+.premier-benefits2-tab .col-lg-6 {
+  padding: 0!important;
+}
+
+.premier-benefits2-tab .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.premier-benefits2-tab .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#premier-section5 h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#premier-section5 .book-icon-img {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#premier-section5 .read-now-btn {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#premier-section5 .read-now-btn:hover {
+  background: #252362;
+  color: #ffffff;
+  border: 2px solid #252362;
+}
+
+#premier-cta-section .buy-now-btn {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  color: #252362;
+  padding: 2px 70px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+#premier-cta-section .buy-now-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+#premier-cta-section h2 {
+  margin-top: 20px;
+}
+
+#premier-section7 p {
+  line-height: 2;
+}
+
+#premier-section7 .blue-bg {
+  background: #252362;
+  margin-top: 50px;
+  padding: 40px 50px 20px 50px;
+  box-shadow: 0px 0px 12px 0px #888888;
+}
+
+#premier-section7 .white-bg {
+  background: #ffffff;
+  margin-top: 50px;
+  padding: 40px 50px 20px 50px;
+  box-shadow: 0px 0px 12px 0px #888888;
+}
+
+#premier-section7 h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#premier-section7 .first-paragraph {
+  margin-bottom: 0px;
+}
+
+section#premier-section7 {
+  padding-bottom: 100px;
+}
 /* End of Premier Page*/
+
+/* Standard Page*/
+section.standard-hero-section-bg {
+  min-height: 600px;
+}
+
+section#standard-section1 {
+    padding-top: 100px;
+}
+
+.standard-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#standard-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#standard-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#standard-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#standard-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+#standard-section1 .standard-container {
+  box-shadow: 0px 0px 12px 0px #888888;
+  padding: 50px 50px 40px 50px;
+}
+
+#standard-section1  p {
+  line-height: 2;
+}
+
+#standard-section1 .row-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 35px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#standard-section1 .row-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#standard-section1 h3 {
+  margin-top: 10px;
+  padding-bottom: 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#standard-section1 a.read-more {
+  color: #252362;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#standard-section2 {
+  background: #252362;
+}
+
+#standard-section2 h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#standard-section2 li {
+  line-height: 2;
+}
+
+#standard-section2 .section2-img1, #standard-section2 .section2-img2 {
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.standard-coverages-tab > input,
+.standard-coverages-tab section > div {
+  display: none;
+}
+
+#standard-coverages-tab1:checked ~ section .standard-coverages-tab1,
+#standard-coverages-tab2:checked ~ section .standard-coverages-tab2 {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#standard-coverages-tab1:checked ~ nav .standard-coverages-tab1,
+#standard-coverages-tab2:checked ~ nav .standard-coverages-tab2 {
+  color: red;
+}
+
+.standard-coverages-tab {
+  width: 100%;
+  margin: 0 auto;
+  margin-top:30px;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.standard-coverages-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.standard-coverages-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 15px 25px;
+  border-bottom: 0;
+  background: #eeeeee;
+  color: #000000;
+  font-weight: 600;
+  width: 50%;
+  font-size: 20px;
+  border-top: 10px solid #fff;
+}
+
+.standard-coverages-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.standard-coverages-tab ul li label:active {
+  background: #ffffff;
+}
+
+.standard-coverages-tab ul li:not(:last-child) label {
+  border-right-width: 0;
+}
+
+.standard-coverages-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 0px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.standard-coverages-tab section div {
+  padding: 20px;
+  width: 100%;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  color: #444;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.standard-coverages-tab section div h2 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#standard-coverages-tab1:checked ~ nav .standard-coverages-tab1 label,
+#standard-coverages-tab2:checked ~ nav .standard-coverages-tab2 label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#standard-coverages-tab1:checked ~ nav .standard-coverages-tab1 label:after,
+#standard-coverages-tab2:checked ~ nav .standard-coverages-tab2 label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+.standard-coverages-tab .age-title {
+  font-size: 16px;
+}
+
+.standard-coverages-tab .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+}
+
+.standard-coverages-tab .column-tab-title {
+  margin-bottom: 0;
+}
+
+.standard-coverages-tab .tab-content {
+  margin-bottom: 0;
+  font-size: 25px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 50px;
+  padding-top: 6px;
+}
+
+.standard-coverages-tab .tab-content1 {
+  min-height: 25px;
+  margin-bottom: 0;
+  font-size: 25px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+}
+
+.standard-coverages-tab .col-lg-10 {
+  padding: 0!important;
+}
+
+.standard-coverages-tab .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.standard-coverages-tab .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#standard-section3 .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.standard-benefits1-tab > input,
+.standard-benefits1-tab section > div {
+  display: none;
+}
+
+#standard-benefits1-tab1:checked ~ section .standard-benefits1-tab1,
+#standard-benefits1-tab2:checked ~ section .standard-benefits1-tab2,
+#standard-benefits1-tab3:checked ~ section .standard-benefits1-tab3 {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#standard-benefits1-tab1:checked ~ nav .standard-benefits1-tab1,
+#standard-benefits1-tab2:checked ~ nav .standard-benefits1-tab2,
+#standard-benefits1-tab3:checked ~ nav .standard-benefits1-tab3 {
+  color: red;
+}
+
+.standard-benefits1-tab {
+  width: 100%;
+  margin: 0 auto;
+  margin-top:30px;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.standard-benefits1-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.standard-benefits1-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 15px 25px;
+  border-bottom: 0;
+  background: #eeeeee;
+  color: #000000;
+  font-weight: 600;
+  width: 33.33%;
+  min-height: 136px;
+  font-size: 16px;
+  border-top: 10px solid #fff;
+}
+
+.standard-benefits1-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.standard-benefits1-tab ul li label:active {
+  background: #ffffff;
+}
+
+.standard-benefits1-tab ul li:not(:last-child) label {
+  border-right-width: 0;
+}
+
+.standard-benefits1-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 0px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.standard-benefits1-tab section div {
+  padding: 20px;
+  width: 100%;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  color: #444;
+}
+
+.standard-benefits1-tab section div h2 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#standard-benefits1-tab1:checked ~ nav .standard-benefits1-tab1 label,
+#standard-benefits1-tab2:checked ~ nav .standard-benefits1-tab2 label,
+#standard-benefits1-tab3:checked ~ nav .standard-benefits1-tab3 label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#standard-benefits1-tab1:checked ~ nav .standard-benefits1-tab1 label:after,
+#standard-benefits1-tab2:checked ~ nav .standard-benefits1-tab2 label:after,
+#standard-benefits1-tab3:checked ~ nav .standard-benefits1-tab3 label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+.standard-benefits1-tab .label-content {
+  padding-top: 28px!important;
+}
+
+.standard-benefits1-tab .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+}
+
+.standard-benefits1-tab .column-tab-title {
+  margin-bottom: 0;
+}
+
+.standard-benefits1-tab .tab-content {
+  margin-bottom: 0;
+  font-size: 16px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding: 10px 30px;
+}
+
+.standard-benefits1-tab .tab-content2 {
+  margin-bottom: 0;
+  font-size: 16px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 22px;
+  padding-bottom: 10px;
+  min-height: 69px;
+}
+
+.standard-benefits1-tab .col-lg-6 {
+  padding: 0!important;
+}
+
+.standard-benefits1-tab .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.standard-benefits1-tab .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#standard-section4 .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.standard-benefits2-tab > input,
+.standard-benefits2-tab section > div {
+  display: none;
+}
+
+#standard-benefits2-tab1:checked ~ section .standard-benefits2-tab1,
+#standard-benefits2-tab2:checked ~ section .standard-benefits2-tab2,
+#standard-benefits2-tab3:checked ~ section .standard-benefits2-tab3 {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#standard-benefits2-tab1:checked ~ nav .standard-benefits2-tab1,
+#standard-benefits2-tab2:checked ~ nav .standard-benefits2-tab2,
+#standard-benefits2-tab3:checked ~ nav .standard-benefits2-tab3 {
+  color: red;
+}
+
+.standard-benefits2-tab {
+  width: 100%;
+  margin: 0 auto;
+  margin-top:30px;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.standard-benefits2-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.standard-benefits2-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 15px 25px;
+  border-bottom: 0;
+  background: #eeeeee;
+  color: #000000;
+  font-weight: 600;
+  width: 33.33%;
+  min-height: 136px;
+  font-size: 16px;
+  border-top: 10px solid #fff;
+}
+
+.standard-benefits2-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.standard-benefits2-tab ul li label:active {
+  background: #ffffff;
+}
+
+.standard-benefits2-tab ul li:not(:last-child) label {
+  border-right-width: 0;
+}
+
+.standard-benefits2-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 0px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.standard-benefits2-tab section div {
+  padding: 20px;
+  width: 100%;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  color: #444;
+}
+
+.standard-benefits2-tab section div h2 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#standard-benefits2-tab1:checked ~ nav .standard-benefits2-tab1 label,
+#standard-benefits2-tab2:checked ~ nav .standard-benefits2-tab2 label,
+#standard-benefits2-tab3:checked ~ nav .standard-benefits2-tab3 label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+}
+
+#standard-benefits2-tab1:checked ~ nav .standard-benefits2-tab1 label:after,
+#standard-benefits2-tab2:checked ~ nav .standard-benefits2-tab2 label:after,
+#standard-benefits2-tab3:checked ~ nav .standard-benefits2-tab3 label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+.standard-benefits2-tab .label-content {
+  padding-top: 28px!important;
+}
+
+.standard-benefits2-tab .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+}
+
+.standard-benefits2-tab .column-tab-title {
+  margin-bottom: 0;
+}
+
+.standard-benefits2-tab .tab-content {
+  margin-bottom: 0;
+  font-size: 16px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding: 10px 30px;
+}
+
+.standard-benefits2-tab .tab-content2 {
+  margin-bottom: 0;
+  font-size: 16px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 22px;
+  padding-bottom: 10px;
+  min-height: 69px;
+}
+
+.standard-benefits2-tab .col-lg-6 {
+  padding: 0!important;
+}
+
+.standard-benefits2-tab .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.standard-benefits2-tab .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+/* End of Standard Page*/
 
 /* End of Klint css */
 
