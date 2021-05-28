@@ -1890,7 +1890,10 @@ section#elite-section7 {
   font-weight: 600;
   width: 50%;
   font-size: 20px;
-  border-top: 10px solid #fff;
+  border-left: 2px solid #C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
 }
 
 .elite-co-insurance-tab ul li label:hover {
@@ -1937,6 +1940,7 @@ section#elite-section7 {
   position: relative;
   font-weight: 600;
   border-top: 10px solid #252362;
+  margin-top: -9px
 }
 
 #elite-co-insurance-tab1:checked ~ nav .elite-co-insurance-tab1 label:after,
@@ -1992,7 +1996,10 @@ section#elite-section7 {
   font-weight: 600;
   width: 50%;
   font-size: 20px;
-  border-top: 10px solid #fff;
+  border-left: 2px solid #C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
 }
 
 .elite-coverages-tab ul li label:hover {
@@ -2038,6 +2045,7 @@ section#elite-section7 {
   position: relative;
   font-weight: 600;
   border-top: 10px solid #252362;
+  margin-top: -9px
 }
 
 #elite-coverages-tab1:checked ~ nav .elite-coverages-tab1 label:after,
@@ -2229,7 +2237,10 @@ section#traveler-usa-section1 {
   font-weight: 600;
   width: 50%;
   font-size: 20px;
-  border-top: 10px solid #fff;
+  border-left: 2px solid #C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
 }
 
 .traveler-coverages-tab ul li label:hover {
@@ -2275,6 +2286,7 @@ section#traveler-usa-section1 {
   position: relative;
   font-weight: 600;
   border-top: 10px solid #252362;
+  margin-top: -9px;
 }
 
 #traveler-coverages-tab1:checked ~ nav .traveler-coverages-tab1 label:after,
@@ -2365,7 +2377,10 @@ section#traveler-usa-section1 {
   font-weight: 600;
   width: 50%;
   font-size: 20px;
-  border-top: 10px solid #fff;
+  border-left: 2px solid #C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
 }
 
 .traveler-co-insurance-tab ul li label:hover {
@@ -2412,6 +2427,7 @@ section#traveler-usa-section1 {
   position: relative;
   font-weight: 600;
   border-top: 10px solid #252362;
+  margin-top:-9px;
 }
 
 #traveler-co-insurance-tab1:checked ~ nav .traveler-co-insurance-tab1 label:after,
@@ -2652,13 +2668,15 @@ section#premier-section1 {
   font-family: "poppins";
   float: left;
   padding: 15px 25px;
-  border-bottom: 0;
   background: #eeeeee;
   color: #000000;
   font-weight: 600;
   width: 50%;
   font-size: 20px;
-  border-top: 10px solid #fff;
+  border-left: 2px solid #C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
 }
 
 .premier-coverages-tab ul li label:hover {
@@ -2704,6 +2722,7 @@ section#premier-section1 {
   position: relative;
   font-weight: 600;
   border-top: 10px solid #252362;
+  margin-top: -9px;
 }
 
 #premier-coverages-tab1:checked ~ nav .premier-coverages-tab1 label:after,
@@ -2801,14 +2820,16 @@ section#premier-section1 {
   font-family: "poppins";
   float: left;
   padding: 15px 25px;
-  border-bottom: 0;
   background: #eeeeee;
   color: #000000;
   font-weight: 600;
   width: 33.33%;
-  min-height: 136px;
+  min-height: 128px;
   font-size: 16px;
-  border-top: 10px solid #fff;
+  border-left: 2px solid #C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
 }
 
 .premier-benefits1-tab ul li label:hover {
@@ -2855,6 +2876,7 @@ section#premier-section1 {
   position: relative;
   font-weight: 600;
   border-top: 10px solid #252362;
+  margin-top: -9px;
 }
 
 #premier-benefits1-tab1:checked ~ nav .premier-benefits1-tab1 label:after,
@@ -2872,6 +2894,7 @@ section#premier-section1 {
 
 .premier-benefits1-tab .label-content {
   padding-top: 28px!important;
+  padding-bottom: 26px;
 }
 
 .premier-benefits1-tab .column-tab {
@@ -2961,14 +2984,16 @@ section#premier-section1 {
   font-family: "poppins";
   float: left;
   padding: 15px 25px;
-  border-bottom: 0;
   background: #eeeeee;
   color: #000000;
   font-weight: 600;
   width: 33.33%;
-  min-height: 136px;
+  min-height: 128px;
   font-size: 16px;
-  border-top: 10px solid #fff;
+  border-left: 2px solid #C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
 }
 
 .premier-benefits2-tab ul li label:hover {
@@ -3015,6 +3040,7 @@ section#premier-section1 {
   position: relative;
   font-weight: 600;
   border-top: 10px solid #252362;
+  margin-top: -9px;
 }
 
 #premier-benefits2-tab1:checked ~ nav .premier-benefits2-tab1 label:after,
@@ -3032,6 +3058,7 @@ section#premier-section1 {
 
 .premier-benefits2-tab .label-content {
   padding-top: 28px!important;
+  padding-bottom: 26px;
 }
 
 .premier-benefits2-tab .column-tab {
@@ -3303,13 +3330,15 @@ section#standard-section1 {
   font-family: "poppins";
   float: left;
   padding: 15px 25px;
-  border-bottom: 0;
   background: #eeeeee;
   color: #000000;
   font-weight: 600;
   width: 50%;
   font-size: 20px;
-  border-top: 10px solid #fff;
+  border-left: 2px solid #C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
 }
 
 .standard-coverages-tab ul li label:hover {
@@ -3357,6 +3386,7 @@ section#standard-section1 {
   position: relative;
   font-weight: 600;
   border-top: 10px solid #252362;
+  margin-top: -9px;
 }
 
 #standard-coverages-tab1:checked ~ nav .standard-coverages-tab1 label:after,
@@ -3461,14 +3491,15 @@ section#standard-section1 {
   font-family: "poppins";
   float: left;
   padding: 15px 25px;
-  border-bottom: 0;
   background: #eeeeee;
   color: #000000;
   font-weight: 600;
   width: 33.33%;
-  min-height: 136px;
-  font-size: 16px;
-  border-top: 10px solid #fff;
+  font-size: 20px;
+  border-left: 2px solid #C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
 }
 
 .standard-benefits1-tab ul li label:hover {
@@ -3515,6 +3546,7 @@ section#standard-section1 {
   position: relative;
   font-weight: 600;
   border-top: 10px solid #252362;
+  margin-top: -9px;
 }
 
 #standard-benefits1-tab1:checked ~ nav .standard-benefits1-tab1 label:after,
@@ -3621,14 +3653,15 @@ section#standard-section1 {
   font-family: "poppins";
   float: left;
   padding: 15px 25px;
-  border-bottom: 0;
   background: #eeeeee;
   color: #000000;
   font-weight: 600;
   width: 33.33%;
-  min-height: 136px;
-  font-size: 16px;
-  border-top: 10px solid #fff;
+  font-size: 20px;
+  border-left: 2px solid #C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
 }
 
 .standard-benefits2-tab ul li label:hover {
@@ -3675,6 +3708,7 @@ section#standard-section1 {
   position: relative;
   font-weight: 600;
   border-top: 10px solid #252362;
+  margin-top: -9px;
 }
 
 #standard-benefits2-tab1:checked ~ nav .standard-benefits2-tab1 label:after,
@@ -3735,6 +3769,248 @@ section#standard-section1 {
   font-size: 20px;
   font-weight: 600;
   margin-top: 30px;
+}
+
+.standard-benefits3-tab > input,
+.standard-benefits3-tab section > div {
+  display: none;
+}
+
+#standard-benefits3-tab1:checked ~ section .standard-benefits3-tab1,
+#standard-benefits3-tab2:checked ~ section .standard-benefits3-tab2,
+#standard-benefits3-tab3:checked ~ section .standard-benefits3-tab3 {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#standard-benefits3-tab1:checked ~ nav .standard-benefits3-tab1,
+#standard-benefits3-tab2:checked ~ nav .standard-benefits3-tab2,
+#standard-benefits3-tab3:checked ~ nav .standard-benefits3-tab3 {
+  color: red;
+}
+
+.standard-benefits3-tab {
+  width: 100%;
+  margin: 0 auto;
+  margin-top:30px;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.standard-benefits3-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.standard-benefits3-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 15px 25px;
+  background: #eeeeee;
+  color: #000000;
+  font-weight: 600;
+  width: 33.33%;
+  font-size: 20px;
+  border-left: 2px solid #C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
+}
+
+.standard-benefits3-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.standard-benefits3-tab ul li label:active {
+  background: #ffffff;
+}
+
+.standard-benefits3-tab ul li:not(:last-child) label {
+  border-right-width: 0;
+}
+
+.standard-benefits3-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 0px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.standard-benefits3-tab section div {
+  padding: 20px;
+  width: 100%;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  color: #444;
+}
+
+.standard-benefits3-tab section div h2 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#standard-benefits3-tab1:checked ~ nav .standard-benefits3-tab1 label,
+#standard-benefits3-tab2:checked ~ nav .standard-benefits3-tab2 label,
+#standard-benefits3-tab3:checked ~ nav .standard-benefits3-tab3 label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid #252362;
+  margin-top: -9px;
+}
+
+#standard-benefits3-tab1:checked ~ nav .standard-benefits3-tab1 label:after,
+#standard-benefits3-tab2:checked ~ nav .standard-benefits3-tab2 label:after,
+#standard-benefits3-tab3:checked ~ nav .standard-benefits3-tab3 label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+.standard-benefits3-tab .label-content {
+  padding-top: 28px!important;
+}
+
+.standard-benefits3-tab .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+}
+
+.standard-benefits3-tab .column-tab-title {
+  margin-bottom: 0;
+}
+
+.standard-benefits3-tab .tab-content {
+  margin-bottom: 0;
+  font-size: 16px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding: 10px 30px;
+}
+
+.standard-benefits3-tab .tab-content2 {
+  margin-bottom: 0;
+  font-size: 16px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 22px;
+  padding-bottom: 10px;
+  min-height: 69px;
+}
+
+.standard-benefits3-tab .col-lg-6 {
+  padding: 0!important;
+}
+
+.standard-benefits3-tab .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.standard-benefits3-tab .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#standard-section5 h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#standard-section5 .book-icon-img {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#standard-section5 .read-now-btn {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#standard-section5 .read-now-btn:hover {
+  background: #252362;
+  color: #ffffff;
+  border: 2px solid #252362;
+}
+
+#standard-cta-section .buy-now-btn {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  color: #252362;
+  padding: 2px 70px;
+  border-radius: 50px;
+  transition: .5s;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+#standard-cta-section .buy-now-btn:hover {
+  background: #252362;
+  color: #ffffff;
+}
+
+#standard-cta-section h2 {
+  margin-top: 20px;
+}
+
+#standard-section7 p {
+  line-height: 2;
+}
+
+#standard-section7 .blue-bg {
+  background: #252362;
+  margin-top: 50px;
+  padding: 40px 50px 20px 50px;
+  box-shadow: 0px 0px 12px 0px #888888;
+}
+
+#standard-section7 .white-bg {
+  background: #ffffff;
+  margin-top: 50px;
+  padding: 40px 50px 20px 50px;
+  box-shadow: 0px 0px 12px 0px #888888;
+}
+
+#standard-section7 h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#premier-section7 .first-paragraph {
+  margin-bottom: 0px;
+}
+
+section#premier-section7 {
+  padding-bottom: 100px;
 }
 /* End of Standard Page*/
 

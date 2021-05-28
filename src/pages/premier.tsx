@@ -510,7 +510,7 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
         </Container>
       </section>
 
-      <section id="premier-section5">
+        <section id="premier-section5">
         <Container>
           <div className="col-lg-12">
             <h2 className="text-blue text-center">INF Premier Plan Description</h2>
