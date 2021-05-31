@@ -7141,7 +7141,6 @@ section#bmi-travel-section-2 {
 
 /* End of Gillian CSS */
 
-
 /* Premium Styles */
 
 section.premium-hero-section-bg {
@@ -7343,75 +7342,125 @@ section#premium-hero-section {
   left:100%;
 }
 
-#premium-section-1 select {
-  border-radius: 50px;
-  width: 250px;
-  color:#838383;
-}
+// #premium-selector {
+//   border-radius: 50px;
+//   width: 250px;
+//   color:#838383;
+//   padding: 10px 20px;
+// }
 
 
 .hidden {
   display: none;
 }
-#premium-section-1 select option {
-  color:#838383;
-}
+// #premium-selector option {
+//   color:#838383;
+// }
 
 #premium-section-1 span {
   font-size: 20px;
 }
 
-input[type="radio"]:checked,
-[type="radio"]:not(:checked) {
-    position: absolute;
-    left: -9999px;
-}
-input[type="radio"]:checked + label,
-input[type="radio"]:not(:checked) + label
-{
-    position: relative;
-    padding-left: 28px;
-    cursor: pointer;
-    line-height: 20px;
-    display: inline-block;
-    color: $white;
-}
-input[type="radio"]:checked + label:before,
-input[type="radio"]:not(:checked) + label:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 20px;
-    height: 20px;
-    border: 1px solid $white;
-    border-radius: 100%;
-    background: #252362;
-}
-input[type="radio"]:checked + label:after,
-input[type="radio"]:not(:checked) + label:after {
-    content: '';
-    width: 12px;
-    height: 12px;
-    background: #F87DA9;
-    position: absolute;
-    top: 4px;
-    left: 4px;
-    border-radius: 100%;
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-}
-input[type="radio"]:not(:checked) + label:after {
-    opacity: 0;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-}
-input[type="radio"]:checked + label:after {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-}
+#custom-radio-buttons .radio-wrapper {display: inline-block;}
+		#custom-radio-buttons .radio-wrapper input[name="option"] {display: none;}
+		#custom-radio-buttons .radio-wrapper input[name="option"] + label {
+			color: $white;
+			font-size: 16px;
+      margin-left: 20px;
+      margin-right: 20px;
+		}
+		#custom-radio-buttons .radio-wrapper input[name="option"] + label > span.outer {
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			margin: -1px 7px 0 0;
+			border: 2px solid $white;
+			vertical-align: middle;
+			cursor: pointer;
+			position: relative;
+			-moz-border-radius: 50%;
+			border-radius: 50%;
+			background-color: transparent;
+		}
+		#custom-radio-buttons .radio-wrapper input[name="option"] + label span.inner {
+			display: block;
+			position: absolute;
+			display: none;
+			width: 10px;
+			height: 10px;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			vertical-align: middle;
+			cursor: pointer;
+			-moz-border-radius: 50%;
+			border-radius: 50%;
+			background-color: grey;
+		}
+		#custom-radio-buttons .radio-wrapper input[name="option"]:checked + label span.inner {background-color: $white; display: block;}
 
+    /* Reset Select */
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      appearance: none;
+      outline: 0;
+      box-shadow: none;
+      border: 0 !important;
+      background: $white;
+      background-image: none;
+    }
+    /* Remove IE arrow */
+    select::-ms-expand {
+      display: none;
+    }
+    /* Custom Select */
+    .select {
+      position: relative;
+      display: flex;
+      width: 250px;
+      height: 3em;
+      // line-height: 3;
+      background: $white;
+      overflow: hidden;
+      border-radius: 50px;
+    }
+    select {
+      flex: 1;
+      padding: 0 1.5em;
+      color: #838383;
+      cursor: pointer;
+    }
+    /* Arrow */
+    .select::after {
+      content: '\25BC';
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 0 1em;
+      background: $white;
+      cursor: pointer;
+      pointer-events: none;
+      -webkit-transition: .25s all ease;
+      -o-transition: .25s all ease;
+      transition: .25s all ease;
+      color: #252362;
+      margin-top: 13px;
+    }
+    // /* Transition */
+    // .select:hover::after {
+    //   color: #f39c12;
+    // }
+
+.select-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 /* end of new added css victor */
 /*End of Premium Styles */

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { graphql, Link } from 'gatsby'
 import Img, { FixedObject } from 'gatsby-image'
 import { IndexQueryQuery, PostByPathQuery } from '../../types/graphql-types'
@@ -46,7 +46,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
 
       <section id="premium-section-1">
        <Container>
-           <div className="col-lg-12  hidden">
+           <div className="col-lg-12 hidden">
             <div className="blue-bg">
               <h3 className="text-white text-center">WHAT KIND OF PLAN ARE YOU LOOKING FOR?</h3>
               <div className="row">
@@ -63,51 +63,61 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
           </div>
 
-          <div className="col-lg-12 hidden">
+          <div className="col-lg-12 ">
            <div className="blue-bg">
-             <h3 className="text-white text-center">What is the age group of your visitor?</h3>
+             <h3 className="text-white text-center mb-4">WHAT IS THE AGE GROUP OF<br /> YOUR VISITOR?</h3>
               <form id="" method="" action="">
-                <div className="text-center">
-                  <select>
-                    <option>Select Age Group</option>
-                    <option value="0-15">0-15</option>
-                    <option value="16-20">16-20</option>
-                    <option value="20-24">20-24</option>
-                    <option value="25-29">25-29</option>
-                    <option value="30-34">30-34</option>
-                    <option value="35-39">35-39</option>
-                    <option value="40-44">40-44</option>
-                    <option value="45-49">45-49</option>
-                    <option value="50-54">50-54</option>
-                    <option value="55-59">55-59</option>
-                    <option value="60-64">60-64</option>
-                    <option value="65-69">65-69</option>
-                    <option value="70-74">70-74</option>
-                    <option value="75-79">75-79</option>
-                    <option value="80-84">80-84</option>
-                    <option value="85-89">85-89</option>
-                    <option value="90-94">90-94</option>
-                    <option value="95-99">95-99</option>
-                  </select>
+                <div className="select-container">
+                  <div className="text-center select">
+                    <select id="premium-selector">
+                      <option>Select Age Group</option>
+                      <option value="0-15">0-15</option>
+                      <option value="16-20">16-20</option>
+                      <option value="20-24">20-24</option>
+                      <option value="25-29">25-29</option>
+                      <option value="30-34">30-34</option>
+                      <option value="35-39">35-39</option>
+                      <option value="40-44">40-44</option>
+                      <option value="45-49">45-49</option>
+                      <option value="50-54">50-54</option>
+                      <option value="55-59">55-59</option>
+                      <option value="60-64">60-64</option>
+                      <option value="65-69">65-69</option>
+                      <option value="70-74">70-74</option>
+                      <option value="75-79">75-79</option>
+                      <option value="80-84">80-84</option>
+                      <option value="85-89">85-89</option>
+                      <option value="90-94">90-94</option>
+                      <option value="95-99">95-99</option>
+                    </select>
+                  </div>
                 </div>
               </form>
            </div>
          </div>
 
-         <div className="col-lg-12">
+         <div className="col-lg-12  hidden">
           <div className="blue-bg text-center">
             <h3 className="text-white">DOES YOUR VISITOR HAVE <br />ANY PRE-EXISTING<br /> CONDITIONS? <span>(EG DIABETES,  BP ETC)</span></h3>
-              <form id="" method="" action="">
-               <div className="text-center">
-                 <div class="form-check form-check-inline">
-                   <input class="form-check-input" type="radio" name="option" id="inlineRadio1" value="Yes" checked/>
-                   <label class="form-check-label radio-label" htmlfor="inlineRadio1">Yes</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                   <input class="form-check-input" type="radio" name="option" id="inlineRadio2" value="No"/>
-                   <label class="form-check-label radio-label" htmlfor="inlineRadio2">No</label>
-                  </div>
-               </div>
+              <form id="custom-radio-buttons" method="" action="">
+              <div class="radio-wrapper">
+                <input type="radio" id="radio1" name="option" value="yes"/>
+                <label for="radio1">
+                  <span class="outer">
+                    <span class="inner animated"></span>
+                  </span>
+                    Yes
+                </label>
+              </div>
+              <div class="radio-wrapper">
+                <input type="radio" id="radio2" name="option" value="no"/>
+                <label for="radio2">
+                  <span class="outer">
+                    <span class="inner animated"></span>
+                  </span>
+                    No
+                </label>
+              </div>
              </form>
           </div>
         </div>

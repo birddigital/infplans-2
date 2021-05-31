@@ -35,13 +35,10 @@ const BMIApplyPage: React.FC<Props> = ({ data, location }: Props) => {
         <div id="hero-section">
           <Container>
             <div className="col-lg-12">
-              <h1 className="text-black">
-                BMI Apply Page
+              <h1 className="text-white text-center">
+                APPLY
               </h1>
-              <p className="hero-text text-black">
-                subtitle here
-              </p>
-              <ButtonBlack path="/contact" label="Button Text" />
+              <button className="hero-btn"> Get a Quote </button>
             </div>
             <div className="col-lg-8">
             </div>
@@ -96,7 +93,7 @@ export const query = graphql`
         }
       }
     },
-    hero_background: file(name: { eq: "bg" }) {
+    hero_background: file(name: { eq: "bmi-travel-assist-apply" }) {
       childImageSharp {
         fluid(maxWidth: 1400, quality: 100) {
           ...GatsbyImageSharpFluid
