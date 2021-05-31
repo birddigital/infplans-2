@@ -638,14 +638,14 @@ export const query = graphql`
         }
       }
     },
-    section2_img_right: file(name: { eq: "traveler-section2-img-right" }) {
+    section2_img_right: file(name: { eq: "premier-section2-img-right" }) {
       childImageSharp {
         fluid(maxWidth: 1000, quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
     },
-    section2_img_left: file(name: { eq: "traveler-section2-img-left" }) {
+    section2_img_left: file(name: { eq: "premier-section2-img-left" }) {
       childImageSharp {
         fluid(maxWidth: 1000, quality: 100) {
           ...GatsbyImageSharpFluid

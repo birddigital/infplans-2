@@ -37,8 +37,13 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
   const no_paperworks = data.permanent_resident?.childImageSharp?.fluid
   const unique_plans_color_bg = data.unique_plans_color_bg?.childImageSharp?.fluid
   const unique_plans_bg = data.unique_plans_bg?.childImageSharp?.fluid
+  const home_divider_img = data.home_divider_img?.childImageSharp?.fluid
+  const bottom_icon1 = data.bottom_icon1?.childImageSharp?.fluid
+  const bottom_icon2 = data.bottom_icon2?.childImageSharp?.fluid
+  const bottom_icon3 = data.bottom_icon3?.childImageSharp?.fluid
+  const bottom_icon4 = data.bottom_icon4?.childImageSharp?.fluid
 
-  
+
   return (
     <Layout location={location}>
       <Meta site={meta} title="INF Visitor Insurance - Visitors Insurance & Travel Insurance" />
@@ -53,7 +58,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
           <Container>
             <div className="col-lg-12">
               <h1 className="text-white text-center">
-                Find the right coverage <br />for your trip
+                FIND THE RIGHT COVERAGE <br />FOR YOUR TRIP
               </h1>
             </div>
             <div className="col-lg-8">
@@ -119,10 +124,10 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
       <div id="what-describes-you">
         <ContainerFluid>
           <div className="col-lg-4 bg-blue">
-            <h3 className="text-white">
+            <h2 className="text-white">
               What best <br />describes you?
-            </h3>
-            <p className="text-white">
+            </h2>
+            <p className="text-white subtitle">
               Select the plan that you are <br />looking for
             </p>
           </div>
@@ -132,13 +137,13 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="what-describes-you-icon">
                   <Img fluid={non_us_citizen} alt="Non US Citizen" />
                 </div>
-                <p className="text-center">Non US Citizen</p>
+                <p className="text-center column-title">Non US Citizen</p>
               </div>
               <div className="col-lg-6 bg-lightgray">
                 <div className="what-describes-you-icon">
                   <Img fluid={green_card_holder} alt="Green Card Holder" />
                 </div>
-                <p className="text-center">Green Card Holder</p>
+                <p className="text-center column-title">Green Card Holder</p>
               </div>
             </div>
             <div className="row">
@@ -146,13 +151,13 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="what-describes-you-icon">
                   <Img fluid={student_or_scholar} alt="Student or Scholar on J-1, F-1, M-1, or Q-1 Visa"/>
                 </div>
-                <p className="text-center">Student or Scholar on <br />J-1, F-1, M-1, or Q-1 Visa</p>
+                <p className="text-center column-title">Student or Scholar on <br />J-1, F-1, M-1, or Q-1 Visa</p>
               </div>
               <div className="col-lg-6 bg-white">
                 <div className="what-describes-you-icon">
                   <Img fluid={permanent_resident} alt="Permanent Resident" />
                 </div>
-                <p className="text-center">Permanent Resident</p>
+                <p className="text-center column-title">Permanent Resident</p>
               </div>
             </div>
           </div>
@@ -161,91 +166,91 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="why-choose-inf-insurance">
         <Container>
           <div className="col-lg-12 mb-20 mt-20">
-            <p className="text-center mb-0">We Really do Care about Our Members</p>
+            <p className="text-center subtitle">We Really do Care about Our Members</p>
             <h2 className="text-center text-primary">
-              Why choose INF Insurance? 
+              Why choose INF Insurance?
             </h2>
           </div>
           <div className="col-lg-3 why-choose-inf-icon-container">
             <div className="why-choose-inf-icons">
-              <Img fluid={built_with_technology} 
-                alt="Built in Technology & With Simplicity" 
+              <Img fluid={built_with_technology}
+                alt="Built in Technology & With Simplicity"
                 style={{ maxHeight: '55px' }}
-                imgStyle={{ objectFit: 'contain' }} 
+                imgStyle={{ objectFit: 'contain' }}
               />
-            </div>
-            <p>Built in Technology<br /> & With Simplicity</p>
+            </div >
+            <p className="column-title">Built in Technology<br /> & With Simplicity</p>
           </div>
           <div className="col-lg-3 why-choose-inf-icon-container">
             <div className="why-choose-inf-icons">
-              <Img fluid={over_30_year_track_record} 
-                alt="Our 30 year Track Record" 
+              <Img fluid={over_30_year_track_record}
+                alt="Our 30 year Track Record"
                 style={{ maxHeight: '55px' }}
-                imgStyle={{ objectFit: 'contain' }} 
+                imgStyle={{ objectFit: 'contain' }}
               />
             </div>
-            <p>Our 30 year<br /> Track Record</p>
+            <p className="column-title">Our 30 year<br /> Track Record</p>
           </div>
           <div className="col-lg-3 why-choose-inf-icon-container">
             <div className="why-choose-inf-icons">
-              <Img 
-                fluid={expert_in_visitor_insurance} 
-                  alt="Expertise in Visitors Insurance" 
+              <Img
+                fluid={expert_in_visitor_insurance}
+                  alt="Expertise in Visitors Insurance"
                   style={{ maxHeight: '55px' }}
-                  imgStyle={{ objectFit: 'contain' }} 
+                  imgStyle={{ objectFit: 'contain' }}
                 />
             </div>
-            <p>Expertise in Visitors<br /> Insurance</p>
+            <p className="column-title">Expertise in Visitors<br /> Insurance</p>
           </div>
           <div className="col-lg-3 why-choose-inf-icon-container">
             <div className="why-choose-inf-icons">
-              <Img fluid={customer_service} 
-                alt="24-hour Customer Service" 
+              <Img fluid={customer_service}
+                alt="24-hour Customer Service"
                 style={{ maxHeight: '55px' }}
-                imgStyle={{ objectFit: 'contain' }} 
+                imgStyle={{ objectFit: 'contain' }}
               />
             </div>
-            <p>24-hour Customer<br /> Service</p>
+            <p className="column-title">24-hour Customer<br /> Service</p>
           </div>
           <div className="col-lg-3 why-choose-inf-icon-container">
             <div className="why-choose-inf-icons">
-              <Img fluid={full_transparency} 
-                alt="Full Transparency" 
+              <Img fluid={full_transparency}
+                alt="Full Transparency"
                 style={{ maxHeight: '55px' }}
-                imgStyle={{ objectFit: 'contain' }} 
+                imgStyle={{ objectFit: 'contain' }}
               />
             </div>
-            <p>Full<br /> Transparency</p>
+            <p className="column-title">Full<br /> Transparency</p>
           </div>
           <div className="col-lg-3 why-choose-inf-icon-container">
             <div className="why-choose-inf-icons">
-              <Img fluid={company_with_patents} 
-                alt="The Company with Patents" 
+              <Img fluid={company_with_patents}
+                alt="The Company with Patents"
                 style={{ maxHeight: '55px' }}
-                imgStyle={{ objectFit: 'contain' }} 
+                imgStyle={{ objectFit: 'contain' }}
               />
             </div>
-            <p>The Company<br /> with Patents</p>
+            <p className="column-title">The Company<br /> with Patents</p>
           </div>
           <div className="col-lg-3 why-choose-inf-icon-container">
             <div className="why-choose-inf-icons">
-              <Img fluid={exclusive_plan_offerings} 
-                alt="Exclusive Plan Offerings" 
+              <Img fluid={exclusive_plan_offerings}
+                alt="Exclusive Plan Offerings"
                 style={{ maxHeight: '55px' }}
-                imgStyle={{ objectFit: 'contain' }} 
-              /> 
-            </div>
-            <p>Exclusive Plan<br /> Offerings</p>
-          </div>
-          <div className="col-lg-3 why-choose-inf-icon-container">
-            <div className="why-choose-inf-icons">
-              <Img fluid={no_paperworks} 
-                alt="No paperwork. Instant ID. Secure Purchase" 
-                style={{ maxHeight: '55px' }}
-                imgStyle={{ objectFit: 'contain' }} 
+                imgStyle={{ objectFit: 'contain' }}
               />
             </div>
-            <p>No paperwork. Instant<br /> ID. Secure Purchase</p>
+            <p className="column-title">Exclusive Plan<br /> Offerings</p>
+          </div>
+          <div className="col-lg-3 why-choose-inf-icon-container">
+            <div className="why-choose-inf-icons">
+              <Img fluid={no_paperworks}
+                alt="No paperwork. Instant ID. Secure Purchase"
+                style={{ maxHeight: '55px' }}
+                imgStyle={{ objectFit: 'contain' }}
+              />
+            </div>
+            <p className="column-title">No paperwork. Instant<br /> ID. Secure Purchase</p>
           </div>
           <div className="col-lg-12 text-center mt-30 mb-20">
             <a href="#">
@@ -307,7 +312,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="members-producers-column text-center">
               <h3 className="text-primary">Members</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus pellentesque tortor ac libero, dolor. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus pellentesque tortor ac libero, dolor.
               </p>
               <a href="#" className="service-link">Lorem Ipsum <FaLongArrowAltRight className="right-arrow" /></a>
             </div>
@@ -316,12 +321,77 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="members-producers-column text-center">
               <h3 className="text-primary">Producers</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus pellentesque tortor ac libero, dolor. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus pellentesque tortor ac libero, dolor.
               </p>
               <a href="#" className="service-link">Lorem Ipsum <FaLongArrowAltRight className="right-arrow" /></a>
             </div>
           </div>
         </Container>
+      </section>
+
+      <section id="home-testimonial-section">
+        <ContainerFluid>
+          <div className="col-lg-4 text-right">
+            <h2 className="text-black">What Our Clients Have To Say</h2>
+            <Img fluid={home_divider_img} className="testimonial-divider"/>
+            <hr />
+            <p className="testimonial-subtitle">Accumsan purus id gravida vel vel et vitae.</p>
+          </div>
+        </ContainerFluid>
+      </section>
+
+      <section id="home-bottom-flipcard-section">
+        <ContainerFluid>
+          <div className="col-lg-3 flipcard-col flip-card">
+            <div className="flip-card-inner">
+              <div className="flipcard-container flip-card-front">
+                <Img fluid={bottom_icon1} className="flipcard-icon" alt="Extend Your Policy" />
+                <h3 className="text-center">Extend Your <br />Policy</h3>
+              </div>
+              <div className="flipcard-container-inner flip-card-back">
+                <h3 className="text-center">Extend Your <br />Policy</h3>
+                <button class="flipcard-btn"> Find A Provider </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 flipcard-col flip-card">
+            <div className="flip-card-inner">
+              <div className="flipcard-container flip-card-front">
+                <Img fluid={bottom_icon2} className="flipcard-icon" alt="Policy Docs & ID Cards" />
+                <h3 className="text-center">Policy Docs & <br />ID Cards</h3>
+              </div>
+              <div className="flipcard-container-inner flip-card-back">
+                <h3 className="text-center">Policy Docs & <br />ID Cards</h3>
+                <button class="flipcard-btn"> Find A Provider </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 flipcard-col flip-card">
+            <div className="flip-card-inner">
+              <div className="flipcard-container flip-card-front">
+                <Img fluid={bottom_icon3} className="flipcard-icon" alt="Doctors & Hospitals" />
+                <h3 className="text-center">Doctors & <br />Hospitals</h3>
+              </div>
+              <div className="flipcard-container-inner flip-card-back">
+                <h3 className="text-center">Doctors & <br />Hospitals</h3>
+                <p className="text-black flipcard-content">Find an In-Network Health Care Provider Nearby</p>
+                <button class="flipcard-btn"> Find A Provider </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 flipcard-col flip-card">
+            <div className="flip-card-inner">
+              <div className="flipcard-container flip-card-front">
+                <Img fluid={bottom_icon4} className="flipcard-icon" alt="Claims" />
+                <h3 className="text-center">Claims</h3>
+              </div>
+              <div className="flipcard-container-inner flip-card-back">
+                <h3 className="text-center">Claims</h3>
+                <button class="flipcard-btn"> Find A Provider </button>
+              </div>
+            </div>
+          </div>
+        </ContainerFluid>
       </section>
     </Layout>
   )
@@ -483,6 +553,41 @@ export const query = graphql`
     unique_plans_bg: file(name: { eq: "unique-plans-bg" }) {
       childImageSharp {
         fluid(maxWidth: 700, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    home_divider_img: file(name: { eq: "home-divider-img" }) {
+      childImageSharp {
+        fluid(maxWidth: 200, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    bottom_icon1: file(name: { eq: "bottom-icon1" }) {
+      childImageSharp {
+        fluid(maxWidth: 150, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    bottom_icon2: file(name: { eq: "bottom-icon2" }) {
+      childImageSharp {
+        fluid(maxWidth: 150, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    bottom_icon3: file(name: { eq: "bottom-icon3" }) {
+      childImageSharp {
+        fluid(maxWidth: 150, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    bottom_icon4: file(name: { eq: "bottom-icon4" }) {
+      childImageSharp {
+        fluid(maxWidth: 150, quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }

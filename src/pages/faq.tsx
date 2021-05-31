@@ -191,7 +191,7 @@ const FAQPage: React.FC<Props> = ({ data, location }: Props) => {
         <Container>
           <div className="col-lg-12">
             <div className="faqs-container">
-              <h2 className="text-blue text-center">Insurance for Visitors Topics of Interest</h2>
+              <h2 className="text-blue text-center">Frequently Asked Questions</h2>
               <div className="col-lg-12">
                 <div className="row mt-4">
                   <div className="col-lg-6">

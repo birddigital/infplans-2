@@ -583,7 +583,7 @@ h2 {
 
 /* What Describes You */
 .what-describes-you-icon {
-  max-width: 50px;
+  max-width: 75px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
@@ -600,19 +600,41 @@ h2 {
 
 #what-describes-you .bg-blue {
   background: #5EACEE;
-  padding: 90px 40px;
+  padding: 100px 40px 90px 40px;
 }
 
-#what-describes-you .bg-blue h3 {
-  font-size: 30px;
+#what-describes-you .bg-blue h2 {
+  font-size: 40px;
   font-weight: 400;
 }
+
+#what-describes-you .subtitle {
+  font-size: 22px!important;
+}
+
+#what-describes-you .column-title {
+  font-size: 20px;
+}
+
+what-describes-you {
+  font-size: 20px;
+}
+
 /* End of What Describes you */
 
 /* Why Choose Inf Insurance */
 
 #why-choose-inf-insurance h2 {
   text-transform: none;
+}
+
+#why-choose-inf-insurance .column-title {
+  font-size: 20px;
+}
+
+#why-choose-inf-insurance .subtitle {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .why-choose-inf-icons {
@@ -650,7 +672,7 @@ h2 {
 
 .members-producers-column {
   padding: 30px 85px;
-  box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 4px 26px 0px #dddddd;
 }
 
 .members-producers-column h3 {
@@ -658,6 +680,105 @@ h2 {
   font-weight: 400
 }
 
+#home-testimonial-section hr {
+  border-color: #252362;
+  border-width: 1px;
+  width: 100%;
+  margin-left: -15px;
+  margin-top: 25px;
+  max-width: 420px;
+}
+
+#home-testimonial-section .testimonial-divider {
+  max-width: 180px;
+  margin-left: auto;
+}
+
+#home-testimonial-section .testimonial-subtitle {
+  color: #192D35;
+  font-size: 20px;
+}
+
+#home-bottom-flipcard-section .flipcard-icon {
+  max-width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#home-bottom-flipcard-section h3 {
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+#home-bottom-flipcard-section .flipcard-col {
+  border: 1px solid #DCDCDC;
+  padding: 0;
+}
+
+#home-bottom-flipcard-section .flipcard-container {
+  background: #fff;
+  padding: 50px 20px;
+  background: #fff;
+}
+
+#home-bottom-flipcard-section .flipcard-container-inner {
+  background: #fff;
+  padding: 30px 20px;
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(41,40,103), rgb(108,200,235)) 1;
+  box-shadow: 0px 0px 12px 0px #666666;
+}
+
+#home-bottom-flipcard-section .flipcard-content {
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#home-bottom-flipcard-section {
+  padding-bottom: 0;
+}
+
+#home-bottom-flipcard-section .flipcard-btn {
+  margin-top: 20px;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 30px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#home-bottom-flipcard-section .flipcard-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform .6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-back {
+  color: #000;
+  transform: rotateY(180deg);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  bottom: 0;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
 
 /* End of Home CSS */
 
@@ -781,7 +902,7 @@ section#quote-section-1 {
 }
 
 #quote-section-1 .quote-container {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px;
 }
 /* end of qoute page */
@@ -856,7 +977,7 @@ section#plan-id-section1 {
 }
 
 #plan-id-section1 .plan-id-container {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 30px 50px;
   align-items:center;
 }
@@ -952,7 +1073,7 @@ section#provider-search-section1 {
 }
 
 #provider-search-section1 .provider-search-container {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 40px 50px;
 }
 
@@ -1062,7 +1183,7 @@ section#contact-section1 {
 }
 
 #contact-section1 .left-content {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   border-radius: 10px;
   padding: 40px 70px;
 }
@@ -1077,7 +1198,7 @@ section#contact-section1 {
   border-radius: 10px;
   margin-left: 0px;
   padding:50px;
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
 }
 
 #contact-section1 .contact-icon {
@@ -1167,7 +1288,7 @@ section#members-section1 {
 }
 
 #members-section1 .members-container {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px;
   align-items:center;
 }
@@ -1272,7 +1393,7 @@ section#producers-section1 {
 }
 
 #producers-section1 .producers-container {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px;
   align-items:center;
 }
@@ -1357,12 +1478,12 @@ section#faqs-section1 {
 }
 
 #faqs-section1 .faqs-container {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 30px 50px 50px 50px;
 }
 
 #faqs-section1 .faqs-section1-column {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 30px;
   border-radius: 5px;
 }
@@ -1417,7 +1538,7 @@ section#faqs-section2 {
 }
 
 #faqs-section3 .faqs-container {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 30px 50px 30px 50px;
 }
 
@@ -1452,7 +1573,7 @@ section#faqs-section4 {
 }
 
 #faqs-section5 .faqs-container {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 30px 50px 30px 50px;
 }
 
@@ -1536,7 +1657,7 @@ section#extend-section1 {
 }
 
 #extend-section1 .extend-container {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 30px 50px;
   align-items:center;
 }
@@ -1626,7 +1747,7 @@ section#request-a-quote-section1 {
 }
 
 #request-a-quote-section1 .request-a-quote-container {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 40px 50px;
 }
 
@@ -1695,7 +1816,7 @@ section#elite-section1 {
 }
 
 #elite-section1 .elite-container {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 40px 50px;
 }
 
@@ -1826,14 +1947,14 @@ section#elite-section1 {
   background: #252362;
   margin-top: 50px;
   padding: 40px 50px 20px 50px;
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
 }
 
 #elite-section7 .white-bg {
   background: #ffffff;
   margin-top: 50px;
   padding: 40px 50px 20px 50px;
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
 }
 
 #elite-section7 h3 {
@@ -1905,10 +2026,6 @@ section#elite-section7 {
   background: #ffffff;
 }
 
-.elite-co-insurance-tab ul li:not(:last-child) label {
-  border-right-width: 0;
-}
-
 .elite-co-insurance-tab section {
   font-family: "poppins";
   clear: both;
@@ -1939,8 +2056,11 @@ section#elite-section7 {
   color: #111;
   position: relative;
   font-weight: 600;
-  border-top: 10px solid #252362;
-  margin-top: -9px
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+  margin-top: -9px;
+  border-left: 0;
+  border-right: 0;
 }
 
 #elite-co-insurance-tab1:checked ~ nav .elite-co-insurance-tab1 label:after,
@@ -2011,10 +2131,6 @@ section#elite-section7 {
   background: #ffffff;
 }
 
-.elite-coverages-tab ul li:not(:last-child) label {
-  border-right-width: 0;
-}
-
 .elite-coverages-tab section {
   font-family: "poppins";
   clear: both;
@@ -2044,8 +2160,11 @@ section#elite-section7 {
   color: #111;
   position: relative;
   font-weight: 600;
-  border-top: 10px solid #252362;
-  margin-top: -9px
+  border-top: 10px solid;
+  margin-top: -9px;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+  border-left: 0;
+  border-right: 0;
 }
 
 #elite-coverages-tab1:checked ~ nav .elite-coverages-tab1 label:after,
@@ -2138,7 +2257,7 @@ section#traveler-usa-section1 {
 }
 
 #traveler-usa-section1 .traveler-usa-container {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 40px 50px;
 }
 
@@ -2252,10 +2371,6 @@ section#traveler-usa-section1 {
   background: #ffffff;
 }
 
-.traveler-coverages-tab ul li:not(:last-child) label {
-  border-right-width: 0;
-}
-
 .traveler-coverages-tab section {
   font-family: "poppins";
   clear: both;
@@ -2285,8 +2400,11 @@ section#traveler-usa-section1 {
   color: #111;
   position: relative;
   font-weight: 600;
-  border-top: 10px solid #252362;
   margin-top: -9px;
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+  border-left: 0;
+  border-right: 0;
 }
 
 #traveler-coverages-tab1:checked ~ nav .traveler-coverages-tab1 label:after,
@@ -2392,10 +2510,6 @@ section#traveler-usa-section1 {
   background: #ffffff;
 }
 
-.traveler-co-insurance-tab ul li:not(:last-child) label {
-  border-right-width: 0;
-}
-
 .traveler-co-insurance-tab section {
   font-family: "poppins";
   clear: both;
@@ -2426,8 +2540,11 @@ section#traveler-usa-section1 {
   color: #111;
   position: relative;
   font-weight: 600;
-  border-top: 10px solid #252362;
   margin-top:-9px;
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+  border-left: 0;
+  border-right: 0;
 }
 
 #traveler-co-insurance-tab1:checked ~ nav .traveler-co-insurance-tab1 label:after,
@@ -2505,14 +2622,14 @@ section#traveler-usa-section1 {
   background: #252362;
   margin-top: 50px;
   padding: 40px 50px 20px 50px;
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
 }
 
 #traveler-usa-section7 .white-bg {
   background: #ffffff;
   margin-top: 50px;
   padding: 40px 50px 20px 50px;
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
 }
 
 #traveler-usa-section7 h3 {
@@ -2575,7 +2692,7 @@ section#premier-section1 {
 }
 
 #premier-section1 .premier-container {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 40px 50px;
 }
 
@@ -2688,10 +2805,6 @@ section#premier-section1 {
   background: #ffffff;
 }
 
-.premier-coverages-tab ul li:not(:last-child) label {
-  border-right-width: 0;
-}
-
 .premier-coverages-tab section {
   font-family: "poppins";
   clear: both;
@@ -2721,8 +2834,11 @@ section#premier-section1 {
   color: #111;
   position: relative;
   font-weight: 600;
-  border-top: 10px solid #252362;
   margin-top: -9px;
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+  border-left: 0;
+  border-right: 0;
 }
 
 #premier-coverages-tab1:checked ~ nav .premier-coverages-tab1 label:after,
@@ -2841,10 +2957,6 @@ section#premier-section1 {
   background: #ffffff;
 }
 
-.premier-benefits1-tab ul li:not(:last-child) label {
-  border-right-width: 0;
-}
-
 .premier-benefits1-tab section {
   font-family: "poppins";
   clear: both;
@@ -2875,8 +2987,11 @@ section#premier-section1 {
   color: #111;
   position: relative;
   font-weight: 600;
-  border-top: 10px solid #252362;
   margin-top: -9px;
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+  border-left: 0;
+  border-right: 0;
 }
 
 #premier-benefits1-tab1:checked ~ nav .premier-benefits1-tab1 label:after,
@@ -3005,10 +3120,6 @@ section#premier-section1 {
   background: #ffffff;
 }
 
-.premier-benefits2-tab ul li:not(:last-child) label {
-  border-right-width: 0;
-}
-
 .premier-benefits2-tab section {
   font-family: "poppins";
   clear: both;
@@ -3039,7 +3150,10 @@ section#premier-section1 {
   color: #111;
   position: relative;
   font-weight: 600;
-  border-top: 10px solid #252362;
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+  border-left: 0;
+  border-right: 0;
   margin-top: -9px;
 }
 
@@ -3167,14 +3281,14 @@ section#premier-section1 {
   background: #252362;
   margin-top: 50px;
   padding: 40px 50px 20px 50px;
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
 }
 
 #premier-section7 .white-bg {
   background: #ffffff;
   margin-top: 50px;
   padding: 40px 50px 20px 50px;
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
 }
 
 #premier-section7 h3 {
@@ -3237,7 +3351,7 @@ section#standard-section1 {
 }
 
 #standard-section1 .standard-container {
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 40px 50px;
 }
 
@@ -3350,10 +3464,6 @@ section#standard-section1 {
   background: #ffffff;
 }
 
-.standard-coverages-tab ul li:not(:last-child) label {
-  border-right-width: 0;
-}
-
 .standard-coverages-tab section {
   font-family: "poppins";
   clear: both;
@@ -3385,7 +3495,10 @@ section#standard-section1 {
   color: #111;
   position: relative;
   font-weight: 600;
-  border-top: 10px solid #252362;
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+  border-left: 0;
+  border-right: 0;
   margin-top: -9px;
 }
 
@@ -3511,10 +3624,6 @@ section#standard-section1 {
   background: #ffffff;
 }
 
-.standard-benefits1-tab ul li:not(:last-child) label {
-  border-right-width: 0;
-}
-
 .standard-benefits1-tab section {
   font-family: "poppins";
   clear: both;
@@ -3545,7 +3654,10 @@ section#standard-section1 {
   color: #111;
   position: relative;
   font-weight: 600;
-  border-top: 10px solid #252362;
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+  border-left: 0;
+  border-right: 0;
   margin-top: -9px;
 }
 
@@ -3673,10 +3785,6 @@ section#standard-section1 {
   background: #ffffff;
 }
 
-.standard-benefits2-tab ul li:not(:last-child) label {
-  border-right-width: 0;
-}
-
 .standard-benefits2-tab section {
   font-family: "poppins";
   clear: both;
@@ -3707,7 +3815,10 @@ section#standard-section1 {
   color: #111;
   position: relative;
   font-weight: 600;
-  border-top: 10px solid #252362;
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+  border-left: 0;
+  border-right: 0;
   margin-top: -9px;
 }
 
@@ -3828,10 +3939,6 @@ section#standard-section1 {
   background: #ffffff;
 }
 
-.standard-benefits3-tab ul li:not(:last-child) label {
-  border-right-width: 0;
-}
-
 .standard-benefits3-tab section {
   font-family: "poppins";
   clear: both;
@@ -3862,7 +3969,10 @@ section#standard-section1 {
   color: #111;
   position: relative;
   font-weight: 600;
-  border-top: 10px solid #252362;
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+  border-left: 0;
+  border-right: 0;
   margin-top: -9px;
 }
 
@@ -3989,14 +4099,14 @@ section#standard-section1 {
   background: #252362;
   margin-top: 50px;
   padding: 40px 50px 20px 50px;
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
 }
 
 #standard-section7 .white-bg {
   background: #ffffff;
   margin-top: 50px;
   padding: 40px 50px 20px 50px;
-  box-shadow: 0px 0px 12px 0px #888888;
+  box-shadow: 0px 0px 12px 0px #dddddd;
 }
 
 #standard-section7 h3 {
