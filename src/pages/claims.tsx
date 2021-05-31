@@ -144,19 +144,20 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                  <h4>Claims Office Information:</h4>
                </div>
 
-               <div className="col-lg-6">
-                 <p>Mail: Administrative Concepts, Inc. (ACI)</p>
+               <div className="col-lg-6 infor">
+                 <p><strong>Mail:</strong> Administrative Concepts, Inc. (ACI)</p>
                  <p>994 Old Eagle School Rd., Suite 1005, Wayne, PA 19087-1706</p>
-                 <p>Toll Free: 888-293-9229 (from inside the U.S.)</p>
-                 <p>Fax: 610-293-9299</p>
+                 <p><strong>Toll Free:</strong> 888-293-9229 (from inside the U.S.)</p>
+                 <p><strong>Fax:</strong> 610-293-9299</p>
                </div>
 
-               <div className="col-lg-6">
-                 <p>Check Claim Status: 888-293-9229</p>
-                 <p>Submit Bills Online:  aciclaims@visit-aci.com</p>
-                 <p>Web: http://www.visit-aci.com</p>
-                 ​<p>EDI Payor#: 22384</p>
+               <div className="col-lg-6 infor">
+                 <p><strong>Check Claim Status:</strong> 888-293-9229</p>
+                 <p><strong>Submit Bills Online:</strong>  aciclaims@visit-aci.com</p>
+                 <a href="http://www.visit-aci.com" target="_blank"><strong>Web:</strong> http://www.visit-aci.com</a>
+                 ​<p><strong>EDI Payor#:</strong> 22384</p>
               </div>
+
               <div className="col-lg-12">
                <div className="row">
                 <div className="col-lg-6">
@@ -164,40 +165,41 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                   <Img fluid={pdf_icon} className="pdf-icon"/>
                   <button className="download-btn"> Download </button>
                  </div>
+
                 <div className="col-lg-6">
                  <h4 className="download">Download Claims Form Policy Numbers Starting with INF</h4>
                  <Img fluid={pdf_icon} className="pdf-icon"/>
                  <button className="download-btn2"> Download </button>
                </div>
               </div>
+              </div>
              </div>
             </div>
+          </div>
 
             <div className="claims-info-tabtwo">
-              <div className="col-lg-12">
+              <div className="col-lg-12 information">
                <div className="row">
                 <div className="col-lg-12">
                 <h4>Claims Office Information:</h4>
                </div>
 
-             <div className="col-lg-6">
+             <div className="col-lg-6 infor">
                <p>WebTPA</p>
                <p>PO Box 669</p>
                <p>Grapevine, TX 76099-0669</p>
-               <p>Phone: 928-494-0112</p>
-               <p>Fax: 469-417-1989</p>
+               <p><strong>Phone:</strong> 928-494-0112</p>
+               <p><strong>Fax:</strong> 469-417-1989</p>
              </div>
 
-             <div className="col-lg-6">
-               <p>Submit Bills Online: helpme@webtpa.com</p>
-               <p>Web: http://www.visit-aci.com </p>
+             <div className="col-lg-6 infor">
+               <p><strong>Submit Bills Online:</strong> helpme@webtpa.com</p>
+               <a href="http://www.visit-aci.com" target="_blank"><strong>Web:</strong> http://www.visit-aci.com</a>
                <p>​EDI Payor#: 22384</p>
              </div>
             </div>
             </div>
-           </div>
-           </div>
-           </div>
+            </div>
           </section>
           </div>
           </div>
@@ -227,7 +229,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
 
             <section>
               <div className="additional-tabone">
-                <div className="col-lg-12">
+                <div className="col-lg-12 policies">
                   <h4>For Policies starting with INF:</h4>
                     <p>All claims must be filed by completing the claim form found above in the Member portal. This form should be completed by the Policy Holder.</p>
                     <p>This form must be completed ONCE PER SICKNESS OR INJURY. The INF Claims Form for Providers should be completed by the Policy Holder & Providers (Doctors office, Hospitals etc.).</p>
@@ -236,7 +238,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                 </div>
 
                 <div className="additional-tabtwo">
-                 <div className="col-lg-12">
+                 <div className="col-lg-12 policies">
                    <h4>For Policies starting with SRPO:</h4>
                     <p>Generally, providers file insurance claim directly with WebTPA. Additionally, all policyholders are required to complete an informational Section of the claim form found in the member portal above.</p>
                     <p>In the event a provider wishes to collect from policy holder directly, the second section of claim Form found at (or Standard Insurance Claims Form 1500 CMS/HCFA 1500 or UB92/UB04) should be completed by the doctor's office and submitted by policy holder to the Insurance Company for prompt processing.</p>
@@ -263,31 +265,31 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
              <nav>
                <ul>
                  <li className="process-tabone">
-                   <label for="process-tabone">For Policies starting with INF:</label>
+                   <label for="process-tabone">I paid for my medical care up front. How can I get reimbursed?</label>
                  </li>
                    <li className="process-tabtwo">
-                   <label for="process-tabtwo">For Policies starting with SRPO:</label>
+                   <label for="process-tabtwo">I took advantage of "Direct Billing" - do I still need to file a claim?</label>
                  </li>
                  <li className="process-tabthree">
-                   <label for="process-tabthree">For Policies starting with INF:</label>
+                   <label for="process-tabthree">If I leave the country will my claims be paid?</label>
                  </li>
                </ul>
                </nav>
 
             <section>
               <div className="process-tabone">
-                <div className="col-lg-12">
+                <div className="col-lg-12 policy">
                   <p>Simply fill out the claim form & follow the instructions, as well as providing the additional required documentation. Make sure to complete this paperwork carefully to ensure prompt payment for eligible expenses incurred.</p>
                 </div>
               </div>
                 <div className="process-tabtwo">
-                  <div className="col-lg-12">
+                  <div className="col-lg-12 policy">
                     <p>Yes. We highly advise individuals to file a claim with the insurance company, regardless of whether they have paid for the medical treatment up front. This creates a record with the insurance company, and will assist the claims process. If you do not file a claim, the payment may not go through to the health care provider, causing a delay in payment. This could result in a liability for you.</p>
                   </div>
                 </div>
 
                   <div className="process-tabthree">
-                    <div className="col-lg-12">
+                    <div className="col-lg-12 policy">
                       <p>Yes, eligible claims incurred while coverage is in effect will be paid. On the claims form, you need to designate where to send the check from the insurance company.</p>
                     </div>
                   </div>

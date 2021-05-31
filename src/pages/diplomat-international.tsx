@@ -119,7 +119,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
     </Container>
    </section>
 
-      <section id="diplomat-america-section-4">
+      <section id="diplomat-international-section-4">
         <Container>
           <div className="col-lg-12">
             <h3 className="text-blue text-center row-title">Diplomat International Benefits</h3>
@@ -350,7 +350,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
        </Container>
       </section>
 
-      <section id="diplomat-america-section-5">
+      <section id="diplomat-international-section-5">
         <Container>
           <div className="col-lg-12">
             <h3 className="text-blue text-center row-title">Miscellaneous Information</h3>
@@ -380,8 +380,8 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
 
                 <section>
                   <div className="miscellaneous-tabone">
-                   <div className="col-lg-12">
-                    <p>The Plan Document does not cover any loss resulting from any of the following unless otherwise covered under the Plan Document by Additional Benefits:</p>
+                   <div className="col-lg-12 tab1">
+                    <p className="document">The Plan Document does not cover any loss resulting from any of the following unless otherwise covered under the Plan Document by Additional Benefits:</p>
                       <ul>
                         <li>Suicide, attempted suicide (including drug overdose) self-destruction, attempted self-destruction or intentional self-inflicted Injury while sane or insane;</li>
                         <li>War or any act of war, declared or undeclared; unless War Risk Benefit was purchased;</li>
@@ -432,7 +432,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
                  </div>
 
                <div className="miscellaneous-tabtwo">
-                 <div className="col-lg-12">
+                 <div className="col-lg-12 misc-claims">
                  <p><strong>Claim Forms –</strong> The Company, upon receipt of a written notice of claim, will furnish to the claimant such forms as are usually furnished by it for filing proofs of loss. If such forms are not furnished within 15 days after the giving of such notice, the claimant shall be deemed to have complied with the requirements of this Plan by submitting, within the time fixed in this Plan for filing proofs of loss, written proof showing the occurrence, nature and extent of the loss for which claim is made. View Claim Forms</p>
                  <p><strong>Proofs of Loss –</strong> Written proof of loss must be furnished to The Company at its said office in case of claim for loss for which this plan provides any periodic payment contingent upon continuing loss within 90 days after termination of each period for which The Company is liable and in case of claim for any other loss within 90 days after the date of such loss. Failure to furnish proof within the time required shall not invalidate nor reduce any claim if it is not reasonably possible to give proof within such time, provided proof is furnished as soon as reasonably possible.</p>
                  <p><strong>Time of Payment of Claims –</strong> Indemnities payable under the plan for any loss other than loss for which the plan provides any periodic will be paid immediately upon receipt of due written proof of such loss. Subject to due written proof of loss, all accrued indemnities for loss for which the plan provides periodic payment will be paid at the expiration of each four weeks during the continuance of the period for which The Company is liable, and any balance remaining unpaid upon the termination of liability will be paid immediately upon receipt of due written proof.</p>
@@ -457,13 +457,13 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
 
                  <div className="miscellaneous-tabthree">
                  <div className="col-lg-12">
-                    <p className="text-center">Refund of premium, less a $25 processing fee, will be considered if written request is received prior to the effective date of coverage. After that date, the premium is considered fully earned and non-refundable. Partial refunds are not available.</p>
+                    <p className="text-center refund">Refund of premium, less a $25 processing fee, will be considered if written request is received prior to the effective date of coverage. After that date, the premium is considered fully earned and non-refundable. Partial refunds are not available.</p>
                  </div>
                  </div>
 
                  <div className="miscellaneous-tabfour">
                  <div className="col-lg-12">
-                    <p className="text-center">Purchase up to $1,000,000 of 24-hour Accidental Death & Dismemberment coverage. Benefits and exclusions are the same as base plan.</p>
+                    <p className="text-center purchase">Purchase up to $1,000,000 of 24-hour Accidental Death & Dismemberment coverage. Benefits and exclusions are the same as base plan.</p>
                  </div>
                  </div>
                 </section>
@@ -472,7 +472,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
             </Container>
           </section>
 
-          <section id="diplomat-internatinal-section-6">
+          <section id="diplomat-international-section-6">
             <Container>
               <div className="col-lg-12">
                <h3 className="text-blue text-center row-title">Enroll in Diplomat America Below</h3>

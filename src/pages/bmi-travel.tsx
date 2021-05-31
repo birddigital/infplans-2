@@ -331,6 +331,221 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
             </tr>
           </table>
         </div>
+
+        <div class="conditions-tabtwo">
+          <table>
+            <tr className="text-center text-white">
+              <th>Benefits</th>
+              <th>Classico</th>
+              <th>Ultra</th>
+              <th>Ultra Plus</th>
+              <th>VIP</th>
+              <th>VIP Plus</th>
+            </tr>
+
+            <tr className="text-center">
+              <td>​Repatriation or Sanitary Transfer</td>
+              <td>​$10,000</td>
+              <td>$30,000</td>
+              <td>​$60,000</td>
+              <td>​$100,000</td>
+              <td>​Included</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>Repatriation of Mortal Remains</td>
+              <td>​$10,000</td>
+              <td>$30,000</td>
+              <td>​$60,000</td>
+              <td>​$100,000</td>
+              <td>​Included</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>Accidental Death (up to 84 years old) *</td>
+              <td>​$10,000 </td>
+              <td>​$10,000</td>
+              <td>​​$50,000</td>
+              <td>$50,000</td>
+              <td>$100,000</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>Transportation of Family Member due to Hospitalization</td>
+              <td>Included</td>
+              <td>Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>Convalescence Expense Hotel Expenses</td>
+              <td>​$300</td>
+              <td>$800</td>
+              <td>$800</td>
+              <td>​$2,000</td>
+              <td>$2,200</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>​Lost Documents and Personal Effects Assistance​</td>
+              <td>Included</td>
+              <td>Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>Return due to Death of an Immediate Family Member​</td>
+              <td>​Economy Ticket</td>
+              <td>​Economy Ticket</td>
+              <td>​Economy Ticket</td>
+              <td>​Economy Ticket</td>
+              <td>​Economy Ticket</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>Early Return Due to Serious Disaster at Home</td>
+              <td>​Economy Ticket</td>
+              <td>​Economy Ticket</td>
+              <td>​Economy Ticket</td>
+              <td>​Economy Ticket</td>
+              <td>​Economy Ticket</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>Minor Escort</td>
+              <td>​Economy Ticket</td>
+              <td>​Economy Ticket</td>
+              <td>​Economy Ticket</td>
+              <td>​Economy Ticket</td>
+              <td>​Economy Ticket</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>​​Trip Cancellation (up to 74 years old)</td>
+              <td>​N/A</td>
+              <td>$2,000</td>
+              <td>​$2,000</td>
+              <td>​$2,000</td>
+              <td>​$2,000</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="conditions-tabthree">
+          <table>
+            <tr className="text-center text-white">
+              <th>Benefits</th>
+              <th>Classico</th>
+              <th>Ultra</th>
+              <th>Ultra Plus</th>
+              <th>VIP</th>
+              <th>VIP Plus</th>
+            </tr>
+
+            <tr className="text-center">
+              <td>​Substitution of an Executive</td>
+              <td>N/A</td>
+              <td>Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>24 Hours’ Information Line</td>
+              <td>​Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>Emergency Message Transmission</td>
+              <td>​Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+              <td>​Included</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>Fee for Transfer of Bail Bond</td>
+              <td>$10,000</td>
+              <td>$20,000</td>
+              <td>$20,000</td>
+              <td>$30,000</td>
+              <td>$35,000</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>​Fee for Transfer of Funds</td>
+              <td>​$10,000</td>
+              <td>$20,000</td>
+              <td>$20,000</td>
+              <td>$30,000</td>
+              <td>$35,000</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>​Legal Assistance for Traffic Accident</td>
+              <td>$1,000</td>
+              <td>$2,000</td>
+              <td>$2,000</td>
+              <td>$3,000</td>
+              <td>$9,000</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>Total and Definitive Loss of Baggage​</td>
+              <td>​$600</td>
+              <td>​$1,200</td>
+              <td>$1,200</td>
+              <td>​$3,000</td>
+              <td>$3,000</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>Expenses for Delay Luggage</td>
+              <td>​​$600</td>
+              <td>​​$800</td>
+              <td>​​$1,200</td>
+              <td>​​$2,000</td>
+              <td>​​$2,000</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>Delayed or Cancelled Flight</td>
+              <td>N/A</td>
+              <td>N/A</td>
+              <td>​$150</td>
+              <td>​$150</td>
+              <td>​$150</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>​​Theft or loss passport during a trip</td>
+              <td>$50</td>
+              <td>$70</td>
+              <td>​$100</td>
+              <td>​$100</td>
+              <td>​$100</td>
+            </tr>
+
+            <tr className="text-center">
+              <td>​​Late Arrival</td>
+              <td>$100</td>
+              <td>$300</td>
+              <td>​$450</td>
+              <td>​$500</td>
+              <td>​$500</td>
+            </tr>
+          </table>
+        </div>
       </section>
         </div>
      </Container>

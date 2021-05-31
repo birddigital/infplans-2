@@ -72,6 +72,11 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
         <div className="col-lg-12">
         <div className="plans-container">
         <div className="row">
+        <div class="box">
+          <div class="ribbon ribbon-top-left">
+            <span>Most Popular</span>
+          </div>
+        </div>
           <div className="col-lg-3">
             <Img fluid={elite_network_img} className="plans-img"/>
             <p className="text-blue text-center sub-title">Elite Network</p>
@@ -223,125 +228,108 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
  </Container>
 </section>
 
-      <section id="plans-section-6">
-       <Container>
-        <div className="col-lg-12">
-         <h3 className="text-blue text-center row-title">INF BMI Plans</h3>
-          <div className="row">
+    <section id="plans-section-6">
+      <Container>
+       <div className="col-lg-12">
+        <h3 className="text-blue text-center row-title">INF BMI Plans</h3>
+         <div className="row">
 
-          <div className="bmi-plans-tab">
-            <input checked="checked" id="bmi-plans-tabone" type="radio" name="bmi-plans" />
-            <input id="bmi-plans-tabtwo" type="radio" name="bmi-plans" />
-            <input id="bmi-plans-tabthree" type="radio" name="bmi-plans" />
+         <div className="bmi-plans-tab">
+           <input checked="checked" id="bmi-plans-tabone" type="radio" name="bmi-plans" />
+           <input id="bmi-plans-tabtwo" type="radio" name="bmi-plans" />
+           <input id="bmi-plans-tabthree" type="radio" name="bmi-plans" />
 
-            <nav>
-              <ul>
-                <li className="bmi-plans-tabone">
-                  <label for="bmi-plans-tabone">Benefits That Come With Inf-BMI Plans</label>
-                </li>
-                <li className="bmi-plans-tabtwo">
-                  <label for="bmi-plans-tabtwo">COVID-19 Coverage</label>
-                </li>
-                <li className="bmi-plans-tabthree">
-                  <label for="bmi-plans-tabthree">Pre-Existing Conditions Coverage</label>
-                </li>
-              </ul>
-            </nav>
+           <nav>
+             <ul>
+               <li className="bmi-plans-tabone">
+                 <label for="bmi-plans-tabone">Benefits That Come With Inf-BMI Plans</label>
+               </li>
+               <li className="bmi-plans-tabtwo">
+                 <label for="bmi-plans-tabtwo">COVID-19 Coverage</label>
+               </li>
+               <li className="bmi-plans-tabthree">
+                 <label for="bmi-plans-tabthree">Pre-Existing Conditions Coverage</label>
+               </li>
+             </ul>
+           </nav>
 
-            <section>
-              <div className="bmi-plans-tabone">
-              <div className="col-lg-12 first-row">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <ul>
-                      <li>COVID-19 Coverage</li>
-                      <li>All plans have 100% Co-Insurance (We cover 100%) and NO DEDUCTIBLE</li>
-                      <li>We make all the appointments for you- no more hassle of finding a provider who will accept you plan. We do everything on the backend to make sure it's completely cashless.</li>
-                    </ul>
-                 </div>
-              </div>
-            </div>
-            <div className="bmi-bg">
-            <div className="col-lg-12">
-              <div className="row">
-                <div className="col-lg-12">
-                  <p className="text-blue text-center notice">Important Notice</p>
-                  <p className="text-center">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
-                </div>
-              </div>
-            </div>
-            </div>
-          </div>
-
-          <div className="bmi-plans-tabtwo">
-           <div className="col-lg-12 first-row">
-            <div className="row">
-              <div className="col-lg-12">
-                <ul>
-                  <li>The Beneficiary must always and without exception contact the Emergency Central, who in turn will coordinate a virtual appointment by Telemedicine.</li>
-                  <li>According to the opinion provided by the Medical Department, if the Beneficiary presents symptoms related to COVID-19, the Assistance Center will coordinate the relevant medical consultation, according to the safety and health protocols of each country.</li>
-                  <li>We will cover the expenses incurred up to the coverage limit indicated in the voucher.</li>
-                </ul>
+           <section>
+             <div className="bmi-plans-tabone">
+             <div className="col-lg-12 inf-bmi-plans">
+               <div className="row">
+                   <ul className="covid-coverage">
+                     <li>COVID-19 Coverage</li>
+                     <li>All plans have 100% Co-Insurance (We cover 100%) and NO DEDUCTIBLE</li>
+                     <li>We make all the appointments for you- no more hassle of finding a provider who will accept you plan. We do everything on the backend to make sure it's completely cashless.</li>
+                   </ul>
+             </div>
+           </div>
+           <div className="bmi-bg">
+           <div className="col-lg-12">
+               <div className="col-lg-12">
+                 <p className="text-blue text-center notice">Important Notice</p>
+                 <p className="text-center notice-content">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage</p>
+                 <p className="text-center notice-content">Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
                </div>
+           </div>
+           </div>
+         </div>
 
-                <div className="col-lg-12">
-                  <p>The following expenses will be covered under the same limit:</p>
-                </div>
+         <div className="bmi-plans-tabtwo">
+          <div className="col-lg-12 inf-bmi-plans">
+               <ul>
+                 <li>The Beneficiary must always and without exception contact the Emergency Central, who in turn will coordinate a virtual appointment by Telemedicine.</li>
+                 <li>According to the opinion provided by the Medical Department, if the Beneficiary presents symptoms related to COVID-19, the Assistance Center will coordinate the relevant medical consultation, according to the safety and health protocols of each country.</li>
+                 <li>We will cover the expenses incurred up to the coverage limit indicated in the voucher.</li>
 
-                <div className="col-lg-12">
-                  <ul className="inf">
-                    <li>Hospital Expenses for COVID-19: In case of requiring hospitalization to stabilize the Beneficiary's condition.</li>
-                    <li>Mechanical respirator fees: If the Medical Department, together with the treating doctor, considers the use of a mechanical respirator necessary, the Central will authorize and cover said expense</li>
-                  </ul>
-                </div>
-             </div>
-            </div>
+                 <p className="expense-content">The following expenses will be covered under the same limit:</p>
 
-            <div className="bmi-bg">
-            <div className="col-lg-12">
-              <div className="row">
-                <div className="col-lg-12">
-                  <p className="text-blue text-center notice">Important Notice</p>
-                  <p className="text-center">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
-                </div>
-              </div>
-            </div>
-            </div>
+                 <li>Hospital Expenses for COVID-19: In case of requiring hospitalization to stabilize the Beneficiary's condition.</li>
+                 <li>Mechanical respirator fees: If the Medical Department, together with the treating doctor, considers the use of a mechanical respirator necessary, the Central will authorize and cover said expense</li>
+              </ul>
+           </div>
+           <div className="bmi-bg">
+           <div className="col-lg-12">
+               <div className="col-lg-12">
+                 <p className="text-blue text-center notice">Important Notice</p>
+                 <p className="text-center notice-content">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage</p>
+                 <p className="text-center notice-content">Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
+               </div>
+           </div>
+           </div>
           </div>
 
-          <div className="bmi-plans-tabthree">
-            <div className="col-lg-12 first-row">
-              <p>The coverage provided for chronic and / or pre-existing diseases includes the following eventualities:</p>
-
-                <ul className="tabthree">
-                  <li>Acute episode or unpredictable event</li>
-                  <li>Decompensation of</li>
-
-                  <ul>
-                    <li>A Chronic issue</li>
-                    <li>A Pre-existing diseases known</li>
-                    <li>A previously asymptomatic pre-existing condition </li>
-                  </ul>
+           <div className="bmi-plans-tabthree">
+            <div className="col-lg-12 inf-bmi-plans">
+               <div className="col-lg-12 covid-coverage">
+                   <p className="covid-content">The coverage provided for chronic and / or pre-existing diseases includes the following eventualities:</p>
+                <ul>
+                   <li>Acute episode or unpredictable event</li>
+                   <li>Decompensation of</li>
+                <ul className="decom">
+                  <li>A Chronic issue</li>
+                  <li>A Pre-existing diseases known</li>
+                  <li>A previously asymptomatic pre-existing condition </li>
+                </ul>
               </ul>
              </div>
-
-                <div className="bmi-bg">
-                <div className="col-lg-12">
-                  <div className="row">
-                    <div className="col-lg-12">
-                      <p className="text-blue text-center notice">Important Notice</p>
-                      <p className="text-center">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
              </div>
-            </section>
+             <div className="bmi-bg">
+             <div className="col-lg-12">
+                 <div className="col-lg-12">
+                   <p className="text-blue text-center notice">Important Notice</p>
+                   <p className="text-center notice-content">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage</p>
+                   <p className="text-center notice-content">Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
+                 </div>
+             </div>
+             </div>
           </div>
-         </div>
+         </section>
         </div>
+       </div>
+      </div>
      </Container>
-   </section>
+    </section>
 
    <section id="plans-section-7">
      <Container>

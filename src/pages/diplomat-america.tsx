@@ -152,11 +152,11 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
 
                     <div className="col-lg-12">
                       <ul className="alpha-list">
-                        <li>necessary and customary;</li>
-                        <li>prescribed by a Physician for the therapeutic treatment of a disablement;</li>
-                        <li>are not excluded under the policy;</li>
-                        <li>are not more than the Usual and Customary charges (as determined by the Company); and</li>
-                        <li>are incurred within 180 days from the date of the Disablement will be considered.</li>
+                        <li>(a) necessary and customary;</li>
+                        <li>(b) prescribed by a Physician for the therapeutic treatment of a disablement;</li>
+                        <li>(c) are not excluded under the policy;</li>
+                        <li>(d) are not more than the Usual and Customary charges (as determined by the Company); and</li>
+                        <li>(e) are incurred within 180 days from the date of the Disablement will be considered.</li>
                     </ul>
 
                     <ul className="number-list">
@@ -217,7 +217,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
 
               <section>
                 <div class="info-tabone">
-                <div className="col-lg-12">
+                <div className="col-lg-12 med-exp">
                   <div className="row">
                       <p className="text-center">The Plan Document does not cover any loss resulting from any of the following unless otherwise covered under the Plan Document by Additional Benefits:</p>
                     </div>
@@ -275,7 +275,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                 </div>
 
                 <div class="info-tabtwo">
-                <div className="col-lg-12">
+                <div className="col-lg-12 refund-prem">
                   <div className="row">
                       <p className="text-center">Refund of premium, less a $25 processing fee, will be considered if written request is received prior to the effective date of coverage. After that date, the premium is considered fully earned and non-refundable. Partial refunds are not available.</p>
                     </div>
@@ -284,12 +284,24 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                     <div className="col-lg-12 claims">
                         <p>Claim Forms:</p>
                             <ul>
+                            <a href="/policy_pdf/GU_Sickness.pdf">
                               <li className="claims">Accident & Sickness</li>
+                            </a>
+                            <a href="/policy_pdf/GU_Death.pdf">
                               <li className="claims">Death</li>
+                            </a>
+                            <a href="/policy_pdf/GU_ADD.pdf">
                               <li className="claims">Dismemberment/Paralysis</li>
+                            </a>
+                            <a href="/policy_pdf/GU_Baggage.pdf">
                               <li className="claims">Lost Baggage</li>
+                            </a>
+                            <a href="/policy_pdf/GU_Interruption.pdf">
                               <li className="claims">Trip Interruption</li>
+                            </a>
+                            <a href="/policy_pdf/GU_TripCancel.pdf">
                               <li className="claims">Trip Cancellation/Delay</li>
+                            </a>
                             </ul>
                       </div>
 
