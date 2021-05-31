@@ -8,6 +8,9 @@ import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import { FaLongArrowAltRight } from "@react-icons/all-files/fa/FaLongArrowAltRight";
+import TestimonialHomeSlider from 'components/sliders/testimonial-slider'
+import LogoSlider from 'components/sliders/logo-slider'
+import ArticlesSlider from 'components/sliders/articles-slider'
 
 interface Props {
   data: IndexQueryQuery
@@ -49,7 +52,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
       <Meta site={meta} title="INF Visitor Insurance - Visitors Insurance & Travel Insurance" />
       <BackgroundImage
         Tag="section"
-        className="hero-section-bg"
+        className="home-hero-section-bg"
         fluid={hero_background}
         alt="Find the right coverage for your trip"
         id="home-hero-section-background"
@@ -329,13 +332,34 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
         </Container>
       </section>
 
+      <section id="home-articles-slider-section">
+        <Container>
+          <div className="col-lg-12">
+          <h2 className="text-center text-primary">Related Articles</h2>
+            <ArticlesSlider />
+          </div>
+        </Container>
+      </section>
+
+      <section id="home-logo-slider-section">
+        <ContainerFluid>
+          <div className="col-lg-12">
+          <h2 className="text-center text-white">Featured In</h2>
+            <LogoSlider />
+          </div>
+        </ContainerFluid>
+      </section>
+
       <section id="home-testimonial-section">
         <ContainerFluid>
-          <div className="col-lg-4 text-right">
+          <div className="col-lg-4 text-right left-content">
             <h2 className="text-black">What Our Clients Have To Say</h2>
             <Img fluid={home_divider_img} className="testimonial-divider"/>
             <hr />
             <p className="testimonial-subtitle">Accumsan purus id gravida vel vel et vitae.</p>
+          </div>
+          <div className="col-lg-8 right-content">
+            <TestimonialHomeSlider />
           </div>
         </ContainerFluid>
       </section>
@@ -350,7 +374,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
               <div className="flipcard-container-inner flip-card-back">
                 <h3 className="text-center">Extend Your <br />Policy</h3>
-                <button class="flipcard-btn"> Find A Provider </button>
+                <button className="flipcard-btn"> Find A Provider </button>
               </div>
             </div>
           </div>
@@ -362,7 +386,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
               <div className="flipcard-container-inner flip-card-back">
                 <h3 className="text-center">Policy Docs & <br />ID Cards</h3>
-                <button class="flipcard-btn"> Find A Provider </button>
+                <button className="flipcard-btn"> Find A Provider </button>
               </div>
             </div>
           </div>
@@ -375,7 +399,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="flipcard-container-inner flip-card-back">
                 <h3 className="text-center">Doctors & <br />Hospitals</h3>
                 <p className="text-black flipcard-content">Find an In-Network Health Care Provider Nearby</p>
-                <button class="flipcard-btn"> Find A Provider </button>
+                <button className="flipcard-btn"> Find A Provider </button>
               </div>
             </div>
           </div>
@@ -387,7 +411,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
               <div className="flipcard-container-inner flip-card-back">
                 <h3 className="text-center">Claims</h3>
-                <button class="flipcard-btn"> Find A Provider </button>
+                <button className="flipcard-btn"> Find A Provider </button>
               </div>
             </div>
           </div>
@@ -410,7 +434,7 @@ export const query = graphql`
         twitter
       }
     },
-    hero_background: file(name: { eq: "home-hero-background" }) {
+    hero_background: file(name: { eq: "home-hero-bg" }) {
       childImageSharp {
         fluid(maxWidth: 1400, quality: 100) {
           ...GatsbyImageSharpFluid
