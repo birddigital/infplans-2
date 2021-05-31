@@ -95,31 +95,18 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
          </div>
 
          <div className="col-lg-12">
-          <div className="blue-bg">
-            <h3 className="text-white text-center">DOES YOUR VISITOR HAVE ANY PRE-EXISTING CONDITIONS? <b>(EG DIABETES, BP ETC)</b></h3>
-             <form id="" method="" action="">
+          <div className="blue-bg text-center">
+            <h3 className="text-white">DOES YOUR VISITOR HAVE <br />ANY PRE-EXISTING<br /> CONDITIONS? <span>(EG DIABETES,  BP ETC)</span></h3>
+              <form id="" method="" action="">
                <div className="text-center">
-                 <select>
-                   <option>Select Age Group</option>
-                   <option value="0-15">0-15</option>
-                   <option value="16-20">16-20</option>
-                   <option value="20-24">20-24</option>
-                   <option value="25-29">25-29</option>
-                   <option value="30-34">30-34</option>
-                   <option value="35-39">35-39</option>
-                   <option value="40-44">40-44</option>
-                   <option value="45-49">45-49</option>
-                   <option value="50-54">50-54</option>
-                   <option value="55-59">55-59</option>
-                   <option value="60-64">60-64</option>
-                   <option value="65-69">65-69</option>
-                   <option value="70-74">70-74</option>
-                   <option value="75-79">75-79</option>
-                   <option value="80-84">80-84</option>
-                   <option value="85-89">85-89</option>
-                   <option value="90-94">90-94</option>
-                   <option value="95-99">95-99</option>
-                 </select>
+                 <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="option" id="inlineRadio1" value="Yes" checked/>
+                   <label class="form-check-label radio-label" htmlfor="inlineRadio1">Yes</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                   <input class="form-check-input" type="radio" name="option" id="inlineRadio2" value="No"/>
+                   <label class="form-check-label radio-label" htmlfor="inlineRadio2">No</label>
+                  </div>
                </div>
              </form>
           </div>
@@ -132,7 +119,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
        <Container>
             <div className="col-lg-6">
               <div className="premium-container network">
-                <p className="ribbon">Benefit Type</p>
+                <p className="ribbon-premiums">Benefit Type</p>
                 <p className="title text-center text-blue">Network</p>
                 <p className="content text-center">This plan uses Preferred Provider Network (PPO). The plan pays 80 percent of the negotiated amount for covered medical expenses. For example- if you have a $10,000 bill, and network benefit may bring that down to $4000 and 80% of that $4000 will be paid by the plan ($3200) and you pay $800. This plan is recommended for anyone above 50 years of age.</p>
               </div>
@@ -140,7 +127,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
 
           <div className="col-lg-6">
              <div className="premium-container fixed">
-              <p className="ribbon">Benefit Type</p>
+              <p className="ribbon-premiums">Benefit Type</p>
               <p className="title text-center text-blue">Fixed</p>
               <p className="content text-center">The plan will pay based off a schedule of benefits. Schedule of Benefits is a list of covered medical services. Next to each item on the list is a dollar amount (maximum benefit). The plan pays only to the listed maximum benefit. For example, your plan pays $1,900 a day for a hospital room. If the total hospital charge is $5,000 per day, the plan will pay $1,900. If the hospital charges $10,000 per day, the plan still only pays $1,900.</p>
             </div>
@@ -148,7 +135,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
 
           <div className="col-lg-6">
              <div className="premium-container pre-existing">
-               <p className="ribbon">Coverage Type</p>
+               <p className="ribbon-premiums">Coverage Type</p>
               <p className="title text-center text-blue">Pre-Existing</p>
               <p className="content text-center">The INF Elite, INF Elite Short Term, INF Premier and INF Premier Short Term plans will cover pre-Existing conditions on par with new sicknesses. These Plans will cover physician visits, labs, in-patient, out-patient, and specialist care. There is no look-back period for pre-existing conditions under these plans.</p>
             </div>
@@ -156,7 +143,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
 
           <div className="col-lg-6">
              <div className="premium-container acute">
-               <p className="ribbon">Coverage Type</p>
+               <p className="ribbon-premiums">Coverage Type</p>
               <p className="title text-center text-blue">Acute-onSet</p>
               <p className="content text-center">Diplomat Ameria Plan offer Acute-onset Pre-Existing conditions cover for visitors of all ages. These plans are relatively in-expesive to purchase. There is no guarantee that a typical condition will be covered. The Acute-Onset plans by nature may only cover emergency, in-patient hospitalizations related to pre-existing conditions in certain conditions. Coverage will end as soon as the patient is discharged from the hospital. Pre-Existing episodes must meet certain guidelines to be eligible for benefits to be paid out.</p>
             </div>

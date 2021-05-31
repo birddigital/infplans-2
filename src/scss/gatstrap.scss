@@ -6191,6 +6191,7 @@ section#plans-hero-section {
 
 /* End of Plans Styles */
 
+
 /* Premium Styles */
 
 section.premium-hero-section-bg {
@@ -6360,7 +6361,7 @@ section#premium-hero-section {
 /* new added css victor */
 
 
-.ribbon {
+.ribbon-premiums {
   margin: 0;
   padding: 0;
   background: #252362;
@@ -6373,8 +6374,8 @@ section#premium-hero-section {
   transform-origin: top left;
 }
 
-.ribbon::before,
-.ribbon::after {
+.ribbon-premiums::before,
+.ribbon-premiums::after {
   content: '';
   position: absolute;
   top:0;
@@ -6384,11 +6385,11 @@ section#premium-hero-section {
   background: #252362;
 }
 
-.ribbon::before {
+.ribbon-premiums::before {
   right:100%;
 }
 
-.ribbon::after {
+.ribbon-premiums::after {
   left:100%;
 }
 
@@ -6405,6 +6406,62 @@ section#premium-hero-section {
 #premium-section-1 select option {
   color:#838383;
 }
+
+#premium-section-1 span {
+  font-size: 20px;
+}
+
+input[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+input[type="radio"]:checked + label,
+input[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: $white;
+}
+input[type="radio"]:checked + label:before,
+input[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid $white;
+    border-radius: 100%;
+    background: #252362;
+}
+input[type="radio"]:checked + label:after,
+input[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #F87DA9;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+input[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+input[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
 
 /* end of new added css victor */
 /*End of Premium Styles */

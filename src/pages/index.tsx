@@ -105,7 +105,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
           <Container>
             <div className="col-lg-6">
               <h3 className="text-white text-center">
-                Our customer say
+                Our customers say
               </h3>
               <h2 className="text-white text-center">
                 EXCELLENT
