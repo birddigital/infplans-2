@@ -345,6 +345,28 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                           Contact Us
                         </Link>
                       </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/tele-medicine" className="nav-link">
+                          TeleMedicine
+                        </Link>
+                      </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/dental-discount-program" className="nav-link">
+                          Dental Discount Program
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li
