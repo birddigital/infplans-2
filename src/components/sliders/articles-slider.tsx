@@ -89,15 +89,15 @@ const ArticlesSlider = ({ className }) => {
           <button className="article-btn"> Read Article </button>
         </div>
         <div className="articles-container">
-          <Img fluid={article_img1} />
-          <p className="text-center article-content">Previous crises in tourism: The coronavirus is the fourth major catastrophe for travel</p>
-          <p className="text-center text-primary article-name">Greg Dickinson</p>
+          <Img fluid={article_img2} />
+          <p className="text-center article-content">A Small Travel Insurance Change That Could Save Your Next Vacation</p>
+          <p className="text-center text-primary article-name">Christopher Elliott</p>
           <button className="article-btn"> Read Article </button>
         </div>
         <div className="articles-container">
-          <Img fluid={article_img1} />
-          <p className="text-center article-content">Previous crises in tourism: The coronavirus is the fourth major catastrophe for travel</p>
-          <p className="text-center text-primary article-name">Greg Dickinson</p>
+          <Img fluid={article_img3} />
+          <p className="text-center article-content">Need travel medical insurance? Consider these 7 scenarios</p>
+          <p className="text-center text-primary article-name">Stephanie Thurrott</p>
           <button className="article-btn"> Read Article </button>
         </div>
         <div className="articles-container">
