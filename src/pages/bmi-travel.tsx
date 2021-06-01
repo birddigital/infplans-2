@@ -226,12 +226,12 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
          <h3 className="text-blue text-center row-title">Pre-Existing Conditions Coverage</h3>
           <p>The coverage provided for chronic and / or pre-existing diseases includes the following eventualities:</p>
             <ul>
-              <li>Acute episode or unpredictable event</li>
+              <li className="conditions">Acute episode or unpredictable event</li>
               <li className="conditions">Decompensation of</li>
                 <ul>
-                  <li>A Chronic issue</li>
-                  <li>A Pre-existing diseases known</li>
-                  <li>A previously asymptomatic pre-existing condition</li>
+                  <li className="conditions">A Chronic issue</li>
+                  <li className="conditions">A Pre-existing diseases known</li>
+                  <li className="conditions">A previously asymptomatic pre-existing condition</li>
                 </ul>
             </ul>
           </div>
@@ -247,10 +247,10 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                   <label for="conditions-tabone">Medical Benefits | $0 Deductible Plans With 100% Coverage</label>
                 </li>
                <li className="conditions-tabtwo">
-                 <label for="conditions-tabtwo">Travel Assistance Benefits</label>
+                 <label for="conditions-tabtwo" className="title">Travel Assistance Benefits</label>
                 </li>
                 <li className="conditions-tabthree">
-                  <label for="conditions-tabthree">Other Plan Benefits</label>
+                  <label for="conditions-tabthree" className="title">Other Plan Benefits</label>
                  </li>
               </ul>
             </nav>
@@ -556,7 +556,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
         <div className="col-lg-12">
           <h3 className="text-blue text-center row-title">Benefits for BMI Travel Assist</h3>
 
-          <table>
+          <table className="bmi-assist">
             <tr className="text-center text-white">
               <th>Medical Benefits </th>
               <th>Non-Medical Benefits </th>
@@ -611,13 +611,13 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
              <nav>
                <ul>
                  <li className="options-tabone">
-                   <label for="options-tabone">Daily Plan</label>
+                   <label for="options-tabone" className="title">Daily Plan</label>
                  </li>
                 <li className="options-tabtwo">
-                  <label for="options-tabtwo">Family Plan</label>
+                  <label for="options-tabtwo" className="title">Family Plan</label>
                  </li>
                  <li className="options-tabthree">
-                   <label for="options-tabthree">Student Plan</label>
+                   <label for="options-tabthree" className="title">Student Plan</label>
                   </li>
                   <li className="options-tabfour">
                     <label for="options-tabfour">Extended Stay Plan</label>
@@ -640,7 +640,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                 <li>Pay for the exact days of your trip</li>
               </ul>
 
-              <p>Optional:</p>
+              <p className="optional">Optional:</p>
 
               <ul className="plan-options">
                 <li>Expectant Mother</li>

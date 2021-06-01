@@ -271,7 +271,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                    <label for="process-tabtwo">I took advantage of "Direct Billing" - do I still need to file a claim?</label>
                  </li>
                  <li className="process-tabthree">
-                   <label for="process-tabthree">If I leave the country will my claims be paid?</label>
+                   <label for="process-tabthree" className="title">If I leave the country will my claims be paid?</label>
                  </li>
                </ul>
                </nav>

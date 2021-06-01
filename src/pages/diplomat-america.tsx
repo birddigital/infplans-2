@@ -126,7 +126,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
     <section id="diplomat-america-section-4">
       <Container>
         <div className="col-lg-12">
-         <h3 className="text-blue text-center row-title">Diplomat America Benefits</h3>
+         <h2 className="text-blue text-center row-title">Diplomat America Benefits</h2>
 
          <div className="benefits-tab">
            <input checked="checked" id="benefits-tabone" type="radio" name="diplomat-america" />
@@ -176,7 +176,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                   </div>
 
               <div className="benefits-tabtwo">
-               <div className="col-lg-12">
+               <div className="col-lg-12 co-insurance">
                 <p className="text-center first-content">After you pay the selected deductible, the plan pays <strong>80% up to $5,000</strong> of eligible costs, then <strong>100% to the Medical Maximum.</strong> There will be an additional $250 deductible for each <strong>emergency room visit as a result of an Illness. The emergency room deductible will be waived if hospital admittance is within 12 hours of the incident.</strong></p>
                 <p className="text-center"><strong>Deductible Choices:</strong> $0, $50, $100, $250, $500, $1,000, $2,500, $5000 (per person per policy period).</p>
              </div>
@@ -190,7 +190,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
     <section id="diplomat-america-section-5">
       <Container>
         <div className="col-lg-12">
-         <h3 className="text-blue text-center row-title">Miscellaneous Information</h3>
+         <h2 className="text-blue text-center row-title">Miscellaneous Information</h2>
 
          <div className="info-tab">
            <input checked="checked" id="info-tabone" type="radio" name="miscellaneous-information" />
@@ -201,13 +201,13 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
            <nav>
              <ul>
                <li className="info-tabone">
-                 <label for="info-tabone">Covered Medical Expenses (All Policies)</label>
+                 <label for="info-tabone" className="title">Covered Medical Expenses (All Policies)</label>
                </li>
               <li className="info-tabtwo">
-                <label for="info-tabtwo">Claims</label>
+                <label for="info-tabtwo" className="title">Claims</label>
                </li>
                <li className="info-tabthree">
-                 <label for="info-tabthree">Premium Refund / Cancellation</label>
+                 <label for="info-tabthree" className="title">Premium Refund / Cancellation</label>
                 </li>
                 <li className="info-tabfour">
                   <label for="info-tabfour">Accident Death & Dismemberment Benefits</label>
@@ -219,8 +219,8 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                 <div class="info-tabone">
                 <div className="col-lg-12 med-exp">
                   <div className="row">
-                      <p className="text-center">The Plan Document does not cover any loss resulting from any of the following unless otherwise covered under the Plan Document by Additional Benefits:</p>
-                    </div>
+                    <p className="text-center plan">The Plan Document does not cover any loss resulting from any of the following unless otherwise covered under the Plan Document by Additional Benefits:</p>
+                  </div>
 
                  <div className="col-lg-12">
                       <ul>
@@ -274,60 +274,57 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                   </div>
                 </div>
 
-                <div class="info-tabtwo">
-                <div className="col-lg-12 refund-prem">
-                  <div className="row">
-                      <p className="text-center">Refund of premium, less a $25 processing fee, will be considered if written request is received prior to the effective date of coverage. After that date, the premium is considered fully earned and non-refundable. Partial refunds are not available.</p>
-                    </div>
-                  </div>
+              <div class="info-tabtwo">
+                <div className="col-lg-12 company">
+                  <p className="text-center company-claim">The Company, upon receipt of a written notice of claim, will furnish to the claimant such forms as are usually furnished by it for filing proofs of loss. If such forms are not furnished within 15 days after the giving of such notice, the claimant shall be deemed to have complied with the requirements of this Plan by submitting, within the time fixed in this Plan for filing proofs of loss, written proof showing the occurrence, nature and extent of the loss for which claim is made.</p>
+                </div>
 
-                    <div className="col-lg-12 claims">
-                        <p>Claim Forms:</p>
+                    <div className="col-lg-12">
+                        <p className="claims"><strong>Claim Forms:</strong></p>
                             <ul>
                             <a href="/policy_pdf/GU_Sickness.pdf">
-                              <li className="claims">Accident & Sickness</li>
+                              <li className="claim-disease">Accident & Sickness</li>
                             </a>
                             <a href="/policy_pdf/GU_Death.pdf">
-                              <li className="claims">Death</li>
+                              <li className="claim-disease">Death</li>
                             </a>
                             <a href="/policy_pdf/GU_ADD.pdf">
-                              <li className="claims">Dismemberment/Paralysis</li>
+                              <li className="claim-disease">Dismemberment/Paralysis</li>
                             </a>
                             <a href="/policy_pdf/GU_Baggage.pdf">
-                              <li className="claims">Lost Baggage</li>
+                              <li className="claim-disease">Lost Baggage</li>
                             </a>
                             <a href="/policy_pdf/GU_Interruption.pdf">
-                              <li className="claims">Trip Interruption</li>
+                              <li className="claim-disease">Trip Interruption</li>
                             </a>
                             <a href="/policy_pdf/GU_TripCancel.pdf">
-                              <li className="claims">Trip Cancellation/Delay</li>
+                              <li className="claim-disease">Trip Cancellation/Delay</li>
                             </a>
                             </ul>
                       </div>
 
-                      <div className="col-lg-12 administrator">
-                          <p>Claim Administrator: </p>
-                          <p>Global Claims Administration</p>
-                          <p>3195 Linwood Rd, Suite 201</p>
-                          <p>Cincinnati OH 45208</p>
-                          <p>Inside US and Canada: 800-513-2981</p>
-                          <p>Outside US and Canada: 513-533-1330</p>
-                          <p>Fax: 513-533-9416</p>
+                      <div className="col-lg-12">
+                          <p className="claims2"><strong>Claim Administrator:</strong> </p>
+                          <p className="administrator">Global Claims Administration</p>
+                          <p className="administrator">3195 Linwood Rd, Suite 201</p>
+                          <p className="administrator">Cincinnati OH 45208</p>
+                          <p className="administrator"><strong>Inside US and Canada:</strong> 800-513-2981</p>
+                          <p className="administrator"><strong>Outside US and Canada:</strong> 513-533-1330</p>
+                          <p className="administrator"><strong>Fax:</strong> 513-533-9416</p>
                       </div>
                 </div>
 
                 <div class="info-tabthree">
-                <div className="col-lg-12">
-                  <div className="row">
-                      <p className="text-center">Refund of premium, less a $25 processing fee, will be considered if written request is received prior to the effective date of coverage. After that date, the premium is considered fully earned and non-refundable. Partial refunds are not available.</p>
-                    </div>
+                <div className="col-lg-12 refund-prem">
+                      <p className="text-center ref">Refund of premium, less a $25 processing fee, will be considered if written request is received prior to the effective date of coverage. After that date, the premium is considered fully earned and non-refundable. Partial refunds are not available.</p>
+                  </div>
                 </div>
 
-                <div class="info-tabfour">
+              <div class="info-tabfour">
                 <div className="col-lg-12">
                   <div className="row">
-                      <p className="text-center enhanced">Enhanced AD&D Benefit Rates (Per Person / Month) *Enhanced AD&D amount and additional rate apply to age 18+</p>
-                    </div>
+                    <p className="text-center enhanced">Enhanced AD&D Benefit Rates (Per Person / Month) *Enhanced AD&D amount and additional rate apply to age 18+</p>
+                  </div>
 
                 <div className="col-lg-12">
                   <div className="row mt-4">
@@ -339,17 +336,15 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                     </div>
                    <div className="col-lg-6 total">
                     <ul>
-                        <li className="accident">$750,000 Total Coverage................... $58.00</li>
-                        <li className="accident">$1,000,000 Total Coverage................. $78.00</li>
-                      </ul>
+                      <li className="accident">$750,000 Total Coverage................... $58.00</li>
+                      <li className="accident">$1,000,000 Total Coverage................. $78.00</li>
+                    </ul>
                   </div>
                 </div>
-
-               </div>
-               </div>
               </div>
-              </div>
-              </section>
+               </div>
+             </div>
+           </section>
          </div>
        </div>
      </Container>
@@ -358,7 +353,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
     <section id="diplomat-america-section-6">
       <Container>
         <div className="col-lg-12">
-         <h3 className="text-blue text-center row-title">Enroll in Diplomat America Below</h3>
+         <h2 className="text-blue text-center row-title">Enroll in Diplomat America Below</h2>
           <div className="row diplomat-america-container">
             <div className="col-lg-12">
               <h4 className="text-blue text-center">Visitor Application</h4>

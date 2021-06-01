@@ -364,13 +364,13 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
                 <nav>
                   <ul>
                     <li className="miscellaneous-tabone">
-                      <label for="miscellaneous-tabone">Exclusions</label>
+                      <label for="miscellaneous-tabone" className="title">Exclusions</label>
                     </li>
                       <li className="miscellaneous-tabtwo">
-                      <label for="miscellaneous-tabtwo">Claims</label>
+                      <label for="miscellaneous-tabtwo" className="title">Claims</label>
                     </li>
                     <li className="miscellaneous-tabthree">
-                    <label for="miscellaneous-tabthree">Premium Refund / Cancellation</label>
+                    <label for="miscellaneous-tabthree" className="title">Premium Refund / Cancellation</label>
                   </li>
                   <li className="miscellaneous-tabfour">
                   <label for="miscellaneous-tabfour">Accident Death & Dismemberment Benefits</label>
