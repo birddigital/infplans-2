@@ -284,7 +284,7 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
                 </div>
               </details>
               <details>
-                <summary aria-describedby="Can Telemedicine handle my emergency situations?">Can Telemedicine handle my emergency situations?</summary>
+                <summary aria-describedby="Can Telemedicine handle my emergency situations?" id="summary2">Can Telemedicine handle my emergency situations?</summary>
                 <div className="accordion-content">
                   <p>
                     Telemedicine is designed to handle non-emergent medical problems. You should NOT use it if you are experiencing a medical emergency.
