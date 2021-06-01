@@ -934,8 +934,35 @@ section#home-testimonial-section {
   display: block!important;
   padding-bottom: 30px;
   margin-bottom: 20px;
+  border-radius: 10px;
 }
 
+.articles-slider .slick-next:before, .articles-slider .slick-prev:before {
+  font-size: 35px!important;
+  color: #252362!important;
+  background: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 3px 12px 2px #bdbdbd;
+  transition: .5s;
+  line-height: 0!important;
+}
+
+.articles-slider .slick-next:hover:before, .articles-slider .slick-prev:hover:before {
+  color: #ffffff!important;
+  background: #252362;
+}
+
+.articles-slider .slick-next:before {
+  content: "\276F";
+  margin-right: -50px;
+  padding: 2px 14px 6px 13px;
+}
+
+.articles-slider .slick-prev:before {
+  content: "\276E";
+  margin-left: -50px;
+  padding: 2px 15px 6px 12px;
+}
 /* End of Home CSS */
 
 
