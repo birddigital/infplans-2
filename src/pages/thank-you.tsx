@@ -1,8 +1,7 @@
-import React from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Img, { FixedObject } from 'gatsby-image'
-import { IndexQueryQuery, PostByPathQuery } from '../../types/graphql-types'
-import Post from '../templates/post/post'
+import { Link } from 'gatsby'
+import React from 'react'
 import Meta from 'components/meta/meta'
 import Layout from 'components/layout/layout'
 import styled from 'styled-components'
@@ -12,32 +11,33 @@ import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 
 interface Props {
-  data: IndexQueryQuery
   location: Location
 }
 
-const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
+const ThankYouPage: React.FC<Props> = ({ data, location }: Props) => {
   const meta = data.site?.meta
-  const posts = data.remark.posts
   const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Apply for Insurance for Visitors - INF Visitor Insurance"/>
+      <Meta site={meta} title="Thank You" />
       <BackgroundImage
         Tag="section"
-        className="apply-hero-section-bg"
+        className="thank-you-hero-section-bg"
         fluid={hero_background}
-        alt="apply"
+        alt="thank you"
       >
-        <div id="apply-hero-section">
+        <div id="thank-you-hero-section">
           <Container>
             <div className="col-lg-12">
               <h1 className="text-white text-center">
-                APPLY
+                THANK YOU!
               </h1>
-              <button className="hero-btn"> Get a Quote </button>
+              <p className="hero-text text-white text-center">
+                One of our team members will be reaching out toyou shortly
+              </p>
+              <Link to="/"><button className="hero-btn"> Back to Home </button></Link>
             </div>
           </Container>
         </div>
@@ -46,44 +46,15 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
   )
 }
 
-export default ApplyPage
+export default ThankYouPage
 
 export const query = graphql`
-  query ApplyPageQuery {
+  query ThankYouPageQuery {
     site {
       meta: siteMetadata {
         title
         description
         siteUrl
-        author
-        twitter
-        adsense
-      }
-    },
-    remark: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      posts: edges {
-        post: node {
-          html
-          frontmatter {
-            layout
-            title
-            path
-            category
-            author
-            tags
-            description
-            date(formatString: "YYYY/MM/DD")
-            image {
-              childImageSharp {
-                fluid(maxHeight: 362) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
       }
     },
     hero_background: file(name: { eq: "thank-you-hero-bg" }) {

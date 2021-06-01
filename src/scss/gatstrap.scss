@@ -4616,6 +4616,93 @@ section#dental-discount-section-2 {
 }
 /* End of Dental Discount Program Page*/
 
+/* Thank You Page*/
+section.thank-you-hero-section-bg {
+  min-height: 600px;
+}
+
+.thank-you-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#thank-you-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#thank-you-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#thank-you-hero-section a {
+  text-decoration: none!important;
+}
+
+#thank-you-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#thank-you-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* End of Thank You Page*/
+
+/* Apply Page */
+section.apply-hero-section-bg {
+  min-height: 600px;
+}
+
+section#apply-hero-section {
+  padding-bottom: 70px;
+}
+
+.apply-hero-section-bg::after {
+  background-position: bottom!important;
+}
+
+#apply-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#apply-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#apply-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+/* End of Apply Page */
+
 /* End of Klint css */
 
 
