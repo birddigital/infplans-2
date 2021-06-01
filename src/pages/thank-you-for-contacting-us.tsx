@@ -35,7 +35,7 @@ const ThankYouContactPage: React.FC<Props> = ({ data, location }: Props) => {
                 THANK YOU!
               </h1>
               <p className="hero-text text-white text-center">
-                One of our team members will be reaching out toyou shortly
+                One of our team members will be reaching out to you shortly
               </p>
               <Link to="/"><button className="hero-btn"> Back to Home </button></Link>
             </div>
