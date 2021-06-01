@@ -42,7 +42,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
             <h1 className="text-white text-center">
                 INF BMI INSURANCE
               </h1>
-              <p className="text-white text-center">
+              <p className="text-white text-center hero-text">
                 INF-BMI plans provide assistance for international trips with no deductible or copayments and provides coverage for full pre-existing conditions, acute onset of pre-existing conditions, and COVID-19 as per the limits in the policy.
               </p>
               <button className="hero-btn"> Get a Quote </button>
@@ -105,7 +105,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
        </ul>
 
        <div className="blue-bg">
-        <p className="text-center text-white">**Important Notice**</p>
+        <p className="text-center text-white important">**Important Notice**</p>
         <p className="text-center text-white notice">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage</p>
         <p className="text-center text-white notice">Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
        </div>
@@ -715,12 +715,12 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12">
            <div className="row">
             <div className="col-lg-6">
-             <h4 className="text-center">What is Full Pre-Existing Coverage?</h4>
+             <h4 className="text-center">What is Full Pre-Existing<br /> Coverage?</h4>
               <Img fluid={book1_icon} className="book-icon"/>
               <button className="read-btn">Read Now</button>
              </div>
            <div className="col-lg-6">
-             <h4 className="text-center">How is a Pre-Existing Condition Determined?</h4>
+             <h4 className="text-center">How is a Pre-Existing<br /> Condition Determined?</h4>
              <Img fluid={book2_icon} className="book-icon"/>
              <button className="read-btn">Read Now</button>
            </div>

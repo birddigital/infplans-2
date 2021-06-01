@@ -58,7 +58,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
        <Container>
         <div className="col-lg-12">
           <div className="plans-container">
-           <h2 className="text-blue text-center">Explore Insurance for Visitors for Visitors to USA</h2>
+           <h2 className="text-blue text-center">Explore Insurance for Visitors for<br /> Visitors to USA</h2>
           <p className="text-center">
             We offer insurance plans for visitors to the United States & Canada from any country in the world.  Insurance for Visitors is a necessity when traveling to the United States- especially when staying for an extended period of time. As medical costs continue to climb, it is important to find an insurance plan which fits your needs. For over 30 years, INF has provided unique and innovative accident & sickness insurance to individuals from across the world visiting the United States & Canada. INF offers Insurance for Visitors which cover all pre-existing conditions, all age groups, and pays all eligible claims. INF Plans also come with come with the option for Careington POS Discount Card (a $99 value) for free! Enjoy Dental, Vision, Prescription, & Hearing Discounts with INF Visitor Insurance.
           </p>

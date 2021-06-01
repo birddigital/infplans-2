@@ -38,7 +38,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
             <h1 className="text-white text-center">
               DIPLOMAT AMERICA
             </h1>
-              <p className="text-white text-center">
+              <p className="text-white text-center hero-text">
                 Diplomat America plan provides Accident and Sickness medical coverage, Accidental Death and Dismemberment benefits, Travel Assistance for Non-U.S. citizens and Non-U.S. residents traveling to the United States.
               </p>
               <button className="hero-btn"> Get a Quote </button>
@@ -469,6 +469,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
         </div>
        </div>
        </div>
+       <p className="text-center copyright">© 2021, INF Health Care Services</p>
       </Container>
     </section>
 

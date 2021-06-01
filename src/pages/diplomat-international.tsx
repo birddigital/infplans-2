@@ -38,7 +38,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
               <h1 className="text-white text-center">
                 DIPLOMAT INTERNATIONAL
               </h1>
-              <p className="text-white text-center">
+              <p className="text-white text-center hero-text">
                 Diplomat International plan provides Accident & Sickness medical coverage and Accidental Death & Dismemberment (AD&D) benefits for anyone traveling, living, working or going to school outside their home country, but not to the United States.
               </p>
               <button className="hero-btn"> Get a Quote </button>
@@ -591,6 +591,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
               </div>
              </div>
              </div>
+             <p className="text-center copyright">© 2021, INF Health Care Services</p>
             </Container>
           </section>
     </Layout>

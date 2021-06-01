@@ -93,7 +93,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
        <div className="col-lg-12">
          <div className="row section2-container">
            <div className="col-lg-12">
-             <h3 className="text-blue text-center row-title">Claims Form</h3>
+             <h2 className="text-blue text-center row-title">Claims Form</h2>
            </div>
            <div className="col-lg-12">
              <div className="row mt-5 sign-in-container">
@@ -158,16 +158,16 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                  ​<p><strong>EDI Payor#:</strong> 22384</p>
               </div>
 
-              <div className="col-lg-12">
+              <div className="col-lg-12 download-claims">
                <div className="row">
                 <div className="col-lg-6">
-                 <h4 className="download">Download Claims Form Policy Numbers Starting with GLM</h4>
+                 <h4 className="download text-center">Download Claims Form<br /> Policy Numbers Starting<br /> with GLM</h4>
                   <Img fluid={pdf_icon} className="pdf-icon"/>
                   <button className="download-btn"> Download </button>
                  </div>
 
                 <div className="col-lg-6">
-                 <h4 className="download">Download Claims Form Policy Numbers Starting with INF</h4>
+                 <h4 className="download text-center">Download Claims Form<br /> Policy Numbers Starting<br /> with INF</h4>
                  <Img fluid={pdf_icon} className="pdf-icon"/>
                  <button className="download-btn2"> Download </button>
                </div>

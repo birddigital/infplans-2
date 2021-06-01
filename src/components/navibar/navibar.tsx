@@ -405,7 +405,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                     </ul>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link to="/eyemed">
                       <button id="btn-2">EyeMed</button>
                     </Link>
                   </li>

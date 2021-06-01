@@ -57,14 +57,20 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="eyemed-section-3">
         <Container>
           <div className="col-lg-12">
-            <p className="text-center">Your information is governed by our privacy policy. By entering your name and information above and clicking the Get Quote button, you are consenting to receive a call or emails regarding your Insurance Health, Dental, Vision, Supplement, Medicare Advantage, Medicare Supplement, and Prescription Drug Plan options (at any phone number or email address you provide) from a SASid representative or one of our licensed insurance agent business partners, and you agree such call may use an automatic telephone dialing system or an artificial or prerecorded voice to deliver messages. This agreement is not a condition of enrollment.</p>
-            <p className="text-center">SASid, Inc. Agency CA License #0D43589. EyeMed Vision Care & Insurance Services, LLC. Agency CA License #0F30752. Shannon Kennedy, whose principal place of business is in Wisconsin, is licensed to transact insurance business in California under license number #OD43589.</p>
+          <div className="row">
+            <p className="text-center eyemed-content">Your information is governed by our privacy policy. By entering your name and information above and clicking the Get Quote button, you are consenting to receive a call or emails regarding your Insurance Health, Dental, Vision, Supplement, Medicare Advantage, Medicare Supplement, and Prescription Drug Plan options (at any phone number or email address you provide) from a SASid representative or one of our licensed insurance agent business partners, and you agree such call may use an automatic telephone dialing system or an artificial or prerecorded voice to deliver messages. This agreement is not a condition of enrollment.</p>
+            <p className="text-center eyemed-content">SASid, Inc. Agency CA License #0D43589. EyeMed Vision Care & Insurance Services, LLC. Agency CA License #0F30752. Shannon Kennedy, whose principal place of business is in Wisconsin, is licensed to transact insurance business in California under license number #OD43589.</p>
 
-            <Img fluid={secure_img} className="secure-img" />
-            <Img fluid={privacy_img} className="privacy-img" />
+            <div className="col-lg-6">
+              <Img fluid={secure_img} className="secure-img" />
+            </div>
+            <div className="col-lg-6">
+              <Img fluid={privacy_img} className="privacy-img" />
+            </div>
 
-            <p>Powered by InsuranceTPA.com</p>
-            <p className="text-center">Underwritten by Fidelity Security Life Insurance Company and Fidelity Security Life Insurance Company of New York, and administered by First American Administrators and InsuranceTPA.com and serviced by EyeMed. Policy numbers VC-133/VCN-12; form numbers M-9157/M-9159/MN-17/MN-19.</p>
+            <p className="text-center powered">Powered by InsuranceTPA.com</p>
+            <p className="text-center eyemed-content">Underwritten by Fidelity Security Life Insurance Company and Fidelity Security Life Insurance Company of New York, and administered by First American Administrators and InsuranceTPA.com and serviced by EyeMed. Policy numbers VC-133/VCN-12; form numbers M-9157/M-9159/MN-17/MN-19.</p>
+          </div>
           </div>
         </Container>
       </section>
@@ -122,14 +128,14 @@ export const query = graphql`
     },
     secure_img: file(name: { eq: "secure-img" }) {
       childImageSharp {
-        fluid(maxWidth: 1400, quality: 100) {
+        fluid(maxWidth: 600, quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
     },
     privacy_img: file(name: { eq: "privacy-img" }) {
       childImageSharp {
-        fluid(maxWidth: 1400, quality: 100) {
+        fluid(maxWidth: 600, quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
