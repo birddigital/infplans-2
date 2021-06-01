@@ -352,7 +352,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                             : 'nav-item'
                         }
                       >
-                        <Link to="/tele-medicine" className="nav-link">
+                        <Link to="/telemedicine-visitors-insurance" className="nav-link">
                           TeleMedicine
                         </Link>
                       </li>
