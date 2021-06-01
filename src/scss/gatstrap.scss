@@ -8719,3 +8719,117 @@ section#telemedicine-hero-section {
   }
 }
 /* end of popup responsive */
+
+/* Klint Responsiveness */
+@media screen and (max-width:1024px) {
+  section.members-hero-section-bg {
+    min-height: 400px;
+  }
+
+  #members-hero-section h1 {
+    font-size: 35px;
+    margin-top: 90px;
+  }
+
+  #members-hero-section .hero-btn {
+    margin-top: 10px;
+    padding: 8px 40px;
+  }
+
+  section#members-section1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #members-section1 h3 {
+    font-size: 20px;
+  }
+
+  #members-section1 .members-container {
+    padding: 20px 20px 30px 20px;
+  }
+
+  #members-section1 .members-row-container {
+    margin-top: 20px!important;
+  }
+
+  #members-section1 .big-logo {
+    max-width: 200px;
+  }
+
+  #members-section1 input#email {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #members-section1 input[type="submit"] {
+    width: 100%;
+  }
+
+  section.producers-hero-section-bg {
+    min-height: 400px;
+  }
+
+  #producers-hero-section h1 {
+    font-size: 35px;
+    margin-top: 90px;
+  }
+
+  #producers-hero-section .hero-btn {
+    margin-top: 10px;
+    padding: 8px 40px;
+  }
+
+  section#producers-section1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #producers-section1 .big-logo {
+    max-width: 200px;
+  }
+
+  #producers-section1 .producers-container {
+    padding: 20px 20px 30px 20px;
+  }
+
+  #producers-section1 h3 {
+    font-size: 20px;
+  }
+
+  #producers-section1 input#email {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #producers-section1 input[type="submit"] {
+    width: 100%;
+  }
+
+
+
+  section.get-a-quote-hero-section-bg {
+    min-height: 400px;
+  }
+
+  #get-a-quote-hero-section h1 {
+    font-size: 35px;
+    margin-top: 70px;
+  }
+
+  #get-a-quote-hero-section .hero-btn {
+    margin-top: 10px;
+    padding: 8px 40px;
+  }
+
+  section#get-a-quote-section-1 {
+    padding-top: 20px;
+    padding-bottom: 0;
+    min-height: auto
+  }
+
+  #get-a-quote-section-1 h2 {
+    font-size: 25px;
+  }
+}
+/* End of Klint Responsiveness */
