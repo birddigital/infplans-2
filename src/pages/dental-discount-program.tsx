@@ -141,6 +141,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
                <div className="dental-discount-faq2-tab1">
                  <div className="row">
                   <div className="col-lg-8">
+                    <Img fluid={care_pos_logo} className="right-logo-mobile" />
                     <p className="text-left text-black tab-title">Careington POS Dental Discount</p>
                     <ul>
                       <li className="text-left text-black">Save 20% to 50% on most dental procedures including routine oral exams, unlimited cleanings, and major work such as dentures, root canals, and crowns through one of the largest dental networks nationally with a focus on neighborhood dentists.</li>
@@ -162,6 +163,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
                <div className="dental-discount-faq2-tab2">
                  <div className="row">
                   <div className="col-lg-7">
+                    <Img fluid={unoa_logo} className="right-logo-mobile" />
                     <p className="text-left text-black tab-title">UNoA Prescription Discount Program</p>
                     <ul>
                       <li className="text-left text-black">Members will have access to savings between 15% to 60% off the retail price of generic drugs and 10% to 25% off the retail price of brand name drugs at over 68,000 participating pharmacies nationwide including Safeway, CVS, Duane Reade, Wal-Mart, Target, Walgreens, Rite Aid and many more.</li>
@@ -180,6 +182,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
                <div className="dental-discount-faq2-tab3">
                  <div className="row">
                   <div className="col-lg-7">
+                    <Img fluid={eyemed_logo} className="right-logo-mobile" />
                     <p className="text-left text-black tab-title">EyeMed Discount Program </p>
                     <ul>
                       <li className="text-left text-black">Regular eye exams are not good for your eye health – they’re good for your overall health, too. Annual eye exams can detect signs of serious health issues, such as diabetes and high blood pressure.</li>
@@ -259,7 +262,7 @@ export const query = graphql`
         }
       }
     },
-    hero_background: file(name: { eq: "dental-discount-hero-bg" }) {
+    hero_background: file(name: { eq: "dental-discount-hero-bg-1" }) {
       childImageSharp {
         fluid(maxWidth: 1400, quality: 100) {
           ...GatsbyImageSharpFluid
