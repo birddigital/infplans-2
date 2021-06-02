@@ -117,7 +117,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
  <section id="bmi-travel-section-4">
    <Container>
      <div className="col-lg-12">
-       <h3 className="text-blue text-center row-title">BMI Plan 60 days Travel Assistance Cost</h3>
+       <h3 className="text-blue text-center">BMI Plan 60 days Travel Assistance Cost</h3>
 
         <table>
           <tr className="text-center text-white">
@@ -177,7 +177,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
   <section id="bmi-travel-section-5">
     <Container>
       <div className="col-lg-12">
-        <h3 className="text-blue text-center row-title">Plan Options With Policy Maximums</h3>
+        <h3 className="text-blue text-center">Plan Options With Policy Maximums</h3>
 
         <table>
           <tr className="text-center text-white">

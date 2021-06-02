@@ -5984,11 +5984,6 @@ section#diplomat-international-section-3 {
   padding-bottom: 40px;
 }
 
-#diplomat-international-section-4 .diplomat-america-container {
-  box-shadow: 0px 0px 12px 0px #dddddd;
-  padding: 50px 50px 40px 50px;
-}
-
 #diplomat-international-section-4 li {
   margin-bottom: 10px;
 }
@@ -6444,6 +6439,9 @@ section.plans-hero-section-bg {
   letter-spacing: 2px;
   font-weight: 300;
   margin-top: 20px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #plans-section-1 {
@@ -7050,13 +7048,18 @@ section.plans-hero-section-bg {
   font-size: 20px;
 }
 
-#plans-section-7 ul {
-  list-style-type: disc;
-}
-
 #plans-section-7 li {
   font-size: 16px;
   line-height: 2;
+}
+
+#plans-section-7 {
+  padding-top: 0;
+  padding-bottom: 80px;
+}
+
+#plans-section-7 ul {
+  list-style-type: disc;
 }
 
 #plans-section-7 .plans-container {
@@ -7064,10 +7067,6 @@ section.plans-hero-section-bg {
   padding: 50px 50px 40px 50px;
 }
 
-#plans-section-7 {
-  padding-top: 0;
-  padding-bottom: 80px;
-}
 /* End of Plans Styles */
 
 /* BMI Travel Styles */
@@ -7448,10 +7447,6 @@ section#bmi-travel-section-2 {
   padding-top: 0px;
 }
 
-#bmi-travel-section-7 .bmi-travel-container {
-  box-shadow: 0px 0px 12px 0px #dddddd;
-  padding: 50px 50px 40px 50px;
-}
 
 #bmi-travel-section-7  h4 {
   font-size: 17px;
@@ -7525,11 +7520,6 @@ section#bmi-travel-section-2 {
   padding-top: 10px;
 }
 
-#bmi-travel-section-8 .bmi-travel-container {
-  box-shadow: 0px 0px 12px 0px #dddddd;
-  padding: 50px 50px 40px 50px;
-  margin-top: 50px;
-}
 
 #bmi-travel-section-8 .optional {
   padding-top: 10px;
@@ -10096,3 +10086,654 @@ section#telemedicine-hero-section {
   }
 }
 /* End of Klint Responsiveness */
+
+/* Gillian Responsiveness */
+@media screen and (max-width:1024px) {
+  #claims-forms-hero-section h1 {
+    font-size: 35px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  #claims-forms-hero-section .hero-btn {
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  section.claims-forms-hero-section-bg {
+    min-height: auto;
+    padding-bottom: 10px;
+  }
+
+  section#claims-forms-section-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #claims-forms-section-1 .claims-form-container {
+    padding: 20px 20px 10px 20px;
+  }
+
+  #claims-forms-section-1 h2, #claims-forms-section-2 h2 {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  #claims-forms-section-1 .submit-img {
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  #claims-forms-section-2 .big-logo {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  #claims-forms-section-2 h3 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  section#claims-forms-section-3 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  .claims-info-tab ul li label {
+    width: 100%;
+  }
+
+  #claims-info-tabone:checked ~ section .claims-info-tabone,
+  #claims-info-tabtwo:checked ~ section .claims-info-tabtwo {
+    padding-top: 0px;
+  }
+
+  section#claims-forms-section-4 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  .additional-tab ul li label {
+    width: 100%;
+  }
+
+  #additional-tabone:checked ~ section .additional-tabone,
+  #additional-tabtwo:checked ~ section .additional-tabtwo {
+    padding-top: 0px;
+  }
+
+  section#claims-forms-section-5 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  .process-tab ul li label {
+    width: 100%;
+  }
+
+  #process-tabone:checked ~ section .process-tabone,
+  #process-tabtwo:checked ~ section .process-tabtwo,
+  #process-tabthree:checked ~ section .process-tabthree {
+    padding-top: 0px;
+  }
+
+  #plans-hero-section h1 {
+    font-size: 35px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  #plans-hero-section .hero-text {
+    text-align: center;
+  }
+
+  #plans-hero-section .hero-btn {
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  section.plans-hero-section-bg {
+    min-height: auto;
+    padding-bottom: 10px;
+  }
+
+  section#plans-section-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #plans-section-1 .plans-container {
+    padding: 20px 20px 10px 20px;
+  }
+
+  #plans-section-1 h2 {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  #plans-section-2 .plans-container {
+    padding: 20px 20px 10px 20px;
+  }
+
+  #plans-section-2 .plans-img {
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  #plans-section-2 h4 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  #plans-section-2 .plans-logo {
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+
+  #plans-section-2 .plan-btn {
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  #plans-section-2 .get-btn {
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  #plans-section-3 .plans-container {
+    padding: 20px 20px 10px 20px;
+  }
+
+  #plans-section-3 .plans-img {
+    max-width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  #plans-section-3 h4 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  #plans-section-3 .plans-logo {
+    max-width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+
+  #plans-section-3 .plan-btn {
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  #plans-section-3 .get-btn {
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  #plans-section-4 .plans-container {
+    padding: 20px 20px 10px 20px;
+  }
+
+  #plans-section-4 .plans-img {
+    max-width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  #plans-section-4 h4 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  #plans-section-4 .plans-logo {
+    max-width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+
+  #plans-section-4 .plan-btn {
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  #plans-section-4 .get-btn {
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  #plans-section-5 .plans-img {
+    max-width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  #plans-section-5 h4 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  #plans-section-5 .plans-logo {
+    max-width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+
+  #plans-section-5 .plan-btn {
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  #plans-section-5 .get-btn {
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  #plans-section-6 h3 {
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+
+  .bmi-plans-tab ul li label {
+    width: 33.33%;
+  }
+
+  #bmi-plans-tabone:checked ~ section .bmi-plans-tabone,
+  #bmi-plans-tabtwo:checked ~ section .bmi-plans-tabtwo,
+  #bmi-plans-tabthree:checked ~ section .bmi-plans-tabthree {
+    padding-top: 0px;
+  }
+
+  #plans-section-6 .inf-bmi-plans {
+    padding-left: 30px;
+  }
+
+  #plans-section-6 .expense-content {
+    margin-left: -20px;
+  }
+
+  #plans-section-6 .notice {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  #plans-section-6 .notice-content {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  #plans-section-6 .covid-content {
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-weight: 600;
+  }
+
+  #plans-section-6 .bmi-bg {
+    margin-top: 20px;
+    padding: 20px 20px 10px 20px;
+  }
+
+  #plans-section-7 h2 {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  #plans-section-7 p {
+    font-weight: 500;
+    padding-top: 5px;
+    font-size: 18px;
+  }
+
+  #plans-section-7 .plans-container {
+    padding: 20px 20px 10px 20px;
+  }
+
+  #plans-section-7 {
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
+
+  #diplomat-america-hero-section h1 {
+    font-size: 35px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  #diplomat-america-hero-section .hero-text {
+    text-align: center;
+  }
+
+  #diplomat-america-hero-section .hero-btn {
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  section.diplomat-america-hero-section-bg {
+    min-height: auto;
+    padding-bottom: 10px;
+  }
+
+  section#diplomat-america-section-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #diplomat-america-section-1 .diplomat-america-container {
+    padding: 20px 20px 10px 20px;
+  }
+
+  #diplomat-america-section-2 .diplomat-america-container {
+    padding: 20px 20px 10px 20px;
+  }
+
+  #diplomat-america-section-2 h2 {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  section#diplomat-america-section-3 {
+    margin-top: 30px;
+    padding: 20px 20px 1px 20px;
+  }
+
+  #diplomat-america-section-3 h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  #diplomat-america-section-4 h2 {
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+
+  .benefits-tab ul li label {
+    width: 100%;
+  }
+
+  #benefits-tabone:checked ~ section .benefits-tabone,
+  #benefits-tabtwo:checked ~ section .benefits-tabtwo {
+    padding-top: 0px;
+  }
+
+  #diplomat-america-section-4 .expenses{
+    margin-left: 30px;
+  }
+
+  #diplomat-america-section-4 .co-insurance {
+    padding-left: 30px;
+  }
+
+  #diplomat-america-section-4 .alpha-list {
+    padding-left: 20px;
+  }
+
+  #diplomat-america-section-4 .number-list {
+    padding-top: 25px;
+    padding-left: 30px;
+  }
+
+  .info-tab ul li label {
+    width: 25%;
+  }
+
+  #info-tabone:checked ~ section .info-tabone,
+  #info-tabtwo:checked ~ section .info-tabtwo,
+  #info-tabthree:checked ~ section .info-tabthree,
+  #info-tabfour:checked ~ section .info-tabfour {
+    padding-top: 0px;
+  }
+
+  #diplomat-america-section-5 h2 {
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+
+  #diplomat-america-section-5 .med-exp {
+    padding-left: 15px;
+  }
+
+  #diplomat-america-section-5 .company {
+    padding-left: 30px;
+  }
+
+  #diplomat-america-section-5 .claims {
+    margin-left: 30px;
+  }
+
+  #diplomat-america-section-5 .claims2 {
+    margin-left: 50px;
+  }
+
+  #diplomat-america-section-5 .administrator {
+    margin-left: 30px;
+  }
+
+  #diplomat-america-section-5 .claim-disease {
+    margin-left: 50px;
+  }
+
+  #diplomat-america-section-5 .refund-prem {
+    padding-left: 20px;
+  }
+
+  .info-tab .claims {
+    padding-left: 10px;
+  }
+
+  .info-tab .administrator {
+    padding-left: 30px;
+  }
+
+  .info-tabone .title {
+    padding-top: 20px!important;
+  }
+
+  .info-tabtwo .title {
+    padding-top: 30px!important;
+  }
+
+  .info-tabthree .title {
+    padding-top: 20px!important;
+  }
+
+  #diplomat-international-hero-section h1 {
+    font-size: 35px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  #diplomat-international-hero-section .hero-text {
+    text-align: center;
+  }
+
+  #diplomat-international-hero-section .hero-btn {
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  section.diplomat-international-hero-section-bg {
+    min-height: auto;
+    padding-bottom: 10px;
+  }
+
+  section#diplomat-international-section-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #diplomat-international-section-1 .diplomat-international-container {
+    padding: 20px 20px 10px 20px;
+  }
+
+  #diplomat-international-section-1 h2 {
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+
+  #diplomat-international-section-2 .diplomat-international-container {
+    padding: 20px 20px 10px 20px;
+  }
+
+  #diplomat-international-section-2 h2 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  section#diplomat-international-section-3 {
+    margin-top: 30px;
+    padding: 20px 20px 1px 20px;
+  }
+
+  #diplomat-international-section-3 h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .international-tab ul li label {
+    width: 100%;
+  }
+
+  #international-tabone:checked ~ section .international-tabone,
+  #international-tabtwo:checked ~ section .international-tabtwo {
+    padding-top: 0px;
+  }
+
+  .international-tab .policy {
+    margin-top: 20px;
+  }
+
+  .international-tab .first-content {
+    padding-top: 10px;
+  }
+
+  .international-tab .first {
+    margin-top: 20px;
+  }
+
+  .international-tab .second {
+    margin-top: 20px;
+  }
+
+  .international-tab .content-bg {
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-left: 30px;
+  }
+
+  #diplomat-international-section-3 h4 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  #diplomat-international-section-4 h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  #bmi-travel-hero-section h1 {
+    font-size: 35px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  #bmi-travel-hero-section .hero-text {
+    text-align: center;
+  }
+
+  #bmi-travel-hero-section .hero-btn {
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  section.bmi-travel-hero-section-bg {
+    min-height: auto;
+    padding-bottom: 10px;
+  }
+
+  #bmi-travel-section-1 .bmi-travel-container {
+    padding: 20px 20px 10px 20px;
+  }
+
+  #bmi-travel-section-1 h2 {
+    font-size: 25px;
+  }
+
+  #bmi-travel-section-1 .bmi-logo {
+    max-width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #bmi-travel-section-2 h4 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  section#bmi-travel-section-2 {
+    margin-top: 20px;
+  }
+
+  #eyemed-hero-section h1 {
+    font-size: 35px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  #eyemed-hero-section .hero-text {
+    text-align: center;
+  }
+
+  #eyemed-hero-section .hero-btn {
+    padding: 8px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  section.eyemed-hero-section-bg {
+    min-height: auto;
+    padding-bottom: 10px;
+  }
+
+/* End of Gillian Responsiveness */
