@@ -8510,7 +8510,7 @@ section#telemedicine-hero-section {
     width: 100%;
     z-index: 9;
     top: 76px;
-    background: $black;
+    background: #252362;
     left: 0;
   }
 
@@ -8557,6 +8557,18 @@ section#telemedicine-hero-section {
     padding-top: 0;
   }
 
+  .megaphone-icon {
+    max-width: 27px;
+    width: 100%;
+  }
+
+  .navibar-top .container{
+    display: none;
+  }
+
+  .mobile-nav {
+    background: #252362;
+  }
   /* end of top navibar responsive */
 
   /* telemedicine page responsive */

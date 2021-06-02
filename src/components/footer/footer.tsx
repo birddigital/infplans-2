@@ -72,9 +72,9 @@ const Footer = ({ className }) => {
           <div className="col-md-12 text-center">
             <ul className="list-inline">
               <li className="list-inline-item">© INFPLANS {new Date().getFullYear()}</li>
-              <Link to="/"><li className="list-inline-item">Privacy policy</li></Link>
-              <Link to="/"><li className="list-inline-item">Cookies policy</li></Link>
-              <Link to="/"><li className="list-inline-item">Terms of use</li></Link>
+              <Link to="/"><li className="list-inline-item">Privacy Policy</li></Link>
+              <Link to="/"><li className="list-inline-item">Cookies Policy</li></Link>
+              <Link to="/"><li className="list-inline-item">Terms of Use</li></Link>
             </ul>
           </div>
         </ContainerFluid>
