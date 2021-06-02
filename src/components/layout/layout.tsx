@@ -58,7 +58,22 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
   const popup3_img = data.popup3_img?.childImageSharp?.fluid
   const popup4_img = data.popup4_img?.childImageSharp?.fluid
   const [popupStatus, setPopupStatus] = useState(false);
-  const [popupNumber, setPopupNumner] = useState(1);
+  const [popupNumber, setPopupNumber] = useState(1);
+  const [popupReady, setPopupReady] = useState(false);
+
+  useEffect(
+    () => {
+      setTimeout(() => {
+        setPopupReady(true);
+      }, 3000);
+    },
+    // useEffect will run only one time with empty []
+    // if you pass a value to array,
+    // like this - [data]
+    // than clearTimeout will run every time
+    // this value changes (useEffect re-run)
+    []
+  );
 
   function onExitIntent() {
     setPopupStatus(true);
@@ -66,23 +81,18 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
 
   function closeModal() {
     setPopupStatus(false);
-    setPopupNumner(0);
-  }
-
-  function onExitIntent() {
-   setTimeout(() => {
-     setPopupStatus(true);
-   }, 500);
+    setPopupNumber(0);
   }
 
   useEffect(() => {
     emergence.init()
   })
 
+
   return (
     <div>
       <div className="exit-intent-trigger" onMouseOver={onExitIntent}></div>
-      {popupStatus && popupNumber == 1 ? (
+      {popupStatus && popupNumber == 1 && popupReady ? (
         <div className="modal show" id="myModal" role="dialog">
           <div className="modal-dialog">
             <div className="modal-content">
