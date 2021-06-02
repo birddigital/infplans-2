@@ -258,7 +258,7 @@ class MobileNavigation extends Component {
                       </li>
                     </ul>
                     </li>
-  
+
                   <li
                     className={
                       location.pathname === '/'
@@ -336,6 +336,28 @@ class MobileNavigation extends Component {
                           Contact Us
                         </Link>
                       </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/telemedicine-visitors-insurance" className="nav-link">
+                          TeleMedicine
+                        </Link>
+                      </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/dental-discount-program" className="nav-link">
+                          Dental Discount Program
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li
@@ -372,6 +394,17 @@ class MobileNavigation extends Component {
                         </Link>
                       </li>
                     </ul>
+                  </li>
+                  <li
+                    className={
+                      location.pathname === '/'
+                        ? 'nav-item active'
+                        : 'nav-item'
+                    }
+                  >
+                    <Link to="/eyemed" className="nav-link">
+                      EyeMed
+                    </Link>
                   </li>
                 </ul>
                 </div>

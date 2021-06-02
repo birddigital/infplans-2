@@ -43,7 +43,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
               <span><img src={Megaphone} className="megaphone-icon"/></span><p><strong>COVID-19</strong>:For answers to frequently asked questions, please see our <a href="" target="_blank" id="resource-page">COVID-19 Resource Page</a></p>
             </div>
             <div className="col-lg-2">
-              <span><img src={Whatsapp} /></span><a href="tel:4085403601"><p className="text-right">Tel:408-540-3601</p></a>
+              <span><img src={Whatsapp} className="whatsapp-icon"/></span><a href="tel:4085403601"><p className="text-right">Tel:408-540-3601</p></a>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                         : 'nav-item nav-dropdown'
                     }
                   >
-                    <Link to="/inf-easy-select" className="nav-link">
+                    <Link to="/inf-easy-select" className="nav-link" aria-current="page">
                       Quote
                     </Link>
                     <ul className="nav-submenu">
@@ -113,7 +113,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                         : 'nav-item nav-dropdown'
                     }
                   >
-                    <Link to="/apply" className="nav-link">
+                    <Link to="/apply" className="nav-link" aria-current="page">
                       Apply
                     </Link>
                     <ul className="nav-submenu">
@@ -170,7 +170,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                         : 'nav-item'
                     }
                   >
-                    <Link to="/extend" className="nav-link">
+                    <Link to="/extend" className="nav-link" aria-current="page">
                       Extend
                     </Link>
                   </li>
@@ -259,7 +259,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                             : 'nav-item'
                         }
                       >
-                        <Link to="/diplomat-international" className="nav-link">
+                        <Link to="/diplomat-international" className="nav-link" aria-current="page">
                           Diplomat International
                         </Link>
                       </li>

@@ -332,6 +332,19 @@ button {
   z-index: 99;
 }
 
+.nav-dropdown > a:after {
+    content: '';
+    border: 4px solid transparent;
+    border-top: 4px solid #000;
+    margin-left: 15px;
+    margin-bottom: 3px;
+    display: inline-block;
+    vertical-align: bottom;
+    position: absolute;
+    margin-top: 9px;
+    display: none;
+}
+
 .nav-dropdown:hover .nav-submenu {
   display: block;
 }
@@ -8474,6 +8487,88 @@ section#telemedicine-hero-section {
 
 /* Mobile Responsiveness */
 
+/* victor css */
+/* added responsive for navibar for small screens after 1024px and before 1366px */
+@media only screen and (max-width: 1348px) {
+  #main-navigation .nav-link {
+    font-size: 14px;
+  }
+
+  #main-navigation #btn-2 {
+    padding: 5px 20px;
+  }
+
+  #main-navigation #btn-1 {
+    padding: 5px 15px;
+  }
+}
+
+@media only screen and (max-width: 1222px) {
+  #main-navigation .nav-link {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  #logo {
+    max-width: 200px;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  #main-navigation .col-lg-9 {
+    flex: 0 0 80%;
+    max-width: 80%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #main-navigation .col-lg-3 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1085px) {
+  .navibar-top .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .navibar-top p {
+    padding-left: 5px;
+    font-size: 14px;
+  }
+
+  .megaphone-icon {
+    max-width: 23px;
+    width: 100%;
+  }
+
+  .whatsapp-icon {
+    max-width: 20px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+/* end of added responsive for navibar for small screens after 1024px and before 1366px */
+
+/* footer responsive */
+@media only screen and (max-width: 425px) {
+
+  #footer .list-inline-item {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+
+  #footer {
+    padding: 50px 20px 10px 20px;
+  }
+}
+
+/* end of footer responsive */
+/*end of victor css */
+
+
 @media only screen and (max-width: 1087px) {
   #home-products-sections .product-column {
     min-height: 298px;
@@ -8499,8 +8594,8 @@ section#telemedicine-hero-section {
  }
 
  [class^="col-"], [class*=" col-"] {
-   flex: 0 0 100%;
-   max-width: 100%;
+   flex: 0 0 100% !important;
+   max-width: 100% !important;
  }
 
   .container .row, #main-navigation .container {
@@ -8518,10 +8613,22 @@ section#telemedicine-hero-section {
     left: 0;
   }
 
+  .nav-dropdown > a:after {
+    border-top: 4px solid #000;
+    margin-top: 7px;
+    right: 18px;
+    pointer-events: none;
+    display: inline-block;
+  }
+
   .nav-submenu {
     left: 15px;
   }
 
+  .nav-dropdown:hover .nav-submenu {
+    height: 100px;
+    overflow-y: scroll;
+  }
   .mobile-nav {
     right: 85px;
     top: 21px;
@@ -8542,6 +8649,7 @@ section#telemedicine-hero-section {
 
   #logo {
     max-width: 250px;
+    margin-top: 0;
   }
 
 
