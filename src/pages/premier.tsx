@@ -80,6 +80,7 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12">
             <div className="row mt-5">
               <div className="col-lg-6">
+                <Img fluid={section2_img_right} className="section2-img1-mobile"/>
                 <ul>
                   <li className="text-white"> Access to a Careington discount program at no additional cost with the INF Premier International Visitor Accident & Sickness Insurance as part of its membership and community service. Careington coordinates this discount program, which provides savings on Dental, Vision, Prescription, & Hearing products & services in the United States. For example, you may see savings of up to 50% for Dental procedures! For more information on benefits of the discount program, please visit our page on the Discount Card Program. This Discount card program is not an insurance product and is not insured by Crum & Forster SPC. This is not insurance.</li>
                 </ul>

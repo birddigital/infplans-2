@@ -2513,6 +2513,10 @@ section#traveler-usa-section1 {
   color: #252362;
 }
 
+#traveler-usa-section1 h2, #traveler-usa-section3 h2, #traveler-usa-section4 h2, #traveler-usa-section5 h2{
+  font-weight: 500;
+}
+
 #traveler-usa-section1 h3 {
   margin-top: 10px;
   padding-bottom: 0;
@@ -2537,6 +2541,10 @@ section#traveler-usa-section1 {
 
 #traveler-usa-section2 li {
   line-height: 2;
+}
+
+#traveler-usa-section2 .section2-img1-mobile {
+  display: none;
 }
 
 #traveler-usa-section2 .section2-img1, #traveler-usa-section2 .section2-img2 {
@@ -2821,7 +2829,7 @@ section#traveler-usa-section1 {
   border-radius: 50px;
   transition: .5s;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 20px;
 }
 
@@ -2832,6 +2840,7 @@ section#traveler-usa-section1 {
 
 #traveler-usa-cta-section h2 {
   margin-top: 20px;
+  font-weight: 500;
 }
 
 #traveler-usa-section7 p{
@@ -2969,6 +2978,10 @@ section#premier-section1 {
 
 #premier-section2 li {
   line-height: 2;
+}
+
+#premier-section2 .section2-img1-mobile {
+  display: none;
 }
 
 #premier-section2 .section2-img1, #premier-section2 .section2-img2 {
@@ -9412,7 +9425,10 @@ section#telemedicine-hero-section {
     padding: 20px 20px 10px 20px;
   }
 
-  #elite-section1 h2, #elite-section3 h2, #elite-section4 h2, #elite-section5 h2 {
+  #elite-section1 h2,
+  #elite-section3 h2,
+  #elite-section4 h2,
+  #elite-section5 h2 {
     font-weight: 500;
     font-size: 25px;
   }
@@ -9433,11 +9449,16 @@ section#telemedicine-hero-section {
     padding-bottom: 10px;
   }
 
+  #elite-section2 ul {
+    padding-left: 10px;
+  }
+
   #elite-section2 .row.mt-5 {
     margin-top: 10px!important;
   }
 
-  #elite-section2 .section2-img1-mobile, #elite-section2 .section2-img2 {
+  #elite-section2 .section2-img1-mobile,
+  #elite-section2 .section2-img2 {
     max-width: 200px;
     margin-left: auto;
     margin-right: auto;
@@ -9537,6 +9558,348 @@ section#telemedicine-hero-section {
   }
 
   #elite-section7 .white-bg {
+    margin-top: 30px;
+    padding: 20px 20px 1px 20px;
+  }
+
+  section.traveler-usa-hero-section-bg {
+    min-height: 400px;
+  }
+
+  #traveler-usa-hero-section h1 {
+    font-size: 35px;
+    margin-top: 50px;
+  }
+
+  #traveler-usa-hero-section .hero-btn {
+    margin-top: 10px;
+    padding: 8px 40px;
+  }
+
+  section#traveler-usa-section1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #traveler-usa-section1 .traveler-usa-container {
+    padding: 20px 20px 10px 20px;
+  }
+
+  #traveler-usa-section1 .row.mt-5 {
+    margin-top: 0px!important;
+  }
+
+  #traveler-usa-section1 .big-logo {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  #traveler-usa-section2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  #traveler-usa-section2 ul {
+    padding-left: 10px;
+  }
+
+  #traveler-usa-section2 .row.mt-5 {
+    margin-top: 10px!important;
+  }
+
+  #traveler-usa-section2 .section2-img1-mobile,
+  #traveler-usa-section2 .section2-img2 {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  #traveler-usa-section2 .section2-img1 {
+    display: none;
+  }
+
+  section#traveler-usa-section3 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  #traveler-usa-section1 h2,
+  #traveler-usa-section3 h2,
+  #traveler-usa-section4 h2,
+  #traveler-usa-section5 h2 {
+    font-size: 25px;
+  }
+
+  .traveler-coverages-tab ul li label {
+    width: 100%;
+  }
+
+  .traveler-coverages-tab .tab-content {
+    font-size: 20px;
+    min-height: 40px;
+    padding-top: 5px;
+  }
+
+  section#traveler-usa-section4 {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+
+  #traveler-usa-section4 h3 {
+    margin-top: 10px;
+  }
+
+  #traveler-usa-section4 .subtitle {
+    font-size: 22px !important;
+  }
+
+  .traveler-co-insurance-tab ul li label {
+    width: 100%;
+  }
+
+  #traveler-usa-section5 h3 {
+    margin-top: 30px;
+  }
+
+  #traveler-usa-section5 .book-icon-img {
+    margin-top: 15px;
+  }
+
+  section#traveler-usa-section5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #traveler-usa-section5 .row.mt-4 {
+    margin-top: -30px!important;
+  }
+
+  #traveler-usa-section4 h3 {
+    margin-top: 10px;
+  }
+
+  #traveler-usa-cta-section h2 {
+    font-size: 25px;
+    margin-top: 0;
+  }
+
+  #traveler-usa-cta-section .buy-now-btn {
+    font-size: 25px;
+  }
+
+  section.traveler-usa-cta-hero-section-bg {
+    min-height: 210px;
+  }
+
+  section#traveler-usa-section7 {
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+
+  #traveler-usa-section7 .blue-bg {
+    margin-top: 30px;
+    padding: 20px 20px 1px 20px;
+  }
+
+  #traveler-usa-section7 h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  #traveler-usa-section7 .white-bg {
+    margin-top: 30px;
+    padding: 20px 20px 1px 20px;
+  }
+
+  section.premier-hero-section-bg {
+    min-height: 400px;
+  }
+
+  #premier-hero-section h1 {
+    font-size: 35px;
+    margin-top: 50px;
+  }
+
+  #premier-hero-section .hero-btn {
+    margin-top: 10px;
+    padding: 8px 40px;
+  }
+
+  section#premier-section1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #premier-section1 .premier-container {
+    padding: 20px 20px 10px 20px;
+  }
+
+  #premier-section1 h2,
+  #premier-section3 h2,
+  #premier-section4 h2,
+  #premier-section5 h2 {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  #premier-section1 .row.mt-5 {
+    margin-top: 0px!important;
+  }
+
+  #premier-section1 .big-logo {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  #premier-section2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  #premier-section2 ul {
+    padding-left: 10px;
+  }
+
+  #premier-section2 .row.mt-5 {
+    margin-top: 10px!important;
+  }
+
+  #premier-section2 .section2-img1-mobile,
+  #premier-section2 .section2-img2 {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  #premier-section2 .section2-img1 {
+    display: none;
+  }
+
+  section#premier-section3 {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+
+  #premier-section3 .mb-5 {
+    margin-bottom: 10px!important;
+  }
+
+  .premier-coverages-tab ul li label {
+    width: 100%
+  }
+
+  #premier-coverages-tab1:checked ~ section .premier-coverages-tab1,
+  #premier-coverages-tab2:checked ~ section .premier-coverages-tab2 {
+    padding-top: 5px;
+  }
+
+  .premier-coverages-tab .tab-row-title {
+    margin-top: 10px;
+  }
+
+  .premier-coverages-tab .tab-content {
+    font-size: 20px;
+    min-height: 40px;
+    padding-top: 5px;
+  }
+
+  section#premier-section4 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  #premier-section4 .tab-row-title {
+    margin-top: 0px;
+  }
+
+  .premier-benefits1-tab ul li label {
+    width: 100%;
+    min-height: auto;
+  }
+
+  #premier-benefits1-tab1:checked ~ section .premier-benefits1-tab1,
+  #premier-benefits1-tab2:checked ~ section .premier-benefits1-tab2,
+  #premier-benefits1-tab3:checked ~ section .premier-benefits1-tab3 {
+    padding-top: 0;
+  }
+
+  .premier-benefits1-tab .tab-content2 {
+    min-height: auto;
+    padding: 10px 30px;
+  }
+
+  #premier-section5 .book-icon-img {
+    margin-top: 15px;
+  }
+
+  section#premier-section5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #premier-section5 .row.mt-4 {
+    margin-top: -30px!important;
+  }
+
+  #premier-section5 h3 {
+    margin-top: 30px;
+  }
+
+  #premier-benefits2-tab1:checked ~ section .premier-benefits2-tab1,
+  #premier-benefits2-tab2:checked ~ section .premier-benefits2-tab2,
+  #premier-benefits2-tab3:checked ~ section .premier-benefits2-tab3 {
+    padding-top: 0;
+  }
+
+  .premier-benefits2-tab ul li label {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .premier-benefits2-tab .tab-content2 {
+    min-height: auto;
+    padding: 10px 30px;
+  }
+
+  #premier-cta-section h2 {
+    font-size: 25px;
+    margin-top: 0;
+  }
+
+  #premier-cta-section .buy-now-btn {
+    font-size: 25px;
+  }
+
+  section.premier-cta-hero-section-bg {
+    min-height: 210px;
+  }
+
+  section#premier-section7 {
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+
+  #premier-section7 .blue-bg {
+    margin-top: 30px;
+    padding: 20px 20px 1px 20px;
+  }
+
+  #premier-section7 h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  #premier-section7 .white-bg {
     margin-top: 30px;
     padding: 20px 20px 1px 20px;
   }
