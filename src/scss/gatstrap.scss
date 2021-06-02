@@ -3634,6 +3634,10 @@ section#standard-section1 {
   line-height: 2;
 }
 
+#standard-section2 .section2-img1-mobile {
+  display: none;
+}
+
 #standard-section2 .section2-img1, #standard-section2 .section2-img2 {
   max-width: 360px;
   margin-left: auto;
@@ -8163,6 +8167,7 @@ section#telemedicine-hero-section {
 
 .telemedicine-container h2{
   color: #252362;
+  font-weight: 500;
 }
 
 .telemedicine-container p{
@@ -8217,6 +8222,7 @@ section#telemedicine-hero-section {
 
   #telemedicine-section-2 h2 {
     color: #252362;
+    font-weight: 500;
   }
 
   #telemedicine-section-2 {
@@ -8699,16 +8705,17 @@ section#telemedicine-hero-section {
   /* telemedicine page responsive */
 
   section.telemedicine-hero-section-bg {
-    min-height: auto !important;
+    min-height: 400px;
   }
 
   #telemedicine-hero-section h1 {
-    margin-top: 30px;
-    font-size: 25px;
+    margin-top: 90px;
+    font-size: 35px;
   }
 
   #telemedicine-hero-section .hero-btn {
     margin-top: 10px;
+    padding: 8px 40px;
   }
 
   #telemedicine-section-1 {
@@ -8716,11 +8723,16 @@ section#telemedicine-hero-section {
   }
 
   .telemedicine-container h2 {
-    font-size: 20px;
+    font-size: 25px;
+  }
+
+  #telemedicine-section-2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
 
   .telemedicine-container {
-    padding: 30px 20px 10px 20px;
+    padding: 20px 20px 1px 20px;
   }
 
   #telemedicine-section-1 .container-fluid h3{
@@ -9900,6 +9912,185 @@ section#telemedicine-hero-section {
   }
 
   #premier-section7 .white-bg {
+    margin-top: 30px;
+    padding: 20px 20px 1px 20px;
+  }
+
+  section.standard-hero-section-bg {
+    min-height: 400px;
+  }
+
+  #standard-hero-section h1 {
+    font-size: 35px;
+    margin-top: 50px;
+  }
+
+  #standard-hero-section .hero-btn {
+    margin-top: 10px;
+    padding: 8px 40px;
+  }
+
+  section#standard-section1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #standard-section1 .standard-container {
+    padding: 20px 20px 10px 20px;
+  }
+
+  #standard-section1 h2,
+  #standard-section3 h2,
+  #standard-section4 h2,
+  #standard-section5 h2 {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  #standard-section1 .row.mt-5 {
+    margin-top: 0px!important;
+  }
+
+  #standard-section1 .big-logo {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  #standard-section2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  #standard-section2 ul {
+    padding-left: 10px;
+  }
+
+  #standard-section2 .row.mt-5 {
+    margin-top: 10px!important;
+  }
+
+  #standard-section2 .section2-img1-mobile,
+  #standard-section2 .section2-img2 {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  #standard-section2 .section2-img1 {
+    display: none;
+  }
+
+  section#standard-section3 {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+
+  #standard-section3 .tab-row-title {
+    margin-top: 10px;
+  }
+
+  .standard-coverages-tab ul li label {
+    width: 100%;
+  }
+
+  .standard-coverages-tab .tab-content {
+    font-size: 20px;
+    min-height: 40px;
+    padding-top: 5px;
+  }
+
+  section#standard-section4 {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+
+  #standard-section4 .tab-row-title {
+    margin-top: 10px;
+  }
+
+  .standard-benefits1-tab .tab-content2,
+  .standard-benefits2-tab .tab-content2,
+  .standard-benefits3-tab .tab-content2 {
+    padding: 10px 30px;
+    min-height: auto;
+  }
+
+  #standard-benefits1-tab1:checked ~ section .standard-benefits1-tab1,
+  #standard-benefits1-tab2:checked ~ section .standard-benefits1-tab2,
+  #standard-benefits1-tab3:checked ~ section .standard-benefits1-tab3 {
+    padding-top: 0;
+  }
+
+  #standard-benefits2-tab1:checked ~ section .standard-benefits2-tab1,
+  #standard-benefits2-tab2:checked ~ section .standard-benefits2-tab2,
+  #standard-benefits2-tab3:checked ~ section .standard-benefits2-tab3 {
+    padding-top: 0;
+  }
+
+  #standard-benefits3-tab1:checked ~ section .standard-benefits3-tab1,
+  #standard-benefits3-tab2:checked ~ section .standard-benefits3-tab2,
+  #standard-benefits3-tab3:checked ~ section .standard-benefits3-tab3 {
+    padding-top: 0;
+  }
+
+  .standard-benefits1-tab ul li label,
+  .standard-benefits2-tab ul li label,
+  .standard-benefits3-tab ul li label {
+    width: 100%;
+    min-height: auto;
+  }
+
+  #standard-section5 .book-icon-img {
+    margin-top: 15px;
+  }
+
+  section#standard-section5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #standard-section5 .row.mt-4 {
+    margin-top: -30px!important;
+  }
+
+  #standard-section5 h3 {
+    margin-top: 30px;
+  }
+
+  #standard-cta-section h2 {
+    font-size: 25px;
+    margin-top: 0;
+  }
+
+  #standard-cta-section .buy-now-btn {
+    font-size: 25px;
+  }
+
+  section.standard-cta-hero-section-bg {
+    min-height: 210px;
+  }
+
+  section#standard-section7 {
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+
+  #standard-section7 .blue-bg {
+    margin-top: 30px;
+    padding: 20px 20px 1px 20px;
+  }
+
+  #standard-section7 h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  #standard-section7 .white-bg {
     margin-top: 30px;
     padding: 20px 20px 1px 20px;
   }
