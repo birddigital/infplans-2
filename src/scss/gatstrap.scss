@@ -641,6 +641,8 @@ section.home-hero-section-bg::after {
 
 #what-describes-you .column-title {
   font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px
 }
 
 what-describes-you {
@@ -747,7 +749,7 @@ what-describes-you {
 #home-bottom-flipcard-section .flipcard-container {
   background: #fff;
   padding: 50px 20px;
-  background: #fff;
+  min-height: 324px;
 }
 
 #home-bottom-flipcard-section .flipcard-container-inner {
@@ -860,11 +862,11 @@ section#home-testimonial-section {
 }
 
 .testimonial-slider .slick-prev:before {
-  content: '🡐';
+  content: "\1F850";
 }
 
 .testimonial-slider .slick-next:before {
-  content: '🡒';
+  content: "\1F852";
 }
 
 .testimonial-slider .slick-prev:before, .testimonial-slider .slick-next:before {
@@ -10155,6 +10157,7 @@ section#telemedicine-hero-section {
     margin-top: 15px;
     margin-bottom: 20px;
     min-height: auto;
+    max-height: none;
   }
 
   #truspilot-section-background h3 {
@@ -10364,6 +10367,11 @@ section#telemedicine-hero-section {
     padding-bottom: 30px;
   }
 
+  #home-testimonial-section .right-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   #home-bottom-flipcard-section {
     padding-top: 0;
   }
@@ -10461,13 +10469,13 @@ section#telemedicine-hero-section {
 
 @media screen and (max-width: 670px) {
   .testimonial-slider .slick-prev {
-    left: 35%;
+    left: 37%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .testimonial-slider .slick-prev {
-    left: 32%;
+    left: 34%;
   }
 
   .testimonial-slider .slick-next {
@@ -10477,7 +10485,7 @@ section#telemedicine-hero-section {
 
 @media screen and (max-width: 547px) {
   .testimonial-slider .slick-prev {
-    left: 31%;
+    left: 33%;
   }
 }
 
@@ -10493,13 +10501,21 @@ section#telemedicine-hero-section {
 
 @media screen and (max-width: 500px) {
   .testimonial-slider .slick-prev {
-    left: 28%;
+    left: 31%;
+  }
+
+  .articles-slider .slick-prev:before {
+    margin-left: -50px;
+  }
+
+  .articles-slider .slick-next:before, .articles-slider .slick-prev:before {
+    padding: 2px 14px 10px 13px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .testimonial-slider .slick-prev {
-    left: 24%;
+    left: 26%;
   }
 
   .testimonial-slider .slick-next {

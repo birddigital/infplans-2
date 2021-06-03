@@ -5,6 +5,8 @@ import BackgroundImage from 'gatsby-background-image'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { FaChevronLeft } from "@react-icons/all-files/fa/FaChevronLeft";
+import { FaChevronRight } from "@react-icons/all-files/fa/FaChevronRight";
 
 const ArticlesSlider = ({ className }) => {
   const data = useStaticQuery ( graphql`
@@ -46,6 +48,8 @@ const ArticlesSlider = ({ className }) => {
     fadeIn: false,
     autoplay: true,
     dots: false,
+    prevArrow: <FaChevronLeft color="#252362"  />,
+    nextArrow: <FaChevronRight color="#252362" />,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
