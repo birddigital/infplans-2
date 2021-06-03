@@ -98,7 +98,13 @@ const TestimonialHomeSlider = ({ className }) => {
             <div className="col-lg-9">
               <h3 className="testi-name text-white">VIJAY SEETHARAM</h3>
               <p className="text-white testi-content">I've used INF before in the past many times.. this time i actually had to use the insurance. The staff was very kind and helpful in every way. My dad had a minor stroke- Greg roberts was there with me and texted me every day to make sure if i needed anything. They are really there for you when you need them.</p>
-              <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+              <div className="star-icons">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
             </div>
           </div>
         </div>
@@ -110,7 +116,13 @@ const TestimonialHomeSlider = ({ className }) => {
             <div className="col-lg-9">
               <h3 className="testi-name text-white">VIJAY SEETHARAM</h3>
               <p className="text-white testi-content">I've used INF before in the past many times.. this time i actually had to use the insurance. The staff was very kind and helpful in every way. My dad had a minor stroke- Greg roberts was there with me and texted me every day to make sure if i needed anything. They are really there for you when you need them.</p>
-              <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+              <div className="star-icons">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
             </div>
           </div>
         </div>

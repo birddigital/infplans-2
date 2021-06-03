@@ -474,6 +474,10 @@ button {
   color: $white;
   text-decoration: none;
 }
+
+#footer a:hover {
+  text-decoration: underline;
+}
 /* End of Footer */
 
 
@@ -533,7 +537,7 @@ section.home-hero-section-bg::after {
 }
 
 #home-hero-section h1 {
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 500;
 }
 
@@ -598,6 +602,10 @@ section.home-hero-section-bg::after {
 #trustpilot-section {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+#home-articles-slider-section h2 {
+  font-weight: 500;
 }
 
 /* What Describes You */
@@ -865,11 +873,11 @@ section#home-testimonial-section {
 }
 
 .testimonial-slider .slick-prev {
-  left: 205px;
+  left: 26%;
 }
 
 .testimonial-slider .slick-next {
-  right: 467px;
+  right: 60%;
 }
 
 .testimonial-slider .slick-prev, .testimonial-slider .slick-next {
@@ -937,6 +945,7 @@ section#home-testimonial-section {
   margin-top: 30px;
   padding-left: 25px;
   padding-right: 25px;
+  min-height: 72px;
 }
 
 .articles-slider .articles-container {
@@ -4737,6 +4746,27 @@ section#apply-hero-section {
 }
 /* End of Apply Page */
 
+/* 404 Page */
+section.page-not-found-hero-section-bg {
+  min-height: 600px;
+}
+
+#page-not-found-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#page-not-found-hero-section p {
+  font-size: 25px;
+}
+
+.page-not-found-hero-section-bg::after {
+  background-position: bottom!important;
+}
+/* End of 404 Page */
+
 /* End of Klint css */
 
 
@@ -8503,13 +8533,6 @@ section#telemedicine-hero-section {
     font-size: 14px;
   }
 
-  #main-navigation #btn-2 {
-    padding: 5px 20px;
-  }
-
-  #main-navigation #btn-1 {
-    padding: 5px 15px;
-  }
 }
 
 @media only screen and (max-width: 1222px) {
@@ -8556,6 +8579,30 @@ section#telemedicine-hero-section {
     max-width: 20px;
     width: 100%;
     margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 1239px) {
+  #main-navigation .nav-link {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 1365px) {
+  #main-navigation #btn-2 {
+    padding: 5px 20px;
+  }
+
+  #main-navigation #btn-1 {
+    padding: 5px 15px;
+  }
+
+}
+
+@media only screen and (max-width: 1039px) {
+  #main-navigation .nav-link {
+    font-size: 13px;
   }
 }
 /* end of added responsive for navibar for small screens after 1024px and before 1366px */
@@ -8886,6 +8933,12 @@ section#telemedicine-hero-section {
 }
 
 /* Klint Responsiveness */
+@media screen and (max-width:1120px) {
+  .testimonial-slider .slick-next {
+    right: 57%;
+  }
+}
+
 @media screen and (max-width:1024px) {
   section.members-hero-section-bg {
     min-height: 400px;
@@ -10084,7 +10137,384 @@ section#telemedicine-hero-section {
     margin-top: 30px;
     padding: 20px 20px 1px 20px;
   }
+
+  section.home-hero-section-bg {
+    min-height: 400px;
+    padding-top: 100px;
+  }
+
+  #home-hero-section h1 {
+    font-size: 35px;
+  }
+
+  .service-column {
+    padding: 25px 20px;
+  }
+
+  .service-column p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    min-height: auto;
+  }
+
+  #truspilot-section-background h3 {
+    font-size: 25px;
+  }
+
+  #truspilot-section-background h2 {
+    font-size: 30px;
+  }
+
+  .trustpilot-section::after {
+    background-position: left!important;
+  }
+
+  .trustpilot-stars {
+    max-width: 260px;
+  }
+
+  #what-describes-you br {
+    display: none;
+  }
+
+  #what-describes-you .bg-blue h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  #what-describes-you .subtitle {
+    font-size: 20px !important;
+    text-align: center;
+  }
+
+  #what-describes-you .bg-blue {
+    background: #5EACEE;
+    padding: 20px 20px 5px 20px;
+  }
+
+  #what-describes-you .bg-white {
+    padding: 15px 0px 5px 0px;
+  }
+
+  #what-describes-you .bg-lightgray {
+    padding: 20px 0px 0px 0px;
+  }
+
+  #what-describes-you .column-title {
+    font-size: 18px;
+  }
+
+  section#why-choose-inf-insurance {
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  #why-choose-inf-insurance .subtitle {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+
+  #why-choose-inf-insurance h2 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: -15px;
+  }
+
+  #why-choose-inf-insurance .why-choose-inf-icon-container {
+    margin-top: 0px;
+  }
+
+  #why-choose-inf-insurance .why-choose-inf-icons {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  #why-choose-inf-insurance .column-title {
+    font-size: 18px;
+  }
+
+  #why-choose-inf-insurance br {
+    display: none;
+  }
+
+  #why-choose-inf-insurance .mt-30 {
+    margin-top: 10px;
+  }
+
+  #unique-plans-column-2 {
+    padding: 20px 20px 30px 20px;
+  }
+
+  #unique-plans-column-2 h3 {
+    text-align: center;
+  }
+
+  #unique-plans-for-travel .btn-white {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #unique-plans-column-2 ul {
+    padding-left: 40px;
+    max-width: 100%;
+  }
+
+  section#members-producers {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  #members-producers .members-producers-column {
+    padding: 20px 20px;
+    margin-bottom: 30px;
+  }
+
+  #members-producers .members-producers-column h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  #home-articles-slider-section {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  #home-articles-slider-section h2 {
+    font-size: 25px;
+  }
+
+  #home-logo-slider-section {
+    padding-bottom: 100px;
+    padding-top: 35px;
+  }
+
+  #home-logo-slider-section h2 {
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  section#home-testimonial-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #home-testimonial-section .left-content {
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+
+  #home-testimonial-section h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  #home-testimonial-section .testimonial-divider {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #home-testimonial-section hr {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #home-testimonial-section .testimonial-subtitle {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #home-testimonial-section .testimonial-slider .quote-img {
+    margin-top: -90px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+  }
+
+  .testimonial-slider .testi-img {
+    margin-top: 30px;
+  }
+
+  .testimonial-slider .testi-name {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .testimonial-slider .testi-content {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .testimonial-slider .star-icons {
+    text-align: center;
+  }
+
+  .testimonial-slider .slick-prev {
+    left: 41%;
+  }
+
+  .testimonial-slider .slick-next {
+    right: 47%;
+  }
+
+  .testimonial-slider {
+    padding-bottom: 30px;
+  }
+
+  #home-bottom-flipcard-section {
+    padding-top: 0;
+  }
+
+  #home-bottom-flipcard-section .flipcard-icon {
+    max-width: 70px;
+  }
+
+  #home-bottom-flipcard-section h3 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  #home-bottom-flipcard-section br {
+    display:none;
+  }
+
+  .articles-slider .article-content {
+    min-height: 95px;
+  }
+
+  .articles-slider .articles-container {
+    max-width: 250px;
+  }
+
+  #footer .text-left {
+    text-align: center!important;
+  }
+
+  #footer {
+    padding: 30px 20px 10px 20px;
+  }
+
+  #footer h4 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #footer p {
+    text-align: center;
+  }
+
+  section.page-not-found-hero-section-bg {
+    min-height: 300px;
+  }
+
+  #page-not-found-hero-section h1 {
+    font-size: 35px;
+    margin-top: 40px;
+  }
+
+  #page-not-found-hero-section p {
+    font-size: 20px;
+  }
 }
+
+@media screen and (max-width:991px) {
+  .articles-slider .articles-container {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .testimonial-slider .slick-prev {
+    left: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .testimonial-slider .slick-prev {
+    left: 38%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .articles-slider .slick-next {
+    right: 40px;
+  }
+
+  .articles-slider .slick-prev {
+    left: 40px;
+    z-index: 999999;
+  }
+
+  .articles-slider .articles-container {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .testimonial-slider .slick-prev {
+    left: 37%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .testimonial-slider .slick-prev {
+    left: 35%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .testimonial-slider .slick-prev {
+    left: 32%;
+  }
+
+  .testimonial-slider .slick-next {
+    right: 44%;
+  }
+}
+
+@media screen and (max-width: 547px) {
+  .testimonial-slider .slick-prev {
+    left: 31%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .articles-slider .slick-next {
+    right: 20px;
+  }
+
+  .articles-slider .slick-prev {
+    left: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .testimonial-slider .slick-prev {
+    left: 28%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .testimonial-slider .slick-prev {
+    left: 24%;
+  }
+
+  .testimonial-slider .slick-next {
+    right: 42%;
+  }
+
+  .articles-slider .slick-next {
+    right: 0px;
+  }
+
+  .articles-slider .slick-prev {
+    left: 0px;
+  }
+}
+
 /* End of Klint Responsiveness */
 
 /* Gillian Responsiveness */
