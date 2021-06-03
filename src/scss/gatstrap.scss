@@ -4819,6 +4819,11 @@ section#claims-form-section-1 {
   line-height: 2;
 }
 
+#claims-form-section-1 h4 {
+  font-weight: 600;
+  padding-top: 15px;
+}
+
 #claims-form-section-1 .inf-btn {
   margin-left: auto;
   margin-right: auto;
@@ -4917,10 +4922,10 @@ section#claims-form-section-1 {
 .claims-info-tab ul li label {
   font-family: "poppins";
   float: left;
-  padding: 30px 50px;
+  padding: 15px 50px;
   border-bottom: 0;
   font-weight: 600;
-  width: 100%;
+  width: 50%;
   font-size: 20px;
   background: #eeeeee;
   border-left: 2px solid #C4C4C4;
@@ -5057,7 +5062,11 @@ section#claims-form-section-1 {
 #claims-form-section-4 h3 {
   font-size: 30px;
   font-weight: 600;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+#claims-form-section-4 {
+  padding-top: 0;
 }
 
 #claims-form-section-4 h4 {
@@ -5075,12 +5084,13 @@ section#claims-form-section-1 {
 }
 
 #claims-form-section-5 .policy {
-  padding-left: 50px;
-  margin-top: -30px;
+  padding-left: 30px;
+  padding-top: 0;
 }
 
 #claims-form-section-5 {
   margin-bottom: 30px;
+  padding-top: 0;
 }
 
 .additional-tab > input,
@@ -5116,7 +5126,7 @@ section#claims-form-section-1 {
 .additional-tab ul li label {
   font-family: "poppins";
   float: left;
-  padding: 30px 50px;
+  padding: 15px 50px;
   border-bottom: 0;
   font-weight: 600;
   width: 50%;
@@ -5185,7 +5195,7 @@ section#claims-form-section-1 {
 #claims-form-section-5 h3 {
   font-size: 30px;
   font-weight: 600;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 #claims-form-section-5 h4 {
@@ -5230,7 +5240,7 @@ section#claims-form-section-1 {
 .process-tab ul li label {
   font-family: "poppins";
   float: left;
-  padding: 30px 35px;
+  padding: 15px 35px;
   min-height: 152px;
   border-bottom: 0;
   font-weight: 600;
@@ -5294,7 +5304,7 @@ section#claims-form-section-1 {
 }
 
 .process-tabthree .title {
-  padding-top: 40px!important;
+  padding-top: 40px;
 }
 
 #claims-form-section-3 .tab-content {
@@ -5310,11 +5320,6 @@ section#claims-form-section-1 {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-#claims-form-section-3 li {
-  display: table-cell;
-  width: 20%;
 }
 
 #claims-form-section-3 li a {
@@ -5340,6 +5345,48 @@ section#claims-form-section-1 {
   border-bottom-color: transparent;
   background: #fff;
 }
+
+#claims-form-section-1 .flipcard-col {
+  border: 1px solid #DCDCDC;
+  padding: 0;
+}
+
+#claims-form-section-1 .flipcard-container {
+  background: #fff;
+  padding: 50px 20px;
+  background: #fff;
+}
+
+#claims-form-section-1 .flipcard-container-inner {
+  background: #fff;
+  padding: 30px 20px;
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(41,40,103), rgb(108,200,235)) 1;
+  box-shadow: 0px 0px 12px 0px #666666;
+  transition: 0.5s;
+}
+
+#claims-form-section-1 .flipcard-content {
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.flip-card-back {
+  color: #000;
+  transform: rotateY(180deg);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  bottom: 0;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
 /* End of Claims Form Styles */
 
 /* Diplomat America Styles */
@@ -5498,7 +5545,7 @@ section#diplomat-america-section-3 {
 .benefits-tab ul li label {
   font-family: "poppins";
   float: left;
-  padding: 30px 50px;
+  padding: 15px 50px;
   border-bottom: 0;
   font-weight: 600;
   width: 50%;
@@ -5646,12 +5693,12 @@ section#diplomat-america-section-3 {
 .info-tab ul li label {
   font-family: "poppins";
   float: left;
-  padding: 20px 10px;
+  padding: 15px 10px;
   border-bottom: 0;
   font-weight: 600;
   width: 25%;
   font-size: 20px;
-  min-height: 132px;
+  min-height: 122px;
   background: #eeeeee;
   border-left: 2px solid #C4C4C4;
   border-right: 2px solid #C4C4C4;
@@ -5742,15 +5789,15 @@ section#diplomat-america-section-3 {
 }
 
 .info-tabone .title {
-  padding-top: 35px!important;
+  padding-top: 35px;
 }
 
 .info-tabtwo .title {
-  padding-top: 50px!important;
+  padding-top: 50px;
 }
 
 .info-tabthree .title {
-  padding-top: 35px!important;
+  padding-top: 35px;
 }
 
 #diplomat-america-section-6 .diplomat-america-container {
@@ -6097,7 +6144,7 @@ section#diplomat-international-section-3 {
 .international-tab ul li label {
   font-family: "poppins";
   float: left;
-  padding: 30px 50px;
+  padding: 15px 50px;
   border-bottom: 0;
   font-weight: 600;
   width: 50%;
@@ -6200,8 +6247,8 @@ section#diplomat-international-section-3 {
 .miscellaneous-tab ul li label {
   font-family: "poppins";
   float: left;
-  padding: 17px 35px;
-  min-height: 126px;
+  padding: 15px 20px;
+  min-height: 122px;
   border-bottom: 0;
   font-weight: 600;
   width: 25%;
@@ -6280,15 +6327,15 @@ section#diplomat-international-section-3 {
 }
 
 .miscellaneous-tabone .title {
-  padding-top: 50px!important;
+  padding-top: 50px;
 }
 
 .miscellaneous-tabtwo .title {
-  padding-top: 50px!important;
+  padding-top: 50px;
 }
 
 .miscellaneous-tabthree .title {
-  padding-top: 30px!important;
+  padding-top: 30px;
 }
 
 #diplomat-international-section-5 h3 {
@@ -6959,12 +7006,12 @@ section.plans-hero-section-bg {
 .bmi-plans-tab ul li label {
   font-family: "poppins";
   float: left;
-  padding: 30px 50px;
+  padding: 15px 50px;
   border-bottom: 0;
   font-weight: 600;
   width: 33.33%;
   font-size: 20px;
-  min-height: 122px;
+  min-height: 92px;
   background: #eeeeee;
   border-left: 2px solid #C4C4C4;
   border-right: 2px solid #C4C4C4;
@@ -7111,12 +7158,6 @@ section.bmi-travel-hero-section-bg {
   transition: .5s;
 }
 
-#bmi-travel-hero-section .hero-text {
-  max-width: 850px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 #bmi-travel-hero-section .hero-btn:hover {
   background: #ffffff;
@@ -7132,6 +7173,9 @@ section.bmi-travel-hero-section-bg {
 
 #bmi-travel-hero-section .hero-text {
   letter-spacing: 2px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 300;
   margin-top: 20px;
 }
@@ -7218,6 +7262,10 @@ section#bmi-travel-section-2 {
   margin-top: 30px;
 }
 
+#bmi-travel-section-3 h2 {
+  font-weight: 500;
+}
+
 #bmi-travel-section-3 .notice {
   line-height: 2;
 }
@@ -7253,54 +7301,50 @@ section#bmi-travel-section-2 {
 #bmi-travel-section-4 h3 {
   font-weight: 500;
   font-size: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
-#bmi-travel-section-4 table, th, td {
-  border: 1px solid $black;
-  border-collapse: collapse;
+#bmi-travel-section-4 .quotes {
+  padding-top: 40px;
+  font-weight: 500;
   margin-left: auto;
   margin-right: auto;
 }
 
-#bmi-travel-section-4 th {
-  background-color: #252362;
-  padding: 20px;
-  font-weight: 500;
+ #bmi-travel-section-4 .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+  min-height: 80px;
 }
 
-#bmi-travel-section-4 td {
-  background-color: #F8F8F8;
-  padding: 10px;
-  font-weight: 500;
+#bmi-travel-section-4 .column-tab-title {
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 28px;
 }
 
-#bmi-travel-section-4 p {
-  padding-top: 40px;
-  font-weight: 500;
+#bmi-travel-section-4 .tab-content {
+  margin-bottom: 0;
+  font-size: 18px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 50px;
+  padding-top: 6px;
+  text-align: center;
+}
+
+#bmi-travel-section-4 .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#bmi-travel-section-4 .row {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #bmi-travel-section-5 {
   padding-top: 0px;
-}
-
-#bmi-travel-section-5 table, th, td {
-  border: 1px solid $black;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#bmi-travel-section-5 th {
-  background-color: #252362;
-  padding: 20px 50px 20px 50px;
-  font-weight: 500;
-}
-
-#bmi-travel-section-5 td {
-  background-color: #F8F8F8;
-  padding: 10px;
-  font-weight: 500;
 }
 
 #bmi-travel-section-5 .option {
@@ -7312,7 +7356,41 @@ section#bmi-travel-section-2 {
 #bmi-travel-section-5 h3 {
   font-weight: 500;
   font-size: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+#bmi-travel-section-5 .column-tab {
+ background: #252362;
+ border: 1px solid #A5A5A5;
+ min-height: 103px;
+}
+
+#bmi-travel-section-5 .column-tab-title {
+  margin-bottom: 0;
+ text-align: center;
+ padding-top: 28px;
+ font-size: 25px;
+}
+
+#bmi-travel-section-5 .column-tab-title2 {
+ margin-bottom: 0;
+ text-align: center;
+ padding-top: 15px;
+ font-size: 25px;
+}
+
+#bmi-travel-section-5 .tab-content {
+ margin-bottom: 0;
+ font-size: 20px;
+ border: 1px solid #A5A5A5;
+ border-top: none;
+ min-height: 50px;
+ padding-top: 6px;
+ text-align: center;
+}
+
+#bmi-travel-section-5 .col-lg-6 {
+ padding: 0!important;
 }
 
 #bmi-travel-section-6 {
@@ -7353,13 +7431,13 @@ section#bmi-travel-section-2 {
 .conditions-tab ul li label {
   font-family: "poppins";
   float: left;
-  padding: 30px 50px;
+  padding: 15px 50px;
   border-bottom: 0;
   font-weight: 600;
   width: 33.33%;
   font-size: 20px;
   background: #eeeeee;
-  min-height: 152px;
+  min-height: 125px;
   border-left: 2px solid #C4C4C4;
   border-right: 2px solid #C4C4C4;
   border-bottom: 1px solid #C4C4C4;
@@ -7417,11 +7495,11 @@ section#bmi-travel-section-2 {
 }
 
 .conditions-tabtwo .title {
-  padding-top: 45px!important;
+  padding-top: 30px;
 }
 
 .conditions-tabthree .title {
-  padding-top: 60px!important;
+  padding-top: 60px;
 }
 
 #bmi-travel-section-6  h4 {
@@ -7439,34 +7517,106 @@ section#bmi-travel-section-2 {
   list-style: decimal;
 }
 
+.conditions-tab .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+  min-height: 80px;
+}
+
+.conditions-tab .column-tab-title {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.conditions-tab .tab-content1 {
+  margin-bottom: 0;
+  font-size: 18px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 88px;
+  padding-top: 6px;
+  text-align: center;
+}
+
+.conditions-tab .tab-content2 {
+  margin-bottom: 0;
+  font-size: 18px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 88px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.conditions-tab .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#bmi-travel-section-6 .col-lg-3 {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+#bmi-travel-section-6 .col {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
 #bmi-travel-section-7 .bmi-assist {
   width: 100%
 }
 
-#bmi-travel-section-6 table, th, td {
-  border: 1px solid $black;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
+#bmi-travel-section-7 .column-tab {
+ background: #252362;
+ border: 1px solid #A5A5A5;
+ min-height: 80px;
 }
 
-#bmi-travel-section-6 th {
-  background-color: #252362;
-  padding: 20px;
-  font-weight: 500;
-  width: 9%;
+#bmi-travel-section-7 .column-tab-title {
+ margin-bottom: 0;
+ text-align: center;
+ padding-top: 24px;
+ font-size: 20px;
 }
 
-#bmi-travel-section-6 td {
-  background-color: #F8F8F8;
-  padding: 10px;
-  font-weight: 500;
+#bmi-travel-section-7 .tab-content1 {
+ margin-bottom: 0;
+ font-size: 18px;
+ border: 1px solid #A5A5A5;
+ border-top: none;
+ min-height: 338px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+#bmi-travel-section-7 .tab-content {
+ margin-bottom: 0;
+ font-size: 18px;
+ border: 1px solid #A5A5A5;
+ border-top: none;
+ min-height: 330px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+#bmi-travel-section-7 .row {
+   margin-right: auto;
+   margin-left: auto;
+}
+
+#bmi-travel-section-7 .col-lg-6 {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
 }
 
 #bmi-travel-section-7 {
   padding-top: 0px;
 }
-
 
 #bmi-travel-section-7  h4 {
   font-size: 17px;
@@ -7486,30 +7636,10 @@ section#bmi-travel-section-2 {
   padding-bottom: 90px;
 }
 
-#bmi-travel-section-7 table, th, td {
-  border: 1px solid $black;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#bmi-travel-section-7 th {
-  background-color: #252362;
-  padding: 20px;
-  font-weight: 500;
-  font-size: 20px;
-}
-
-#bmi-travel-section-7 td {
-  background-color: #F8F8F8;
-  padding: 10px;
-  font-weight: 400;
-}
-
 #bmi-travel-section-7 h3 {
   font-weight: 500;
   font-size: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 #bmi-travel-section-8 {
@@ -7546,15 +7676,15 @@ section#bmi-travel-section-2 {
 }
 
 .options-tabone .title {
-  padding-top: 45px!important;
+  padding-top: 45px;
 }
 
 .options-tabtwo .title {
-  padding-top: 45px!important;
+  padding-top: 45px;
 }
 
 .options-tabthree .title {
-  padding-top: 45px!important;
+  padding-top: 45px;
 }
 
 .options-tab > input,
@@ -7594,7 +7724,7 @@ section#bmi-travel-section-2 {
 .options-tab ul li label {
   font-family: "poppins";
   float: left;
-  padding: 30px 15px;
+  padding: 15px 15px;
   border-bottom: 0;
   font-weight: 600;
   width: 16.66%;
@@ -10471,60 +10601,117 @@ section#telemedicine-hero-section {
 
 /* Gillian Responsiveness */
 @media screen and (max-width:1024px) {
-  #claims-forms-hero-section h1 {
+  #claims-form-hero-section h1 {
     font-size: 35px;
     margin-top: 40px;
     text-align: center;
   }
 
-  #claims-forms-hero-section .hero-btn {
+  #claims-form-hero-section .hero-btn {
     padding: 8px 40px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
   }
 
-  section.claims-forms-hero-section-bg {
-    min-height: auto;
+  section.claims-form-hero-section-bg {
+    min-height: 400px;
     padding-bottom: 10px;
   }
 
-  section#claims-forms-section-1 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+  #claims-form-hero-section h1 {
+      font-size: 35px;
+      margin-top: 100px;
   }
 
-  #claims-forms-section-1 .claims-form-container {
+  #claims-form-hero-section .hero-btn {
+    margin-top: 10px;
+    padding: 8px 40px;
+ }
+
+  #claims-form-section-1 {
+    padding-top: 30px;
+  }
+
+  #claims-form-section-1 .claims-form-container {
     padding: 20px 20px 10px 20px;
   }
 
-  #claims-forms-section-1 h2, #claims-forms-section-2 h2 {
+  #claims-form-section-1 h2 {
     font-weight: 500;
     font-size: 25px;
   }
 
-  #claims-forms-section-1 .submit-img {
+  #claims-form-section-2 h2 {
+   font-weight: 500;
+   font-size: 25px;
+   margin-bottom: 0;
+  }
+
+  #claims-form-section-1 .submit-img {
     max-width: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
   }
 
-  #claims-forms-section-2 .big-logo {
+  #claims-form-section-1 .big-logo {
     max-width: 200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
   }
 
-  #claims-forms-section-2 h3 {
+  #claims-form-section-2 .big-logo {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  #claims-form-section-2 h3 {
     font-weight: 500;
     font-size: 20px;
   }
 
-  section#claims-forms-section-3 {
+  #claims-form-section-2 {
+    padding-top: 30px;
+  }
+
+  #claims-form-section-3 {
     padding-top: 30px;
     padding-bottom: 0px;
+  }
+
+  #claims-form-section-3 .pdf-icon {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+
+  #claims-form-section-3 .download {
+    font-size: 20px;
+  }
+
+  #claims-form-section-4 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  #claims-form-section-4 h3 {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  #claims-form-section-5 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  #claims-form-section-5 h3 {
+    font-weight: 500;
+    font-size: 25px;
   }
 
   .claims-info-tab ul li label {
@@ -10550,13 +10737,19 @@ section#telemedicine-hero-section {
     padding-top: 0px;
   }
 
-  section#claims-forms-section-5 {
+  section#claims-form-section-5 {
     padding-top: 30px;
     padding-bottom: 0px;
   }
 
   .process-tab ul li label {
     width: 100%;
+    min-height: 0;
+    margin-bottom: 0;
+  }
+
+  .process-tabthree .title {
+    padding-top: 15px;
   }
 
   #process-tabone:checked ~ section .process-tabone,
@@ -10583,7 +10776,7 @@ section#telemedicine-hero-section {
   }
 
   section.plans-hero-section-bg {
-    min-height: auto;
+    min-height: 400px;
     padding-bottom: 10px;
   }
 
@@ -10602,11 +10795,11 @@ section#telemedicine-hero-section {
   }
 
   #plans-section-2 .plans-container {
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px 30px 20px;
   }
 
   #plans-section-2 .plans-img {
-    max-width: 100px;
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -10618,7 +10811,7 @@ section#telemedicine-hero-section {
   }
 
   #plans-section-2 .plans-logo {
-    max-width: 100px;
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
@@ -10639,11 +10832,11 @@ section#telemedicine-hero-section {
   }
 
   #plans-section-3 .plans-container {
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px 30px 20px;
   }
 
   #plans-section-3 .plans-img {
-    max-width: 170px;
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -10655,7 +10848,7 @@ section#telemedicine-hero-section {
   }
 
   #plans-section-3 .plans-logo {
-    max-width: 170px;
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
@@ -10675,12 +10868,30 @@ section#telemedicine-hero-section {
     margin-top: 10px;
   }
 
+  section#plans-section-3 {
+    padding-top: 0;
+  }
+
+  section#plans-section-4 {
+    padding-top: 0;
+  }
+
+  section#plans-section-5 {
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+
+  section#plans-section-6 {
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+
   #plans-section-4 .plans-container {
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px 30px 20px;
   }
 
   #plans-section-4 .plans-img {
-    max-width: 170px;
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -10692,7 +10903,7 @@ section#telemedicine-hero-section {
   }
 
   #plans-section-4 .plans-logo {
-    max-width: 170px;
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
@@ -10713,7 +10924,7 @@ section#telemedicine-hero-section {
   }
 
   #plans-section-5 .plans-img {
-    max-width: 170px;
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -10725,7 +10936,7 @@ section#telemedicine-hero-section {
   }
 
   #plans-section-5 .plans-logo {
-    max-width: 170px;
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
@@ -10745,14 +10956,20 @@ section#telemedicine-hero-section {
     margin-top: 10px;
   }
 
+  #plans-section-5 .plans-container {
+    padding: 20px 20px 30px 20px;
+  }
+
   #plans-section-6 h3 {
     font-weight: 500;
-    font-size: 20px;
-    padding-bottom: 40px;
+    font-size: 25px;
+    padding-bottom: 20px;
   }
 
   .bmi-plans-tab ul li label {
-    width: 33.33%;
+    width: 100%;
+    min-height: 0;
+    margin-bottom: 0;
   }
 
   #bmi-plans-tabone:checked ~ section .bmi-plans-tabone,
@@ -10775,8 +10992,8 @@ section#telemedicine-hero-section {
   }
 
   #plans-section-6 .notice-content {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
   }
 
   #plans-section-6 .covid-content {
@@ -10790,19 +11007,33 @@ section#telemedicine-hero-section {
     padding: 20px 20px 10px 20px;
   }
 
+  .process-tab ul li label {
+    width: 100%;
+    min-height: 0;
+    margin-bottom: 0;
+  }
+
+  .process-tabthree .title {
+    padding-top: 15px;
+  }
+
+  #process-tabone:checked ~ section .process-tabone,
+  #process-tabtwo:checked ~ section .process-tabtwo,
+  #process-tabthree:checked ~ section .process-tabthree {
+    padding-top: 0px;
+  }
+
   #plans-section-7 h2 {
     font-weight: 500;
     font-size: 25px;
   }
 
   #plans-section-7 p {
-    font-weight: 500;
-    padding-top: 5px;
     font-size: 18px;
   }
 
   #plans-section-7 .plans-container {
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px 20px 20px;
   }
 
   #plans-section-7 {
@@ -10828,7 +11059,7 @@ section#telemedicine-hero-section {
   }
 
   section.diplomat-america-hero-section-bg {
-    min-height: auto;
+    min-height: 400px;
     padding-bottom: 10px;
   }
 
@@ -10837,12 +11068,17 @@ section#telemedicine-hero-section {
     padding-bottom: 30px;
   }
 
+  #diplomat-america-section-1 h2 {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
   #diplomat-america-section-1 .diplomat-america-container {
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px 20px 20px;
   }
 
   #diplomat-america-section-2 .diplomat-america-container {
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px 20px 20px;
   }
 
   #diplomat-america-section-2 h2 {
@@ -10851,7 +11087,6 @@ section#telemedicine-hero-section {
   }
 
   section#diplomat-america-section-3 {
-    margin-top: 30px;
     padding: 20px 20px 1px 20px;
   }
 
@@ -10862,7 +11097,13 @@ section#telemedicine-hero-section {
 
   #diplomat-america-section-4 h2 {
     font-weight: 500;
+    font-size: 25px;
     padding-bottom: 20px;
+  }
+
+  #diplomat-america-section-4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .benefits-tab ul li label {
@@ -10892,7 +11133,9 @@ section#telemedicine-hero-section {
   }
 
   .info-tab ul li label {
-    width: 25%;
+    width: 100%;
+    min-height: 0;
+    margin-bottom: 0;
   }
 
   #info-tabone:checked ~ section .info-tabone,
@@ -10902,8 +11145,13 @@ section#telemedicine-hero-section {
     padding-top: 0px;
   }
 
+  #diplomat-america-section-5 {
+    padding-top: 0px;
+  }
+
   #diplomat-america-section-5 h2 {
     font-weight: 500;
+    font-size: 25px;
     padding-bottom: 20px;
   }
 
@@ -10944,15 +11192,15 @@ section#telemedicine-hero-section {
   }
 
   .info-tabone .title {
-    padding-top: 20px!important;
+    padding-top: 15px;
   }
 
   .info-tabtwo .title {
-    padding-top: 30px!important;
+    padding-top: 15px;
   }
 
   .info-tabthree .title {
-    padding-top: 20px!important;
+    padding-top: 15px;
   }
 
   #diplomat-international-hero-section h1 {
@@ -10973,7 +11221,7 @@ section#telemedicine-hero-section {
   }
 
   section.diplomat-international-hero-section-bg {
-    min-height: auto;
+    min-height: 400px;
     padding-bottom: 10px;
   }
 
@@ -10988,6 +11236,7 @@ section#telemedicine-hero-section {
 
   #diplomat-international-section-1 h2 {
     font-weight: 500;
+    font-size: 25px;
     padding-bottom: 20px;
   }
 
@@ -11012,6 +11261,8 @@ section#telemedicine-hero-section {
 
   .international-tab ul li label {
     width: 100%;
+    min-height: 0;
+    margin-bottom: 0;
   }
 
   #international-tabone:checked ~ section .international-tabone,
@@ -11047,8 +11298,48 @@ section#telemedicine-hero-section {
   }
 
   #diplomat-international-section-4 h3 {
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 500;
     padding-bottom: 20px;
+  }
+
+  #diplomat-international-section-4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #diplomat-international-section-5 h3 {
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+
+  #diplomat-international-section-5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .miscellaneous-tab ul li label {
+    width: 100%;
+    min-height: 0;
+    margin-bottom: 0;
+  }
+
+  #miscellaneous-tabone:checked ~ section .miscellaneous-tabone,
+  #miscellaneous-tabtwo:checked ~ section .miscellaneous-tabtwo {
+    padding-top: 0px;
+  }
+
+  .miscellaneous-tabone .title {
+    padding-top: 15px;
+  }
+
+  .miscellaneous-tabtwo .title {
+    padding-top: 15px;
+  }
+
+  .miscellaneous-tabthree .title {
+    padding-top: 15px;
   }
 
   #bmi-travel-hero-section h1 {
@@ -11069,8 +11360,12 @@ section#telemedicine-hero-section {
   }
 
   section.bmi-travel-hero-section-bg {
-    min-height: auto;
-    padding-bottom: 10px;
+    min-height: 400px;
+  }
+
+  section#bmi-travel-section-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   #bmi-travel-section-1 .bmi-travel-container {
@@ -11096,6 +11391,124 @@ section#telemedicine-hero-section {
     margin-top: 20px;
   }
 
+  section#bmi-travel-section-3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #bmi-travel-section-4 h3 {
+    font-size: 25px;
+  }
+
+  #bmi-travel-section-4 .col {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+
+  #bmi-travel-section-4 .tab-content {
+    min-height: 40px;
+    padding-top: 5px;
+  }
+
+  #bmi-travel-section-4 .column-tab-title  {
+    font-size: 20px;
+    padding-top: 25px;
+  }
+
+  section#bmi-travel-section-5 {
+    padding-bottom: 30px;
+  }
+
+  .conditions-tab ul li label {
+    width: 100%;
+    min-height: 0;
+    margin-bottom: 0;
+  }
+
+  .conditions-tabtwo .title {
+    padding-top: 15px;
+ }
+
+ .conditions-tabthree .title {
+   padding-top: 15px;
+}
+
+  #conditions-tabone:checked ~ section .conditions-tabone,
+  #conditions-tabtwo:checked ~ section .conditions-tabtwo,
+  #conditions-tabthree:checked ~ section .conditions-tabthree {
+    padding-top: 0px;
+  }
+
+  .conditions-tab .column-tab {
+    min-height: auto;
+  }
+
+  .conditions-tab .tab-content1 {
+    font-size: 20px;
+    padding-top: 10px;
+    min-height: 50px;
+  }
+
+  .conditions-tab .tab-content2 {
+    min-height: 50px;
+    padding-top: 10px;
+  }
+
+  #bmi-travel-section-5 .column-tab-title2 {
+      padding-top: 28px;
+  }
+
+  #bmi-travel-section-5 .column-tab {
+    min-height: 90px;
+  }
+
+  #bmi-travel-section-6 .col-lg-3 {
+    padding-bottom: 0;
+  }
+
+  #bmi-travel-section-6 .col {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    padding-bottom: 0;
+  }
+
+  section#bmi-travel-section-7 {
+    padding-bottom: 30px;
+  }
+
+  .options-tab {
+    padding-top: 15px;
+  }
+
+  .options-tab ul li label {
+    width: 100%;
+    min-height: 0;
+    margin-bottom: 0;
+  }
+
+  #options-tabone:checked ~ section .options-tabone,
+  #options-tabtwo:checked ~ section .options-tabtwo,
+  #options-tabtwo:checked ~ section .options-tabtwo,
+  #options-tabtwo:checked ~ section .options-tabtwo {
+    padding-top: 0px;
+  }
+
+  .options-tabone .title {
+    padding-top: 15px;
+  }
+
+ .options-tabtwo .title {
+   padding-top: 15px;
+ }
+
+ .options-tabthree .title {
+   padding-top: 15px;
+ }
+
+ section#bmi-travel-section-9 {
+   padding-bottom: 30px;
+ }
+
   #eyemed-hero-section h1 {
     font-size: 35px;
     margin-top: 40px;
@@ -11114,7 +11527,7 @@ section#telemedicine-hero-section {
   }
 
   section.eyemed-hero-section-bg {
-    min-height: auto;
+    min-height: 400px;
     padding-bottom: 10px;
   }
 

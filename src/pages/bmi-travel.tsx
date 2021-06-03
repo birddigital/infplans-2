@@ -119,58 +119,64 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
      <div className="col-lg-12">
        <h3 className="text-blue text-center">BMI Plan 60 days Travel Assistance Cost</h3>
 
-        <table>
-          <tr className="text-center text-white">
-            <th>Name of the Plan</th>
-            <th>Trip Duration (60 days)</th>
-            <th>Plan Cost (0-65)</th>
-            <th>Plan Cost* (66-74)</th>
-            <th>Plan Cost* (75-84)</th>
-          </tr>
+       <div className="row justify-content-center">
+       <div className="col">
+         <div className="column-tab">
+           <p className="text-white column-tab-title">Name of the Plan</p>
+         </div>
+         <p className="tab-content text-black">Classico</p>
+         <p className="tab-content text-black">Ultra</p>
+         <p className="tab-content text-black">Ultra Plus</p>
+         <p className="tab-content text-black">VIP</p>
+         <p className="tab-content text-black">VIP Plus	</p>
+       </div>
 
-          <tr className="text-center">
-            <td>Classico</td>
-            <td>Policy Max $10K</td>
-            <td>$151.53</td>
-            <td>$151.89</td>
-            <td>$455.67</td>
-          </tr>
+       <div className="col">
+         <div className="column-tab">
+           <p className="text-white column-tab-title">Trip Duration (60 days)</p>
+         </div>
+         <p className="tab-content text-black">Policy Max $10K</p>
+         <p className="tab-content text-black">Policy Max: $30K</p>
+         <p className="tab-content text-black">Policy Max: $60K</p>
+         <p className="tab-content text-black">Policy Max: $100K</p>
+         <p className="tab-content text-black">Policy Max: $250K</p>
+       </div>
 
-          <tr className="text-center">
-            <td>Ultra</td>
-            <td>Policy Max: $30K</td>
-            <td>$183.00</td>
-            <td>$265.35</td>
-            <td>$796.05</td>
-          </tr>
+       <div className="col">
+         <div className="column-tab">
+           <p className="text-white column-tab-title ">Plan Cost (0-65)</p>
+         </div>
+         <p className="tab-content text-black">$151.53</p>
+         <p className="tab-content text-black">$183.00</p>
+         <p className="tab-content text-black">$230.26</p>
+         <p className="tab-content text-black">$303.40</p>
+         <p className="tab-content text-black">$425.00</p>
+       </div>
 
-          <tr className="text-center">
-            <td>Ultra Plus</td>
-            <td>Policy Max: $60K</td>
-            <td>$230.26</td>
-            <td>$417.24</td>
-            <td>$1,251.72</td>
-          </tr>
+       <div className="col">
+         <div className="column-tab">
+           <p className="text-white column-tab-title">​Plan Cost* (66-74)</p>
+         </div>
+         <p className="tab-content text-black">$151.89</p>
+         <p className="tab-content text-black">$265.35</p>
+         <p className="tab-content text-black">$417.24</p>
+         <p className="tab-content text-black">$530.70</p>
+         <p className="tab-content text-black">$730.17</p>
+       </div>
 
-          <tr className="text-center">
-            <td>VIP</td>
-            <td>Policy Max: $100K</td>
-            <td>$303.40</td>
-            <td>$530.70</td>
-            <td>$1,592.10</td>
-          </tr>
-
-          <tr className="text-center">
-            <td>VIP Plus</td>
-            <td>Policy Max: $250K</td>
-            <td>$425.00</td>
-            <td>$730.17</td>
-            <td>NA</td>
-          </tr>
-        </table>
-
-       <p className="text-center">*Quotes are for 61 days to get the optimal pricing.</p>
+     <div className="col">
+       <div className="column-tab">
+         <p className="text-white column-tab-title">​Plan Cost* (75-84)</p>
+       </div>
+       <p className="tab-content text-black">$455.67</p>
+       <p className="tab-content text-black">$796.05</p>
+       <p className="tab-content text-black">$1,251.72</p>
+       <p className="tab-content text-black">$1,592.10</p>
+       <p className="tab-content text-black">NA</p>
      </div>
+   </div>
+   </div>
+       <p className="quotes">*Quotes are for 61 days to get the optimal pricing.</p>
    </Container>
   </section>
 
@@ -179,44 +185,32 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
       <div className="col-lg-12">
         <h3 className="text-blue text-center">Plan Options With Policy Maximums</h3>
 
-        <table>
-          <tr className="text-center text-white">
-            <th className="option">Coverage Option</th>
-            <th>Coverage Limit (No deductible / 100% coverage)</th>
-          </tr>
+        <div className="row">
+        <div className="col-lg-6">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">Coverage Option</p>
+          </div>
+          <p className="tab-content text-black">Classico</p>
+          <p className="tab-content text-black">Ultra</p>
+          <p className="tab-content text-black">Ultra 50</p>
+          <p className="tab-content text-black">Ultra Plus</p>
+          <p className="tab-content text-black">VIP</p>
+          <p className="tab-content text-black">VIP Plus</p>
+        </div>
 
-          <tr className="text-center">
-            <td className="option">Classico</td>
-            <td>$10,000</td>
-          </tr>
-
-          <tr className="text-center">
-            <td className="option">Ultra</td>
-            <td>$30,000</td>
-          </tr>
-
-          <tr className="text-center">
-            <td className="option">Ultra 50</td>
-            <td>$50,000</td>
-          </tr>
-
-          <tr className="text-center">
-            <td className="option">Ultra Plus</td>
-            <td>$60,000</td>
-          </tr>
-
-          <tr className="text-center">
-            <td className="option">VIP</td>
-            <td>$100,000</td>
-          </tr>
-
-          <tr className="text-center">
-            <td className="option">VIP Plus</td>
-            <td>$250,000</td>
-          </tr>
-        </table>
-
-      </div>
+        <div className="col-lg-6">
+          <div className="column-tab">
+            <p className="text-white column-tab-title2">Coverage Limit (No deductible / 100% coverage)</p>
+          </div>
+          <p className="tab-content text-black">$10,000</p>
+          <p className="tab-content text-black">$30,000</p>
+          <p className="tab-content text-black">$50,000</p>
+          <p className="tab-content text-black">$60,000</p>
+          <p className="tab-content text-black">$100,000</p>
+          <p className="tab-content text-black">$250,000</p>
+        </div>
+    </div>
+    </div>
     </Container>
    </section>
 
@@ -256,298 +250,295 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
             </nav>
 
       <section>
-        <div class="conditions-tabone">
-          <table>
-            <tr className="text-center text-white">
-              <th>Benefits</th>
-              <th>Classico</th>
-              <th>Ultra</th>
-              <th>Ultra Plus</th>
-              <th>VIP</th>
-              <th>VIP Plus</th>
-            </tr>
-
-            <tr className="text-center">
-              <td>​Medical Assistance for Accident</td>
-              <td>​$10,000</td>
-              <td>$30,000</td>
-              <td>​$60,000</td>
-              <td>​$100,000</td>
-              <td>​$250,000</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>​Medical Assistance for Illness</td>
-              <td>​$10,000</td>
-              <td>$30,000</td>
-              <td>​$60,000</td>
-              <td>​$100,000</td>
-              <td>​$250,000</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>​Medical Assistance in Case of Pre-Existing Medical Condition</td>
-              <td>$300</td>
-              <td>$500</td>
-              <td>​​$700</td>
-              <td>​$2,000</td>
-              <td>$6,000</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>Medical Assistance for COVID-19 up to 64 years old</td>
-              <td>Included</td>
-              <td>Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>​​Medical Assistance for COVID-19 - 65 to 70 years old country of origin</td>
-              <td>​$0</td>
-              <td>$30,000</td>
-              <td>$30,000</td>
-              <td>​$30,000</td>
-              <td>​$30,000</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>​Prescription Drugs</td>
-              <td>Included</td>
-              <td>Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>​​Dental Emergency</td>
-              <td>​$150</td>
-              <td>$300</td>
-              <td>​$​750</td>
-              <td>​$1,500</td>
-              <td>​$1,750</td>
-            </tr>
-          </table>
+       <div class="conditions-tabone">
+        <div className="row">
+          <div className="col-lg-3">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">Benefits</p>
+          </div>
+          <p className="tab-content1 text-black">​Medical Assistance for Accident</p>
+          <p className="tab-content1 text-black">​Medical Assistance for Illness</p>
+          <p className="tab-content1 text-black">Medical Assistance in Case of Pre-Existing Medical Condition</p>
+          <p className="tab-content1 text-black">Medical Assistance for COVID-19 up to 64 years old</p>
+          <p className="tab-content1 text-black">​Medical Assistance for COVID-19 - 65 to 70 years old country of origin</p>
+          <p className="tab-content1 text-black">​Prescription Drugs</p>
+          <p className="tab-content1 text-black">​​Dental Emergency</p>
         </div>
+
+        <div className="col">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">Classico</p>
+          </div>
+          <p className="tab-content2 text-black">$10,000</p>
+          <p className="tab-content2 text-black">​$10,000</p>
+          <p className="tab-content2 text-black">$300</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$0</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">​$150</p>
+        </div>
+
+        <div className="col">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">Ultra</p>
+          </div>
+          <p className="tab-content2 text-black">$30,000</p>
+          <p className="tab-content2 text-black">$30,000</p>
+          <p className="tab-content2 text-black">$500</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$30,000</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$300</p>
+        </div>
+
+        <div className="col">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">Ultra Plus</p>
+          </div>
+          <p className="tab-content2 text-black">​$60,000</p>
+          <p className="tab-content2 text-black">​$60,000</p>
+          <p className="tab-content2 text-black">​$700</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$30,000</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$​750</p>
+        </div>
+
+        <div className="col">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">VIP</p>
+          </div>
+          <p className="tab-content2 text-black">​$100,000</p>
+          <p className="tab-content2 text-black">​$100,000</p>
+          <p className="tab-content2 text-black">$2,000</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$30,000</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$1,500</p>
+        </div>
+
+        <div className="col">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">VIP Plus</p>
+          </div>
+          <p className="tab-content2 text-black">​$250,000</p>
+          <p className="tab-content2 text-black">​$250,000</p>
+          <p className="tab-content2 text-black">$6,000</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$30,000</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$1,750</p>
+        </div>
+        </div>
+      </div>
 
         <div class="conditions-tabtwo">
-          <table>
-            <tr className="text-center text-white">
-              <th>Benefits</th>
-              <th>Classico</th>
-              <th>Ultra</th>
-              <th>Ultra Plus</th>
-              <th>VIP</th>
-              <th>VIP Plus</th>
-            </tr>
-
-            <tr className="text-center">
-              <td>​Repatriation or Sanitary Transfer</td>
-              <td>​$10,000</td>
-              <td>$30,000</td>
-              <td>​$60,000</td>
-              <td>​$100,000</td>
-              <td>​Included</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>Repatriation of Mortal Remains</td>
-              <td>​$10,000</td>
-              <td>$30,000</td>
-              <td>​$60,000</td>
-              <td>​$100,000</td>
-              <td>​Included</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>Accidental Death (up to 84 years old) *</td>
-              <td>​$10,000 </td>
-              <td>​$10,000</td>
-              <td>​​$50,000</td>
-              <td>$50,000</td>
-              <td>$100,000</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>Transportation of Family Member due to Hospitalization</td>
-              <td>Included</td>
-              <td>Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>Convalescence Expense Hotel Expenses</td>
-              <td>​$300</td>
-              <td>$800</td>
-              <td>$800</td>
-              <td>​$2,000</td>
-              <td>$2,200</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>​Lost Documents and Personal Effects Assistance​</td>
-              <td>Included</td>
-              <td>Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>Return due to Death of an Immediate Family Member​</td>
-              <td>​Economy Ticket</td>
-              <td>​Economy Ticket</td>
-              <td>​Economy Ticket</td>
-              <td>​Economy Ticket</td>
-              <td>​Economy Ticket</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>Early Return Due to Serious Disaster at Home</td>
-              <td>​Economy Ticket</td>
-              <td>​Economy Ticket</td>
-              <td>​Economy Ticket</td>
-              <td>​Economy Ticket</td>
-              <td>​Economy Ticket</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>Minor Escort</td>
-              <td>​Economy Ticket</td>
-              <td>​Economy Ticket</td>
-              <td>​Economy Ticket</td>
-              <td>​Economy Ticket</td>
-              <td>​Economy Ticket</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>​​Trip Cancellation (up to 74 years old)</td>
-              <td>​N/A</td>
-              <td>$2,000</td>
-              <td>​$2,000</td>
-              <td>​$2,000</td>
-              <td>​$2,000</td>
-            </tr>
-          </table>
+        <div className="row">
+          <div className="col-lg-3">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">Benefits</p>
+          </div>
+          <p className="tab-content1 text-black">Repatriation or Sanitary Transfer</p>
+          <p className="tab-content1 text-black">​Repatriation of Mortal Remains</p>
+          <p className="tab-content1 text-black">Accidental Death (up to 84 years old)*</p>
+          <p className="tab-content1 text-black">Transportation of Family Member due to Hospitalization</p>
+          <p className="tab-content1 text-black">​Convalescence Expense Hotel Expenses</p>
+          <p className="tab-content1 text-black">Lost Documents and Personal Effects Assistance​</p>
+          <p className="tab-content1 text-black">​​Return due to Death of an Immediate Family Member​</p>
+          <p className="tab-content1 text-black">​​Early Return Due to Serious Disaster at Home​</p>
+          <p className="tab-content1 text-black">​​Minor Escort</p>
+          <p className="tab-content1 text-black">Trip Cancellation (up to 74 years old)​</p>
         </div>
+
+        <div className="col">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">Classico</p>
+          </div>
+          <p className="tab-content2 text-black">$10,000</p>
+          <p className="tab-content2 text-black">​$10,000</p>
+          <p className="tab-content2 text-black">$10,000</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$300</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">Economy Ticket</p>
+          <p className="tab-content2 text-black">Economy Ticket</p>
+          <p className="tab-content2 text-black">Economy Ticket</p>
+          <p className="tab-content2 text-black">N/A</p>
+        </div>
+
+        <div className="col">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">Ultra</p>
+          </div>
+          <p className="tab-content2 text-black">$30,000</p>
+          <p className="tab-content2 text-black">$30,000</p>
+          <p className="tab-content2 text-black">​$10,000</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$800</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">Economy Ticket</p>
+          <p className="tab-content2 text-black">Economy Ticket</p>
+          <p className="tab-content2 text-black">Economy Ticket</p>
+          <p className="tab-content2 text-black">$2,000</p>
+        </div>
+
+        <div className="col">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">Ultra Plus</p>
+          </div>
+          <p className="tab-content2 text-black">​$60,000</p>
+          <p className="tab-content2 text-black">​$60,000</p>
+          <p className="tab-content2 text-black">​$50,000</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$800</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">Economy Ticket</p>
+          <p className="tab-content2 text-black">Economy Ticket</p>
+          <p className="tab-content2 text-black">Economy Ticket</p>
+          <p className="tab-content2 text-black">$2,000</p>
+        </div>
+
+        <div className="col">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">VIP</p>
+          </div>
+          <p className="tab-content2 text-black">​$100,000</p>
+          <p className="tab-content2 text-black">​​$60,000</p>
+          <p className="tab-content2 text-black">$50,000</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$2,000</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">Economy Ticket</p>
+          <p className="tab-content2 text-black">Economy Ticket</p>
+          <p className="tab-content2 text-black">Economy Ticket</p>
+          <p className="tab-content2 text-black">$2,000</p>
+        </div>
+
+        <div className="col">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">VIP Plus</p>
+          </div>
+          <p className="tab-content2 text-black">​Included</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$100,000</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$2,200</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">Economy Ticket</p>
+          <p className="tab-content2 text-black">Economy Ticket</p>
+          <p className="tab-content2 text-black">Economy Ticket</p>
+          <p className="tab-content2 text-black">$2,000</p>
+        </div>
+        </div>
+      </div>
 
         <div class="conditions-tabthree">
-          <table>
-            <tr className="text-center text-white">
-              <th>Benefits</th>
-              <th>Classico</th>
-              <th>Ultra</th>
-              <th>Ultra Plus</th>
-              <th>VIP</th>
-              <th>VIP Plus</th>
-            </tr>
+        <div className="row">
+          <div className="col-lg-3">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">Benefits</p>
+          </div>
+          <p className="tab-content1 text-black">Substitution of an Executive</p>
+          <p className="tab-content1 text-black">24 Hours’ Information Line</p>
+          <p className="tab-content1 text-black">Emergency Message Transmission</p>
+          <p className="tab-content1 text-black">Fee for Transfer of Bail Bond</p>
+          <p className="tab-content1 text-black">​​Fee for Transfer of Funds</p>
+          <p className="tab-content1 text-black">Legal Assistance for Traffic Accident</p>
+          <p className="tab-content1 text-black">Total and Definitive Loss of Baggage​</p>
+          <p className="tab-content1 text-black">​​Expenses for Delay Luggage​</p>
+          <p className="tab-content1 text-black">Delayed or Cancelled Flight</p>
+          <p className="tab-content1 text-black">Theft or loss passport during a trip​</p>
+          <p className="tab-content1 text-black">Late Arrival​</p>
+        </div>
 
-            <tr className="text-center">
-              <td>​Substitution of an Executive</td>
-              <td>N/A</td>
-              <td>Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-            </tr>
+        <div className="col">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">Classico</p>
+          </div>
+          <p className="tab-content2 text-black">N/A</p>
+          <p className="tab-content2 text-black">​Included</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$10,000</p>
+          <p className="tab-content2 text-black">$10,000</p>
+          <p className="tab-content2 text-black">$1,000</p>
+          <p className="tab-content2 text-black">​$600</p>
+          <p className="tab-content2 text-black">​$600</p>
+          <p className="tab-content2 text-black">N/A</p>
+          <p className="tab-content2 text-black">$50</p>
+          <p className="tab-content2 text-black">$100</p>
+        </div>
 
-            <tr className="text-center">
-              <td>24 Hours’ Information Line</td>
-              <td>​Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-            </tr>
+        <div className="col">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">Ultra</p>
+          </div>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">​Included</p>
+          <p className="tab-content2 text-black">$20,000</p>
+          <p className="tab-content2 text-black">$20,000</p>
+          <p className="tab-content2 text-black">$2,000</p>
+          <p className="tab-content2 text-black">$1,200</p>
+          <p className="tab-content2 text-black">​$800</p>
+          <p className="tab-content2 text-black">N/A</p>
+          <p className="tab-content2 text-black">$70</p>
+          <p className="tab-content2 text-black">$300</p>
+        </div>
 
-            <tr className="text-center">
-              <td>Emergency Message Transmission</td>
-              <td>​Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-              <td>​Included</td>
-            </tr>
+        <div className="col">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">Ultra Plus</p>
+          </div>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">​Included</p>
+          <p className="tab-content2 text-black">$20,000</p>
+          <p className="tab-content2 text-black">$20,000</p>
+          <p className="tab-content2 text-black">$2,000</p>
+          <p className="tab-content2 text-black">$1,200</p>
+          <p className="tab-content2 text-black">$1,200</p>
+          <p className="tab-content2 text-black">$150</p>
+          <p className="tab-content2 text-black">$100</p>
+          <p className="tab-content2 text-black">$450</p>
+        </div>
 
-            <tr className="text-center">
-              <td>Fee for Transfer of Bail Bond</td>
-              <td>$10,000</td>
-              <td>$20,000</td>
-              <td>$20,000</td>
-              <td>$30,000</td>
-              <td>$35,000</td>
-            </tr>
+        <div className="col">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">VIP</p>
+          </div>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">​Included</p>
+          <p className="tab-content2 text-black">$30,000</p>
+          <p className="tab-content2 text-black">$30,000</p>
+          <p className="tab-content2 text-black">$3,000</p>
+          <p className="tab-content2 text-black">$3,000</p>
+          <p className="tab-content2 text-black">$2,000</p>
+          <p className="tab-content2 text-black">$150</p>
+          <p className="tab-content2 text-black">$100</p>
+          <p className="tab-content2 text-black">$500</p>
+        </div>
 
-            <tr className="text-center">
-              <td>​Fee for Transfer of Funds</td>
-              <td>​$10,000</td>
-              <td>$20,000</td>
-              <td>$20,000</td>
-              <td>$30,000</td>
-              <td>$35,000</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>​Legal Assistance for Traffic Accident</td>
-              <td>$1,000</td>
-              <td>$2,000</td>
-              <td>$2,000</td>
-              <td>$3,000</td>
-              <td>$9,000</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>Total and Definitive Loss of Baggage​</td>
-              <td>​$600</td>
-              <td>​$1,200</td>
-              <td>$1,200</td>
-              <td>​$3,000</td>
-              <td>$3,000</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>Expenses for Delay Luggage</td>
-              <td>​​$600</td>
-              <td>​​$800</td>
-              <td>​​$1,200</td>
-              <td>​​$2,000</td>
-              <td>​​$2,000</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>Delayed or Cancelled Flight</td>
-              <td>N/A</td>
-              <td>N/A</td>
-              <td>​$150</td>
-              <td>​$150</td>
-              <td>​$150</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>​​Theft or loss passport during a trip</td>
-              <td>$50</td>
-              <td>$70</td>
-              <td>​$100</td>
-              <td>​$100</td>
-              <td>​$100</td>
-            </tr>
-
-            <tr className="text-center">
-              <td>​​Late Arrival</td>
-              <td>$100</td>
-              <td>$300</td>
-              <td>​$450</td>
-              <td>​$500</td>
-              <td>​$500</td>
-            </tr>
-          </table>
+        <div className="col">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">VIP Plus</p>
+          </div>
+          <p className="tab-content2 text-black">​Included</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">Included</p>
+          <p className="tab-content2 text-black">$35,000</p>
+          <p className="tab-content2 text-black">$40,000</p>
+          <p className="tab-content2 text-black">$9,000</p>
+          <p className="tab-content2 text-black">$3,000</p>
+          <p className="tab-content2 text-black">​$2,000 </p>
+          <p className="tab-content2 text-black">$150</p>
+          <p className="tab-content2 text-black">$100</p>
+          <p className="tab-content2 text-black">$500</p>
+        </div>
+        </div>
         </div>
       </section>
-        </div>
+      </div>
      </Container>
     </section>
 
@@ -556,41 +547,39 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
         <div className="col-lg-12">
           <h3 className="text-blue text-center row-title">Benefits for BMI Travel Assist</h3>
 
-          <table className="bmi-assist">
-            <tr className="text-center text-white">
-              <th>Medical Benefits </th>
-              <th>Non-Medical Benefits </th>
-            </tr>
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="column-tab">
+                <p className="text-white column-tab-title">Medical Benefits</p>
+              </div>
+              <ul className="tab-content1 text-black">
+                <li>Medical assistance for accident or illness</li>
+                <li>Medical assistance for COVID-19</li>
+                <li>Prescription drugs</li>
+                <li>Dental emergency</li>
+                <li>​Repatriation or sanitary transfer</li>
+              </ul>
+            </div>
 
-            <tr>
-              <td>
-                <ul className="medical">
-                  <li>Medical assistance for accident or illness</li>
-                  <li>Medical assistance for COVID-19</li>
-                  <li>Prescription drugs</li>
-                  <li>Dental emergency</li>
-                  <li>​Repatriation or sanitary transfer</li>
-                </ul>
-              </td>
-
-              <td>
-                <ul className="non-medical">
+              <div className="col-lg-6">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Non-Medical Benefits</p>
+                </div>
+                <ul className="tab-content text-black">
                   <li>Accidental death</li>
                   <li>Repatriation of mortal remains</li>
                   <li>Transportation of family member due to hospitalization</li>
                   <li>Hotel expenses due to convalescence</li>
-                  <li>Late arrival</li>
-                  <li>Return due to death of family member</li>
+                  <li>​Late arrival</li>
+                  <li>​Return due to death of family member</li>
                   <li>Early return due to serious disaster at home</li>
-                  <li>Lost or delayed luggage</li>
+                  <li>​Lost or delayed luggage</li>
                   <li>Delayed or cancelled flight</li>
                   <li>Theft or loss of passport during a trip</li>
                 </ul>
-              </td>
-            </tr>
-         </table>
-
-        </div>
+            </div>
+            </div>
+          </div>
       </Container>
      </section>
 

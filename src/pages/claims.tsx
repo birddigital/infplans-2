@@ -64,27 +64,46 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
             <button className="inf-btn"> Click to Get a Quote </button>
           </div>
          </div>
-
-        <div className="col-lg-12">
           <div className="row">
-            <div className="col-lg-4">
-              <h4 className="text-center">Submit Your Online Claim Form</h4>
-              <p>
-                Log in to your My INF Portal & file an online claim form. Navigate to the 'Active Policies' section of the Portal, and click the 'File a Claim' option.
-              </p>
-            </div>
-            <div className="col-lg-4">
-              <Img fluid={submit_req_img} className="submit-img"/>
-              <h4 className="text-center">Submit The Following Required Documents</h4>
-            </div>
-            <div className="col-lg-4">
-              <Img fluid={claims_payment_img} className="submit-img"/>
-              <h4 className="text-center">Claims Payment</h4>
-            </div>
+              <div className="col-lg-4 flipcard-col flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flipcard-container flip-card-front">
+                      <Img fluid={claims_payment_img} className="flipcard-icon" alt="Submit Your Online Form" />
+                      <h3 className="text-center">Submit Your Online <br /> Claim Form</h3>
+                    </div>
+                    <div className="flipcard-container-inner flip-card-back">
+                      <p className="text-center">Log in to your MyINF Portal & file an online claim form. Navigate to the 'Active Policies' section of the Portal, and click the 'File a Claim' option.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 flipcard-col flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flipcard-container flip-card-front">
+                      <Img fluid={claims_payment_img} className="flipcard-icon" alt="Submit Required Documents" />
+                      <h3 className="text-center">Submit The Following <br /> Required Documents:</h3>
+                    </div>
+                    <div className="flipcard-container-inner flip-card-back">
+                      <ul>
+                        <li>Completed Claim Form</li>
+                        <li>Copy of all Medical Bills & Itemized Receipts</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 flipcard-col flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flipcard-container flip-card-front">
+                      <Img fluid={claims_payment_img} className="flipcard-icon" alt="Claims Payment" />
+                    </div>
+                    <div className="flipcard-container-inner flip-card-back">
+                      <h3 className="text-center">Claims Payment</h3>
+                      <p className="text-black flipcard-content">After submitting your claims, the insurance company will reimburse you for your eligible medical expenses in accordance with the terms, conditions and limitations of your plan, depending on if all the documents are submitted correctly.</p>
+                    </div>
+                </div>
+             </div>
+          </div>
           </div>
          </div>
-        </div>
-       </div>
       </Container>
      </section>
 
