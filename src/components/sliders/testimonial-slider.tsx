@@ -5,6 +5,8 @@ import BackgroundImage from 'gatsby-background-image'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { BsArrowRight } from "@react-icons/all-files/bs/BsArrowRight";
+import { BsArrowLeft } from "@react-icons/all-files/bs/BsArrowLeft";
 
 const TestimonialHomeSlider = ({ className }) => {
   const data = useStaticQuery ( graphql`
@@ -47,6 +49,8 @@ const TestimonialHomeSlider = ({ className }) => {
     fadeIn: false,
     autoplay: true,
     dots: false,
+    prevArrow: <BsArrowLeft color="#ffffff" />,
+    nextArrow: <BsArrowRight color="#ffffff" />,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
