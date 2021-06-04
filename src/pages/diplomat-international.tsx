@@ -161,36 +161,23 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
                     </ul>
                   </div>
 
-                  <table className="policy">
-                    <tr className="text-center text-white title">
-                      <th colspan="2">Policy Medical Maximum Choices</th>
-                    </tr>
-
-                    <tr className="text-center">
-                      <td>Plan A</td>
-                      <td>$50,000</td>
-                    </tr>
-
-                    <tr className="text-center">
-                      <td>Plan B</td>
-                      <td>$100,000</td>
-                    </tr>
-
-                    <tr className="text-center">
-                      <td>Plan C</td>
-                      <td>$250,000</td>
-                    </tr>
-
-                    <tr className="text-center">
-                      <td>Plan D</td>
-                      <td>$500,000</td>
-                    </tr>
-
-                    <tr className="text-center">
-                      <td>Plan E</td>
-                      <td>$1,000,000</td>
-                    </tr>
-                  </table>
+                  <div className="column-tab">
+                    <p className="text-white column-tab-title">Policy Medical Maximum Choices</p>
+                  </div>
+                  <div className="col-lg-6">
+                    <p className="tab-content text-black">Plan A	</p>
+                    <p className="tab-content text-black">Plan B	</p>
+                    <p className="tab-content text-black">Plan C	</p>
+                    <p className="tab-content text-black">Plan D	</p>
+                    <p className="tab-content text-black">Plan E	</p>
+                  </div>
+                  <div className="col-lg-6">
+                    <p className="tab-content text-black">$50,000</p>
+                    <p className="tab-content text-black">$100,000</p>
+                    <p className="tab-content text-black">$250,000</p>
+                    <p className="tab-content text-black">$500,000</p>
+                    <p className="tab-content text-black">$1,000,000</p>
+                  </div>
 
                   <div className="content-bg">
                     <p className="age">Persons up to age 69 are eligible for all plans;</p>
@@ -264,64 +251,51 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
                     <p>If within 365 days after the date of a covered accident, the Insured Person’s Injury results in death or dismemberment, this Plan provides the following benefits for loss of:</p>
                   </div>
 
-                  <table className="first">
-                    <tr className="text-center text-white title">
-                      <th className="content">Description of Loss</th>
-                      <th>Indemnity</th>
-                    </tr>
+                  <div className="row justify-content-center first">
+                  <div className="col-lg-6">
+                    <div className="column-tab">
+                      <p className="text-white column-tab-title">Description of Loss</p>
+                    </div>
+                    <p className="tab-content text-black">Life</p>
+                    <p className="tab-content text-black">Both Hands or Both Feet or Sight of Both Eyes</p>
+                    <p className="tab-content text-black">One Hand and One Foot</p>
+                    <p className="tab-content text-black">Either Hand or Foot and Sight of One Eye</p>
+                    <p className="tab-content text-black">Either Hand or Foot or Sight of One Eye</p>
+                  </div>
 
-                    <tr className="text-center">
-                      <td className="first-content">Life</td>
-                      <td className="second-content">Principal Sum</td>
-                    </tr>
+                  <div className="col-lg-6">
+                    <div className="column-tab">
+                      <p className="text-white column-tab-title">Indemnity</p>
+                    </div>
+                    <p className="tab-content text-black">Principal Sum</p>
+                    <p className="tab-content text-black">Principal Sum</p>
+                    <p className="tab-content text-black">Principal Sum</p>
+                    <p className="tab-content text-black">Principal Sum</p>
+                    <p className="tab-content text-black">One-Half the Principal Sum</p>
+                  </div>
+              </div>
 
-                    <tr className="text-center">
-                      <td className="first-content">Both Hands or Both Feet or Sight of Both Eyes</td>
-                      <td className="second-content">Principal Sum</td>
-                    </tr>
+              <div className="row justify-content-center second">
+              <div className="col-lg-6">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Type of Paralysis (Loss)</p>
+                </div>
+                <p className="tab-content text-black">Quadriplegia</p>
+                <p className="tab-content text-black">Paraplegia</p>
+                <p className="tab-content text-black">Hemiplegia</p>
+                <p className="tab-content text-black">Uniplegia	</p>
+              </div>
 
-                    <tr className="text-center">
-                      <td className="first-content">One Hand and One Foot</td>
-                      <td className="second-content">Principal Sum</td>
-                    </tr>
-
-                    <tr className="text-center">
-                      <td className="first-content">Either Hand or Foot and Sight of One Eye</td>
-                      <td className="second-content">Principal Sum</td>
-                    </tr>
-
-                    <tr className="text-center">
-                      <td className="first-content">Either Hand or Foot or Sight of One Eye</td>
-                      <td className="second-content">One-Half the Principal Sum</td>
-                    </tr>
-                  </table>
-
-                  <table className="second">
-                    <tr className="text-center text-white title">
-                      <th>Type of Paralysis (Loss)</th>
-                      <th>Indemnity</th>
-                    </tr>
-
-                    <tr className="text-center">
-                      <td>Quadriplegia</td>
-                      <td>$25,000</td>
-                    </tr>
-
-                    <tr className="text-center">
-                      <td>Paraplegia</td>
-                      <td>$18,750</td>
-                    </tr>
-
-                    <tr className="text-center">
-                      <td>Hemiplegia</td>
-                      <td>$12,500</td>
-                    </tr>
-
-                    <tr className="text-center">
-                      <td>Uniplegia</td>
-                      <td>$6,250</td>
-                    </tr>
-                  </table>
+              <div className="col-lg-6">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Indemnity</p>
+                </div>
+                <p className="tab-content text-black">$25,000</p>
+                <p className="tab-content text-black">$18,750</p>
+                <p className="tab-content text-black">$12,500</p>
+                <p className="tab-content text-black">$6,250</p>
+              </div>
+              </div>
 
                   <div className="content-bg">
                     <p><strong>Coma Benefit –</strong> If a covered Injury renders an Insured Person Comatose within 90 days of the date of the accident that caused the Injury, and if the Coma continues for a period of 30 consecutive days, The Company will pay a monthly benefit equal to 1% of the maximum amount.</p>
