@@ -48,7 +48,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
           </div>
         </div>
         <nav className={scrolled} id="main-navigation">
-          <div className="container-fluid">
+          <div className="container">
             <div className="hidden-md-up">
               <MobileDropdown />
             </div>

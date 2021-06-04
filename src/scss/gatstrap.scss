@@ -235,10 +235,13 @@ button {
   background: $accent;
 }
 
-
 #main-navigation .mobile-menu .nav-link {
   color: $white;
   display: inline-block;
+}
+
+#main-navigation .container {
+  max-width: 1350px;
 }
 
 .mobile-menu .nav-dropdown > a:after {
@@ -632,7 +635,7 @@ section.home-hero-section-bg::after {
 
 #what-describes-you .bg-blue h2 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 #what-describes-you .subtitle {
@@ -655,6 +658,7 @@ what-describes-you {
 
 #why-choose-inf-insurance h2 {
   text-transform: none;
+  font-weight: 500;
 }
 
 #why-choose-inf-insurance .column-title {
@@ -830,20 +834,32 @@ what-describes-you {
 }
 
 .testimonial-slider .slick-prev, .testimonial-slider .slick-next {
-  width: 70px!important;
-  height: 70px!important;
-  z-index: 99999;
-  top: auto!important;
+    width: 40px !important;
+    height: 40px !important;
+    padding:10px !important;
+    background: transparent;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: .5s;
+    z-index: 99999;
+    top: 100%!important;
+    border: 1px solid #ffffff;
+}
+
+.testimonial-slider .slick-prev:hover, .testimonial-slider .slick-next:hover {
+  box-shadow: 0px 0px 0px 6px #5569A9;
+  color:#ffffff;
+  background: #252362;
 }
 
 .testimonial-slider .slick-prev {
-  left: 200px;
-  bottom: -95px;
+  left: 27%;
+  margin-top: 30px;
 }
 
 .testimonial-slider .slick-next {
-  right: 418px;
-  margin-top: 25px;
+  right: 59%;
+  margin-top: 30px;
 }
 
 section#home-testimonial-section {
@@ -854,6 +870,11 @@ section#home-testimonial-section {
 #home-testimonial-section .right-content {
   padding-left: 50px;
   padding-right: 50px;
+}
+
+#home-testimonial-section h2 {
+  color: #192D35;
+  font-weight: 500;
 }
 
 #home-testimonial-section .left-content {
@@ -885,6 +906,7 @@ section#home-testimonial-section {
 
 #home-logo-slider-section h2 {
   margin-bottom: 50px;
+  font-weight: 500;
 }
 
 .logo-slider .logo-img {
@@ -956,16 +978,16 @@ section#home-testimonial-section {
 .articles-slider .slick-prev, .articles-slider .slick-next {
   width: 40px!important;
   height: 40px!important;
-  padding: 6px!important;
-  background: #fff!important;
+  padding: 10px!important;
+  background: #252362!important;
   border-radius: 50%;
-  color: #252362;
+  color: #ffffff;
   transition: .5s;
 }
 
 .articles-slider .slick-prev:hover, .articles-slider .slick-next:hover {
-  color: #ffffff;
-  background: #252362!important;
+  box-shadow: 0px 0px 0px 6px #bfbfbf;
+  color:#ffffff;
 }
 
 .articles-slider .slick-next {
@@ -9053,6 +9075,12 @@ section#telemedicine-hero-section {
 }
 
 /* Klint Responsiveness */
+@media screen and (max-width:1230px) {
+  .testimonial-slider .slick-next {
+      right: 57%;
+  }
+}
+
 @media screen and (max-width:1146px) {
   .articles-slider .slick-next {
     right: -30px;
@@ -9060,6 +9088,10 @@ section#telemedicine-hero-section {
 
   .articles-slider .slick-prev {
     left: -30px;
+  }
+
+  .testimonial-slider .slick-next {
+    right: 55%;
   }
 }
 
@@ -10481,6 +10513,14 @@ section#telemedicine-hero-section {
     padding-bottom: 30px;
   }
 
+  .testimonial-slider .slick-prev {
+    left: 44%;
+  }
+
+  .testimonial-slider .slick-next {
+    right: 45%;
+  }
+
   #home-testimonial-section .right-content {
     padding-left: 20px;
     padding-right: 20px;
@@ -10554,6 +10594,24 @@ section#telemedicine-hero-section {
   .articles-slider .articles-container {
     max-width: 250px;
   }
+
+  .testimonial-slider .slick-prev {
+    left: 43%;
+  }
+
+  .testimonial-slider .slick-next {
+    right: 44%;
+  }
+}
+
+@media screen and (max-width:805px) {
+  .testimonial-slider .slick-prev {
+    left: 42%;
+  }
+
+  .testimonial-slider .slick-next {
+    right: 43%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -10569,11 +10627,23 @@ section#telemedicine-hero-section {
   .articles-slider .articles-container {
     max-width: 300px;
   }
+
+  .testimonial-slider .slick-prev {
+    left: 41%;
+  }
+
+  .testimonial-slider .slick-next {
+    right: 42%;
+  }
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width:647px) {
   .testimonial-slider .slick-prev {
-    left: 37%;
+    left: 39%;
+  }
+
+  .testimonial-slider .slick-next {
+    right: 40%;
   }
 }
 
@@ -10585,6 +10655,14 @@ section#telemedicine-hero-section {
   .articles-slider .slick-prev {
     left: 0px;
   }
+
+  .testimonial-slider .slick-prev {
+    left: 37%;
+  }
+
+  .testimonial-slider .slick-next {
+    right: 38%;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -10594,6 +10672,24 @@ section#telemedicine-hero-section {
 
   .articles-slider .slick-prev {
     left: -30px;
+  }
+
+  .testimonial-slider .slick-prev {
+    left: 35%;
+  }
+
+  .testimonial-slider .slick-next {
+    right: 36%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .testimonial-slider .slick-prev {
+    left: 33%;
+  }
+
+  .testimonial-slider .slick-next {
+    right: 34%;
   }
 }
 
