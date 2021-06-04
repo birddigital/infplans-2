@@ -24,6 +24,10 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
   const hero_background = data.hero_background?.childImageSharp?.fluid
   const secure_img = data.secure_img?.childImageSharp?.fluid
   const privacy_img = data.privacy_img?.childImageSharp?.fluid
+  const eye_bold_img = data.eye_bold_img?.childImageSharp?.fluid
+  const eye_bright_img = data.eye_bright_img?.childImageSharp?.fluid
+  const eye_healthy_img = data.eye_healthy_img?.childImageSharp?.fluid
+
 
 
   return (
@@ -47,6 +51,79 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
           </Container>
         </div>
       </BackgroundImage>
+
+      <section id="eyemed-section-1">
+        <Container>
+          <div className="col-lg-12">
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="eyemed-container">
+                  <p className="eye-title">Our Plans Starts at<br /> $5 a Month</p>
+                  <button className="get-now-btn"> Get Now </button>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="row">
+              <div className="col-lg-12 flipcard-col flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flipcard-container flip-card-front">
+                    <div className="row">
+                      <div className="col-lg-5">
+                        <Img fluid={eye_healthy_img} className="flipcard-icon" alt="Eyemed Healthy" />
+                      </div>
+                      <div className="col-lg-7">
+                      <h3 className="text-center">EyeMed Healthy</h3>
+                      </div>
+                    </div>
+                    </div>
+                    <div className="flipcard-container-inner flip-card-back">
+                    <h3 className="text-center inner-content">EyeMed Healthy</h3>
+                      <p className="text-center flipcard-content">An eye exam plus great discounts on glasses and contacts.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-12 flipcard-col flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flipcard-container flip-card-front">
+                    <div className="row">
+                      <div className="col-lg-5">
+                      <Img fluid={eye_bold_img} className="flipcard-icon" alt="Eyemed Bold" />
+                      </div>
+                      <div className="col-lg-7">
+                      <h3 className="text-center">EyeMed Bold</h3>
+                      </div>
+                    </div>
+                    </div>
+                    <div className="flipcard-container-inner flip-card-back">
+                    <h3 className="text-center inner-content">EyeMed Bold</h3>
+                    <p className="text-center flipcard-content">An eye exam, frame and lens allowance, plus great discounts on glasses and contacts.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-12 flipcard-col flip-card">
+                  <div className="flip-card-inner">
+                    <div className="flipcard-container flip-card-front">
+                    <div className="row">
+                      <div className="col-lg-5">
+                      <Img fluid={eye_bright_img} className="flipcard-icon1" alt="Eyemed Bright" />
+                      </div>
+                      <div className="col-lg-7">
+                      <h3 className="text-center">EyeMed Bright</h3>
+                      </div>
+                    </div>
+                    </div>
+                    <div className="flipcard-container-inner flip-card-back">
+                      <h3 className="text-center inner-content">EyeMed Bright</h3>
+                      <p className="text-black flipcard-content">An eye exam on our highest frame and lens allowance, plus great discounts on glasses and contacts.</p>
+                    </div>
+                </div>
+             </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </Container>
+      </section>
 
       <section id="eyemed-section-2">
         <ContainerFluid>
@@ -134,6 +211,27 @@ export const query = graphql`
       }
     },
     privacy_img: file(name: { eq: "privacy-img" }) {
+      childImageSharp {
+        fluid(maxWidth: 600, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    eye_bold_img: file(name: { eq: "eye-bold-img" }) {
+      childImageSharp {
+        fluid(maxWidth: 600, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    eye_bright_img: file(name: { eq: "eye-bright-img" }) {
+      childImageSharp {
+        fluid(maxWidth: 600, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    eye_healthy_img: file(name: { eq: "eye-healthy-img" }) {
       childImageSharp {
         fluid(maxWidth: 600, quality: 100) {
           ...GatsbyImageSharpFluid

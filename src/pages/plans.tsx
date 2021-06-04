@@ -350,12 +350,9 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
              <li>Athletic & Hazardous Activity Benefit Available Political and Natural Disaster Evacuation: $50,000</li>
            </ul>
 
-           <div className="col-lg-12">
              <p>Diplomat America Plan Features:</p>
-           </div>
 
-           <div className="col-lg-12">
-             <div className="row mt-4">
+             <div className="row">
                <div className="col-lg-6">
                  <ul>
                    <li>Non-U.S. Citizens visiting the U.S</li>
@@ -366,7 +363,6 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
                    <li>Parents and relatives visiting the U.S.</li>
                  </ul>
                </div>
-             </div>
              </div>
           </div>
         </div>

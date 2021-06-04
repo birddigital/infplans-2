@@ -30,6 +30,27 @@ const EyemedSlider = ({ className }) => {
           }
         }
       },
+      vision_logo: file(name: { eq: "vision-logo" }) {
+        childImageSharp {
+          fluid(maxWidth: 500, quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      },
+      independent_logo: file(name: { eq: "independent-logo" }) {
+        childImageSharp {
+          fluid(maxWidth: 500, quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      },
+      glasses_logo: file(name: { eq: "glasses-logo" }) {
+        childImageSharp {
+          fluid(maxWidth: 500, quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      },
     }
   `
   )
@@ -38,6 +59,10 @@ const EyemedSlider = ({ className }) => {
   const optical_logo = data.optical_logo?.childImageSharp?.fluid
   const contacts_logo = data.contacts_logo?.childImageSharp?.fluid
   const lens_logo = data.lens_logo?.childImageSharp?.fluid
+  const vision_logo = data.vision_logo?.childImageSharp?.fluid
+  const independent_logo = data.independent_logo?.childImageSharp?.fluid
+  const glasses_logo = data.glasses_logo?.childImageSharp?.fluid
+
 
   var settings = {
     speed: 1000,
@@ -81,13 +106,22 @@ const EyemedSlider = ({ className }) => {
     <div className="col-md-12 eyemed-slider mt-4">
       <Slider {...settings}>
         <div className="eyemed-content">
-          <Img fluid={optical_logo} className="eyemed-logo-img" />
-        </div>
-        <div className="eyemed-content">
-          <Img fluid={contacts_logo} className="eyemed-logo-img" />
+          <Img fluid={independent_logo} className="eyemed-logo-img" />
         </div>
         <div className="eyemed-content">
           <Img fluid={lens_logo} className="eyemed-logo-img" />
+        </div>
+        <div className="eyemed-content">
+          <Img fluid={vision_logo} className="eyemed-logo-img" />
+        </div>
+        <div className="eyemed-content">
+          <Img fluid={optical_logo} className="eyemed-logo-img" />
+        </div>
+        <div className="eyemed-content">
+          <Img fluid={glasses_logo} className="eyemed-logo-img" />
+        </div>
+        <div className="eyemed-content">
+          <Img fluid={contacts_logo} className="eyemed-logo-img" />
         </div>
       </Slider>
     </div>

@@ -24,6 +24,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
   const infplans_big_logo = data.infplans_big_logo?.childImageSharp?.fluid
   const pdf_icon = data.pdf_icon?.childImageSharp?.fluid
   const submit_req_img = data.submit_req_img?.childImageSharp?.fluid
+  const submit_form_img = data.submit_form_img?.childImageSharp?.fluid
   const claims_payment_img = data.claims_payment_img?.childImageSharp?.fluid
 
   return (
@@ -68,22 +69,24 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="col-lg-4 flipcard-col flip-card">
                   <div className="flip-card-inner">
                     <div className="flipcard-container flip-card-front">
-                      <Img fluid={claims_payment_img} className="flipcard-icon" alt="Submit Your Online Form" />
+                      <Img fluid={submit_form_img} className="flipcard-icon" alt="Submit Your Online Form" />
                       <h3 className="text-center">Submit Your Online <br /> Claim Form</h3>
                     </div>
                     <div className="flipcard-container-inner flip-card-back">
-                      <p className="text-center">Log in to your MyINF Portal & file an online claim form. Navigate to the 'Active Policies' section of the Portal, and click the 'File a Claim' option.</p>
+                    <h3 className="text-center inner-content">Submit Your Online <br /> Claim Form</h3>
+                      <p className="text-center flipcard-content">Log in to your MyINF Portal & file an online claim form. Navigate to the 'Active Policies' section of the Portal, and click the 'File a Claim' option.</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-4 flipcard-col flip-card">
                   <div className="flip-card-inner">
                     <div className="flipcard-container flip-card-front">
-                      <Img fluid={claims_payment_img} className="flipcard-icon" alt="Submit Required Documents" />
-                      <h3 className="text-center">Submit The Following <br /> Required Documents:</h3>
+                      <Img fluid={submit_req_img} className="flipcard-icon" alt="Submit Required Documents" />
+                      <h3 className="text-center">Submit The Following <br /> Required Documents</h3>
                     </div>
                     <div className="flipcard-container-inner flip-card-back">
-                      <ul>
+                    <h3 className="text-center inner-content">Submit The Following <br /> Required Documents</h3>
+                      <ul className="text-center flipcard-content">
                         <li>Completed Claim Form</li>
                         <li>Copy of all Medical Bills & Itemized Receipts</li>
                       </ul>
@@ -92,12 +95,13 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                 </div>
                 <div className="col-lg-4 flipcard-col flip-card">
                   <div className="flip-card-inner">
-                    <div className="flipcard-container flip-card-front">
+                    <div className="flipcard-container1 flip-card-front">
                       <Img fluid={claims_payment_img} className="flipcard-icon" alt="Claims Payment" />
+                      <h3 className="text-center">Claims Payment</h3>
                     </div>
                     <div className="flipcard-container-inner flip-card-back">
-                      <h3 className="text-center">Claims Payment</h3>
-                      <p className="text-black flipcard-content">After submitting your claims, the insurance company will reimburse you for your eligible medical expenses in accordance with the terms, conditions and limitations of your plan, depending on if all the documents are submitted correctly.</p>
+                      <h3 className="text-center inner-content1">Claims Payment</h3>
+                      <p className="text-black flipcard-content1">After submitting your claims, the insurance company will reimburse you for your eligible medical expenses in accordance with the terms, conditions and limitations of your plan, depending on if all the documents are submitted correctly.</p>
                     </div>
                 </div>
              </div>
@@ -180,13 +184,13 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="col-lg-12 download-claims">
                <div className="row">
                 <div className="col-lg-6">
-                 <h4 className="download text-center">Download Claims Form<br /> Policy Numbers Starting<br /> with GLM</h4>
+                 <h4 className="download text-center">Download Claims Form<br /> Policy Numbers Starting with GLM</h4>
                   <Img fluid={pdf_icon} className="pdf-icon"/>
                   <button className="download-btn"> Download </button>
                  </div>
 
                 <div className="col-lg-6">
-                 <h4 className="download text-center">Download Claims Form<br /> Policy Numbers Starting<br /> with INF</h4>
+                 <h4 className="download text-center">Download Claims Form<br /> Policy Numbers Starting with INF</h4>
                  <Img fluid={pdf_icon} className="pdf-icon"/>
                  <button className="download-btn2"> Download </button>
                </div>
@@ -383,6 +387,13 @@ export const query = graphql`
       }
     },
     submit_req_img: file(name: { eq: "submit-req-img" }) {
+      childImageSharp {
+        fluid(maxWidth: 600, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    submit_form_img: file(name: { eq: "submit-form-img" }) {
       childImageSharp {
         fluid(maxWidth: 600, quality: 100) {
           ...GatsbyImageSharpFluid
