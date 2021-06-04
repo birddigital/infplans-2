@@ -8107,7 +8107,6 @@ section#eyemed-section-2 {
   margin-top: 50px;
  }
 
-
 .eyemed-slider .eyemed-logo-img {
   max-width: 300px;
   margin-left: auto;
@@ -8159,7 +8158,127 @@ section#eyemed-section-2 {
 
 /* End of Eyemed Styles */
 
+/* About Us Styles */
+
+section.about-hero-section-bg {
+  min-height: 600px;
+}
+
+section#about-section-1 {
+  padding-top: 100px;
+}
+
+#about-hero-section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#about-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#about-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#about-section-1 .about-container {
+  box-shadow: 0px 0px 12px 0px #dddddd;
+  padding: 50px 50px 40px 50px;
+}
+
+#about-section-1 .big-logo {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#about-section-1 h2 {
+  font-weight: 500;
+}
+
+#about-section-1 .sub-title {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#about-section-1 p {
+  line-height: 2;
+}
+
+/* End of About Us Styles */
+
+/* Why Inf Styles */
+
+section.why-inf-hero-section-bg {
+  min-height: 600px;
+}
+
+section#why-inf-section-1 {
+  padding-top: 100px;
+}
+
+#why-inf-hero-section  h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#why-inf-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#why-inf-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#why-inf-section-1 .why-inf-container {
+  box-shadow: 0px 0px 12px 0px #dddddd;
+  padding: 50px 50px 40px 50px;
+}
+
+#why-inf-section-1 .title {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#why-inf-section-1 p {
+  line-height: 2;
+}
+
+#why-inf-section-1 h2 {
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+/* End of Why Inf Styles */
+
 /* End of Gillian CSS */
+
 
 /* Premium Styles */
 
@@ -10906,6 +11025,7 @@ section#telemedicine-hero-section {
     font-size: 35px;
     margin-top: 40px;
     text-align: center;
+    margin-top: 100px;
   }
 
   #claims-form-hero-section .hero-btn {
@@ -10919,16 +11039,6 @@ section#telemedicine-hero-section {
     min-height: 400px;
     padding-bottom: 10px;
   }
-
-  #claims-form-hero-section h1 {
-    font-size: 35px;
-    margin-top: 100px;
-  }
-
-  #claims-form-hero-section .hero-btn {
-    margin-top: 10px;
-    padding: 8px 40px;
- }
 
   section#claims-form-section-1 {
     padding-top: 30px;
@@ -11878,6 +11988,56 @@ section#telemedicine-hero-section {
     margin-right: auto;
     margin-top: 30px;
   }
+
+  section.about-hero-section-bg {
+    min-height: 400px;
+    padding-bottom: 10px;
+  }
+
+  section#about-section-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #about-section-1 .about-container {
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 30px;
+  }
+
+  #about-section-1 .sub-title {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  #about-section-1 h2 {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  section.why-inf-hero-section-bg {
+    min-height: 400px;
+    padding-bottom: 10px;
+  }
+
+  section#why-inf-section-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #why-inf-section-1 .why-inf-container {
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 30px;
+  }
+
+  #why-inf-section-1 h2 {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  #why-inf-section-1 .title {
+    font-size: 20px;
+    font-weight: 500;
+  }
 }
 
 @media screen and (max-width:375px) {
@@ -11941,5 +12101,20 @@ section#telemedicine-hero-section {
     font-size: 18px;
   }
 
+  #about-hero-section .hero-btn {
+    margin-top: 30px;
+  }
+
+  #about-hero-section h1 {
+    margin-top: 50px;
+  }
+
+  #why-inf-hero-section .hero-btn {
+    margin-top: 30px;
+  }
+
+  #why-inf-hero-section h1 {
+    margin-top: 50px;
+  }
 }
 /* End of Gillian Responsiveness */
