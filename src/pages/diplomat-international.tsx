@@ -51,7 +51,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
       <Container>
         <div className="col-lg-12">
          <div className="diplomat-international-container">
-           <h2 className="text-blue text-center">What is the Diplomat International Plan</h2>
+           <h2 className="text-blue text-center">What is the Diplomat International Plan?</h2>
             <p><strong>This plan will cover COVID-19 as a new sickness.</strong> Our Diplomat International plan provides Accident & Sickness medical coverage and Accidental Death & Dismemberment (AD&D) benefits for anyone traveling, living, working or going to school outside their home country, but not to the United States. This plan also provides Emergency Medical Evacuation & Repatriation, 24-Hour Multilingual Worldwide Assistance Services (U.S. Board Certified Physicians on staff 24/7) and much more. This plan is great for international students, business and tourists, study abroad, international exchange students, church or missionary travelers, and more. Coverage for this plan is based on a per day rate. Minimum period of coverage is <strong>5 days</strong> and the maximum period of coverage is <strong>365 days</strong>.
             </p>
          </div>
@@ -247,7 +247,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
 
                 <div className="international-tabtwo">
                   <div className="col-lg-12">
-                    <p className="text-center insurance"><strong>Accidental Death, Dismemberment, Loss of Sight, and Speech and Hearing –</strong> The amount of the Principal Sum is $25,000 (unless the Enhanced AD&D Benefit is purchased). <strong>Enhanced AD&D Benefit</strong> (If Benefit Purchased) – The Principal Sum is increased from $25,000 to the selected amount not to exceed $1,000,000 of coverage.  The Enhanced AD&D Benefit is not available to children under 18 years of age.</p>
+                    <p className="text-center insurance"><strong>Accidental Death, Dismemberment, Loss of Sight, and Speech and Hearing –</strong> The amount of the Principal Sum is $25,000 (unless the Enhanced AD&D Benefit is purchased). <strong>Enhanced AD&D Benefit </strong>(If Benefit Purchased) – The Principal Sum is increased from $25,000 to the selected amount not to exceed $1,000,000 of coverage.  The Enhanced AD&D Benefit is not available to children under 18 years of age.</p>
 
                   <div className="content-bg">
                     <p>If within 365 days after the date of a covered accident, the Insured Person’s Injury results in death or dismemberment, this Plan provides the following benefits for loss of:</p>

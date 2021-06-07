@@ -45,7 +45,7 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
                 INF ELITE
               </h1>
               <p className="hero-text text-white">
-              IVAS Plan is our flagship insurance program for INF members visiting the USA, Canada, or Mexico. By enrolling in the INF Elite IVAS Insurance Plan , you also become a member of the INF*.
+                IVAS Plan is our flagship insurance program for INF members visiting the USA, Canada, or Mexico.
               </p>
               <button className="hero-btn"> Get a Quote </button>
             </div>
@@ -62,7 +62,7 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
             <h2 className="text-blue text-center">What is the INF Elite International Visitor Accident & Sickness Insurance (IVAS)?</h2>
             <div className="row mt-5">
               <div className="col-lg-8">
-                <p className="text-black">INF Elite IVAS Plan is our flagship insurance program for INF members visiting the USA, Canada, or Mexico. By enrolling in the INF Elite IVAS Insurance Plan , you also become a member of the INF*.</p>
+                <p className="text-black">INF Elite IVAS Plan is our flagship insurance program for INF members visiting the USA, Canada, or Mexico.</p>
                 <p className="text-black">INF Elite IVAS provides coverage for pre-existing conditions as defined in the plan, as per policy limitations, exclusions and maximums, with no benefit waiting period.</p>
                 <a href="#" className="read-more">READ MORE <FaAngleDoubleDown className="double-arrow-down" /></a>
               </div>
@@ -81,7 +81,7 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="elite-section2">
         <Container>
           <div className="col-lg-12">
-            <h3 className="text-white text-center">As a member of INF you will also have access to additional Non-Insurance Features when traveling to the USA including:</h3>
+            <h3 className="text-white text-center">As an insured of INF you will also have access to additional Non-Insurance Features when traveling to the USA including:</h3>
           </div>
           <div className="col-lg-12">
             <div className="row mt-5">
@@ -103,7 +103,7 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
               <div className="col-lg-7">
                 <ul>
-                  <li className="text-white">INF membership also provides access to MeMD- a telehealth feature which allows members to access medical care from the comfort of their own home. While in the United States, MeMD allows members to schedule an appointment with a healthcare provider that is credentialed, certified and highly trained, and typically arrange medical care within 1 hour. The doctor will video or audio chat with you and if required, send a prescription to the nearest pharmacy (note that prescriptions may require out of pocket expense if they are not eligible expenses). MeMD can be used for any non life threatening condition. This is not an insurance product and is not insured by Crum & Forster SPC. MeMD only provides access to and helps arrange the telehealth visits. Any eligible benefits are paid under the terms of the IVAS insurance policy.</li>
+                  <li className="text-white">INF membership also provides access to MDLive- a telehealth feature which allows members to access medical care from the comfort of their own home. While in the United States, MDLive allows members to schedule an appointment with a healthcare provider that is credentialed, certified and highly trained, and typically arrange medical care within 1 hour. The doctor will video or audio chat with you and if required, send a prescription to the nearest pharmacy (note that prescriptions may require out of pocket expense if they are not eligible expenses). MDLive can be used for any non life threatening condition. This is not an insurance product and is not insured by Crum & Forster SPC. MDLive only provides access to and helps arrange the telehealth visits. Any eligible benefits are paid under the terms of the IVAS Insurance Plan.</li>
                 </ul>
               </div>
             </div>
@@ -332,7 +332,6 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="white-bg text-center">
               <h3 className="text-blue">Note:</h3>
               <p className="text-black">This insurance is not subject to and does not provide certain insurance benefits required by the United States’ Patient Protection and Affordable Care Act (“PPACA”). This coverage is not a general health insurance product, but is intended for use in the event of a sudden and unexpected event while traveling outside your home country. PPACA requires certain US citizens or US residents to obtain PPACA compliant health insurance, or “minimum essential coverage.” PPACA also requires certain employers to offer PPACA compliant insurance coverage to their employees. Tax penalties may be imposed on U.S. residents or citizens who do not maintain minimum essential coverage, and on certain employers who do not offer PPACA compliant insurance coverage to their employees. In some cases, certain individuals may be deemed to have minimum essential coverage under PPACA even if their insurance coverage does not provide all of the benefits required by PPACA. You should consult your attorney or tax professional to determine whether the policy meets any obligations you may have under PPACA.</p>
-              <p className="text-black">*India Network Foundation (INF) membership is required to enroll in this plan. Membership cost is $10 and will be included in your plan cost.</p>
             </div>
           </div>
         </Container>

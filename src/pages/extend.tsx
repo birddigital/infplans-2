@@ -53,7 +53,7 @@ const RenewPage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="row extend-container">
               <div className="col-lg-5">
                 <Img fluid={infplans_big_logo} className="big-logo"/>
-                <h3 className="text-blue text-center">INF Policy Extensions</h3>
+                <h3 className="text-blue text-center">INF Plan Extensions</h3>
               </div>
               <div className="col-lg-7">
                 <form method="POST" action="">

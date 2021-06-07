@@ -44,7 +44,7 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
                 INF PREMIER IVAS PLAN
               </h1>
               <p className="hero-text text-white text-center">
-                The Premier IVAS Plan is one of the INF's flagship Insurance programs for visitors to the United States, Canada and Mexico. By enrolling in the INF Premier IVAS Insurance Plan, you also become a member of the INF*.
+                The Premier IVAS Plan is one of the INF's flagship Insurance programs for visitors to the United States, Canada and Mexico.
               </p>
               <button className="hero-btn"> Get a Quote </button>
             </div>
@@ -58,7 +58,7 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
             <h2 className="text-blue text-center">What is INF Premier International Visitor Accident & Sickness Insurance (IVAS)?</h2>
             <div className="row mt-5">
               <div className="col-lg-8">
-                <p className="text-black">The Premier IVAS Plan is one of the INF's flagship Insurance programs for visitors to the United States, Canada and Mexico. By enrolling in the INF Premier IVAS Insurance Plan, you also become a member of the INF*.</p>
+                <p className="text-black">The Premier IVAS Plan is one of the INF's flagship Insurance programs for visitors to the United States, Canada and Mexico.</p>
                 <p className="text-black">INF Premier IVAS plan provides coverage for pre-existing conditions as defined in the plan, as per policy limitations, exclusions and maximums, with no benefit waiting period.</p>
                 <a href="#" className="read-more">READ MORE <FaAngleDoubleDown className="double-arrow-down" /></a>
               </div>
@@ -75,7 +75,7 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="premier-section2">
         <Container>
           <div className="col-lg-12">
-            <h3 className="text-white text-center">As a member of INF you will also have access to additional Non-Insurance Features when traveling to the USA including:</h3>
+            <h3 className="text-white text-center">As an insured of INF you will also have access to additional Non-Insurance Features when traveling to the USA including:</h3>
           </div>
           <div className="col-lg-12">
             <div className="row mt-5">
@@ -97,7 +97,7 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
               <div className="col-lg-7">
                 <ul>
-                  <li className="text-white">INF membership also provides access to MeMD- a telehealth feature which allows members to access medical care from the comfort of their own home. While in the United States, MeMD allows members to schedule an appointment with a healthcare provider that is credentialed, certified and highly trained and typically arrange medical care within 1 hour. The doctor will video or audio chat with you and if required, send a prescription to the nearest pharmacy (note that prescriptions may require out of pocket expense if they are not eligible expenses). MeMD can be used for any non life threatening conditions. This is not an insurance product and is not affiliated with Crum & Forster SPC. MeMD only provides access to and helps arrange the telehealth visits. Any eligible benefits are paid under the terms of the IVAS insurance policy.</li>
+                  <li className="text-white">INF membership also provides access to MDLive - a telehealth feature which allows members to access medical care from the comfort of their own home. While in the United States, MDLive  allows members to schedule an appointment with a healthcare provider that is credentialed, certified and highly trained and typically arrange medical care within 1 hour. The doctor will video or audio chat with you and if required, send a prescription to the nearest pharmacy (note that prescriptions may require out of pocket expense if they are not eligible expenses). MDLive  can be used for any non life threatening conditions. This is not an insurance product and is not affiliated with Crum & Forster SPC. MDLive  only provides access to and helps arrange the telehealth visits. Any eligible benefits are paid under the terms of the IVAS insurance policy.</li>
                 </ul>
               </div>
             </div>
@@ -161,6 +161,69 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
                       <p className="tab-content text-black"></p>
                       <p className="tab-content1 text-black"></p>
                       <p className="tab-content text-black">$40,000</p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                    </div>
+                    <div className="col-lg-4">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">Deductible for Pre-Existing Conditions</p>
+                      </div>
+                      <p className="tab-content text-black">$1,000</p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content1 text-black"></p>
+                      <p className="tab-content text-black">$5,000</p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                    </div>
+                  </div>
+                  <p className="text-black text-center tab-row-title">$150,000 Total Maximum Per Accident or Sickness Expense Benefits</p>
+                  <div className="row">
+                    <div className="col-lg-4">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">Deductible Per Covered Accident or Sickness Expense</p>
+                      </div>
+                      <p className="tab-content text-black">$75</p>
+                      <p className="tab-content text-black">$100</p>
+                      <p className="tab-content text-black">$250</p>
+                      <p className="tab-content text-black">$500</p>
+                      <p className="tab-content text-black">$1,000</p>
+                      <p className="tab-content text-black">$2,500</p>
+                      <p className="tab-content text-black">$5,000</p>
+                      <p className="tab-content1 text-black"></p>
+                      <p className="tab-content text-black">$75</p>
+                      <p className="tab-content text-black">$100</p>
+                      <p className="tab-content text-black">$250</p>
+                      <p className="tab-content text-black">$500</p>
+                      <p className="tab-content text-black">$1,000</p>
+                      <p className="tab-content text-black">$2,500</p>
+                      <p className="tab-content text-black">$5,000</p>
+                    </div>
+                    <div className="col-lg-4">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">Maximum for Pre-Existing Conditions</p>
+                      </div>
+                      <p className="tab-content text-black">$30,000</p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content text-black"></p>
+                      <p className="tab-content1 text-black"></p>
+                      <p className="tab-content text-black">$60,000</p>
                       <p className="tab-content text-black"></p>
                       <p className="tab-content text-black"></p>
                       <p className="tab-content text-black"></p>
@@ -484,10 +547,10 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
                       </div>
                       <p className="tab-content text-black">Up to $500 maximum</p>
                       <p className="tab-content text-black">Up to $1,200 maximum</p>
-                      <p className="tab-content text-black">Up to $500</p>
+                      <p className="tab-content text-black">Up to $550</p>
                       <p className="tab-content text-black">Up to $1,250 maximum</p>
                       <p className="tab-content text-black">Up to $50 per visit max, 1 Visit per day up to 12 visits maximum</p>
-                      <p className="tab-content text-black">Up to $500 maximum</p>
+                      <p className="tab-content text-black">Up to $550 maximum</p>
                       <p className="tab-content2 text-black">Up to $5,500 maximum</p>
                     </div>
                     <div className="column-tab">
@@ -499,8 +562,8 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
                       <p className="tab-content text-black">Accidental Death & Dismemberment</p>
                     </div>
                     <div className="col-lg-6">
-                      <p className="tab-content text-black">Up to $20,000 maximum</p>
-                      <p className="tab-content text-black">Up to $15,000 maximum​</p>
+                      <p className="tab-content text-black">Up to an additional $1,000</p>
+                      <p className="tab-content text-black">Up to $200 maximum​</p>
                       <p className="tab-content text-black">$25,000 Principal Sum</p>
                     </div>
                   </div>
@@ -552,7 +615,7 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="premier-section7">
         <Container>
           <div className="col-lg-12">
-            <p className="text-black text-center first-paragraph">Benefits are provided for eligible Insured Persons. Terms and conditions are briefly outlined in this summary of coverage. Complete provisions pertaining to this insurance are contained in the policy. In the event of any conflict between this summary of coverage and the policy, the policy will govern. The policy is a short term limited duration policy renewable at the option of the insurer. This is a brief description of the important features of the insurance plan. It is not a contract of insurance. The terms and conditions of coverage are set forth in the Plan issued to INF. For a detailed plan description, exclusions, and limitations please view the plan on file with INF. This insurance is not subject to, and will not be administered as a PPACA (Patient Protection and Affordable Care Act) insurance plan. PPACA requires certain US residents and citizens obtain PPACA compliant insurance coverage. This plan is not designed to cover US residents and citizens. This policy is not subject to guaranteed issuance or renewal. PPO Networks are not provided by Crum & Forster, SPC.</p>
+            <p className="text-black text-center first-paragraph">Benefits are provided for eligible Insured Persons. Terms and conditions are briefly outlined in this summary of coverage. Complete provisions pertaining to this insurance are contained in the Plan. In the event of any conflict between this summary of coverage and the Plan, the Plan will govern. The Plan is a short term limited duration Plan renewable at the option of the insurer. This is a brief description of the important features of the insurance plan. It is not a contract of insurance. The terms and conditions of coverage are set forth in the Plan issued to INF. For a detailed plan description, exclusions, and limitations please view the plan on file with INF. This insurance is not subject to, and will not be administered as a PPACA (Patient Protection and Affordable Care Act) insurance plan. PPACA requires certain US residents and citizens obtain PPACA compliant insurance coverage. This plan is not designed to cover US residents and citizens. This Plan is not subject to guaranteed issuance or renewal. PPO Networks are not provided by Crum & Forster, SPC</p>
           </div>
           <div className="col-lg-12">
             <div className="blue-bg text-center">
@@ -576,7 +639,6 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="white-bg text-center">
               <h3 className="text-blue">Note:</h3>
               <p className="text-black">This insurance is not subject to and does not provide certain insurance benefits required by the United States’ Patient Protection and Affordable Care Act (“PPACA”). This coverage is not a general health insurance product, but is intended for use in the event of a sudden and unexpected event while traveling outside your home country. PPACA requires certain US citizens or US residents to obtain PPACA compliant health insurance, or “minimum essential coverage.” PPACA also requires certain employers to offer PPACA compliant insurance coverage to their employees. Tax penalties may be imposed on U.S. residents or citizens who do not maintain minimum essential coverage, and on certain employers who do not offer PPACA compliant insurance coverage to their employees. In some cases, certain individuals may be deemed to have minimum essential coverage under PPACA even if their insurance coverage does not provide all of the benefits required by PPACA. You should consult your attorney or tax professional to determine whether the policy meets any obligations you may have under PPACA.</p>
-              <p className="text-black">*India Network Foundation (INF) membership is required to enroll in this plan. Membership cost is $10 and will be included in your plan cost.</p>
             </div>
           </div>
         </Container>

@@ -50,7 +50,7 @@ const ProducersPage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="row producers-container">
               <div className="col-lg-5">
                 <Img fluid={infplans_big_logo} className="big-logo"/>
-                <h3 className="text-blue text-center">Member Sign In</h3>
+                <h3 className="text-blue text-center">Producer Sign In</h3>
               </div>
               <div className="col-lg-7">
                 <form method="POST" action="">

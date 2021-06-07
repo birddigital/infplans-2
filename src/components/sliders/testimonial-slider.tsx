@@ -87,6 +87,7 @@ const TestimonialHomeSlider = ({ className }) => {
   return (
     <BackgroundImage
       Tag="section"
+      className="testimonial-section-bg"
       fluid={testi_bg}
       alt="testimonial"
       id="testimonial-bg-section"

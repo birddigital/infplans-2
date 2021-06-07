@@ -58,7 +58,7 @@ const TravelerUSAPage: React.FC<Props> = ({ data, location }: Props) => {
             <h2 className="text-blue text-center">Traveler USA International Visitor Accident & Sickness Insurance (IVAS)</h2>
             <div className="row mt-5">
               <div className="col-lg-8">
-                <p className="text-black">The INF Traveler USA IVAS is a comprehensive accident & sickness plan for visitors without known pre-existing conditions, when purchased before the start of your trip for at least 30 days and no more than 364 days, which is the Maximum Period of Coverage. Traveler USA covers non-US citizens traveling to the United States, Canada or Mexico in all age groups, from age 0 to 99 years old. By enrolling in the INF Traveler  USA IVAS Insurance, you also become a member of INF*.</p>
+                <p className="text-black">The INF Traveler USA IVAS is a comprehensive accident & sickness plan for visitors without known pre-existing conditions, when purchased before the start of your trip for at least 30 days and no more than 364 days, which is the Maximum Period of Coverage. Traveler USA covers non-US citizens traveling to the United States, Canada or Mexico in all age groups, from age 0 to 99 years old.</p>
                 <a href="#" className="read-more">READ MORE <FaAngleDoubleDown className="double-arrow-down" /></a>
               </div>
               <div className="col-lg-4">
@@ -76,7 +76,7 @@ const TravelerUSAPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="traveler-usa-section2">
         <Container>
           <div className="col-lg-12">
-            <h3 className="text-white text-center">As a member of INF you will also have access to additional Non-Insurance Features when traveling to the USA including:</h3>
+            <h3 className="text-white text-center">As an insured of INF you will also have access to additional Non-Insurance Features when traveling to the USA including:</h3>
           </div>
           <div className="col-lg-12">
             <div className="row mt-5">
@@ -98,7 +98,7 @@ const TravelerUSAPage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
               <div className="col-lg-7">
                 <ul>
-                  <li className="text-white">INF membership also provides access to MeMD- a telehealth feature which allows members to access medical care from the comfort of their own home. While in the United States, MeMD allows members to schedule an appointment with healthcare provider that is credentialed, certified and highly trained, and typically arrange medical care within 1 hour. The doctor will video or audio chat with you and if required, send a prescription to the nearest pharmacy (note that prescriptions may require out of pocket expense if they are not eligible expenses). MeMD can be used for any non life threatening conditions. This is not an insurance product and is not insured by Crum & Forster SPC. MeMD only provides access to and helps arrange the telehealth visits. Any eligible benefits are paid under the terms of IVAS Traveler USA insurance policy.</li>
+                  <li className="text-white">INF membership also provides access to MDLive- a telehealth feature which allows members to access medical care from the comfort of their own home. While in the United States, MDLive allows members to schedule an appointment with healthcare provider that is credentialed, certified and highly trained, and typically arrange medical care within 1 hour. The doctor will video or audio chat with you and if required, send a prescription to the nearest pharmacy (note that prescriptions may require out of pocket expense if they are not eligible expenses). MDLive can be used for any non life threatening conditions. This is not an insurance product and is not insured by Crum & Forster SPC. MDLive only provides access to and helps arrange the telehealth visits. Any eligible benefits are paid under the terms of IVAS Traveler USA insurance policy.</li>
                 </ul>
               </div>
             </div>
@@ -133,7 +133,7 @@ const TravelerUSAPage: React.FC<Props> = ({ data, location }: Props) => {
                       </div>
                       <p className="tab-content text-black">$150,000</p>
                       <p className="tab-content text-black">$250,000</p>
-                      <p className="tab-content text-black">$350,000</p>
+                      <p className="tab-content text-black">$300,000</p>
                       <p className="tab-content text-black"></p>
                       <p className="tab-content text-black"></p>
                       <p className="tab-content text-black"></p>
@@ -260,7 +260,7 @@ const TravelerUSAPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="traveler-usa-section7">
         <Container>
           <div className="col-lg-12">
-            <p className="text-black text-center first-paragraph">Benefits are provided for eligible Insured Persons. Terms and conditions are briefly outlined in this summary of coverage. Complete provisions pertaining to this insurance are contained in the policy. In the event of any conflict between this summary of coverage and the policy, the policy will govern. The policy is a short term limited duration policy renewable at the option of the insurer. This is a brief description of the important features of the insurance plan. It is not a contract of insurance. The terms and conditions of coverage are set forth in the Plan issued to INF. For a detailed plan description, exclusions, and limitations please view the plan on file with INF. This insurance is not subject to, and will not be administered as a PPACA (Patient Protection and Affordable Care Act) insurance plan. PPACA requires certain US residents and citizens obtain PPACA compliant insurance coverage. This plan is not designed to cover US residents and citizens. This policy is not subject to guaranteed issuance or renewal. PPO Networks are not provided by Crum & Forster, SPC.</p>
+            <p className="text-black text-center first-paragraph">Benefits are provided for eligible Insured Persons. Terms and conditions are briefly outlined in this summary of coverage. Complete provisions pertaining to this insurance are contained in the Plan. In the event of any conflict between this summary of coverage and the Plan, the Plan will govern. The Plan is a short term limited duration Plan renewable at the option of the insurer. This is a brief description of the important features of the insurance plan. It is not a contract of insurance. The terms and conditions of coverage are set forth in the Plan issued to INF. For a detailed plan description, exclusions, and limitations please view the plan on file with INF. This insurance is not subject to, and will not be administered as a PPACA (Patient Protection and Affordable Care Act) insurance plan. PPACA requires certain US residents and citizens obtain PPACA compliant insurance coverage. This plan is not designed to cover US residents and citizens. This Plan is not subject to guaranteed issuance or renewal. PPO Networks are not provided by Crum & Forster, SPC</p>
           </div>
           <div className="col-lg-12">
             <div className="blue-bg text-center">
@@ -284,7 +284,6 @@ const TravelerUSAPage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="white-bg text-center">
               <h3 className="text-blue">Note:</h3>
               <p className="text-black">This insurance is not subject to and does not provide certain insurance benefits required by the United States’ Patient Protection and Affordable Care Act (“PPACA”). This coverage is not a general health insurance product, but is intended for use in the event of a sudden and unexpected event while traveling outside your home country. PPACA requires certain US citizens or US residents to obtain PPACA compliant health insurance, or “minimum essential coverage.” PPACA also requires certain employers to offer PPACA compliant insurance coverage to their employees. Tax penalties may be imposed on U.S. residents or citizens who do not maintain minimum essential coverage, and on certain employers who do not offer PPACA compliant insurance coverage to their employees. In some cases, certain individuals may be deemed to have minimum essential coverage under PPACA even if their insurance coverage does not provide all of the benefits required by PPACA. You should consult your attorney or tax professional to determine whether the policy meets any obligations you may have under PPACA.</p>
-              <p className="text-black">*India Network Foundation (INF) membership is required to enroll in this plan. Membership cost is $10 and will be included in your plan cost.</p>
             </div>
           </div>
         </Container>

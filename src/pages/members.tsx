@@ -36,7 +36,7 @@ const MembersPage: React.FC<Props> = ({ data, location }: Props) => {
           <Container>
             <div className="col-lg-12">
               <h1 className="text-white text-center">
-                MEMBERS
+                INSURED PORTAL
               </h1>
               <button className="hero-btn"> Get a Quote </button>
             </div>
@@ -55,7 +55,7 @@ const MembersPage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="row mt-5 members-row-container">
                   <div className="col-lg-5">
                     <Img fluid={infplans_big_logo} className="big-logo"/>
-                    <h3 className="text-blue text-center">Member Sign In</h3>
+                    <h3 className="text-blue text-center">Insured Login</h3>
                   </div>
                   <div className="col-lg-7">
                     <form method="POST" action="">

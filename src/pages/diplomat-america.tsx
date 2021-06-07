@@ -51,7 +51,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
        <Container>
         <div className="col-lg-12">
           <div className="diplomat-america-container">
-           <h2 className="text-blue text-center">What is Diplomat America Plan</h2>
+           <h2 className="text-blue text-center">What is Diplomat America Plan?</h2>
           <p className="text-center">
             <strong>This plan will cover COVID-19 as a new sickness.</strong> Diplomat America plan provides Accident and Sickness medical coverage, Accidental Death and Dismemberment benefits, Travel Assistance for Non-U.S. citizens and Non-U.S. residents traveling to the United States. This plan is great for international students, business and tourists, study abroad, international exchange students, church or missionary travelers, and more. Coverage for this plan is based on a per day rate. Minimum period of coverage is <strong>15 days</strong> and the maximum period of coverage is <strong>365 days.</strong>
           </p>
@@ -64,7 +64,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
       <Container>
        <div className="col-lg-12">
          <div className="diplomat-america-container">
-          <h2 className="text-blue text-center">Who Should Purchase the Diplomat America</h2>
+          <h2 className="text-blue text-center">Who Should Purchase the Diplomat America?</h2>
          <p className="text-center">
           Travel insurance designed to cover Non-U.S. Citizens and Non-U.S. Residents traveling to the United States. This valuable travel protection is ideal for students, business and leisure travelers, study abroad, international exchange students, tourists, holiday travelers, and church or missionary travelers.
          </p>

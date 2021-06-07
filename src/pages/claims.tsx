@@ -125,7 +125,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                </div>
                <div className="col-lg-7">
                 <div className="col-lg-12">
-                  <h3 className="text-blue text-center">Member Sign In</h3>
+                  <h3 className="text-blue text-center">Insured Login</h3>
                 </div>
                  <form method="POST" action="">
                    <input type="email" id="email" name="email" placeholder="Email Address" />
@@ -177,7 +177,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                <div className="col-lg-6 infor">
                  <p><strong>Check Claim Status:</strong> 888-293-9229</p>
                  <p className="submit-bills"><strong>Submit Bills Online:</strong>  aciclaims@visit-aci.com</p>
-                 <a href="http://www.visit-aci.com" target="_blank"><strong>Web:</strong> http://www.visit-aci.com</a>
+                 <p><strong>Web:</strong></p><a href="http://www.visit-aci.com" target="_blank"> http://www.visit-aci.com</a>
                  ​<p className="pay"><strong>EDI Payor#:</strong> 22384</p>
               </div>
 

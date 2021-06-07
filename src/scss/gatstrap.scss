@@ -862,6 +862,10 @@ what-describes-you {
   margin-top: 30px;
 }
 
+.testimonial-section-bg::after {
+  border-radius: 10px!important;
+}
+
 section#home-testimonial-section {
   padding-top: 150px;
   padding-bottom: 10px;
@@ -978,7 +982,7 @@ section#home-testimonial-section {
 .articles-slider .slick-prev, .articles-slider .slick-next {
   width: 40px!important;
   height: 40px!important;
-  padding: 10px!important;
+  padding: 7px!important;
   background: #252362!important;
   border-radius: 50%;
   color: #ffffff;
@@ -986,7 +990,7 @@ section#home-testimonial-section {
 }
 
 .articles-slider .slick-prev:hover, .articles-slider .slick-next:hover {
-  box-shadow: 0px 0px 0px 6px #bfbfbf;
+  border: solid 4px #bfbfbf;
   color:#ffffff;
 }
 
@@ -1009,7 +1013,7 @@ section#home-testimonial-section {
 
 a {
   color: #252362;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 h2 {

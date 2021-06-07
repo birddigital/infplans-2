@@ -57,9 +57,6 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
                 TeleMedicine services offered by INF provide members & their families access to health providers instantly, from anywhere in the United States. All members who enroll in an INF Plan are automatically enrolled as members* of INF and when traveling to the United States, become eligible to take advantage of these non insurance services, which are provided at no additional cost to the member. Our Telemedicine service provides access to many of the same services offered by an in-person doctor visit or urgent care visit.
               </p>
               <p>
-                *When you elect one of our insurance options you become a member of INF and will be charged a $10 membership fee.
-              </p>
-              <p>
                 ** This service is not available when traveling to Canada or Mexico.
               </p>
               <p>
@@ -76,7 +73,7 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
           <div className="col-lg-7">
             <p>
-              When you enroll in a plan with policy number starting with INF and are visiting the United States, you are automatically eligible for a MeMD Account as a member of INF. MeMD provides INF members with 24/7/365 access to MeMD’s highly qualified, licensed healthcare providers by phone, mobile app or computer.
+              When you enroll in a plan with policy number starting with INF and are visiting the United States, you are automatically eligible for a MDLive Account as a member of INF. MDLive provides INF members with 24/7/365 access to MDLive’s highly qualified, licensed healthcare providers by phone, mobile app or computer.
             </p>
           </div>
           <div className="col-lg-5 text-center">
@@ -346,7 +343,7 @@ export const query = graphql`
         }
       }
     },
-    memd_logo: file(name: { eq: "memd-logo" }) {
+    memd_logo: file(name: { eq: "mdlive-logo" }) {
       childImageSharp {
         fluid(maxWidth: 468, quality: 100) {
           ...GatsbyImageSharpFluid

@@ -60,7 +60,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
            <h2 className="text-blue text-center">What is INF-BMI Travel Assist?</h2>
            <div className="row mt-4">
          <div className="col-lg-8">
-          <p>INF-BMI plans provide assistance for international trips with no deductible or copayments and provides coverage for full pre-existing conditions, acute onset of pre-existing conditions, and COVID-19 as per the limits in the policy.</p>
+          <p>INF-BMI plans provide assistance for international trips with no deductible or copayments and provides coverage for full pre-existing conditions, acute onset of pre-existing conditions, and COVID-19 as per the limits in the Plan.</p>
           <p>INF recommends enrolling in the Ultra Plus, VIP, VIP Plus- which provides comprehensive coverage for pre-existing, acute onset of pre-existing conditions, and COVID-19. INF-BMI plans can provide these innovative visitor insurance options.</p>
          </div>
           <div className="col-lg-4">
@@ -82,7 +82,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                 <li className="text-white">COVID-19 Coverage</li>
                 <li className="text-white">All plans have 100% Co-Insurance (We cover 100%) and NO DEDUCTIBLE</li>
                 <li className="text-white">We make all the appointments for you- no more hassle of finding a provider who will accept you plan. We do everything on the backend to make sure it's completely cashless.</li>
-                <li className="text-white">We provide all members with free Careington 500 Dental Plan ($100 value). Just send your voucher number to support[at]infplans.com with a request and we will issue you a dental card at no cost!</li>
+                <li className="text-white">We provide all members with free Careington 500 Dental Plan ($100 value). Just send your voucher number to support@infplans.com with a request and we will issue you a dental card at no cost!</li>
               </ul>
        </div>
     </Container>
