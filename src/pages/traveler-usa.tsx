@@ -229,12 +229,16 @@ const TravelerUSAPage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="col-lg-5 text-center">
                 <h3 className="text-black">Read INF Premier Plan<br /> Description for Age 0-69  </h3>
                 <Img fluid={book_icon} className="book-icon-img"/>
-                <button className="read-now-btn"> Read Now </button>
+                <a href="https://infplans.com/policy_pdf/INF_Traveler_USA_Policy_Document_age_0_69.pdf" target="_blank">
+                  <button className="read-now-btn"> Read Now </button>
+                </a>
               </div>
               <div className="col-lg-5 text-center">
                 <h3 className="text-black">Read INF Premier Plan<br /> Description for Age 70-99 </h3>
                 <Img fluid={book_icon} className="book-icon-img"/>
-                <button className="read-now-btn"> Read Now </button>
+                <a href="https://infplans.com/policy_pdf/INF_Traveler_USA_Policy_Document_70_99.pdf" target="_blank">
+                  <button className="read-now-btn"> Read Now </button>
+                </a>
               </div>
             </div>
           </div>

@@ -150,14 +150,14 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                     <p className="text-center expenses">Expenses that are specifically enumerated in the following list of charges that are incurred for medical care and supplies which are:</p>
                   </div>
 
-                    <div className="col-lg-12">
-                      <ul className="alpha-list">
-                        <li>(a) necessary and customary;</li>
-                        <li>(b) prescribed by a Physician for the therapeutic treatment of a disablement;</li>
-                        <li>(c) are not excluded under the policy;</li>
-                        <li>(d) are not more than the Usual and Customary charges (as determined by the Company); and</li>
-                        <li>(e) are incurred within 180 days from the date of the Disablement will be considered.</li>
-                    </ul>
+                  <div className="col-lg-12">
+                    <ul className="alpha-list">
+                      <li className="alpha">(a) necessary and customary;</li>
+                      <li className="alpha">(b) prescribed by a Physician for the therapeutic treatment of a disablement;</li>
+                      <li className="alpha">(c) are not excluded under the policy;</li>
+                      <li className="alpha">(d) are not more than the Usual and Customary charges (as determined by the Company); and</li>
+                      <li className="alpha">(e) are incurred within 180 days from the date of the Disablement will be considered.</li>
+                  </ul>
 
                     <ul className="number-list">
                         <li>Expenses made by a Hospital for room and board, floor nursing and other services, including Expenses for professional services, except personal services of a nonmedical nature, provided, however, that Expenses do not exceed the Hospital's average charge for semiprivate room and board accommodation.</li>
@@ -264,7 +264,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                         <li className="exclusions">Injury sustained while taking part in: mountaineering; hang gliding; parachuting; bungee jumping; racing by horse, motor vehicle or motorcycle; snowmobiling; motorcycle/motor scooter riding; scuba diving, involving underwater breathing apparatus; water skiing; snow skiing; spelunking; parasailing; white water rafting; surfing, unless part of a school credit course; and snowboarding. Unless Hazardous Activity Benefit is purchased.</li>
                         <li className="exclusions">Practice or play in any amateur, club, intramural, interscholastic, intercollegiate, sports contest or competition; Unless Athletic Sports Activity Benefit is purchased.</li>
                         <li className="exclusions">Practice or play in any professional or semiprofessional contest or competition;</li>
-                        <li className="exclusions" className="exclusions">Rest cures or custodial care;</li>
+                        <li className="exclusions">Rest cures or custodial care;</li>
                         <li className="exclusions">Treatment of Mental and Nervous Disorders;</li>
                         <li className="exclusions">Weight reduction programs or surgical treatment of obesity or venereal disease;</li>
                         <li className="exclusions">Elective or Cosmetic surgery and Elective Treatment or treatment for congenital anomalies (except as specifically provided), except for reconstructive surgery on a diseased or injured part of the body (Correction of a deviated nasal septum is considered cosmetic surgery unless it results from a covered Injury or Sickness);</li>

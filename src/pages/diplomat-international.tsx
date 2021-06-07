@@ -166,11 +166,11 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
                     <p className="text-white column-tab-title">Policy Medical Maximum Choices</p>
                   </div>
                   <div className="col-lg-6">
-                    <p className="tab-content text-black">Plan A	</p>
-                    <p className="tab-content text-black">Plan B	</p>
-                    <p className="tab-content text-black">Plan C	</p>
-                    <p className="tab-content text-black">Plan D	</p>
-                    <p className="tab-content text-black">Plan E	</p>
+                    <p className="tab-content text-black">Plan A</p>
+                    <p className="tab-content text-black">Plan B</p>
+                    <p className="tab-content text-black">Plan C</p>
+                    <p className="tab-content text-black">Plan D</p>
+                    <p className="tab-content text-black">Plan E</p>
                   </div>
                   <div className="col-lg-6">
                     <p className="tab-content text-black">$50,000</p>
@@ -188,69 +188,69 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>Deductible Choices -</strong> $0, $50, $100, $250, $500, $1,000, $2,500, $5000 per person per policy period.</p>
+                    <p className="insurance-content"><strong>Deductible Choices -</strong> $0, $50, $100, $250, $500, $1,000, $2,500, $5000 per person per policy period.</p>
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>Unexpected Recurrence of a Pre-Existing Condition (U.S. Citizens ) –</strong>  Limited coverage under Your Medical Expense Benefit is provided for Medical Expenses that result from a sudden and unforeseen recurrence of a Pre-existing Condition.</p>
+                    <p className="insurance-content"><strong>Unexpected Recurrence of a Pre-Existing Condition (U.S. Citizens ) –</strong>  Limited coverage under Your Medical Expense Benefit is provided for Medical Expenses that result from a sudden and unforeseen recurrence of a Pre-existing Condition.</p>
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>Emergency Medical Evacuation – </strong>  Benefits are paid for Covered Expense incurred up to $500,000 for any covered Injury or Illness that requires immediate transportation from the place where You are located (due to inadequate medical facilities).</p>
+                    <p className="insurance-content"><strong>Emergency Medical Evacuation – </strong>  Benefits are paid for Covered Expense incurred up to $500,000 for any covered Injury or Illness that requires immediate transportation from the place where You are located (due to inadequate medical facilities).</p>
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>Repatriation –</strong> If it is determined by the Assistance Company and your Physician that it is Medically Necessary for You to return to Your primary place of residence because of an unforeseen Sickness or Injury which is acute or life-threatening, the Transportation Expense incurred within 90 days from the date of the Covered Loss will be paid for Your return to Your Home Country or to a medical facility closest to Your primary place of residence.</p>
+                    <p className="insurance-content"><strong>Repatriation –</strong> If it is determined by the Assistance Company and your Physician that it is Medically Necessary for You to return to Your primary place of residence because of an unforeseen Sickness or Injury which is acute or life-threatening, the Transportation Expense incurred within 90 days from the date of the Covered Loss will be paid for Your return to Your Home Country or to a medical facility closest to Your primary place of residence.</p>
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>Return of Mortal Remains –</strong> If death occurs, Benefits will be paid for Reasonable and Customary Covered Expenses to return Your remains to Your Home Country.</p>
+                    <p className="insurance-content"><strong>Return of Mortal Remains –</strong> If death occurs, Benefits will be paid for Reasonable and Customary Covered Expenses to return Your remains to Your Home Country.</p>
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>Emergency Medical Reunion –</strong> If it is determined by the Assistance Company and your Physician that it is necessary for You to have an Emergency Medical Evacuation, this Plan will arrange to bring an individual of Your choice, from Your current Home Country, to be at Your side while You are hospitalized and then accompany You during Your return home.</p>
+                    <p className="insurance-content"><strong>Emergency Medical Reunion –</strong> If it is determined by the Assistance Company and your Physician that it is necessary for You to have an Emergency Medical Evacuation, this Plan will arrange to bring an individual of Your choice, from Your current Home Country, to be at Your side while You are hospitalized and then accompany You during Your return home.</p>
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>Return of Minor Child(ren) –</strong> Should the Insured Person be traveling alone with a Minor Child(ren) and be hospitalized because of a covered Illness or Injury and Your Minor Child(ren) is left unattended, the Assistance Company will arrange for a one way economy fare(s) to Your current Home Country.</p>
+                    <p className="insurance-content"><strong>Return of Minor Child(ren) –</strong> Should the Insured Person be traveling alone with a Minor Child(ren) and be hospitalized because of a covered Illness or Injury and Your Minor Child(ren) is left unattended, the Assistance Company will arrange for a one way economy fare(s) to Your current Home Country.</p>
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>In Hospital Indemnity (U.S. Citizens ) –</strong> If You are confined to a Hospital as a registered Inpatient as the result of an Illness or Injury which first occurs during Your Period of Coverage and that Illness or Injury is covered under this Plan, this plan will pay benefits up to $100 per day of confinement up to a maximum of 10 days.</p>
+                    <p className="insurance-content"><strong>In Hospital Indemnity (U.S. Citizens ) –</strong> If You are confined to a Hospital as a registered Inpatient as the result of an Illness or Injury which first occurs during Your Period of Coverage and that Illness or Injury is covered under this Plan, this plan will pay benefits up to $100 per day of confinement up to a maximum of 10 days.</p>
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>Interruption of Trip – </strong> If Your trip is interrupted due to the Death of an Immediate Family Member or serious damage to your residence, benefits will be paid up to $5,000 for the Expense of economy travel less the value of applied credit from an unused return travel ticket to return You home to Your area of principal residence.</p>
+                    <p className="insurance-content"><strong>Interruption of Trip – </strong> If Your trip is interrupted due to the Death of an Immediate Family Member or serious damage to your residence, benefits will be paid up to $5,000 for the Expense of economy travel less the value of applied credit from an unused return travel ticket to return You home to Your area of principal residence.</p>
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>Loss of Baggage –</strong> This plan will reimburse You for loss, theft, or damage to Your baggage or personal effects checked with a Common Carrier, after coverage provided by a Common Carrier.</p>
+                    <p className="insurance-content"><strong>Loss of Baggage –</strong> This plan will reimburse You for loss, theft, or damage to Your baggage or personal effects checked with a Common Carrier, after coverage provided by a Common Carrier.</p>
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>Political and Natural Disaster Evacuation – </strong> Coverage is provided up to $50,000 if the Insured requires emergency evacuation due to situations which place him/her in Imminent Bodily Harm or due to a Natural Disaster.</p>
+                    <p className="insurance-content"><strong>Political and Natural Disaster Evacuation – </strong> Coverage is provided up to $50,000 if the Insured requires emergency evacuation due to situations which place him/her in Imminent Bodily Harm or due to a Natural Disaster.</p>
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>Emergency Dental Treatment (Accident) –</strong> Benefits are paid for Reasonable and Customary Expense for emergency Dental Treatment to natural teeth.</p>
+                    <p className="insurance-content"><strong>Emergency Dental Treatment (Accident) –</strong> Benefits are paid for Reasonable and Customary Expense for emergency Dental Treatment to natural teeth.</p>
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>Emergency Dental Treatment (Palliative) – </strong> Benefits are paid up to $100 for emergency Treatment for the relief of pain to natural teeth.</p>
+                    <p className="insurance-content"><strong>Emergency Dental Treatment (Palliative) – </strong> Benefits are paid up to $100 for emergency Treatment for the relief of pain to natural teeth.</p>
                   </div>
 
                   <div className="content-bg">
-                    <p>*Some Exclusions Apply*</p>
+                    <p className="insurance-content">*Some Exclusions Apply*</p>
                   </div>
                   </div>
                   </div>
 
                 <div className="international-tabtwo">
                   <div className="col-lg-12">
-                    <p className="text-center insurance"><strong>Accidental Death, Dismemberment, Loss of Sight, and Speech and Hearing –</strong> The amount of the Principal Sum is $25,000 (unless the Enhanced AD&D Benefit is purchased). <strong>Enhanced AD&D Benefit </strong>(If Benefit Purchased) – The Principal Sum is increased from $25,000 to the selected amount not to exceed $1,000,000 of coverage.  The Enhanced AD&D Benefit is not available to children under 18 years of age.</p>
+                    <p className="text-center insurance"><strong>Accidental Death, Dismemberment, Loss of Sight, and Speech and Hearing –</strong> The amount of the Principal Sum is $25,000 (unless the Enhanced AD&D Benefit is purchased). <strong>Enhanced AD&D Benefit</strong> (If Benefit Purchased) – The Principal Sum is increased from $25,000 to the selected amount not to exceed $1,000,000 of coverage.  The Enhanced AD&D Benefit is not available to children under 18 years of age.</p>
 
                   <div className="content-bg">
-                    <p>If within 365 days after the date of a covered accident, the Insured Person’s Injury results in death or dismemberment, this Plan provides the following benefits for loss of:</p>
+                    <p className="insurance-content">If within 365 days after the date of a covered accident, the Insured Person’s Injury results in death or dismemberment, this Plan provides the following benefits for loss of:</p>
                   </div>
 
                   <div className="row justify-content-center first">
@@ -300,23 +300,23 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
               </div>
 
                   <div className="content-bg">
-                    <p><strong>Coma Benefit –</strong> If a covered Injury renders an Insured Person Comatose within 90 days of the date of the accident that caused the Injury, and if the Coma continues for a period of 30 consecutive days, The Company will pay a monthly benefit equal to 1% of the maximum amount.</p>
+                    <p className="insurance-content"><strong>Coma Benefit –</strong> If a covered Injury renders an Insured Person Comatose within 90 days of the date of the accident that caused the Injury, and if the Coma continues for a period of 30 consecutive days, The Company will pay a monthly benefit equal to 1% of the maximum amount.</p>
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>Seat Belt and Airbag Benefit  –</strong> The Company will pay a benefit if the Insured Person suffers accidental death while operating, or riding as a passenger in an Automobile and he/she was wearing a properly fastened seat belt, properly installed by a factory authorized dealer and was positioned in a seat protected by a properly functioning Supplemental Restraint System, properly installed by a factory authorized dealer that inflates on impact.</p>
+                    <p className="insurance-content"><strong>Seat Belt and Airbag Benefit  –</strong> The Company will pay a benefit if the Insured Person suffers accidental death while operating, or riding as a passenger in an Automobile and he/she was wearing a properly fastened seat belt, properly installed by a factory authorized dealer and was positioned in a seat protected by a properly functioning Supplemental Restraint System, properly installed by a factory authorized dealer that inflates on impact.</p>
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>Felonious Assault Benefit –</strong> The Company will pay a benefit if an Insured Person suffers one or more losses for which benefits are payable under the Accidental Dismemberment Benefit or Coma Benefit provided by the plan as a result of a Felonious Assault.</p>
+                    <p className="insurance-content"><strong>Felonious Assault Benefit –</strong> The Company will pay a benefit if an Insured Person suffers one or more losses for which benefits are payable under the Accidental Dismemberment Benefit or Coma Benefit provided by the plan as a result of a Felonious Assault.</p>
                   </div>
 
                   <div className="content-bg">
-                    <p><strong>Home Alteration and Vehicle Modification –</strong> The Company will pay Covered Home Alteration and Vehicle Modification Expenses that are incurred within one year after the date of the accident causing such loss(es).</p>
+                    <p className="insurance-content"><strong>Home Alteration and Vehicle Modification –</strong> The Company will pay Covered Home Alteration and Vehicle Modification Expenses that are incurred within one year after the date of the accident causing such loss(es).</p>
                   </div>
 
                   <div className="content-bg">
-                    <p>*Some Exclusions Apply*</p>
+                    <p className="insurance-content">*Some Exclusions Apply*</p>
                   </div>
                 </div>
                 </div>
@@ -325,6 +325,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
           </div>
        </Container>
       </section>
+
 
       <section id="diplomat-international-section-5">
         <Container>

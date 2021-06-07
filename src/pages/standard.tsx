@@ -46,7 +46,9 @@ const StandardPage: React.FC<Props> = ({ data, location }: Props) => {
               <p className="hero-text text-white text-center">
                 The INF Standard IVAS plan is an accident & sickness insurance program for INF members visiting the United States Canada, or Mexico.
               </p>
-              <button className="hero-btn"> Get a Quote </button>
+              <Link to="/visitors-insurance-quote" className="nav-link">
+                <button className="hero-btn"> Get a Quote </button>
+              </Link>
             </div>
           </Container>
         </div>
@@ -608,12 +610,16 @@ const StandardPage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="col-lg-5 text-center">
                 <h3 className="text-black">Read More for Age 0-69 </h3>
                 <Img fluid={book_icon} className="book-icon-img"/>
-                <button className="read-now-btn"> Read Now </button>
+                <a href="https://infplans.com/policy_pdf/INF_Standard_0_69_Description_of_Benefits.pdf" target="_blank">
+                  <button className="read-now-btn"> Read Now </button>
+                </a>
               </div>
               <div className="col-lg-5 text-center">
                 <h3 className="text-black">Read More for Age 70-99 </h3>
                 <Img fluid={book_icon} className="book-icon-img"/>
-                <button className="read-now-btn"> Read Now </button>
+                <a href="https://infplans.com/policy_pdf/INF_Standard_Policy_Document_70_99.pdf" target="_blank">
+                  <button className="read-now-btn"> Read Now </button>
+                </a>
               </div>
             </div>
           </div>

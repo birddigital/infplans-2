@@ -270,8 +270,8 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
              </div>
            </div>
            <div className="bmi-bg">
-           <div className="col-lg-12">
-               <div className="col-lg-12">
+           <div className="col-lg-12 bmi-content1">
+               <div className="col-lg-12 bmi-content2">
                  <p className="text-blue text-center notice">Important Notice</p>
                  <p className="text-center notice-content">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage</p>
                  <p className="text-center notice-content">Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
@@ -294,8 +294,8 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
               </ul>
            </div>
            <div className="bmi-bg">
-           <div className="col-lg-12">
-               <div className="col-lg-12">
+           <div className="col-lg-12 bmi-content1">
+               <div className="col-lg-12 bmi-content2">
                  <p className="text-blue text-center notice">Important Notice</p>
                  <p className="text-center notice-content">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage</p>
                  <p className="text-center notice-content">Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
@@ -320,8 +320,8 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
              </div>
              </div>
              <div className="bmi-bg">
-             <div className="col-lg-12">
-                 <div className="col-lg-12">
+             <div className="col-lg-12 bmi-content1">
+                 <div className="col-lg-12 bmi-content2">
                    <p className="text-blue text-center notice">Important Notice</p>
                    <p className="text-center notice-content">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage</p>
                    <p className="text-center notice-content">Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>

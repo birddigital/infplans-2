@@ -249,298 +249,339 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
               </ul>
             </nav>
 
-      <section>
-       <div class="conditions-tabone">
-        <div className="row">
-          <div className="col-lg-3">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">Benefits</p>
-          </div>
-          <p className="tab-content1 text-black">​Medical Assistance for Accident</p>
-          <p className="tab-content1 text-black">​Medical Assistance for Illness</p>
-          <p className="tab-content1 text-black">Medical Assistance in Case of Pre-Existing Medical Condition</p>
-          <p className="tab-content1 text-black">Medical Assistance for COVID-19 up to 64 years old</p>
-          <p className="tab-content1 text-black">​Medical Assistance for COVID-19 - 65 to 70 years old country of origin</p>
-          <p className="tab-content1 text-black">​Prescription Drugs</p>
-          <p className="tab-content1 text-black">​​Dental Emergency</p>
-        </div>
+            <section>
+             <div class="conditions-tabone">
+              <div className="row">
+                <div className="col-lg-3">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Benefits</p>
+                </div>
+                <p className="tab-content1 text-black content-1">​Medical Assistance for Accident</p>
+                <p className="tab-content1 text-black content-2">​Medical Assistance for Illness</p>
+                <p className="tab-content1 text-black content-3">Medical Assistance in Case of Pre-Existing Medical Condition</p>
+                <p className="tab-content1 text-black content-4">Medical Assistance for COVID-19 up to 64 years old</p>
+                <p className="tab-content1 text-black content-5">​Medical Assistance for COVID-19 - 65 to 70 years old country of origin</p>
+                <p className="tab-content1 text-black content-6">​Prescription Drugs</p>
+                <p className="tab-content1 text-black content-7">​​Dental Emergency</p>
+              </div>
 
-        <div className="col">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">Classico</p>
-          </div>
-          <p className="tab-content2 text-black">$10,000</p>
-          <p className="tab-content2 text-black">​$10,000</p>
-          <p className="tab-content2 text-black">$300</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$0</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">​$150</p>
-        </div>
+              <div className="col">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Classico</p>
+                </div>
+                <p className="tab-content2 text-black">$10,000</p>
+                <p className="tab-content2 text-black">​$10,000</p>
+                <p className="tab-content2 text-black">$300</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">$0</p>
+                <p className="tab-content2 text-black content-6">Included</p>
+                <p className="tab-content2 text-black content-7">​$150</p>
+              </div>
 
-        <div className="col">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">Ultra</p>
-          </div>
-          <p className="tab-content2 text-black">$30,000</p>
-          <p className="tab-content2 text-black">$30,000</p>
-          <p className="tab-content2 text-black">$500</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$30,000</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$300</p>
-        </div>
+              <div className="col">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Ultra</p>
+                </div>
+                <p className="tab-content2 text-black">$30,000</p>
+                <p className="tab-content2 text-black">$30,000</p>
+                <p className="tab-content2 text-black">$500</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">$30,000</p>
+                <p className="tab-content2 text-black content-6">Included</p>
+                <p className="tab-content2 text-black content-7">$300</p>
+              </div>
 
-        <div className="col">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">Ultra Plus</p>
-          </div>
-          <p className="tab-content2 text-black">​$60,000</p>
-          <p className="tab-content2 text-black">​$60,000</p>
-          <p className="tab-content2 text-black">​$700</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$30,000</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$​750</p>
-        </div>
+              <div className="col">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Ultra Plus</p>
+                </div>
+                <p className="tab-content2 text-black">​$60,000</p>
+                <p className="tab-content2 text-black">​$60,000</p>
+                <p className="tab-content2 text-black">​$700</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">$30,000</p>
+                <p className="tab-content2 text-black content-6">Included</p>
+                <p className="tab-content2 text-black content-7">$​750</p>
+              </div>
 
-        <div className="col">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">VIP</p>
-          </div>
-          <p className="tab-content2 text-black">​$100,000</p>
-          <p className="tab-content2 text-black">​$100,000</p>
-          <p className="tab-content2 text-black">$2,000</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$30,000</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$1,500</p>
-        </div>
+              <div className="col">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">VIP</p>
+                </div>
+                <p className="tab-content2 text-black">​$100,000</p>
+                <p className="tab-content2 text-black">​$100,000</p>
+                <p className="tab-content2 text-black">$2,000</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">$30,000</p>
+                <p className="tab-content2 text-black content-6">Included</p>
+                <p className="tab-content2 text-black content-7">$1,500</p>
+              </div>
 
-        <div className="col">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">VIP Plus</p>
-          </div>
-          <p className="tab-content2 text-black">​$250,000</p>
-          <p className="tab-content2 text-black">​$250,000</p>
-          <p className="tab-content2 text-black">$6,000</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$30,000</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$1,750</p>
-        </div>
-        </div>
-      </div>
+              <div className="col">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">VIP Plus</p>
+                </div>
+                <p className="tab-content2 text-black">​$250,000</p>
+                <p className="tab-content2 text-black">​$250,000</p>
+                <p className="tab-content2 text-black">$6,000</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">$30,000</p>
+                <p className="tab-content2 text-black content-6">Included</p>
+                <p className="tab-content2 text-black content-7">$1,750</p>
+              </div>
+              </div>
+            </div>
 
-        <div class="conditions-tabtwo">
-        <div className="row">
-          <div className="col-lg-3">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">Benefits</p>
-          </div>
-          <p className="tab-content1 text-black">Repatriation or Sanitary Transfer</p>
-          <p className="tab-content1 text-black">​Repatriation of Mortal Remains</p>
-          <p className="tab-content1 text-black">Accidental Death (up to 84 years old)*</p>
-          <p className="tab-content1 text-black">Transportation of Family Member due to Hospitalization</p>
-          <p className="tab-content1 text-black">​Convalescence Expense Hotel Expenses</p>
-          <p className="tab-content1 text-black">Lost Documents and Personal Effects Assistance​</p>
-          <p className="tab-content1 text-black">​​Return due to Death of an Immediate Family Member​</p>
-          <p className="tab-content1 text-black">​​Early Return Due to Serious Disaster at Home​</p>
-          <p className="tab-content1 text-black">​​Minor Escort</p>
-          <p className="tab-content1 text-black">Trip Cancellation (up to 74 years old)​</p>
-        </div>
+              <div class="conditions-tabtwo">
+              <div className="row">
+                <div className="col-lg-3">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Benefits</p>
+                </div>
+                <p className="tab-content1 text-black con-1">Repatriation or Sanitary Transfer</p>
+                <p className="tab-content1 text-black con-2">​Repatriation of Mortal Remains</p>
+                <p className="tab-content1 text-black con-3">Accidental Death (up to 84 years old)*</p>
+                <p className="tab-content1 text-black con-4">Transportation of Family Member due to Hospitalization</p>
+                <p className="tab-content1 text-black con-5">​Convalescence Expense Hotel Expenses</p>
+                <p className="tab-content1 text-black con-6">Lost Documents and Personal Effects Assistance​</p>
+                <p className="tab-content1 text-black con-7">​​Return due to Death of an Immediate Family Member​</p>
+                <p className="tab-content1 text-black con-8">​​Early Return Due to Serious Disaster at Home​</p>
+                <p className="tab-content1 text-black con-9">​​Minor Escort</p>
+                <p className="tab-content1 text-black con-10">Trip Cancellation (up to 74 years old)​</p>
+              </div>
 
-        <div className="col">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">Classico</p>
-          </div>
-          <p className="tab-content2 text-black">$10,000</p>
-          <p className="tab-content2 text-black">​$10,000</p>
-          <p className="tab-content2 text-black">$10,000</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$300</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">Economy Ticket</p>
-          <p className="tab-content2 text-black">Economy Ticket</p>
-          <p className="tab-content2 text-black">Economy Ticket</p>
-          <p className="tab-content2 text-black">N/A</p>
-        </div>
+              <div className="col">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Classico</p>
+                </div>
+                <p className="tab-content2 text-black">$10,000</p>
+                <p className="tab-content2 text-black">​$10,000</p>
+                <p className="tab-content2 text-black">$10,000</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">$300</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">Economy Ticket</p>
+                <p className="tab-content2 text-black">Economy Ticket</p>
+                <p className="tab-content2 text-black con-9">Economy Ticket</p>
+                <p className="tab-content2 text-black">N/A</p>
+              </div>
 
-        <div className="col">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">Ultra</p>
-          </div>
-          <p className="tab-content2 text-black">$30,000</p>
-          <p className="tab-content2 text-black">$30,000</p>
-          <p className="tab-content2 text-black">​$10,000</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$800</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">Economy Ticket</p>
-          <p className="tab-content2 text-black">Economy Ticket</p>
-          <p className="tab-content2 text-black">Economy Ticket</p>
-          <p className="tab-content2 text-black">$2,000</p>
-        </div>
+              <div className="col">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Ultra</p>
+                </div>
+                <p className="tab-content2 text-black">$30,000</p>
+                <p className="tab-content2 text-black">$30,000</p>
+                <p className="tab-content2 text-black">​$10,000</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">$800</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">Economy Ticket</p>
+                <p className="tab-content2 text-black">Economy Ticket</p>
+                <p className="tab-content2 text-black con-9">Economy Ticket</p>
+                <p className="tab-content2 text-black">$2,000</p>
+              </div>
 
-        <div className="col">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">Ultra Plus</p>
-          </div>
-          <p className="tab-content2 text-black">​$60,000</p>
-          <p className="tab-content2 text-black">​$60,000</p>
-          <p className="tab-content2 text-black">​$50,000</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$800</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">Economy Ticket</p>
-          <p className="tab-content2 text-black">Economy Ticket</p>
-          <p className="tab-content2 text-black">Economy Ticket</p>
-          <p className="tab-content2 text-black">$2,000</p>
-        </div>
+              <div className="col">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Ultra Plus</p>
+                </div>
+                <p className="tab-content2 text-black">​$60,000</p>
+                <p className="tab-content2 text-black">​$60,000</p>
+                <p className="tab-content2 text-black">​$50,000</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">$800</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">Economy Ticket</p>
+                <p className="tab-content2 text-black">Economy Ticket</p>
+                <p className="tab-content2 text-black con-9">Economy Ticket</p>
+                <p className="tab-content2 text-black">$2,000</p>
+              </div>
 
-        <div className="col">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">VIP</p>
-          </div>
-          <p className="tab-content2 text-black">​$100,000</p>
-          <p className="tab-content2 text-black">​​$60,000</p>
-          <p className="tab-content2 text-black">$50,000</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$2,000</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">Economy Ticket</p>
-          <p className="tab-content2 text-black">Economy Ticket</p>
-          <p className="tab-content2 text-black">Economy Ticket</p>
-          <p className="tab-content2 text-black">$2,000</p>
-        </div>
+              <div className="col">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">VIP</p>
+                </div>
+                <p className="tab-content2 text-black">​$100,000</p>
+                <p className="tab-content2 text-black">​​$60,000</p>
+                <p className="tab-content2 text-black">$50,000</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">$2,000</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">Economy Ticket</p>
+                <p className="tab-content2 text-black">Economy Ticket</p>
+                <p className="tab-content2 text-black con-9">Economy Ticket</p>
+                <p className="tab-content2 text-black">$2,000</p>
+              </div>
 
-        <div className="col">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">VIP Plus</p>
-          </div>
-          <p className="tab-content2 text-black">​Included</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$100,000</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$2,200</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">Economy Ticket</p>
-          <p className="tab-content2 text-black">Economy Ticket</p>
-          <p className="tab-content2 text-black">Economy Ticket</p>
-          <p className="tab-content2 text-black">$2,000</p>
-        </div>
-        </div>
-      </div>
+              <div className="col">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">VIP Plus</p>
+                </div>
+                <p className="tab-content2 text-black">​Included</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">$100,000</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">$2,200</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black">Economy Ticket</p>
+                <p className="tab-content2 text-black">Economy Ticket</p>
+                <p className="tab-content2 text-black con-9">Economy Ticket</p>
+                <p className="tab-content2 text-black">$2,000</p>
+              </div>
+              </div>
+            </div>
 
-        <div class="conditions-tabthree">
-        <div className="row">
-          <div className="col-lg-3">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">Benefits</p>
-          </div>
-          <p className="tab-content1 text-black">Substitution of an Executive</p>
-          <p className="tab-content1 text-black">24 Hours’ Information Line</p>
-          <p className="tab-content1 text-black">Emergency Message Transmission</p>
-          <p className="tab-content1 text-black">Fee for Transfer of Bail Bond</p>
-          <p className="tab-content1 text-black">​​Fee for Transfer of Funds</p>
-          <p className="tab-content1 text-black">Legal Assistance for Traffic Accident</p>
-          <p className="tab-content1 text-black">Total and Definitive Loss of Baggage​</p>
-          <p className="tab-content1 text-black">​​Expenses for Delay Luggage​</p>
-          <p className="tab-content1 text-black">Delayed or Cancelled Flight</p>
-          <p className="tab-content1 text-black">Theft or loss passport during a trip​</p>
-          <p className="tab-content1 text-black">Late Arrival​</p>
-        </div>
+              <div class="conditions-tabthree">
+              <div className="row">
+                <div className="col-lg-3">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Benefits</p>
+                </div>
+                <p className="tab-content1 text-black benefit1">Substitution of an Executive</p>
+                <p className="tab-content1 text-black benefit2">24 Hours’ Information Line</p>
+                <p className="tab-content1 text-black benefit3">Emergency Message Transmission</p>
+                <p className="tab-content1 text-black benefit4">Fee for Transfer of Bail Bond</p>
+                <p className="tab-content1 text-black benefit5">​​Fee for Transfer of Funds</p>
+                <p className="tab-content1 text-black benefit6">Legal Assistance for Traffic Accident</p>
+                <p className="tab-content1 text-black benefit7">Total and Definitive Loss of Baggage​</p>
+                <p className="tab-content1 text-black benefit8">​​Expenses for Delay Luggage​</p>
+                <p className="tab-content1 text-black benefit9">Delayed or Cancelled Flight</p>
+                <p className="tab-content1 text-black benefit10">Theft or loss passport during a trip​</p>
+                <p className="tab-content1 text-black benefit11">Late Arrival​</p>
+              </div>
 
-        <div className="col">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">Classico</p>
-          </div>
-          <p className="tab-content2 text-black">N/A</p>
-          <p className="tab-content2 text-black">​Included</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$10,000</p>
-          <p className="tab-content2 text-black">$10,000</p>
-          <p className="tab-content2 text-black">$1,000</p>
-          <p className="tab-content2 text-black">​$600</p>
-          <p className="tab-content2 text-black">​$600</p>
-          <p className="tab-content2 text-black">N/A</p>
-          <p className="tab-content2 text-black">$50</p>
-          <p className="tab-content2 text-black">$100</p>
-        </div>
+              <div className="col">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Classico</p>
+                </div>
+                <p className="tab-content2 text-black benefit1">N/A</p>
+                <p className="tab-content2 text-black benefit2">​Included</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black benefit4">$10,000</p>
+                <p className="tab-content2 text-black benefit5">$10,000</p>
+                <p className="tab-content2 text-black">$1,000</p>
+                <p className="tab-content2 text-black">​$600</p>
+                <p className="tab-content2 text-black benefit8">​$600</p>
+                <p className="tab-content2 text-black benefit9">N/A</p>
+                <p className="tab-content2 text-black">$50</p>
+                <p className="tab-content2 text-black benefit11">$100</p>
+              </div>
 
-        <div className="col">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">Ultra</p>
-          </div>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">​Included</p>
-          <p className="tab-content2 text-black">$20,000</p>
-          <p className="tab-content2 text-black">$20,000</p>
-          <p className="tab-content2 text-black">$2,000</p>
-          <p className="tab-content2 text-black">$1,200</p>
-          <p className="tab-content2 text-black">​$800</p>
-          <p className="tab-content2 text-black">N/A</p>
-          <p className="tab-content2 text-black">$70</p>
-          <p className="tab-content2 text-black">$300</p>
-        </div>
+              <div className="col">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Ultra</p>
+                </div>
+                <p className="tab-content2 text-black benefit1">Included</p>
+                <p className="tab-content2 text-black benefit2">Included</p>
+                <p className="tab-content2 text-black">​Included</p>
+                <p className="tab-content2 text-black benefit4">$20,000</p>
+                <p className="tab-content2 text-black benefit5">$20,000</p>
+                <p className="tab-content2 text-black">$2,000</p>
+                <p className="tab-content2 text-black">$1,200</p>
+                <p className="tab-content2 text-black benefit8">​$800</p>
+                <p className="tab-content2 text-black benefit9">N/A</p>
+                <p className="tab-content2 text-black">$70</p>
+                <p className="tab-content2 text-black benefit11">$300</p>
+              </div>
 
-        <div className="col">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">Ultra Plus</p>
-          </div>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">​Included</p>
-          <p className="tab-content2 text-black">$20,000</p>
-          <p className="tab-content2 text-black">$20,000</p>
-          <p className="tab-content2 text-black">$2,000</p>
-          <p className="tab-content2 text-black">$1,200</p>
-          <p className="tab-content2 text-black">$1,200</p>
-          <p className="tab-content2 text-black">$150</p>
-          <p className="tab-content2 text-black">$100</p>
-          <p className="tab-content2 text-black">$450</p>
-        </div>
+              <div className="col">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Ultra Plus</p>
+                </div>
+                <p className="tab-content2 text-black benefit1">Included</p>
+                <p className="tab-content2 text-black benefit2">Included</p>
+                <p className="tab-content2 text-black">​Included</p>
+                <p className="tab-content2 text-black benefit4">$20,000</p>
+                <p className="tab-content2 text-black benefit5">$20,000</p>
+                <p className="tab-content2 text-black">$2,000</p>
+                <p className="tab-content2 text-black">$1,200</p>
+                <p className="tab-content2 text-black benefit8">$1,200</p>
+                <p className="tab-content2 text-black benefit9">$150</p>
+                <p className="tab-content2 text-black">$100</p>
+                <p className="tab-content2 text-black benefit11">$450</p>
+              </div>
 
-        <div className="col">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">VIP</p>
-          </div>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">​Included</p>
-          <p className="tab-content2 text-black">$30,000</p>
-          <p className="tab-content2 text-black">$30,000</p>
-          <p className="tab-content2 text-black">$3,000</p>
-          <p className="tab-content2 text-black">$3,000</p>
-          <p className="tab-content2 text-black">$2,000</p>
-          <p className="tab-content2 text-black">$150</p>
-          <p className="tab-content2 text-black">$100</p>
-          <p className="tab-content2 text-black">$500</p>
-        </div>
+              <div className="col">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">VIP</p>
+                </div>
+                <p className="tab-content2 text-black benefit1">Included</p>
+                <p className="tab-content2 text-black benefit2">Included</p>
+                <p className="tab-content2 text-black">​Included</p>
+                <p className="tab-content2 text-black benefit4">$30,000</p>
+                <p className="tab-content2 text-black benefit5">$30,000</p>
+                <p className="tab-content2 text-black">$3,000</p>
+                <p className="tab-content2 text-black">$3,000</p>
+                <p className="tab-content2 text-black benefit8">$2,000</p>
+                <p className="tab-content2 text-black benefit9">$150</p>
+                <p className="tab-content2 text-black">$100</p>
+                <p className="tab-content2 text-black benefit11">$500</p>
+              </div>
 
-        <div className="col">
-          <div className="column-tab">
-            <p className="text-white column-tab-title">VIP Plus</p>
-          </div>
-          <p className="tab-content2 text-black">​Included</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">Included</p>
-          <p className="tab-content2 text-black">$35,000</p>
-          <p className="tab-content2 text-black">$40,000</p>
-          <p className="tab-content2 text-black">$9,000</p>
-          <p className="tab-content2 text-black">$3,000</p>
-          <p className="tab-content2 text-black">​$2,000 </p>
-          <p className="tab-content2 text-black">$150</p>
-          <p className="tab-content2 text-black">$100</p>
-          <p className="tab-content2 text-black">$500</p>
-        </div>
-        </div>
-        </div>
-      </section>
-      </div>
-     </Container>
-    </section>
+              <div className="col">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">VIP Plus</p>
+                </div>
+                <p className="tab-content2 text-black benefit1">​Included</p>
+                <p className="tab-content2 text-black benefit2">Included</p>
+                <p className="tab-content2 text-black">Included</p>
+                <p className="tab-content2 text-black benefit4">$35,000</p>
+                <p className="tab-content2 text-black benefit5">$40,000</p>
+                <p className="tab-content2 text-black">$9,000</p>
+                <p className="tab-content2 text-black">$3,000</p>
+                <p className="tab-content2 text-black benefit8">​$2,000 </p>
+                <p className="tab-content2 text-black benefit9">$150</p>
+                <p className="tab-content2 text-black">$100</p>
+                <p className="tab-content2 text-black benefit11">$500</p>
+              </div>
+              </div>
+              </div>
+            </section>
+            </div>
+           </Container>
+          </section>
+
+          <section id="bmi-travel-section-7">
+            <Container>
+              <div className="col-lg-12">
+                <h3 className="text-blue text-center row-title">Benefits for BMI Travel Assist</h3>
+
+                <div className="row">
+                  <div className="col-lg-6">
+                    <div className="column-tab">
+                      <p className="text-white column-tab-title">Medical Benefits</p>
+                    </div>
+                    <ul className="tab-content1 text-black">
+                      <li>Medical assistance for accident or illness</li>
+                      <li>Medical assistance for COVID-19</li>
+                      <li>Prescription drugs</li>
+                      <li>Dental emergency</li>
+                      <li>​Repatriation or sanitary transfer</li>
+                    </ul>
+                  </div>
+
+                    <div className="col-lg-6">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">Non-Medical Benefits</p>
+                      </div>
+                      <ul className="tab-content text-black">
+                        <li>Accidental death</li>
+                        <li>Repatriation of mortal remains</li>
+                        <li>Transportation of family member due to hospitalization</li>
+                        <li>Hotel expenses due to convalescence</li>
+                        <li>​Late arrival</li>
+                        <li>​Return due to death of family member</li>
+                        <li>Early return due to serious disaster at home</li>
+                        <li>​Lost or delayed luggage</li>
+                        <li>Delayed or cancelled flight</li>
+                        <li>Theft or loss of passport during a trip</li>
+                      </ul>
+                  </div>
+                  </div>
+                </div>
+            </Container>
+           </section>
 
     <section id="bmi-travel-section-7">
       <Container>
@@ -609,13 +650,13 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                    <label for="options-tabthree" className="title">Student Plan</label>
                   </li>
                   <li className="options-tabfour">
-                    <label for="options-tabfour">Extended Stay Plan</label>
+                    <label for="options-tabfour" className="title">Extended Stay Plan</label>
                    </li>
                    <li className="options-tabfive">
-                     <label for="options-tabfive">Multi-Trip Annual Plan</label>
+                     <label for="options-tabfive" className="title">Multi-Trip Annual Plan</label>
                     </li>
                     <li className="options-tabsix">
-                      <label for="options-tabsix">Corporate Plan</label>
+                      <label for="options-tabsix" className="title">Corporate Plan</label>
                      </li>
                </ul>
              </nav>
@@ -629,7 +670,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                 <li>Pay for the exact days of your trip</li>
               </ul>
 
-              <p className="optional">Optional:</p>
+              <p className="optional"><strong>Optional:</strong></p>
 
               <ul className="plan-options">
                 <li>Expectant Mother</li>
