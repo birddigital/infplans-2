@@ -374,7 +374,9 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
               <div className="flipcard-container-inner flip-card-back">
                 <h3 className="text-center">Extend Your <br />Policy</h3>
-                <button className="flipcard-btn"> Find A Provider </button>
+                <Link to="/extend" className="nav-link">
+                  <button className="flipcard-btn"> Find A Provider </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -386,7 +388,9 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
               <div className="flipcard-container-inner flip-card-back">
                 <h3 className="text-center">Policy Docs & <br />ID Cards</h3>
-                <button className="flipcard-btn"> Find A Provider </button>
+                <Link to="/plan-id-cards" className="nav-link">
+                  <button className="flipcard-btn"> Find A Provider </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -399,7 +403,9 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="flipcard-container-inner flip-card-back">
                 <h3 className="text-center">Doctors & <br />Hospitals</h3>
                 <p className="text-black flipcard-content">Find an In-Network Health Care Provider Nearby</p>
-                <button className="flipcard-btn"> Find A Provider </button>
+                <Link to="/first-health-ppo" className="nav-link">
+                  <button className="flipcard-btn"> Find A Provider </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -411,7 +417,9 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
               <div className="flipcard-container-inner flip-card-back">
                 <h3 className="text-center">Claims</h3>
-                <button className="flipcard-btn"> Find A Provider </button>
+                <Link to="/claims" className="nav-link">
+                  <button className="flipcard-btn"> Find A Provider </button>
+                </Link>
               </div>
             </div>
           </div>

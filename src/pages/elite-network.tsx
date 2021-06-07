@@ -69,7 +69,9 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="col-lg-4">
                 <Img fluid={infplans_big_logo} className="big-logo"/>
                 <h3 className="text-blue text-center">INF Elite IVAS Plan</h3>
-                <button className="row-btn"> Click to Get a Quote </button>
+                <Link to="/inf-easy-select"  target="_blank" className="nav-link">
+                  <button className="row-btn"> Click to Get a Quote </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -271,12 +273,16 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="col-lg-5 text-center">
                 <h3 className="text-black">Read INF Elite IVAS Plan<br /> Description for Age 0-69  </h3>
                 <Img fluid={book_icon} className="book-icon-img"/>
-                <button className="read-now-btn"> Read Now </button>
+                <a href="https://infplans.com/policy_pdf/INF_Elite_Network_Policy_Document_age_0_69.pdf" target="_blank">
+                  <button className="read-now-btn"> Read Now </button>
+                </a>
               </div>
               <div className="col-lg-5 text-center">
                 <h3 className="text-black">Read INF Elite IVAS Plan<br /> Description for Age 70-79 </h3>
                 <Img fluid={book_icon} className="book-icon-img"/>
-                <button className="read-now-btn"> Read Now </button>
+                <a href="https://infplans.com/policy_pdf/INF_Elite_Network_Policy_Document_70_99.pdf" target="_blank">
+                  <button className="read-now-btn"> Read Now </button>
+                </a>
               </div>
             </div>
           </div>

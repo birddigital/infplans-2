@@ -103,7 +103,9 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-3">
             <Img fluid={inf_logo} className="plans-logo"/>
             <p className="text-center">Elite Network</p>
-            <button className="plan-btn">Plan Details </button>
+            <Link to="/elite-network" className="nav-link">
+              <button className="plan-btn">Plan Details </button>
+            </Link>
             <button className="get-btn">Get a Quote </button>
           </div>
        </div>
@@ -141,7 +143,9 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
         <div className="col-lg-3">
           <Img fluid={inf_logo} className="plans-logo"/>
           <p className="text-center">Standard</p>
-          <button className="plan-btn">Plan Details </button>
+          <Link to="/standard" className="nav-link">
+            <button className="plan-btn">Plan Details </button>
+          </Link>
           <button className="get-btn">Get a Quote </button>
         </div>
      </div>
@@ -181,7 +185,9 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
          <div className="col-lg-3">
            <Img fluid={inf_logo} className="plans-logo"/>
            <p className="text-center">Premier</p>
-           <button className="plan-btn">Plan Details </button>
+           <Link to="/premier" className="nav-link">
+            <button className="plan-btn">Plan Details </button>
+           </Link>
            <button className="get-btn">Get a Quote </button>
          </div>
       </div>
@@ -219,7 +225,9 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
        <div className="col-lg-3">
          <Img fluid={inf_logo} className="plans-logo"/>
          <p className="text-center">Travel USA</p>
-         <button className="plan-btn">Plan Details </button>
+         <Link to="/traveler-usa" className="nav-link">
+          <button className="plan-btn">Plan Details </button>
+        </Link>
          <button className="get-btn">Get a Quote </button>
        </div>
     </div>

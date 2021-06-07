@@ -161,6 +161,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
                     </ul>
                   </div>
 
+                  <div className="row">
                   <div className="column-tab">
                     <p className="text-white column-tab-title">Policy Medical Maximum Choices</p>
                   </div>
@@ -183,6 +184,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
                     <p className="age">Persons up to age 69 are eligible for all plans;</p>
                     <p className="age">Persons age 70-79 are eligible for plans A and B;</p>
                     <p className="age">Persons age 80+ are limited to $20,000.</p>
+                  </div>
                   </div>
 
                   <div className="content-bg">

@@ -282,22 +282,22 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                     <div className="col-lg-12">
                         <p className="claims"><strong>Claim Forms:</strong></p>
                             <ul>
-                            <a href="/policy_pdf/GU_Sickness.pdf">
+                            <a href="https://infplans.com/policy_pdf/GU_Sickness.pdf">
                               <li className="claim-disease">Accident & Sickness</li>
                             </a>
-                            <a href="/policy_pdf/GU_Death.pdf">
+                            <a href="https://infplans.com/policy_pdf/GU_Death.pdf">
                               <li className="claim-disease">Death</li>
                             </a>
-                            <a href="/policy_pdf/GU_ADD.pdf">
+                            <a href="https://infplans.com/policy_pdf/GU_ADD.pdf">
                               <li className="claim-disease">Dismemberment/Paralysis</li>
                             </a>
-                            <a href="/policy_pdf/GU_Baggage.pdf">
+                            <a href="https://infplans.com/policy_pdf/GU_Baggage.pdf">
                               <li className="claim-disease">Lost Baggage</li>
                             </a>
-                            <a href="/policy_pdf/GU_Interruption.pdf">
+                            <a href="https://infplans.com/policy_pdf/GU_Interruption.pdf">
                               <li className="claim-disease">Trip Interruption</li>
                             </a>
-                            <a href="/policy_pdf/GU_TripCancel.pdf">
+                            <a href="https://infplans.com/policy_pdf/GU_TripCancel.pdf">
                               <li className="claim-disease">Trip Cancellation/Delay</li>
                             </a>
                             </ul>

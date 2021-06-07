@@ -99,7 +99,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                       <Img fluid={claims_payment_img} className="flipcard-icon" alt="Claims Payment" />
                       <h3 className="text-center">Claims Payment</h3>
                     </div>
-                    <div className="flipcard-container-inner flip-card-back">
+                    <div className="flipcard-container-inner1 flip-card-back">
                       <h3 className="text-center inner-content1">Claims Payment</h3>
                       <p className="text-black flipcard-content1">After submitting your claims, the insurance company will reimburse you for your eligible medical expenses in accordance with the terms, conditions and limitations of your plan, depending on if all the documents are submitted correctly.</p>
                     </div>
@@ -176,9 +176,9 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
 
                <div className="col-lg-6 infor">
                  <p><strong>Check Claim Status:</strong> 888-293-9229</p>
-                 <p><strong>Submit Bills Online:</strong>  aciclaims@visit-aci.com</p>
+                 <p className="submit-bills"><strong>Submit Bills Online:</strong>  aciclaims@visit-aci.com</p>
                  <a href="http://www.visit-aci.com" target="_blank"><strong>Web:</strong> http://www.visit-aci.com</a>
-                 ​<p><strong>EDI Payor#:</strong> 22384</p>
+                 ​<p className="pay"><strong>EDI Payor#:</strong> 22384</p>
               </div>
 
               <div className="col-lg-12 download-claims">
@@ -186,13 +186,13 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="col-lg-6">
                  <h4 className="download text-center">Download Claims Form<br /> Policy Numbers Starting with GLM</h4>
                   <Img fluid={pdf_icon} className="pdf-icon"/>
-                  <button className="download-btn"> Download </button>
+                  <a href="https://infplans.com/policy_pdf/GLM_INFHealthCare_ClaimForm.pdf" target="_blank"><button className="download-btn"> Download </button></a>
                  </div>
 
                 <div className="col-lg-6">
                  <h4 className="download text-center">Download Claims Form<br /> Policy Numbers Starting with INF</h4>
                  <Img fluid={pdf_icon} className="pdf-icon"/>
-                 <button className="download-btn2"> Download </button>
+                 <a href="https://infplans.com/policy_pdf/INF_INFHealthCare_ClaimForm.pdf" target="_blank"><button className="download-btn2"> Download </button></a>
                </div>
               </div>
               </div>
@@ -216,9 +216,9 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
              </div>
 
              <div className="col-lg-6 infor">
-               <p><strong>Submit Bills Online:</strong> helpme@webtpa.com</p>
+               <p className="submit-bills"><strong>Submit Bills Online:</strong> helpme@webtpa.com</p>
                <a href="http://www.visit-aci.com" target="_blank"><strong>Web:</strong> http://www.visit-aci.com</a>
-               <p>​EDI Payor#: 22384</p>
+               <p className="pay">​EDI Payor#: 22384</p>
              </div>
             </div>
             </div>

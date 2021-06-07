@@ -64,7 +64,9 @@ const TravelerUSAPage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="col-lg-4">
                 <Img fluid={infplans_big_logo} className="big-logo"/>
                 <h3 className="text-blue text-center">INF Traveler USA IVAS Plan</h3>
-                <button className="row-btn"> Click to Get a Quote </button>
+                <Link to="/inf-easy-select"  target="_blank" className="nav-link">
+                  <button className="row-btn"> Click to Get a Quote </button>
+                </Link>
               </div>
             </div>
           </div>
