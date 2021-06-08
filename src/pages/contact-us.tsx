@@ -13,6 +13,7 @@ import ButtonBlack from 'components/button/button-black'
 import {FiClock} from '@react-icons/all-files/fi/FiClock'
 import {FiPhoneCall} from '@react-icons/all-files/fi/FiPhoneCall'
 import {FiMail} from '@react-icons/all-files/fi/FiMail'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -27,7 +28,16 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Contact Us about Insurance for Visitors Questions"/>
+      <Helmet>
+        <title>Contact Us about Insurance for Visitors Questions</title>
+        <meta property="og:site_name" content="INF Visitor Insurance"/>
+        <meta property="og:title" content="Contact Us for Insurance for Visitors Questions &amp; Needs"/>
+        <meta property="og:description" content="Monday - Friday : 9:00 AM - 11:00 PM EST Saturday - Sunday : 10:00 AM - 9:00 PM EST ​ Support Via Phone: 408-540-3601 Support Via Email: support @infplans.com"/>
+        <meta name="description" content="Contact INF: 408-540-3601 or email support@infplans.com "/>
+        <meta name="keywords" content="travel insurance, Insurance for Visitors, visitor insurance, pre-existing medical conditions, visitor medical insurance"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="contact-hero-section-bg"

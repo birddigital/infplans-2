@@ -175,7 +175,7 @@ class MobileNavigation extends Component {
                         : 'nav-item nav-dropdown'
                     }
                   >
-                    <Link to="/plans" className="nav-link">
+                    <Link to="/visitors-insurance-plans" className="nav-link">
                       Plans
                     </Link>
                     <ul className="nav-submenu">
@@ -354,7 +354,7 @@ class MobileNavigation extends Component {
                             : 'nav-item'
                         }
                       >
-                        <Link to="/dental-discount-program" className="nav-link">
+                        <Link to="/dental-coverage-visitors-insurance" className="nav-link">
                           Dental Discount Program
                         </Link>
                       </li>

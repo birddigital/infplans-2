@@ -11,6 +11,7 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { FaAngleDoubleDown } from "@react-icons/all-files/fa/FaAngleDoubleDown";
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -30,7 +31,13 @@ const StandardPage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Cost-Effective Insurance for Visitors to USA - INF Visitor Care"/>
+      <Helmet>
+        <title>Cost-Effective Insurance for Visitors to USA - INF Visitor Care</title>
+        <meta name="description" content="INF Standard IVAS is the best low cost insurance for visitors. This plan includes dental and vision coverage, and covers urinary tract infections"/>
+        <meta name="keywords" content="INF Standard IVAS, inf insurance, cheap insurance for visitors, kv rao insurance, kvrao insurance,insurance for visitors, visitor insurance usa, accident &amp; sickness insurance for visitors to usa, accident &amp; sickness insurance for visitors to usa, visitor accident &amp; sickness insurance usa, visitor accident &amp; sickness insurance, visitor insurance for parents, insurance for visitors for parents"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="standard-hero-section-bg"

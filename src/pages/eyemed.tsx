@@ -11,6 +11,7 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import EyemedSlider from 'components/sliders/eyemed-slider'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -32,7 +33,16 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Eyemed - Vision Insurance"/>
+      <Helmet>
+        <title>Eyemed - Vision Insurance</title>
+        <meta name="twitter:card" content="summary" data-react-helmet="true"/>
+        <meta name="twitter:site" content="@" data-react-helmet="true"/>
+        <meta property="og:title" content="Eyemed - Vision Insurance | Infplans" data-react-helmet="true"/>
+        <meta property="og:type" content="website" data-react-helmet="true"/>
+        <meta property="og:description" content="This website sells Insurance for Visitors for Parents. Relatives visiting USA. Full Pre-Existing Insurance for Visitors for Parents visiting USA. We cover all Pre-Existing Conditions. Insurance for Non-US Citizens Living in the USA. H1-B, K1, J1 Visa Insurance" data-react-helmet="true"/>
+        <meta property="og:url" content="https://www.infplans.com/profile" data-react-helmet="true"/>
+        <meta property="og:image" content="https://www.infplans.com/img/profile.jpg" data-react-helmet="true"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="eyemed-hero-section-bg"

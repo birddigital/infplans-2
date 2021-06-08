@@ -10,6 +10,7 @@ import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -24,15 +25,20 @@ const BMIApplyPage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Apply for Insurance for Visitors - INF Visitor Insurance"/>
+      <Helmet>
+        <title>Apply for Insurance for Visitors - INF Visitor Insurance</title>
+        <meta name="description" content="This page allows someone to apply for Insurance for Visitors for their visiting parents from INF Visitor Insurance"/>
+        <meta name="keywords" content="apply for Insurance for Visitors, how do i apply for Insurance for Visitors, Insurance for Visitors for parents, travel accident &amp; sickness insurance"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
-        className="hero-section-bg"
+        className="bmi-travel-hero-section-bg"
         fluid={hero_background}
-        backgroundColor={`#e9f4f8`}
-        alt=""
+        alt="bmi travel plans"
       >
-        <div id="hero-section">
+        <div id="bmi-travel-hero-section">
           <Container>
             <div className="col-lg-12">
               <h1 className="text-white text-center">
@@ -45,10 +51,6 @@ const BMIApplyPage: React.FC<Props> = ({ data, location }: Props) => {
           </Container>
         </div>
       </BackgroundImage>
-      <div id="your-id-here">
-        <Container>
-        </Container>
-      </div>
     </Layout>
   )
 }

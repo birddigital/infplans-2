@@ -9,6 +9,7 @@ import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   location: Location
@@ -21,7 +22,13 @@ const WhyINFPage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Why INF - INF Visitor Insurance" />
+      <Helmet>
+        <title>Why INF - INF Visitor Insurance</title>
+        <meta name="description" content="Why you should purchase insurance from INF and why you should feel confident in knowing INF is on your side when you need us."/>
+        <meta name="keywords" content="kv rao insurance, kvrao insurance, Insurance for Visitors, visitor insurance, inf plans, inf insurance, which is the best Insurance for Visitors plan"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="why-inf-hero-section-bg"

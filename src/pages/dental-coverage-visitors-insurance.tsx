@@ -13,6 +13,7 @@ import ButtonBlack from 'components/button/button-black'
 import {FiClock} from '@react-icons/all-files/fi/FiClock'
 import {FiPhoneCall} from '@react-icons/all-files/fi/FiPhoneCall'
 import {FiMail} from '@react-icons/all-files/fi/FiMail'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -30,7 +31,14 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Dental Discount Program - Visitors Insurance & Travel Insurance" />
+      <Helmet>
+        <title>Dental Discount Program - Visitors Insurance & Travel Insurance</title>
+        <meta property="og:site_name" content="INF Visitor Insurance"/>
+        <meta name="description" content="Dental Coverage for Visitors to USA. Dental Insurance for Parents visiting USA. Dental Insurance for Visitors"/>
+        <meta name="keywords" content="dental insurance for visiting parents, Insurance for Visitors for dental, dental Insurance for Visitors to USA, insurance for dental for tourist visitng us, visitor medical insurance, travel medical insurance"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="dental-discount-hero-section-bg"

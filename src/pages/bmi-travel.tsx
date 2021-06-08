@@ -10,6 +10,7 @@ import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -28,7 +29,13 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="INF BMI Travel Assist Plans for Travelers with Pre-Existing Plans"/>
+      <Helmet>
+        <title>INF BMI Travel Assist Plans for Travelers with Pre-Existing Plans</title>
+        <meta name="description" content="A detailed explanation of the INF Elite Accident and Sickness Insurance Plan. Insurance for Visitors covers pre-existing conditions."/>
+        <meta name="keywords" content="Insurance for Visitors, visitor insurance usa, accident &amp; sickness insurance for Visitors to usa, accident &amp; sickness insurance for Visitors to usa, visitor accident &amp; sickness insurance usa, visitor accident &amp; sickness insurance, visitor insurance for parents, Insurance for Visitors for parents,best accident &amp; sickness insurance for Visitors to usa,visitors coverage insurance, best visitor insurance usa, travel insurance for usa visitors,Insurance for Visitors for parents from india,visitor insurance usa from india,Insurance for Visitors usa for parents from india"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="bmi-travel-hero-section-bg"

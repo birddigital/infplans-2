@@ -10,6 +10,7 @@ import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -25,7 +26,13 @@ const ProducersPage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Producers - INF Visitor Insurance"/>
+      <Helmet>
+        <title>Producers - INF Visitor Insurance</title>
+        <meta name="description" content="INF Producer Log In "/>
+        <meta name="keywords" content="Insurance for Visitors, INF producer Login, INF Producer Area"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="producers-hero-section-bg"

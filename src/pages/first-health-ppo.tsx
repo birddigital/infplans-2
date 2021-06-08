@@ -10,6 +10,7 @@ import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -25,7 +26,13 @@ const ProviderSearchPage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="INF List of Doctors & Hospitals - INF Visitor Insurance"/>
+      <Helmet>
+        <title>INF List of Doctors & Hospitals - INF Visitor Insurance</title>
+        <meta name="description" content="List of provider doctor and hospitals for visitor accident &amp; sickness insurance plans offered and represented by INF Visitor Insurance. Few plans offer PPO network, while some do not. Please review the benefits details of the insurance with Providers and non provider."/>
+        <meta name="keywords" content="Dr Rao Visitors Coverage, Rao Insurance for Visitors, KV Rao Visitor Insurance, Rao Visitors Coverage, KV Rao Insurance, KV Rao Insurance for Visitors, India Network, India Network Insurance for Visitors, indnet, india network foundation, india health network insurance,INF Visitor Insurance, INF Insurance, INF Insurance for Visitors, INF Visitor Insurance, Visitor insurance providers, list of visitor insurance hospitals, ppo network, first health ppo, Insurance for Visitors claims, Direct Billing"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="provider-search-hero-section-bg"

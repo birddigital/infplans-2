@@ -10,6 +10,7 @@ import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -24,7 +25,16 @@ const InsuranceQuotePage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="INF Visitor Insurance Quote"/>
+      <Helmet>
+        <title>INF Visitor Insurance Quote</title>
+        <meta property="og:site_name" content="INF Visitor Insurance"/>
+        <meta property="og:title" content="INF Visitor Insurance - Visitor Medical Travel Insurance"/>
+        <meta property="og:description" content="This website sells Insurance for Visitors for Parents. Relatives visiting USA. Full Pre-Existing Insurance for Visitors for Parents visiting USA. We cover all Pre-Existing Conditions. Insurance for Non-US Citizens Living in the USA. H1-B, K1, J1 Visa Insurance."/>
+        <meta name="description" content="This website sells Insurance for Visitors for Parents. Relatives visiting USA. Full Pre-Existing Insurance for Visitors for Parents visiting USA. We cover all Pre-Existing Conditions. Insurance for Non-US Citizens Living in the USA. H1-B, K1, J1 Visa Insurance."/>
+        <meta name="keywords" content="Dr Rao Visitors Coverage, Rao Insurance for Visitors, KV Rao Visitor Insurance, Rao Visitors Coverage, KV Rao Insurance, KV Rao Insurance for Visitors, India Network, India Network Insurance for Visitors, indnet, india network foundation, india health network insurance,INF Visitor Insurance, INF Insurance, INF Insurance for Visitors, INF Visitor Insurance, Full Pre-Existing Coverage, Pre-Existing Visitor Insurance, Visitor accident &amp; sickness insurance for USA visitors. Compare and review visitor insurance. Buy International Travel accident &amp; sickness insurance and visitor accident &amp; sickness insurance for USA, Visitor accident &amp; sickness insurance, accident &amp; sickness insurance for Non-US Citizens,visitor accident &amp; sickness insurance, visitors accident &amp; sickness insurance, accident &amp; sickness insurance, accident &amp; sickness insurance for Visitors to USA, inbound usa, accident &amp; sickness insurance for Visitors to US, USA visitor insurance, student accident &amp; sickness insurance, students accident &amp; sickness insurance, accident &amp; sickness insurance, accident &amp; sickness insurance for international students to USA, accident &amp; sickness insurance  for students to US, USA student insurance, major accident &amp; sickness insurance, worldwide accident &amp; sickness insurance, group accident &amp; sickness insurance, accident &amp; sickness insurance for Visitors outside USA, accident &amp; sickness insurance for Visitors outside US"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="quote-hero-section-bg"

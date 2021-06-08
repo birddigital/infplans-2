@@ -10,6 +10,7 @@ import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -25,7 +26,13 @@ const RenewPage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Insurance for Visitors Extension: Extend INF Visitor Insurance Insurance"/>
+      <Helmet>
+        <title>Insurance for Visitors Extension: Extend INF Visitor Insurance Insurance | Infplans</title>
+        <meta name="description" content="Extend your Insurance for Visitors Plan for INF Visitor Insurance Here"/>
+        <meta name="keywords" content="how do i Extend Insurance for Visitors, Extend my Insurance for Visitors, Extend my inf plan, inf insurance, inf Insurance for Visitors"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="extend-hero-section-bg"

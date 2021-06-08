@@ -10,6 +10,7 @@ import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -28,10 +29,15 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
   const inf_logo = data.inf_logo?.childImageSharp?.fluid
 
 
-
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Insurance for Visitors for Parents visiting USA"/>
+      <Helmet>
+        <title>Insurance for Visitors for Parents visiting USA</title>
+        <meta name="description" content="Insurance for Visitors for Visitors to USA. Insurance for Visitors for Parents to USA"/>
+        <meta name="keywords" content="Insurance for Visitors, visitor insurance, travel insurance, travel medical insurance, visitor medical insurance"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="plans-hero-section-bg"

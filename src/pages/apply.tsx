@@ -10,6 +10,7 @@ import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -24,7 +25,13 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Apply for Insurance for Visitors - INF Visitor Insurance"/>
+      <Helmet>
+        <title>Apply for Insurance for Visitors - INF Visitor Insurance</title>
+        <meta name="description" content="This page allows someone to apply for Insurance for Visitors for their visiting parents from INF Visitor Insurance"/>
+        <meta name="keywords" content="apply for Insurance for Visitors, how do i apply for Insurance for Visitors, Insurance for Visitors for parents, travel medical insurance"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="apply-hero-section-bg"

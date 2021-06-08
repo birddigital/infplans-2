@@ -11,6 +11,7 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { FaAngleDoubleDown } from "@react-icons/all-files/fa/FaAngleDoubleDown";
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -30,7 +31,13 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Premier Pre-Existing Insurance for Visitors for Visitors to USA"/>
+      <Helmet>
+        <title>Premier Pre-Existing Insurance for Visitors for Visitors to USA</title>
+        <meta name="description" content="Learn about INF Premier Full Pre-Existing Coverage"/>
+        <meta name="keywords" content="Dr Rao Visitors Coverage, Rao Insurance for Visitors, KV Rao Visitor Insurance, Rao Visitors Coverage, KV Rao Insurance, KV Rao Insurance for Visitors, INF Visitor Insurance, inf insurance, Insurance for Visitors, visitor insurance usa, accident &amp; sickness insurance for Visitors to usa, accident &amp; sickness insurance for Visitors to usa, visitor accident &amp; sickness insurance usa, visitor accident &amp; sickness insurance, visitor insurance for parents, Insurance for Visitors for parents"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="premier-hero-section-bg"

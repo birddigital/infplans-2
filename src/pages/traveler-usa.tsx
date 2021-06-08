@@ -11,6 +11,7 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { FaAngleDoubleDown } from "@react-icons/all-files/fa/FaAngleDoubleDown";
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -30,7 +31,15 @@ const TravelerUSAPage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Comprehensive Insurance for Visitors for USA Travelers"/>
+      <Helmet>
+        <title>Comprehensive Insurance for Visitors for USA Travelers</title>
+        <meta property="og:site_name" content="INF Visitor Insurance"/>
+        <meta property="og:title" content="Comprehensive Insurance for Visitors for USA Visitors traveling to the USA. The article explains comprehensive Insurance for Visitors for USA Visitors traveling to USA"/>
+        <meta property="og:description" content="Cheap Best Comprehensive Insurance for Visitors, Comprehensive no deductible Insurance for Visitors, Insurance for Visitors india usa, Insurance for Visitors for usa visitors, comprehensive Insurance for Visitors, no deductible Insurance for Visitors, low cost Insurance for Visitors, visitor accident &amp; sickness insurance, travel accident &amp; sickness insurance, travel accident &amp; sickness insurance usa, visitor accident &amp; sickness insurance, visitor accident &amp; sickness insurance usa"/>
+        <meta name="keywords" content="Cheap Best Comprehensive Insurance for Visitors, Comprehensive no deductible Insurance for Visitors, Insurance for Visitors india usa, Insurance for Visitors for usa visitors, comprehensive Insurance for Visitors, no deductible Insurance for Visitors, low cost Insurance for Visitors, visitor accident &amp; sickness insurance, travel accident &amp; sickness insurance, travel accident &amp; sickness insurance usa, visitor accident &amp; sickness insurance, visitor accident &amp; sickness insurance usa"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="traveler-usa-hero-section-bg"

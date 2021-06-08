@@ -182,7 +182,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                         : 'nav-item nav-dropdown'
                     }
                   >
-                    <Link to="/plans" className="nav-link">
+                    <Link to="/visitors-insurance-plans" className="nav-link">
                       Plans
                     </Link>
                     <ul className="nav-submenu">
@@ -361,7 +361,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                             : 'nav-item'
                         }
                       >
-                        <Link to="/dental-discount-program" className="nav-link">
+                        <Link to="/dental-coverage-visitors-insurance" className="nav-link">
                           Dental Discount Program
                         </Link>
                       </li>

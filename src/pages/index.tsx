@@ -11,6 +11,8 @@ import { FaLongArrowAltRight } from "@react-icons/all-files/fa/FaLongArrowAltRig
 import TestimonialHomeSlider from 'components/sliders/testimonial-slider'
 import LogoSlider from 'components/sliders/logo-slider'
 import ArticlesSlider from 'components/sliders/articles-slider'
+import { Helmet } from 'react-helmet'
+{/* import OGImage from '../../content/images/logo.png'*/}
 
 interface Props {
   data: IndexQueryQuery
@@ -49,7 +51,14 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="INF Visitor Insurance - Visitors Insurance & Travel Insurance" />
+      <Helmet>
+        <title>INF Visitor Insurance - Visitors Insurance & Travel Insurance</title>
+        <meta property="og:site_name" content="INF Visitor Insurance"/>
+        <meta property="og:title" content="INF Visitor Insurance - Visitors Insurance & Travel Insurance"/>
+        <meta name="description" content="Visitors Insurance for USA Visitors. Shop, Compare, Buy Visitor Medical Visitors Insurance to USA"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="home-hero-section-bg"

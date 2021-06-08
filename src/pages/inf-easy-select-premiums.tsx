@@ -10,6 +10,7 @@ import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -24,7 +25,14 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="INF Visitor Insurance Quote"/>
+      <Helmet>
+        <title>INF Plan Premiums</title>
+        <meta property="og:site_name" content="INF Visitor Insurance"/>
+        <meta name="description" content="This page talks about premiums for INF True Pre-Existing Coverage plans for visitors and parents traveling to the United States"/>
+        <meta name="keywords" content="Dr Rao Visitors Coverage, Rao Insurance for Visitors, KV Rao Visitor Insurance, Rao Visitors Coverage, KV Rao Insurance, KV Rao Insurance for Visitors, India Network, India Network Insurance for Visitors, indnet, india network foundation, india health network insurance,pre-existing conditions, pre-existing medical conditions, visitor medical insurance, visitors medical insurance, health insurance, medical Insurance for Visitors to USA, inbound usa,health Insurance for Visitors to US, USA visitor insurance, Visitor Medical Insurance for USA visitors, Compare and review visitor insurance, Buy International Travel medical insurance and visitor Health insurance for USA, Visitor medical Insurance, Medical Insurance for Non-US Citizens,visitor medical insurance, visitors medical insurance, health insurance, medical Insurance for Visitors to USA, inbound usa, health Insurance for Visitors to US, USA visitor insurance, student medical insurance, students medical insurance, health insurance, medical insurance for international students to USA, health insurance  for students to US, USA student insurance, major medical insurance, worldwide medical insurance, health insurance, medical Insurance for Visitors outside USA, health Insurance for Visitors outside US"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="premium-hero-section-bg"

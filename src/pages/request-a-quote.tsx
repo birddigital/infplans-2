@@ -10,6 +10,7 @@ import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -25,7 +26,16 @@ const RequestAQuotePage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="Request a Quote"/>
+      <Helmet>
+        <title>Request a Quote</title>
+        <meta property="og:site_name" content="INF Visitor Insurance"/>
+        <meta property="og:title" content="Request a Quote from INF Visitor Insurance"/>
+        <meta property="og:description" content="Request a Insurance for Visitors Call Back from INF Visitor Insurance."/>
+        <meta name="description" content="Request Insurance for Visitors Quote from INF Visitor Insurance"/>
+        <meta name="keywords" content="contact inf, inf phone number, inf customer service number, inf visitor insurance"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="request-a-quote-hero-section-bg"

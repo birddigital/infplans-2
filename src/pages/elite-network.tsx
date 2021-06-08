@@ -11,6 +11,7 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { FaAngleDoubleDown } from "@react-icons/all-files/fa/FaAngleDoubleDown";
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -31,7 +32,13 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="INF Elite International Visitor Accident & Sickness Insurance Plan covers pre-existing conditions"/>
+      <Helmet>
+        <title>INF Elite International Visitor Accident & Sickness Insurance Plan covers pre-existing conditions</title>
+        <meta name="description" content="A detailed explanation of the INF Elite International Visitor Accident &amp; Sickness Insurance Plan. Insurance for Visitors covers pre-existing conditions."/>
+        <meta name="keywords" content="Insurance for Visitors, visitor insurance usa, accident &amp; sickness insurance for Visitors to usa, accident &amp; sickness insurance for Visitors to usa, visitor accident &amp; sickness insurance usa, visitor accident &amp; sickness insurance, visitor insurance for parents, Insurance for Visitors for parents,best accident &amp; sickness insurance for Visitors to usa,visitors coverage insurance, best visitor insurance usa, International Visitor Accident &amp; Sickness Insurance for usa visitors,Insurance for Visitors for parents from india,visitor insurance usa from india,Insurance for Visitors usa for parents from india"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="elite-hero-section-bg"

@@ -13,6 +13,7 @@ import ButtonBlack from 'components/button/button-black'
 import {FiClock} from '@react-icons/all-files/fi/FiClock'
 import {FiPhoneCall} from '@react-icons/all-files/fi/FiPhoneCall'
 import {FiMail} from '@react-icons/all-files/fi/FiMail'
+import { Helmet } from 'react-helmet'
 
 interface Props {
   data: IndexQueryQuery
@@ -28,7 +29,16 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
 
   return (
     <Layout location={location}>
-      <Meta site={meta} title="INF Tele Medicine - Visitors Insurance & Travel Insurance" />
+      <Helmet>
+        <title>INF Tele Medicine - Visitors Insurance & Travel Insurance</title>
+        <meta property="og:site_name" content="INF Visitor Insurance"/>
+        <meta property="og:title" content="Telemedicine by INF"/>
+        <meta property="og:description" content="INF Plans use MeMD &amp; Teladoc to get your visitors health care faster &amp; at $0 copay to you."/>
+        <meta name="description" content="$0 Copay Urgent Care by Telemedicine from INF"/>
+        <meta name="keywords" content="telemedicine, teladoc, memd, telemedicine Insurance for Visitors, Insurance for Visitors, visitor insurance, visitor medical insurance, travel medical insurance"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Helmet>
       <BackgroundImage
         Tag="section"
         className="telemedicine-hero-section-bg"
