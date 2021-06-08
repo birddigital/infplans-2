@@ -103,7 +103,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                <div className="col-lg-4 flipcard-col flip-card">
                  <div className="flip-card-inner">
                    <div className="flipcard-container1 flip-card-front">
-                     <Img fluid={claims_payment_img} className="flipcard-icon" alt="Claims Payment" />
+                     <Img fluid={claims_payment_img} className="flipcard-icon1" alt="Claims Payment" />
                      <h3 className="text-center">Claims Payment</h3>
                    </div>
                    <div className="flipcard-container-inner1 flip-card-back">
@@ -191,13 +191,13 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
 
               <div className="col-lg-12 download-claims">
                <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-6 pdf-download">
                  <h4 className="download text-center">Download Claims Form<br /> Policy Numbers Starting with GLM</h4>
                   <Img fluid={pdf_icon} className="pdf-icon"/>
                   <a href="https://infplans.com/policy_pdf/GLM_INFHealthCare_ClaimForm.pdf" target="_blank"><button className="download-btn"> Download </button></a>
                  </div>
 
-                <div className="col-lg-6">
+                <div className="col-lg-6 pdf-download">
                  <h4 className="download text-center">Download Claims Form<br /> Policy Numbers Starting with INF</h4>
                  <Img fluid={pdf_icon} className="pdf-icon"/>
                  <a href="https://infplans.com/policy_pdf/INF_INFHealthCare_ClaimForm.pdf" target="_blank"><button className="download-btn2"> Download </button></a>

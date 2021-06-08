@@ -158,7 +158,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                     <p className="text-center expenses">Expenses that are specifically enumerated in the following list of charges that are incurred for medical care and supplies which are:</p>
                   </div>
 
-                  <div className="col-lg-12">
+                  <div className="col-lg-12 alpha-content">
                     <ul className="alpha-list">
                       <li className="alpha">(a) necessary and customary;</li>
                       <li className="alpha">(b) prescribed by a Physician for the therapeutic treatment of a disablement;</li>

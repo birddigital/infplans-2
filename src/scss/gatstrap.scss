@@ -5054,7 +5054,7 @@ section#claims-form-section-1 {
   padding: 20px;
   padding-top: 0;
   width: 100%;
-  letter-spacing: 0.3px;
+  padding-bottom: 5px;
 }
 
 .claims-info-tab section div h4 {
@@ -5117,7 +5117,7 @@ section#claims-form-section-1 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  padding-top: 20px;
+  padding-top: 35px;
 }
 
 #claims-form-section-3 .download-btn {
@@ -5262,7 +5262,7 @@ section#claims-form-section-1 {
   padding: 20px;
   padding-top: 0;
   width: 100%;
-  letter-spacing: 0.3px;
+  padding-bottom: 10px;
 }
 
 #additional-tabone:checked ~ nav .additional-tabone label,
@@ -5376,7 +5376,8 @@ section#claims-form-section-1 {
 .process-tab section div {
   padding: 20px;
   width: 100%;
-  letter-spacing: 0.3px;
+  padding-bottom: 5px;
+  padding-top: 0;
 }
 
 #process-tabone:checked ~ nav .process-tabone label,
@@ -5435,11 +5436,6 @@ section#claims-form-section-1 {
   text-decoration: none;
 }
 
-#claims-form-section-3  .is-active a {
-  border-bottom-color: transparent;
-  background: #fff;
-}
-
 #claims-form-section-1 .flipcard-col {
   border: 1px solid #DCDCDC;
   padding: 0;
@@ -5449,6 +5445,9 @@ section#claims-form-section-1 {
   padding: 57px 20px;
   background: #fff;
   min-height: 340px;
+  -webkit-perspective: 800px;
+ -o-perspective: 800px;
+ -moz-perspective: 800px;
 }
 
 #claims-form-section-1 .flipcard-container-inner {
@@ -5484,6 +5483,12 @@ section#claims-form-section-1 {
   margin-right: auto;
 }
 
+#claims-form-section-1 .flipcard-icon1 {
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #claims-form-section-1 .inner-content {
   font-size: 20px;
   font-weight: 400;
@@ -5514,6 +5519,9 @@ section#claims-form-section-1 {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   bottom: 0;
+  -moz-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
 }
 
 .flip-card:hover .flip-card-inner {
@@ -5725,7 +5733,6 @@ section#diplomat-america-section-3 {
   padding: 20px;
   padding-top: 0;
   width: 100%;
-  letter-spacing: 0.3px;
 }
 
 .benefits-tab section div h4 {
@@ -5808,10 +5815,6 @@ section#diplomat-america-section-3 {
   margin-left: 102px;
 }
 
-#diplomat-america-section-5 .refund-prem {
-  padding-left: 40px;
-}
-
 .info-tab > input,
 .info-tab section > div {
   display: none;
@@ -5880,7 +5883,6 @@ section#diplomat-america-section-3 {
   padding: 20px;
   padding-top: 0;
   width: 100%;
-  letter-spacing: 0.3px;
 }
 
 .info-tab section div h4 {
@@ -5933,7 +5935,6 @@ section#diplomat-america-section-3 {
 }
 
 .info-tab .enhanced {
-  padding-left: 15px;
   line-height: 2;
   margin-bottom: 0;
 }
@@ -6354,7 +6355,6 @@ section#diplomat-international-section-3 {
   padding: 20px;
   padding-top: 0;
   width: 100%;
-  letter-spacing: 0.3px;
 }
 
 .international-tab section div h4 {
@@ -6458,7 +6458,6 @@ section#diplomat-international-section-3 {
   padding: 20px;
   padding-top: 0;
   width: 100%;
-  letter-spacing: 0.3px;
 }
 
 .miscellaneous-tab section div h4 {
@@ -7062,6 +7061,7 @@ section.plans-hero-section-bg {
   background: #252362;
   color: #ffffff;
 }
+
 #plans-section-5 h4 {
   font-size: 14px;
   font-weight: 700;
@@ -7258,7 +7258,6 @@ section.plans-hero-section-bg {
 .bmi-plans-tab section div {
   padding: 20px;
   width: 100%;
-  letter-spacing: 0.3px;
   padding-top: 0;
 }
 
@@ -7382,6 +7381,7 @@ section.bmi-travel-hero-section-bg {
   border-radius: 50px;
   transition: .5s;
 }
+
 
 #bmi-travel-hero-section .hero-btn:hover {
   background: #ffffff;
@@ -7698,7 +7698,6 @@ section#bmi-travel-section-2 {
 .conditions-tab section div {
   padding: 20px;
   width: 100%;
-  letter-spacing: 0.3px;
 }
 
 #conditions-tabone:checked ~ nav .conditions-tabone label,
@@ -8133,7 +8132,6 @@ section#bmi-travel-section-2 {
   padding: 20px;
   padding-top: 0;
   width: 100%;
-  letter-spacing: 0.3px;
 }
 
 #options-tabone:checked ~ nav .options-tabone label,
@@ -8563,6 +8561,35 @@ section#why-inf-section-1 {
 }
 
 /* End of Why Inf Styles */
+
+/*Privacy Policy Styles */
+
+#privacy-policy-section {
+  padding-bottom: 30px;
+  background: #5EACEE;
+}
+
+#privacy-policy-section h1 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 100px;
+}
+
+#privacy-policy-section p {
+  font-weight: 400;
+  line-height: 2;
+}
+
+#privacy-policy-section h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#privacy-policy-section ul {
+  list-style: disc;
+}
+
+/* End of Privacy Policy Styles */
 
 /* End of Gillian CSS */
 
@@ -11336,6 +11363,7 @@ details[open] summary:after {
 
   #claims-form-section-1 .claims-form-container {
     padding: 20px 20px 10px 20px;
+    padding-bottom: 30px;
   }
 
   #claims-form-section-1 h2 {
@@ -11384,6 +11412,12 @@ details[open] summary:after {
     min-height: 250px;
   }
 
+  #claims-form-section-1 .flipcard-icon1 {
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #claims-form-section-2 .big-logo {
     max-width: 200px;
     margin-left: auto;
@@ -11400,6 +11434,23 @@ details[open] summary:after {
     padding-top: 30px;
   }
 
+  #claims-form-section-2 h3 {
+    font-size: 20px;
+  }
+
+  #claims-form-section-2 .section2-container {
+    padding: 20px 20px 30px 20px;
+  }
+
+  #claims-form-section-2 input#email {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #claims-form-section-2 input[type="submit"] {
+    width: 100%;
+  }
+
   #claims-form-section-3 {
     padding-top: 30px;
     padding-bottom: 0px;
@@ -11407,14 +11458,20 @@ details[open] summary:after {
 
   #claims-form-section-3 .pdf-icon {
     max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    padding-top: 20px;
+    padding-top: 25px;
   }
+
+  #claims-form-section-3 .download-claims {
+    padding-bottom: 0;
+}
 
   #claims-form-section-3 .download {
     font-size: 20px;
+    margin-top: 15px;
+  }
+
+  #claims-form-section-3 .pdf-download {
+    padding: 0;
   }
 
   #claims-form-section-4 {
@@ -11437,6 +11494,10 @@ details[open] summary:after {
     font-size: 25px;
   }
 
+  .claims-info-tab section div {
+    padding-left: 10px;
+  }
+
   .claims-info-tab ul li label {
     width: 100%;
   }
@@ -11449,6 +11510,10 @@ details[open] summary:after {
   section#claims-forms-section-4 {
     padding-top: 30px;
     padding-bottom: 0px;
+  }
+
+  #claims-form-section-4 .policies {
+    padding-left: 15px;
   }
 
   .additional-tab ul li label {
@@ -11475,16 +11540,14 @@ details[open] summary:after {
     padding-top: 15px;
   }
 
+  .process-tab section div {
+    padding-left: 5px;
+  }
+
   #process-tabone:checked ~ section .process-tabone,
   #process-tabtwo:checked ~ section .process-tabtwo,
   #process-tabthree:checked ~ section .process-tabthree {
     padding-top: 0px;
-  }
-
-  #plans-hero-section h1 {
-    font-size: 35px;
-    margin-top: 40px;
-    text-align: center;
   }
 
   #plans-hero-section .hero-btn {
@@ -11492,6 +11555,11 @@ details[open] summary:after {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+  }
+
+  #plans-hero-section h1 {
+    font-size: 35px;
+    margin-top: 100px;
   }
 
   section.plans-hero-section-bg {
@@ -11690,6 +11758,18 @@ details[open] summary:after {
     padding-bottom: 20px;
   }
 
+  #plans-section-6 .bmi-bg {
+    margin-top: 20px;
+  }
+
+  #plans-section-6 .bmi-content1 {
+    padding-left: 5px;
+  }
+
+  .bmi-plans-tab section div {
+    padding: 0;
+  }
+
   .bmi-plans-tab ul li label {
     width: 100%;
     min-height: 0;
@@ -11721,8 +11801,7 @@ details[open] summary:after {
   }
 
   #plans-section-6 .covid-content {
-    font-size: 20px;
-    font-weight: 600;
+    padding: 5px;
   }
 
   .process-tab ul li label {
@@ -11813,6 +11892,10 @@ details[open] summary:after {
     margin-bottom: 10px;
   }
 
+  #diplomat-america-section-3 ul {
+    padding-left: 20px;
+  }
+
   #diplomat-america-section-4 h2 {
     font-weight: 500;
     font-size: 25px;
@@ -11842,12 +11925,16 @@ details[open] summary:after {
   }
 
   #diplomat-america-section-4 .alpha-list {
-    padding-left: 20px;
+    padding-left: 0;
+  }
+
+  #diplomat-america-section-4 .alpha-content {
+    padding-left: 0;
   }
 
   #diplomat-america-section-4 .number-list {
     padding-top: 25px;
-    padding-left: 30px;
+    padding-left: 15px;
   }
 
   .info-tab ul li label {
@@ -11867,46 +11954,46 @@ details[open] summary:after {
     padding-top: 0px;
   }
 
+  #diplomat-america-section-5 .claims-forms {
+    padding-left: 0;
+  }
+
   #diplomat-america-section-5 h2 {
     font-weight: 500;
     font-size: 25px;
     padding-bottom: 20px;
   }
 
-  #diplomat-america-section-5 .med-exp {
-    padding-left: 15px;
-  }
-
-  #diplomat-america-section-5 .company {
-    padding-left: 30px;
-  }
-
   #diplomat-america-section-5 .claims {
-    margin-left: 30px;
+    padding-left: 0;
   }
 
   #diplomat-america-section-5 .claims2 {
-    margin-left: 50px;
+    margin-left: 33px;
   }
 
-  #diplomat-america-section-5 .administrator {
-    margin-left: 30px;
+  #diplomat-america-section-5 .med-exp {
+    padding-left: 0;
+  }
+
+  #diplomat-america-section-5 .total {
+    padding-left: 0;
+  }
+
+  #diplomat-america-section-5 .company-tabtwo {
+    padding-left: 0;
+  }
+
+  #diplomat-america-section-5 ul {
+    padding-left: 0;
   }
 
   #diplomat-america-section-5 .claim-disease {
-    margin-left: 50px;
-  }
-
-  #diplomat-america-section-5 .refund-prem {
-    padding-left: 20px;
-  }
-
-  .info-tab .claims {
-    padding-left: 10px;
+    margin-left: 90px;
   }
 
   .info-tab .administrator {
-    padding-left: 30px;
+    padding-left: 0;
   }
 
   .info-tabone .title {
@@ -12014,6 +12101,14 @@ details[open] summary:after {
     font-size: 20px;
   }
 
+  #diplomat-international-section-3 .diplomat-plan {
+    padding: 0;
+  }
+
+  #diplomat-international-section-4 .medical-expenses {
+    padding-left: 0;
+  }
+
   #diplomat-international-section-4 h3 {
     font-size: 25px;
     font-weight: 500;
@@ -12023,6 +12118,14 @@ details[open] summary:after {
   #diplomat-international-section-4 {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  #diplomat-international-section-5 .tab1 {
+    padding-left: 5px;
+  }
+
+  #diplomat-international-section-5 .misc-claims {
+    padding-left: 15px;
   }
 
   #diplomat-international-section-5 h3 {
@@ -12108,6 +12211,18 @@ details[open] summary:after {
     margin-top: 20px;
   }
 
+  #bmi-travel-section-2 ul {
+    padding-left: 20px;
+  }
+
+  #bmi-travel-section-3 ul {
+    padding-left: 0;
+  }
+
+  #bmi-travel-section-3 .sub-content {
+    padding-left: 40px;
+  }
+
   section#bmi-travel-section-3 {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -12166,7 +12281,6 @@ details[open] summary:after {
   }
 
   .conditions-tab .tab-content1 {
-    font-size: 20px;
     padding-top: 10px;
     min-height: 50px;
   }
@@ -12253,8 +12367,7 @@ details[open] summary:after {
 
   #eyemed-hero-section h1 {
     font-size: 35px;
-    margin-top: 40px;
-    text-align: center;
+    margin-top: 85px;
   }
 
   #eyemed-hero-section .hero-text {
@@ -12321,6 +12434,11 @@ details[open] summary:after {
     padding-bottom: 30px;
   }
 
+  #why-inf-hero-section h1 {
+    font-size: 35px;
+    margin-top: 90px;
+  }
+
   #why-inf-section-1 .why-inf-container {
     padding: 20px 20px 10px 20px;
     margin-bottom: 30px;
@@ -12378,6 +12496,35 @@ details[open] summary:after {
     margin-top: 20px;
   }
 
+  #claims-form-section-1 .flipcard-container {
+    padding: 30px 50px;
+    min-height: 345px;
+  }
+
+  #claims-form-section-1 .flipcard-container-inner {
+    min-height: 345px;
+  }
+
+  #claims-form-section-1 .flipcard-container1 {
+    padding: 30px 50px;
+    min-height: 380px;
+  }
+
+  #claims-form-section-1 .flipcard-icon {
+    margin-top: 25px;
+  }
+
+  #claims-form-section-1 .flipcard-icon1 {
+    margin-top: 75px;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #claims-form-section-1 .flipcard-container-inner1 {
+    min-height: 380px;
+  }
+
   #claims-form-section-2 {
     padding-top: 0;
   }
@@ -12387,15 +12534,63 @@ details[open] summary:after {
   }
 
   #claims-form-section-3 .pdf-icon {
-    max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    padding-top: 20px;
-}
+    padding-top: 0;
+  }
 
   #claims-form-section-3 .download {
     font-size: 18px;
+  }
+
+  .claims-info-tab section div {
+    padding: 10px;
+  }
+
+  section.diplomat-america-hero-section-bg {
+    padding-bottom: 50px;
+  }
+
+  #diplomat-america-section-3 ul {
+    padding-left: 0;
+  }
+
+  #diplomat-america-section-4 .expenses {
+    margin-left: 0;
+  }
+
+  #diplomat-america-section-4 .expenses-tabone {
+    padding: 0;
+  }
+
+  #diplomat-america-section-4 .co-insurance {
+    padding: 0;
+  }
+
+  #diplomat-america-section-5 .med-exp {
+    padding: 0;
+  }
+
+  #diplomat-america-section-5 .refund-prem {
+    padding: 0;
+  }
+
+  #diplomat-america-section-5 .enhanced-tabfour {
+    padding: 0;
+  }
+
+  #diplomat-america-section-5 .company {
+    padding-left: 0;
+  }
+
+  section.diplomat-international-hero-section-bg {
+    padding-bottom: 50px;
+  }
+
+  #diplomat-international-section-3 ul {
+    padding-left: 0;
+  }
+
+  #diplomat-international-section-4 .international-expenses {
+    padding: 0;
   }
 
   #about-hero-section .hero-btn {

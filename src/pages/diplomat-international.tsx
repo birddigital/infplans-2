@@ -84,7 +84,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
         <div className="col-lg-12">
          <h4 className="text-center text-white">Diplomat International Plan Features: </h4>
         </div>
-        <div className="col-lg-12">
+        <div className="col-lg-12 diplomat-plan">
         <div className="row mt-4">
           <div className="col-lg-6">
             <ul>
@@ -149,7 +149,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
 
                 <section>
                   <div className="international-tabone">
-                   <div className="col-lg-12">
+                   <div className="col-lg-12 international-expenses">
                     <div className="row">
                       <p className="text-center expenses-content">Expenses that are incurred for medical care and supplies which are: (a) necessary and customary; (b) prescribed by a Physician for the therapeutic treatment of a disablement; (c) are not excluded under the policy; (d) are not more than the Reasonable and Customary charges (as determined by the Company); and (e) are incurred within 365 days for US Citizens or 180 days for Non US Citizens from the date of the disablement will be considered.</p>
                     </div>
@@ -254,7 +254,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
                   </div>
 
                 <div className="international-tabtwo">
-                  <div className="col-lg-12">
+                  <div className="col-lg-12 international-expenses">
                     <p className="text-center insurance"><strong>Accidental Death, Dismemberment, Loss of Sight, and Speech and Hearing –</strong> The amount of the Principal Sum is $25,000 (unless the Enhanced AD&D Benefit is purchased). <strong>Enhanced AD&D Benefit</strong> (If Benefit Purchased) – The Principal Sum is increased from $25,000 to the selected amount not to exceed $1,000,000 of coverage.  The Enhanced AD&D Benefit is not available to children under 18 years of age.</p>
 
                   <div className="content-bg">
