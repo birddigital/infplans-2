@@ -102,7 +102,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
        <h2 className="text-blue text-center">COVID-19 Coverage</h2>
        <ul>
          <li>The Beneficiary must always and without exception contact the Emergency Central, <strong>Who in turn will coordinate a virtual appointment by Telemedicine</strong></li>
-         <li>According to the opinion provided by the Medical Department, if the Beneficiary presents symptoms related to COVID-19, the Assistance Center will coordinate the relevant medical consultation, according to the safety and health protocols of each country</li>
+         <li>According to the o pinion provided by the Medical Department, if the Beneficiary presents symptoms related to COVID-19, the Assistance Center will coordinate the relevant medical consultation, according to the safety and health protocols of each country</li>
          <li>We will cover the expenses incurred up to the coverage limit indicated in the voucher.</li>
          <li>The following expenses will be covered under the same limit:</li>
             <ul>
@@ -548,47 +548,6 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
            </Container>
           </section>
-
-          <section id="bmi-travel-section-7">
-            <Container>
-              <div className="col-lg-12">
-                <h3 className="text-blue text-center row-title">Benefits for BMI Travel Assist</h3>
-
-                <div className="row">
-                  <div className="col-lg-6">
-                    <div className="column-tab">
-                      <p className="text-white column-tab-title">Medical Benefits</p>
-                    </div>
-                    <ul className="tab-content1 text-black">
-                      <li>Medical assistance for accident or illness</li>
-                      <li>Medical assistance for COVID-19</li>
-                      <li>Prescription drugs</li>
-                      <li>Dental emergency</li>
-                      <li>​Repatriation or sanitary transfer</li>
-                    </ul>
-                  </div>
-
-                    <div className="col-lg-6">
-                      <div className="column-tab">
-                        <p className="text-white column-tab-title">Non-Medical Benefits</p>
-                      </div>
-                      <ul className="tab-content text-black">
-                        <li>Accidental death</li>
-                        <li>Repatriation of mortal remains</li>
-                        <li>Transportation of family member due to hospitalization</li>
-                        <li>Hotel expenses due to convalescence</li>
-                        <li>​Late arrival</li>
-                        <li>​Return due to death of family member</li>
-                        <li>Early return due to serious disaster at home</li>
-                        <li>​Lost or delayed luggage</li>
-                        <li>Delayed or cancelled flight</li>
-                        <li>Theft or loss of passport during a trip</li>
-                      </ul>
-                  </div>
-                  </div>
-                </div>
-            </Container>
-           </section>
 
     <section id="bmi-travel-section-7">
       <Container>

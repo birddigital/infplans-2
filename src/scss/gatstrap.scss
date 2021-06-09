@@ -7555,6 +7555,7 @@ section#bmi-travel-section-2 {
 
 #bmi-travel-section-4 {
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #bmi-travel-section-4 h3 {
@@ -7973,7 +7974,7 @@ section#bmi-travel-section-2 {
  margin-bottom: 0;
  border: 1px solid #A5A5A5;
  border-top: none;
- min-height: 330px;
+ min-height: 285px;
  padding-top: 20px;
  padding-bottom: 20px;
 }
@@ -7982,7 +7983,7 @@ section#bmi-travel-section-2 {
  margin-bottom: 0;
  border: 1px solid #A5A5A5;
  border-top: none;
- min-height: 330px;
+ min-height: 285px;
  padding-top: 20px;
  padding-bottom: 20px;
 }
@@ -8300,7 +8301,7 @@ section.eyemed-hero-section-bg {
   background: #ffffff;
   border: 2px solid #ffffff;
   color: #252362;
-  padding: 6px 60px;
+  padding: 6px 70px;
   border-radius: 50px;
   transition: .5s;
 }
@@ -8448,7 +8449,7 @@ section#eyemed-section-2 {
 #eyemed-section-3 .privacy-img {
   max-width: 191px;
   margin-right: auto;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 #eyemed-section-3 .powered{
@@ -12569,6 +12570,10 @@ details[open] summary:after {
     padding-bottom: 30px;
   }
 
+  #bmi-travel-section-7 .tab-content1 {
+    min-height: 160px;
+  }
+
   .options-tab {
     padding-top: 15px;
   }
@@ -12857,6 +12862,10 @@ details[open] summary:after {
 
   #eyemed-section-1 .flipcard-container {
     min-height: 230px;
+  }
+
+  #bmi-travel-section-7 .tab-content1 {
+   min-height: 190px;
   }
 }
 /* End of Gillian Responsiveness */
