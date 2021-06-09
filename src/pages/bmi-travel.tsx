@@ -629,7 +629,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
 
           <section>
             <div className="options-tabone">
-            <div className="col-lg-12">
+            <div className="col-lg-12 plan-opt">
               <ul className="plan-options">
                 <li>Offers protection for a single round trip</li>
                 <li>Minimum 5 day - Maximum 90 consecutive days of travel</li>
@@ -647,7 +647,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
 
             <div className="options-tabtwo">
-            <div className="col-lg-12">
+            <div className="col-lg-12 plan-opt">
               <ul className="plan-options">
                 <li>Designed for families consisting of 2 adults (spouses or not) over 21 years old</li>
                 <li>Up to 3 children under 21 years of age</li>
@@ -658,7 +658,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
 
             <div className="options-tabthree">
-            <div className="col-lg-12">
+            <div className="col-lg-12 plan-opt">
               <ul className="plan-options">
                 <li>Designed for international students up to 45 years old</li>
                 <li>Minimum 4 months - Maximum 12 consecutive months of travel.</li>
@@ -667,7 +667,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
 
             <div className="options-tabfour">
-            <div className="col-lg-12">
+            <div className="col-lg-12 plan-opt">
               <ul className="plan-options">
                 <li>Ideal for parents staying in the USA for long-term pleasure trips</li>
                 <li>Minimum two months (60 days)</li>
@@ -677,7 +677,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
 
             <div className="options-tabfive">
-            <div className="col-lg-12">
+            <div className="col-lg-12 plan-opt">
               <ul className="plan-options">
                 <li>Ideal if you travel for pleasure multiple times during a calendar year </li>
                 <li>Four plan options: Max. 30, 45, 60 or 90 consecutive days of travel.</li>
@@ -687,7 +687,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
 
             <div className="options-tabsix">
-            <div className="col-lg-12">
+            <div className="col-lg-12 plan-opt">
               <ul className="plan-options">
                 <li>Ideal for companies with a large number of travelers</li>
                 <li>The plan is pre-purchased from 250 or more days of assistance</li>

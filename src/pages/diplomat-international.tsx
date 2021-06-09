@@ -169,7 +169,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
                     </ul>
                   </div>
 
-                  <div className="row">
+                  <div className="row row-content">
                   <div className="column-tab">
                     <p className="text-white column-tab-title">Policy Medical Maximum Choices</p>
                   </div>
@@ -441,13 +441,13 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
                  </div>
 
                  <div className="miscellaneous-tabthree">
-                 <div className="col-lg-12">
+                 <div className="col-lg-12 misc-tabthree">
                     <p className="text-center refund">Refund of premium, less a $25 processing fee, will be considered if written request is received prior to the effective date of coverage. After that date, the premium is considered fully earned and non-refundable. Partial refunds are not available.</p>
                  </div>
                  </div>
 
                  <div className="miscellaneous-tabfour">
-                 <div className="col-lg-12">
+                 <div className="col-lg-12 misc-tabfour">
                     <p className="text-center purchase">Purchase up to $1,000,000 of 24-hour Accidental Death & Dismemberment coverage. Benefits and exclusions are the same as base plan.</p>
                  </div>
                  </div>

@@ -91,7 +91,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
         </div>
         <div className="col-lg-12">
           <div className="row mt-4">
-            <div className="col-lg-6">
+            <div className="col-lg-6 america-content">
               <ul>
                 <li className="text-white">Interruption of Trip: $5,000</li>
                 <li className="text-white">Loss of Baggage: $50 per article; up to a maximum of $250</li>
@@ -100,7 +100,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                 <li className="text-white">Accidental Death and Dismemberment: $25,000 (Enhanced Benefit Amounts available) with paralysis and coma, seat belt and airbag, felonious assault and home alteration and vehicle modification benefits.</li>
               </ul>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 america-content">
               <ul>
               <li className="text-white">Covers COVID-19 or Coronavirus like a New Sickness</li>
               <li className="text-white">Emergency Medical Evacuation and Repatriation: $500,000</li>
@@ -116,12 +116,12 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
         </div>
         <div className="col-lg-12">
           <div className="row mt-4">
-            <div className="col-lg-6">
+            <div className="col-lg-6 america-content">
               <ul>
                 <li className="text-white">Non-U.S. Citizens visiting the U.S</li>
               </ul>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 america-content">
               <ul>
                 <li className="text-white">Parents and relatives visiting the U.S.</li>
               </ul>
@@ -287,7 +287,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                   <p className="text-center company-claim">The Company, upon receipt of a written notice of claim, will furnish to the claimant such forms as are usually furnished by it for filing proofs of loss. If such forms are not furnished within 15 days after the giving of such notice, the claimant shall be deemed to have complied with the requirements of this Plan by submitting, within the time fixed in this Plan for filing proofs of loss, written proof showing the occurrence, nature and extent of the loss for which claim is made.</p>
                 </div>
 
-                    <div className="col-lg-12">
+                    <div className="col-lg-12 claims-misc">
                         <p className="claims"><strong>Claim Forms:</strong></p>
                             <ul>
                             <a href="https://infplans.com/policy_pdf/GU_Sickness.pdf">

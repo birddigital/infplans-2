@@ -5556,6 +5556,12 @@ section#claims-form-section-1 {
   transform: rotateY(180deg);
 }
 
+.flip-card:hover .flip-card-front {
+  opacity: 0;
+  visibility: hidden;
+  transition: ease-in-out 0.5s;
+}
+
 #claims-form-section-1 .flipcard-container1 {
   background: #fff;
   padding: 60px 20px;
@@ -5686,9 +5692,9 @@ section#diplomat-america-section-3 {
   line-height: 2;
 }
 
-#diplomat-america-section-4 .expenses{
+#diplomat-america-section-4 .expenses {
   line-height: 2;
-  margin-left: 40px;
+  margin-left: 0;
 }
 
 #diplomat-america-section-4 .co-insurance {
@@ -8406,6 +8412,12 @@ section.eyemed-hero-section-bg {
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
+}
+
+.flip-card:hover .flip-card-front {
+  opacity: 0;
+  visibility: hidden;
+  transition: ease-in-out 0.5s;
 }
 
 #eyemed-section-1 .inner-content {
@@ -11702,12 +11714,15 @@ details[open] summary:after {
 
   #claims-form-section-3 .pdf-icon {
     max-width: 200px;
-    padding-top: 25px;
   }
 
   #claims-form-section-3 .download-claims {
     padding-bottom: 0;
-}
+  }
+
+  #claims-form-section-3 .web {
+    font-size: 16px;
+  }
 
   #claims-form-section-3 .download {
     font-size: 20px;
@@ -11715,6 +11730,15 @@ details[open] summary:after {
   }
 
   #claims-form-section-3 .pdf-download {
+    padding: 0;
+  }
+
+  #claims-form-section-3 .claims-info {
+    padding: 0;
+    padding-bottom: 10px;
+  }
+
+  #claims-form-section-3 .infor {
     padding: 0;
   }
 
@@ -11738,9 +11762,6 @@ details[open] summary:after {
     font-size: 25px;
   }
 
-  .claims-info-tab section div {
-    padding-left: 10px;
-  }
 
   .claims-info-tab ul li label {
     width: 100%;
@@ -12007,7 +12028,7 @@ details[open] summary:after {
   }
 
   #plans-section-6 .bmi-content1 {
-    padding-left: 5px;
+    padding: 10px;
   }
 
   .bmi-plans-tab section div {
@@ -12080,6 +12101,14 @@ details[open] summary:after {
   #plans-section-7 {
     padding-top: 0;
     padding-bottom: 40px;
+  }
+
+  #plans-section-7 .plan-features {
+    padding-left: 20px;
+  }
+
+  #plans-section-7 .plan-design {
+    padding: 0;
   }
 
   #diplomat-america-hero-section h1 {
@@ -12165,7 +12194,7 @@ details[open] summary:after {
   }
 
   #diplomat-america-section-4 .co-insurance {
-    padding-left: 30px;
+    padding: 5px;
   }
 
   #diplomat-america-section-4 .alpha-list {
@@ -12208,6 +12237,14 @@ details[open] summary:after {
     padding-bottom: 20px;
   }
 
+  #diplomat-america-section-5 .company {
+    padding: 5px;
+  }
+
+  #diplomat-america-section-5 .claims-misc {
+    padding: 0;
+  }
+
   #diplomat-america-section-5 .claims {
     padding-left: 0;
   }
@@ -12221,7 +12258,7 @@ details[open] summary:after {
   }
 
   #diplomat-america-section-5 .total {
-    padding-left: 0;
+    padding: 0;
   }
 
   #diplomat-america-section-5 .company-tabtwo {
@@ -12336,8 +12373,11 @@ details[open] summary:after {
 
   .international-tab .content-bg {
     margin-top: 20px;
-    padding-top: 25px;
     padding-left: 30px;
+  }
+
+  #diplomat-international-section-4 .row-content {
+    padding-bottom: 0;
   }
 
   #diplomat-international-section-3 h4 {
@@ -12364,6 +12404,10 @@ details[open] summary:after {
     padding-bottom: 30px;
   }
 
+  #diplomat-international-section-4 .international-expenses {
+    padding: 0;
+  }
+
   #diplomat-international-section-5 .tab1 {
     padding-left: 5px;
   }
@@ -12371,6 +12415,15 @@ details[open] summary:after {
   #diplomat-international-section-5 .misc-claims {
     padding-left: 15px;
   }
+
+  #diplomat-international-section-5 .misc-tabthree {
+    padding: 0;
+  }
+
+  #diplomat-international-section-5 .misc-tabfour {
+    padding: 0;
+  }
+
 
   #diplomat-international-section-5 h3 {
     font-size: 25px;
@@ -12425,6 +12478,7 @@ details[open] summary:after {
 
   section.bmi-travel-hero-section-bg {
     min-height: 400px;
+    padding-bottom: 60px;
   }
 
   section#bmi-travel-section-1 {
@@ -12456,7 +12510,7 @@ details[open] summary:after {
   }
 
   #bmi-travel-section-2 ul {
-    padding-left: 20px;
+    padding-left: 10px;
   }
 
   #bmi-travel-section-3 ul {
@@ -12794,8 +12848,25 @@ details[open] summary:after {
   }
 
   section.diplomat-america-hero-section-bg {
-    padding-bottom: 50px;
+    padding-bottom: 80px;
   }
+
+  #diplomat-america-section-1 p {
+    padding-top: 15px;
+  }
+
+  #diplomat-america-section-2 p {
+    padding-top: 15px;
+  }
+
+  #diplomat-america-section-3 .america-content {
+    padding: 0;
+  }
+
+  #diplomat-america-section-3 h4 {
+    padding: 0;
+  }
+
 
   #diplomat-america-section-3 ul {
     padding-left: 0;
@@ -12826,7 +12897,7 @@ details[open] summary:after {
   }
 
   #diplomat-america-section-5 .company {
-    padding-left: 0;
+    padding: 0;
   }
 
   section.diplomat-international-hero-section-bg {
@@ -12873,5 +12944,17 @@ details[open] summary:after {
   #bmi-travel-section-7 .tab-content1 {
    min-height: 190px;
   }
+
+  #bmi-travel-section-8 .plan-opt {
+   padding: 0;
+  }
 }
 /* End of Gillian Responsiveness */
+
+/* Premium 375 */
+@media screen and (max-width:375px) {
+  #premium-section-2 .fixed {
+    margin-top: 45px;
+  }
+}
+/* End of Premium 375 */

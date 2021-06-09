@@ -348,7 +348,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
       <div className="plans-container">
        <h2 className="text-blue text-center">Diplomat America</h2>
          <p>Diplomat America Plan Features:</p>
-           <ul>
+           <ul className="plan-features">
              <li>Covers COVID-19 or Coronavirus like a New Sickness</li>
              <li>Emergency Medical Evacuation and Repatriation: $500,000</li>
              <li>Return of Mortal Remains: $50,000</li>
@@ -365,12 +365,12 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
 
              <div className="row">
                <div className="col-lg-6">
-                 <ul>
+                 <ul className="plan-design">
                    <li>Non-U.S. Citizens visiting the U.S</li>
                  </ul>
                  </div>
                  <div className="col-lg-6">
-                 <ul>
+                 <ul className="plan-design">
                    <li>Parents and relatives visiting the U.S.</li>
                  </ul>
                </div>

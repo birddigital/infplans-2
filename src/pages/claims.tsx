@@ -171,7 +171,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
              <div className="claims-info-tabone">
              <div className="col-lg-12 info">
                <div className="row">
-               <div className="col-lg-12">
+               <div className="col-lg-12 claims-info">
                  <h4>Claims Office Information:</h4>
                </div>
 
@@ -185,7 +185,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                <div className="col-lg-6 infor">
                  <p><strong>Check Claim Status:</strong> 888-293-9229</p>
                  <p className="submit-bills"><strong>Submit Bills Online:</strong>  aciclaims@visit-aci.com</p>
-                 <strong>Web:</strong> <a href="http://www.visit-aci.com" target="_blank">http://www.visit-aci.com</a>
+                 <strong className="web">Web:</strong> <a href="http://www.visit-aci.com" target="_blank">http://www.visit-aci.com</a>
                  ​<p className="pay"><strong>EDI Payor#:</strong> 22384</p>
               </div>
 
@@ -211,7 +211,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="claims-info-tabtwo">
               <div className="col-lg-12 information">
                <div className="row">
-                <div className="col-lg-12">
+                <div className="col-lg-12 claims-info">
                 <h4>Claims Office Information:</h4>
                </div>
 
@@ -225,7 +225,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
 
              <div className="col-lg-6 infor">
                <p className="submit-bills"><strong>Submit Bills Online:</strong> helpme@webtpa.com</p>
-               <strong>Web:</strong> <a href="http://www.visit-aci.com" target="_blank">http://www.visit-aci.com</a>
+               <strong className="web">Web:</strong> <a href="http://www.visit-aci.com" target="_blank">http://www.visit-aci.com</a>
                <p className="pay">​EDI Payor#: 22384</p>
              </div>
             </div>
