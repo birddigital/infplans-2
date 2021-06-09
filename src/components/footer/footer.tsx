@@ -52,7 +52,7 @@ const Footer = ({ className }) => {
             <h4>Navigate Our Site</h4>
             <Link to="/"><p>Home</p></Link>
             <Link to="/apply"><p>Apply</p></Link>
-            <Link to="/plans"><p>Plans</p></Link>
+            <Link to="/visitors-insurance-plans"><p>Plans</p></Link>
             <Link to="/extend"><p>Extend</p></Link>
           </div>
           <div className="col-lg-3">
