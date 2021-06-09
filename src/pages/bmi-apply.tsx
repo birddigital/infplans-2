@@ -22,6 +22,7 @@ const BMIApplyPage: React.FC<Props> = ({ data, location }: Props) => {
   const posts = data.remark.posts
   const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
+  const infplans_big_logo = data.infplans_big_logo?.childImageSharp?.fluid
 
   return (
     <Layout location={location}>
@@ -34,25 +35,36 @@ const BMIApplyPage: React.FC<Props> = ({ data, location }: Props) => {
       </Helmet>
       <BackgroundImage
         Tag="section"
-        className="bmi-travel-hero-section-bg"
+        className="bmi-apply-hero-section-bg"
         fluid={hero_background}
-        alt="bmi travel plans"
+        alt="bmi apply hero backgrounds"
       >
-        <div id="bmi-travel-hero-section">
-          <Container>
-            <div className="col-lg-12">
-              <h1 className="text-white text-center">
-                APPLY
-              </h1>
-              <button className="hero-btn"> Get a Quote </button>
-            </div>
-            <div className="col-lg-8">
-            </div>
-          </Container>
+      <div id="bmi-apply-hero-section">
+        <Container>
+          <div className="col-lg-12">
+            <h1 className="text-white text-center">
+              APPLY
+            </h1>
+            <button className="hero-btn"> Get a Quote </button>
+          </div>
+        </Container>
+      </div>
+    </BackgroundImage>
+
+    <section id="bmi-apply-section-1">
+      <Container>
+        <div className="col-lg-12">
+          <div className="bmi-apply-container">
+            <h2 className="text-blue text-center">Apply for INF BMI Travel Assist</h2>
+              <Img fluid={infplans_big_logo} className="big-logo"/>
+              <p className="text-center sub-title">INF Recommends enrolling for at least 61 days to get Best Price Discount</p>
+            <h2 className="text-blue text-center">INF BMI Travel Plan Application</h2>
+          </div>
         </div>
-      </BackgroundImage>
-    </Layout>
-  )
+      </Container>
+    </section>
+  </Layout>
+ )
 }
 
 export default BMIApplyPage
@@ -98,6 +110,13 @@ export const query = graphql`
     hero_background: file(name: { eq: "bmi-travel-assist-apply" }) {
       childImageSharp {
         fluid(maxWidth: 1400, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    infplans_big_logo: file(name: { eq: "infplans-big-logo" }) {
+      childImageSharp {
+        fluid(maxWidth: 600, quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
