@@ -814,6 +814,12 @@ what-describes-you {
   transform: rotateY(180deg);
 }
 
+.flip-card:hover .flip-card-front {
+  opacity: 0;
+  visibility: hidden;
+  transition: ease-in-out 0.5s;
+}
+
 .testimonial-slider {
   padding-bottom: 50px;
 }
