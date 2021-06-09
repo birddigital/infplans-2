@@ -12950,6 +12950,38 @@ details[open] summary:after {
    padding: 0;
   }
 }
+@media screen and (max-width:425px) {
+
+  #claims-form-section-1 .flipcard-container {
+    padding: 30px 50px;
+    min-height: 365px;
+  }
+
+  #claims-form-section-1 .flipcard-container-inner {
+    min-height: 320px;
+  }
+
+  #claims-form-section-1 .flipcard-container1 {
+    padding: 30px 50px;
+    min-height: 370px;
+  }
+
+  #claims-form-section-1 .flipcard-icon {
+    margin-top: 25px;
+  }
+
+  #claims-form-section-1 .flipcard-icon1 {
+    margin-top: 75px;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #claims-form-section-1 .flipcard-container-inner1 {
+    min-height: 370px;
+  }
+}
+
 /* End of Gillian Responsiveness */
 
 /* Premium 375 */
