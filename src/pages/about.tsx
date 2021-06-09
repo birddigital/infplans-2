@@ -64,7 +64,7 @@ const AboutPage: React.FC<Props> = ({ data, location }: Props) => {
               <p>As a community organization, we are able to offer insurance programs for non-US citizens visiting the United States, Canada, or Mexico.</p>
               <p>All INF IVAS plans use Multiplan Network.</p>
               <p>Most INF International Visitor Accident and Sickness plans provide coverage for pre-existing conditions. Our A-rated underwriting partners provide the strong financial support needed from an insurance company to continue offering International Visitor Accident and Sickness plans with pre-existing conditions coverage.</p>
-              <p>If you have any questions about INF or our organization, please email us at support[at]infplans.com.</p>
+              <p>If you have any questions about INF or our organization, please email us at support@infplans.com.</p>
             </div>
           </div>
         </Container>

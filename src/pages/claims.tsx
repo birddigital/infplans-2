@@ -176,16 +176,16 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                </div>
 
                <div className="col-lg-6 infor">
-                 <p><strong>Mail:</strong> Administrative Concepts, Inc. (ACI)</p>
-                 <p>994 Old Eagle School Rd., Suite 1005, Wayne, PA 19087-1706</p>
-                 <p><strong>Toll Free:</strong> 888-293-9229 (from inside the U.S.)</p>
-                 <p><strong>Fax:</strong> 610-293-9299</p>
+                 <p className="infor-content"><strong>Mail:</strong> Administrative Concepts, Inc. (ACI)</p>
+                 <p className="infor-content">994 Old Eagle School Rd., Suite 1005, Wayne, PA 19087-1706</p>
+                 <p className="infor-content"><strong>Toll Free:</strong> 888-293-9229 (from inside the U.S.)</p>
+                 <p className="infor-content"><strong>Fax:</strong> 610-293-9299</p>
                </div>
 
                <div className="col-lg-6 infor">
-                 <p><strong>Check Claim Status:</strong> 888-293-9229</p>
+                 <p className="infor-content"><strong>Check Claim Status:</strong> 888-293-9229</p>
                  <p className="submit-bills"><strong>Submit Bills Online:</strong>  aciclaims@visit-aci.com</p>
-                 <strong className="web">Web:</strong> <a href="http://www.visit-aci.com" target="_blank">http://www.visit-aci.com</a>
+                 <strong className="web">Web:</strong> <a href="http://www.visit-aci.com" target="_blank" className="links">http://www.visit-aci.com</a>
                  ​<p className="pay"><strong>EDI Payor#:</strong> 22384</p>
               </div>
 
@@ -216,16 +216,16 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                </div>
 
              <div className="col-lg-6 infor">
-               <p>WebTPA</p>
-               <p>PO Box 669</p>
-               <p>Grapevine, TX 76099-0669</p>
-               <p><strong>Phone:</strong> 928-494-0112</p>
-               <p><strong>Fax:</strong> 469-417-1989</p>
+               <p className="infor-content">WebTPA</p>
+               <p className="infor-content">PO Box 669</p>
+               <p className="infor-content">Grapevine, TX 76099-0669</p>
+               <p className="infor-content"><strong>Phone:</strong> 928-494-0112</p>
+               <p className="infor-content"><strong>Fax:</strong> 469-417-1989</p>
              </div>
 
              <div className="col-lg-6 infor">
                <p className="submit-bills"><strong>Submit Bills Online:</strong> helpme@webtpa.com</p>
-               <strong className="web">Web:</strong> <a href="http://www.visit-aci.com" target="_blank">http://www.visit-aci.com</a>
+               <strong className="web">Web:</strong> <a href="http://www.visit-aci.com" target="_blank" className="links">http://www.visit-aci.com</a>
                <p className="pay">​EDI Payor#: 22384</p>
              </div>
             </div>

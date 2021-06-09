@@ -256,7 +256,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
                  <label for="bmi-plans-tabone">Benefits That Come With Inf-BMI Plans</label>
                </li>
                <li className="bmi-plans-tabtwo">
-                 <label for="bmi-plans-tabtwo">COVID-19 Coverage</label>
+                 <label for="bmi-plans-tabtwo" className="title">COVID-19 Coverage</label>
                </li>
                <li className="bmi-plans-tabthree">
                  <label for="bmi-plans-tabthree">Pre-Existing Conditions Coverage</label>

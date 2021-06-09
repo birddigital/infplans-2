@@ -5123,16 +5123,28 @@ section#claims-form-section-1 {
   padding-bottom: 0;
 }
 
+#claims-form-section-3 .infor-content {
+  margin-bottom: 0
+}
+
 #claims-form-section-3 p {
   line-height: 2;
 }
 
 #claims-form-section-3 .submit-bills {
-  margin-bottom: 10px;
+  margin-bottom: 0;
+}
+
+#claims-form-section-3 .links {
+  font-size: 16px;
+}
+
+#claims-form-section-3 .web {
+  font-size: 16px;
 }
 
 #claims-form-section-3 .pay {
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 #claims-form-section-3 .download-claims {
@@ -5698,10 +5710,6 @@ section#diplomat-america-section-3 {
   margin-left: 0;
 }
 
-#diplomat-america-section-4 .co-insurance {
-  padding-left: 50px;
-}
-
 .benefits-tab > input,
 .benefits-tab section > div {
   display: none;
@@ -5830,20 +5838,19 @@ section#diplomat-america-section-3 {
 }
 
 #diplomat-america-section-5 .company {
-  padding-left: 50px;
   padding-bottom: 0;
 }
 
 #diplomat-america-section-5 .claims {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 #diplomat-america-section-5 .claims2 {
-  margin-left: 77px;
+  margin-left: 65px;
 }
 
 #diplomat-america-section-5 .administrator {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 #diplomat-america-section-5 .claim-disease {
@@ -5878,7 +5885,6 @@ section#diplomat-america-section-3 {
   line-height: 2;
   list-style: disc;
   text-align: left;
-  padding-left: 20px;
 }
 
 .info-tab ul li label {
@@ -5975,7 +5981,7 @@ section#diplomat-america-section-3 {
 }
 
 .info-tab .total {
-  padding-left: 5px;
+  padding-left: 60px;
 }
 
 .info-tabone .title {
@@ -6101,7 +6107,7 @@ section#diplomat-america-section-3 {
 
 #diplomat-america-section-4 .alpha-list {
   list-style-type: none;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 #diplomat-america-section-4 .alpha {
@@ -6111,7 +6117,7 @@ section#diplomat-america-section-3 {
 #diplomat-america-section-4 .number-list {
   list-style-type: decimal;
   padding-top: 25px;
-  padding-left: 50px;
+  padding-left: 35px;
 }
 
 #diplomat-america-section-5 .claims li {
@@ -6312,6 +6318,14 @@ section#diplomat-international-section-3 {
   margin-top: 25px;
   padding-top: 25px;
   padding-bottom: 5px;
+  padding-left: 50px;
+}
+
+.international-tab .content-bg1 {
+  background-color: #F8F8F8;
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   padding-left: 50px;
 }
 
@@ -7335,10 +7349,6 @@ section.plans-hero-section-bg {
   margin-bottom: 30px;
 }
 
-#plans-section-6 .inf-bmi-plans {
-  padding-left: 50px;
-}
-
 #plans-section-6 .covid-content {
   font-size: 20px;
   font-weight: 600;
@@ -7362,6 +7372,10 @@ section.plans-hero-section-bg {
 
 #plans-section-6 .decom {
   padding-top: 10px;
+}
+
+#plans-section-6 .title {
+  padding-top: 30px;
 }
 
 #plans-section-7 h2 {
@@ -7822,7 +7836,8 @@ section#bmi-travel-section-2 {
 }
 
 .conditions-tab .content-2 {
-  padding-top: 25px;
+  padding-top: 14px;
+  min-height: 50px;
 }
 
 .conditions-tab .content-3 {
@@ -8820,7 +8835,8 @@ section#apply-hero-section {
     background: #252362;
     border: 2px solid #252362;
     color: #ffffff;
-    padding: 8px 170px;
+    padding: 8px 50px;
+    width: 80%;
     border-radius: 50px;
     transition: .5s;
 }

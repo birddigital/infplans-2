@@ -277,7 +277,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                   <p className="text-white column-tab-title">Classico</p>
                 </div>
                 <p className="tab-content2 text-black">$10,000</p>
-                <p className="tab-content2 text-black">​$10,000</p>
+                <p className="tab-content2 text-black content-2">​$10,000</p>
                 <p className="tab-content2 text-black">$300</p>
                 <p className="tab-content2 text-black">Included</p>
                 <p className="tab-content2 text-black">$0</p>
@@ -290,7 +290,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                   <p className="text-white column-tab-title">Ultra</p>
                 </div>
                 <p className="tab-content2 text-black">$30,000</p>
-                <p className="tab-content2 text-black">$30,000</p>
+                <p className="tab-content2 text-black content-2">$30,000</p>
                 <p className="tab-content2 text-black">$500</p>
                 <p className="tab-content2 text-black">Included</p>
                 <p className="tab-content2 text-black">$30,000</p>
@@ -303,7 +303,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                   <p className="text-white column-tab-title">Ultra Plus</p>
                 </div>
                 <p className="tab-content2 text-black">​$60,000</p>
-                <p className="tab-content2 text-black">​$60,000</p>
+                <p className="tab-content2 text-black content-2">​$60,000</p>
                 <p className="tab-content2 text-black">​$700</p>
                 <p className="tab-content2 text-black">Included</p>
                 <p className="tab-content2 text-black">$30,000</p>
@@ -316,7 +316,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                   <p className="text-white column-tab-title">VIP</p>
                 </div>
                 <p className="tab-content2 text-black">​$100,000</p>
-                <p className="tab-content2 text-black">​$100,000</p>
+                <p className="tab-content2 text-black content-2">​$100,000</p>
                 <p className="tab-content2 text-black">$2,000</p>
                 <p className="tab-content2 text-black">Included</p>
                 <p className="tab-content2 text-black">$30,000</p>
@@ -329,7 +329,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                   <p className="text-white column-tab-title">VIP Plus</p>
                 </div>
                 <p className="tab-content2 text-black">​$250,000</p>
-                <p className="tab-content2 text-black">​$250,000</p>
+                <p className="tab-content2 text-black content-2">​$250,000</p>
                 <p className="tab-content2 text-black">$6,000</p>
                 <p className="tab-content2 text-black">Included</p>
                 <p className="tab-content2 text-black">$30,000</p>

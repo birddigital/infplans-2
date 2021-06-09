@@ -188,7 +188,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
                     <p className="tab-content text-black">$1,000,000</p>
                   </div>
 
-                  <div className="content-bg">
+                  <div className="content-bg1">
                     <p className="age">Persons up to age 69 are eligible for all plans;</p>
                     <p className="age">Persons age 70-79 are eligible for plans A and B;</p>
                     <p className="age">Persons age 80+ are limited to $20,000.</p>
