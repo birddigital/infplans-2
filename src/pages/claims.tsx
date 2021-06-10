@@ -64,7 +64,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
            <div className="row mt-4">
          <div className="col-lg-8">
           <p>
-            Filing claims when using your insurance is needed to make sure that you are reimbursed for any eligible medical expense paid out-of-pocket. Although INF allows direct billing, it is highly advised for members to submit a claim form anytime they use their insurance, regardless of whether you have paid out-of-pocket. Sending in the proper paperwork and documentation may help expedite the claims and reimbursement process. Below you can find information on how to file claims for International Visitors Accident and Sickness Insurance plans:
+          Filing claims when using your insurance is needed to make sure that you are reimbursed for any eligible medical expense paid out-of-pocket. Although INF allows direct billing, it is highly advised for plan members to submit a claim form anytime they use their insurance, regardless of whether you have paid out-of-pocket. Sending in the proper paperwork and documentation may help expedite the claims and reimbursement process. Below you can find information on how to file claims for International Visitors Accident and Sickness Insurance plans:
           </p>
          </div>
           <div className="col-lg-4">
@@ -274,7 +274,6 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                     <p>Generally, providers file insurance claim directly with WebTPA. Additionally, all policyholders are required to complete an informational Section of the claim form found in the member portal above.</p>
                     <p>In the event a provider wishes to collect from policy holder directly, the second section of claim Form found at (or Standard Insurance Claims Form 1500 CMS/HCFA 1500 or UB92/UB04) should be completed by the doctor's office and submitted by policy holder to the Insurance Company for prompt processing.</p>
                     <p>Failure to do so would delay the claim processing or result in denial of claims by WebTPA.</p>
-                    <p>The Policy Holder should complete Section A. Providers should complete Section B of the form. The form can be mailed to the Insurance by the Provider's office or the Policy Holder. Providers can also submit claims online using EDI Pay#: 22384.</p>
                 </div>
                 </div>
               </section>

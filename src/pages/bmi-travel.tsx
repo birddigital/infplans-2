@@ -10,6 +10,7 @@ import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
+import { FaAngleDoubleDown } from "@react-icons/all-files/fa/FaAngleDoubleDown";
 import { Helmet } from 'react-helmet'
 
 interface Props {
@@ -50,8 +51,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                 INF BMI INSURANCE
               </h1>
               <p className="text-white text-center hero-text">
-                INF-BMI plans provide assistance for international trips with no deductible or copayments and provides coverage for full pre-existing conditions, acute onset of pre-existing conditions, and COVID-19 as per the limits in the policy.
-              </p>
+                INF-BMI plans provide assistance for international trips with no deductible or copayments and provides coverage for full pre-existing conditions, acute onset of pre-existing conditions, and COVID-19 as per the limits in the policy.               </p>
               <button className="hero-btn"> Get a Quote </button>
             </div>
             <div className="col-lg-8">
@@ -69,6 +69,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
          <div className="col-lg-8">
           <p>INF-BMI plans provide assistance for international trips with no deductible or copayments and provides coverage for full pre-existing conditions, acute onset of pre-existing conditions, and COVID-19 as per the limits in the Plan.</p>
           <p>INF recommends enrolling in the Ultra Plus, VIP, VIP Plus- which provides comprehensive coverage for pre-existing, acute onset of pre-existing conditions, and COVID-19. INF-BMI plans can provide these innovative visitor insurance options.</p>
+          <a href="#" className="read-more">READ MORE <FaAngleDoubleDown className="double-arrow-down" /></a>
          </div>
           <div className="col-lg-4">
             <Img fluid={bmi_logo} className="bmi-logo"/>
