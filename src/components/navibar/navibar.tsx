@@ -402,11 +402,11 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                       </li>
                     </ul>
                   </li>
-                  <li>
+                  {/*<li>
                     <Link to="/eyemed">
                       <button id="btn-2">EyeMed</button>
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="/">
                       <button id="btn-1">Show Plans</button>
