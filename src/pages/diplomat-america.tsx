@@ -209,7 +209,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
            <nav>
              <ul>
                <li className="info-tabone">
-                 <label for="info-tabone" className="title">Covered Medical Expenses (All Policies)</label>
+                 <label for="info-tabone" className="title">Exclusions</label>
                </li>
               <li className="info-tabtwo">
                 <label for="info-tabtwo" className="title">Claims</label>
@@ -312,7 +312,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                       </div>
 
                       <div className="col-lg-12">
-                          <p className="claims2"><strong>Claim Administrator:</strong> </p>
+                          <p className="claims2"><strong>Claims Administrator:</strong> </p>
                           <p className="administrator">Global Claims Administration</p>
                           <p className="administrator">3195 Linwood Rd, Suite 201</p>
                           <p className="administrator">Cincinnati OH 45208</p>

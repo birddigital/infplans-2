@@ -83,14 +83,14 @@ const StandardPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="standard-section2">
         <Container>
           <div className="col-lg-12">
-            <h3 className="text-white text-center">As an insured of INF you will also have access to additional Non-Insurance Features when traveling to the USA including:</h3>
+            <h3 className="text-white text-center">As a plan member you will also have access to additional Non-Insurance Features when traveling to the USA including:</h3>
           </div>
           <div className="col-lg-12">
             <div className="row mt-5">
               <div className="col-lg-6">
                 <Img fluid={section2_img_right} className="section2-img1-mobile"/>
                 <ul>
-                  <li className="text-white">Access to a Careington discount program at no additional cost with the INF Standard International Visitor Accident & Sickness Insurance as part of its membership and community service. Careington coordinates this discount program, which provides savings on Dental, Vision, Prescription, & Hearing products & services in the United States. For example, you may see savings of up to 50% for Dental procedures! For more information on benefits of the discount program, please visit our page on the Discount Card Program. This Discount card program is not an insurance product and is not insured by Crum & Forster SPC. This is not insurance.</li>
+                  <li className="text-white">Access to a Careington discount program at no additional cost with the INF Standard International Visitor Accident & Sickness Insurance. Careington coordinates this discount program, which provides savings on Dental, Vision, Prescription, & Hearing products & services in the United States. For example, you may see savings of up to 50% for Dental procedures! For more information on benefits of the discount program, please visit our page on the Discount Card Program. This Discount card program is not an insurance product and is not insured by Crum & Forster SPC. This is not insurance.</li>
                 </ul>
               </div>
               <div className="col-lg-6">
@@ -105,7 +105,7 @@ const StandardPage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
               <div className="col-lg-7">
                 <ul>
-                  <li className="text-white">INF membership also provides access to MDLive- a telehealth feature which allows members to get medical care from the comfort of their own home. While in the United States, MDLive allows members to schedule an appointment with a healthcare provider that is credentialed, certified and highly trained, and typically arrange medical care within 1 hour. The doctor will video or audio chat with you and if required, send a prescription to the nearest pharmacy (note that prescriptions may require out of pocket expense if they are not eligible expenses). MDLive can be used for any non life threatening condition. This is not an insurance product and is not insured by Crum & Forster SPC. MDLive only provides access to and helps arrange the telehealth visits. Any eligible benefits are paid under the terms of the IVAS Standard insurance policy.</li>
+                  <li className="text-white">As a plan member, you will be provided access to MDLive- a telehealth feature which allows members to get medical care from the comfort of their own home. While in the United States, MDLive allows members to schedule an appointment with a healthcare provider that is credentialed, certified and highly trained, and typically arrange medical care within 1 hour. The doctor will video or audio chat with you and if required, send a prescription to the nearest pharmacy (note that prescriptions may require out of pocket expense if they are not eligible expenses). MDLive can be used for any non life threatening condition. This is not an insurance product and is not insured by Crum & Forster SPC. MDLive only provides access to and helps arrange the telehealth visits. Any eligible benefits are paid under the terms of the IVAS Standard insurance policy.</li>
                 </ul>
               </div>
             </div>
@@ -402,7 +402,7 @@ const StandardPage: React.FC<Props> = ({ data, location }: Props) => {
                       <div className="column-tab">
                         <p className="text-white column-tab-title">Covered Medical Services</p>
                       </div>
-                      <p className="tab-content text-black">Surgical Room and Supply Expenses</p>
+                      <p className="tab-content text-black">Surgical Room & Supply Expenses</p>
                       <p className="tab-content text-black">Hospital Emergency</p>
                       <p className="tab-content text-black">Doctor Surgical Expenses</p>
                       <p className="tab-content text-black">Anesthetics</p>
@@ -652,7 +652,7 @@ const StandardPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="standard-section7">
         <Container>
           <div className="col-lg-12">
-            <p className="text-black text-center first-paragraph">Benefits are provided for eligible Insured Persons. Terms and conditions are briefly outlined in this summary of coverage. Complete provisions pertaining to this insurance are contained in the Plan. In the event of any conflict between this summary of coverage and the Plan, the Plan will govern. The Plan is a short term limited duration Plan renewable at the option of the insurer. This is a brief description of the important features of the insurance plan. It is not a contract of insurance. The terms and conditions of coverage are set forth in the Plan issued to INF. For a detailed plan description, exclusions, and limitations please view the plan on file with INF. This insurance is not subject to, and will not be administered as a PPACA (Patient Protection and Affordable Care Act) insurance plan. PPACA requires certain US residents and citizens obtain PPACA compliant insurance coverage. This plan is not designed to cover US residents and citizens. This Plan is not subject to guaranteed issuance or renewal. PPO Networks are not provided by Crum & Forster, SPC</p>
+            <p className="text-black text-center first-paragraph">Benefits are provided for eligible Insured Persons. Terms and conditions are briefly outlined in this summary of coverage. Complete provisions pertaining to this insurance are contained in the Plan. In the event of any conflict between this summary of coverage and the Plan, the Plan will govern. The Plan is a short term limited duration Plan renewable at the option of the insurer. This is a brief description of the important features of the insurance plan. It is not a contract of insurance. The terms and conditions of coverage are set forth in the plan issued to ITA Global Trust, LTD. For a detailed plan description, exclusions, and limitations please view the plan on file with INF. This insurance is not subject to, and will not be administered as a PPACA (Patient Protection and Affordable Care Act) insurance plan. PPACA requires certain US residents and citizens obtain PPACA compliant insurance coverage. This plan is not designed to cover US residents and citizens. This Plan is not subject to guaranteed issuance or renewal. By purchasing this insurance, you become a member of the ITA Global Trust, LTD. PPO Networks are not provided by Crum & Forster, SPC</p>
           </div>
           <div className="col-lg-12">
             <div className="blue-bg text-center">

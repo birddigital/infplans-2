@@ -51,6 +51,9 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
           <h1 className="text-white text-center">
             INF PLANS
           </h1>
+          <p className="hero-text text-white text-center">
+            We offer insurance plans for international visitors to the United States, Canada, and Mexico from most countries in the world. You should consider International Visitors Accident and Sickness Insurance when traveling outside your home country- especially when staying for a defined period of time.
+          </p>
             <button className="hero-btn"> Get a Quote </button>
           </div>
         </Container>
@@ -97,7 +100,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
               </ul>
             <h4>Non-Insurance Benefits (not associated with Crum & Forster SPC):</h4>
               <ul>
-                <li>Telehealth Provided by MeMD (available while visiting the US only)</li>
+                <li>Telehealth Provided by MDLive (available while visiting the US only)</li>
                 <li>Dental, Vision, Hearing, and Prescription Discount coordinated by Careington International (available while visiting the US only)</li>
                 <li>Membership in INF ($10 membership fee)</li>
               </ul>
@@ -137,7 +140,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
             </ul>
           <h4>Non-Insurance Benefits (not associated with Crum & Forster SPC):</h4>
             <ul>
-              <li>Telehealth Provided by MeMD (available while visiting the US only)</li>
+              <li>Telehealth Provided by MDLive (available while visiting the US only)</li>
               <li>Dental, Vision, Hearing, and Prescription Discounts coordinated by Careington International (available while visiting the US only)</li>
               <li>Membership in INF ($10 membership fee)</li>
             </ul>
@@ -179,7 +182,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
              </ul>
            <h4>Non-Insurance Benefits (not associated with Crum & Forster SPC):</h4>
              <ul>
-               <li>Telehealth Provided by MeMD (available while visiting the US only)</li>
+               <li>Telehealth Provided by MDLive (available while visiting the US only)</li>
                <li>Dental, Vision, Hearing, and Prescription Discounts coordinated by Careington International (available while visiting the US only)</li>
                <li>Membership in INF ($10 membership fee)</li>
              </ul>
@@ -219,7 +222,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
            </ul>
          <h4>Non-Insurance Benefits (not associated with Crum & Forster SPC):</h4>
            <ul>
-             <li>Telehealth Provided by MeMD (available while visiting the US only)</li>
+             <li>Telehealth Provided by MDLive (available while visiting the US only)</li>
              <li>Dental, Vision, Hearing, and Prescription Discounts coordinated by Careington International (available while visiting the US only)</li>
              <li>Membership in INF ($10 membership fee)</li>
            </ul>

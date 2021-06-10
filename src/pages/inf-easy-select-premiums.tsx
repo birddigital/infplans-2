@@ -71,7 +71,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
           </div>
 
-          <div className="col-lg-12 ">
+          <div className="col-lg-12 hidden">
            <div className="blue-bg">
              <h3 className="text-white text-center mb-4">WHAT IS THE AGE GROUP OF<br /> YOUR VISITOR?</h3>
               <form id="" method="" action="">
@@ -104,9 +104,12 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
            </div>
          </div>
 
-         <div className="col-lg-12  hidden">
+         <div className="col-lg-12  ">
           <div className="blue-bg text-center">
-            <h3 className="text-white">DOES YOUR VISITOR HAVE <br />ANY PRE-EXISTING<br /> CONDITIONS? <span>(EG DIABETES,  BP ETC)</span></h3>
+            <h3 className="text-white">ARE YOU LOOKING FOR PRE-EXISTING CONDITIONS COVERAGE?</h3>
+            <h4 className="text-white">
+              (EG DIABETES,  BP ETC)
+            </h4>
               <form id="custom-radio-buttons" method="" action="">
               <div class="radio-wrapper">
                 <input type="radio" id="radio1" name="option" value="yes"/>
@@ -139,7 +142,10 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="premium-container network">
                 <p className="ribbon-premiums">Benefit Type</p>
                 <p className="title text-center text-blue">Network</p>
-                <p className="content text-center">This plan uses Preferred Provider Network (PPO). The plan pays 80 percent of the negotiated amount for covered medical expenses. For example- if you have a $10,000 bill, and network benefit may bring that down to $4000 and 80% of that $4000 will be paid by the plan ($3200) and you pay $800. This plan is recommended for anyone above 50 years of age.</p>
+                {/*}<p className="content text-center">This plan uses Preferred Provider Network (PPO). The plan pays 80 percent of the negotiated amount for covered medical expenses. For example- if you have a $10,000 bill, and network benefit may bring that down to $4000 and 80% of that $4000 will be paid by the plan ($3200) and you pay $800. This plan is recommended for anyone above 50 years of age.</p> */}
+                <p className="content text-center">
+                  This plan uses Preferred Provider Network (PPO). The plan pays 80 or 90 percent of the negotiated amount for covered medical expenses. For example- if you have a $10,000 bill, and network benefit may bring that down to $4000 and 80% or 90% will be paid by the plan ($3200) and you pay $800.
+                </p>
               </div>
            </div>
 
@@ -155,7 +161,10 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
              <div className="premium-container pre-existing">
                <p className="ribbon-premiums">Coverage Type</p>
               <p className="title text-center text-blue">Pre-Existing</p>
-              <p className="content text-center">The INF Elite, INF Elite Short Term, INF Premier and INF Premier Short Term plans will cover pre-Existing conditions on par with new sicknesses. These Plans will cover physician visits, labs, in-patient, out-patient, and specialist care. There is no look-back period for pre-existing conditions under these plans.</p>
+              <p className="content text-center">
+                The INF Elite & INF Premier provides coverage for Pre-Existing Conditions as defined in the plan as per policy limitations, exclusions, and maximums. These Plans will cover physician visits, labs, in-patient, out-patient, and specialist care.There is a 12 month look-back period for pre-existing conditions under these plans.
+              </p>
+              {/*<p className="content text-center">The INF Elite, INF Elite Short Term, INF Premier and INF Premier Short Term plans will cover pre-Existing conditions on par with new sicknesses. These Plans will cover physician visits, labs, in-patient, out-patient, and specialist care. There is no look-back period for pre-existing conditions under these plans.</p>*/}
             </div>
           </div>
 

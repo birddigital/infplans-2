@@ -8916,6 +8916,7 @@ section#premium-hero-section {
 #premium-section-1 h3 {
   font-size: 50px;
   font-weight: 400;
+  margin-bottom: 0;
 }
 
 #premium-section-1 .blue-bg {
@@ -9189,6 +9190,21 @@ section#premium-hero-section {
   align-items: center;
 }
 
+.blue-bg h4 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+#plans-hero-section .hero-text {
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-top: 20px;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* end of new added css victor */
 /*End of Premium Styles */
 

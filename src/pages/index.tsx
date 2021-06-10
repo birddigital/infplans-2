@@ -322,7 +322,8 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
         <Container>
           <div className="col-lg-6">
             <div className="members-producers-column text-center">
-              <h3 className="text-primary">Members</h3>
+            {/*  <h3 className="text-primary">Members</h3> */}
+              <h3 className="text-primary">Insureds</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus pellentesque tortor ac libero, dolor.
               </p>
@@ -379,12 +380,18 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="flip-card-inner">
               <div className="flipcard-container flip-card-front">
                 <Img fluid={bottom_icon1} className="flipcard-icon" alt="Extend Your Policy" />
-                <h3 className="text-center">Extend Your <br />Policy</h3>
+                <h3 className="text-center">Extend Your <br />Plan</h3>
+                {/*<h3 className="text-center">Extend Your <br />Policy</h3> */}
               </div>
               <div className="flipcard-container-inner flip-card-back">
-                <h3 className="text-center">Extend Your <br />Policy</h3>
+                <h3 className="text-center">Extend Your <br />Plan</h3>
+                {/*}<h3 className="text-center">Extend Your <br />Policy</h3> */}
+                <p className="text-black flipcard-content">
+                  Extend Your Plan to Continue Coverage
+                </p>
                 <Link to="/extend" className="nav-link">
-                  <button className="flipcard-btn"> Find A Provider </button>
+                  <button className="flipcard-btn"> Extend Plan </button>
+                  {/*<button className="flipcard-btn"> Find A Provider </button> */}
                 </Link>
               </div>
             </div>
@@ -397,8 +404,12 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
               <div className="flipcard-container-inner flip-card-back">
                 <h3 className="text-center">Policy Docs & <br />ID Cards</h3>
+                <p className="text-black flipcard-content">
+                  How to obtain Plan <br />Documents
+                </p>
                 <Link to="/plan-id-cards" className="nav-link">
-                  <button className="flipcard-btn"> Find A Provider </button>
+                  <button className="flipcard-btn"> Retrieve Documents </button>
+                  {/*<button className="flipcard-btn"> Find A Provider </button> */}
                 </Link>
               </div>
             </div>
@@ -426,8 +437,12 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
               <div className="flipcard-container-inner flip-card-back">
                 <h3 className="text-center">Claims</h3>
+                <p className="text-black flipcard-content">
+                  Streamlined Claims <br />Process
+                </p>
                 <Link to="/claims" className="nav-link">
-                  <button className="flipcard-btn"> Find A Provider </button>
+                  <button className="flipcard-btn">File a Claim </button>
+                  {/*<button className="flipcard-btn"> Find A Provider </button> */}
                 </Link>
               </div>
             </div>
