@@ -6294,6 +6294,10 @@ section#diplomat-international-section-3 {
   line-height: 2;
 }
 
+#diplomat-international-section-4 .accordion {
+  padding:0;
+}
+
 .international-tab .policy {
   width: 100%;
   margin-top: 30px;
@@ -6334,7 +6338,6 @@ section#diplomat-international-section-3 {
 }
 
 .international-tab  .accordion {
-    margin-top: 20px;
     margin-bottom: 0;
 }
 
@@ -6343,6 +6346,10 @@ section#diplomat-international-section-3 {
   color: #000;
   line-height: 30px;
   margin-top: 20px;
+  padding-bottom: 0;
+}
+
+.international-tab .co-insurance {
   padding-bottom: 0;
 }
 
@@ -12459,6 +12466,14 @@ details[open] summary:after {
     padding-left: 30px;
   }
 
+  .international-tab .accordion {
+    padding-bottom: 0;
+  }
+
+  .international-tab .co-insurance {
+    padding-bottom: 0;
+  }
+
   #diplomat-international-section-4 .row-content {
     padding-bottom: 0;
   }
@@ -12840,6 +12855,83 @@ details[open] summary:after {
   }
 }
 
+@media screen and (max-width: 767px) {
+
+.international-tabtwo details summary:after {
+  content: '\F107';
+  margin-top: -12px;
+  left: 24px;
+  font-size: 30px;
+  font-family: 'FontAwesome';
+  float: right !important;
+  color: #252362;
+  }
+}
+
+@media screen and (max-width:500px) {
+
+  .international-tabtwo details {
+    padding: 10px 15px 10px 10px;
+  }
+
+  .international-tabtwo details summary:after {
+    font-size: 25px;
+  }
+
+  .international-tabtwo details[open] > summary {
+    margin-left: -10px;
+    margin-right: -15px;
+  }
+}
+
+@media screen and (max-width:547px) {
+
+  .international-tabtwo details {
+    padding: 10px 15px 10px 10px;
+  }
+
+  .international-tabtwo details summary:after {
+    font-size: 25px;
+  }
+
+  .international-tabtwo details[open] > summary {
+    margin-left: -10px;
+    margin-right: -15px;
+  }
+}
+
+@media screen and (max-width:425px) {
+
+  #claims-form-section-1 .flipcard-container {
+    padding: 30px 50px;
+    min-height: 365px;
+  }
+
+  #claims-form-section-1 .flipcard-container-inner {
+    min-height: 320px;
+  }
+
+  #claims-form-section-1 .flipcard-container1 {
+    padding: 30px 50px;
+    min-height: 370px;
+  }
+
+  #claims-form-section-1 .flipcard-icon {
+    margin-top: 25px;
+  }
+
+  #claims-form-section-1 .flipcard-icon1 {
+    margin-top: 75px;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #claims-form-section-1 .flipcard-container-inner1 {
+    min-height: 370px;
+  }
+}
+
 @media screen and (max-width:375px) {
   #plans-hero-section {
     min-height: 460px;
@@ -13012,6 +13104,18 @@ details[open] summary:after {
     padding: 0;
   }
 
+  .international-tabtwo summary {
+    font-size: 13px;
+  }
+
+  .international-tabtwo details summary:after {
+    font-size: 22px;
+  }
+
+  .international-tabtwo .inner-content {
+    font-size: 14px;
+  }
+
   #about-hero-section .hero-btn {
     margin-top: 30px;
   }
@@ -13047,37 +13151,6 @@ details[open] summary:after {
 
   #bmi-travel-section-8 .plan-opt {
    padding: 0;
-  }
-}
-@media screen and (max-width:425px) {
-
-  #claims-form-section-1 .flipcard-container {
-    padding: 30px 50px;
-    min-height: 365px;
-  }
-
-  #claims-form-section-1 .flipcard-container-inner {
-    min-height: 320px;
-  }
-
-  #claims-form-section-1 .flipcard-container1 {
-    padding: 30px 50px;
-    min-height: 370px;
-  }
-
-  #claims-form-section-1 .flipcard-icon {
-    margin-top: 25px;
-  }
-
-  #claims-form-section-1 .flipcard-icon1 {
-    margin-top: 75px;
-    max-width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #claims-form-section-1 .flipcard-container-inner1 {
-    min-height: 370px;
   }
 }
 

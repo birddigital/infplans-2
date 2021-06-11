@@ -312,46 +312,42 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
               </div>
               </div>
 
-              <div className="col-lg-12">
+              <div className="col-lg-12 co-insurance">
                 <div className="accordion">
                   <details>
                     <summary aria-describedby="How much does Telemedicine cost?">How much does Telemedicine cost?</summary>
                     <div className="accordion-content">
-                      <p>
+                      <p className="inner-content">
                         If a covered Injury renders an Insured Person Comatose within 90 days of the date of the accident that caused the Injury, and if the Coma continues for a period of 30 consecutive days, The Company will pay a monthly benefit equal to 1% of the maximum amount.
                       </p>
                     </div>
                   </details>
                   <details>
-                    <summary aria-describedby="How do I use Telemedicine?">Seat Belt and Airbag Benefit</summary>
+                    <summary aria-describedby="Seat Belt and Airbag Benefit?">Seat Belt and Airbag Benefit</summary>
                     <div className="accordion-content">
-                      <p>
+                      <p className="inner-content">
                         The Company will pay a benefit if the Insured Person suffers accidental death while operating, or riding as a passenger in an Automobile and he/she was wearing a properly fastened seat belt, properly installed by a factory authorized dealer and was positioned in a seat protected by a properly functioning Supplemental Restraint System, properly installed by a factory authorized dealer that inflates on impact.
                       </p>
                     </div>
                   </details>
                   <details>
-                    <summary aria-describedby="Can I get a prescription?">Felonious Assault Benefit</summary>
+                    <summary aria-describedby="Felonious Assault Benefit">Felonious Assault Benefit</summary>
                     <div className="accordion-content">
-                      <p>
+                      <p className="inner-content">
                         The Company will pay a benefit if an Insured Person suffers one or more losses for which benefits are payable under the Accidental Dismemberment Benefit or Coma Benefit provided by the plan as a result of a Felonious Assault.
                       </p>
                     </div>
                   </details>
                   <details>
-                    <summary aria-describedby="How to enroll in MeMD">Home Alteration and Vehicle Modification</summary>
+                    <summary aria-describedby="Home Alteration and Vehicle Modification">Home Alteration and Vehicle Modification</summary>
                     <div className="accordion-content">
-                      <p>
+                      <p className="inner-content">
                         The Company will pay Covered Home Alteration and Vehicle Modification Expenses that are incurred within one year after the date of the accident causing such loss(es).
                       </p>
                     </div>
                   </details>
                 </div>
               </div>
-
-                  <div className="content-bg coma">
-                    <p className="insurance-content"><strong>Coma Benefit –</strong> If a covered Injury renders an Insured Person Comatose within 90 days of the date of the accident that caused the Injury, and if the Coma continues for a period of 30 consecutive days, The Company will pay a monthly benefit equal to 1% of the maximum amount.</p>
-                  </div>
 
                   <div className="content-bg">
                     <p className="insurance-content">*Some Exclusions Apply*</p>
