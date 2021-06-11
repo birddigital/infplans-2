@@ -122,6 +122,7 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12">
             <div className="apply-container">
             <div className="row">
+
             <div className="col-lg-7">
              <h2 className="text-blue">Lorem Ipsum Dolor</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
