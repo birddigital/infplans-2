@@ -12888,7 +12888,29 @@ details[open] summary:after {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .apply-tab ul li label {
+    width: 100%;
+  }
 }
+
+@media screen and (max-width: 991px) {
+
+  #apply-section-1 .read-btn {
+    width: 75%;
+  }
+
+  #apply-section-1 .download-btn {
+    width: 75%;
+  }
+
+  #apply-section-2 .get-apply-btn {
+    width: 50%;
+    margin-left: 115px;
+    margin-bottom: 20px;
+  }
+}
+
 
 @media screen and (max-width: 767px) {
 
@@ -12900,6 +12922,42 @@ details[open] summary:after {
   font-family: 'FontAwesome';
   float: right !important;
   color: #252362;
+  }
+
+  #apply-section-1 .read-btn {
+    width: 105%;
+  }
+
+  #apply-section-1 .download-btn {
+    width: 105%;
+  }
+
+  #apply-section-2 .get-apply-btn {
+    width: 60%;
+    margin-left: 75px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width:553px) {
+
+  #apply-section-1 .read-btn {
+    width: 106%;
+  }
+
+  #apply-section-1 .download-btn {
+    width: 106%;
+  }
+}
+
+@media screen and (max-width:548px) {
+
+  #apply-section-1 .read-btn {
+    width: 108%;
+  }
+
+  #apply-section-1 .download-btn {
+    width: 108%;
   }
 }
 
@@ -12945,6 +13003,20 @@ details[open] summary:after {
 
   #claims-form-section-1 .flipcard-container-inner1 {
     min-height: 370px;
+  }
+
+  #apply-section-1 .read-btn {
+    width: 105%;
+  }
+
+  #apply-section-1 .download-btn {
+    width: 105%;
+  }
+
+  #apply-section-2 .get-apply-btn {
+    width: 60%;
+    margin-left: 75px;
+    margin-bottom: 20px;
   }
 }
 
