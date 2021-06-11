@@ -6306,6 +6306,8 @@ section#diplomat-international-section-3 {
 .international-tab .first {
   margin-top: 40px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .international-tab .second {
@@ -6318,15 +6320,12 @@ section#diplomat-international-section-3 {
   margin-top: 25px;
   padding-top: 25px;
   padding-bottom: 5px;
-  padding-left: 50px;
+  padding-left: 30px;
+  margin-bottom: 0;
 }
 
-.international-tab .content-bg1 {
-  background-color: #F8F8F8;
-  margin-top: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 50px;
+.international-tab .coma {
+  margin-top: 0;
 }
 
 .international-tab .expenses-content {
@@ -6334,9 +6333,17 @@ section#diplomat-international-section-3 {
   margin-bottom: 0;
 }
 
-.international-tab .age {
-  line-height: 2;
-  margin-bottom: 0;
+.international-tab  .accordion {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.international-tab .accordion-content {
+  font-size: 16px;
+  color: #000;
+  line-height: 30px;
+  margin-top: 20px;
+  padding-bottom: 0;
 }
 
 .international-tab > input,
@@ -6404,6 +6411,8 @@ section#diplomat-international-section-3 {
   padding: 20px;
   padding-top: 0;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .international-tab section div h4 {
