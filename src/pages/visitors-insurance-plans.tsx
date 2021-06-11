@@ -51,8 +51,6 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
           <h1 className="text-white text-center">
             INF PLANS
           </h1>
-          <p className="hero-text text-white text-center">
-            We offer insurance plans for international visitors to the United States, Canada, and Mexico from most countries in the world. You should consider International Visitors Accident and Sickness Insurance when traveling outside your home country- especially when staying for a defined period of time. It is important to find an insurance plan which fits your needs. For over 30 years, INF has provided unique and innovative accident & sickness insurance to individuals from across the world visiting the United States, Canada, and Mexico.</p>
             <button className="hero-btn"> Get a Quote </button>
           </div>
         </Container>
