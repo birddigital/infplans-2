@@ -64,10 +64,7 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
                 No Additional Cost Telemedicine Services for members of INF when traveling to the United States**
               </h2>
               <p>
-                TeleMedicine services offered by INF provide members & their families access to health providers instantly, from anywhere in the United States. All members who enroll in an INF Plan are automatically enrolled as members* of INF and when traveling to the United States, become eligible to take advantage of these non insurance services, which are provided at no additional cost to the member. Our Telemedicine service provides access to many of the same services offered by an in-person doctor visit or urgent care visit.
-              </p>
-              <p>
-                ** This service is not available when traveling to Canada or Mexico.
+                TeleMedicine services offered by INF provide plan member & their families access to health providers instantly, from anywhere in the United States. All plan members when traveling to the United States become eligible of INF and when traveling to the United States, become eligible to take advantage of these non insurance services, which are provided at no additional cost to the plan member. Our Telemedicine service provides access to many of the same services offered by an in-person doctor visit or urgent care visit.
               </p>
               <p>
                 Please note: Services described in this article are not affiliated with Crum & Forster SPC
@@ -83,8 +80,7 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
           <div className="col-lg-7">
             <p>
-              When you enroll in a plan with policy number starting with INF and are visiting the United States, you are automatically eligible for a MDLive Account as a member of INF. MDLive provides INF members with 24/7/365 access to MDLive’s highly qualified, licensed healthcare providers by phone, mobile app or computer.
-            </p>
+              When you enroll in a plan with policy number starting with INF and are visiting the United States, you are automatically eligible for a MDLive Account as a plan member of INF. MDLive provides INF plan member with 24/7/365 access to MDLive’s highly qualified, licensed healthcare providers by phone, mobile app or computer.</p>
           </div>
           <div className="col-lg-5 text-center">
             <Img fluid={memd_logo} className="memd-img"/>
@@ -105,8 +101,7 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
                 <summary aria-describedby="How much does Telemedicine cost?">How much does Telemedicine cost?</summary>
                 <div className="accordion-content">
                   <p>
-                    Our Telemedicine are offered at no cost so you get the best medical care possible at the lowest possible price. MeMD service comes at no additional cost to the member.
-                  </p>
+                    Our Telemedicine are offered at no cost so you get the best medical care possible at the lowest possible price. MDLive service comes at no additional cost to the plan member.                  </p>
                 </div>
               </details>
               <details>

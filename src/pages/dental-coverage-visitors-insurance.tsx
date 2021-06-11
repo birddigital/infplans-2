@@ -63,11 +63,10 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
           <div className="dental-discount-container">
            <h2 className="text-blue text-center">Careington Non-Insurance Discount Program when traveling to the USA.</h2>
            <p className="text-center">
-             Enrollment in INF includes access to a Careington discount program at no additional cost, Careington coordinates this discount program, which provides savings on Dental, Vision, Prescription, & Hearing products & services while in the USA. Services are not available in Canada or Mexico. This Discount card program is not an insurance product and is not insured by Crum & Forster SPC. This is not insurance.
-             Way too often someone will call the INF office and say, "I have a toothache, if I go to the dentist will this be covered?".
+             Being a Plan Member grants access to a Careington discount program at no additional cost, Careington coordinates this discount program, which provides savings on Dental, Vision, Prescription, & Hearing products & services while in the USA. Services are not available in Canada or Mexico. This Discount card program is not an insurance product and is not insured by Crum & Forster SPC. This is not insurance. Way too often someone will call the INF office and say, "I have a toothache, if I go to the dentist will this be covered?".
            </p>
             <p className="text-center">
-              All INF plans come with the Careington POS Dental Discount Card for INF members at no cost additional to you. Keep in mind- this is not insurance but a discount card to help with the cost of dental procedures while in the United States. The Careington Dental card is simple to use. When you enroll in an INF plan- the discount card is provided in your welcome email. If you have any dental issue- simply locate one of Careington's 13,000 in-network dentists near you, and visit the dental office. The Careington Dental Plan will act as an instant savings card- affording you dental discounts on services.
+              All INF plans come with the Careington POS Dental Discount Card for INF plan member at no cost additional to you. Keep in mind- this is not insurance but a discount card to help with the cost of dental procedures while in the United States. The Careington Dental card is simple to use. When you enroll in an INF plan- the discount card is provided in your welcome email. If you have any dental issue- simply locate one of Careington's 13,000 in-network dentists near you, and visit the dental office. The Careington Dental Plan will act as an instant savings card- affording you dental discounts on services.
             </p>
             <p className="text-center">
               Save 20% to 50% on most dental procedures including routine oral exams, unlimited cleanings, and major work such as dentures, root canals, and crowns through one of the largest dental networks nationally with a focus on neighborhood dentists.
@@ -174,7 +173,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
                     <Img fluid={unoa_logo} className="right-logo-mobile" />
                     <p className="text-left text-black tab-title">UNoA Prescription Discount Program</p>
                     <ul>
-                      <li className="text-left text-black">Members will have access to savings between 15% to 60% off the retail price of generic drugs and 10% to 25% off the retail price of brand name drugs at over 68,000 participating pharmacies nationwide including Safeway, CVS, Duane Reade, Wal-Mart, Target, Walgreens, Rite Aid and many more.</li>
+                      <li className="text-left text-black">Plan Members will have access to savings between 15% to 60% off the retail price of generic drugs and 10% to 25% off the retail price of brand name drugs at over 68,000 participating pharmacies nationwide including Safeway, CVS, Duane Reade, Wal-Mart, Target, Walgreens, Rite Aid and many more.</li>
                     </ul>
                   </div>
                   <div className="col-lg-5">
@@ -182,7 +181,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
                   </div>
                   <div className="col-lg-12 bottom-p">
                     <ul>
-                      <li className="text-left text-black">At the pharmacy, members will simply present their membership card to save on prescription drugs. Even if members have prescription benefits through a health insurance carrier, a comparison of costs between the two programs should be performed to determine the most savings.</li>
+                      <li className="text-left text-black">At the pharmacy, plan members will simply present their membership card to save on prescription drugs. Even if plan members have prescription benefits through a health insurance carrier, a comparison of costs between the two programs should be performed to determine the most savings.</li>
                     </ul>
                   </div>
                  </div>

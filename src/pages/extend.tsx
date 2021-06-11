@@ -72,7 +72,7 @@ const RenewPage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="col-lg-12">
                   <h3 className="text-blue text-center row-title">To extend coverage please complete the following steps:</h3>
                   <ol>
-                    <li>Enter email  in the Member Sign In</li>
+                    <li>Enter email  in the Plan Member Sign In</li>
                     <li>We will send a 6-digit OTP to your email. Enter this OTP as the password.</li>
                     <li>Once you're logged in, click on 'Active Plans.'</li>
                     <li>On the right hand side of the Active Plans record will be a "Extend" Button. Click this button to Extend coverage.</li>

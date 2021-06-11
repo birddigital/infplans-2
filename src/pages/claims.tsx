@@ -133,7 +133,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                </div>
                <div className="col-lg-7">
                 <div className="col-lg-12">
-                  <h3 className="text-blue text-center">Insured Login</h3>
+                  <h3 className="text-blue text-center">Plan Member Sign In</h3>
                 </div>
                  <form method="POST" action="">
                    <input type="email" id="email" name="email" placeholder="Email Address" />
@@ -262,9 +262,9 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="additional-tabone">
                 <div className="col-lg-12 policies">
                   <h4>For Policies starting with INF:</h4>
-                    <p>All claims must be filed by completing the claim form found above in the Member portal. This form should be completed by the Policy Holder.</p>
-                    <p>This form must be completed ONCE PER SICKNESS OR INJURY. The INF Claims Form for Providers should be completed by the Policy Holder & Providers (Doctors office, Hospitals etc.).</p>
-                    <p>The Policy Holder should complete Section A. Providers should complete Section B of the form. The form can be mailed to the Insurance by the Provider's office or the Policy Holder. Providers can also submit claims online using EDI Pay#: 22384.</p>
+                    <p>All claims must be filed by completing the claim form found above in the Plan Member portal. This form should be completed by the Insured.</p>
+                    <p>This form must be completed ONCE PER SICKNESS OR INJURY. The INF Claims Form for Providers should be completed by the Insured & Providers (Doctors office, Hospitals etc.).</p>
+                    <p>The Insured should complete Section A. Providers should complete Section B of the form. The form can be mailed to the Insurance by the Provider's office or the Insured. Providers can also submit claims online using EDI Pay#: 22384.</p>
                  </div>
                 </div>
 

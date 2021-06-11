@@ -307,7 +307,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               Accidental Death and Dismemberment Benefits
             </li>
             <li>
-              Covid-19 testing and screening coverage
+              COVID-19 treated as any other sickness 
             </li>
           </ul>
           <a href="#">
