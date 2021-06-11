@@ -81,16 +81,33 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="apply-tabone">
                 <div className="col-lg-12">
                     <p>The INF Traveler USA IVAS is a comprehensive accident & sickness plan for visitors without known pre-existing conditions when purchased before the start of your trip for at least 30 days and no more than 364 days, which is the Maximum Period of Coverage. Traveler USA covers non-US citizens traveling to the United States, Canada or Mexico in all age groups, from age 0 to 99 years old.</p>
-                    <p className="overview text-blue">Overview</p>
-                    <p className="summary text-blue">Summary of Benefits</p>
+
+                  <div className="row">
+                  <div className="col-lg-6">
+                    <p className="overview text-blue text-center">Plan Overview</p>
+                    <button class="read-btn">Read More</button>
                   </div>
+                  <div className="col-lg-6">
+                    <p className="summary text-blue text-center">Summary of Benefits</p>
+                    <button class="download-btn">Download Summary</button>
+                  </div>
+                  </div>
+                </div>
                 </div>
 
               <div className="apply-tabtwo">
                <div className="col-lg-12">
                   <p>The INF Traveler USA IVAS is a comprehensive accident & sickness plan for visitors without known pre-existing conditions when purchased before the start of your trip for at least 30 days and no more than 364 days, which is the Maximum Period of Coverage. Traveler USA covers non-US citizens traveling to the United States, Canada or Mexico in all age groups, from age 0 to 99 years old.</p>
-                  <p className="overview text-blue">Overview</p>
-                  <p className="summary text-blue">Summary of Benefits</p>
+                  <div className="row">
+                  <div className="col-lg-6">
+                    <p className="overview text-blue text-center">Plan Overview</p>
+                    <button class="read-btn">Read More</button>
+                  </div>
+                  <div className="col-lg-6">
+                    <p className="summary text-blue text-center">Summary of Benefits</p>
+                    <button class="download-btn">Download Summary</button>
+                  </div>
+                  </div>
               </div>
             </div>
            </section>
