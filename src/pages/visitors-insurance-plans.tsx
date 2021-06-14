@@ -223,7 +223,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
 
        <div className="col-lg-3">
          <Img fluid={inf_logo} className="plans-logo"/>
-         <p className="text-center">Travel USA</p>
+         <p className="text-center">Traveler USA</p>
          <Link to="/traveler-usa" className="nav-link">
           <button className="plan-btn">Plan Details </button>
         </Link>

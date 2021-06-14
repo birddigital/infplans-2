@@ -417,7 +417,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               <p>
                 Access the Insured Portal to Download Plan ID cards, File Claims, and access other features
               </p>
-              <a href="#" className="service-link">Click here to view Insured Portal <FaLongArrowAltRight className="right-arrow" /></a>
+              <a href="/members" className="service-link">Click here to view Insured Portal <FaLongArrowAltRight className="right-arrow" /></a>
             </div>
           </div>
           <div className="col-lg-6">
