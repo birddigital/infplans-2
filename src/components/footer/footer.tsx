@@ -51,12 +51,12 @@ const Footer = ({ className }) => {
           <div className="col-lg-3">
             <h4>Navigate Our Site</h4>
             <Link to="/"><p>Home</p></Link>
-            <Link to="/apply"><p>Apply</p></Link>
             <Link to="/visitors-insurance-plans"><p>Plans</p></Link>
+            <Link to="/apply"><p>Apply</p></Link>
             <Link to="/extend"><p>Extend</p></Link>
           </div>
           <div className="col-lg-3">
-            <h4>Our Plan</h4>
+            <h4>Our Plans</h4>
             <Link to="/standard"><p>Standard</p></Link>
             <Link to="/elite-network"><p>Elite Network</p></Link>
             <Link to="/premier"><p>Premium</p></Link>

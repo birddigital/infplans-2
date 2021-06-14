@@ -56,7 +56,7 @@ const MembersPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12">
             <div className="row members-container">
               <div className="col-lg-12">
-                <h3 className="text-blue text-center row-title">Welcome to INF Member Portal. Extend existing plans, apply new ones, print ID cards, Dental and Vision Discount cards.</h3>
+                <h3 className="text-blue text-center row-title">Welcome to Plan Member Portal. Extend existing plans, apply new plans, print ID cards, Dental and Vision Discount cards.</h3>
               </div>
               <div className="col-lg-12">
                 <div className="row mt-5 members-row-container">

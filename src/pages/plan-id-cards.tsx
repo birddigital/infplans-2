@@ -72,7 +72,7 @@ const PlanIDCardsPage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="row mt-5">
                 <div className="col-lg-12">
                   <h3 className="text-blue text-center row-title">Retrieve a INF Plan ID Card, Plan Description, Visa Letter</h3>
-                  <p className="text-black text-center">When you complete an online-enrollment of a Insurance for Visitors Plan, you will get an automated email with the Plan ID card, information, and program description. It is paramount that you print these documents and keep them for safe keeping. If you cannot find the email with the information regarding your Plan, you may use one of the portals before the request the information from the insurance companies.</p>
+                  <p className="text-black text-center">When you complete an online-enrollment of a Insurance for Visitors Plan, you will get an automated email with the Plan ID card, information, and program description. It is paramount that you print these documents and keep them for safe keeping. </p>
                   <p className="text-black text-center">If you have any additional questions or need help requesting Plan ID cards, please contact us at 408-540-3601 or email us at support@infplans.com</p>
                 </div>
               </div>

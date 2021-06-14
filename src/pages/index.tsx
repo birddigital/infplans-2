@@ -307,7 +307,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               Accidental Death and Dismemberment Benefits
             </li>
             <li>
-              COVID-19 treated as any other sickness 
+              COVID-19 treated as any other sickness
             </li>
           </ul>
           <a href="#">
@@ -325,16 +325,16 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
             {/*  <h3 className="text-primary">Members</h3> */}
               <h3 className="text-primary">Insureds</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus pellentesque tortor ac libero, dolor.
+                Access the Insured Portal to Download Plan ID cards, File Claims, and access other features
               </p>
-              <a href="#" className="service-link">Lorem Ipsum <FaLongArrowAltRight className="right-arrow" /></a>
+              <a href="#" className="service-link">Click here to view Insured Portal <FaLongArrowAltRight className="right-arrow" /></a>
             </div>
           </div>
           <div className="col-lg-6">
             <div className="members-producers-column text-center">
               <h3 className="text-primary">Producers</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Senectus pellentesque tortor ac libero, dolor.
+                Manage your producer profile, generate reports, and access other tools to build your business with INF
               </p>
               <a href="#" className="service-link">Lorem Ipsum <FaLongArrowAltRight className="right-arrow" /></a>
             </div>
@@ -366,7 +366,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
             <h2 className="text-black">What Our Clients Have To Say</h2>
             <Img fluid={home_divider_img} className="testimonial-divider"/>
             <hr />
-            <p className="testimonial-subtitle">Accumsan purus id gravida vel vel et vitae.</p>
+            <p className="testimonial-subtitle">We pride ourselves on offering quality products and top notch service.</p>
           </div>
           <div className="col-lg-8 right-content">
             <TestimonialHomeSlider />

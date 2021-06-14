@@ -89,7 +89,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
             <h4>Insurance Benefits underwritten by Crum & Forster, SPC:</h4>
               <ul>
                 <li>Short-term travel medical coverage (90 days to 364 days)</li>
-                <li>Utilizes Multiplan PPO (including Direct Billing)</li>
+                <li>Utilizes UnitedHealthcare Options PPO (including Direct Billing)</li>
                 <li>Maximum Limits of $75,000 (Age 70-99), or $150,000, $250,000, and $300,000 (Age 0-69)</li>
                 <li>Includes Pre-Existing Condition coverage (see plan details)</li>
                 <li>Pre-Existing Conditions Coverage up to $20,000 (Age 70-99) or $25,000 (Age 0-69)</li>
@@ -99,7 +99,6 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
               <ul>
                 <li>Telehealth Provided by MDLive (available while visiting the US only)</li>
                 <li>Dental, Vision, Hearing, and Prescription Discount coordinated by Careington International (available while visiting the US only)</li>
-                <li>Membership in INF ($10 membership fee)</li>
               </ul>
           </div>
 
@@ -139,7 +138,6 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
             <ul>
               <li>Telehealth Provided by MDLive (available while visiting the US only)</li>
               <li>Dental, Vision, Hearing, and Prescription Discounts coordinated by Careington International (available while visiting the US only)</li>
-              <li>Membership in INF ($10 membership fee)</li>
             </ul>
         </div>
 
@@ -181,7 +179,6 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
              <ul>
                <li>Telehealth Provided by MDLive (available while visiting the US only)</li>
                <li>Dental, Vision, Hearing, and Prescription Discounts coordinated by Careington International (available while visiting the US only)</li>
-               <li>Membership in INF ($10 membership fee)</li>
              </ul>
          </div>
 
@@ -213,7 +210,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
          <h4>Insurance Benefits underwritten by Crum & Forster, SPC:</h4>
            <ul>
              <li>Short-term travel medical coverage (90 days to 364 days)</li>
-             <li>Utilizes Multiplan PPO (including Direct Billing)</li>
+             <li>Utilizes UnitedHealthcare Options PPO (including Direct Billing)</li>
              <li>Maximum Limits of $75,000 (Age 70-99) or $150,000, $250,000, or $300,000 (Age 0-69)</li>
              <li>Coverage for non-US residents ages 0-99 years</li>
            </ul>
@@ -221,7 +218,6 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
            <ul>
              <li>Telehealth Provided by MDLive (available while visiting the US only)</li>
              <li>Dental, Vision, Hearing, and Prescription Discounts coordinated by Careington International (available while visiting the US only)</li>
-             <li>Membership in INF ($10 membership fee)</li>
            </ul>
        </div>
 
