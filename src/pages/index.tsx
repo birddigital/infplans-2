@@ -72,6 +72,82 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               <h1 className="text-white text-center">
                 FIND THE RIGHT COVERAGE <br />FOR YOUR TRIP
               </h1>
+
+              <form>
+                <div className="row">
+                <div className="col-lg-4">
+                <div className="row">
+                <div className="col-lg-6">
+                <label for ="Calendar">Start Date</label>
+                  <input type="date" name="date" placeholder="" />
+                  </div>
+
+                  <div className="col-lg-6">
+                  <label for ="Calendar">End Date</label>
+                    <input type="date" name="date" placeholder="" />
+                    </div>
+                    </div>
+                  </div>
+
+                <div className="col-lg-5">
+                <label for ="Coverage Area">Coverage Area</label>
+                <div className="dropdown">
+                <button class="form-control customdiv dropdown-toggle valid" type="button" data-toggle="dropdown" aria-expanded="false">
+                  <span id="prcovFiller">Coverage( for: USA/CANADA  ,  Below : $1,000,000 ) </span>
+                  <span class="caret"></span>
+                </button>
+
+                <div class="dropdown-menu nestedform">
+                    <div class="form-group space">
+                      <label for="Area">Area:</label>
+                        <select class="dropped form-control valid" id="Area" name="Area" aria-invalid="false">
+                          <option disabled="" value="">Coverage Area</option>
+                          <option value="1" selected="">USA/CANADA/MEXICO</option>
+                          <option value="2">International excluding USA</option>
+                        </select>
+                    </div>
+                    <div class="form-group space">
+                        <select name="pmax" id="pmax" class="dropped form-control valid" aria-invalid="false">
+                          <option value="">Below $1,000,000</option>
+                          <option value="250"> Below $250,000</option>
+                          <option selected="" value="1000">Below $1,000,000</option>
+                          </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-3">
+                <label for ="Number of People">Number of People</label>
+                <div className="dropdown">
+                <button class="form-control customdiv dropdown-toggle valid" type="button" data-toggle="dropdown" aria-expanded="false">
+                  <span id="prcovFiller">Who needs coverage?</span>
+                  <span class="caret"></span>
+                </button>
+
+                <div class="dropdown-menu nestedform">
+                    <div class="form-group space">
+                      <label for="Area">Primary Insured</label>
+                      <input type="age" name="age" />
+                      <input type="gender" name="age" />
+
+
+                      </div>
+
+
+
+
+                </div>
+
+
+
+
+</div>
+               </div>
+               </div>
+              </form>
+
+
             </div>
             <div className="col-lg-8">
             </div>

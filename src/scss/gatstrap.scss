@@ -8921,6 +8921,140 @@ section#apply-hero-section {
 
 /* End of Apply Styles */
 
+/* Home Form Styles */
+
+#home-hero-section select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#home-hero-section input[type=date] {
+  width: 95%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0 solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#home-hero-section label {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+#home-hero-section .form-container {
+  background: #FFFFFF;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+#home-hero-section .blue-bg {
+  background-color: #252362;
+  padding: 20px;
+  width: 100%;
+}
+
+#home-hero-section input#email {
+  width: 40%;
+  background: #F2F2F2;
+  border: 2px solid #F2F2F2;
+  padding: 5px 30px;
+  border-radius: 50px;
+  outline: none;
+  margin-left: 140px;
+}
+
+#home-hero-section input[type="submit"] {
+  width: 20%;
+  padding: 5px;
+  border: 2px solid #7DA9DA;
+  background: #7DA9DA;
+  color: #ffffff;
+  border-radius: 50px;
+  transition: .5s;
+  margin-left: 60px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.form-row input, .form-row .dropdown>button, .form-row select {
+    background-color: #cacaca54;
+}
+
+.customdiv {
+    padding: 6px 12px;
+    border: 1px solid #d4d4d4;
+    color: #555;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.nestedform {
+  width: 100%;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.space {
+  padding: 5px;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.dropdown, .dropup {
+    position: relative;
+}
+
+.open>.dropdown-menu {
+    display: block;
+}
+
+
+
+
+/* End of Home Form Styles */
+
 /* End of Gillian CSS */
 
 
