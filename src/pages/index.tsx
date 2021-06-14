@@ -426,7 +426,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               <p>
                 Manage your producer profile, generate reports, and access other tools to build your business with INF
               </p>
-              <a href="#" className="service-link">Lorem Ipsum <FaLongArrowAltRight className="right-arrow" /></a>
+              <a href="/producers" className="service-link">Click here to access Producer Portal <FaLongArrowAltRight className="right-arrow" /></a>
             </div>
           </div>
         </Container>

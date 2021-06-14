@@ -9036,7 +9036,6 @@ section#apply-hero-section {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  margin-left: 20px;
 }
 
 .fa {
@@ -13385,7 +13384,7 @@ details[open] summary:after {
     font-size: 22px;
   }
 
-  .international-tabtwo .inner-content {
+ .inner-content {
     font-size: 14px;
   }
 
@@ -13429,10 +13428,24 @@ details[open] summary:after {
 
 /* End of Gillian Responsiveness */
 
-/* Premium 375 */
+/* Premium 1024 */
 @media screen and (max-width:1024px) {
   #premium-section-2 .fixed {
     margin-top: 45px;
+    min-height: 300px;
   }
+
+  #premium-section-1 h3 {
+    font-size: 40px;
+  }
+
+  #premium-section-2 .network {
+    min-height: 280px;
+  }
+
+  #premium-section-2 .pre-existing {
+    min-height: 280px;
+  }
+
 }
-/* End of Premium 375 */
+/* End of Premium 1024 */
