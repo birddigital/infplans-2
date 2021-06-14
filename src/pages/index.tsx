@@ -100,7 +100,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 <div class="dropdown-menu nestedform">
                     <div class="form-group space">
                       <label for="Area">Area:</label>
-                        <select class="dropped form-control valid" id="Area" name="Area" aria-invalid="false">
+                        <select class="dropped form-control valid" id="cArea" name="cArea" aria-invalid="false">
                           <option disabled="" value="">Coverage Area</option>
                           <option value="1" selected="">USA/CANADA/MEXICO</option>
                           <option value="2">International excluding USA</option>
@@ -127,32 +127,46 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
 
                 <div class="dropdown-menu nestedform">
                     <div class="form-group space">
-                      <label for="Area">Primary Insured</label>
-                      <input type="age" name="age" />
-                      <input type="gender" name="age" />
+                      <label for="Primary">Primary Insured</label>
+                      <input type="text" name="age" />
+                      <input type="text" name="gender" />
 
+                      <select id="citizenship" name="citizenship">
+                        <option value="citizenship">Citizenship</option>
+                        <option value="citizenship">Citizenship</option>
+                      </select>
 
-                      </div>
+                      <select id="residence" name="residence">
+                        <option value="residence">Residence</option>
+                        <option value="residence">Residence</option>
+                      </select>
 
+                      <i class="fa fa-plus" aria-hidden="true">Add Spouse</i>
+                      <i class="fa fa-plus" aria-hidden="true">Add Children</i>
+                      <i class="fa fa-plus" aria-hidden="true">Add Another Insured</i>
 
+                      <a href="#"><i class="fa fa-upload"></i>CSV Group Upload</a>
 
-
+                  </div>
                 </div>
-
-
-
-
-</div>
+                </div>
                </div>
                </div>
               </form>
 
+              <div className="col-lg-12">
+                <div className="blue-bg">
+                <form method="POST" action="">
+                  <input type="email" id="email" name="email" placeholder="Email Address" />
+                  <input type="submit" value="Get a Quote" />
+                </form>
+                </div>
+              </div>
 
-            </div>
-            <div className="col-lg-8">
             </div>
           </Container>
         </div>
+
       </BackgroundImage>
       <div id="home-services-section">
         <ContainerFluid>

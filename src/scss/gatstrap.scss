@@ -8925,11 +8925,8 @@ section#apply-hero-section {
 
 #home-hero-section select {
   width: 100%;
-  padding: 10px;
   margin: 8px 0;
-  display: inline-block;
   border-radius: 4px;
-  box-sizing: border-box;
   font-size: 14px;
 }
 
@@ -8946,6 +8943,8 @@ section#apply-hero-section {
 #home-hero-section label {
   font-size: 16px;
   margin-bottom: 0;
+  display: inline-block;
+  max-width: 100%;
 }
 
 #home-hero-section .form-container {
@@ -8983,6 +8982,18 @@ section#apply-hero-section {
   margin-left: 60px;
 }
 
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid\9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
 .flex-container {
   display: flex;
   flex-flow: row;
@@ -8990,45 +9001,34 @@ section#apply-hero-section {
   justify-content: space-between;
 }
 
-.form-row input, .form-row .dropdown>button, .form-row select {
-    background-color: #cacaca54;
-}
-
 .customdiv {
-    padding: 6px 12px;
-    border: 1px solid #d4d4d4;
-    color: #555;
-    border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
+  padding: 6px 12px;
+  border: 1px solid #d4d4d4;
+  color: #555;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
 .form-control {
   display: block;
   width: 100%;
-  font-size: 14px;
+  padding: 0;
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
 .nestedform {
   width: 100%;
   padding: 6px 12px;
-  line-height: 1.42857143;
+  line-height: 1.5;
   color: #555;
   background-color: #fff;
-  background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
 .space {
   padding: 5px;
-}
-
-label {
-  display: inline-block;
-  max-width: 100%;
-  margin-bottom: 5px;
 }
 
 .dropdown-toggle::after {
@@ -9043,11 +9043,43 @@ label {
 }
 
 .dropdown, .dropup {
-    position: relative;
+  position: relative;
 }
 
 .open>.dropdown-menu {
-    display: block;
+  display: block;
+}
+
+.form-group {
+  width: 170px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+#home-hero-section button, select {
+  text-transform: none;
+}
+
+#home-hero-section input[type=text], select, textarea {
+  width: 35%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+.fa {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1;
+    font-family: FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #00B67A;
 }
 
 
