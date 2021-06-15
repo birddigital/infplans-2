@@ -438,6 +438,12 @@ button {
 
 /* End of Margins */
 
+/* paddings */
+.p-t-90 {
+  padding-top: 90px !important;
+}
+/*end of paddings */
+
 /* Maps */
 
 .map-frame {
@@ -813,7 +819,7 @@ what-describes-you {
 #claims-form-section-1 .flip-card {
   background-color:transparent;
  	width: 25%;
-  height: 330px;
+  height: 370px;
   // perspective: 1000px;
 }
 /* end of new flip-card sizes */
@@ -5506,13 +5512,12 @@ section#claims-form-section-1 {
 }
 
 #claims-form-section-1 .flipcard-container {
-  padding: 57px 20px;
+  padding: 85px 20px;
   background: #fff;
-  min-height: 340px;
   -webkit-perspective: 800px;
  -o-perspective: 800px;
  -moz-perspective: 800px;
- min-height: 360px;
+ min-height: 328px;
 }
 
 #claims-form-section-1 .flipcard-container-inner {
@@ -5577,7 +5582,7 @@ section#claims-form-section-1 {
 
 #claims-form-section-1 .flipcard-container1 {
   background: #fff;
-  padding: 60px 20px;
+  padding: 82px 20px;
   background: #fff;
   min-height: 360px;
 }
@@ -11813,6 +11818,44 @@ details[open] summary:after {
   .testimonial-slider .slick-next {
     right: 34%;
   }
+
+  /* claims flip card responsive */
+  #claims-form-section-1 .flipcard-container1 {
+    padding: 0px 50px;
+    min-height: 319px;
+    height: auto;
+  }
+
+  #claims-form-section-1 .flipcard-icon {
+    margin-top: 25px;
+  }
+
+  #claims-form-section-1 .flipcard-icon1 {
+    margin-top: 75px;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #claims-form-section-1 .flipcard-container-inner1 {
+    min-height: 321px;
+    height: auto;
+  }
+
+  #claims-form-section-1 .flip-card {
+    min-height: 321px;
+    height: auto;
+}
+#claims-form-section-1 .flipcard-content1,#claims-form-section-1 .flipcard-content  {
+  font-size: 14px;
+}
+
+
+#claims-form-section-1 .flipcard-container-inner1 {
+  min-height: 321px;
+}
+
+  /* end of claims flip card responsive */
 }
 
 /* End of Klint Responsiveness */
@@ -13099,6 +13142,44 @@ details[open] summary:after {
 
 @media screen and (max-width:500px) {
 
+
+  /* claims flip card responsive */
+  #claims-form-section-1 .flipcard-container1 {
+    padding: 0px 50px;
+    min-height: 319px;
+    height: auto;
+  }
+
+  #claims-form-section-1 .flipcard-icon {
+    margin-top: 25px;
+  }
+
+  #claims-form-section-1 .flipcard-icon1 {
+    margin-top: 75px;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #claims-form-section-1 .flipcard-container-inner1 {
+    min-height: 321px;
+    height: auto;
+  }
+
+  #claims-form-section-1 .flip-card {
+    min-height: 321px;
+    height: auto;
+}
+#claims-form-section-1 .flipcard-content1,#claims-form-section-1 .flipcard-content  {
+  font-size: 14px;
+}
+
+
+#claims-form-section-1 .flipcard-container-inner1 {
+  min-height: 321px;
+}
+
+  /* end of claims flip card responsive */
   .international-tabtwo details {
     padding: 10px 15px 10px 10px;
   }

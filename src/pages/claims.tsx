@@ -91,7 +91,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                      <Img fluid={submit_req_img} className="flipcard-icon" alt="Submit Required Documents" />
                      <h3 className="text-center">Submit The Following <br /> Required Documents</h3>
                    </div>
-                   <div className="flipcard-container-inner flip-card-back">
+                   <div className="flipcard-container-inner flip-card-back p-t-90">
                    <h3 className="text-center inner-content">Submit The Following <br /> Required Documents</h3>
                      <ul className="text-center flipcard-content">
                        <li>Completed Claim Form</li>
