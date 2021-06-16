@@ -245,15 +245,11 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
 
             <div class="additional-tab">
               <input checked="checked" id="additional-tabone" type="radio" name="additional-claims" />
-              <input id="additional-tabtwo" type="radio" name="additional-claims" />
 
               <nav>
                 <ul>
                   <li className="additional-tabone">
                     <label for="additional-tabone">For Policies starting with INF:</label>
-                  </li>
-                    <li className="additional-tabtwo">
-                    <label for="additional-tabtwo">For Policies starting with SRPO:</label>
                   </li>
                 </ul>
                 </nav>
@@ -268,14 +264,6 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                  </div>
                 </div>
 
-                <div className="additional-tabtwo">
-                 <div className="col-lg-12 policies">
-                   <h4>For Policies starting with SRPO:</h4>
-                    <p>Generally, providers file insurance claim directly with WebTPA. Additionally, all policyholders are required to complete an informational Section of the claim form found in the member portal above.</p>
-                    <p>In the event a provider wishes to collect from policy holder directly, the second section of claim Form found at (or Standard Insurance Claims Form 1500 CMS/HCFA 1500 or UB92/UB04) should be completed by the doctor's office and submitted by policy holder to the Insurance Company for prompt processing.</p>
-                    <p>Failure to do so would delay the claim processing or result in denial of claims by WebTPA.</p>
-                </div>
-                </div>
               </section>
             </div>
            </div>

@@ -5285,7 +5285,6 @@ section#claims-form-section-1 {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 .additional-tab section div ul {
@@ -5298,11 +5297,11 @@ section#claims-form-section-1 {
 
 .additional-tab ul li label {
   font-family: "poppins";
-  float: left;
   padding: 15px 50px;
+  padding-left: 90px;
   border-bottom: 0;
   font-weight: 600;
-  width: 50%;
+  width: 100%;
   font-size: 20px;
   background: #eeeeee;
   border-left: 2px solid #C4C4C4;
