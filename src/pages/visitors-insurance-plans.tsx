@@ -27,6 +27,8 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
   const premier_img = data.premier_img?.childImageSharp?.fluid
   const travel_img = data.travel_img?.childImageSharp?.fluid
   const inf_logo = data.inf_logo?.childImageSharp?.fluid
+  const standard_popup_logo = data.standard_popup_logo?.childImageSharp?.fluid
+  const book_icon = data.book_icon?.childImageSharp?.fluid
 
 
   return (
@@ -235,7 +237,520 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
  </Container>
 </section>
 
-    <section id="plans-section-6">
+<section class="container py-4">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="d-flex">
+                <ul id="tabsJustified" class="nav nav-pills flex-column">
+                  <Img fluid={standard_popup_logo} className="popup-logo"/>
+                    <li class="nav-item"><a href="#ivas-coverage" data-target="#ivas-coverage" data-toggle="tab" class="nav-link small active">INF Standard IVAS Coverages</a></li>
+                    <li class="nav-item"><a href="#ivas-benefits" data-target="#ivas-benefits" data-toggle="tab" class="nav-link small">INF Standard IVAS Schedule of Benefits</a></li>
+                    <li class="nav-item"><a href="#ivas-description" data-target="#ivas-description" data-toggle="tab" class="nav-link">INF Standard IVAS Plan Description</a></li>
+                </ul>
+                <div class="tab-content border rounded p-3 w-100">
+                    <div id="ivas-coverage" class="tab-pane fade active show">
+                    <div id="Coverage" class="tabcontent">
+                    <div className="col-lg-12">
+                      <h2 className="text-blue text-center">INF Standard IVAS Coverages</h2>
+                      <p className="text-black text-center tab-row-title">*The Standard Plan has no coverage for pre-existing conditions.</p>
+                      <div className="coverages-tab">
+                        <input checked="checked" id="coverages-tabone" type="radio" name="standard-coverages" />
+                        <input id="coverages-tabtwo" type="radio" name="standard-coverages" />
+                        <nav>
+                          <ul>
+                            <li className="coverages-tabone">
+                              <label for="coverages-tabone">INF Standard IVAS Plan Medical Expense Options  <br/> <span className="text-black age-title">Age 0-69</span></label>
+                            </li>
+                            <li className="coverages-tabtwo">
+                              <label for="coverages-tabtwo">INF Standard IVAS Plan Medical Expense Options <br/> <span className="text-black age-title">Age 70-99</span></label>
+                            </li>
+                          </ul>
+                        </nav>
+                        <section>
+                          <div className="coverages-tabone">
+                            <p className="text-black text-center tab-row-title">$50,000 Total Maximum Per Accident or Sickness Expense Benefits</p>
+                            <div className="row">
+                              <div className="col-lg-10">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Deductible Per Covered Accident or Sickness Expense</p>
+                                </div>
+                                <p className="tab-content text-black">$75</p>
+                                <p className="tab-content text-black">$100</p>
+                                <p className="tab-content text-black">$250</p>
+                                <p className="tab-content text-black">$500</p>
+                                <p className="tab-content text-black">$1,000</p>
+                                <p className="tab-content text-black">$2,500</p>
+                                <p className="tab-content text-black">$5,000</p>
+                              </div>
+                            </div>
+                            <p className="text-black text-center tab-row-title">$100,000 Maximum Per Accident or Sickness Expense Benefits</p>
+                            <div className="row">
+                              <div className="col-lg-10">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Deductible Per Covered Accident or Sickness Expense</p>
+                                </div>
+                                <p className="tab-content text-black">$75</p>
+                                <p className="tab-content text-black">$100</p>
+                                <p className="tab-content text-black">$250</p>
+                                <p className="tab-content text-black">$500</p>
+                                <p className="tab-content text-black">$1,000</p>
+                                <p className="tab-content text-black">$2,500</p>
+                                <p className="tab-content text-black">$5,000</p>
+                              </div>
+                            </div>
+                            <p className="text-black text-center tab-row-title">$150,000 Maximum Per Accident or Sickness Expense Benefits</p>
+                            <div className="row">
+                              <div className="col-lg-10">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Deductible Per Covered Accident or Sickness Expense</p>
+                                </div>
+                                <p className="tab-content text-black">$75</p>
+                                <p className="tab-content text-black">$100</p>
+                                <p className="tab-content text-black">$250</p>
+                                <p className="tab-content text-black">$500</p>
+                                <p className="tab-content text-black">$1,000</p>
+                                <p className="tab-content text-black">$2,500</p>
+                                <p className="tab-content text-black">$5,000</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="coverages-tabtwo">
+                            <p className="text-black text-center tab-row-title">$50,000 Total Maximum Per Accident or Sickness Expense Benefits</p>
+                            <div className="row">
+                              <div className="col-lg-10">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Deductible Per Covered Accident or Sickness Expense</p>
+                                </div>
+                                <p className="tab-content text-black">$250</p>
+                                <p className="tab-content text-black">$500 </p>
+                                <p className="tab-content text-black">$1,000</p>
+                                <p className="tab-content text-black">$2,500</p>
+                                <p className="tab-content text-black">$5,000</p>
+                              </div>
+                            </div>
+                            <p className="text-black text-center tab-row-title">$100,000 Maximum Per Accident or Sickness Expense Benefits</p>
+                            <div className="row">
+                              <div className="col-lg-10">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Deductible Per Covered Accident or Sickness Expense</p>
+                                </div>
+                                <p className="tab-content text-black">$250</p>
+                                <p className="tab-content text-black">$500 </p>
+                                <p className="tab-content text-black">$1,000</p>
+                                <p className="tab-content text-black">$2,500</p>
+                                <p className="tab-content text-black">$5,000</p>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div id="ivas-benefits" class="tab-pane fade active show">
+                    <div id="benefits" class="tabcontent">
+                    <div className="col-lg-12">
+                    <h2 className="text-blue text-center">INF Standard IVAS Schedule of Benefits </h2>
+                    <p className="text-black text-center tab-row-title">$50,000 Policy Max</p>
+
+                      <div className="ivas-in-tab">
+                        <input checked="checked" id="ivas-in-tabone" type="radio" name="ivas benefits" />
+                        <input id="ivas-in-tabtwo" type="radio" name="ivas benefits" />
+                        <input id="ivas-in-tabthree" type="radio" name="ivas benefits" />
+                        <nav>
+                          <ul>
+                            <li className="ivas-in-tabone">
+                              <label for="ivas-in-tabone">In-Patient Services</label>
+                            </li>
+                            <li className="ivas-in-tabtwo">
+                              <label for="ivas-in-tabtwo">Out-Patient Services</label>
+                            </li>
+                            <li className="ivas-in-tabthree">
+                              <label for="ivas-in-tabthree">Other Benefits</label>
+                            </li>
+                          </ul>
+                        </nav>
+                        <section>
+                          <div className="ivas-in-tabone">
+                            <div className="row">
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Covered Medical Services</p>
+                                </div>
+                                <p className="tab-content1 text-black">Hospital Room & Board</p>
+                                <p className="tab-content1 text-black">Hospital Intensive Care Unit Room & Board</p>
+                                <p className="tab-content2 text-black">Doctor Surgical Expenses</p>
+                                <p className="tab-content2 text-black">Anesthetics</p>
+                                <p className="tab-content2 text-black">Assistant Surgeon Expenses</p>
+                                <p className="tab-content3 text-black">Doctor's Non-Surgical Treatment/Examination Expenses</p>
+                                <p className="tab-content4 text-black">Consultation visits when requested by a Doctor</p>
+                                <p className="tab-content text-black">Pre-Admission Tests within 14 days before hospital admission</p>
+                              </div>
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">In-Patient Medical Benefits</p>
+                                </div>
+                                <p className="tab-content text-black">Charges up to $1,300 per day maximum<br /> Up to 30 days</p>
+                                <p className="tab-content3 text-black">Up to an additional $525 maximum additional per day | Up to 8 Days</p>
+                                <p className="tab-content2 text-black">Up to $3,000 maximum</p>
+                                <p className="tab-content2 text-black">Up to $750 maximum</p>
+                                <p className="tab-content2 text-black">​Up to $750 maximum</p>
+                                <p className="tab-content3 text-black">Up to $60 maximum per visit, 1 visit per day, to 30 visits</p>
+                                <p className="tab-content1 text-black">Up to $400 maximum</p>
+                                <p className="tab-content1 text-black">Up to $1,000 maximum</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="ivas-in-tabtwo">
+                            <div className="row">
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Covered Medical Services</p>
+                                </div>
+                                <p className="tab-content1 text-black">Surgical Room & Supply Expenses</p>
+                                <p className="tab-content1 text-black">Hospital Emergency</p>
+                                <p className="tab-content1 text-black">Doctor Surgical Expenses</p>
+                                <p className="tab-content1 text-black">Anesthetics</p>
+                                <p className="tab-content1 text-black">Assistant Surgeon Expenses</p>
+                                <p className="tab-content2 text-black">Doctor's Non-Surgical Treatment/Examination Expenses</p>
+                                <p className="tab-content1 text-black">X-rays & laboratory procedures</p>
+                                <p className="tab-content1 text-black">CAT Scan, PET Scan, or MRI</p>
+                                <p className="tab-content1 text-black">Prescription Drug Expenses</p>
+                              </div>
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Out-Patient Medical Benefits</p>
+                                </div>
+                                <p className="tab-content1 text-black">Up to $1,000 maximum</p>
+                                <p className="tab-content1 text-black">Up to $350</p>
+                                <p className="tab-content1 text-black">Up to $3,000 maximum</p>
+                                <p className="tab-content1 text-black">​Up to $750 maximum</p>
+                                <p className="tab-content1 text-black">​Up to $750 maximum</p>
+                                <p className="tab-content text-black">Up to $60 per visit maximum | 1 visit per day <br />Up to 10 visits</p>
+                                <p className="tab-content1 text-black">Up to $400 maximum</p>
+                                <p className="tab-content1 text-black">​Up to $400 additional</p>
+                                <p className="tab-content1 text-black">Up to $100 maximum</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="ivas-in-tabthree">
+                            <div className="row">
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Covered Medical Services</p>
+                                </div>
+                                <p className="tab-content1 text-black">Ambulance Expenses</p>
+                                <p className="tab-content1 text-black">Rehabilitative Braces or Appliances</p>
+                                <p className="tab-content2 text-black">Dental Treatment (Injury )</p>
+                                <p className="tab-content1 text-black">Chemotherapy and/or Radiation Therapy</p>
+                                <p className="tab-content2 text-black">Physical & Occupational Therapy</p>
+                                <p className="tab-content1 text-black">Private Duty Nurse</p>
+                                <p className="tab-content text-black">Pregnancy or Childbirth (Conception must Occur After Trip Begins)</p>
+                              </div>
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Other Medical Benefits</p>
+                                </div>
+                                <p className="tab-content1 text-black">Up to $400 maximum</p>
+                                <p className="tab-content1 text-black">Up to $1,000 maximum</p>
+                                <p className="tab-content text-black">​Up to $450. There are no benefits for dental services for immediate relief of pain.</p>
+                                <p className="tab-content1 text-black">Up to $1,000 maximum</p>
+                                <p className="tab-content text-black">Up to $35 per visit max, 1 Visit per day to 12 visits</p>
+                                <p className="tab-content1 text-black">Up to $400 maximum</p>
+                                <p className="tab-content3 text-black">Up to $4,500 maximum</p>
+                              </div>
+                              <div className="column-tab additional-benefits">
+                                <p className="text-white column-tab-title">Additional Benefits</p>
+                              </div>
+                              <div className="col-lg-6">
+                                <p className="tab-content1 text-black">Emergency Medical Evacuation Benefit</p>
+                                <p className="tab-content1 text-black">Repatriation of Remains Benefit</p>
+                                <p className="tab-content1 text-black">Accidental Death & Dismemberment</p>
+                              </div>
+                              <div className="col-lg-6">
+                                <p className="tab-content1 text-black">$15,000 maximum</p>
+                                <p className="tab-content1 text-black">$10,000 maximum​</p>
+                                <p className="tab-content1 text-black">$25,000 Principal Sum</p>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-12 mt-4">
+                    <p className="text-black text-center tab-row-title">$100,000 Policy Max</p>
+
+                      <div className="ivas-out-tab">
+                        <input checked="checked" id="ivas-out-tabone" type="radio" name="ivas benefits" />
+                        <input id="ivas-out-tabtwo" type="radio" name="ivas out benefits" />
+                        <input id="ivas-out-tabthree" type="radio" name="ivas out benefits" />
+                        <nav>
+                          <ul>
+                            <li className="ivas-out-tabone">
+                              <label for="ivas-out-tabone">In-Patient Services</label>
+                            </li>
+                            <li className="ivas-out-tabtwo">
+                              <label for="ivas-out-tabtwo">Out-Patient Services</label>
+                            </li>
+                            <li className="ivas-out-tabthree">
+                              <label for="ivas-out-tabthree">Other Benefits</label>
+                            </li>
+                          </ul>
+                        </nav>
+                        <section>
+                          <div className="ivas-out-tabone">
+                            <div className="row">
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Covered Medical Services</p>
+                                </div>
+                                <p className="tab-content1 text-black">Hospital Room & Board</p>
+                                <p className="tab-content1 text-black">Hospital Intensive Care Unit Room & Board</p>
+                                <p className="tab-content2 text-black">Doctor Surgical Expenses</p>
+                                <p className="tab-content2 text-black">Anesthetics</p>
+                                <p className="tab-content2 text-black">Assistant Surgeon Expenses</p>
+                                <p className="tab-content3 text-black">Doctor's Non-Surgical Treatment/Examination Expenses</p>
+                                <p className="tab-content4 text-black">Consultation visits when requested by a Doctor</p>
+                                <p className="tab-content text-black">Pre-Admission Tests within 14 days before hospital admission</p>
+                              </div>
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">In-Patient Medical Benefits</p>
+                                </div>
+                                <p className="tab-content text-black">Charges up to $1,750 per day maximum<br /> Up to 30 days</p>
+                                <p className="tab-content3 text-black">Up to an additional $750 per day <br />Up to 8 Days</p>
+                                <p className="tab-content2 text-black">Up to $5,000 maximum</p>
+                                <p className="tab-content2 text-black">Up to $1,250 maximum</p>
+                                <p className="tab-content2 text-black">Up to $1,250 maximum</p>
+                                <p className="tab-content3 text-black">Up to $100 maximum per visit, 1 visit per day, to 30 visits</p>
+                                <p className="tab-content1 text-black">Up to $450 maximum</p>
+                                <p className="tab-content1 text-black">Up to $1,100 maximum</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="ivas-out-tabtwo">
+                            <div className="row">
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Covered Medical Services</p>
+                                </div>
+                                <p className="tab-content1 text-black">Surgical Room & Supply Expenses</p>
+                                <p className="tab-content1 text-black">Hospital Emergency</p>
+                                <p className="tab-content1 text-black">Doctor Surgical Expenses</p>
+                                <p className="tab-content1 text-black">Anesthetics</p>
+                                <p className="tab-content1 text-black">Assistant Surgeon Expenses</p>
+                                <p className="tab-content2 text-black">Doctor's Non-Surgical Treatment/Examination Expenses</p>
+                                <p className="tab-content1 text-black">X-rays & laboratory procedures</p>
+                                <p className="tab-content1 text-black">CAT Scan, PET Scan, or MRI</p>
+                                <p className="tab-content1 text-black">Prescription Drug Expenses</p>
+                              </div>
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Out-Patient Medical Benefits</p>
+                                </div>
+                                <p className="tab-content1 text-black">Up to $1,100 maximum</p>
+                                <p className="tab-content1 text-black">Up to $500</p>
+                                <p className="tab-content1 text-black">Up to $5,000 maximum</p>
+                                <p className="tab-content1 text-black">​Up to $1,250 maximum</p>
+                                <p className="tab-content1 text-black">​Up to $1,250 maximum</p>
+                                <p className="tab-content text-black">Up to $100 per visit maximum | 1 visit per day <br/>Up to 10 visits</p>
+                                <p className="tab-content1 text-black">Up to $650 maximum</p>
+                                <p className="tab-content1 text-black">Up to $650 additional</p>
+                                <p className="tab-content1 text-black">Up to $150 maximum</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="ivas-out-tabthree">
+                            <div className="row">
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Covered Medical Services</p>
+                                </div>
+                                <p className="tab-content1 text-black">Ambulance Expenses</p>
+                                <p className="tab-content1 text-black">Rehabilitative Braces or Appliances</p>
+                                <p className="tab-content2 text-black">Dental Treatment (Injury )</p>
+                                <p className="tab-content1 text-black">Chemotherapy and/or Radiation Therapy</p>
+                                <p className="tab-content2 text-black">Physical & Occupational Therapy</p>
+                                <p className="tab-content1 text-black">Private Duty Nurse</p>
+                                <p className="tab-content text-black">Pregnancy or Childbirth (Conception must Occur After Trip Begins)</p>
+                              </div>
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Other Medical Benefits</p>
+                                </div>
+                                <p className="tab-content1 text-black">Up to $450 maximum</p>
+                                <p className="tab-content1 text-black">Up to $1,100 maximum</p>
+                                <p className="tab-content text-black">​Up to $500. There are no benefits for dental services for immediate relief of pain.</p>
+                                <p className="tab-content1 text-black">Up to $1,150 maximum</p>
+                                <p className="tab-content text-black">Up to $45 per visit max, 1 Visit per day up to 12 visits</p>
+                                <p className="tab-content1 text-black">Up to $500 maximum</p>
+                                <p className="tab-content3 text-black">Up to $5,000 maximum</p>
+                              </div>
+                              <div className="column-tab additional-benefits">
+                                <p className="text-white column-tab-title">Additional Benefits</p>
+                              </div>
+                              <div className="col-lg-6">
+                                <p className="tab-content1 text-black">Emergency Medical Evacuation Benefit</p>
+                                <p className="tab-content1 text-black">Repatriation of Remains Benefit</p>
+                                <p className="tab-content1 text-black">Accidental Death & Dismemberment</p>
+                              </div>
+                              <div className="col-lg-6">
+                                <p className="tab-content1 text-black">$20,000 maximum</p>
+                                <p className="tab-content1 text-black">$15,000 maximum​</p>
+                                <p className="tab-content1 text-black">$25,000 Principal Sum</p>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-12 mt-4">
+                    <p className="text-black text-center tab-row-title">$150,000 Policy Max</p>
+
+                      <div className="ivas-other-tab">
+                        <input checked="checked" id="ivas-other-tabone" type="radio" name="ivas other benefits" />
+                        <input id="ivas-other-tabtwo" type="radio" name="ivas other benefits" />
+                        <input id="ivas-other-tabthree" type="radio" name="ivas other benefits" />
+                        <nav>
+                          <ul>
+                            <li className="ivas-other-tabone">
+                              <label for="ivas-other-tabone">In-Patient Services</label>
+                            </li>
+                            <li className="ivas-other-tabtwo">
+                              <label for="ivas-other-tabtwo">Out-Patient Services</label>
+                            </li>
+                            <li className="ivas-other-tabthree">
+                              <label for="ivas-other-tabthree">Other Benefits</label>
+                            </li>
+                          </ul>
+                        </nav>
+                        <section>
+                          <div className="ivas-other-tabone">
+                            <div className="row">
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Covered Medical Services</p>
+                                </div>
+                                <p className="tab-content1 text-black">Hospital Room & Board</p>
+                                <p className="tab-content1 text-black">Hospital Intensive Care Unit Room & Board</p>
+                                <p className="tab-content2 text-black">Doctor Surgical Expenses</p>
+                                <p className="tab-content2 text-black">Anesthetics</p>
+                                <p className="tab-content2 text-black">Assistant Surgeon Expenses</p>
+                                <p className="tab-content3 text-black">Doctor's Non-Surgical Treatment/Examination Expenses</p>
+                                <p className="tab-content4 text-black">Consultation visits when requested by a Doctor</p>
+                                <p className="tab-content text-black">Pre-Admission Tests within 14 days before hospital admission</p>
+                              </div>
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">In-Patient Medical Benefits</p>
+                                </div>
+                                <p className="tab-content text-black">Charges up to $1,900 per day maximum<br /> Up to 30 days</p>
+                                <p className="tab-content3 text-black">Up to an additional $850 maximum per maximum additional a day | Up to 8 Days</p>
+                                <p className="tab-content2 text-black">Up to $6,000 maximum</p>
+                                <p className="tab-content2 text-black">Up to $1,500 maximum</p>
+                                <p className="tab-content2 text-black">Up to $1,500 maximum</p>
+                                <p className="tab-content3 text-black">Up to $125 maximum per visit, 1 visit per day, to 30 visits</p>
+                                <p className="tab-content1 text-black">Up to $500 maximum</p>
+                                <p className="tab-content1 text-black">Up to $1,200 maximum</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="ivas-other-tabtwo">
+                            <div className="row">
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Covered Medical Services</p>
+                                </div>
+                                <p className="tab-content1 text-black">Surgical Room and Supply Expenses</p>
+                                <p className="tab-content1 text-black">Hospital Emergency</p>
+                                <p className="tab-content1 text-black">Doctor Surgical Expenses</p>
+                                <p className="tab-content1 text-black">Anesthetics</p>
+                                <p className="tab-content1 text-black">Assistant Surgeon Expenses</p>
+                                <p className="tab-content2 text-black">Doctor's Non-Surgical Treatment/Examination Expenses</p>
+                                <p className="tab-content1 text-black">X-rays & laboratory procedures</p>
+                                <p className="tab-content1 text-black">CAT Scan, PET Scan, or MRI</p>
+                                <p className="tab-content1 text-black">Prescription Drug Expenses</p>
+                              </div>
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Out-Patient Medical Benefits</p>
+                                </div>
+                                <p className="tab-content1 text-black">Up to $1,200 maximum</p>
+                                <p className="tab-content1 text-black">Up to $750 maximum</p>
+                                <p className="tab-content1 text-black">Up to $6,000 maximum</p>
+                                <p className="tab-content1 text-black">​Up to $1,500 maximum</p>
+                                <p className="tab-content1 text-black">​Up to $1,500 maximum</p>
+                                <p className="tab-content text-black">Up to $125 per visit maximum | 1 visit per day <br/>Up to 10 visits</p>
+                                <p className="tab-content1 text-black">Up to $750 maximum</p>
+                                <p className="tab-content1 text-black">Up to $1000 additional</p>
+                                <p className="tab-content1 text-black">Up to $200 maximum</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="ivas-other-tabthree">
+                            <div className="row">
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Covered Medical Services</p>
+                                </div>
+                                <p className="tab-content1 text-black">Ambulance Expenses</p>
+                                <p className="tab-content1 text-black">Rehabilitative Braces or Appliances</p>
+                                <p className="tab-content2 text-black">Dental Treatment (Injury )</p>
+                                <p className="tab-content1 text-black">Chemotherapy and/or Radiation Therapy</p>
+                                <p className="tab-content2 text-black">Physical & Occupational Therapy</p>
+                                <p className="tab-content1 text-black">Private Duty Nurse</p>
+                                <p className="tab-content text-black">Pregnancy or Childbirth (Conception must Occur After Trip Begins)</p>
+                              </div>
+                              <div className="col-lg-6">
+                                <div className="column-tab">
+                                  <p className="text-white column-tab-title">Other Medical Benefits</p>
+                                </div>
+                                <p className="tab-content1 text-black">Up to $500 maximum</p>
+                                <p className="tab-content1 text-black">Up to $1,200 maximum</p>
+                                <p className="tab-content text-black">​Up to $550. There are no benefits for dental services for immediate relief of pain.</p>
+                                <p className="tab-content1 text-black">Up to $1,250 maximum</p>
+                                <p className="tab-content text-black">Up to $50 per visit max, 1 Visit per day to 12 visits</p>
+                                <p className="tab-content1 text-black">Up to $550 maximum</p>
+                                <p className="tab-content3 text-black">Up to $5,500 maximum</p>
+                              </div>
+                              <div className="column-tab additional-benefits">
+                                <p className="text-white column-tab-title">Additional Benefits</p>
+                              </div>
+                              <div className="col-lg-6">
+                                <p className="tab-content1 text-black">Emergency Medical Evacuation Benefit</p>
+                                <p className="tab-content1 text-black">Repatriation of Remains Benefit</p>
+                                <p className="tab-content1 text-black">Accidental Death & Dismemberment</p>
+                                <p className="tab-content1 text-black">Intercollegiate Sports</p>
+                              </div>
+                              <div className="col-lg-6">
+                                <p className="tab-content1 text-black">$25,000 maximum</p>
+                                <p className="tab-content1 text-black">$20,000 maximum​</p>
+                                <p className="tab-content1 text-black">$25,000 Principal Sum</p>
+                                <p className="tab-content1 text-black">None</p>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+                    </div>
+                    <div id="ivas-description" class="tab-pane fade">
+                    <div id="description" class="tabcontent">
+                        INF Standard IVAS Plan Description
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+    <section id="plans-section-7">
       <Container>
        <div className="col-lg-12">
         <h3 className="text-blue text-center row-title">INF BMI Plans</h3>
@@ -338,7 +853,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
      </Container>
     </section>
 
-   <section id="plans-section-7">
+   <section id="plans-section-8">
      <Container>
       <div className="col-lg-12">
       <div className="plans-container">
@@ -455,6 +970,20 @@ export const query = graphql`
       }
     },
     inf_logo: file(name: { eq: "inf-logo" }) {
+      childImageSharp {
+        fluid(maxWidth: 400, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    standard_popup_logo: file(name: { eq: "standard-popup-logo" }) {
+      childImageSharp {
+        fluid(maxWidth: 400, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    book_icon: file(name: { eq: "book-icon" }) {
       childImageSharp {
         fluid(maxWidth: 400, quality: 100) {
           ...GatsbyImageSharpFluid

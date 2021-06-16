@@ -5679,38 +5679,85 @@ section#diplomat-america-section-1 {
   padding-top: 20px;
 }
 
-section#diplomat-america-section-3 {
+#diplomat-america-section-3 {
+  padding-top: 0;
+}
+
+#diplomat-america-section-3 .diplomat-america-container {
+  box-shadow: 0px 0px 12px 0px #dddddd;
+  padding: 50px 50px 30px 50px;
+}
+
+#diplomat-america-section-3 .enroll-btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background: #252362;
+    border: 2px solid #252362;
+    color: #ffffff;
+    padding: 8px 50px;
+    width: 80%;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+#diplomat-america-section-3 .enroll-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#diplomat-america-section-3 .america-right-img {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#diplomat-america-section-3 .enroll-content {
+  padding-top: 15px;
+}
+
+#diplomat-america-section-3 h2 {
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+
+#diplomat-america-section-3 p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+section#diplomat-america-section-4 {
   background: #252362;
 }
 
-#diplomat-america-section-3 {
+#diplomat-america-section-4 {
   padding-top: 50px;
 }
 
-#diplomat-america-section-3 .second-title {
+#diplomat-america-section-4 .second-title {
   padding-top: 25px;
 }
 
-#diplomat-america-section-3 h4 {
+#diplomat-america-section-4 h4 {
   font-weight: 600;
   font-size: 20px;
 }
 
-#diplomat-america-section-3 li {
+#diplomat-america-section-4 li {
   margin-bottom: 10px;
   line-height: 2;
 }
 
-#diplomat-america-section-4 h2 {
+#diplomat-america-section-5 h2 {
   font-weight: 500;
   padding-bottom: 40px;
 }
 
-#diplomat-america-section-4 p {
+#diplomat-america-section-5 p {
   line-height: 2;
 }
 
-#diplomat-america-section-4 .expenses {
+#diplomat-america-section-5 .expenses {
   line-height: 2;
   margin-left: 0;
 }
@@ -5816,49 +5863,49 @@ section#diplomat-america-section-3 {
   bottom: -1px;
 }
 
-#diplomat-america-section-5 h2 {
+#diplomat-america-section-6 h2 {
   font-weight: 500;
   padding-bottom: 40px;
 }
 
-#diplomat-america-section-5 a {
+#diplomat-america-section-6 a {
   text-decoration: underline;
 }
 
-#diplomat-america-section-5 .med-exp {
+#diplomat-america-section-6 .med-exp {
   padding-left: 25px;
 }
 
-#diplomat-america-section-5 .company-claim {
+#diplomat-america-section-6 .company-claim {
   line-height: 2;
 }
 
-#diplomat-america-section-5 .plan {
+#diplomat-america-section-6 .plan {
   line-height: 2;
   margin-bottom: 0;
 }
 
-#diplomat-america-section-5 .ref {
+#diplomat-america-section-6 .ref {
   line-height: 2;
 }
 
-#diplomat-america-section-5 .company {
+#diplomat-america-section-6 .company {
   padding-bottom: 0;
 }
 
-#diplomat-america-section-5 .claims {
+#diplomat-america-section-6 .claims {
   margin-left: 30px;
 }
 
-#diplomat-america-section-5 .claims2 {
+#diplomat-america-section-6 .claims2 {
   margin-left: 65px;
 }
 
-#diplomat-america-section-5 .administrator {
+#diplomat-america-section-6 .administrator {
   margin-left: 30px;
 }
 
-#diplomat-america-section-5 .claim-disease {
+#diplomat-america-section-6 .claim-disease {
   margin-left: 102px;
 }
 
@@ -5968,7 +6015,7 @@ section#diplomat-america-section-3 {
   bottom: -1px;
 }
 
-#diplomat-america-section-5 li {
+#diplomat-america-section-6 li {
   margin-bottom: 10px;
 }
 
@@ -6001,12 +6048,12 @@ section#diplomat-america-section-3 {
   padding-top: 35px;
 }
 
-#diplomat-america-section-6 .diplomat-america-container {
+#diplomat-america-section-7 .diplomat-america-container {
   box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 40px 50px;
 }
 
-#diplomat-america-section-6 .visit-btn {
+#diplomat-america-section-7 .visit-btn {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -6020,7 +6067,7 @@ section#diplomat-america-section-3 {
   transition: .5s;
 }
 
-#diplomat-america-section-6 .visit-btn1 {
+#diplomat-america-section-7 .visit-btn1 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -6034,7 +6081,7 @@ section#diplomat-america-section-3 {
   transition: .5s;
 }
 
-#diplomat-america-section-6 .visit-btn2 {
+#diplomat-america-section-7 .visit-btn2 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -6048,17 +6095,17 @@ section#diplomat-america-section-3 {
   transition: .5s;
 }
 
-#diplomat-america-section-6 .visit-btn:hover {
+#diplomat-america-section-7 .visit-btn:hover {
   background: #ffffff;
   color: #252362;
 }
 
-#diplomat-america-section-6 .visit-btn2:hover {
+#diplomat-america-section-7 .visit-btn2:hover {
   background: #ffffff;
   color: #252362;
 }
 
-#diplomat-america-section-6 input[type=text], select {
+#diplomat-america-section-7 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -6069,7 +6116,7 @@ section#diplomat-america-section-3 {
   color: #252362;
 }
 
-#diplomat-america-section-6 input[type=date], select {
+#diplomat-america-section-7 input[type=date], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -6080,22 +6127,22 @@ section#diplomat-america-section-3 {
   color: #252362;
 }
 
-#diplomat-america-section-6 input[type="date"]:before {
+#diplomat-america-section-7 input[type="date"]:before {
   content: attr(placeholder) !important;
   color: #252362;
   margin-right: 0.5em;
 }
 
-#diplomat-america-section-6 input[type="date"]:focus:before,
+#diplomat-america-section-7 input[type="date"]:focus:before,
   input[type="date"]:valid:before {
   content: "";
 }
 
-#diplomat-america-section-6 p {
+#diplomat-america-section-7 p {
   margin-top: 15px;
 }
 
-#diplomat-america-section-6 h2 {
+#diplomat-america-section-7 h2 {
   font-weight: 500px;
   padding-bottom: 40px;
 }
@@ -6110,34 +6157,34 @@ section#diplomat-america-section-3 {
   padding: 1px;
 }
 
-#diplomat-america-section-4 .alpha-list {
+#diplomat-america-section-5 .alpha-list {
   list-style-type: none;
   padding-left: 20px;
 }
 
-#diplomat-america-section-4 .alpha {
+#diplomat-america-section-5 .alpha {
   padding-bottom: 20px;
 }
 
-#diplomat-america-section-4 .number-list {
+#diplomat-america-section-5 .number-list {
   list-style-type: decimal;
   padding-top: 25px;
   padding-left: 35px;
 }
 
-#diplomat-america-section-5 .claims li {
+#diplomat-america-section-6 .claims li {
   list-style-type: disc;
 }
 
-#diplomat-america-section-5 .exclusions li {
+#diplomat-america-section-6 .exclusions li {
   list-style-type: disc;
 }
 
-#diplomat-america-section-5 .accident li {
+#diplomat-america-section-6 .accident li {
   list-style-type: disc;
 }
 
-#diplomat-america-section-6 .copyright {
+#diplomat-america-section-7 .copyright {
   margin-left: auto;
   margin-right: auto;
 }
@@ -7137,7 +7184,7 @@ section.plans-hero-section-bg {
   font-weight: 700;
 }
 
-#plans-section-4 a {
+#plans-section-5 a {
   text-decoration: none;
 }
 
@@ -7237,27 +7284,27 @@ section.plans-hero-section-bg {
   text-decoration: none;
 }
 
-#plans-section-6 h3 {
+#plans-section-8 h3 {
   font-weight: 500;
   font-size: 30px;
   padding-bottom: 40px;
 }
 
-  #plans-section-6 {
+  #plans-section-8 {
     padding-top: 0;
   }
 
-  #plans-section-6 .bmi-content1 {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  #plans-section-6 .bmi-content2 {
+  #plans-section-8 .bmi-content1 {
     padding-top: 0;
     padding-bottom: 0;
   }
 
-  #plans-section-6 .title {
+  #plans-section-8 .bmi-content2 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #plans-section-8 .title {
     padding-top: 30px;
   }
 
@@ -7358,7 +7405,7 @@ section.plans-hero-section-bg {
   bottom: -1px;
 }
 
-#plans-section-6 .bmi-bg {
+#plans-section-8 .bmi-bg {
   background-color: #F2F2F2;
   padding-top: 0;
   padding-bottom: 0;
@@ -7370,63 +7417,1038 @@ section.plans-hero-section-bg {
   margin-bottom: 30px;
 }
 
-#plans-section-6 .covid-content {
+#plans-section-8 .covid-content {
   font-size: 20px;
   font-weight: 600;
 }
 
-#plans-section-6 .expense-content {
+#plans-section-8 .expense-content {
   font-size: 18px;
   padding-top: 20px;
   font-weight: 600;
   margin-left: -40px;
 }
 
-#plans-section-6 .notice {
+#plans-section-8 .notice {
   font-size: 25px;
   font-weight: 600;
 }
 
-#plans-section-6 .notice-content {
+#plans-section-8 .notice-content {
   line-height: 2;
 }
 
-#plans-section-6 .decom {
+#plans-section-8 .decom {
   padding-top: 10px;
 }
 
-#plans-section-6 .title {
+#plans-section-8 .title {
   padding-top: 30px;
 }
 
-#plans-section-7 h2 {
+#plans-section-8 h2 {
   font-weight: 500;
 }
 
-#plans-section-7 p {
+#plans-section-8 p {
   font-weight: 500;
   padding-top: 5px;
   font-size: 20px;
 }
 
-#plans-section-7 li {
+#plans-section-8 li {
   font-size: 16px;
   line-height: 2;
 }
 
-#plans-section-7 {
+#plans-section-8 {
   padding-top: 0;
   padding-bottom: 80px;
 }
 
-#plans-section-7 ul {
+#plans-section-8 ul {
   list-style-type: disc;
 }
 
-#plans-section-7 .plans-container {
+#plans-section-8 .plans-container {
   box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 40px 50px;
 }
+
+
+.pb-4, .py-4 {
+  padding-bottom: 1.5rem !important;
+}
+.pt-4, .py-4 {
+  padding-top: 1.5rem !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+.nav {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background: #252362;
+}
+
+.popup-logo {
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #ffffff;
+  background-color: #b4b4e0;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0.25rem;
+  color: #ffffff;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+small, .small {
+  font-size: 80%;
+  font-weight: normal;
+}
+
+a {
+  color: #292867;
+  text-decoration: none;
+}
+
+.coverages-tab > input,
+.coverages-tab section > div {
+  display: none;
+}
+
+#coverages-tabone:checked ~ section .coverages-tabone,
+#coverages-tabtwo:checked ~ section .coverages-tabtwo {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.coverages-tab {
+  width: 100%;
+  margin: 0 auto;
+  margin-top:30px;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.coverages-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.coverages-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 6px 22px;
+  background: #eeeeee;
+  color: #000000;
+  font-weight: 600;
+  width: 50%;
+  font-size: 18px;
+  border-left: 2px solid #C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
+}
+
+.coverages-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.coverages-tab ul li label:active {
+  background: #ffffff;
+}
+
+.coverages-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 0px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.coverages-tab section div {
+  padding: 20px;
+  width: 100%;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  color: #444;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.coverages-tab section div h2 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#coverages-tab1:checked ~ nav .coverages-tabone label,
+#coverages-tab2:checked ~ nav .coverages-tabtwo label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+  border-left: 0;
+  border-right: 0;
+  margin-top: -9px;
+}
+
+#coverages-tabone:checked ~ nav .standard-coverages-tabone label:after,
+#coverages-tabtwo:checked ~ nav .standard-coverages-tabtwo label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+.coverages-tab .age-title {
+  font-size: 16px;
+}
+
+.coverages-tab .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+}
+
+.coverages-tab .column-tab-title {
+  margin-bottom: 0;
+}
+
+.coverages-tab .tab-content {
+  margin-bottom: 0;
+  font-size: 16px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 35px;
+  padding-top: 6px;
+}
+
+.coverages-tab .tab-content1 {
+  min-height: 25px;
+  margin-bottom: 0;
+  font-size: 25px;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+}
+
+.coverages-tab .col-lg-10 {
+  padding: 0!important;
+}
+
+.coverages-tab .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.coverages-tab .tab-row-title {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+#standard-section3 .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.ivas-in-tab > input,
+.ivas-in-tab section > div {
+  display: none;
+}
+
+#ivas-in-tabone:checked ~ section .ivas-in-tabone,
+#ivas-in-tabtwo:checked ~ section .ivas-in-tabtwo,
+#ivas-in-tabthree:checked ~ section .ivas-in-tabthree {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#benefits .tab-row-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.ivas-in-tab {
+  width: 100%;
+  margin: 0 auto;
+  margin-top:15px;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.ivas-in-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.ivas-in-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 15px 25px;
+  background: #eeeeee;
+  color: #000000;
+  font-weight: 600;
+  width: 33.33%;
+  min-height: 60px;
+  font-size: 18px;
+  border-left: 2px solid #C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
+}
+
+.ivas-in-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.ivas-in-tab ul li label:active {
+  background: #ffffff;
+}
+
+.ivas-in-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 0px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.ivas-in-tab section div {
+  padding: 20px;
+  width: 100%;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  color: #444;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.ivas-in-tab section div h2 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#ivas-in-tabone:checked ~ nav .ivas-in-tabone label,
+#ivas-in-tabtwo:checked ~ nav .ivas-in-tabtwo label,
+#ivas-in-tabthree:checked ~ nav .ivas-in-tabthree label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+  border-left: 0;
+  border-right: 0;
+  margin-top: -9px;
+}
+
+#ivas-in-tabone:checked ~ nav .ivas-in-tabone label:after,
+#ivas-in-tabtwo:checked ~ nav .ivas-in-tabtwo label:after,
+#ivas-in-tabthree:checked ~ nav .ivas-in-tabthree label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+.ivas-in-tab .age-title {
+  font-size: 16px;
+}
+
+.ivas-in-tab .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.ivas-in-tab .column-tab-title {
+  margin-bottom: 0;
+}
+
+.ivas-in-tab .tab-content {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 55px;
+  padding-top: 6px;
+  font-size: 14px;
+}
+
+.ivas-in-tab .tab-content1 {
+  min-height: 55px;
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 15px;
+  font-size: 14px;
+}
+
+.ivas-in-tab .tab-content2 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 13px;
+  min-height: 50px;
+  font-size: 14px;
+}
+
+.ivas-in-tab .tab-content3 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  min-height: 54px;
+  font-size: 14px;
+}
+
+.ivas-in-tab .tab-content4 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 55px;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.ivas-in-tabtwo .tab-content {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 69px;
+  padding-top: 13px;
+}
+
+.ivas-in-tabtwo .tab-content1 {
+  min-height: 45px;
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 11px;
+}
+
+.ivas-in-tabtwo .tab-content2 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 13px;
+  min-height: 69px;
+}
+
+.ivas-in-tabthree .tab-content {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 62px;
+  padding-top: 10px;
+}
+
+.ivas-in-tabthree .tab-content1 {
+  min-height: 45px;
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 11px;
+}
+
+.ivas-in-tabthree .tab-content2 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 20px;
+  min-height: 62px;
+}
+
+.ivas-in-tabthree .tab-content3 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 20px;
+  min-height: 62px;
+}
+
+.ivas-in-tab .additional-benefits {
+  margin-top: 20px;
+}
+
+.ivas-in-tab .col-lg-6 {
+  padding: 0 !important;
+}
+
+.ivas-in-tab .col-lg-10 {
+  padding: 0!important;
+}
+
+.ivas-in-tab .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.ivas-in-tab .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#standard-section3 .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.ivas-out-tab > input,
+.ivas-out-tab section > div {
+  display: none;
+}
+
+#ivas-out-tabone:checked ~ section .ivas-out-tabone,
+#ivas-out-tabtwo:checked ~ section .ivas-out-tabtwo,
+#ivas-out-tabthree:checked ~ section .ivas-out-tabthree {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.ivas-out-tab {
+  width: 100%;
+  margin: 0 auto;
+  margin-top:30px;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.ivas-out-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.ivas-out-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 15px 25px;
+  background: #eeeeee;
+  color: #000000;
+  font-weight: 600;
+  width: 33.33%;
+  min-height: 60px;
+  font-size: 18px;
+  border-left: 2px solid #C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
+}
+
+.ivas-out-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.ivas-out-tab ul li label:active {
+  background: #ffffff;
+}
+
+.ivas-out-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 0px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.ivas-out-tab section div {
+  padding: 20px;
+  width: 100%;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  color: #444;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.ivas-out-tab section div h2 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#ivas-out-tabone:checked ~ nav .ivas-out-tabone label,
+#ivas-out-tabtwo:checked ~ nav .ivas-out-tabtwo label,
+#ivas-out-tabthree:checked ~ nav .ivas-out-tabthree label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+  border-left: 0;
+  border-right: 0;
+  margin-top: -9px;
+}
+
+#ivas-out-tabone:checked ~ nav .ivas-out-tabone label:after,
+#ivas-out-tabtwo:checked ~ nav .ivas-out-tabtwo label:after,
+#ivas-out-tabthree:checked ~ nav .ivas-out-tabthree label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+.ivas-out-tab .age-title {
+  font-size: 16px;
+}
+
+.ivas-out-tab .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.ivas-out-tab .column-tab-title {
+  margin-bottom: 0;
+}
+
+.ivas-out-tab .tab-content {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 55px;
+  padding-top: 6px;
+  font-size: 14px;
+}
+
+.ivas-out-tab .tab-content1 {
+  min-height: 55px;
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 15px;
+  font-size: 14px;
+}
+
+.ivas-out-tab .tab-content2 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 13px;
+  min-height: 50px;
+  font-size: 14px;
+}
+
+.ivas-out-tab .tab-content3 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  min-height: 54px;
+  font-size: 14px;
+}
+
+.ivas-out-tab .tab-content4 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 55px;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.ivas-out-tabtwo .tab-content {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 69px;
+  padding-top: 13px;
+}
+
+.ivas-out-tabtwo .tab-content1 {
+  min-height: 45px;
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 11px;
+}
+
+.ivas-out-tabtwo .tab-content2 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 13px;
+  min-height: 69px;
+}
+
+.ivas-out-tabthree .tab-content {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 62px;
+  padding-top: 10px;
+}
+
+.ivas-out-tabthree .tab-content1 {
+  min-height: 45px;
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 11px;
+}
+
+.ivas-out-tabthree .tab-content2 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 20px;
+  min-height: 62px;
+}
+
+.ivas-out-tabthree .tab-content3 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 20px;
+  min-height: 62px;
+}
+
+.ivas-out-tab .additional-benefits {
+  margin-top: 20px;
+}
+
+.ivas-out-tab .col-lg-6 {
+  padding: 0 !important;
+}
+
+.ivas-out-tab .col-lg-10 {
+  padding: 0!important;
+}
+
+.ivas-out-tab .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.ivas-out-tab .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#standard-section3 .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.ivas-other-tab > input,
+.ivas-other-tab section > div {
+  display: none;
+}
+
+#ivas-other-tabone:checked ~ section .ivas-other-tabone,
+#ivas-other-tabtwo:checked ~ section .ivas-other-tabtwo,
+#ivas-other-tabthree:checked ~ section .ivas-other-tabthree {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.ivas-other-tab {
+  width: 100%;
+  margin: 0 auto;
+  margin-top:30px;
+  box-shadow: 0px 8px 12px 0px #ddd;
+}
+
+.ivas-other-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.ivas-other-tab ul li label {
+  font-family: "poppins";
+  float: left;
+  padding: 15px 25px;
+  background: #eeeeee;
+  color: #000000;
+  font-weight: 600;
+  width: 33.33%;
+  min-height: 60px;
+  font-size: 18px;
+  border-left: 2px solid #C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  border-top: 1px solid #C4C4C4;
+}
+
+.ivas-other-tab ul li label:hover {
+  background: #dddddd;
+  cursor:pointer;
+}
+
+.ivas-other-tab ul li label:active {
+  background: #ffffff;
+}
+
+.ivas-other-tab section {
+  font-family: "poppins";
+  clear: both;
+  padding-top: 0px;
+  padding-bottom: 0;
+  min-height: 110px;
+}
+
+.ivas-other-tab section div {
+  padding: 20px;
+  width: 100%;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  color: #444;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.ivas-other-tab section div h2 {
+  margin: 0;
+  font-family: "poppins";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#ivas-other-tabone:checked ~ nav .ivas-other-tabone label,
+#ivas-other-tabtwo:checked ~ nav .ivas-other-tabtwo label,
+#ivas-other-tabthree:checked ~ nav .ivas-other-tabthree label {
+  background: white;
+  color: #111;
+  position: relative;
+  font-weight: 600;
+  border-top: 10px solid;
+  border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
+  border-left: 0;
+  border-right: 0;
+  margin-top: -9px;
+}
+
+#ivas-other-tabone:checked ~ nav .ivas-other-tabone label:after,
+#ivas-other-tabtwo:checked ~ nav .ivas-other-tabtwo label:after,
+#ivas-other-tabthree:checked ~ nav .ivas-other-tabthree label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+
+.ivas-other-tab .age-title {
+  font-size: 16px;
+}
+
+.ivas-other-tab .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+}
+
+.ivas-other-tab .column-tab-title {
+  margin-bottom: 0;
+}
+
+.ivas-other-tab .tab-content {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 55px;
+  padding-top: 6px;
+  font-size: 14px;
+}
+
+.ivas-other-tab .tab-content1 {
+  min-height: 55px;
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 15px;
+  font-size: 14px;
+}
+
+.ivas-other-tab .tab-content2 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 13px;
+  min-height: 50px;
+  font-size: 14px;
+}
+
+.ivas-other-tab .tab-content3 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  min-height: 54px;
+  font-size: 14px;
+}
+
+.ivas-other-tab .tab-content4 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 55px;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.ivas-other-tabtwo .tab-content {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 69px;
+  padding-top: 13px;
+}
+
+.ivas-other-tabtwo .tab-content1 {
+  min-height: 45px;
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 11px;
+}
+
+.ivas-other-tabtwo .tab-content2 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 13px;
+  min-height: 69px;
+}
+
+.ivas-other-tabthree .tab-content {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  min-height: 62px;
+  padding-top: 10px;
+}
+
+.ivas-other-tabthree .tab-content1 {
+  min-height: 45px;
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 11px;
+}
+
+.ivas-other-tabthree .tab-content2 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 20px;
+  min-height: 62px;
+}
+
+.ivas-other-tabthree .tab-content3 {
+  margin-bottom: 0;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  padding-top: 20px;
+  min-height: 62px;
+}
+
+.ivas-other-tab .additional-benefits {
+  margin-top: 20px;
+}
+
+.ivas-other-tab .col-lg-6 {
+  padding: 0 !important;
+}
+
+.ivas-other-tab .col-lg-10 {
+  padding: 0!important;
+}
+
+.ivas-other-tab .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.ivas-other-tab .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#standard-section3 .tab-row-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
 
 /* End of Plans Styles */
 
@@ -8896,172 +9918,6 @@ section#apply-hero-section {
 
 /* End of Apply Styles */
 
-/* Home Form Styles */
-
-#home-hero-section select {
-  width: 100%;
-  margin: 8px 0;
-  border-radius: 4px;
-  font-size: 14px;
-}
-
-#home-hero-section input[type=date] {
-  width: 95%;
-  padding: 10px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 0 solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-#home-hero-section label {
-  font-size: 16px;
-  margin-bottom: 0;
-  display: inline-block;
-  max-width: 100%;
-}
-
-#home-hero-section .form-container {
-  background: #FFFFFF;
-  padding: 10px;
-  border-radius: 5px;
-  overflow: hidden;
-  position: relative;
-}
-
-#home-hero-section .blue-bg {
-  background-color: #252362;
-  padding: 20px;
-  width: 100%;
-}
-
-#home-hero-section input#email {
-  width: 40%;
-  background: #F2F2F2;
-  border: 2px solid #F2F2F2;
-  padding: 5px 30px;
-  border-radius: 50px;
-  outline: none;
-  margin-left: 140px;
-}
-
-#home-hero-section input[type="submit"] {
-  width: 20%;
-  padding: 5px;
-  border: 2px solid #7DA9DA;
-  background: #7DA9DA;
-  color: #ffffff;
-  border-radius: 50px;
-  transition: .5s;
-  margin-left: 60px;
-}
-
-.caret {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  margin-left: 2px;
-  vertical-align: middle;
-  border-top: 4px dashed;
-  border-top: 4px solid\9;
-  border-right: 4px solid transparent;
-  border-left: 4px solid transparent;
-}
-
-.flex-container {
-  display: flex;
-  flex-flow: row;
-  align-items: baseline;
-  justify-content: space-between;
-}
-
-.customdiv {
-  padding: 6px 12px;
-  border: 1px solid #d4d4d4;
-  color: #555;
-  border-radius: 4px;
-  font-family: 'Roboto', sans-serif;
-  cursor: pointer;
-}
-
-.form-control {
-  display: block;
-  width: 100%;
-  padding: 0;
-  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-}
-
-.nestedform {
-  width: 100%;
-  padding: 6px 12px;
-  line-height: 1.5;
-  color: #555;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.space {
-  padding: 5px;
-}
-
-.dropdown-toggle::after {
-  display: inline-block;
-  margin-left: 0.255em;
-  vertical-align: 0.255em;
-  content: "";
-  border-top: 0.3em solid;
-  border-right: 0.3em solid transparent;
-  border-bottom: 0;
-  border-left: 0.3em solid transparent;
-}
-
-.dropdown, .dropup {
-  position: relative;
-}
-
-.open>.dropdown-menu {
-  display: block;
-}
-
-.form-group {
-  width: 170px;
-  padding-bottom: 0;
-  padding-top: 0;
-}
-
-#home-hero-section button, select {
-  text-transform: none;
-  margin-top: 10px;
-}
-
-#home-hero-section input[type=text], select, textarea {
-  width: 35%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-.fa {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    font-stretch: normal;
-    line-height: 1;
-    font-family: FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    color: #00B67A;
-}
-
-
-
-
-/* End of Home Form Styles */
-
 /* End of Gillian CSS */
 
 
@@ -9645,7 +10501,6 @@ details[open] summary:after {
 .modal-content {
    border-radius: 10px;
 }
-
 
 .modal.show {
   display: block;
@@ -12207,7 +13062,7 @@ details[open] summary:after {
     padding-bottom: 30px;
   }
 
-  section#plans-section-6 {
+  section#plans-section-8 {
     padding-top: 0;
     padding-bottom: 30px;
   }
@@ -12286,17 +13141,17 @@ details[open] summary:after {
     padding: 20px 20px 30px 20px;
   }
 
-  #plans-section-6 h3 {
+  #plans-section-8 h3 {
     font-weight: 500;
     font-size: 25px;
     padding-bottom: 20px;
   }
 
-  #plans-section-6 .bmi-bg {
+  #plans-section-8 .bmi-bg {
     margin-top: 20px;
   }
 
-  #plans-section-6 .bmi-content1 {
+  #plans-section-8 .bmi-content1 {
     padding: 10px;
   }
 
@@ -12316,25 +13171,25 @@ details[open] summary:after {
     padding-top: 0px;
   }
 
-  #plans-section-6 .inf-bmi-plans {
+  #plans-section-8 .inf-bmi-plans {
     padding-left: 30px;
   }
 
-  #plans-section-6 .expense-content {
+  #plans-section-8 .expense-content {
     margin-left: -20px;
   }
 
-  #plans-section-6 .notice {
+  #plans-section-8 .notice {
     font-size: 20px;
     font-weight: 600;
   }
 
-  #plans-section-6 .notice-content {
+  #plans-section-8 .notice-content {
     font-size: 16px;
     font-weight: 500;
   }
 
-  #plans-section-6 .covid-content {
+  #plans-section-8 .covid-content {
     padding: 5px;
   }
 
@@ -12354,29 +13209,29 @@ details[open] summary:after {
     padding-top: 0px;
   }
 
-  #plans-section-7 h2 {
+  #plans-section-8 h2 {
     font-weight: 500;
     font-size: 25px;
   }
 
-  #plans-section-7 p {
+  #plans-section-8 p {
     font-size: 18px;
   }
 
-  #plans-section-7 .plans-container {
+  #plans-section-8 .plans-container {
     padding: 20px 20px 20px 20px;
   }
 
-  #plans-section-7 {
+  #plans-section-8 {
     padding-top: 0;
     padding-bottom: 40px;
   }
 
-  #plans-section-7 .plan-features {
+  #plans-section-8 .plan-features {
     padding-left: 20px;
   }
 
-  #plans-section-7 .plan-design {
+  #plans-section-8 .plan-design {
     padding: 0;
   }
 
@@ -12425,26 +13280,26 @@ details[open] summary:after {
     font-size: 25px;
   }
 
-  section#diplomat-america-section-3 {
+  section#diplomat-america-section-4 {
     padding: 20px 20px 1px 20px;
   }
 
-  #diplomat-america-section-3 h4 {
+  #diplomat-america-section-4 h4 {
     font-size: 20px;
     margin-bottom: 10px;
   }
 
-  #diplomat-america-section-3 ul {
+  #diplomat-america-section-4 ul {
     padding-left: 20px;
   }
 
-  #diplomat-america-section-4 h2 {
+  #diplomat-america-section-5 h2 {
     font-weight: 500;
     font-size: 25px;
     padding-bottom: 20px;
   }
 
-  #diplomat-america-section-4 {
+  #diplomat-america-section-5 {
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -12458,23 +13313,23 @@ details[open] summary:after {
     padding-top: 0px;
   }
 
-  #diplomat-america-section-4 .expenses{
+  #diplomat-america-section-5 .expenses{
     margin-left: 30px;
   }
 
-  #diplomat-america-section-4 .co-insurance {
+  #diplomat-america-section-5 .co-insurance {
     padding: 5px;
   }
 
-  #diplomat-america-section-4 .alpha-list {
+  #diplomat-america-section-5 .alpha-list {
     padding-left: 0;
   }
 
-  #diplomat-america-section-4 .alpha-content {
+  #diplomat-america-section-5 .alpha-content {
     padding-left: 0;
   }
 
-  #diplomat-america-section-4 .number-list {
+  #diplomat-america-section-5 .number-list {
     padding-top: 25px;
     padding-left: 15px;
   }
@@ -12492,55 +13347,55 @@ details[open] summary:after {
     padding-top: 0px;
   }
 
-  #diplomat-america-section-5 {
+  #diplomat-america-section-6 {
     padding-top: 0px;
   }
 
-  #diplomat-america-section-5 .claims-forms {
+  #diplomat-america-section-6 .claims-forms {
     padding-left: 0;
   }
 
-  #diplomat-america-section-5 h2 {
+  #diplomat-america-section-6 h2 {
     font-weight: 500;
     font-size: 25px;
     padding-bottom: 20px;
   }
 
-  #diplomat-america-section-5 .company {
+  #diplomat-america-section-6 .company {
     padding: 5px;
   }
 
-  #diplomat-america-section-5 .claims-misc {
+  #diplomat-america-section-6 .claims-misc {
     padding: 0;
   }
 
-  #diplomat-america-section-5 .claims {
+  #diplomat-america-section-6 .claims {
     padding-left: 0;
     margin-bottom: 10px;
   }
 
-  #diplomat-america-section-5 .claims2 {
+  #diplomat-america-section-6 .claims2 {
     margin-left: 10px;
     padding-top: 10px;
   }
 
-  #diplomat-america-section-5 .med-exp {
+  #diplomat-america-section-6 .med-exp {
     padding-left: 0;
   }
 
-  #diplomat-america-section-5 .total {
+  #diplomat-america-section-6 .total {
     padding: 0;
   }
 
-  #diplomat-america-section-5 .company-tabtwo {
+  #diplomat-america-section-6 .company-tabtwo {
     padding-left: 0;
   }
 
-  #diplomat-america-section-5 ul {
+  #diplomat-america-section-6 ul {
     padding-left: 0;
   }
 
-  #diplomat-america-section-5 .claim-disease {
+  #diplomat-america-section-6 .claim-disease {
     margin-left: 70px;
   }
 

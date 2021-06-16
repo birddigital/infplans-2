@@ -22,6 +22,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
   const posts = data.remark.posts
   const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
+  const apply_right_img = data.apply_right_img?.childImageSharp?.fluid
 
   return (
     <Layout location={location}>
@@ -87,6 +88,27 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
     <section id="diplomat-america-section-3">
       <Container>
         <div className="col-lg-12">
+          <div className="diplomat-america-container">
+          <div className="row">
+
+          <div className="col-lg-7 enroll-content">
+           <h2 className="text-blue">Enroll in Diplomat America</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button className="enroll-btn"> Enroll Now </button>
+          </div>
+
+          <div className="col-lg-5">
+            <Img fluid={apply_right_img} className="america-right-img"/>
+          </div>
+         </div>
+         </div>
+        </div>
+      </Container>
+    </section>
+
+    <section id="diplomat-america-section-4">
+      <Container>
+        <div className="col-lg-12">
           <h4 className="text-center text-white">Diplomat America Plan Features: </h4>
         </div>
         <div className="col-lg-12">
@@ -131,7 +153,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
       </Container>
     </section>
 
-    <section id="diplomat-america-section-4">
+    <section id="diplomat-america-section-5">
       <Container>
         <div className="col-lg-12">
          <h2 className="text-blue text-center row-title">Diplomat America Benefits</h2>
@@ -195,7 +217,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
      </Container>
     </section>
 
-    <section id="diplomat-america-section-5">
+    <section id="diplomat-america-section-6">
       <Container>
         <div className="col-lg-12">
          <h2 className="text-blue text-center row-title">Miscellaneous Information</h2>
@@ -358,7 +380,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
      </Container>
     </section>
 
-    <section id="diplomat-america-section-6">
+    <section id="diplomat-america-section-7">
       <Container>
         <div className="col-lg-12">
          <h2 className="text-blue text-center row-title">Enroll in Diplomat America Below</h2>
@@ -528,6 +550,13 @@ export const query = graphql`
     hero_background: file(name: { eq: "diplomat-america-hero-bg" }) {
       childImageSharp {
         fluid(maxWidth: 1400, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    apply_right_img: file(name: { eq: "elite-right-hero-img" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000, quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
