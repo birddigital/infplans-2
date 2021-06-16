@@ -239,12 +239,9 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
 <div class="exit-intent-trigger"></div>
 <section id="plans-section-6">
   <Container>
-   <div class="modal show" id="myModal" role="dialog">
+   <div class="modal fade show" id="myModal" role="dialog">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">×</button>
-        </div>
       <div class="modal-body">
        <div class="container py-4">
           <div class="row">
@@ -257,6 +254,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
                           <li class="nav-item"><a href="#ivas-description" data-target="#ivas-description" data-toggle="tab" class="nav-link small">INF Standard IVAS Plan Description</a></li>
                       </ul>
                       <div class="tab-content p-3 w-100">
+                      <button type="button" class="close" data-dismiss="modal">×</button>
                           <div id="ivas-coverage" class="tab-pane fade active show">
                           <div id="Coverage" class="tabcontent">
                           <div className="col-lg-12 ivas-standard">
