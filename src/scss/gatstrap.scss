@@ -8514,6 +8514,7 @@ a {
   font-size: 33px;
   color: rgb(37, 35, 98);
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 #plans-section-6 .modal {
@@ -8533,8 +8534,12 @@ a {
   display: block;
 }
 
+#plans-section-6 .modal.show .modal-dialog {
+  transform: none;
+}
+
 #plans-section-6 button.close {
-  padding: 1px 9px 1px 9px;
+  padding: 1px 10px 1px 10px;
   background-color: #7EA9DA;
   border: 0;
 }
@@ -8558,7 +8563,7 @@ a {
   overflow-y: auto;
 }
 
-#plans-section-6 .modal-content {
+#plans-section-6 .modal-cont  ent {
    border-radius: 10px;
 }
 
@@ -8573,8 +8578,8 @@ a {
 }
 
 #plans-section-6 .modal-dialog {
-  margin: 0;
-  max-width: 1110px;
+  margin: 50px auto 0 auto !important;
+  max-width: 1100px;
 }
 
 #plans-section-6 .modal-header .close {
