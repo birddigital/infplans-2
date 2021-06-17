@@ -58,6 +58,7 @@ const BMIApplyPage: React.FC<Props> = ({ data, location }: Props) => {
             <h2 className="text-blue text-center">Apply for INF BMI Travel Assist</h2>
               <Img fluid={infplans_big_logo} className="big-logo"/>
               <p className="text-center sub-title">INF Recommends enrolling for at least 61 days to get Best Price Discount</p>
+              <p className="text-center">Please Read and Agree to conditions of the Travel Assist Program before applying.</p>
             <h2 className="text-blue text-center">INF BMI Travel Plan Application</h2>
           </div>
         </div>

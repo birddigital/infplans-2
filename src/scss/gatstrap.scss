@@ -4813,9 +4813,14 @@ section#bmi-apply-hero-section {
   margin-top: 20px;
 }
 
-#bmi-apply-section-1 p {
+#bmi-apply-section-1 .sub-title {
   font-size: 18px;
   padding-top: 20px;
+  margin-bottom: 0;
+}
+
+#bmi-apply-section-1 p {
+  font-size: 18px;
 }
 
 /* End of BMI Apply Page */

@@ -61,17 +61,19 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12">
             <div className="telemedicine-container text-center">
               <h2>
-                No Additional Cost Telemedicine Services for members of INF when traveling to the United States**
+                Telemedicine Services are included with INF plans when traveling to the United States**
               </h2>
               <p>
-                Telemedicine services are available when enrolled in an INF Plan for members & their families access to health providers instantly, from anywhere in the United States. All plan members when traveling to the United States become eligible of INF and when traveling to the United States, become eligible to take advantage of these non insurance services, which are provided at no additional cost to the plan member. Our Telemedicine service provides access to many of the same services offered by an in-person doctor visit or urgent care visit.
+                Telemedicine services are available when enrolled in an INF Plan for plan  members & their families access to health providers instantly, from anywhere in the United States. All plan members when traveling to the United States become eligible of INF and when traveling to the United States, become eligible to take advantage of these non insurance services, which are provided at no additional cost to the plan member. Our Telemedicine service provides access to many of the same services offered by an in-person doctor visit or urgent care visit.
               </p>
               <p>
                 ** This service is not available when traveling to Canada or Mexico.
               </p>
-              <p>
-                Please note: Services described in this article are not affiliated with Crum & Forster SPC
-              </p>
+              <p><strong>
+                Please note:
+              </strong></p>
+              <p>Services described in this article are not affiliated with Crum & Forster SPC. </p>
+              <p>Cost of the plan includes insurance and non-insurance components</p>
             </div>
           </div>
         </Container>

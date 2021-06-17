@@ -84,7 +84,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="service-icon">
               <Img fluid={international_health_protection} alt="International Health Protection" />
             </div>
-            <h3 className="text-black">International Health Protection</h3>
+            <h3 className="text-black">International Accident & Sickness</h3>
             <p>We provide international visitor accident & sickness insurance for visiting parents, relatives, students, and temporary workers traveling outside of their home country to the United States, Canada or Mexico.</p>
             <a href="#" className="service-link">Learn More <FaLongArrowAltRight className="right-arrow" /></a>
           </div>
@@ -100,8 +100,8 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="service-icon">
               <Img fluid={covers_preexisting_conditions} alt="Covers Pre Existing Conditions" />
             </div>
-            <h3 className="text-black">Covers Pre Existing Conditions</h3>
-            <p>Our A-rated underwriting partners provide the strong financial support needed from an insurance company to continue offering International Visitor Accident and Sickness plans with pre-existing conditions coverage.</p>
+            <h3 className="text-black">We may cover Pre-Existing Conditions</h3>
+            <p>Our A-rated underwriting partners provide the strong financial support needed from an insurance company to continue offering some International Visitor Accident and Sickness plans with pre-existing conditions coverage.</p>
             <a href="#" className="service-link">Learn More <FaLongArrowAltRight className="right-arrow" /></a>
           </div>
         </ContainerFluid>
@@ -295,7 +295,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
           </h3>
           <ul className="text-white">
             <li>
-              Offers pre-existing conditions coverage
+              Plans may cover pre-existing conditions coverage
             </li>
             <li>
               Coverage to non-US Citizens traveling to the US, Canada or Mexico

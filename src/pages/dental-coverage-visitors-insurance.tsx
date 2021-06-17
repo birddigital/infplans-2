@@ -63,7 +63,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
           <div className="dental-discount-container">
            <h2 className="text-blue text-center">Careington Non-Insurance Discount Program when traveling to the USA.</h2>
            <p className="text-center">
-             Enrollment in an INF plan includes access to a Careington discount program at no additional cost, Careington coordinates this discount program, which provides savings on Dental, Vision, Prescription, & Hearing products & services while in the USA. Services are not available in Canada or Mexico. This Discount card program is not an insurance product and is not insured by Crum & Forster SPC. This is not insurance. Way too often someone will call the INF office and say, "I have a toothache, if I go to the dentist will this be covered?".
+             Enrollment in an INF plan includes access to a Careington discount program at no additional cost, Careington coordinates this discount program, which provides savings on Dental, Vision, Prescription, & Hearing products & services while in the USA. Services are not available in Canada or Mexico. This Discount card program is not an insurance product and is not insured by Crum & Forster SPC. It is provided by Careington. This is not insurance. Way too often someone will call the INF office and say, "I have a toothache, if I go to the dentist will this be covered?".
            </p>
             <p className="text-center">
               All INF plans come with the Careington POS Dental Discount Card for INF plan member at no cost additional to you. Keep in mind- this is not insurance but a discount card to help with the cost of dental procedures while in the United States. The Careington Dental card is simple to use. When you enroll in an INF plan- the discount card is provided in your welcome email. If you have any dental issue- simply locate one of Careington's 13,000 in-network dentists near you, and visit the dental office. The Careington Dental Plan will act as an instant savings card- affording you dental discounts on services.
@@ -82,6 +82,9 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
             </p>
             <p className="text-center">
               To locate a participating provider in the United States, please call 408-540-3601 or visit our INF Provider Search ink to access our online provider search.
+            </p>
+            <p className="text-center">
+              The cost of the plan includes insurance and non-insurance components.
             </p>
            </div>
          </div>
@@ -200,8 +203,8 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
                   </div>
                   <div className="col-lg-12 bottom-p">
                     <ul>
-                      <li className="text-left text-black">Members save 20% to 40% off the retail price of eyewear with the EyeMed Vision Care Access Plan D discount program through the Access network. Members are eligible for discounts on exams, eyeglasses and contact lenses from more than 90,000 providers nationwide including independent optometrists, ophthalmologists, opticians and leading optical retailers such as LensCrafters®, Sears Optical®, Target Optical®, JCPenney® Optical and most Pearle Vision® locations.</li>
-                      <li className="text-left text-black">Members can choose the doctors they want and the brands they love, like Ray-Ban®, Oakley ® and Coach ®.</li>
+                      <li className="text-left text-black">Plan Members save 20% to 40% off the retail price of eyewear with the EyeMed Vision Care Access Plan D discount program through the Access network. Members are eligible for discounts on exams, eyeglasses and contact lenses from more than 90,000 providers nationwide including independent optometrists, ophthalmologists, opticians and leading optical retailers such as LensCrafters®, Sears Optical®, Target Optical®, JCPenney® Optical and most Pearle Vision® locations.</li>
+                      <li className="text-left text-black">Plan Members can choose the doctors they want and the brands they love, like Ray-Ban®, Oakley ® and Coach ®.</li>
                     </ul>
                   </div>
                  </div>
@@ -212,7 +215,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
                    <p className="text-left text-black tab-title">Amplifon Hearing Discount Program</p>
                    <ul>
                      <li className="text-left text-black">Hearing aid low price guarantee: If you should find the same product at a lower price, bring us the local quote and we’ll not match it, we’ll beat it by 5%!</li>
-                     <li className="text-left text-black">As a member, you will receive a <strong>40% discount</strong> on diagnostic services, including hearing exams.</li>
+                     <li className="text-left text-black">As a plan member, you will receive a <strong>40% discount</strong> on diagnostic services, including hearing exams.</li>
                      <li className="text-left text-black">2 years of free batteries (80 cells per hearing aid, per year)</li>
                      <li className="text-left text-black"><strong>For more information or to schedule an appointment</strong>, call toll-free <strong>1-866-211-6045</strong>. Our Patient Care Advocate will explain our program, answer any questions or schedule an appointment at any of our over 3,800 locations nationwide.</li>
                      <li className="text-left text-black">Learn more about our program at <a href="https://www.amplifonusa.com/careington" target="_blank">www.amplifonusa.com/careington</a>.</li>
