@@ -552,6 +552,7 @@ section.home-hero-section-bg::after {
 #home-hero-section h1 {
   font-size: 50px;
   font-weight: 500;
+  margin-bottom: 30px;
 }
 
 #home-services-section .service-icon {
@@ -1037,6 +1038,123 @@ section#home-testimonial-section {
 .articles-slider .slick-prev {
   left: -50px;
 }
+
+/* Home form css victor*/
+
+.right-content, .center-content {
+  border-left: 1px solid #DCDCDC;
+  background: $white;
+  padding-top: 20px;
+}
+
+.left-content {
+  background: $white;
+  padding-top: 20px;
+}
+
+#home-form .form-content {
+  font-size: 15px;
+}
+
+#home-form .container {
+  max-width: 1230px;
+}
+
+#home-form h5 {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.btn-home-form {
+  // padding: 10px;
+  border: 1px solid #DCDCDC;
+  border-radius: 50%;
+  background: transparent;
+  transition: .5s;
+  color: #535353;
+  margin-top: 10px;
+}
+
+.btn-home-form:hover {
+  background: #252362;
+  color: $white;
+  border: 1px solid #252362;
+}
+
+#home-form ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #252362;
+}
+#home-form :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #252362;
+   opacity:  1;
+}
+#home-form ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #252362;
+   opacity:  1;
+}
+#home-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #252362;
+}
+#home-form ::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #252362;
+}
+
+#home-form ::placeholder { /* Most modern browsers support this now. */
+   color:    #252362;
+}
+
+#home-hero-section input#email {
+  width: 100%;
+  background: #F2F2F2;
+  border: 2px solid #F2F2F2;
+  padding: 10px 30px;
+  border-radius: 50px;
+  outline: none;
+  // margin-left: 140px;
+}
+
+#home-hero-section input[type="submit"] {
+  padding: 10px 30px 10px 30px;
+  border: 2px solid #7DA9DA;
+  background: #7DA9DA;
+  color: #ffffff;
+  border-radius: 50px;
+  transition: .5s;
+  font-weight: 600;
+}
+
+#home-hero-section input[type="submit"]:hover {
+  border: 2px solid $white;
+  background: $white;
+  color: #252362;
+}
+
+#home-form #exclamation-quote {
+  padding: 1px 7px 1px 7px;
+  border-radius: 50%;
+  background: $white;
+  color: $black;
+  font-size: 12px;
+  margin-right: 10px;
+  font-weight: 900;
+}
+#home-form #arrow-right-span {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+#home-form .quote-p {
+  font-size: 14px;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+#home-hero-section .blue-bg {
+  background-color: #252362;
+  padding: 20px;
+  width: 100%;
+}
+/* end of home form css victor*/
+
 /* End of Home CSS */
 
 
