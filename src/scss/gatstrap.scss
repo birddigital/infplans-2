@@ -7479,28 +7479,41 @@ section.plans-hero-section-bg {
   padding: 50px 50px 40px 50px;
 }
 
-.p-3 {
+#plans-section-6 .nav-fill .nav-item, .nav-fill>.nav-link {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+#plans-section-6 .p-3 {
   background-color: #ffffff;
   box-shadow: 0px 0px 1px 1px #ddd;
   padding: 0 !important;
 }
 
-.pb-4, .py-4 {
-  padding-bottom: 1.5rem !important;
-}
-.pt-4, .py-4 {
-  padding-top: 1.5rem !important;
+#plans-section-6 .py-4 {
+  padding: 0;
+  margin: 0;
 }
 
-.d-flex {
+#plans-section-6 .pt-4, .py-4 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#plans-section-6 .col-md-12 {
+  padding-right: 0;
+}
+
+#plans-section-6 .d-flex {
   display: flex !important;
 }
 
-.flex-column {
+#plans-section-6 .flex-column {
   flex-direction: column !important;
 }
 
-.nav {
+#plans-section-6 .nav {
   display: flex;
   padding-left: 0;
   margin-bottom: 0;
@@ -7508,66 +7521,82 @@ section.plans-hero-section-bg {
   background: #252362;
 }
 
-.popup-logo {
+#plans-section-6 .popup-logo {
   width: 170px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 40px;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+#plans-section-6 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #ffffff;
   background-color: #7EA9DA;
   border-image: linear-gradient( 45deg , rgb(108,200,235), rgb(41,40,103)) 1;
   border-left: 10px solid;
+  cursor: default;
 }
 
-.nav-pills .nav-link {
+#plans-section-6 .nav-pills .nav-link {
   color: #ffffff;
   border-radius: 0;
 }
 
-.text-uppercase {
-  text-transform: uppercase !important;
-}
-
-.nav-link {
+#plans-section-6.nav-link {
   display: block;
   padding: 0.5rem 1rem;
 }
 
-small, .small {
+#plans-section-6 small, .small {
   font-size: 80%;
   font-weight: normal;
 }
 
-a {
+#plans-section-6 a {
   color: #292867;
   text-decoration: none;
 }
 
-#ivas-coverage .tab-content>.active {
+#plans-section-6 .read-now-btn {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+  margin-bottom: 25px;
+}
+
+#plans-section-6 .read-now-btn:hover {
+  background: #252362;
+  color: #ffffff;
+  border: 2px solid #252362;
+}
+
+#plans-section-6 .book-icon-img {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#ivas-coverage .tab-content > .active {
   display: block;
 }
 
-#ivas-coverage .tab-content>.tab-pane {
-    display: none;
+#ivas-benefits .tab-content > .tab-pane {
+  display: none;
 }
 
-#ivas-benefits .tab-content>.tab-pane {
-    display: none;
+#ivas-description .tab-content > .tab-pane {
+  display: none;
 }
 
-#ivas-description .tab-content>.tab-pane {
-    display: none;
-}
-
-#ivas-benefits .fade:not(.show) {
-  opacity: 0;
-}
-
-#ivas-description .fade:not(.show) {
+.fade:not(.show) {
   opacity: 0;
 }
 
@@ -7577,7 +7606,6 @@ a {
 
 .ivas-standard {
   padding: 0 !important;
-
 }
 
 .coverages-tab > input,
@@ -8468,33 +8496,6 @@ a {
   margin-top: 30px;
 }
 
-#description .read-now-btn {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  background: #7DA9DA;
-  border: 2px solid #7DA9DA;
-  color: #ffffff;
-  padding: 8px 50px;
-  border-radius: 50px;
-  transition: .5s;
-  margin-bottom: 20px;
-}
-
-#description  .read-now-btn:hover {
-  background: #252362;
-  color: #ffffff;
-  border: 2px solid #252362;
-}
-
-#description .book-icon-img {
-    max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
 /* Modal Standard Plans */
 #plans-section-6 .exit-intent-trigger {
   width: 100%;
@@ -8503,33 +8504,24 @@ a {
   z-index: 9999;
 }
 
-#plans-section-6 .exit-popup-bg {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 45px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
 #plans-section-6 .modal h2 {
   font-size: 33px;
   color: rgb(37, 35, 98);
   font-weight: 700;
   margin-bottom: 10px;
+  padding-top: 40px;
 }
 
 #plans-section-6 .modal {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1050;
+  z-index: 1060;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   outline: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 #plans-section-6 .modal.show {
@@ -8543,22 +8535,23 @@ a {
 }
 
 #plans-section-6 button.close {
-  padding: 1px 10px 1px 10px;
-  background-color: #7EA9DA;
+  padding: 2px 10px 2px 10px;
+  background-color: #a0ccff;
   border: 0;
+  cursor: pointer;
 }
 
 #plans-section-6 .close {
   border-radius: 50px;
   position: absolute;
-  right: 27px;
+  right: 12px;
   z-index: 99;
   font-size: 40px;
   float: right;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 1;
-  color: #ffffff;
-  text-shadow: 0 1px 0 #ffffff;
+  color: #7DA9DA;
+  text-shadow: 1px 1px 1px #7DA9DA;
   opacity: .5;
 }
 
@@ -8582,7 +8575,7 @@ a {
 }
 
 #plans-section-6 .modal-dialog {
-  margin: 50px auto 0 auto !important;
+  margin: 20px auto 20px auto !important;
   max-width: 1100px;
 }
 
