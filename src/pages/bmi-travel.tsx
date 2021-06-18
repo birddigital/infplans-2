@@ -11,6 +11,7 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { FaAngleDoubleDown } from "@react-icons/all-files/fa/FaAngleDoubleDown";
+import ReactReadMoreReadLess from "react-read-more-read-less";
 import { Helmet } from 'react-helmet'
 
 interface Props {

@@ -390,7 +390,6 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
        </div>
       </Container>
     </section>
-
     </Layout>
   )
 }

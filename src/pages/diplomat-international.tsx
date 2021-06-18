@@ -11,6 +11,8 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { Helmet } from 'react-helmet'
+import DiplomatForm from 'components/diplomat-form'
+
 
 interface Props {
   data: IndexQueryQuery
@@ -483,128 +485,14 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
             </Container>
           </section>
 
-          <section id="diplomat-international-section-6">
-            <Container>
-              <div className="col-lg-12">
-               <h3 className="text-blue text-center row-title">Enroll in Diplomat America Below</h3>
-                <div className="row diplomat-international-container">
-                  <div className="col-lg-12">
-                    <h4 className="text-blue text-center">Visitor Application</h4>
-
-                  <div class="first-bg">
-                    <form>
-                    <select id="coverage" name="coverage">
-                      <option value="coverage">Coverage Area</option>
-                      <option value="coverage">Coverage Area</option>
-                    </select>
-
-                    <div className="calendar">
-                      <div className="row">
-                      <div className="col-lg-6">
-                        <input type="date" name="date" placeholder="Coverage Start" />
-                      </div>
-
-                      <div className="col-lg-6">
-                        <input type="date" name="date" placeholder="Coverage End" />
-                      </div>
-                    </div>
-                   </div>
-                 </form>
-                </div>
-
-                  <div className="second-bg">
-                    <p className="text-white text-center">Traveller Ages</p>
-                  </div>
-
-                  <div className="col-lg-12">
-                   <div className="row">
-                    <div className="col-lg-6">
-                    <form>
-                      <select id="traveller" name="traveller">
-                        <option value="traveller">Traveller One Range</option>
-                        <option value="traveller">Traveller One Range</option>
-                      </select>
-                    </form>
-                    </div>
-
-                      <div className="col-lg-6">
-                      <button className="visit-btn"> +Add Traveller </button>
-                      </div>
-                    </div>
-                  </div>
-
-                    <form>
-                    <select id="dependents" name="dependents">
-                      <option value="dependents">Minor Dependents (0-17)</option>
-                      <option value="dependents">Minor Dependents (0-17)</option>
-                    </select>
-                    </form>
-
-                <div className="second-bg">
-                  <p className="text-white text-center">Plan Selection</p>
-                </div>
-
-                <div className="col-lg-12">
-                 <div className="row">
-                  <div className="col-lg-6">
-                    <form>
-                      <select id="plan" name="plan">
-                        <option value="plan">Select Plan</option>
-                        <option value="plan">Select Plan</option>
-                      </select>
-                    </form>
-                    </div>
-
-                  <div className="col-lg-6">
-                    <form>
-                      <select id="maximum" name="maximum">
-                        <option value="maximum">Select Policy Maximum</option>
-                        <option value="maximum">Select Policy Maximum</option>
-                      </select>
-                    </form>
-                  </div>
-                </div>
-              </div>
-
-                <div className="col-lg-12">
-                  <div className="row">
-                    <div className="col-lg-6">
-                    <form>
-                      <select id="deductible" name="deductible">
-                        <option value="deductible">Select Policy Deductible</option>
-                        <option value="deductible">Select Policy Deductible</option>
-                      </select>
-                    </form>
-                    </div>
-
-                  <div className="col-lg-6">
-                    <form>
-                      <select id="add" name="add">
-                        <option value="add">Add (Accidental Death & Dismemberment)</option>
-                        <option value="add">Add (Accidental Death & Dismemberment)</option>
-                      </select>
-                    </form>
-                  </div>
-                </div>
-              </div>
-
-                <div className="col-lg-12">
-                  <div className="row">
-                   <div className="col-lg-6">
-                    <button className="visit-btn1"> Reset </button>
-                   </div>
-
-                   <div className="col-lg-6">
-                      <button className="visit-btn2"> Next </button>
-                   </div>
-                 </div>
-                </div>
-              </div>
-             </div>
-             </div>
+      <section id="diplomat-international-section-6">
+        <Container>
+          <div className="col-lg-12">
+            <DiplomatForm />
              <p className="text-center copyright">© 2021, INF Health Care Services</p>
-            </Container>
-          </section>
+          </div>
+        </Container>
+      </section>
     </Layout>
   )
 }

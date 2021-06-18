@@ -6,7 +6,6 @@ import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import { Link } from 'gatsby'
-import {TiArrowSortedDown} from '@react-icons/all-files/ti/TiArrowSortedDown'
 import {FaCalendarAlt} from '@react-icons/all-files/fa/FaCalendarAlt'
 
 const DiplomatForm = ({ action, ...props }) => (
@@ -15,7 +14,7 @@ const DiplomatForm = ({ action, ...props }) => (
       <Container>
         <div className="col-lg-12">
          <h2 className="text-blue text-center row-title">Enroll in Diplomat America Below</h2>
-          <div className="row diplomat-america-container">
+          <div className="row diplomat-form-container">
             <div className="col-lg-12">
               <h4 className="text-blue text-center visitor-title">Visitor Application</h4>
 

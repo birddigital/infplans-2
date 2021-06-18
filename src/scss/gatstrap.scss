@@ -6174,11 +6174,6 @@ section#diplomat-america-section-4 {
   padding-top: 35px;
 }
 
-#diplomat-america-section-7 .diplomat-america-container {
-  box-shadow: 0px 0px 12px 0px #dddddd;
-  padding: 50px 50px 40px 50px;
-}
-
 #diplomat-america-section-7 {
   margin-top: 0;
 }
@@ -6213,6 +6208,7 @@ section#diplomat-america-section-4 {
 #diplomat-america-section-7 .copyright {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 
 /* End of Diplomat America Styles */
@@ -6686,65 +6682,19 @@ section#diplomat-international-section-3 {
   padding: 50px 50px 40px 50px;
 }
 
-#diplomat-international-section-6 .visit-btn {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  display: block;
-  background: #7DA9DA;
-  border: 2px solid #7DA9DA;
-  color: #ffffff;
-  padding: 8px 90px;
-  border-radius: 50px;
-  transition: .5s;
-}
-
-#diplomat-international-section-6 .visit-btn1 {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  display: block;
-  background: #7DA9DA;
-  border: 2px solid #7DA9DA;
-  color: #ffffff;
-  padding: 8px 100px;
-  border-radius: 50px;
-  transition: .5s;
-}
-
-#diplomat-international-section-6 .visit-btn2 {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  display: block;
-  background: #252362;
-  border: 2px solid #252362;
-  color: #ffffff;
-  padding: 8px 100px;
-  border-radius: 50px;
-  transition: .5s;
-}
-
-#diplomat-international-section-6 .visit-btn:hover {
-  background: #ffffff;
-  color: #252362;
-}
-
-#diplomat-international-section-6 .visit-btn2:hover {
-  background: #ffffff;
-  color: #252362;
-}
-
 #diplomat-international-section-6 .copyright {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 /* End of Diplomat International Styles */
 
 /* Diplomat Form Styles */
+
+#diplomat-form .diplomat-form-container {
+  box-shadow: 0px 0px 12px 0px #dddddd;
+  padding: 50px 50px 40px 50px;
+}
 
 #diplomat-form input[type="date"].form-control, input[type="time"].form-control, input[type="datetime-local"].form-control, input[type="month"].form-control {
   -webkit-appearance: none;
