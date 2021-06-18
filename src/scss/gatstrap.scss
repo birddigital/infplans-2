@@ -813,7 +813,7 @@ what-describes-you {
 #eyemed-section-1 .flip-card {
   background-color:transparent;
  	width: 100%;
-  height: 330px;
+  height: 170px;
   // perspective: 1000px;
 }
 
@@ -6227,57 +6227,6 @@ section#diplomat-america-section-4 {
   color: #252362;
 }
 
-#diplomat-america-section-7 input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  color: #252362;
-}
-
-#diplomat-america-section-7 input[type=date], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  color: #252362;
-}
-
-#diplomat-america-section-7 input[type="date"]:before {
-  content: attr(placeholder) !important;
-  color: #252362;
-  margin-right: 0.5em;
-}
-
-#diplomat-america-section-7 input[type="date"]:focus:before,
-  input[type="date"]:valid:before {
-  content: "";
-}
-
-#diplomat-america-section-7 p {
-  margin-top: 15px;
-}
-
-#diplomat-america-section-7 h2 {
-  font-weight: 500px;
-  padding-bottom: 40px;
-}
-
-.first-bg {
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-.second-bg {
-  background-color: #252362;
-  padding: 1px;
-}
 
 #diplomat-america-section-5 .alpha-list {
   list-style-type: none;
@@ -6832,53 +6781,6 @@ section#diplomat-international-section-3 {
 #diplomat-international-section-6 .visit-btn2:hover {
   background: #ffffff;
   color: #252362;
-}
-
-#diplomat-international-section-6 input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  color: #252362;
-}
-
-#diplomat-international-section-6 input[type=date], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  color: #252362;
-}
-
-#diplomat-international-section-6 input[type="date"]:before {
-  content: attr(placeholder) !important;
-  color: #252362;
-  margin-right: 0.5em;
-}
-
-#diplomat-international-section-6 input[type="date"]:focus:before,
-  input[type="date"]:valid:before {
-  content: "";
-}
-
-#diplomat-international-section-6 p {
-  margin-top: 15px;
-}
-
-.first-bg {
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-.second-bg {
-  background-color: #252362;
-  padding: 1px;
 }
 
 #diplomat-international-section-6 .copyright {
@@ -9607,10 +9509,81 @@ section.eyemed-hero-section-bg {
   margin-top: 150px;
 }
 
+#eyemed-section-1 .eyemed-form-container {
+  box-shadow: 0px 0px 12px 0px #dddddd;
+  padding: 50px 50px 30px 50px;
+}
+
 #eyemed-section-1 .eyemed-container {
   box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 30px 10px 30px 10px;
   background-color: #252362;
+  margin-bottom: 15px;
+}
+
+#eyemed-section-1  .get-quote-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 170px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#eyemed-section-1 .get-quote-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#eyemed-section-1 .form-title {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 22px;
+  text-align: left;
+}
+
+#eyemed-section-1 .form-title1 {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 30px;
+  text-align: left;
+}
+
+input[type="date"].form-control, input[type="time"].form-control, input[type="datetime-local"].form-control, input[type="month"].form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0;
+  margin-top: 30px;
+}
+
+#eyemed-form select {
+  width: 100%;
+  color: #555;
+  border: 1px solid #ced4da !important;
+  outline: none;
+  height: 50px;
+  border-radius: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  appearance: auto;
 }
 
 #eyemed-section-1 p {
@@ -9620,22 +9593,20 @@ section.eyemed-hero-section-bg {
 }
 
 #eyemed-section-1 .eye-title {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   color: white;
   text-align: center;
-  font-style: poppins;
 }
 
 #eyemed-section-1 .get-now-btn {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
   display: block;
   background: #ffffff;
   border: 2px solid #ffffff;
   color: #252362;
-  padding: 6px 70px;
+  padding: 5px 70px;
   border-radius: 50px;
   transition: .5s;
 }
@@ -9646,10 +9617,10 @@ section.eyemed-hero-section-bg {
 }
 
 #eyemed-section-1 .flipcard-icon {
-  max-width: 120px;
+  max-width: 100px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 #eyemed-section-1 .flipcard-icon1 {
@@ -9662,7 +9633,21 @@ section.eyemed-hero-section-bg {
 #eyemed-section-1 h3 {
   font-weight: 500;
   font-size: 30px;
-  margin-top: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#eyemed-section-1 .bright {
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 35px;
+  margin-bottom: 0;
+}
+
+#eyemed-section-1 .bold {
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 15px;
   margin-bottom: 0;
 }
 
@@ -9674,7 +9659,7 @@ section.eyemed-hero-section-bg {
 #eyemed-section-1 .flipcard-container {
   background: #fff;
   padding: 30px 0px 20px 20px;
-  min-height: 190px;
+  min-height: 145px;
 }
 
 #eyemed-section-1 .flipcard-container-inner {
@@ -9694,7 +9679,8 @@ section.eyemed-hero-section-bg {
 }
 
 #eyemed-section-1 {
-  padding-bottom: 0;
+  padding-bottom: 30px;
+  padding-top: 100px;
 }
 
 #eyemed-section-1 .flipcard-btn {
