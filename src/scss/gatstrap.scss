@@ -6031,6 +6031,10 @@ section#diplomat-america-section-4 {
   margin-left: 102px;
 }
 
+#diplomat-america-section-7 {
+  padding-bottom: 0;
+}
+
 .info-tab > input,
 .info-tab section > div {
   display: none;
@@ -6175,58 +6179,9 @@ section#diplomat-america-section-4 {
   padding: 50px 50px 40px 50px;
 }
 
-#diplomat-america-section-7 .visit-btn {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  display: block;
-  background: #7DA9DA;
-  border: 2px solid #7DA9DA;
-  color: #ffffff;
-  padding: 8px 90px;
-  border-radius: 50px;
-  transition: .5s;
+#diplomat-america-section-7 {
+  margin-top: 0;
 }
-
-#diplomat-america-section-7 .visit-btn1 {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  display: block;
-  background: #7DA9DA;
-  border: 2px solid #7DA9DA;
-  color: #ffffff;
-  padding: 8px 100px;
-  border-radius: 50px;
-  transition: .5s;
-}
-
-#diplomat-america-section-7 .visit-btn2 {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  display: block;
-  background: #252362;
-  border: 2px solid #252362;
-  color: #ffffff;
-  padding: 8px 100px;
-  border-radius: 50px;
-  transition: .5s;
-}
-
-#diplomat-america-section-7 .visit-btn:hover {
-  background: #ffffff;
-  color: #252362;
-}
-
-#diplomat-america-section-7 .visit-btn2:hover {
-  background: #ffffff;
-  color: #252362;
-}
-
 
 #diplomat-america-section-5 .alpha-list {
   list-style-type: none;
@@ -6788,6 +6743,166 @@ section#diplomat-international-section-3 {
   margin-right: auto;
 }
 /* End of Diplomat International Styles */
+
+/* Diplomat Form Styles */
+
+#diplomat-form input[type="date"].form-control, input[type="time"].form-control, input[type="datetime-local"].form-control, input[type="month"].form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+#diplomat-form .form-control {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0;
+  margin-top: 30px;
+}
+
+#diplomat-form select {
+  width: 100%;
+  color: #555;
+  border: 1px solid #ced4da !important;
+  outline: none;
+  height: 50px;
+  border-radius: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  appearance: auto;
+}
+
+#diplomat-form .traveller {
+  width: 100%;
+  color: #555;
+  border: 1px solid #ced4da !important;
+  outline: none;
+  height: 50px;
+  border-radius: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  appearance: auto;
+  margin-left: -14px;
+}
+
+#diplomat-form .plan-selection {
+  width: 100%;
+  color: #555;
+  border: 1px solid #ced4da !important;
+  outline: none;
+  height: 50px;
+  border-radius: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  appearance: auto;
+  margin-left: -14px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+#diplomat-form .dependents {
+  width: 100%;
+  color: #555;
+  border: 1px solid #ced4da !important;
+  outline: none;
+  height: 50px;
+  border-radius: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  appearance: auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#diplomat-form .visitor-title {
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+#diplomat-form .sub-title {
+  padding-top: 15px;
+}
+
+#diplomat-form .first-bg {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+#diplomat-form .second-bg {
+  background-color: #252362;
+  padding: 1px;
+}
+
+#diplomat-form .visit-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 20px;
+  display: block;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
+  color: #ffffff;
+  padding: 8px 100px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#diplomat-form .visit-btn1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: block;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
+  color: #ffffff;
+  padding: 8px 170px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#diplomat-form .visit-btn2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 170px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#diplomat-form .visit-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#diplomat-form .visit-btn1:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#diplomat-form .visit-btn2:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+
+
+/* End of Diplomat form Styles */
+
 
 /* Plans Styles */
 
@@ -9519,6 +9634,8 @@ section.eyemed-hero-section-bg {
   padding: 30px 10px 30px 10px;
   background-color: #252362;
   margin-bottom: 15px;
+  margin-left: -15px;
+  width: 107%;
 }
 
 #eyemed-section-1  .get-quote-btn {

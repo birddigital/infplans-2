@@ -11,16 +11,17 @@ import {FaCalendarAlt} from '@react-icons/all-files/fa/FaCalendarAlt'
 
 const DiplomatForm = ({ action, ...props }) => (
   <div id="diplomat-form">
-    <form method="POST" action="">
+    <form id="diplomat-form"method="POST" action="">
       <Container>
         <div className="col-lg-12">
          <h2 className="text-blue text-center row-title">Enroll in Diplomat America Below</h2>
           <div className="row diplomat-america-container">
             <div className="col-lg-12">
-              <h4 className="text-blue text-center">Visitor Application</h4>
+              <h4 className="text-blue text-center visitor-title">Visitor Application</h4>
 
+              <div className="first-bg">
               <form>
-              <select id="coverage" name="coverage" class="form-control">
+              <select id="coverage" name="coverage">
                 <option value="" selected disabled hidden>Coverage Area</option>
                 <option value="coverage">India</option>
                 <option value="coverage">Australia</option>
@@ -275,23 +276,28 @@ const DiplomatForm = ({ action, ...props }) => (
               <div className="calendar">
                 <div className="row">
                 <div className="col-lg-6">
-                <span><FaCalendarAlt size="22"/><input class="form-control" id="date" name="date" placeholder="Coverage Start MM/Dd/Yyyy" type="text" /></span>
+                <input class="form-control" id="date" name="date" placeholder="Coverage Start MM/Dd/Yyyy" type="date" />
                 </div>
 
                 <div className="col-lg-6">
-                  <input type="date" name="date" placeholder="Coverage End" />
+                <input class="form-control" id="date" name="date" placeholder="Coverage End MM/Dd/Yyyy" type="date" />
                 </div>
               </div>
              </div>
            </form>
+           </div>
 
-            <p className="text-black text-center">Traveller Ages</p>
+           <div className="second-bg">
+            <p className="text-white text-center sub-title">Traveller Ages</p>
+           </div>
 
+           <div className="first-bg">
             <div className="col-lg-12">
              <div className="row">
               <div className="col-lg-6">
               <form>
-                <select id="traveller" name="traveller" class="form-control">
+                <select id="traveller" name="traveller" className="traveller">
+                <option value="" selected disabled hidden>Traveller One Range</option>
                   <option value="traveller">Age 0 - 17</option>
                   <option value="traveller">Age 18 - 29</option>
                   <option value="traveller">Age 30 - 39</option>
@@ -312,78 +318,87 @@ const DiplomatForm = ({ action, ...props }) => (
             </div>
 
               <form>
-              <select id="dependents" name="dependents" class="form-control">
+              <select id="dependents" name="dependents" className="dependents">
+              <option value="" selected disabled hidden>Minor Dependents (0-17)</option>
                 <option value="dependents">0</option>
                 <option value="dependents">1</option>
                 <option value="dependents">2</option>
-
               </select>
               </form>
-
-                  <p className="text-black text-center">Plan Selection</p>
-
-          <div className="col-lg-12">
-           <div className="row">
-            <div className="col-lg-6">
-              <form>
-                <select id="plan" name="plan" class="form-control">
-                  <option value="plan">Diplomat America</option>
-                  <option value="plan">Diplomat International</option>
-                </select>
-              </form>
               </div>
 
-            <div className="col-lg-6">
-              <form>
-                <select id="maximum" name="maximum" class="form-control">
-                  <option value="maximum">Select Policy Maximum</option>
-                </select>
-              </form>
-            </div>
-          </div>
-        </div>
+              <div className="second-bg">
+                <p className="text-white text-center sub-title">Plan Selection</p>
+              </div>
 
-          <div className="col-lg-12">
-            <div className="row">
+          <div className="first-bg">
+            <div className="col-lg-12">
+             <div className="row">
               <div className="col-lg-6">
-              <form>
-                <select id="deductible" name="deductible" class="form-control">
-                  <option value="deductible">Select Policy Deductible</option>
-                </select>
-              </form>
-              </div>
+                <form>
+                  <select id="plan" name="plan" className="plan-selection">
+                  <option value="" selected disabled hidden>Select Plan</option>
+                    <option value="plan">Diplomat America</option>
+                    <option value="plan">Diplomat International</option>
+                  </select>
+                </form>
+                </div>
 
-            <div className="col-lg-6">
-              <form>
-                <select id="add" name="add" class="form-control">
-                  <option value="add">ADD 25</option>
-                  <option value="add">ADD 100</option>
-                  <option value="add">ADD 250</option>
-                  <option value="add">ADD 500</option>
-                  <option value="add">ADD 750</option>
-                  <option value="add">ADD 1M</option>
-                </select>
-              </form>
+              <div className="col-lg-6">
+                <form>
+                  <select id="maximum" name="maximum" className="plan-selection">
+                  <option value="" selected disabled hidden>Select Policy Maximum</option>
+                    <option value="maximum">Select Policy Maximum</option>
+                  </select>
+                </form>
+              </div>
             </div>
           </div>
-        </div>
 
-          <div className="col-lg-12">
-            <div className="row">
-             <div className="col-lg-6">
-              <button className="visit-btn1"> Reset </button>
-             </div>
+            <div className="col-lg-12">
+              <div className="row">
+                <div className="col-lg-6">
+                <form>
+                  <select id="deductible" name="deductible" className="plan-selection">
+                  <option value="" selected disabled hidden>Select Policy Deductible</option>
+                    <option value="deductible">Select Policy Deductible</option>
+                  </select>
+                </form>
+                </div>
 
-             <div className="col-lg-6">
-                <button className="visit-btn2"> Next </button>
-             </div>
-           </div>
+              <div className="col-lg-6">
+                <form>
+                  <select id="add" name="add" className="plan-selection">
+                  <option value="" selected disabled hidden>Add (Accidental Death & Dismemberment)</option>
+                    <option value="add">ADD 25</option>
+                    <option value="add">ADD 100</option>
+                    <option value="add">ADD 250</option>
+                    <option value="add">ADD 500</option>
+                    <option value="add">ADD 750</option>
+                    <option value="add">ADD 1M</option>
+                  </select>
+                </form>
+              </div>
+            </div>
           </div>
-        </div>
-       </div>
-       </div>
-    </Container>
-    </form>
-  </div>
+          </div>
+
+            <div className="col-lg-12">
+              <div className="row">
+               <div className="col-lg-6">
+                <button className="visit-btn1"> Reset </button>
+               </div>
+
+               <div className="col-lg-6">
+                  <button className="visit-btn2"> Next </button>
+               </div>
+             </div>
+            </div>
+          </div>
+         </div>
+         </div>
+      </Container>
+      </form>
+    </div>
 )
 export default DiplomatForm
