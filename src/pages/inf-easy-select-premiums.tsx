@@ -104,7 +104,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
            </div>
          </div>
 
-         <div className="col-lg-12  ">
+         <div className="col-lg-12 hidden">
           <div className="blue-bg text-center">
             <h3 className="text-white">ARE YOU LOOKING FOR PRE-EXISTING CONDITIONS COVERAGE?</h3>
             <h4 className="text-white">
@@ -133,6 +133,307 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
         </div>
 
+
+        <div className="col-lg-12">
+          <div className="blue-background">
+
+          <div className="row">
+            <div className="col-lg-3">
+             <p className="text-white text-center filter">Filter By :</p>
+            </div>
+
+            <div className="col-lg-3">
+              <form id="premium-age" method="" action="">
+                  <select id="premium-age-selector" name="age" className="age">
+                    <option value="" selected disabled hidden>Age</option>
+                    <option value="0-15">0-15</option>
+                    <option value="16-20">16-20</option>
+                    <option value="20-24">20-24</option>
+                    <option value="25-29">25-29</option>
+                    <option value="30-34">30-34</option>
+                    <option value="35-39">35-39</option>
+                    <option value="40-44">40-44</option>
+                    <option value="45-49">45-49</option>
+                    <option value="50-54">50-54</option>
+                    <option value="55-59">55-59</option>
+                    <option value="60-64">60-64</option>
+                    <option value="65-69">65-69</option>
+                    <option value="70-74">70-74</option>
+                    <option value="75-79">75-79</option>
+                    <option value="80-84">80-84</option>
+                    <option value="85-89">85-89</option>
+                    <option value="90-94">90-94</option>
+                    <option value="95-99">95-99</option>
+                  </select>
+              </form>
+            </div>
+
+            <div className="col-lg-3">
+              <form id="premium-any" method="" action="">
+                <select id="premium-any-selector" name="any" className="any">
+                  <option value="" selected disabled hidden>Any</option>
+                  <option value="any">Any</option>
+                  <option value="network">Network</option>
+                  <option value="fixed">Fixed</option>
+                </select>
+              </form>
+            </div>
+
+            <div className="col-lg-3">
+            <form id="premium-prex" method="" action="">
+                <select id="premium-prex-selector" name="prex" className="prex">
+                  <option value="" selected disabled hidden>Includde Prex</option>
+                  <option value="prex">Include Prex</option>
+                  <option value="prex">Do not include Prex</option>
+                </select>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <p className="table-title">ULTRA PLUS</p>
+
+    <div className="col-lg-12">
+      <div className="row">
+        <div className="col-lg-2">
+            <div className="column-tab">
+              <p className="text-white column-tab-title">PlanMax</p>
+            </div>
+          <p className="tab-content text-black">$60000</p>
+        </div>
+
+        <div className="col-lg-2">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">PlanDed</p>
+          </div>
+            <p className="tab-content text-black">$0</p>
+        </div>
+
+        <div className="col-lg-2">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">Pre-existing Maximum</p>
+          </div>
+            <p className="tab-content text-black">$700</p>
+        </div>
+
+        <div className="col-lg-2">
+          <div className="column-tab">
+            <p className="text-white column-tab-title">Pre-existing Deductible</p>
+          </div>
+            <p className="tab-content text-black">$0</p>
+        </div>
+
+        <div className="col-lg-4">
+          <div className="column-tab">
+            <p className="text-white column-tab-title2">60 Days Price</p>
+          </div>
+            <p className="tab-content2">$202.80<button className="purchase-btn">Purchase</button></p>
+        </div>
+      </div>
+      </div>
+
+      <p className="table-title">VIP</p>
+
+      <div className="col-lg-12">
+        <div className="row">
+          <div className="col-lg-2">
+              <div className="column-tab">
+                <p className="text-white column-tab-title">PlanMax</p>
+              </div>
+            <p className="tab-content text-black">$100000</p>
+          </div>
+
+          <div className="col-lg-2">
+            <div className="column-tab">
+              <p className="text-white column-tab-title">PlanDed</p>
+            </div>
+              <p className="tab-content text-black">$0</p>
+          </div>
+
+          <div className="col-lg-2">
+            <div className="column-tab">
+              <p className="text-white column-tab-title">Pre-existing Maximum</p>
+            </div>
+              <p className="tab-content text-black">$2000</p>
+          </div>
+
+          <div className="col-lg-2">
+            <div className="column-tab">
+              <p className="text-white column-tab-title">Pre-existing Deductible</p>
+            </div>
+              <p className="tab-content text-black">$0</p>
+          </div>
+
+          <div className="col-lg-4">
+            <div className="column-tab">
+              <p className="text-white column-tab-title2">60 Days Price</p>
+            </div>
+              <p className="tab-content2">$303.00<button className="purchase-btn">Purchase</button></p>
+          </div>
+        </div>
+        </div>
+
+        <p className="table-title">VIP PLUS</p>
+
+        <div className="col-lg-12">
+          <div className="row">
+            <div className="col-lg-2">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">PlanMax</p>
+                </div>
+              <p className="tab-content text-black">$250000</p>
+            </div>
+
+            <div className="col-lg-2">
+              <div className="column-tab">
+                <p className="text-white column-tab-title">PlanDed</p>
+              </div>
+                <p className="tab-content text-black">$0</p>
+            </div>
+
+            <div className="col-lg-2">
+              <div className="column-tab">
+                <p className="text-white column-tab-title">Pre-existing Maximum</p>
+              </div>
+                <p className="tab-content text-black">$6000</p>
+            </div>
+
+            <div className="col-lg-2">
+              <div className="column-tab">
+                <p className="text-white column-tab-title">Pre-existing Deductible</p>
+              </div>
+                <p className="tab-content text-black">$0</p>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="column-tab">
+                <p className="text-white column-tab-title2">60 Days Price</p>
+              </div>
+                <p className="tab-content2">$424.80<button className="purchase-btn">Purchase</button></p>
+            </div>
+          </div>
+
+
+          <p className="table-title">INF ELITE</p>
+
+          <div className="col-lg-12">
+            <div className="row">
+              <div className="col-lg-2">
+                  <div className="column-tab1">
+                    <p className="text-white column-tab-title2">PlanMax</p>
+                  </div>
+                    <form id="planmax" method="" action="">
+                        <select id="planmax-selector">
+                          <option value="$150000">$150000</option>
+                          <option value="$250000">$250000</option>
+                          <option value="$300000">$300000</option>
+                        </select>
+                  </form>
+               </div>
+
+               <div className="col-lg-2">
+                   <div className="column-tab">
+                     <p className="text-white column-tab-title">PlanDed</p>
+                   </div>
+                     <form id="planded" method="" action="">
+                         <select id="planded-selector">
+                           <option value="$500">$500</option>
+                           <option value="$50">$50</option>
+                           <option value="$100">$100</option>
+                           <option value="$100">$250</option>
+                           <option value="$100">$1000</option>
+                           <option value="$100">$2500</option>
+                           <option value="$100">$5000</option>
+                         </select>
+                    </form>
+                 </div>
+
+
+              <div className="col-lg-2">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Pre-existing Maximum</p>
+                </div>
+                  <p className="tab-content text-black">$25000</p>
+              </div>
+
+              <div className="col-lg-2">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Pre-existing Deductible</p>
+                </div>
+                  <p className="tab-content text-black">$1500</p>
+              </div>
+
+              <div className="col-lg-4">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title2">60 Days Price</p>
+                </div>
+                  <p className="tab-content2">$354.60<button className="purchase-btn">Purchase</button></p>
+              </div>
+            </div>
+          </div>
+
+
+          <p className="table-title">INF ELITE 90</p>
+
+          <div className="col-lg-12">
+            <div className="row">
+              <div className="col-lg-2">
+                  <div className="column-tab">
+                    <p className="text-white column-tab-title">PlanMax</p>
+                  </div>
+                    <form id="planmax" method="" action="">
+                        <select id="planmax-selector" className="tab-content">
+                          <option value="$150000">$150000</option>
+                          <option value="$250000">$250000</option>
+                          <option value="$300000">$300000</option>
+                        </select>
+                  </form>
+               </div>
+
+               <div className="col-lg-2">
+                   <div className="column-tab">
+                     <p className="text-white column-tab-title">PlanDed</p>
+                   </div>
+                     <form id="planded" method="" action="">
+                         <select id="planded-selector" className="tab-content">
+                           <option value="$500">$500</option>
+                           <option value="$50">$50</option>
+                           <option value="$100">$100</option>
+                           <option value="$100">$250</option>
+                           <option value="$100">$1000</option>
+                           <option value="$100">$2500</option>
+                           <option value="$100">$5000</option>
+                         </select>
+                   </form>
+                </div>
+
+              <div className="col-lg-2">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Pre-existing Maximum</p>
+                </div>
+                  <p className="tab-content text-black">$25000</p>
+              </div>
+
+              <div className="col-lg-2">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title">Pre-existing Deductible</p>
+                </div>
+                  <p className="tab-content text-black">$1500</p>
+              </div>
+
+              <div className="col-lg-4">
+                <div className="column-tab">
+                  <p className="text-white column-tab-title2">60 Days Price</p>
+                </div>
+                  <p className="tab-content2">$354.60<button className="purchase-btn">Purchase</button></p>
+              </div>
+            </div>
+          </div>
+
+
+
+      </div>
        </Container>
       </section>
 
