@@ -52,7 +52,7 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
                 INF ELITE
               </h1>
               <p className="hero-text text-white">
-                IVAS Plan is our flagship insurance program for INF members visiting the USA, Canada, or Mexico.
+                IVAS Plan is our flagship insurance program for INF plan members visiting the USA, Canada, or Mexico.
               </p>
               <button className="hero-btn"> Get a Quote </button>
             </div>

@@ -54,6 +54,8 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
 
       <section id="premium-section-1">
        <Container>
+
+       <a href="javascript:void(0)" id="answer1" data-qno="0" data-index="1" data-value="Network">Network</a>
            <div className="col-lg-12 hidden">
             <div className="blue-bg">
               <h3 className="text-white text-center">WHAT KIND OF PLAN ARE YOU LOOKING FOR?</h3>
@@ -445,7 +447,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                 <p className="title text-center text-blue">Network</p>
                 {/*}<p className="content text-center">This plan uses Preferred Provider Network (PPO). The plan pays 80 percent of the negotiated amount for covered medical expenses. For example- if you have a $10,000 bill, and network benefit may bring that down to $4000 and 80% of that $4000 will be paid by the plan ($3200) and you pay $800. This plan is recommended for anyone above 50 years of age.</p> */}
                 <p className="content text-center">
-                  This plan uses Preferred Provider Network (PPO). The plan pays 80 or 90 percent of the negotiated amount for covered medical expenses. For example- if you have a $10,000 bill, and network benefit may bring that down to $4000 and 80% or 90% will be paid by the plan ($3200) and you pay $800.
+                  This plan uses Preferred Provider Network (PPO). The plan pays 80 or 90 percent of the negotiated amount for covered medical expenses. For example- if you have a $10,000 bill, and network benefit may bring that down to $4000 and 80% will be paid by the plan ($3200) and you pay $800.
                 </p>
               </div>
            </div>
@@ -463,7 +465,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                <p className="ribbon-premiums">Coverage Type</p>
               <p className="title text-center text-blue">Pre-Existing</p>
               <p className="content text-center">
-                The INF Elite & INF Premier provides coverage for Pre-Existing Conditions as defined in the plan as per policy limitations, exclusions, and maximums. These Plans will cover physician visits, labs, in-patient, out-patient, and specialist care.There is a 12 month look-back period for pre-existing conditions under these plans.
+                The INF Elite & INF Premier provides coverage for Pre-Existing Conditions as defined in the plan as per policy limitations, exclusions, and maximums. These Plans may cover physician visits, labs, in-patient, out-patient, and specialist care.There is a 12 month look-back period for pre-existing conditions under these plans.
               </p>
               {/*<p className="content text-center">The INF Elite, INF Elite Short Term, INF Premier and INF Premier Short Term plans will cover pre-Existing conditions on par with new sicknesses. These Plans will cover physician visits, labs, in-patient, out-patient, and specialist care. There is no look-back period for pre-existing conditions under these plans.</p>*/}
             </div>

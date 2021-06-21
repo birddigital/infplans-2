@@ -58,7 +58,7 @@ const ProviderSearchPage: React.FC<Props> = ({ data, location }: Props) => {
               <h2 className="text-blue text-center">​INF Plans Providers Directory</h2>
               <div className="row mt-4">
                 <div className="col-lg-8">
-                  <p className="text-black">When enrolled in an INF International Visitor Accident and Sickness Plan with United Healthcare Options PPO Network, you have the option to visit one of our In-Network Providers. Our Elite and Travel USA plans (when visiting USA) use the United Healthcare . A PPO (Preferred Provider Organization) is a network of doctors, hospitals, urgent care clinics, & specialists who offer preferred rates to lower coinsurance for members. If you go to an In-Network provider, you may be afforded several benefits.</p>
+                  <p className="text-black">When enrolled in an INF International Visitor Accident and Sickness Plan with United Healthcare Options PPO Network, you have the option to visit one of our In-Network Providers. Our Elite and Travel USA plans (when visiting USA) use the United Healthcare . A PPO (Preferred Provider Organization) is a network of doctors, hospitals, urgent care clinics, & specialists who offer preferred rates to lower coinsurance for plan members. If you go to an In-Network provider, you may be afforded several benefits.</p>
                 </div>
                 <div className="col-lg-4">
                   <Img fluid={infplans_big_logo} className="big-logo"/>

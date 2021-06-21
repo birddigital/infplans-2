@@ -72,7 +72,7 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
               <p><strong>
                 Please note:
               </strong></p>
-              <p>Services described in this article are not affiliated with Crum & Forster SPC. </p>
+              <p>The services described on thos page are not affiliated with Crum & Forster SPC. </p>
               <p>Cost of the plan includes insurance and non-insurance components</p>
             </div>
           </div>

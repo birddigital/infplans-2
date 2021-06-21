@@ -59,7 +59,7 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="apply-container">
               <h2 className="text-blue text-center">Apply for INF Visitor Insurance</h2>
                 <Img fluid={infplans_big_logo} className="big-logo"/>
-               <p className="text-center sub-content">Insurance is offered to INF Members Traveling on a limited duration trip (364 days or less) to the US, Canada or Mexico.</p>
+               <p className="text-center sub-content">Insurance is offered to persons traveling on a limited duration trip (364 days or less) to the US, Canada or Mexico.</p>
                <p className="note">Please note that INF Premier and Elite plans require minimum 90 days enrollment; and Standard and Traveler USA require minimum 30 days enrollment.</p>
 
             <div class="apply-tab">

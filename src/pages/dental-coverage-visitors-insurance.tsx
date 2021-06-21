@@ -1,4 +1,4 @@
-import React from 'react'
+  import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Img, { FixedObject } from 'gatsby-image'
 import { IndexQueryQuery, PostByPathQuery } from '../../types/graphql-types'
@@ -61,7 +61,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
        <Container>
         <div className="col-lg-12">
           <div className="dental-discount-container">
-           <h2 className="text-blue text-center">Careington Non-Insurance Discount Program when traveling to the USA.</h2>
+           <h2 className="text-blue text-center">Caerington Non-Insurance Discoutn Program</h2>
            <p className="text-center">
              Enrollment in an INF plan includes access to a Careington discount program at no additional cost, Careington coordinates this discount program, which provides savings on Dental, Vision, Prescription, & Hearing products & services while in the USA. Services are not available in Canada or Mexico. This Discount card program is not an insurance product and is not insured by Crum & Forster SPC. It is provided by Careington. This is not insurance. Way too often someone will call the INF office and say, "I have a toothache, if I go to the dentist will this be covered?".
            </p>
@@ -96,7 +96,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
      <section id="dental-discount-section-2">
        <Container>
          <div className="col-lg-12">
-           <p className="text-black text-center">The services described in this article are not Insurance and are not affiliated with Crum & Forster SPC. This is not an Insurance product.</p>
+           <p className="text-black text-center">The services described in this page are not Insurance and are not affiliated with Crum & Forster SPC. This is not an Insurance product.</p>
            <h2 className="text-blue text-center">Careington Dental Discount FAQ:</h2>
            <div className="dental-discount-faq1-tab">
              <input checked="checked" id="dental-discount-faq1-tab1" type="radio" name="dental-discount-faq1" />

@@ -57,14 +57,12 @@ const AboutPage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="about-container">
               <h2 className="text-blue text-center">About INF IVAS Insurance</h2>
               <Img fluid={infplans_big_logo} className="big-logo"/>
-              <p className="text-blue text-center sub-title">"At the core of INF is a community organization..."</p>
               <p>INF is an organization that provides innovative international visitor accident and sickness (IVAS) insurance options for international travelers as well as various non insurance benefits. We provide international visitor accident & sickness insurance for visiting parents, relatives, students, and temporary workers traveling outside of their home country to the United States, Canada or Mexico. INF provides some plan options which can cover pre-existing conditions, meaning we may cover any pre-existing condition up to the stated limits.</p>
               <p>As a plan member of INF, you are able to access international visitor accident & sickness insurance, find coverage options for pre-existing medical conditions, and help ease the possible financial burden due to unforeseen medical expenses during your stay in the United States, Canada, or Mexico.</p>
               <p>INF offers insurance programs for non-US citizens.</p>
               <p>Some INF plans use United HealthCare</p>
-              <p>All INF IVAS plans use United Healthcare.</p>
               <p>Most INF International Visitor Accident and Sickness plans provide coverage for pre-existing conditions. Our A-rated underwriting partners provide the strong financial support needed from an insurance company to continue offering International Visitor Accident and Sickness plans with pre-existing conditions coverage.</p>
-              <p>If you have any questions about INF or our organization, please email us at support@infplans.com.</p>
+              <p>If you have any questions about INF IVAS or our organization, please email us at support@infplans.com.</p>
             </div>
           </div>
         </Container>
