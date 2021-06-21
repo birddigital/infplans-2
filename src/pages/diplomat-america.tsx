@@ -385,6 +385,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
     <section id="diplomat-america-section-7">
       <Container>
         <div className="col-lg-12">
+        <h2 className="text-blue text-center row-title">Enroll in Diplomat America Below</h2>
         <DiplomatForm />
        <p className="text-center copyright">© 2021, INF Health Care Services</p>
        </div>

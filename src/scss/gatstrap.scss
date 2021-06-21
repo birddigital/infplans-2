@@ -6693,7 +6693,7 @@ section#diplomat-international-section-3 {
 
 #diplomat-form .diplomat-form-container {
   box-shadow: 0px 0px 12px 0px #dddddd;
-  padding: 50px 50px 40px 50px;
+  padding: 50px 50px 30px 50px;
 }
 
 #diplomat-form input[type="date"].form-control, input[type="time"].form-control, input[type="datetime-local"].form-control, input[type="month"].form-control {
@@ -6848,9 +6848,6 @@ section#diplomat-international-section-3 {
   background: #ffffff;
   color: #252362;
 }
-
-
-
 /* End of Diplomat form Styles */
 
 
@@ -10046,6 +10043,7 @@ section#apply-hero-section {
 
 #apply-section-1 p {
   line-height: 2;
+  margin-top: 0;
 }
 
 #apply-section-1 .overview {
@@ -13053,18 +13051,18 @@ button.close {
   #claims-form-section-1 .flip-card {
     min-height: 321px;
     height: auto;
-}
-#claims-form-section-1 .flipcard-content1,#claims-form-section-1 .flipcard-content  {
-  font-size: 14px;
-}
+  }
 
+  #claims-form-section-1 .flipcard-content1,#claims-form-section-1 .flipcard-content  {
+    font-size: 14px;
+  }
 
-#claims-form-section-1 .flipcard-container-inner1 {
-  min-height: 321px;
+  #claims-form-section-1 .flipcard-container-inner1 {
+    min-height: 321px;
+  }
 }
 
   /* end of claims flip card responsive */
-}
 
 /* End of Klint Responsiveness */
 
@@ -13238,7 +13236,6 @@ button.close {
     font-weight: 500;
     font-size: 25px;
   }
-
 
   .claims-info-tab ul li label {
     width: 100%;
@@ -13633,6 +13630,27 @@ button.close {
     font-size: 25px;
   }
 
+  #diplomat-america-section-3 h2 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+
+  #diplomat-america-section-3 .america-right-img {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  #diplomat-america-section-3 p {
+    font-size: 16px;
+  }
+
+  #diplomat-america-section-3 .enroll-btn {
+    width: 40%;
+  }
+
   section#diplomat-america-section-4 {
     padding: 20px 20px 1px 20px;
   }
@@ -13701,7 +13719,8 @@ button.close {
   }
 
   #diplomat-america-section-6 {
-    padding-top: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   #diplomat-america-section-6 .claims-forms {
@@ -13750,6 +13769,12 @@ button.close {
 
   #diplomat-america-section-6 .claim-disease {
     margin-left: 70px;
+  }
+
+  #diplomat-america-section-7 h2 {
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 20px;
   }
 
   .info-tab .administrator {
@@ -13911,7 +13936,6 @@ button.close {
     padding: 0;
   }
 
-
   #diplomat-international-section-5 h3 {
     font-size: 25px;
     font-weight: 500;
@@ -13920,7 +13944,54 @@ button.close {
 
   #diplomat-international-section-5 {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 0;
+  }
+
+  #diplomat-international-section-6 h2 {
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+  #diplomat-international-section-6 .col-lg-12 {
+    padding: 0;
+  }
+
+  #diplomat-form .visit-btn {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  #diplomat-form select {
+    width: 100%;
+  }
+
+  #diplomat-form .traveller {
+    width: 104%;
+  }
+
+  #diplomat-form .dependents {
+    width: 99.5%;
+  }
+
+  #diplomat-form .plan-selection {
+    width: 103%;
+  }
+
+  #diplomat-form .visit-btn1 {
+    margin-top: 10px;
+    padding: 8px 110px;
+  }
+
+  #diplomat-form .visit-btn2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 8px 114px;
+  }
+
+  #diplomat-form input[type="date"].form-control, input[type="time"].form-control, input[type="datetime-local"].form-control, input[type="month"].form-control {
+    width: 105%;
+    margin-left: -14px;
   }
 
   .miscellaneous-tab ul li label {
@@ -14053,7 +14124,7 @@ button.close {
 
  .conditions-tabthree .title {
    padding-top: 15px;
-}
+ }
 
   #conditions-tabone:checked ~ section .conditions-tabone,
   #conditions-tabtwo:checked ~ section .conditions-tabtwo,
@@ -14076,7 +14147,7 @@ button.close {
   }
 
   #bmi-travel-section-5 .column-tab-title2 {
-      padding-top: 28px;
+    padding-top: 28px;
   }
 
   #bmi-travel-section-5 .column-tab {
@@ -14154,6 +14225,11 @@ button.close {
    padding-bottom: 30px;
  }
 
+ section#eyemed-section-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
   #eyemed-hero-section h1 {
     font-size: 35px;
     margin-top: 85px;
@@ -14188,9 +14264,53 @@ button.close {
     margin-top: 30px;
   }
 
-  section.about-hero-section-bg {
-    min-height: 400px;
-    padding-bottom: 10px;
+  input[type="date"].form-control, input[type="time"].form-control, input[type="datetime-local"].form-control, input[type="month"].form-control {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  #eyemed-form select {
+    margin-bottom: 20px;
+  }
+
+  #eyemed-form .any {
+    width: 96%;
+    margin-left: 14px;
+    margin-right: auto;
+  }
+
+  #eyemed-section-1 .form-title {
+    padding-top: 15px;
+  }
+
+  #eyemed-section-1 .flipcard-icon1 {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+
+  #eyemed-section-1 h2 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+
+  #eyemed-section-1 .get-quote-btn {
+    margin-top: 15px;
+  }
+
+  #eyemed-section-1 .eyemed-container {
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  section#eyemed-section-2 {
+    margin-top: 40px;
   }
 
   section#about-section-1 {
@@ -14256,48 +14376,26 @@ button.close {
   #apply-section-2 h2 {
     font-weight: 500;
     font-size: 25px;
-    text-align: center;
+    margin-top: 0;
   }
 
   #apply-section-2 .get-apply-btn {
-    width: 50%;
-    margin-left: 170px;
+    width: 40%;
     margin-bottom: 20px;
-  }
-
-  #apply-section-2 p {
-    font-size: 18px;
-    text-align: center;
   }
 
   #apply-section-2 .apply-right-img {
     max-width: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
   }
 
   .apply-tab ul li label {
     width: 100%;
+    padding: 10px 15px;
   }
 }
-
-@media screen and (max-width: 991px) {
-
-  #apply-section-1 .read-btn {
-    width: 75%;
-  }
-
-  #apply-section-1 .download-btn {
-    width: 75%;
-  }
-
-  #apply-section-2 .get-apply-btn {
-    width: 50%;
-    margin-left: 115px;
-    margin-bottom: 20px;
-  }
-}
-
 
 @media screen and (max-width: 767px) {
 
@@ -14310,46 +14408,8 @@ button.close {
   float: right !important;
   color: #252362;
   }
-
-  #apply-section-1 .read-btn {
-    width: 105%;
-  }
-
-  #apply-section-1 .download-btn {
-    width: 105%;
-  }
-
-  #apply-section-2 .get-apply-btn {
-    width: 60%;
-    margin-left: 75px;
-    margin-bottom: 20px;
-  }
 }
-
-@media screen and (max-width:553px) {
-
-  #apply-section-1 .read-btn {
-    width: 106%;
-  }
-
-  #apply-section-1 .download-btn {
-    width: 106%;
-  }
-}
-
-@media screen and (max-width:548px) {
-
-  #apply-section-1 .read-btn {
-    width: 108%;
-  }
-
-  #apply-section-1 .download-btn {
-    width: 108%;
-  }
-}
-
 @media screen and (max-width:500px) {
-
 
   /* claims flip card responsive */
   #claims-form-section-1 .flipcard-container1 {
@@ -14377,15 +14437,15 @@ button.close {
   #claims-form-section-1 .flip-card {
     min-height: 321px;
     height: auto;
-}
-#claims-form-section-1 .flipcard-content1,#claims-form-section-1 .flipcard-content  {
-  font-size: 14px;
-}
+  }
 
+  #claims-form-section-1 .flipcard-content1,#claims-form-section-1 .flipcard-content  {
+    font-size: 14px;
+  }
 
-#claims-form-section-1 .flipcard-container-inner1 {
-  min-height: 321px;
-}
+  #claims-form-section-1 .flipcard-container-inner1 {
+    min-height: 321px;
+  }
 
   /* end of claims flip card responsive */
   .international-tabtwo details {
@@ -14428,20 +14488,6 @@ button.close {
 
   #claims-form-section-1 .flipcard-container-inner1 {
     min-height: 370px;
-  }
-
-  #apply-section-1 .read-btn {
-    width: 105%;
-  }
-
-  #apply-section-1 .download-btn {
-    width: 105%;
-  }
-
-  #apply-section-2 .get-apply-btn {
-    width: 60%;
-    margin-left: 75px;
-    margin-bottom: 20px;
   }
 }
 
@@ -14603,9 +14649,13 @@ button.close {
     padding: 0;
   }
 
-
   #diplomat-america-section-3 ul {
     padding-left: 0;
+  }
+
+  #diplomat-america-section-3 .enroll-btn {
+    width: 115%;
+    margin-top: 0;
   }
 
   #diplomat-america-section-4 .expenses {
@@ -14653,6 +14703,10 @@ button.close {
     margin-left: 5px;
   }
 
+  #diplomat-america-section-5 .expenses {
+    margin-left: 0;
+  }
+
   section.diplomat-international-hero-section-bg {
     padding-bottom: 50px;
   }
@@ -14663,6 +14717,45 @@ button.close {
 
   #diplomat-international-section-4 .international-expenses {
     padding: 0;
+  }
+
+  #diplomat-form select {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  #diplomat-form .traveller {
+    margin-left: -15px;
+    width: 112%;
+  }
+
+  #diplomat-form .dependents {
+    width: 100%;
+  }
+
+  #diplomat-form .plan-selection {
+    width: 112%;
+  }
+
+  #diplomat-form .diplomat-form-container {
+    padding: 0;
+  }
+
+  #diplomat-form input[type="date"].form-control, input[type="time"].form-control, input[type="datetime-local"].form-control, input[type="month"].form-control {
+    width: 112%;
+    margin-left: -14px;
+  }
+
+  #diplomat-america-section-7 .col-lg-12 {
+    padding: 0;
+  }
+
+  #diplomat-form .visitor-title {
+    padding-top: 15px;
+  }
+
+  #diplomat-form .visit-btn {
+    padding: 8px 61px;
   }
 
   .international-tabtwo summary {
@@ -14713,7 +14806,11 @@ button.close {
   #bmi-travel-section-8 .plan-opt {
    padding: 0;
   }
-}
+
+  #apply-section-2 .get-apply-btn {
+    width: 115%;
+    margin-left: 0px;
+  }
 
 /* End of Gillian Responsiveness */
 
@@ -14735,6 +14832,6 @@ button.close {
   #premium-section-2 .pre-existing {
     min-height: 280px;
   }
-
 }
 /* End of Premium 1024 */
+}

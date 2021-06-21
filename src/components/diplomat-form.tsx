@@ -13,7 +13,6 @@ const DiplomatForm = ({ action, ...props }) => (
     <form id="diplomat-form"method="POST" action="">
       <Container>
         <div className="col-lg-12">
-         <h2 className="text-blue text-center row-title">Enroll in Diplomat America Below</h2>
           <div className="row diplomat-form-container">
             <div className="col-lg-12">
               <h4 className="text-blue text-center visitor-title">Visitor Application</h4>
