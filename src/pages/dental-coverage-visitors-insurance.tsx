@@ -48,8 +48,8 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
         <div id="dental-discount-hero-section">
           <Container>
             <div className="col-lg-12">
-              <h1 className="text-white text-center">
-                INF DENTAL DISCOUNT PROGRAM
+              <h1 className="text-white text-center text-uppercase">
+                Careington Non-Insurance Discount Program
               </h1>
               <button className="hero-btn"> Get a Quote </button>
             </div>
@@ -61,7 +61,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
        <Container>
         <div className="col-lg-12">
           <div className="dental-discount-container">
-           <h2 className="text-blue text-center">Caerington Non-Insurance Discoutn Program</h2>
+           <h2 className="text-blue text-center">Careington Non-Insurance Discount Program when traveling to the USA.</h2>
            <p className="text-center">
              Enrollment in an INF plan includes access to a Careington discount program at no additional cost, Careington coordinates this discount program, which provides savings on Dental, Vision, Prescription, & Hearing products & services while in the USA. Services are not available in Canada or Mexico. This Discount card program is not an insurance product and is not insured by Crum & Forster SPC. It is provided by Careington. This is not insurance. Way too often someone will call the INF office and say, "I have a toothache, if I go to the dentist will this be covered?".
            </p>

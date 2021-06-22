@@ -51,7 +51,7 @@ const StandardPage: React.FC<Props> = ({ data, location }: Props) => {
                 INF STANDARD IVAS PLAN
               </h1>
               <p className="hero-text text-white text-center">
-                The INF Standard IVAS plan is an accident & sickness insurance program for INF members visiting the United States Canada, or Mexico. By enrolling in the INF Standard IVAS Plan, you also become a member of the India Network Foundation.
+                The INF Standard IVAS plan is an accident & sickness insurance program for plan members visiting the United States Canada, or Mexico.
              </p>
               <Link to="/visitors-insurance-quote" className="nav-link">
                 <button className="hero-btn"> Get a Quote </button>

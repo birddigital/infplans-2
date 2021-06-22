@@ -296,7 +296,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
           </h3>
           <ul className="text-white">
             <li>
-              Plans may cover pre-existing conditions coverage
+              Plans may have pre-existing conditions coverage
             </li>
             <li>
               Coverage to non-US Citizens traveling to the US, Canada or Mexico
