@@ -56,8 +56,8 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="premium-section-1">
        <Container>
 
-       {/*}<a href="javascript:void(0)" id="answer1" data-qno="0" data-index="1" data-value="Network">Network</a>*/}
-           <div className="col-lg-12">
+       <a href="javascript:void(0)" id="answer1" data-qno="0" data-index="1" data-value="Network" className="hidden">Network</a>
+           <div className="col-lg-12 hidden">
             <div className="blue-bg">
               <h3 className="text-white text-center">WHAT KIND OF PLAN ARE YOU LOOKING FOR?</h3>
               <div className="row">
@@ -80,7 +80,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
               <form id="" method="" action="">
                 <div className="select-container">
                   <div className="text-center select">
-                    <select id="premium-selector" name="age group[]">
+                    <select id="premium-selector">
                       <option>Select Age Group</option>
                       <option value="0-15">0-15</option>
                       <option value="16-20">16-20</option>
@@ -134,196 +134,6 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
              </form>
           </div>
-        </div>
-
-
-        <ul class="nav nav-tabs hidden">
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Age<span class="caret"></span>
-            </a>
-                <ul class="dropdown-menu">
-                  <li><a href="#ultraplustab" role="tab" data-toggle="tab" aria-expanded="false">0-15</a></li>
-                  <li><a href="#viptab" role="tab" data-toggle="tab" aria-expanded="false">20-24</a></li>
-                  <li><a href="#viplustab" role="tab" data-toggle="tab" aria-expanded="false">25-29</a></li>
-                  <li><a href="#">30-34</a></li>
-                  <li><a href="#">35-39</a></li>
-                  <li><a href="#">40-44</a></li>
-                  <li><a href="#">45-49</a></li>
-                  <li><a href="#">50-54</a></li>
-                  <li><a href="#">55-59</a></li>
-                  <li><a href="#">60-64</a></li>
-                  <li><a href="#">65-69</a></li>
-                  <li><a href="#">70-74</a></li>
-                  <li><a href="#">75-79</a></li>
-                  <li><a href="#">80-84</a></li>
-                  <li><a href="#">85-89</a></li>
-                  <li><a href="#">90-94</a></li>
-                  <li><a href="#">95-99</a></li>`
-                </ul>
-          </li>
-
-          <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Any
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-          <li><a href="#">Any</a></li>
-          <li><a href="#">Network</a></li>
-          <li><a href="#">Fixed</a></li>
-          </ul>
-          </li>
-
-          <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Included Prex
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-          <li><a href="#">Included Prex</a></li>
-          <li><a href="#">Do not Included Prex</a></li>
-          </ul>
-          </li>
-        </ul>
-
-        <div class="tab-content">
-          <div class="tab-pane" id="ultraplustab">
-          <p className="table-title">ULTRA PLUS</p>
-          <div className="col-lg-12">
-            <div className="row">
-              <div className="col-lg-2">
-                  <div className="column-tab">
-                    <p className="text-white column-tab-title">PlanMax</p>
-                  </div>
-                <p className="tab-contents text-black">$60000</p>
-              </div>
-
-              <div className="col-lg-2">
-                <div className="column-tab">
-                  <p className="text-white column-tab-title">PlanDed</p>
-                </div>
-                  <p className="tab-contents text-black">$0</p>
-              </div>
-
-              <div className="col-lg-2">
-                <div className="column-tab">
-                  <p className="text-white column-tab-title">Pre-existing Maximum</p>
-                </div>
-                  <p className="tab-contents text-black">$700</p>
-              </div>
-
-              <div className="col-lg-2">
-                <div className="column-tab">
-                  <p className="text-white column-tab-title">Pre-existing Deductible</p>
-                </div>
-                  <p className="tab-contents text-black">$0</p>
-              </div>
-
-              <div className="col-lg-4">
-                <div className="column-tab">
-                  <p className="text-white column-tab-title2">60 Days Price</p>
-                </div>
-                  <p className="tab-contents2">$202.80<button className="purchase-btn">Purchase</button></p>
-              </div>
-            </div>
-            </div>
-            </div>
-
-            <div class="tab-pane" id="viptab">
-            <p className="table-title">VIP</p>
-            <div className="col-lg-12">
-              <div className="row">
-                <div className="col-lg-2">
-                    <div className="column-tab">
-                      <p className="text-white column-tab-title">PlanMax</p>
-                    </div>
-                  <p className="tab-contents text-black">$100000</p>
-                </div>
-
-                <div className="col-lg-2">
-                  <div className="column-tab">
-                    <p className="text-white column-tab-title">PlanDed</p>
-                  </div>
-                    <p className="tab-contents text-black">$0</p>
-                </div>
-
-                <div className="col-lg-2">
-                  <div className="column-tab">
-                    <p className="text-white column-tab-title">Pre-existing Maximum</p>
-                  </div>
-                    <p className="tab-contents text-black">$2000</p>
-                </div>
-
-                <div className="col-lg-2">
-                  <div className="column-tab">
-                    <p className="text-white column-tab-title">Pre-existing Deductible</p>
-                  </div>
-                    <p className="tab-contents text-black">$0</p>
-                </div>
-
-                <div className="col-lg-4">
-                  <div className="column-tab">
-                    <p className="text-white column-tab-title2">60 Days Price</p>
-                  </div>
-                    <p className="tab-contents2">$303.00<button className="purchase-btn">Purchase</button></p>
-                </div>
-              </div>
-              </div>
-              </div>
-
-              <div class="tab-pane" id="viplustab">
-              <p className="table-title">VIP PLUS</p>
-              <div className="col-lg-12">
-                <div className="row">
-                  <div className="col-lg-2">
-                      <div className="column-tab">
-                        <p className="text-white column-tab-title">PlanMax</p>
-                      </div>
-                    <p className="tab-contents text-black">$250000</p>
-                  </div>
-
-                  <div className="col-lg-2">
-                    <div className="column-tab">
-                      <p className="text-white column-tab-title">PlanDed</p>
-                    </div>
-                      <p className="tab-contents text-black">$0</p>
-                  </div>
-
-                  <div className="col-lg-2">
-                    <div className="column-tab">
-                      <p className="text-white column-tab-title">Pre-existing Maximum</p>
-                    </div>
-                      <p className="tab-contents text-black">$6000</p>
-                  </div>
-
-                  <div className="col-lg-2">
-                    <div className="column-tab">
-                      <p className="text-white column-tab-title">Pre-existing Deductible</p>
-                    </div>
-                      <p className="tab-contents text-black">$0</p>
-                  </div>
-
-                  <div className="col-lg-4">
-                    <div className="column-tab">
-                      <p className="text-white column-tab-title2">60 Days Price</p>
-                    </div>
-                      <p className="tab-contents2">$424.80<button className="purchase-btn">Purchase</button></p>
-                  </div>
-                </div>
-                </div>
-
-
-
-
-
-
-          </div>
-          <div class="tab-pane" id="bootstab">Bootstrap Content here
-            <ul>
-              <li>Bootstrap forms</li>
-              <li>Bootstrap buttons</li>
-              <li>Bootstrap navbar</li>
-              <li>Bootstrap footer</li>
-            </ul>
-          </div>
-         <div class="tab-pane" id="htmltab">Hypertext Markup Language</div>
-
         </div>
 
         <div className="col-lg-12 hidden">

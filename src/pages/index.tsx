@@ -179,7 +179,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="why-choose-inf-insurance">
         <Container>
           <div className="col-lg-12 mb-20 mt-20">
-            <p className="text-center subtitle">We Really do Care about Our Members</p>
+            <p className="text-center subtitle">We Really Do Care About Our Plan Members</p>
             <h2 className="text-center text-primary">
               Why choose INF Insurance?
             </h2>
@@ -296,7 +296,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
           </h3>
           <ul className="text-white">
             <li>
-              Plans may have pre-existing conditions coverage
+              Plans may have pre-existing conditions coverage*
             </li>
             <li>
               Coverage to non-US Citizens traveling to the US, Canada or Mexico
@@ -346,7 +346,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="home-articles-slider-section">
         <Container>
           <div className="col-lg-12">
-          <h2 className="text-center text-primary">Related Articles</h2>
+          <h2 className="text-center text-primary">Travel Related Articles</h2>
             <ArticlesSlider />
           </div>
         </Container>
