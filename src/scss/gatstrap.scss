@@ -4941,6 +4941,143 @@ section#bmi-apply-hero-section {
   font-size: 18px;
 }
 
+
+/*Multi Step Form stylings victor */
+#btn-multistep-prev {
+  padding: 10px 60px 10px 60px;
+  border: 2px solid #7DA9DA;
+  background: #7DA9DA;
+  color: #ffffff;
+  border-radius: 50px;
+  transition: .5s;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#btn-multistep-prev:hover {
+  background: $white;
+  color: #7DA9DA;
+}
+#btn-multistep-next {
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 10px 80px;
+  border-radius: 50px;
+  transition: .5s;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#btn-multistep-next:hover {
+  background: $white;
+  color: #252362;
+}
+.bmi-apply-form-container {
+  background: #fafafa;
+  padding: 30px;
+}
+
+.bmi-form-content-container {
+  background: $white;
+  padding: 30px 20px;
+}
+.bmi-form-content-container ::placeholder {
+  color: $black;
+  opacity: 1; /* Firefox */
+}
+.bmi-form-content-container :-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: $black;
+}
+.bmi-form-content-container ::-ms-input-placeholder { /* Microsoft Edge */
+ color: $black;
+}
+.bmi-form-content-container h1{
+  font-weight: 500;
+}
+
+.bmi-form-content-container h5{
+  font-weight: 500;
+}
+
+#custom-radio-buttons {
+  margin-top: 30px;
+}
+.bmi-form-navigation-container {
+  margin-top: 50px;
+}
+.bmi-form-content-container input[type="date"], .bmi-form-content-container input[type="text"], .bmi-form-content-container input[type="email"], .bmi-form-content-container input[type="tel"] {
+  background: #f8f8f8 !important;
+  border: 0;
+  box-shadow: none !important;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+}
+.bmi-form-content-container select {
+  background: #f8f8f8 !important;
+  border: 0;
+  box-shadow: none !important;
+  width: 100%;
+  height: 50px;
+  position: relative;
+  color: $black;
+}
+.bmi-form-content-container select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #ffffff;
+  cursor: pointer;
+  pointer-events: none;
+  transition: .25s all ease;
+  color: #252362;
+  margin-top: 13px;
+}
+#custom-radio-buttons .radio-wrapper {display: inline-block;}
+		#custom-radio-buttons .radio-wrapper input[name="coverageradio"] {display: none;}
+		#custom-radio-buttons .radio-wrapper input[name="coverageradio"] + label {
+			color: $black;
+			font-size: 16px;
+      margin-left: 20px;
+      margin-right: 20px;
+		}
+		#custom-radio-buttons .radio-wrapper input[name="coverageradio"] + label > span.outer {
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			margin: -1px 7px 0 0;
+			border: 1px solid #8C8C8C;
+			vertical-align: middle;
+			cursor: pointer;
+			position: relative;
+			-moz-border-radius: 50%;
+			border-radius: 50%;
+			background-color: transparent;
+		}
+		#custom-radio-buttons .radio-wrapper input[name="coverageradio"] + label span.inner {
+			display: block;
+			position: absolute;
+			display: none;
+			width: 14px;
+			height: 14px;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			vertical-align: middle;
+			cursor: pointer;
+			-moz-border-radius: 50%;
+			border-radius: 50%;
+			background-color: grey;
+		}
+		#custom-radio-buttons .radio-wrapper input[name="coverageradio"]:checked + label span.inner {background-color: #252362; display: block;}
+
+/* end of Multi Step Form stylings victor */
+
 /* End of BMI Apply Page */
 
 /* 404 Page */

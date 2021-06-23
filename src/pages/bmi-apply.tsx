@@ -11,6 +11,7 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { Helmet } from 'react-helmet'
+import MultiStepForm from 'components/multi-step-form/bmi-apply-form'
 
 interface Props {
   data: IndexQueryQuery
@@ -60,6 +61,7 @@ const BMIApplyPage: React.FC<Props> = ({ data, location }: Props) => {
               <p className="text-center sub-title">INF Recommends enrolling for at least 61 days to get Best Price Discount</p>
               <p className="text-center">Please Read and Agree to conditions of the Travel Assist Program before applying.</p>
             <h2 className="text-blue text-center">INF BMI Travel Plan Application</h2>
+            <MultiStepForm />
           </div>
         </div>
       </Container>

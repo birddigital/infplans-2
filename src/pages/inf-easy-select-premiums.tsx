@@ -56,8 +56,8 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="premium-section-1">
        <Container>
 
-       <a href="javascript:void(0)" id="answer1" data-qno="0" data-index="1" data-value="Network">Network</a>
-           <div className="col-lg-12 hidden">
+       {/*}<a href="javascript:void(0)" id="answer1" data-qno="0" data-index="1" data-value="Network">Network</a>*/}
+           <div className="col-lg-12">
             <div className="blue-bg">
               <h3 className="text-white text-center">WHAT KIND OF PLAN ARE YOU LOOKING FOR?</h3>
               <div className="row">
@@ -80,7 +80,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
               <form id="" method="" action="">
                 <div className="select-container">
                   <div className="text-center select">
-                    <select id="premium-selector">
+                    <select id="premium-selector" name="age group[]">
                       <option>Select Age Group</option>
                       <option value="0-15">0-15</option>
                       <option value="16-20">16-20</option>
@@ -137,7 +137,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
         </div>
 
 
-        <ul class="nav nav-tabs">
+        <ul class="nav nav-tabs hidden">
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Age<span class="caret"></span>
             </a>
