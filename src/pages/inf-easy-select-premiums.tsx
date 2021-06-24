@@ -25,13 +25,12 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
 
 
   function show(target) {
-      document.getElementById('target').style.display = 'block';
+      document.getElementById(target).style.display = 'block';
   }
 
   function hide(target) {
-      document.getElementById('target').style.display = 'none';
+      document.getElementById(target).style.display = 'none';
   }
-
 
   function showDiv() {
     document.getElementById('filtered-section').style.display = "block";
@@ -74,15 +73,15 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
               <h3 className="text-white text-center">WHAT KIND OF PLAN ARE YOU LOOKING FOR?</h3>
               <div className="row">
                 <div className="col-lg-4">
-                  <a href="#" role="button" onclick="showDiv()"><button className="premium1-btn" value="Network">Network</button></a>
+                  <button className="premium1-btn" onclick="showDiv()" value="Network">Network</button>
                 </div>
 
                 <div className="col-lg-4">
-                 <a href="#" role="button" onclick="showDiv()"><button className="premium2-btn" value="Fixed">Fixed</button></a>
+                 <button className="premium2-btn" onclick="showDiv()" value="Fixed">Fixed</button>
                 </div>
 
                 <div className="col-lg-4">
-                 <a href="#filtered-section"><button className="premium3-btn" value="Any">Any</button></a>
+                 <button className="premium3-btn" onclick="showDiv()" value="Any">Any</button>
                 </div>
               </div>
             </div>
@@ -129,7 +128,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
             </h4>
               <form id="custom-radio-buttons" method="" action="">
               <div className="radio-wrapper">
-                <input type="radio" id="radio1" name="option" value="yes"/>
+                <input type="radio" id="radio1" name="option" onclick="showDiv()" value="yes"/>
                 <label for="radio1">
                   <span className="outer">
                     <span className="inner animated"></span>
@@ -138,7 +137,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                 </label>
               </div>
               <div className="radio-wrapper">
-                <input type="radio" id="radio2" name="option" value="no"/>
+                <input type="radio" id="radio2" name="option" onclick="showDiv()" value="no"/>
                 <label for="radio2">
                   <span className="outer">
                     <span className="inner animated"></span>
@@ -150,7 +149,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
         </div>
 
-      <div className="col-lg-12 display:none" id="filtered-section">
+      <div className="col-lg-12" id="filtered-section">
         <div className="col-lg-12">
           <div className="blue-background">
           <div className="row">
@@ -161,38 +160,38 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
               <a href="#" className="drop-btn1 dropdown-toggle" data-toggle="dropdown">Age</a>
                 <div className="dropdown-menu">
                   <a href="#" className="dropdown-item" onclick="show('filtered-section')">0-15</a>
-                  <a href="#"className="dropdown-item">16-20</a>
-                  <a href="#"className="dropdown-item">20-24</a>
-                  <a href="#"className="dropdown-item">25-29</a>
-                  <a href="#"className="dropdown-item">30-34</a>
-                  <a href="#"className="dropdown-item">35-39</a>
-                  <a href="#"className="dropdown-item">40-44</a>
-                  <a href="#"className="dropdown-item">45-49</a>
-                  <a href="#"className="dropdown-item">50-54</a>
-                  <a href="#"className="dropdown-item">55-59</a>
-                  <a href="#"className="dropdown-item">60-64</a>
-                  <a href="#"className="dropdown-item">75-79</a>
-                  <a href="#"className="dropdown-item">80-84</a>
-                  <a href="#"className="dropdown-item">85-89</a>
-                  <a href="#"className="dropdown-item">90-94</a>
-                  <a href="#"className="dropdown-item">95-99</a>
+                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">16-20</a>
+                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">20-24</a>
+                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">25-29</a>
+                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">30-34</a>
+                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">35-39</a>
+                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">40-44</a>
+                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">45-49</a>
+                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">50-54</a>
+                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">55-59</a>
+                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">60-64</a>
+                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">75-79</a>
+                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">80-84</a>
+                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">85-89</a>
+                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">90-94</a>
+                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">95-99</a>
                 </div>
               </div>
 
               <div className="col-lg-3 premium-button">
                   <a href="#" className="drop-btn2 dropdown-toggle" data-toggle="dropdown">Any</a>
                   <div className="dropdown-menu">
-                    <a href="#" className="dropdown-item">Any</a>
-                    <a href="#"className="dropdown-item">Fixed</a>
-                    <a href="#"className="dropdown-item">Network</a>
+                    <a href="#" className="dropdown-item" onclick="show('filtered-section')">Any</a>
+                    <a href="#"className="dropdown-item" onclick="show('filtered-section')">Fixed</a>
+                    <a href="#"className="dropdown-item" onclick="show('filtered-section')">Network</a>
                   </div>
                 </div>
 
                 <div className="col-lg-3 premium-button">
                     <a href="#" className="drop-btn3 dropdown-toggle" data-toggle="dropdown">Included Prex</a>
                     <div className="dropdown-menu">
-                      <a href="#" className="dropdown-item">Included Prex</a>
-                      <a href="#"className="dropdown-item">Do not Include Prex</a>
+                      <a href="#" className="dropdown-item" onclick="show('filtered-section')">Included Prex</a>
+                      <a href="#"className="dropdown-item" onclick="show('filtered-section')">Do not Include Prex</a>
                     </div>
                   </div>
           </div>
@@ -200,7 +199,6 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
       </div>
 
     <p className="table-title">ULTRA PLUS</p>
-
     <div className="col-lg-12">
       <div className="row">
         <div className="col-lg-2">
@@ -241,7 +239,6 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
       </div>
 
       <p className="table-title">VIP</p>
-
       <div className="col-lg-12">
         <div className="row">
           <div className="col-lg-2">
@@ -282,7 +279,6 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
         </div>
 
         <p className="table-title">VIP PLUS</p>
-
         <div className="col-lg-12">
           <div className="row">
             <div className="col-lg-2">
@@ -323,7 +319,6 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
 
 
           <p className="table-title">INF ELITE</p>
-
           <div className="col-lg-12">
             <div className="row">
             <div className="col-lg-2">
@@ -365,7 +360,6 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
 
 
           <p className="table-title">INF ELITE 90</p>
-
           <div className="col-lg-12">
             <div className="row">
             <div className="col-lg-2">
@@ -406,7 +400,6 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
 
           <p className="table-title">INF PREMIER</p>
-
           <div className="col-lg-12">
             <div className="row">
             <div className="col-lg-2">
@@ -447,7 +440,6 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
 
           <p className="table-title">INF TRAVELER USA</p>
-
           <div className="col-lg-12">
             <div className="row">
             <div className="col-lg-2">
@@ -488,7 +480,6 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
 
           <p className="table-title">INF TRAVELER USA 90</p>
-
           <div className="col-lg-12">
             <div className="row">
             <div className="col-lg-2">
@@ -529,7 +520,6 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
 
           <p className="table-title">DIPLOMAT AMERICA</p>
-
           <div className="col-lg-12">
             <div className="row">
             <div className="col-lg-2">
@@ -570,7 +560,6 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
 
           <p className="table-title">INF STANDARD</p>
-
           <div className="col-lg-12">
             <div className="row">
             <div className="col-lg-2">
@@ -610,10 +599,6 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
           </div>
         </div>
-
-
-
-
 
 
       </div>
