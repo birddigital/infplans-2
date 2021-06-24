@@ -62,7 +62,7 @@ const FAQPage: React.FC<Props> = ({ data, location }: Props) => {
                   <div className="faqs-section1-column text-center">
                     <h4 className="faqs-section1-title">How to use Insurance Visitors</h4>
                     <p className="faqs-section1-content">Learn how to properly use Insurance for Your Visitor</p>
-                    <a href="https://8320.infplans.com/visitors-insurance-plans.html">
+                    <a href="https://8320.infplans.com/visitors-insurance-plans.html" target="_blank">
                       <button className="faqs-section1-btn"> Learn More </button>
                     </a>
                   </div>
@@ -71,7 +71,7 @@ const FAQPage: React.FC<Props> = ({ data, location }: Props) => {
                   <div className="faqs-section1-column text-center">
                     <h4 className="faqs-section1-title">Use the Plan Finder Tool</h4>
                     <p className="faqs-section1-content">Use our Plan Finder Tool to select the perfect plan for your family</p>
-                    <a href="https://8320.infplans.com/plan-finder.html">
+                    <a href="https://8320.infplans.com/plan-finder.html" target="_blank">
                       <button className="faqs-section1-btn"> Learn More </button>
                     </a>
                   </div>
@@ -82,7 +82,7 @@ const FAQPage: React.FC<Props> = ({ data, location }: Props) => {
                   <div className="faqs-section1-column text-center">
                     <h4 className="faqs-section1-title">Health Tips for Travelers</h4>
                     <p className="faqs-section1-content">Some quick tips on how to ensure the safety of your visitors</p>
-                    <a href="https://8320.infplans.com/visitor-insurance-tips.html">
+                    <a href="https://8320.infplans.com/visitor-insurance-tips.html" target="_blank">
                       <button className="faqs-section1-btn"> Learn More </button>
                     </a>
                   </div>
@@ -91,7 +91,7 @@ const FAQPage: React.FC<Props> = ({ data, location }: Props) => {
                   <div className="faqs-section1-column text-center">
                     <h4 className="faqs-section1-title">Insurance Features for Visitors</h4>
                     <p className="faqs-section1-content">Read about our plan features to help you choose the right plan.</p>
-                    <a href="https://8320.infplans.com/travel-insurance-for-visiting-seniors.html">
+                    <a href="https://8320.infplans.com/travel-insurance-for-visiting-seniors.html" target="_blank">
                       <button className="faqs-section1-btn"> Learn More </button>
                     </a>
                   </div>
