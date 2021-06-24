@@ -24,6 +24,19 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
   const hero_background = data.hero_background?.childImageSharp?.fluid
 
 
+  function show(target) {
+      document.getElementById('target').style.display = 'block';
+  }
+
+  function hide(target) {
+      document.getElementById('target').style.display = 'none';
+  }
+
+
+  function showDiv() {
+    document.getElementById('filtered-section').style.display = "block";
+  }
+
   return (
     <Layout location={location}>
       <Helmet>
@@ -53,28 +66,29 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
         </div>
       </BackgroundImage>
 
+
       <section id="premium-section-1">
        <Container>
-
-       <a href="javascript:void(0)" id="answer1" data-qno="0" data-index="1" data-value="Network" className="hidden">Network</a>
-           <div className="col-lg-12 hidden">
+           <div className="col-lg-12">
             <div className="blue-bg">
               <h3 className="text-white text-center">WHAT KIND OF PLAN ARE YOU LOOKING FOR?</h3>
               <div className="row">
                 <div className="col-lg-4">
-                  <button className="premium1-btn" value="Network">Network</button>
+                  <a href="#" role="button" onclick="showDiv()"><button className="premium1-btn" value="Network">Network</button></a>
                 </div>
+
                 <div className="col-lg-4">
-                 <button className="premium2-btn" value="Fixed">Fixed</button>
+                 <a href="#" role="button" onclick="showDiv()"><button className="premium2-btn" value="Fixed">Fixed</button></a>
                 </div>
+
                 <div className="col-lg-4">
-                 <button className="premium3-btn" value="Any">Any</button>
+                 <a href="#filtered-section"><button className="premium3-btn" value="Any">Any</button></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-12 hidden">
+          <div className="col-lg-12 hidden" id="age-selector">
            <div className="blue-bg">
              <h3 className="text-white text-center mb-4">WHAT IS THE AGE GROUP OF<br /> YOUR VISITOR?</h3>
               <form id="" method="" action="">
@@ -114,20 +128,20 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
               (EG DIABETES,  BP ETC)
             </h4>
               <form id="custom-radio-buttons" method="" action="">
-              <div class="radio-wrapper">
+              <div className="radio-wrapper">
                 <input type="radio" id="radio1" name="option" value="yes"/>
                 <label for="radio1">
-                  <span class="outer">
-                    <span class="inner animated"></span>
+                  <span className="outer">
+                    <span className="inner animated"></span>
                   </span>
                     Yes
                 </label>
               </div>
-              <div class="radio-wrapper">
+              <div className="radio-wrapper">
                 <input type="radio" id="radio2" name="option" value="no"/>
                 <label for="radio2">
-                  <span class="outer">
-                    <span class="inner animated"></span>
+                  <span className="outer">
+                    <span className="inner animated"></span>
                   </span>
                     No
                 </label>
@@ -136,66 +150,58 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
         </div>
 
-        <div className="col-lg-12 hidden">
+      <div className="col-lg-12 display:none" id="filtered-section">
+        <div className="col-lg-12">
           <div className="blue-background">
           <div className="row">
             <div className="col-lg-3">
              <p className="text-white text-center filter">Filter By :</p>
             </div>
+            <div className="col-lg-3 premium-button">
+              <a href="#" className="drop-btn1 dropdown-toggle" data-toggle="dropdown">Age</a>
+                <div className="dropdown-menu">
+                  <a href="#" className="dropdown-item" onclick="show('filtered-section')">0-15</a>
+                  <a href="#"className="dropdown-item">16-20</a>
+                  <a href="#"className="dropdown-item">20-24</a>
+                  <a href="#"className="dropdown-item">25-29</a>
+                  <a href="#"className="dropdown-item">30-34</a>
+                  <a href="#"className="dropdown-item">35-39</a>
+                  <a href="#"className="dropdown-item">40-44</a>
+                  <a href="#"className="dropdown-item">45-49</a>
+                  <a href="#"className="dropdown-item">50-54</a>
+                  <a href="#"className="dropdown-item">55-59</a>
+                  <a href="#"className="dropdown-item">60-64</a>
+                  <a href="#"className="dropdown-item">75-79</a>
+                  <a href="#"className="dropdown-item">80-84</a>
+                  <a href="#"className="dropdown-item">85-89</a>
+                  <a href="#"className="dropdown-item">90-94</a>
+                  <a href="#"className="dropdown-item">95-99</a>
+                </div>
+              </div>
 
-            <div className="col-lg-3 hidden">
-              <form id="premium-age" method="" action="">
-                  <select id="premium-age-selector" name="age" className="age">
-                    <option value="" selected disabled hidden>Age</option>
-                    <option value="0-15">0-15</option>
-                    <option value="16-20">16-20</option>
-                    <option value="20-24">20-24</option>
-                    <option value="25-29">25-29</option>
-                    <option value="30-34">30-34</option>
-                    <option value="35-39">35-39</option>
-                    <option value="40-44">40-44</option>
-                    <option value="45-49">45-49</option>
-                    <option value="50-54">50-54</option>
-                    <option value="55-59">55-59</option>
-                    <option value="60-64">60-64</option>
-                    <option value="65-69">65-69</option>
-                    <option value="70-74">70-74</option>
-                    <option value="75-79">75-79</option>
-                    <option value="80-84">80-84</option>
-                    <option value="85-89">85-89</option>
-                    <option value="90-94">90-94</option>
-                    <option value="95-99">95-99</option>
-                  </select>
-              </form>
-            </div>
+              <div className="col-lg-3 premium-button">
+                  <a href="#" className="drop-btn2 dropdown-toggle" data-toggle="dropdown">Any</a>
+                  <div className="dropdown-menu">
+                    <a href="#" className="dropdown-item">Any</a>
+                    <a href="#"className="dropdown-item">Fixed</a>
+                    <a href="#"className="dropdown-item">Network</a>
+                  </div>
+                </div>
 
-            <div className="col-lg-3 hidden">
-              <form id="premium-any" method="" action="">
-                <select id="premium-any-selector" name="any" className="any">
-                  <option value="" selected disabled hidden>Any</option>
-                  <option value="any">Any</option>
-                  <option value="network">Network</option>
-                  <option value="fixed">Fixed</option>
-                </select>
-              </form>
-            </div>
-
-            <div className="col-lg-3 hidden">
-            <form id="premium-prex" method="" action="">
-                <select id="premium-prex-selector" name="prex" className="prex">
-                  <option value="" selected disabled hidden>Includde Prex</option>
-                  <option value="prex">Include Prex</option>
-                  <option value="prex">Do not include Prex</option>
-                </select>
-              </form>
-            </div>
+                <div className="col-lg-3 premium-button">
+                    <a href="#" className="drop-btn3 dropdown-toggle" data-toggle="dropdown">Included Prex</a>
+                    <div className="dropdown-menu">
+                      <a href="#" className="dropdown-item">Included Prex</a>
+                      <a href="#"className="dropdown-item">Do not Include Prex</a>
+                    </div>
+                  </div>
           </div>
         </div>
       </div>
 
-    <p className="table-title hidden">ULTRA PLUS</p>
+    <p className="table-title">ULTRA PLUS</p>
 
-    <div className="col-lg-12 hidden">
+    <div className="col-lg-12">
       <div className="row">
         <div className="col-lg-2">
             <div className="column-tab">
@@ -204,28 +210,28 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
           <p className="tab-contents text-black">$60000</p>
         </div>
 
-        <div className="col-lg-2 hidden">
+        <div className="col-lg-2">
           <div className="column-tab">
             <p className="text-white column-tab-title">PlanDed</p>
           </div>
             <p className="tab-contents text-black">$0</p>
         </div>
 
-        <div className="col-lg-2 hidden">
+        <div className="col-lg-2">
           <div className="column-tab">
             <p className="text-white column-tab-title">Pre-existing Maximum</p>
           </div>
             <p className="tab-contents text-black">$700</p>
         </div>
 
-        <div className="col-lg-2 hidden">
+        <div className="col-lg-2">
           <div className="column-tab">
             <p className="text-white column-tab-title">Pre-existing Deductible</p>
           </div>
             <p className="tab-contents text-black">$0</p>
         </div>
 
-        <div className="col-lg-4 hidden">
+        <div className="col-lg-4">
           <div className="column-tab">
             <p className="text-white column-tab-title2">60 Days Price</p>
           </div>
@@ -234,39 +240,39 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
       </div>
       </div>
 
-      <p className="table-title hidden">VIP</p>
+      <p className="table-title">VIP</p>
 
-      <div className="col-lg-12 hidden">
+      <div className="col-lg-12">
         <div className="row">
-          <div className="col-lg-2 hidden">
+          <div className="col-lg-2">
               <div className="column-tab">
                 <p className="text-white column-tab-title">PlanMax</p>
               </div>
             <p className="tab-contents text-black">$100000</p>
           </div>
 
-          <div className="col-lg-2 hidden">
+          <div className="col-lg-2">
             <div className="column-tab">
               <p className="text-white column-tab-title">PlanDed</p>
             </div>
               <p className="tab-contents text-black">$0</p>
           </div>
 
-          <div className="col-lg-2 hidden">
+          <div className="col-lg-2">
             <div className="column-tab">
               <p className="text-white column-tab-title">Pre-existing Maximum</p>
             </div>
               <p className="tab-contents text-black">$2000</p>
           </div>
 
-          <div className="col-lg-2 hidden">
+          <div className="col-lg-2">
             <div className="column-tab">
               <p className="text-white column-tab-title">Pre-existing Deductible</p>
             </div>
               <p className="tab-contents text-black">$0</p>
           </div>
 
-          <div className="col-lg-4 hidden">
+          <div className="col-lg-4">
             <div className="column-tab">
               <p className="text-white column-tab-title2">60 Days Price</p>
             </div>
@@ -275,39 +281,39 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
         </div>
         </div>
 
-        <p className="table-title hidden">VIP PLUS</p>
+        <p className="table-title">VIP PLUS</p>
 
-        <div className="col-lg-12 hidden">
+        <div className="col-lg-12">
           <div className="row">
-            <div className="col-lg-2 hidden">
+            <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">PlanMax</p>
                 </div>
               <p className="tab-contents text-black">$250000</p>
             </div>
 
-            <div className="col-lg-2 hidden">
+            <div className="col-lg-2">
               <div className="column-tab">
                 <p className="text-white column-tab-title">PlanDed</p>
               </div>
                 <p className="tab-contents text-black">$0</p>
             </div>
 
-            <div className="col-lg-2 hidden">
+            <div className="col-lg-2">
               <div className="column-tab">
                 <p className="text-white column-tab-title">Pre-existing Maximum</p>
               </div>
                 <p className="tab-contents text-black">$6000</p>
             </div>
 
-            <div className="col-lg-2 hidden">
+            <div className="col-lg-2">
               <div className="column-tab">
                 <p className="text-white column-tab-title">Pre-existing Deductible</p>
               </div>
                 <p className="tab-contents text-black">$0</p>
             </div>
 
-            <div className="col-lg-4 hidden">
+            <div className="col-lg-4">
               <div className="column-tab">
                 <p className="text-white column-tab-title2">60 Days Price</p>
               </div>
@@ -316,39 +322,39 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
 
 
-          <p className="table-title hidden">INF ELITE</p>
+          <p className="table-title">INF ELITE</p>
 
-          <div className="col-lg-12 hidden">
+          <div className="col-lg-12">
             <div className="row">
-            <div className="col-lg-2 hidden">
+            <div className="col-lg-2">
               <div className="column-tab">
                 <p className="text-white column-tab-title">PlanMax</p>
               </div>
                 <p className="tab-contents text-black">$150000</p>
             </div>
 
-               <div className="col-lg-2 hidden">
+               <div className="col-lg-2">
                  <div className="column-tab">
                    <p className="text-white column-tab-title">PlanDed</p>
                  </div>
                    <p className="tab-contents text-black">$500</p>
                </div>
 
-              <div className="col-lg-2 hidden">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Maximum</p>
                 </div>
                   <p className="tab-contents text-black">$25000</p>
               </div>
 
-              <div className="col-lg-2 hidden">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Deductible</p>
                 </div>
                   <p className="tab-contents text-black">$1500</p>
               </div>
 
-              <div className="col-lg-4 hidden">
+              <div className="col-lg-4">
                 <div className="column-tab">
                   <p className="text-white column-tab-title2">60 Days Price</p>
                 </div>
@@ -358,39 +364,39 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
 
 
-          <p className="table-title hidden">INF ELITE 90</p>
+          <p className="table-title">INF ELITE 90</p>
 
-          <div className="col-lg-12 hidden">
+          <div className="col-lg-12">
             <div className="row">
-            <div className="col-lg-2 hidden">
+            <div className="col-lg-2">
               <div className="column-tab">
                 <p className="text-white column-tab-title">PlanMax</p>
               </div>
                 <p className="tab-contents text-black">$150000</p>
             </div>
 
-               <div className="col-lg-2 hidden">
+               <div className="col-lg-2">
                  <div className="column-tab">
                    <p className="text-white column-tab-title">PlanDed</p>
                  </div>
                    <p className="tab-contents text-black">$500</p>
                </div>
 
-              <div className="col-lg-2 hidden">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Maximum</p>
                 </div>
                   <p className="tab-contents text-black">$25000</p>
               </div>
 
-              <div className="col-lg-2 hidden">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Deductible</p>
                 </div>
                   <p className="tab-contents text-black">$1500</p>
               </div>
 
-              <div className="col-lg-4 hidden">
+              <div className="col-lg-4">
                 <div className="column-tab">
                   <p className="text-white column-tab-title2">60 Days Price</p>
                 </div>
@@ -399,9 +405,9 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
           </div>
 
-          <p className="table-title hidden">INF PREMIER</p>
+          <p className="table-title">INF PREMIER</p>
 
-          <div className="col-lg-12 hidden">
+          <div className="col-lg-12">
             <div className="row">
             <div className="col-lg-2">
               <div className="column-tab">
@@ -410,28 +416,28 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                 <p className="tab-contents text-black">$100000</p>
             </div>
 
-               <div className="col-lg-2 hidden">
+               <div className="col-lg-2">
                  <div className="column-tab">
                    <p className="text-white column-tab-title">PlanDed</p>
                  </div>
                    <p className="tab-contents text-black">$500</p>
                </div>
 
-              <div className="col-lg-2 hidden">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Maximum</p>
                 </div>
                   <p className="tab-contents text-black">$15000</p>
               </div>
 
-              <div className="col-lg-2 hidden">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Deductible</p>
                 </div>
                   <p className="tab-contents text-black">$1000</p>
               </div>
 
-              <div className="col-lg-4 hidden">
+              <div className="col-lg-4">
                 <div className="column-tab">
                   <p className="text-white column-tab-title2">60 Days Price</p>
                 </div>
@@ -440,39 +446,39 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
           </div>
 
-          <p className="table-title hidden">INF TRAVELER USA</p>
+          <p className="table-title">INF TRAVELER USA</p>
 
-          <div className="col-lg-12 hidden">
+          <div className="col-lg-12">
             <div className="row">
-            <div className="col-lg-2 hidden">
+            <div className="col-lg-2">
               <div className="column-tab">
                 <p className="text-white column-tab-title">PlanMax</p>
               </div>
                 <p className="tab-contents text-black">$150000</p>
             </div>
 
-               <div className="col-lg-2 hidden">
+               <div className="col-lg-2">
                  <div className="column-tab">
                    <p className="text-white column-tab-title">PlanDed</p>
                  </div>
                    <p className="tab-contents text-black">$500</p>
                </div>
 
-              <div className="col-lg-2 hidden">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Maximum</p>
                 </div>
                   <p className="tab-contents text-black">$0</p>
               </div>
 
-              <div className="col-lg-2 hidden">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Deductible</p>
                 </div>
                   <p className="tab-contents text-black">$0</p>
               </div>
 
-              <div className="col-lg-4 hidden">
+              <div className="col-lg-4">
                 <div className="column-tab">
                   <p className="text-white column-tab-title2">60 Days Price</p>
                 </div>
@@ -481,39 +487,39 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
           </div>
 
-          <p className="table-title hidden">INF TRAVELER USA 90</p>
+          <p className="table-title">INF TRAVELER USA 90</p>
 
-          <div className="col-lg-12 hidden">
+          <div className="col-lg-12">
             <div className="row">
-            <div className="col-lg-2 hidden">
+            <div className="col-lg-2">
               <div className="column-tab">
                 <p className="text-white column-tab-title">PlanMax</p>
               </div>
                 <p className="tab-contents text-black">$150000</p>
             </div>
 
-               <div className="col-lg-2 hidden">
+               <div className="col-lg-2">
                  <div className="column-tab">
                    <p className="text-white column-tab-title">PlanDed</p>
                  </div>
                    <p className="tab-contents text-black">$50</p>
                </div>
 
-              <div className="col-lg-2 hidden">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Maximum</p>
                 </div>
                   <p className="tab-contents text-black">$0</p>
               </div>
 
-              <div className="col-lg-2 hidden">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Deductible</p>
                 </div>
                   <p className="tab-contents text-black">$0</p>
               </div>
 
-              <div className="col-lg-4 hidden">
+              <div className="col-lg-4">
                 <div className="column-tab">
                   <p className="text-white column-tab-title2">60 Days Price</p>
                 </div>
@@ -522,39 +528,39 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
           </div>
 
-          <p className="table-title hidden">DIPLOMAT AMERICA</p>
+          <p className="table-title">DIPLOMAT AMERICA</p>
 
-          <div className="col-lg-12 hidden">
+          <div className="col-lg-12">
             <div className="row">
-            <div className="col-lg-2 hidden">
+            <div className="col-lg-2">
               <div className="column-tab">
                 <p className="text-white column-tab-title">PlanMax</p>
               </div>
                 <p className="tab-contents text-black">$50000</p>
             </div>
 
-               <div className="col-lg-2 hidden">
+               <div className="col-lg-2">
                  <div className="column-tab">
                    <p className="text-white column-tab-title">PlanDed</p>
                  </div>
                    <p className="tab-contents text-black">$0</p>
                </div>
 
-              <div className="col-lg-2 hidden">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Maximum</p>
                 </div>
                   <p className="tab-contents text-black">$0</p>
               </div>
 
-              <div className="col-lg-2 hidden">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Deductible</p>
                 </div>
                   <p className="tab-contents text-black">$0</p>
               </div>
 
-              <div className="col-lg-4 hidden">
+              <div className="col-lg-4">
                 <div className="column-tab">
                   <p className="text-white column-tab-title2">60 Days Price</p>
                 </div>
@@ -563,39 +569,39 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
           </div>
 
-          <p className="table-title hidden">INF STANDARD</p>
+          <p className="table-title">INF STANDARD</p>
 
-          <div className="col-lg-12 hidden">
+          <div className="col-lg-12">
             <div className="row">
-            <div className="col-lg-2 hidden">
+            <div className="col-lg-2">
               <div className="column-tab">
                 <p className="text-white column-tab-title">PlanMax</p>
               </div>
                 <p className="tab-contents text-black">$50000</p>
             </div>
 
-               <div className="col-lg-2 hidden">
+               <div className="col-lg-2">
                  <div className="column-tab">
                    <p className="text-white column-tab-title">PlanDed</p>
                  </div>
                    <p className="tab-contents text-black">$75</p>
                </div>
 
-              <div className="col-lg-2 hidden">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Maximum</p>
                 </div>
                   <p className="tab-contents text-black">$0</p>
               </div>
 
-              <div className="col-lg-2 hidden">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Deductible</p>
                 </div>
                   <p className="tab-contents text-black">$0</p>
               </div>
 
-              <div className="col-lg-4 hidden">
+              <div className="col-lg-4">
                 <div className="column-tab">
                   <p className="text-white column-tab-title2">60 Days Price</p>
                 </div>
@@ -603,6 +609,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
             </div>
           </div>
+        </div>
 
 
 
