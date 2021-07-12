@@ -89,7 +89,9 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
           <div className="col-lg-5 text-center">
             <Img fluid={memd_logo} className="memd-img"/>
+            <Link to="/members">
             <button id="memd-enroll">Enroll in MDLive</button>
+            </Link>
           </div>
         </ContainerFluid>
       </section>

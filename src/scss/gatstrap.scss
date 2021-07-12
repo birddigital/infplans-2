@@ -337,6 +337,7 @@ button {
   min-width: 200px;
   display:none;
   z-index: 99;
+  margin-top: 3px;
 }
 
 .nav-dropdown > a:after {
@@ -1103,7 +1104,7 @@ section#home-testimonial-section {
    color:    #252362;
 }
 
-#home-hero-section input#email {
+#home-form input#email {
   width: 100%;
   background: #F2F2F2;
   border: 2px solid #F2F2F2;
@@ -1113,7 +1114,7 @@ section#home-testimonial-section {
   // margin-left: 140px;
 }
 
-#home-hero-section input[type="submit"] {
+#home-form input[type="submit"] {
   padding: 10px 30px 10px 30px;
   border: 2px solid #7DA9DA;
   background: #7DA9DA;
@@ -1123,7 +1124,7 @@ section#home-testimonial-section {
   font-weight: 600;
 }
 
-#home-hero-section input[type="submit"]:hover {
+#home-form input[type="submit"]:hover {
   border: 2px solid $white;
   background: $white;
   color: #252362;
@@ -1148,7 +1149,7 @@ section#home-testimonial-section {
   margin-bottom: 0;
 }
 
-#home-hero-section .blue-bg {
+#home-form .blue-bg {
   background-color: #252362;
   padding: 20px;
   width: 100%;

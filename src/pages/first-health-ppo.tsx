@@ -77,7 +77,9 @@ const ProviderSearchPage: React.FC<Props> = ({ data, location }: Props) => {
                 </div>
                 <div className="col-lg-4">
                   <Img fluid={infplans_big_logo} className="big-logo"/>
-                  <button className="row2-btn"> View our USA PPO Network </button>
+                  <a href="https://www.whyuhc.com/us1" target="_blank">
+                    <button className="row2-btn"> View our USA PPO Network </button>
+                  </a>
                 </div>
               </div>
             </div>

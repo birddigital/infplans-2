@@ -28,7 +28,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
   return (
     <Layout location={location}>
       <Helmet>
-        <title>INF Visitor Insurance - Visitors Insurance & Travel Insurance</title>
+        <title>Diplomat America Application - Visitors Insurance & Travel Insurance</title>
         <meta property="og:site_name" content="INF Visitor Insurance"/>
         <meta name="description" content="Visitors Insurance for USA Visitors. Shop, Compare, Buy Visitor Medical Visitors Insurance to USA"/>
         <meta name="keywords" content="inf insurance, kvrao insurance, kv rao insurance, Insurance for Visitors, visitor insurance, visitors insurance, visitor medical insurance, travel medical insurance"/>

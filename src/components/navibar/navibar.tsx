@@ -408,7 +408,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link to="/visitors-insurance-plans">
                       <button id="btn-1">Show Plans</button>
                     </Link>
                   </li>
