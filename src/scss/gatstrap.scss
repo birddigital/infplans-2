@@ -5112,6 +5112,42 @@ section#bmi-apply-hero-section {
       font-weight: 600;
       font-size: 25px;
     }
+    .bmi-form-content-container input[type="checkbox"] {
+      display: none;
+    }
+
+    .custom-checkbox-label {
+      cursor: pointer;
+      display: block;
+    }
+
+    .bmi-form-content-container input[type="checkbox"] + .custom-checkbox-label:before {
+      border: 1px solid #8C8C8C;
+      content: "\00a0";
+      display: inline-block;
+      font: 16px/1em sans-serif;
+      height: 20px;
+      margin: 0 .35em 0;
+      padding: 0;
+      vertical-align: text-top;
+      width: 20px;
+      background: $white;
+    }
+
+    .bmi-form-content-container input[type="checkbox"]:checked + .custom-checkbox-label:before {
+      background: $white;
+      color: #252362;
+      content: "\2713";
+      text-align: center;
+    }
+
+    .bmi-form-content-container input[type="checkbox"]:checked + .custom-checkbox-label:after {
+      font-weight: bold;
+    }
+
+    .bmi-form-content-container input[type="checkbox"]:focus + .custom-checkbox-label::before {
+        outline: rgb(59, 153, 252) auto 5px;
+    }
 /* end of Multi Step Form stylings victor */
 
 /* End of BMI Apply Page */

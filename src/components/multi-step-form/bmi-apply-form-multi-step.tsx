@@ -193,17 +193,14 @@ function MasterForm () {
               </div>
             </div>
             <div className="col-md-12">
-              <div class="form-check-inline">
-                <label class="form-check-label">
-                  <input
-                    type="checkbox"
-                    name="agree_terms"
-                    className="form-check-input"
-                    onChange={handleChange}
-                  />
-                  Please Read and Agree to conditions of the Travel Assist Program before applying.
+                <input
+                  type="checkbox"
+                  name="agree terms"
+                  onChange={handleChange}
+                />
+                <label className="custom-checkbox-label">
+                  Please Read and Agree to conditions of the <a href="">Travel Assist Program</a> before applying.
                 </label>
-              </div>
             </div>
           </Container>
         </div>
