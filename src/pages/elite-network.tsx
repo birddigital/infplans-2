@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { graphql, Link } from 'gatsby'
 import Img, { FixedObject } from 'gatsby-image'
 import { IndexQueryQuery, PostByPathQuery } from '../../types/graphql-types'
@@ -11,6 +11,7 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { FaAngleDoubleDown } from "@react-icons/all-files/fa/FaAngleDoubleDown";
+import { FaAngleDoubleUp } from "@react-icons/all-files/fa/FaAngleDoubleUp";
 import { Helmet } from 'react-helmet'
 
 interface Props {
@@ -29,6 +30,17 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
   const section2_img_left = data.section2_img_left?.childImageSharp?.fluid
   const book_icon = data.book_icon?.childImageSharp?.fluid
   const cta_bg = data.cta_bg?.childImageSharp?.fluid
+  const [infBMIStatus, setInfBMIStatus] = useState(false);
+
+
+  function showInfBMI() {
+    setInfBMIStatus(true);
+  }
+
+  function hideInfBMI() {
+    setInfBMIStatus(false);
+  }
+
 
   return (
     <Layout location={location}>
@@ -71,7 +83,19 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="col-lg-8">
                 <p className="text-black">INF Elite IVAS Plan is our flagship insurance program for INF members visiting the USA, Canada, or Mexico.</p>
                 <p className="text-black">INF Elite IVAS provides coverage for pre-existing conditions as defined in the plan, as per policy limitations, exclusions and maximums, with no benefit waiting period.</p>
-                <a href="#" className="read-more">READ MORE <FaAngleDoubleDown className="double-arrow-down" /></a>
+                {infBMIStatus ?
+                  <>
+                    <p>Pre-existing condition means an illness, disease, or other condition of the Covered Person that in the 12-month period before the Covered Person’s coverage became effective under the Policy: 1. first manifested itself, worsened, became acute, or exhibited symptoms that would have caused a person to seek diagnosis, care, or treatment; or 2. required taking prescribed drugs or medicines, unless the condition for which the prescribed drug or medicine is taken remains controlled without any change in the required prescription; or 3. was treated by a Doctor or treatment had been recommended by a Doctor..</p>
+                    <p>This means eligible expenses for out-patient, specialist, urgent care, and in-patient services are covered for pre-existing conditions as well as for new sicknesses, & accidents after the deductible has been met, for medically necessary covered expenses incurred, up to policy limits and benefit maximums. Coinsurance may apply.</p>
+                    <p>In addition to accident and sickness benefits, the INF Elite IVAS program includes eligible Emergency Medical Evacuation Benefits, Repatriation of Remains Benefits, and Accidental Death and Dismemberment Benefits.</p>
+                    <p>The INF Elite IVAS Plan provides coverage to non-US Citizens traveling to the US, Canada or Mexico, when purchased before the start date of your trip for at least 90 days and no more than 364 days, which is the Maximum Period of Coverage. With the INF Elite Visitor Accident and Sickness Insurance, you’ll get the coverage you want, & possible security you need during your travels. This plan is available for age 0-99, and enrollment can be completed Online.</p>
+                    <p>The INF Elite IVAS plan utilizes the MultiPlan PPO Network within the United States. You may choose an in network or out of network provider or facility. However, utilizing a MultipPlan PPO provider or facility affords you several benefits: 1) Your Insurance is acceptable to most participating providers and facilities, 2) providers are likely to bill the IVAS insurance directly, i.e. "Direct Billing" most of the time. This means you do not have to pay the entire medical bill & wait for reimbursement per the terms of the plan, . 3) Your copays and coinsurance are lower with in-network providers and facilities. You may save money & hassle when visiting an in-network provider through MultiPlan PPO.</p>
+                    <p>The INF Elite plan is Sponsored by INF* and underwritten by Crum & Forster SPC. .</p>
+                    <a href="javascript:void(0)" className="read-less" onClick={hideInfBMI}>READ LESS <FaAngleDoubleUp className="double-arrow-up" /></a>
+                  </>
+                  :
+                  <a href="javascript:void(0)" className="read-more" onClick={showInfBMI}>READ MORE <FaAngleDoubleDown className="double-arrow-down" /></a>
+                }
               </div>
               <div className="col-lg-4">
                 <Img fluid={infplans_big_logo} className="big-logo"/>

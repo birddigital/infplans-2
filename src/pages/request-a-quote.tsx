@@ -60,10 +60,9 @@ const RequestAQuotePage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="request-a-quote-container">
               <h2 className="text-blue text-center">Request a Quote / Call Back</h2>
               <p className="text-black">Schedule a time on our calendar to request a call back. At INF, we strive to bring you the best customer service. Our office is open from 9:00 AM - 11:00 PM everyday, to ensure we are there when you need us. </p>
-
+              <iframe src="https://calendly.com/infhealthcare-support?embed_domain=infplans.com&amp;embed_type=Inline" width="100%" height="100%" frameborder="0"></iframe>
             </div>
           </div>
-          <iframe src="https://calendly.com/infhealthcare-support?embed_domain=infplans.com&amp;embed_type=Inline" width="100%" height="100%" frameborder="0"></iframe>
         </Container>
       </section>
     </Layout>

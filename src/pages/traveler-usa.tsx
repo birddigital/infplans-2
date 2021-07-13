@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { graphql, Link } from 'gatsby'
 import Img, { FixedObject } from 'gatsby-image'
 import { IndexQueryQuery, PostByPathQuery } from '../../types/graphql-types'
@@ -11,6 +11,7 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { FaAngleDoubleDown } from "@react-icons/all-files/fa/FaAngleDoubleDown";
+import { FaAngleDoubleUp } from "@react-icons/all-files/fa/FaAngleDoubleUp";
 import { Helmet } from 'react-helmet'
 
 interface Props {
@@ -28,6 +29,16 @@ const TravelerUSAPage: React.FC<Props> = ({ data, location }: Props) => {
   const section2_img_left = data.section2_img_left?.childImageSharp?.fluid
   const book_icon = data.book_icon?.childImageSharp?.fluid
   const cta_bg = data.cta_bg?.childImageSharp?.fluid
+  const [infBMIStatus, setInfBMIStatus] = useState(false);
+
+
+  function showInfBMI() {
+    setInfBMIStatus(true);
+  }
+
+  function hideInfBMI() {
+    setInfBMIStatus(false);
+  }
 
   return (
     <Layout location={location}>
@@ -68,7 +79,19 @@ const TravelerUSAPage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="row mt-5">
               <div className="col-lg-8">
                 <p className="text-black">The INF Traveler USA IVAS is a comprehensive accident & sickness plan for visitors without known pre-existing conditions, when purchased before the start of your trip for at least 30 days and no more than 364 days, which is the Maximum Period of Coverage. Traveler USA covers non-US citizens traveling to the United States, Canada or Mexico in all age groups, from age 0 to 99 years old.</p>
-                <a href="#" className="read-more">READ MORE <FaAngleDoubleDown className="double-arrow-down" /></a>
+                {infBMIStatus ?
+                  <>
+                    <p>With the Traveler USA IVAS Plan - you are covered as defined in the plan, to the policy maximum, after any applicable deductibles have been met. Traveler USA IVAS will cover eligible expenses for medical appointments or follow-up appointments related to sickness and accidents that are not pre-existing conditions. Coinsurance may apply. Please see plan details for limitations due to pre-existing conditions prior to enrolling for coverage.
+                    </p>
+                    <p>There is no coverage for pre-existing conditions in the INF Traveler USA IVAS plan. Pre-existing condition means an illness, disease, or other condition of the Covered Person that in the 12-month period before the Covered Person’s coverage became effective under the Policy: 1. first manifested itself, worsened, became acute, or exhibited symptoms that would have caused a person to seek diagnosis, care, or treatment; or 2. required taking prescribed drugs or medicines, unless the condition for which the prescribed drug or medicine is taken remains controlled without any change in the required prescription; or 3. was treated by a Doctor or treatment had been recommended by a Doctor.</p>
+                    <p>In addition to accident and sickness benefits, the INF Traveler USA IVAS program includes eligible Emergency Medical Evacuation Benefits, Repatriation of Remains Benefits, and Accidental Death and Dismemberment Benefits.</p>
+                    <p>The INF Traveler USA IVAS plan utilizes the MultiPlan PPO Network within the United States. You may choose an in network or out of network provider or facility. However, utilizing a MultipPlan PPO provider or facility affords you several benefits: 1) Your Insurance is acceptable to most participating providers and facilities, 2) providers are likely to bill the IVAS insurance directly, i.e. "Direct Billing" most of the time. This means you do not have to pay the entire medical bill & wait for reimbursement per the terms of the plan, . 3) Your copays and coinsurance are lower with in-network providers and facilities. You may save money & hassle when visiting an in-network provider through MultiPlan PPO.</p>
+                    <p>The INF Traveler USA IVAS plan is sponsored by INF* and the insurance portion of the plan is underwritten by Crum & Forster, SPC.</p>
+                    <a href="javascript:void(0)" className="read-less" onClick={hideInfBMI}>READ LESS <FaAngleDoubleUp className="double-arrow-up" /></a>
+                  </>
+                  :
+                   <a href="javascript:void(0)" className="read-more" onClick={showInfBMI}>READ MORE <FaAngleDoubleDown className="double-arrow-down" /></a>
+                }
               </div>
               <div className="col-lg-4">
                 <Img fluid={infplans_big_logo} className="big-logo"/>

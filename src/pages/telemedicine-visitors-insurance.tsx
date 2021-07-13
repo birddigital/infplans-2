@@ -117,7 +117,7 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
                   <p>
                     It's easy to use your Telemedicine account using modern technology. INF Telemedicine providers connect you to care when you need it most. Just follow these 3 simple steps:
                   </p>
-                  <p>
+                  <p className="steps">
                     <strong>Step 1: Request a visit</strong>
                   </p>
                   <p>

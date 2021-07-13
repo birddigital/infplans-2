@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { graphql, Link } from 'gatsby'
 import Img, { FixedObject } from 'gatsby-image'
 import { IndexQueryQuery, PostByPathQuery } from '../../types/graphql-types'
@@ -11,6 +11,7 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { FaAngleDoubleDown } from "@react-icons/all-files/fa/FaAngleDoubleDown";
+import { FaAngleDoubleUp } from "@react-icons/all-files/fa/FaAngleDoubleUp";
 import { Helmet } from 'react-helmet'
 
 interface Props {
@@ -28,6 +29,17 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
   const section2_img_left = data.section2_img_left?.childImageSharp?.fluid
   const book_icon = data.book_icon?.childImageSharp?.fluid
   const cta_bg = data.cta_bg?.childImageSharp?.fluid
+  const [infBMIStatus, setInfBMIStatus] = useState(false);
+
+
+  function showInfBMI() {
+    setInfBMIStatus(true);
+  }
+
+  function hideInfBMI() {
+    setInfBMIStatus(false);
+  }
+
 
   return (
     <Layout location={location}>
@@ -69,8 +81,19 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="col-lg-8">
                 <p className="text-black">The Premier IVAS Plan is one of the INF's flagship Insurance programs for visitors to the United States, Canada and Mexico.</p>
                 <p className="text-black">INF Premier IVAS plan provides coverage for pre-existing conditions as defined in the plan, as per policy limitations, exclusions and maximums, with no benefit waiting period.</p>
-                <a href="#" className="read-more">READ MORE <FaAngleDoubleDown className="double-arrow-down" /></a>
-              </div>
+                {infBMIStatus ?
+                  <>
+                  <p>Pre-existing condition means an illness, disease, or other condition of the Covered Person that in the 12-month period before the Covered Person’s coverage became effective under the Policy: 1. first manifested itself, worsened, became acute, or exhibited symptoms that would have caused a person to seek diagnosis, care, or treatment; or 2. required taking prescribed drugs or medicines, unless the condition for which the prescribed drug or medicine is taken remains controlled without any change in the required prescription; or 3. was treated by a Doctor or treatment had been recommended by a Doctor.</p>
+                  <p>This means eligible expenses out-patient, specialist, urgent care, and in-patient services are covered for pre-existing conditions as well as for new sicknesses, & accidents, as defined in the plan. After the deductible has been met, coverage is provided for usual and customary charges for medically necessary covered expenses incurred, up to plan limits and benefit maximums. Direct billing may be available from your provider.</p>
+                  <p>In addition to accident and sickness benefits, the INF Premier IVAS program includes eligible Emergency Medical Evacuation Benefits, Repatriation of Remains Benefits, and Accidental Death and Dismemberment Benefits.</p>
+                  <p>This plan is available to non-US Citizens ages 0-99 traveling to the US, Canada or Mexico when purchased before the start date of your trip for at least 90 days and no more than 364 days, which is the Maximum Period of Coverage. Enrollment can be completed Online. INF Premier IVAS plan has been offered for more than 30 years by INF as part of its commitment to providing international accident & sickness insurance to non-US Citizen who are members of INF*.</p>
+                  <p>The INF Premier IVAS plan is sponsored by the INF* and the insurance portion of the plan is underwritten by Crum & Forster, SPC.</p>
+                  <a href="javascript:void(0)" className="read-less" onClick={hideInfBMI}>READ LESS <FaAngleDoubleUp className="double-arrow-up" /></a>
+                </>
+                :
+                  <a href="javascript:void(0)" className="read-more" onClick={showInfBMI}>READ MORE <FaAngleDoubleDown className="double-arrow-down" /></a>
+              }
+            </div>
               <div className="col-lg-4">
                 <Img fluid={infplans_big_logo} className="big-logo"/>
                 <h3 className="text-blue text-center">INF Premier IVAS Plan</h3>

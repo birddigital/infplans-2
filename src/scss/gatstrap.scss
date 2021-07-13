@@ -5019,6 +5019,7 @@ section#bmi-apply-hero-section {
 .bmi-form-navigation-container {
   margin-top: 50px;
 }
+
 .bmi-form-content-container input[type="date"], .bmi-form-content-container input[type="text"], .bmi-form-content-container input[type="email"], .bmi-form-content-container input[type="tel"] {
   background: #f8f8f8 !important;
   border: 0;
@@ -5028,6 +5029,7 @@ section#bmi-apply-hero-section {
   margin-top: 20px;
   padding-left: 10px;
 }
+
 .bmi-form-content-container select {
   background: #f8f8f8 !important;
   border: 0;
@@ -5037,6 +5039,7 @@ section#bmi-apply-hero-section {
   position: relative;
   color: $black;
 }
+
 .bmi-form-content-container select::after {
   content: '\25BC';
   position: absolute;
@@ -5050,6 +5053,7 @@ section#bmi-apply-hero-section {
   color: #252362;
   margin-top: 13px;
 }
+
 #custom-radio-buttons .radio-wrapper {display: inline-block;}
 		#custom-radio-buttons .radio-wrapper input[name="coverageradio"] {display: none;}
 		#custom-radio-buttons .radio-wrapper input[name="coverageradio"] + label {
@@ -5619,6 +5623,7 @@ section#claims-form-section-1 {
   margin-top: -9px;
   border-left: 0;
   border-right: 0;
+  padding-left: 70px;
 }
 
 #additional-tabone:checked ~ nav .additional-tabone label:after,
@@ -6314,7 +6319,7 @@ section#diplomat-america-section-4 {
 }
 
 .info-tabone .title {
-  padding-top: 35px;
+  padding-top: 45px;
 }
 
 .info-tabtwo .title {
@@ -7521,27 +7526,27 @@ section.plans-hero-section-bg {
   text-decoration: none;
 }
 
-#plans-section-8 h3 {
+#plans-section-7 h3 {
   font-weight: 500;
   font-size: 30px;
   padding-bottom: 40px;
 }
 
-  #plans-section-8 {
+  #plans-section-7 {
     padding-top: 0;
   }
 
-  #plans-section-8 .bmi-content1 {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  #plans-section-8 .bmi-content2 {
+  #plans-section-7 .bmi-content1 {
     padding-top: 0;
     padding-bottom: 0;
   }
 
-  #plans-section-8 .title {
+  #plans-section-7 .bmi-content2 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #plans-section-7 .title {
     padding-top: 30px;
   }
 
@@ -7642,7 +7647,7 @@ section.plans-hero-section-bg {
   bottom: -1px;
 }
 
-#plans-section-8 .bmi-bg {
+#plans-section-7 .bmi-bg {
   background-color: #F2F2F2;
   padding-top: 0;
   padding-bottom: 0;
@@ -7652,45 +7657,46 @@ section.plans-hero-section-bg {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+  border: 1px solid #C4C4C4;
 }
 
-#plans-section-8 .covid-content {
+#plans-section-7 .covid-content {
   font-size: 20px;
   font-weight: 600;
 }
 
-#plans-section-8 .expense-content {
+#plans-section-7 .expense-content {
   font-size: 18px;
   padding-top: 20px;
   font-weight: 600;
   margin-left: -40px;
 }
 
-#plans-section-8 .notice {
+#plans-section-7 .notice {
   font-size: 25px;
   font-weight: 600;
 }
 
-#plans-section-8 .notice-content {
+#plans-section-7 .notice-content {
   line-height: 2;
 }
 
-#plans-section-8 .decom {
+#plans-section-7 .decom {
   padding-top: 10px;
 }
 
-#plans-section-8 .title {
+#plans-section-7 .title {
   padding-top: 30px;
 }
 
-#plans-section-8 h2 {
+#plans-section-7 h2 {
   font-weight: 500;
 }
 
-#plans-section-8 p {
-  font-weight: 500;
+#plans-section-7 p {
+  font-weight: 400;
   padding-top: 5px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #plans-section-8 li {
@@ -7918,7 +7924,6 @@ section.plans-hero-section-bg {
 #coverages-tabone:checked ~ nav .coverages-tabone label,
 #coverages-tabtwo:checked ~ nav .coverages-tabtwo label {
   background: white;
-  color: #111;
   position: relative;
   font-weight: 600;
   border-top: 10px solid;
@@ -7927,6 +7932,7 @@ section.plans-hero-section-bg {
   border-right: 0;
   margin-top: -9px;
   border-bottom: 0;
+  padding-top: 30px;
 }
 
 #coverages-tabone:checked ~ nav .standard-coverages-tabone label:after,
@@ -8876,10 +8882,6 @@ section.bmi-travel-hero-section-bg {
 
 #bmi-travel-section-1 {
   padding-top: 100px;
-}
-
-#bmi-travel-section-1 .row {
-  align-items: center;
 }
 
 #bmi-travel-section-1 .big-logo {
@@ -11088,6 +11090,10 @@ section#telemedicine-hero-section {
 #telemedicine-section-2 {
   padding-top: 20px;
 }
+
+#telemedicine-section-2 .steps {
+  color: #252362
+}
 /*ACCORDION*/
 
 details {
@@ -12123,7 +12129,6 @@ button.close {
 
   section#request-a-quote-section1 {
     padding-top: 30px;
-    padding-bottom: 30px;
   }
 
   #request-a-quote-section1 h2 {
@@ -13898,7 +13903,7 @@ button.close {
     padding-bottom: 20px;
   }
 
-  #plans-section-8 .bmi-bg {
+  #plans-section-7 .bmi-bg {
     margin-top: 20px;
   }
 

@@ -172,7 +172,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                 <li className="benefits-tabone">
                   <label for="benefits-tabone">Covered Medical Expenses (All Policies)</label>
                 </li>
-                  <li className="benefits-tabtwo">
+                <li className="benefits-tabtwo">
                   <label for="benefits-tabtwo">Co-Insurance</label>
                 </li>
               </ul>
@@ -185,27 +185,27 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                     <p className="text-center expenses">Expenses that are specifically enumerated in the following list of charges that are incurred for medical care and supplies which are:</p>
                   </div>
 
-                <div className="col-lg-12 alpha-content">
-                  <ul className="alpha-list">
-                    <li className="alpha">(a) necessary and customary;</li>
-                    <li className="alpha">(b) prescribed by a Physician for the therapeutic treatment of a disablement;</li>
-                    <li className="alpha">(c) are not excluded under the policy;</li>
-                    <li className="alpha">(d) are not more than the Usual and Customary charges (as determined by the Company); and</li>
-                    <li className="alpha">(e) are incurred within 180 days from the date of the Disablement will be considered.</li>
-                  </ul>
+                  <div className="col-lg-12 alpha-content">
+                    <ul className="alpha-list">
+                      <li className="alpha">(a) necessary and customary;</li>
+                      <li className="alpha">(b) prescribed by a Physician for the therapeutic treatment of a disablement;</li>
+                      <li className="alpha">(c) are not excluded under the policy;</li>
+                      <li className="alpha">(d) are not more than the Usual and Customary charges (as determined by the Company); and</li>
+                      <li className="alpha">(e) are incurred within 180 days from the date of the Disablement will be considered.</li>
+                    </ul>
 
-                  <ul className="number-list">
-                    <li>Expenses made by a Hospital for room and board, floor nursing and other services, including Expenses for professional services, except personal services of a nonmedical nature, provided, however, that Expenses do not exceed the Hospital's average charge for semiprivate room and board accommodation.</li>
-                    <li>Charges made for Intensive Care or Coronary Care charges and nursing services;</li>
-                    <li>Expenses made for diagnosis, Treatment and surgery by a Physician.</li>
-                    <li>Charges made for an operating room.</li>
-                    <li>Charges made for Outpatient Treatment, same as any other Treatment covered on an Inpatient basis. This includes ambulatory surgical centers, Physician's Outpatient visits/examinations, clinic care, and surgical opinion consultations.</li>
-                    <li>Expenses made for administration of anesthetics.</li>
-                    <li>Expenses for medication, x-ray services, laboratory tests and services, the use of radium and radio-active isotopes, oxygen, blood transfusions, iron lungs, and medical Treatment.</li>
-                    <li>Expenses for physiotherapy, if recommended by a Physician, for the Treatment of a specific Disablement and administered by a licensed physiotherapist; With regards to chiropractic care, eligible charges up to $50.00 per visit, with a maximum of 10 visits.</li>
-                    <li>Dressings, drugs, and medicines that can be obtained upon written prescription of a Physician.</li>
-                    <li>Hotel room charge, when the insured, otherwise necessarily confined in a Hospital, shall be under the care of a duly qualified Physician in a hotel room owing to the unavailability of a Hospital room by reason of capacity or distance or to any other circumstances beyond the control of the insured; The charges enumerated above shall in no event include any amount in excess of the Usual and Customary charges (as determined by the Company). To determine if Expenses are Usual and Customary, the Company will consider the following: the medical care or supplies usually given and the fees usually accepted for like cases in the area. “Area” means a region large enough to get a cross section of providers or medical care or supplies. All Expenses are deemed to be incurred on the date such service is received.</li>
-                  </ul>
+                    <ul className="number-list">
+                      <li>Expenses made by a Hospital for room and board, floor nursing and other services, including Expenses for professional services, except personal services of a nonmedical nature, provided, however, that Expenses do not exceed the Hospital's average charge for semiprivate room and board accommodation.</li>
+                      <li>Charges made for Intensive Care or Coronary Care charges and nursing services;</li>
+                      <li>Expenses made for diagnosis, Treatment and surgery by a Physician.</li>
+                      <li>Charges made for an operating room.</li>
+                      <li>Charges made for Outpatient Treatment, same as any other Treatment covered on an Inpatient basis. This includes ambulatory surgical centers, Physician's Outpatient visits/examinations, clinic care, and surgical opinion consultations.</li>
+                      <li>Expenses made for administration of anesthetics.</li>
+                      <li>Expenses for medication, x-ray services, laboratory tests and services, the use of radium and radio-active isotopes, oxygen, blood transfusions, iron lungs, and medical Treatment.</li>
+                      <li>Expenses for physiotherapy, if recommended by a Physician, for the Treatment of a specific Disablement and administered by a licensed physiotherapist; With regards to chiropractic care, eligible charges up to $50.00 per visit, with a maximum of 10 visits.</li>
+                      <li>Dressings, drugs, and medicines that can be obtained upon written prescription of a Physician.</li>
+                      <li>Hotel room charge, when the insured, otherwise necessarily confined in a Hospital, shall be under the care of a duly qualified Physician in a hotel room owing to the unavailability of a Hospital room by reason of capacity or distance or to any other circumstances beyond the control of the insured; The charges enumerated above shall in no event include any amount in excess of the Usual and Customary charges (as determined by the Company). To determine if Expenses are Usual and Customary, the Company will consider the following: the medical care or supplies usually given and the fees usually accepted for like cases in the area. “Area” means a region large enough to get a cross section of providers or medical care or supplies. All Expenses are deemed to be incurred on the date such service is received.</li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -311,67 +311,70 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
             </div>
 
-              <div class="info-tabtwo">
-                <div className="col-lg-12 company">
-                  <p className="text-center company-claim">The Company, upon receipt of a written notice of claim, will furnish to the claimant such forms as are usually furnished by it for filing proofs of loss. If such forms are not furnished within 15 days after the giving of such notice, the claimant shall be deemed to have complied with the requirements of this Plan by submitting, within the time fixed in this Plan for filing proofs of loss, written proof showing the occurrence, nature and extent of the loss for which claim is made.</p>
+            <div class="info-tabtwo">
+              <div className="col-lg-12 company">
+                <p className="text-center company-claim">
+                  The Company, upon receipt of a written notice of claim, will furnish to the claimant such forms as are usually furnished by it for filing proofs of loss. If such forms are not furnished within 15 days after the giving of such notice, the claimant shall be deemed to have complied with the requirements of this Plan by submitting, within the time fixed in this Plan for filing proofs of loss, written proof showing the occurrence, nature and extent of the loss for which claim is made.
+                </p>
+              </div>
+              <div className="row">
+                <div className="col-lg-6 claims-misc">
+                  <p className="claims"><strong>Claim Forms:</strong></p>
+                    <ul>
+                      <a href="https://infplans.com/policy_pdf/GU_Sickness.pdf">
+                        <li className="claim-disease">Accident & Sickness</li>
+                      </a>
+                      <a href="https://infplans.com/policy_pdf/GU_Death.pdf">
+                        <li className="claim-disease">Death</li>
+                      </a>
+                      <a href="https://infplans.com/policy_pdf/GU_ADD.pdf">
+                        <li className="claim-disease">Dismemberment/Paralysis</li>
+                      </a>
+                      <a href="https://infplans.com/policy_pdf/GU_Baggage.pdf">
+                        <li className="claim-disease">Lost Baggage</li>
+                      </a>
+                      <a href="https://infplans.com/policy_pdf/GU_Interruption.pdf">
+                        <li className="claim-disease">Trip Interruption</li>
+                      </a>
+                      <a href="https://infplans.com/policy_pdf/GU_TripCancel.pdf">
+                        <li className="claim-disease">Trip Cancellation/Delay</li>
+                      </a>
+                    </ul>
                 </div>
 
-                    <div className="col-lg-12 claims-misc">
-                        <p className="claims"><strong>Claim Forms:</strong></p>
-                            <ul>
-                            <a href="https://infplans.com/policy_pdf/GU_Sickness.pdf">
-                              <li className="claim-disease">Accident & Sickness</li>
-                            </a>
-                            <a href="https://infplans.com/policy_pdf/GU_Death.pdf">
-                              <li className="claim-disease">Death</li>
-                            </a>
-                            <a href="https://infplans.com/policy_pdf/GU_ADD.pdf">
-                              <li className="claim-disease">Dismemberment/Paralysis</li>
-                            </a>
-                            <a href="https://infplans.com/policy_pdf/GU_Baggage.pdf">
-                              <li className="claim-disease">Lost Baggage</li>
-                            </a>
-                            <a href="https://infplans.com/policy_pdf/GU_Interruption.pdf">
-                              <li className="claim-disease">Trip Interruption</li>
-                            </a>
-                            <a href="https://infplans.com/policy_pdf/GU_TripCancel.pdf">
-                              <li className="claim-disease">Trip Cancellation/Delay</li>
-                            </a>
-                            </ul>
-                      </div>
+                <div className="col-lg-6">
+                  <p className="claims2"><strong>Claims Administrator:</strong> </p>
+                  <p className="administrator">Global Claims Administration</p>
+                  <p className="administrator">3195 Linwood Rd, Suite 201</p>
+                  <p className="administrator">Cincinnati OH 45208</p>
+                  <p className="administrator"><strong>Inside US and Canada:</strong> 800-513-2981</p>
+                  <p className="administrator"><strong>Outside US and Canada:</strong> 513-533-1330</p>
+                  <p className="administrator"><strong>Fax:</strong> 513-533-9416</p>
+                </div>
+              </div>
+            </div>
 
-                      <div className="col-lg-12">
-                          <p className="claims2"><strong>Claims Administrator:</strong> </p>
-                          <p className="administrator">Global Claims Administration</p>
-                          <p className="administrator">3195 Linwood Rd, Suite 201</p>
-                          <p className="administrator">Cincinnati OH 45208</p>
-                          <p className="administrator"><strong>Inside US and Canada:</strong> 800-513-2981</p>
-                          <p className="administrator"><strong>Outside US and Canada:</strong> 513-533-1330</p>
-                          <p className="administrator"><strong>Fax:</strong> 513-533-9416</p>
-                      </div>
+            <div class="info-tabthree">
+            <div className="col-lg-12 refund-prem">
+                  <p className="text-center ref">Refund of premium, less a $25 processing fee, will be considered if written request is received prior to the effective date of coverage. After that date, the premium is considered fully earned and non-refundable. Partial refunds are not available.</p>
+              </div>
+            </div>
+
+            <div class="info-tabfour">
+              <div className="col-lg-12">
+                <div className="row">
+                  <p className="text-center enhanced">Enhanced AD&D Benefit Rates (Per Person / Month) *Enhanced AD&D amount and additional rate apply to age 18+</p>
                 </div>
 
-                <div class="info-tabthree">
-                <div className="col-lg-12 refund-prem">
-                      <p className="text-center ref">Refund of premium, less a $25 processing fee, will be considered if written request is received prior to the effective date of coverage. After that date, the premium is considered fully earned and non-refundable. Partial refunds are not available.</p>
+              <div className="col-lg-12">
+                <div className="row mt-4">
+                  <div className="col-lg-6 total">
+                    <ul>
+                      <li className="accident">$100,000 Total Coverage ................ $6.00</li>
+                      <li className="accident">$250,000 Total Coverage .................$18.00</li>
+                    </ul>
                   </div>
-                </div>
-
-              <div class="info-tabfour">
-                <div className="col-lg-12">
-                  <div className="row">
-                    <p className="text-center enhanced">Enhanced AD&D Benefit Rates (Per Person / Month) *Enhanced AD&D amount and additional rate apply to age 18+</p>
-                  </div>
-
-                <div className="col-lg-12">
-                  <div className="row mt-4">
-                    <div className="col-lg-6 total">
-                      <ul>
-                        <li className="accident">$100,000 Total Coverage ................ $6.00</li>
-                        <li className="accident">$250,000 Total Coverage .................$18.00</li>
-                      </ul>
-                    </div>
-                   <div className="col-lg-6 total">
+                  <div className="col-lg-6 total">
                     <ul>
                       <li className="accident">$750,000 Total Coverage................... $58.00</li>
                       <li className="accident">$1,000,000 Total Coverage................. $78.00</li>
@@ -379,9 +382,9 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                   </div>
                 </div>
               </div>
-               </div>
              </div>
-           </section>
+            </div>
+          </section>
          </div>
        </div>
      </Container>
@@ -390,9 +393,11 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
     <section id="diplomat-america-section-7">
       <Container>
         <div className="col-lg-12">
-        <h2 className="text-blue text-center row-title">Enroll in Diplomat America Below</h2>
-        <DiplomatForm />
-       <p className="text-center copyright">© 2021, INF Health Care Services</p>
+          <h2 className="text-blue text-center row-title">Enroll in Diplomat America Below</h2>
+          <DiplomatForm />
+          <p className="text-center copyright">
+            © 2021, INF Health Care Services
+          </p>
        </div>
       </Container>
     </section>
