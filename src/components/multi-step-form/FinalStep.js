@@ -56,6 +56,9 @@ function FinalStep(props) {
       <p>
         <b>Emergency Contact Contact No:</b> {props.state.emergencyContactPhone}
       </p>
+      <p>
+        <b>Agree to Terms:</b> {props.state.agreeterms}
+      </p>
     </div>
   )
 }

@@ -5009,12 +5009,10 @@ section#bmi-apply-hero-section {
 .bmi-form-content-container ::-ms-input-placeholder { /* Microsoft Edge */
  color: $black;
 }
-.bmi-form-content-container h1{
-  font-weight: 500;
-}
 
 .bmi-form-content-container h5{
   font-weight: 500;
+  font-size: 25px;
 }
 
 #custom-radio-buttons {
@@ -5023,8 +5021,7 @@ section#bmi-apply-hero-section {
 .bmi-form-navigation-container {
   margin-top: 50px;
 }
-
-.bmi-form-content-container input[type="date"], .bmi-form-content-container input[type="text"], .bmi-form-content-container input[type="email"], .bmi-form-content-container input[type="tel"] {
+.bmi-form-content-container input[type="date"], .bmi-form-content-container input[type="text"], .bmi-form-content-container input[type="email"], .bmi-form-content-container input[type="tel"], .bmi-form-content-container input[type="number"], {
   background: #f8f8f8 !important;
   border: 0;
   box-shadow: none !important;
@@ -5033,7 +5030,6 @@ section#bmi-apply-hero-section {
   margin-top: 20px;
   padding-left: 10px;
 }
-
 .bmi-form-content-container select {
   background: #f8f8f8 !important;
   border: 0;
@@ -5043,7 +5039,6 @@ section#bmi-apply-hero-section {
   position: relative;
   color: $black;
 }
-
 .bmi-form-content-container select::after {
   content: '\25BC';
   position: absolute;
@@ -5057,7 +5052,6 @@ section#bmi-apply-hero-section {
   color: #252362;
   margin-top: 13px;
 }
-
 #custom-radio-buttons .radio-wrapper {display: inline-block;}
 		#custom-radio-buttons .radio-wrapper input[name="coverageradio"] {display: none;}
 		#custom-radio-buttons .radio-wrapper input[name="coverageradio"] + label {
@@ -5098,6 +5092,26 @@ section#bmi-apply-hero-section {
 		}
 		#custom-radio-buttons .radio-wrapper input[name="coverageradio"]:checked + label span.inner {background-color: #252362; display: block;}
 
+    .plans-tier-container {
+      border: solid 1px #252362;
+      border-radius: 8px;
+      padding: 10px 0;
+      color: #252362;
+      cursor: pointer;
+      transition: .5s;
+    }
+    .plans-tier-container:hover {
+      background: #252362;
+      color: $white;
+    }
+    .plans-tier-container p {
+      margin-bottom: 0px;
+      font-size: 23px !important;
+    }
+    .plans-tier-container h3 {
+      font-weight: 600;
+      font-size: 25px;
+    }
 /* end of Multi Step Form stylings victor */
 
 /* End of BMI Apply Page */

@@ -84,6 +84,21 @@ function Step1(props) {
             </label>
           </div>
         </div>
+        <div className="col-md-12">
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input
+                type="checkbox"
+                name="agreeterms"
+                className="form-check-input"
+                value={props.getState('agreeterms', 'yes')}
+                onChange={props.handleChange}
+              />
+              Please Read and Agree to conditions of the Travel Assist Program
+              before applying.
+            </label>
+          </div>
+        </div>
       </Container>
     </div>
   )
