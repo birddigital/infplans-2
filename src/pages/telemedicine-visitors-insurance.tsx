@@ -51,7 +51,7 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
               <h1 className="text-white">
                 TELEMEDICINE BY INF
               </h1>
-              <button className="hero-btn"> Get a Quote </button>
+            <Link to="/visitors-insurance-quote">  <button className="hero-btn"> Get a Quote </button></Link>
             </div>
           </Container>
         </div>

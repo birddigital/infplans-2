@@ -66,7 +66,7 @@ const TravelerUSAPage: React.FC<Props> = ({ data, location }: Props) => {
               <p className="hero-text text-white text-center">
                 The INF Traveler USA IVAS is a comprehensive accident & sickness plan for visitors without known pre-existing conditions, when purchased before the start of your trip for at least 30 days and no more than 364 days, which is the Maximum Period of Coverage.
               </p>
-              <button className="hero-btn"> Get a Quote </button>
+              <Link to="/visitors-insurance-quote"><button className="hero-btn"> Get a Quote </button></Link>
             </div>
           </Container>
         </div>

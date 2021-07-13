@@ -93,7 +93,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                <div className="col-lg-4">
                  <Img fluid={bmi_logo} className="bmi-logo"/>
                  <p className="text-blue text-center sub-title">INF BMI Travel Brochure</p>
-                 <button className="inf-btn"> Click to Get a Quote </button>
+                 <Link to="/visitors-insurance-quote"><button className="inf-btn"> Click to Get a Quote </button></Link>
                </div>
              </div>
            </div>

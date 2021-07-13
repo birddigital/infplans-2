@@ -50,7 +50,7 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
               <h1 className="text-white text-center">
                 CONTACT US
               </h1>
-              <button className="hero-btn"> Get a Quote </button>
+              <Link to="/visitors-insurance-quote"><button className="hero-btn"> Get a Quote </button></Link>
             </div>
           </Container>
         </div>
@@ -81,11 +81,11 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
                 </div>
                 <div className="business-hours">
                   <FiPhoneCall className="contact-icon"/><h3 className="text-white hours-subtitle">Support Via Phone</h3>
-                  <p className="text-white">Phone:  408-540-3601</p>
+                  <a href="tel:14085403601" className="links">Phone: 408-540-3601 </a>
                 </div>
                 <div className="business-hours">
                   <FiMail className="contact-icon"/><h3 className="text-white hours-subtitle">Support Via Email</h3>
-                  <p className="text-white">support @infplans.com</p>
+                  <a href="mailto:support@infplans.com" className="links">support@infplans.com </a>
                 </div>
               </div>
             </div>

@@ -51,7 +51,7 @@ const InsuranceQuotePage: React.FC<Props> = ({ data, location }: Props) => {
               <p className="hero-text text-white text-center">
                 The plans may cover medically necessary testing for COVID-19 in accordance with the plan terms, conditions and exclusions, while the person is in the US.
               </p>
-              <button className="hero-btn"> Get a Quote </button>
+              <Link to="/"><button className="hero-btn"> Get a Quote </button></Link>
             </div>
           </Container>
         </div>

@@ -54,7 +54,7 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
               <h1 className="text-white text-center">
                 EYEMED-VISION INSURANCE
               </h1>
-              <button className="hero-btn"> Get a Quote </button>
+              <Link to="/visitors-insurance-quote"><button className="hero-btn"> Get a Quote </button></Link>
             </div>
           </Container>
         </div>

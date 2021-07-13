@@ -52,7 +52,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
             <p className="text-white text-center hero-text">
               Diplomat America plan provides Accident and Sickness medical coverage, Accidental Death and Dismemberment benefits, Travel Assistance for Non-U.S. citizens and Non-U.S. residents traveling to the United States.
             </p>
-            <button className="hero-btn"> Get a Quote </button>
+            <Link to="/visitors-insurance-quote"><button className="hero-btn"> Get a Quote </button></Link>
           </div>
         </Container>
       </div>

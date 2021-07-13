@@ -311,11 +311,11 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 COVID-19 treated as any other sickness
               </li>
             </ul>
-            <a href="#">
+            <Link to="/visitors-insurance-quote">
               <button className="btn btn-white mt-15">
                 Get a Quote
               </button>
-            </a>
+            </Link>
           </BackgroundImage>
         </ContainerFluid>
       </div>
