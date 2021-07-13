@@ -25,7 +25,6 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
   const infplans_big_logo = data.infplans_big_logo?.childImageSharp?.fluid
   const apply_right_img = data.apply_right_img?.childImageSharp?.fluid
 
-
   return (
     <Layout location={location}>
       <Helmet>
@@ -59,61 +58,57 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="apply-container">
               <h2 className="text-blue text-center">Apply for INF Visitor Insurance</h2>
                 <Img fluid={infplans_big_logo} className="big-logo"/>
-               <p className="text-center sub-content">Insurance is offered to persons traveling on a limited duration trip (364 days or less) to the US, Canada or Mexico.</p>
-               <p className="note">Please note that INF Premier and Elite plans require minimum 90 days enrollment; and Standard and Traveler USA require minimum 30 days enrollment.</p>
+                <p className="text-center sub-content">Insurance is offered to persons traveling on a limited duration trip (364 days or less) to the US, Canada or Mexico.</p>
+                <p className="note">Please note that INF Premier and Elite plans require minimum 90 days enrollment; and Standard and Traveler USA require minimum 30 days enrollment.</p>
+                <div class="apply-tab">
+                  <input checked="checked" id="apply-tabone" type="radio" name="apply" />
+                  <input id="apply-tabtwo" type="radio" name="apply" />
+                  <nav>
+                    <ul>
+                      <li className="apply-tabone">
+                        <label for="apply-tabone">Plan Description</label>
+                      </li>
+                      <li className="apply-tabtwo">
+                        <label for="apply-tabtwo">Discount Services</label>
+                      </li>
+                    </ul>
+                  </nav>
+                  <section>
+                    <div className="apply-tabone">
+                      <div className="col-lg-12">
+                        <p>The INF Traveler USA IVAS is a comprehensive accident & sickness plan for visitors without known pre-existing conditions when purchased before the start of your trip for at least 30 days and no more than 364 days, which is the Maximum Period of Coverage. Traveler USA covers non-US citizens traveling to the United States, Canada or Mexico in all age groups, from age 0 to 99 years old.</p>
+                        <div className="row">
+                          <div className="col-lg-6">
+                            <p className="overview text-blue text-center">Plan Overview</p>
+                            <button class="read-btn">Read More</button>
+                          </div>
+                          <div className="col-lg-6">
+                            <p className="summary text-blue text-center">Summary of Benefits</p>
+                            <button class="download-btn">Download Summary</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-            <div class="apply-tab">
-              <input checked="checked" id="apply-tabone" type="radio" name="apply" />
-              <input id="apply-tabtwo" type="radio" name="apply" />
-
-            <nav>
-              <ul>
-                <li className="apply-tabone">
-                  <label for="apply-tabone">Plan Description</label>
-                </li>
-                <li className="apply-tabtwo">
-                  <label for="apply-tabtwo">Discount Services</label>
-                </li>
-              </ul>
-            </nav>
-
-            <section>
-              <div className="apply-tabone">
-                <div className="col-lg-12">
-                    <p>The INF Traveler USA IVAS is a comprehensive accident & sickness plan for visitors without known pre-existing conditions when purchased before the start of your trip for at least 30 days and no more than 364 days, which is the Maximum Period of Coverage. Traveler USA covers non-US citizens traveling to the United States, Canada or Mexico in all age groups, from age 0 to 99 years old.</p>
-
-                  <div className="row">
-                  <div className="col-lg-6">
-                    <p className="overview text-blue text-center">Plan Overview</p>
-                    <button class="read-btn">Read More</button>
-                  </div>
-                  <div className="col-lg-6">
-                    <p className="summary text-blue text-center">Summary of Benefits</p>
-                    <button class="download-btn">Download Summary</button>
-                  </div>
-                  </div>
+                    <div className="apply-tabtwo">
+                     <div className="col-lg-12">
+                        <p>The INF Traveler USA IVAS is a comprehensive accident & sickness plan for visitors without known pre-existing conditions when purchased before the start of your trip for at least 30 days and no more than 364 days, which is the Maximum Period of Coverage. Traveler USA covers non-US citizens traveling to the United States, Canada or Mexico in all age groups, from age 0 to 99 years old.</p>
+                        <div className="row">
+                          <div className="col-lg-6">
+                            <p className="overview text-blue text-center">Plan Overview</p>
+                            <button class="read-btn">Read More</button>
+                          </div>
+                          <div className="col-lg-6">
+                            <p className="summary text-blue text-center">Summary of Benefits</p>
+                            <button class="download-btn">Download Summary</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
                 </div>
-                </div>
-
-              <div className="apply-tabtwo">
-               <div className="col-lg-12">
-                  <p>The INF Traveler USA IVAS is a comprehensive accident & sickness plan for visitors without known pre-existing conditions when purchased before the start of your trip for at least 30 days and no more than 364 days, which is the Maximum Period of Coverage. Traveler USA covers non-US citizens traveling to the United States, Canada or Mexico in all age groups, from age 0 to 99 years old.</p>
-                  <div className="row">
-                  <div className="col-lg-6">
-                    <p className="overview text-blue text-center">Plan Overview</p>
-                    <button class="read-btn">Read More</button>
-                  </div>
-                  <div className="col-lg-6">
-                    <p className="summary text-blue text-center">Summary of Benefits</p>
-                    <button class="download-btn">Download Summary</button>
-                  </div>
-                  </div>
               </div>
             </div>
-           </section>
-           </div>
-            </div>
-          </div>
         </Container>
       </section>
 
@@ -121,23 +116,24 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
         <Container>
           <div className="col-lg-12">
             <div className="apply-container">
-            <div className="row">
-
-            <div className="col-lg-7">
-             <h2 className="text-blue">Lorem Ipsum Dolor</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <button className="get-apply-btn"> Get a Quote </button>
+              <div className="row">
+                <div className="col-lg-7">
+                  <h2 className="text-blue">
+                    Lorem Ipsum Dolor
+                  </h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <button className="get-apply-btn"> Get a Quote </button>
+                </div>
+                <div className="col-lg-5">
+                  <Img fluid={apply_right_img} className="apply-right-img"/>
+                </div>
+              </div>
             </div>
-
-            <div className="col-lg-5">
-              <Img fluid={apply_right_img} className="apply-right-img"/>
-            </div>
-           </div>
-           </div>
           </div>
         </Container>
       </section>
-
     </Layout>
   )
 }

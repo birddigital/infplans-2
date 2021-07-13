@@ -37,6 +37,34 @@ const LogoSlider = ({ className }) => {
           }
         }
       },
+      considerable_logo: file(name: { eq: "considerable-logo" }) {
+        childImageSharp {
+          fluid(maxWidth: 500, quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      },
+      seattle_logo: file(name: { eq: "seattle-logo" }) {
+        childImageSharp {
+          fluid(maxWidth: 500, quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      },
+      telegraph_logo: file(name: { eq: "telegraph-logo" }) {
+        childImageSharp {
+          fluid(maxWidth: 500, quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      },
+      washington_logo: file(name: { eq: "washington-logo" }) {
+        childImageSharp {
+          fluid(maxWidth: 500, quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      },
     }
   `
   )
@@ -46,6 +74,11 @@ const LogoSlider = ({ className }) => {
   const cn_traveler_logo = data.cn_traveler_logo?.childImageSharp?.fluid
   const forbes_logo = data.forbes_logo?.childImageSharp?.fluid
   const itij_logo = data.itij_logo?.childImageSharp?.fluid
+  const considerable_logo = data.considerable_logo?.childImageSharp?.fluid
+  const seattle_logo = data.seattle_logo?.childImageSharp?.fluid
+  const telegraph_logo = data.telegraph_logo?.childImageSharp?.fluid
+  const washington_logo = data.washington_logo?.childImageSharp?.fluid
+
 
 
   var settings = {
@@ -104,6 +137,18 @@ const LogoSlider = ({ className }) => {
         </div>
         <div className="logo-content">
           <Img fluid={traveler_logo} className="logo-img" />
+        </div>
+        <div className="logo-content">
+          <Img fluid={considerable_logo} className="logo-img" />
+        </div>
+        <div className="logo-content">
+          <Img fluid={seattle_logo} className="logo-img" />
+        </div>
+        <div className="logo-content">
+          <Img fluid={telegraph_logo} className="logo-img" />
+        </div>
+        <div className="logo-content">
+          <Img fluid={washington_logo} className="logo-img" />
         </div>
       </Slider>
     </div>

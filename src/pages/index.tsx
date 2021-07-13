@@ -276,59 +276,60 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
       </section>
       <div id="unique-plans-for-travel">
         <ContainerFluid>
-        <BackgroundImage
-          Tag="div"
-          className="col-lg-6"
-          fluid={unique_plans_bg}
-          alt="unique-plans"
-          id=""
-        >
-        </BackgroundImage>
-        <BackgroundImage
-          Tag="div"
-          className="col-lg-6"
-          fluid={unique_plans_color_bg}
-          alt="unique-plans"
-          id="unique-plans-column-2"
-        >
-          <h3 className="text-white">
-            Unique Plans For Your Travel
-          </h3>
-          <ul className="text-white">
-            <li>
-              Plans may have pre-existing conditions coverage*
-            </li>
-            <li>
-              Coverage to non-US Citizens traveling to the US, Canada or Mexico
-            </li>
-            <li>
-              Emergency Medical Evacuation Benefits
-            </li>
-            <li>
-              Accidental Death and Dismemberment Benefits
-            </li>
-            <li>
-              COVID-19 treated as any other sickness
-            </li>
-          </ul>
-          <a href="#">
-            <button className="btn btn-white mt-15">
-              Get a Quote
-            </button>
-          </a>
-        </BackgroundImage>
+          <BackgroundImage
+            Tag="div"
+            className="col-lg-7"
+            fluid={unique_plans_bg}
+            alt="unique-plans"
+            id=""
+          >
+          </BackgroundImage>
+          <BackgroundImage
+            Tag="div"
+            className="col-lg-5"
+            fluid={unique_plans_color_bg}
+            alt="unique-plans"
+            id="unique-plans-column-2"
+          >
+            <h3 className="text-white">
+              Unique Plans For Your Travel
+            </h3>
+            <ul className="text-white">
+              <li>
+                Plans may have pre-existing conditions coverage*
+              </li>
+              <li>
+                Coverage to non-US Citizens traveling to the US, Canada or Mexico
+              </li>
+              <li>
+                Emergency Medical Evacuation Benefits
+              </li>
+              <li>
+                Accidental Death and Dismemberment Benefits
+              </li>
+              <li>
+                COVID-19 treated as any other sickness
+              </li>
+            </ul>
+            <a href="#">
+              <button className="btn btn-white mt-15">
+                Get a Quote
+              </button>
+            </a>
+          </BackgroundImage>
         </ContainerFluid>
       </div>
+
       <section id="members-producers">
         <Container>
           <div className="col-lg-6">
             <div className="members-producers-column text-center">
-            {/*  <h3 className="text-primary">Members</h3> */}
+              {/*<h3 className="text-primary">Members</h3> */}
               <h3 className="text-primary">Insureds</h3>
               <p>
                 Access the Insured Portal to Download Plan ID cards, File Claims, and access other features
               </p>
-              <a href="/members" className="service-link">Click here to view Insured Portal <FaLongArrowAltRight className="right-arrow" /></a>
+              <Link to="/members" className="service-link">Click here to view Insured Portal <FaLongArrowAltRight className="right-arrow" /></Link>
             </div>
           </div>
           <div className="col-lg-6">
@@ -337,7 +338,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               <p>
                 Manage your producer profile, generate reports, and access other tools to build your business with INF
               </p>
-              <a href="/producers" className="service-link">Click here to access Producer Portal <FaLongArrowAltRight className="right-arrow" /></a>
+              <Link to="/producers" className="service-link">Click here to access Producer Portal <FaLongArrowAltRight className="right-arrow" /></Link>
             </div>
           </div>
         </Container>

@@ -470,8 +470,20 @@ button {
   color: $white;
 }
 
+#footer .footer-logo-content {
+  color: #ffffff !important;
+  margin-top: 10px !important;
+}
+
 #footer p {
   margin-bottom: 10px;
+  color: #FDEFD1;
+  font-weight: 500;
+}
+
+#footer h4 {
+  color: #FDEFD1;
+  font-weight: 500;
 }
 
 #footer ul {
@@ -482,6 +494,7 @@ button {
   margin-top: 30px;
   margin-left: 20px;
   margin-right: 20px;
+  color: #FDEFD1;
 }
 
 #footer a {
@@ -582,7 +595,6 @@ section.home-hero-section-bg::after {
 
 .service-column p {
   margin-top: 20px;
-  margin-bottom: 35px;
   min-height: 144px;
   max-height: 144px;
 }
@@ -1028,7 +1040,7 @@ section#home-testimonial-section {
 }
 
 .articles-slider .slick-prev:hover, .articles-slider .slick-next:hover {
-  border: solid 4px #bfbfbf;
+  border: solid 6px #bfbfbf;
   color:#ffffff;
 }
 
@@ -5014,6 +5026,7 @@ section#bmi-apply-hero-section {
   width: 100%;
   height: 50px;
   margin-top: 20px;
+  padding-left: 10px;
 }
 .bmi-form-content-container select {
   background: #f8f8f8 !important;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { graphql, Link } from 'gatsby'
 import Img, { FixedObject } from 'gatsby-image'
 import { IndexQueryQuery, PostByPathQuery } from '../../types/graphql-types'
@@ -27,6 +27,16 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
   const bmi_logo = data.bmi_logo?.childImageSharp?.fluid
   const book1_icon = data.book1_icon?.childImageSharp?.fluid
   const book2_icon = data.book2_icon?.childImageSharp?.fluid
+  const [infBMIStatus, setInfBMIStatus] = useState(false);
+
+
+  function showInfBMI() {
+    setInfBMIStatus(true);
+  }
+
+  function hideInfBMI() {
+    setInfBMIStatus(false);
+  }
 
 
   return (
@@ -48,15 +58,15 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
         <div id="bmi-travel-hero-section">
           <Container>
             <div className="col-lg-12">
-            <h1 className="text-white text-center">
+              <h1 className="text-white text-center">
                 INF BMI INSURANCE
               </h1>
               <p className="text-white text-center hero-text">
-                INF-BMI plans provide assistance for international trips with no deductible or copayments and provides coverage for full pre-existing conditions, acute onset of pre-existing conditions, and COVID-19 as per the limits in the policy.               </p>
+                INF-BMI plans provide assistance for international trips with no deductible or copayments and provides coverage for full pre-existing conditions, acute onset of pre-existing conditions, and COVID-19 as per the limits in the policy.
+              </p>
               <button className="hero-btn"> Get a Quote </button>
             </div>
-            <div className="col-lg-8">
-            </div>
+            <div className="col-lg-8"></div>
           </Container>
         </div>
       </BackgroundImage>
@@ -65,18 +75,25 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
        <Container>
         <div className="col-lg-12">
           <div className="bmi-travel-container">
-           <h2 className="text-blue text-center">What is INF-BMI Travel Assist?</h2>
-           <div className="row mt-4">
-         <div className="col-lg-8">
-          <p>INF-BMI plans provide assistance for international trips with no deductible or copayments and provides coverage for full pre-existing conditions, acute onset of pre-existing conditions, and COVID-19 as per the limits in the Plan.</p>
-          <p>INF recommends enrolling in the Ultra Plus, VIP, VIP Plus- which provides comprehensive coverage for pre-existing, acute onset of pre-existing conditions, and COVID-19. INF-BMI plans can provide these innovative visitor insurance options.</p>
-          <a href="#" className="read-more">READ MORE <FaAngleDoubleDown className="double-arrow-down" /></a>
-         </div>
-          <div className="col-lg-4">
-            <Img fluid={bmi_logo} className="bmi-logo"/>
-            <p className="text-blue text-center sub-title">INF BMI Travel Brochure</p>
-            <button className="inf-btn"> Click to Get a Quote </button>
-          </div>
+            <h2 className="text-blue text-center">What is INF-BMI Travel Assist?</h2>
+            <div className="row mt-4">
+             <div className="col-lg-8">
+              <p>INF-BMI plans provide assistance for international trips with no deductible or copayments and provides coverage for full pre-existing conditions, acute onset of pre-existing conditions, and COVID-19 as per the limits in the Plan.</p>
+              <p>INF recommends enrolling in the Ultra Plus, VIP, VIP Plus- which provides comprehensive coverage for pre-existing, acute onset of pre-existing conditions, and COVID-19. INF-BMI plans can provide these innovative visitor insurance options.</p>
+              {infBMIStatus ?
+                <>
+                  <p>INF recommends enrolling in the Ultra Plus, VIP, VIP Plus- which provides comprehensive coverage for pre-existing, acute onset of pre-existing conditions, and COVID-19. INF-BMI plans can provide these innovative visitor insurance options.</p>
+                  <a href="javascript:void(0)" className="read-more" onClick={hideInfBMI}>READ LESS <FaAngleDoubleDown className="double-arrow-down" /></a>
+                </>
+                :
+                <a href="javascript:void(0)" className="read-more" onClick={showInfBMI}>READ MORE <FaAngleDoubleDown className="double-arrow-down" /></a>
+              }
+            </div>
+            <div className="col-lg-4">
+              <Img fluid={bmi_logo} className="bmi-logo"/>
+              <p className="text-blue text-center sub-title">INF BMI Travel Brochure</p>
+              <button className="inf-btn"> Click to Get a Quote </button>
+            </div>
       </div>
     </div>
     </div>

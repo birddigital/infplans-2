@@ -29,8 +29,6 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
   const eye_bright_img = data.eye_bright_img?.childImageSharp?.fluid
   const eye_healthy_img = data.eye_healthy_img?.childImageSharp?.fluid
 
-
-
   return (
     <Layout location={location}>
       <Helmet>
