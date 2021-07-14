@@ -133,7 +133,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                </div>
                <div className="col-lg-7">
                 <div className="col-lg-12">
-                  <h3 className="text-blue text-center">Plan Member Sign In</h3>
+                  <h3 className="text-blue text-center">Insured Login</h3>
                 </div>
                  <form method="POST" action="">
                    <input type="email" id="email" name="email" placeholder="Email Address" />

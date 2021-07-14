@@ -65,7 +65,7 @@ const Footer = ({ className }) => {
           </div>
           <div className="col-lg-3">
             <h4>About Our Company</h4>
-            <Link to="/about"><p>About Us</p></Link>
+            <Link to="/about-us"><p>About Us</p></Link>
             <Link to="/contact-us"><p>Contact Us</p></Link>
             <Link to="/why-inf"><p>Why INF?</p></Link>
           </div>

@@ -78,7 +78,7 @@ const StandardPage: React.FC<Props> = ({ data, location }: Props) => {
             <h2 className="text-blue text-center">INF Standard International Visitor Accident & Sickness Insurance (IVAS)</h2>
             <div className="row mt-5">
               <div className="col-lg-8">
-                <p className="text-black">The INF Standard IVAS plan is an accident & sickness insurance program for  plan members visiting the United States Canada, or Mexico.</p>
+                <p className="text-black">The INF Standard IVAS plan is an accident & sickness insurance program for INF members visiting the United States Canada, or Mexico. This plan pays eligible medical expense benefits for covered expenses that result from a covered accident or sickness, as per the terms and conditions listed in the plan.</p>
                 {infBMIStatus ?
                   <>
                   <p>This means eligible out-patient, specialist, urgent care, and in-patient expenses are covered by this plan for new sicknesses and accidents as defined in the plan. After the deductible has been met, coverage is provided for usual and customary charges for medically necessary covered expenses, up to the plan limits and benefit maximums. Direct Billing may be available from your provider.</p>

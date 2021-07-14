@@ -208,7 +208,42 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
     </div>
    </Container>
   </section>
+  <section id="plans-section-5">
+    <Container>
+     <div className="col-lg-12">
+     <div className="plans-container">
+     <div className="row">
+       <div className="col-lg-3">
+         <Img fluid={travel_img} className="plans-img"/>
+         <p className="text-blue text-center sub-title">Travel USA</p>
+       </div>
 
+       <div className="col-lg-6">
+         <h4>Insurance Benefits underwritten by Crum & Forster, SPC:</h4>
+           <ul>
+             <li>Short-term travel medical coverage (90 days to 364 days)</li>
+             <li>Utilizes UnitedHealthcare Options PPO (including Direct Billing)</li>
+             <li>Maximum Limits of $75,000 (Age 70-99) or $150,000, $250,000, or $300,000 (Age 0-69)</li>
+             <li>Coverage for non-US residents ages 0-99 years</li>
+           </ul>
+         <h4>Non-Insurance Benefits (not associated with Crum & Forster SPC):</h4>
+           <ul>
+             <li>Telehealth Provided by MDLive (available while visiting the US only)</li>
+             <li>Dental, Vision, Hearing, and Prescription Discounts coordinated by Careington International (available while visiting the US only)</li>
+           </ul>
+       </div>
+
+       <div className="col-lg-3">
+         <Img fluid={inf_logo} className="plans-logo"/>
+         <p className="text-center">Traveler USA</p>
+          <button className="plan-btn">Plan Details </button>
+         <button className="get-btn">Get a Quote </button>
+       </div>
+    </div>
+   </div>
+  </div>
+  </Container>
+  </section>
   <section id="plans-section-6">
     <Container>
           <div class="container py-4">
@@ -746,42 +781,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
    </Container>
  </section>
 
-  <section id="plans-section-5">
-    <Container>
-     <div className="col-lg-12">
-     <div className="plans-container">
-     <div className="row">
-       <div className="col-lg-3">
-         <Img fluid={travel_img} className="plans-img"/>
-         <p className="text-blue text-center sub-title">Travel USA</p>
-       </div>
 
-       <div className="col-lg-6">
-         <h4>Insurance Benefits underwritten by Crum & Forster, SPC:</h4>
-           <ul>
-             <li>Short-term travel medical coverage (90 days to 364 days)</li>
-             <li>Utilizes UnitedHealthcare Options PPO (including Direct Billing)</li>
-             <li>Maximum Limits of $75,000 (Age 70-99) or $150,000, $250,000, or $300,000 (Age 0-69)</li>
-             <li>Coverage for non-US residents ages 0-99 years</li>
-           </ul>
-         <h4>Non-Insurance Benefits (not associated with Crum & Forster SPC):</h4>
-           <ul>
-             <li>Telehealth Provided by MDLive (available while visiting the US only)</li>
-             <li>Dental, Vision, Hearing, and Prescription Discounts coordinated by Careington International (available while visiting the US only)</li>
-           </ul>
-       </div>
-
-       <div className="col-lg-3">
-         <Img fluid={inf_logo} className="plans-logo"/>
-         <p className="text-center">Traveler USA</p>
-          <button className="plan-btn">Plan Details </button>
-         <button className="get-btn">Get a Quote </button>
-       </div>
-    </div>
-   </div>
-  </div>
- </Container>
-</section>
 
     <section id="plans-section-7">
       <Container>

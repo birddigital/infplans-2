@@ -268,7 +268,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
 
                   <li
                     className={
-                      location.pathname === '/'
+                      location.pathname === ''
                         ? 'nav-item active nav-dropdown'
                         : 'nav-item nav-dropdown'
                     }

@@ -1056,19 +1056,19 @@ section#home-testimonial-section {
 
 /* Home form css victor*/
 
-.right-content, .center-content {
+#home-form .right-content, #home-form .center-content {
   background: $white;
   padding-top: 20px;
   border-top: 1px solid #DCDCDC;
   border-right: 1px solid #DCDCDC;
 }
 
-.left-content {
+#home-form .left-content {
   background: $white;
   padding-top: 20px;
   border-left: 1px solid #DCDCDC;
   border-top: 1px solid #DCDCDC;
-
+  border-right: 1px solid #DCDCDC;
 }
 
 #quote-section-1 .blue-bg {
@@ -5944,8 +5944,6 @@ section#claims-form-section-1 {
 #claims-form-section-1 .flipcard-content {
   margin-bottom: 0;
   margin-top: 5px;
-  font-size: 18px;
-  font-family: poppins;
 }
 
 #claims-form-section-1 .flipcard-icon {
@@ -6048,7 +6046,7 @@ section#diplomat-america-section-1 {
   font-weight: 500;
 }
 
-#diplomat-america-section-1 p {
+#diplomat-america-section-1 p, #diplomat-america-section p {
   padding-top: 30px;
   line-height: 2;
 }
@@ -6057,7 +6055,10 @@ section#diplomat-america-section-1 {
   box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 40px 50px;
 }
-
+#diplomat-america-section .diplomat-america-container {
+  box-shadow: 0px 0px 12px 0px #dddddd;
+  padding: 50px 50px 40px 50px;
+}
 #diplomat-america-section-2 {
   padding-top: 0;
 }
@@ -6086,7 +6087,7 @@ section#diplomat-america-section-1 {
 
 #diplomat-america-section-3 .diplomat-america-container {
   box-shadow: 0px 0px 12px 0px #dddddd;
-  padding: 50px 50px 30px 50px;
+  padding: 50px 50px 10px 50px;
 }
 
 #diplomat-america-section-3 .enroll-btn {
@@ -6123,7 +6124,6 @@ section#diplomat-america-section-1 {
 }
 
 #diplomat-america-section-3 p {
-  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -10219,6 +10219,9 @@ section#why-inf-section-1 {
   padding-bottom: 15px;
 }
 
+.why-inf-hero-section-bg {
+  background-position: bottom !important; 
+}
 /* End of Why Inf Styles */
 
 /*Privacy Policy Styles */
