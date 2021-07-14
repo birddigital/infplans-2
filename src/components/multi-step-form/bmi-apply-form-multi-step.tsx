@@ -125,41 +125,51 @@ function MasterForm () {
             </div>
             <div className="col-md-6">
               <input
-                name="startDate"
+                name="start_date"
                 type="date"
                 onChange={handleChange}
+                placeholder="Trip Start Date"
               />
             </div>
             <div className="col-md-6">
               <input
-                name="endDate"
+                name="end_date"
                 type="date"
                 onChange={handleChange}
+                placeholder="Trip End Date"
               />
             </div>
             <div className="col-md-6">
-              <select
-                name="departure"
-                className="form-control select-option"
-                onChange={handleChange}
-              >
-                <option value="">Departure</option>
-                <option value="Anguilla">Anguilla</option>
-                <option value="Argentina">Argentina</option>
-                <option value="Aruba">Aruba</option>
-              </select>
+              <div className="select-container">
+                <div className="text center multi-step-select">
+                  <select
+                    name="departure"
+                    className="form-control select-option"
+                    onChange={handleChange}
+                  >
+                    <option value="">Departure</option>
+                    <option value="Anguilla">Anguilla</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Aruba">Aruba</option>
+                  </select>
+                </div>
+              </div>
             </div>
             <div className="col-md-6">
-              <select
-                name="destination"
-                className="form-control select-option"
-                onChange={handleChange}
-              >
-                <option value="">Destination</option>
-                <option value="Anguilla">Anguilla</option>
-                <option value="Argentina">Argentina</option>
-                <option value="Aruba">Aruba</option>
-              </select>
+              <div className="select-container">
+                <div className="text center multi-step-select">
+                  <select
+                    name="destination"
+                    className="form-control select-option"
+                    onChange={handleChange}
+                  >
+                    <option value="">Destination</option>
+                    <option value="Anguilla">Anguilla</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Aruba">Aruba</option>
+                  </select>
+                </div>
+              </div>
             </div>
             <div className="col-md-12" id="custom-radio-buttons">
               <h5> Additional Traveller Coverage </h5>
@@ -167,7 +177,7 @@ function MasterForm () {
                 <input
                   type="radio"
                   id="radio1"
-                  name="coverageradio"
+                  name="additional_coverage"
                   onChange={handleChange}
                 />
                 <label for="radio1">
@@ -181,7 +191,7 @@ function MasterForm () {
                 <input
                   type="radio"
                   id="radio2"
-                  name="coverageradio"
+                  name="additional_coverage"
                   onChange={handleChange}
                 />
                 <label for="radio2">
@@ -192,15 +202,16 @@ function MasterForm () {
                 </label>
               </div>
             </div>
-            <div className="col-md-12">
-                <input
-                  type="checkbox"
-                  name="agree terms"
-                  onChange={handleChange}
-                />
-                <label className="custom-checkbox-label">
-                  Please Read and Agree to conditions of the <a href="">Travel Assist Program</a> before applying.
-                </label>
+            <div className="col-md-12 mt-3">
+              <input
+                type="checkbox"
+                name="agree_terms"
+                id="multi-step-checkbox"
+                onChange={handleChange}
+              />
+              <label className="custom-checkbox-label" htmlFor="multi-step-checkbox">
+                Please Read and Agree to conditions of the <a href="">Travel Assist Program</a> before applying.
+              </label>
             </div>
           </Container>
         </div>
@@ -219,7 +230,7 @@ function MasterForm () {
           </div>
           <div className="col-md-6">
             <input
-              name="firstName"
+              name="visitors_first_name"
               placeholder="First Name"
               type="text"
               onChange={handleChange}
@@ -227,7 +238,7 @@ function MasterForm () {
           </div>
           <div className="col-md-6">
             <input
-              name="lastName"
+              name="visitors_last_name"
               placeholder="Last Name"
               type="text"
               onChange={handleChange}
@@ -259,7 +270,7 @@ function MasterForm () {
           </div>
           <div className="col-md-6">
             <input
-              name="contactNo"
+              name="visitors_contact_number"
               placeholder="Contact No."
               type="tel"
               onChange={handleChange}
@@ -267,7 +278,7 @@ function MasterForm () {
           </div>
           <div className="col-md-12">
             <input
-              name="email"
+              name="visitors_email"
               placeholder="Email"
               type="email"
               onChange={handleChange}
@@ -280,7 +291,7 @@ function MasterForm () {
           </div>
           <div className="col-md-6">
             <input
-              name="emergencyContactFirstName"
+              name="emergency_first_name"
               placeholder="First Name"
               type="text"
               onChange={handleChange}
@@ -288,7 +299,7 @@ function MasterForm () {
           </div>
           <div className="col-md-6">
             <input
-              name="emergencyContactLastName"
+              name="emergency_last_name"
               placeholder="Last Name"
               type="text"
               onChange={handleChange}
@@ -296,7 +307,7 @@ function MasterForm () {
           </div>
           <div className="col-md-6">
             <input
-              name="emergencyContactPhone"
+              name="emergency_contact_number"
               placeholder="Emergency Contact Phone"
               type="tel"
               onChange={handleChange}
@@ -304,7 +315,7 @@ function MasterForm () {
           </div>
           <div className="col-md-6">
             <input
-              name="emergencyContactEmail"
+              name="emergency_email"
               placeholder="Emergency Contact Email"
               type="email"
               onChange={handleChange}
@@ -381,7 +392,7 @@ function MasterForm () {
           </div>
           <div className="col-md-6">
             <input
-              name="postal code"
+              name="postal_code"
               placeholder="Postal Code"
               type="number"
               onChange={handleChange}
@@ -394,7 +405,7 @@ function MasterForm () {
           </div>
           <div className="col-md-12">
             <input
-              name="card holder name"
+              name="card_holder_name"
               placeholder="Card Holder Name"
               type="text"
               onChange={handleChange}
@@ -402,7 +413,7 @@ function MasterForm () {
           </div>
           <div className="col-md-6">
             <input
-              name="card number"
+              name="card_number"
               placeholder="Card number"
               type="number"
               onChange={handleChange}
@@ -410,7 +421,7 @@ function MasterForm () {
           </div>
           <div className="col-md-6">
             <input
-              name="card expiry month"
+              name="card_expiry_month"
               placeholder="Card Expiry Month"
               type="text"
               onChange={handleChange}
@@ -418,7 +429,7 @@ function MasterForm () {
           </div>
           <div className="col-md-6">
             <input
-              name="card expiry year"
+              name="card_expiry_year"
               placeholder="Card Expiry Year"
               type="number"
               min="2021"
@@ -428,7 +439,7 @@ function MasterForm () {
           </div>
           <div className="col-md-6">
             <input
-              name="card security code"
+              name="card_security_code"
               placeholder="Card Security Code"
               type="number"
               onChange={handleChange}

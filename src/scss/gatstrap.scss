@@ -5039,28 +5039,16 @@ section#bmi-apply-hero-section {
   position: relative;
   color: $black;
 }
-.bmi-form-content-container select::after {
-  content: '\25BC';
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 0 1em;
-  background: #ffffff;
-  cursor: pointer;
-  pointer-events: none;
-  transition: .25s all ease;
-  color: #252362;
-  margin-top: 13px;
-}
+
 #custom-radio-buttons .radio-wrapper {display: inline-block;}
-		#custom-radio-buttons .radio-wrapper input[name="coverageradio"] {display: none;}
-		#custom-radio-buttons .radio-wrapper input[name="coverageradio"] + label {
+		#custom-radio-buttons .radio-wrapper input[name="additional_coverage"] {display: none;}
+		#custom-radio-buttons .radio-wrapper input[name="additional_coverage"] + label {
 			color: $black;
 			font-size: 16px;
       margin-left: 20px;
       margin-right: 20px;
 		}
-		#custom-radio-buttons .radio-wrapper input[name="coverageradio"] + label > span.outer {
+		#custom-radio-buttons .radio-wrapper input[name="additional_coverage"] + label > span.outer {
 			display: inline-block;
 			width: 20px;
 			height: 20px;
@@ -5073,7 +5061,7 @@ section#bmi-apply-hero-section {
 			border-radius: 50%;
 			background-color: transparent;
 		}
-		#custom-radio-buttons .radio-wrapper input[name="coverageradio"] + label span.inner {
+		#custom-radio-buttons .radio-wrapper input[name="additional_coverage"] + label span.inner {
 			display: block;
 			position: absolute;
 			display: none;
@@ -5090,7 +5078,7 @@ section#bmi-apply-hero-section {
 			border-radius: 50%;
 			background-color: grey;
 		}
-		#custom-radio-buttons .radio-wrapper input[name="coverageradio"]:checked + label span.inner {background-color: #252362; display: block;}
+		#custom-radio-buttons .radio-wrapper input[name="additional_coverage"]:checked + label span.inner {background-color: #252362; display: block;}
 
     .plans-tier-container {
       border: solid 1px #252362;
@@ -5145,8 +5133,66 @@ section#bmi-apply-hero-section {
       font-weight: bold;
     }
 
-    .bmi-form-content-container input[type="checkbox"]:focus + .custom-checkbox-label::before {
+    .bmi-form-content-container input[type="checkbox"]:focus + .custom-checkbox-label:before {
         outline: rgb(59, 153, 252) auto 5px;
+    }
+
+    /* Reset Select */
+    .select-option {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      appearance: none;
+      outline: 0;
+      box-shadow: none;
+      border: 0 !important;
+      background: $white;
+      background-image: none;
+    }
+    /* Remove IE arrow */
+    select::-ms-expand {
+      display: none;
+    }
+    /* Custom Select */
+    .multi-step-select {
+      width: 100%;
+    }
+    select {
+      flex: 1;
+      padding: 0 1.5em;
+      color: #838383;
+      cursor: pointer;
+    }
+    /* Arrow */
+    .multi-step-select::after {
+      content: '\25BC';
+      position: absolute;
+      top: 0;
+      right: 15px;
+      padding: 0 1em;
+      cursor: pointer;
+      pointer-events: none;
+      -webkit-transition: .25s all ease;
+      -o-transition: .25s all ease;
+      transition: .25s all ease;
+      color: #7DA9DA;
+      margin-top: 44px;
+    }
+
+    .bmi-form-content-container input[name="start_date"]:before {
+      content: attr(placeholder);
+      background: #f8f8f8;
+      width: 90%;
+    }
+    .bmi-form-content-container input[name="end_date"]:before {
+      content: attr(placeholder);
+      background: #f8f8f8;
+      width: 90%;
+    }
+    .bmi-form-content-container input[name="birthday"]:before {
+      content: attr(placeholder);
+      background: #f8f8f8;
+      width: 90%;
     }
 /* end of Multi Step Form stylings victor */
 
@@ -10955,7 +11001,7 @@ section#premium-hero-section {
 		#custom-radio-buttons .radio-wrapper input[name="option"]:checked + label span.inner {background-color: $white; display: block;}
 
     /* Reset Select */
-    select {
+    #premium-selector {
       -webkit-appearance: none;
       -moz-appearance: none;
       -ms-appearance: none;
