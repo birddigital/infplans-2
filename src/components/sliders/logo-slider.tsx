@@ -82,14 +82,14 @@ const LogoSlider = ({ className }) => {
 
 
   var settings = {
-    speed: 1000,
+    speed: 4000,
     autoplaySpeed: 5000,
     fadeIn: false,
     autoplay: true,
     dots: true,
     infinite: true,
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: 4,
 
     responsive: [
       {

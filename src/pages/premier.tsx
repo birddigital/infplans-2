@@ -65,7 +65,7 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
               <p className="hero-text text-white text-center">
                 The Premier IVAS Plan is one of the INF's flagship Insurance programs for visitors to the United States, Canada and Mexico.
               </p>
-              <Link to="/visitors-insurance-quote" className="nav-link">
+              <Link to="/inf-easy-select" className="nav-link">
                 <button className="hero-btn"> Get a Quote </button>
               </Link>
             </div>

@@ -51,7 +51,9 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
               <h1 className="text-white text-center text-uppercase">
                 Careington Non-Insurance Discount Program
               </h1>
-              <button className="hero-btn"> Get a Quote </button>
+              <Link to="/inf-easy-select">
+                <button className="hero-btn"> Get a Quote </button>
+              </Link>
             </div>
           </Container>
         </div>

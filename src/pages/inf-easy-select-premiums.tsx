@@ -23,18 +23,6 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
   const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
 
-  function show(target) {
-      document.getElementById(target).style.display = 'block';
-  }
-
-  function hide(target) {
-      document.getElementById(target).style.display = 'none';
-  }
-
-  function showDiv() {
-    document.getElementById('filtered-section').style.display = "block";
-  }
-
   return (
     <Layout location={location}>
       <Helmet>
@@ -58,29 +46,31 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
             <h1 className="text-white text-center">
                 PREMIUMS
               </h1>
-              <button className="hero-btn"> Get a Quote </button>
+              <Link to="/inf-easy-select">
+                <button className="hero-btn"> Get a Quote </button>
+              </Link>
             </div>
           </Container>
         </div>
       </BackgroundImage>
 
 
-      <section id="premium-section-1 hidden">
+      <section id="premium-section-1">
        <Container>
-           <div className="col-lg-12 hidden">
+           <div className="col-lg-12 ">
             <div className="blue-bg">
               <h3 className="text-white text-center">WHAT KIND OF PLAN ARE YOU LOOKING FOR?</h3>
               <div className="row">
-                <div className="col-lg-4 hidden">
-                  <button className="premium1-btn" onclick="showDiv()" value="Network">Network</button>
+                <div className="col-lg-4">
+                  <button className="premium1-btn">Network</button>
                 </div>
 
-                <div className="col-lg-4 hidden">
-                 <button className="premium2-btn" onclick="showDiv()" value="Fixed">Fixed</button>
+                <div className="col-lg-4">
+                 <button className="premium2-btn">Fixed</button>
                 </div>
 
-                <div className="col-lg-4 hidden">
-                 <button className="premium3-btn" onclick="showDiv()" value="Any">Any</button>
+                <div className="col-lg-4">
+                 <button className="premium3-btn">Any</button>
                 </div>
               </div>
             </div>
@@ -127,7 +117,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
             </h4>
               <form id="custom-radio-buttons" method="" action="">
               <div className="radio-wrapper">
-                <input type="radio" id="radio1" name="option" onclick="showDiv()" value="yes"/>
+                <input type="radio" id="radio1" name="option" value="yes"/>
                 <label for="radio1">
                   <span className="outer">
                     <span className="inner animated"></span>
@@ -136,7 +126,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                 </label>
               </div>
               <div className="radio-wrapper">
-                <input type="radio" id="radio2" name="option" onclick="showDiv()" value="no"/>
+                <input type="radio" id="radio2" name="option"  value="no"/>
                 <label for="radio2">
                   <span className="outer">
                     <span className="inner animated"></span>
@@ -158,39 +148,39 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="col-lg-3 premium-button">
               <a href="#" className="drop-btn1 dropdown-toggle" data-toggle="dropdown">Age</a>
                 <div className="dropdown-menu">
-                  <a href="#" className="dropdown-item" onclick="show('filtered-section')">0-15</a>
-                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">16-20</a>
-                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">20-24</a>
-                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">25-29</a>
-                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">30-34</a>
-                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">35-39</a>
-                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">40-44</a>
-                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">45-49</a>
-                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">50-54</a>
-                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">55-59</a>
-                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">60-64</a>
-                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">75-79</a>
-                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">80-84</a>
-                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">85-89</a>
-                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">90-94</a>
-                  <a href="#"className="dropdown-item" onclick="show('filtered-section')">95-99</a>
+                  <a href="#" className="dropdown-item" >0-15</a>
+                  <a href="#"className="dropdown-item" >16-20</a>
+                  <a href="#"className="dropdown-item" >20-24</a>
+                  <a href="#"className="dropdown-item" >25-29</a>
+                  <a href="#"className="dropdown-item" >30-34</a>
+                  <a href="#"className="dropdown-item" >35-39</a>
+                  <a href="#"className="dropdown-item" >40-44</a>
+                  <a href="#"className="dropdown-item" >45-49</a>
+                  <a href="#"className="dropdown-item" >50-54</a>
+                  <a href="#"className="dropdown-item" >55-59</a>
+                  <a href="#"className="dropdown-item" >60-64</a>
+                  <a href="#"className="dropdown-item" >75-79</a>
+                  <a href="#"className="dropdown-item" >80-84</a>
+                  <a href="#"className="dropdown-item" >85-89</a>
+                  <a href="#"className="dropdown-item" >90-94</a>
+                  <a href="#"className="dropdown-item" >95-99</a>
                 </div>
               </div>
 
               <div className="col-lg-3 premium-button hidden">
                   <a href="#" className="drop-btn2 dropdown-toggle" data-toggle="dropdown">Any</a>
                   <div className="dropdown-menu">
-                    <a href="#" className="dropdown-item" onclick="show('filtered-section')">Any</a>
-                    <a href="#"className="dropdown-item" onclick="show('filtered-section')">Fixed</a>
-                    <a href="#"className="dropdown-item" onclick="show('filtered-section')">Network</a>
+                    <a href="#" className="dropdown-item" >Any</a>
+                    <a href="#"className="dropdown-item" >Fixed</a>
+                    <a href="#"className="dropdown-item" >Network</a>
                   </div>
                 </div>
 
                 <div className="col-lg-3 premium-button hidden">
                     <a href="#" className="drop-btn3 dropdown-toggle" data-toggle="dropdown">Included Prex</a>
                     <div className="dropdown-menu">
-                      <a href="#" className="dropdown-item" onclick="show('filtered-section')">Included Prex</a>
-                      <a href="#"className="dropdown-item" onclick="show('filtered-section')">Do not Include Prex</a>
+                      <a href="#" className="dropdown-item" >Included Prex</a>
+                      <a href="#"className="dropdown-item" >Do not Include Prex</a>
                     </div>
                   </div>
           </div>

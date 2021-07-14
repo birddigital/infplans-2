@@ -50,7 +50,9 @@ const VisitorInsuranceQuotePage: React.FC<Props> = ({ data, location }: Props) =
               <p className="hero-text text-white text-center">
                 INF has provided insurance options for millions of travelers since 1988. Built during the early-ages of the internet, INF has always been a technology first company.
               </p>
-              <button className="hero-btn"> Get a Quote </button>
+              <Link to="/inf-easy-select">
+                <button className="hero-btn"> Get a Quote </button>
+              </Link>
             </div>
           </Container>
         </div>

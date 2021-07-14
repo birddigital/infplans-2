@@ -49,7 +49,7 @@ const PlanIDCardsPage: React.FC<Props> = ({ data, location }: Props) => {
               <p className="hero-text text-white text-center">
                 When you complete an online-enrollment of a Insurance for Visitors Plan, you will get an automated email with the Plan ID card, information, and program description.
               </p>
-              <Link to="/visitors-insurance-quote"><button className="hero-btn"> Get a Quote </button></Link>
+              <Link to="/inf-easy-select"><button className="hero-btn"> Get a Quote </button></Link>
             </div>
           </Container>
         </div>

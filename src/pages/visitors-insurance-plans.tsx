@@ -68,7 +68,9 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
           <h1 className="text-white text-center">
             INF PLANS
           </h1>
+          <Link to="/inf-easy-select">
             <button className="hero-btn"> Get a Quote </button>
+          </Link>
           </div>
         </Container>
       </div>

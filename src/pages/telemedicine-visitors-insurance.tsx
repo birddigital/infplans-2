@@ -51,7 +51,7 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
               <h1 className="text-white">
                 TELEMEDICINE BY INF
               </h1>
-            <Link to="/visitors-insurance-quote">  <button className="hero-btn"> Get a Quote </button></Link>
+            <Link to="/inf-easy-select">  <button className="hero-btn"> Get a Quote </button></Link>
             </div>
           </Container>
         </div>
@@ -123,13 +123,13 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
                   <p>
                     To get started, create an account. Then, using your phone, computer or mobile device, you can select if you would like to have a video or audio exam.
                   </p>
-                  <p>
+                  <p className="steps">
                     <strong>Step 2: Speak with you Provider</strong>
                   </p>
                   <p>
                     After reviewing your chart and medical history, your provider will start the visit. Discuss your symptoms and treatment options with a medical provider or therapist licensed to practice in your state.
                   </p>
-                  <p>
+                  <p className="steps">
                     <strong>Step 3: Receive Treatment</strong>
                   </p>
                   <p>

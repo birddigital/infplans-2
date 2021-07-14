@@ -483,7 +483,9 @@ button {
 
 #footer h4 {
   color: #FDEFD1;
-  font-weight: 500;
+  margin-top: 10px;
+  font-size: 23px;
+  font-weight: 400;
 }
 
 #footer ul {
@@ -1055,21 +1057,42 @@ section#home-testimonial-section {
 /* Home form css victor*/
 
 .right-content, .center-content {
-  border-left: 1px solid #DCDCDC;
   background: $white;
   padding-top: 20px;
+  border-top: 1px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
 }
 
 .left-content {
   background: $white;
   padding-top: 20px;
+  border-left: 1px solid #DCDCDC;
+  border-top: 1px solid #DCDCDC;
+
+}
+
+#quote-section-1 .blue-bg {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#quote-section-1 .left-content {
+  border-top-left-radius: 8px;
+}
+
+#quote-section-1 #home-form {
+  margin-bottom: 80px;
+}
+
+#quote-section-1 .right-content {
+  border-top-right-radius: 8px;
 }
 
 #home-form .form-content {
   font-size: 15px;
 }
 
-#home-form .container {
+#home-form .container, #quote-section-1 .container {
   max-width: 1230px;
 }
 
@@ -11206,7 +11229,7 @@ details {
 summary {
   position: relative;
   // padding: 10px 0px 10px 0px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 550;
   color: $black;
   cursor: pointer;
@@ -11909,7 +11932,7 @@ button.close {
   }
 
   #summary2:after {
-    margin-top: -20px !important;
+    margin-top: -10px !important;
   }
 /* end of accordion responsive */
 }
@@ -13396,11 +13419,6 @@ button.close {
 
   #footer {
     padding: 30px 20px 10px 20px;
-  }
-
-  #footer h4 {
-    text-align: center;
-    margin-top: 10px;
   }
 
   #footer p {
@@ -15340,4 +15358,11 @@ button.close {
   }
 }
 /* End of Premium 1024 */
+}
+@media screen and (min-width:1024px) {
+  #footer ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
 }

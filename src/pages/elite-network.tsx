@@ -66,7 +66,7 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
               <p className="hero-text text-white">
                 IVAS Plan is our flagship insurance program for INF plan members visiting the USA, Canada, or Mexico.
               </p>
-            <Link to="/visitors-insurance-quote">  <button className="hero-btn"> Get a Quote </button></Link>
+            <Link to="/inf-easy-select">  <button className="hero-btn"> Get a Quote </button></Link>
             </div>
             <div className="col-lg-6">
               <Img fluid={hero_right_img} className="hero-right" />

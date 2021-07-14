@@ -64,7 +64,9 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
               <p className="text-white text-center hero-text">
                 INF-BMI plans provide assistance for international trips with no deductible or copayments and provides coverage for full pre-existing conditions, acute onset of pre-existing conditions, and COVID-19 as per the limits in the policy.
               </p>
-              <button className="hero-btn"> Get a Quote </button>
+              <Link to="/inf-easy-select">
+                <button className="hero-btn"> Get a Quote </button>
+              </Link>
             </div>
             <div className="col-lg-8"></div>
           </Container>
