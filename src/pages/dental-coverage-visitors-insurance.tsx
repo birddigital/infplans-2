@@ -83,7 +83,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
               You may visit any participating dentist on the plan and change providers at any time.
             </p>
             <p className="text-center">
-              To locate a participating provider in the United States, please call 408-540-3601 or visit our INF Provider Search ink to access our online provider search.
+              To locate a participating provider in the United States, please call 408-540-3601 or visit our INF Provider Search link to access our online provider search.
             </p>
             <p className="text-center">
               The cost of the plan includes insurance and non-insurance components.
@@ -156,7 +156,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
                     <Img fluid={care_pos_logo} className="right-logo-mobile" />
                     <p className="text-left text-black tab-title">Careington POS Dental Discount</p>
                     <ul>
-                      <li className="text-left text-black">Save 20% to 50% on most dental procedures including routine oral exams, unlimited cleanings, and major work such as dentures, root canals, and crowns through one of the largest dental networks nationally with a focus on neighborhood dentists.</li>
+                      <li className="text-left text-black">Save <strong>20% to 50%</strong> on most dental procedures including routine oral exams, unlimited cleanings, and major work such as dentures, root canals, and crowns through one of the largest dental networks nationally with a focus on neighborhood dentists.</li>
                       <li className="text-left text-black">Cosmetic dentistry such as bonding and veneers also included</li>
                       <li className="text-left text-black">All dentists must meet highly selective credentialing standards based on education, background, license standing and other requirements</li>
                     </ul>
@@ -167,7 +167,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
                   <div className="col-lg-12 bottom-p">
                     <ul>
                       <li className="text-left text-black">You may visit any participating dentist on the plan and change providers at any time</li>
-                      <li className="text-left text-black">To locate a participating provider, please call <strong>408-540-3601</strong> or visit our <Link to="/">INF Provider Search</Link> link to access our online provider search.</li>
+                      <li className="text-left text-black">To locate a participating provider, please call <strong>408-540-3601</strong> or visit our <a href="https://inf.solutionssimplified.com" target="_blank">INF Provider Search</a> link to access our online provider search.</li>
                     </ul>
                   </div>
                  </div>
@@ -178,7 +178,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
                     <Img fluid={unoa_logo} className="right-logo-mobile" />
                     <p className="text-left text-black tab-title">UNoA Prescription Discount Program</p>
                     <ul>
-                      <li className="text-left text-black">Plan Members will have access to savings between 15% to 60% off the retail price of generic drugs and 10% to 25% off the retail price of brand name drugs at over 68,000 participating pharmacies nationwide including Safeway, CVS, Duane Reade, Wal-Mart, Target, Walgreens, Rite Aid and many more.</li>
+                      <li className="text-left text-black">Plan Members will have access to savings between <strong>15% to 60%</strong> off the retail price of generic drugs and 10% to 25% off the retail price of brand name drugs at over 68,000 participating pharmacies nationwide including Safeway, CVS, Duane Reade, Wal-Mart, Target, Walgreens, Rite Aid and many more.</li>
                     </ul>
                   </div>
                   <div className="col-lg-5">
@@ -205,7 +205,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
                   </div>
                   <div className="col-lg-12 bottom-p">
                     <ul>
-                      <li className="text-left text-black">Plan Members save 20% to 40% off the retail price of eyewear with the EyeMed Vision Care Access Plan D discount program through the Access network. Members are eligible for discounts on exams, eyeglasses and contact lenses from more than 90,000 providers nationwide including independent optometrists, ophthalmologists, opticians and leading optical retailers such as LensCrafters®, Sears Optical®, Target Optical®, JCPenney® Optical and most Pearle Vision® locations.</li>
+                      <li className="text-left text-black">Plan Members save <strong>20% to 40%</strong> off the retail price of eyewear with the EyeMed Vision Care Access Plan D discount program through the Access network. Members are eligible for discounts on exams, eyeglasses and contact lenses from more than 90,000 providers nationwide including independent optometrists, ophthalmologists, opticians and leading optical retailers such as LensCrafters®, Sears Optical®, Target Optical®, JCPenney® Optical and most Pearle Vision® locations.</li>
                       <li className="text-left text-black">Plan Members can choose the doctors they want and the brands they love, like Ray-Ban®, Oakley ® and Coach ®.</li>
                     </ul>
                   </div>

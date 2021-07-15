@@ -106,7 +106,10 @@ const EyemedSlider = ({ className }) => {
     <div className="col-md-12 eyemed-slider mt-4">
       <Slider {...settings}>
         <div className="eyemed-content">
-          <Img fluid={independent_logo} className="eyemed-logo-img" />
+          <Img fluid={optical_logo} className="eyemed-logo-img" />
+        </div>
+        <div className="eyemed-content">
+          <Img fluid={contacts_logo} className="eyemed-logo-img" />
         </div>
         <div className="eyemed-content">
           <Img fluid={lens_logo} className="eyemed-logo-img" />
@@ -115,13 +118,10 @@ const EyemedSlider = ({ className }) => {
           <Img fluid={vision_logo} className="eyemed-logo-img" />
         </div>
         <div className="eyemed-content">
-          <Img fluid={optical_logo} className="eyemed-logo-img" />
+          <Img fluid={independent_logo} className="eyemed-logo-img" />
         </div>
         <div className="eyemed-content">
           <Img fluid={glasses_logo} className="eyemed-logo-img" />
-        </div>
-        <div className="eyemed-content">
-          <Img fluid={contacts_logo} className="eyemed-logo-img" />
         </div>
       </Slider>
     </div>

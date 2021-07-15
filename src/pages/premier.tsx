@@ -28,6 +28,7 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
   const section2_img_right = data.section2_img_right?.childImageSharp?.fluid
   const section2_img_left = data.section2_img_left?.childImageSharp?.fluid
   const book_icon = data.book_icon?.childImageSharp?.fluid
+  const book2_icon = data.book2_icon?.childImageSharp?.fluid
   const cta_bg = data.cta_bg?.childImageSharp?.fluid
   const [infBMIStatus, setInfBMIStatus] = useState(false);
 
@@ -624,7 +625,7 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
               <div className="col-lg-5 text-center">
                 <h3 className="text-black">Read INF Premier Plan<br /> Description for Age 70-99 </h3>
-                <Img fluid={book_icon} className="book-icon-img"/>
+                <Img fluid={book2_icon} className="book-icon-img"/>
                 <a href="https://infplans.com/policy_pdf/INF_Premier_Policy_Document_70_99.pdf" target="_blank">
                   <button className="read-now-btn"> Read Now </button>
                 </a>
@@ -754,6 +755,13 @@ export const query = graphql`
       }
     },
     book_icon: file(name: { eq: "book-icon" }) {
+      childImageSharp {
+        fluid(maxWidth: 400, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    book2_icon: file(name: { eq: "book2-icon" }) {
       childImageSharp {
         fluid(maxWidth: 400, quality: 100) {
           ...GatsbyImageSharpFluid

@@ -30,6 +30,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
   const inf_logo = data.inf_logo?.childImageSharp?.fluid
   const standard_popup_logo = data.standard_popup_logo?.childImageSharp?.fluid
   const book_icon = data.book_icon?.childImageSharp?.fluid
+  const book2_icon = data.book2_icon?.childImageSharp?.fluid
   const [popupStatus, setPopupStatus] = useState(false);
   const [popupNumber, setPopupNumber] = useState(1);
   const [popupReady, setPopupReady] = useState(false);
@@ -763,7 +764,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
                                  </div>
                                  <div className="col-lg-5 text-center">
                                    <h3 className="text-black">Read More for Age 70-99 </h3>
-                                   <Img fluid={book_icon} className="book-icon-img"/>
+                                   <Img fluid={book2_icon} className="book-icon-img"/>
                                    <a href="https://infplans.com/policy_pdf/INF_Standard_Policy_Document_70_99.pdf" target="_blank">
                                      <button className="read-now-btn"> Read Now </button>
                                    </a>
@@ -891,7 +892,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
       <div className="col-lg-12">
       <div className="plans-container">
        <h2 className="text-blue text-center">Diplomat America</h2>
-         <p>Diplomat America Plan Features:</p>
+         <p className="features-title">Diplomat America Plan Features:</p>
            <ul className="plan-features">
              <li>Covers COVID-19 or Coronavirus like a New Sickness</li>
              <li>Emergency Medical Evacuation and Repatriation: $500,000</li>
@@ -905,7 +906,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
              <li>Athletic & Hazardous Activity Benefit Available Political and Natural Disaster Evacuation: $50,000</li>
            </ul>
 
-             <p>This plan is designed for:</p>
+             <p className="features-title">This plan is designed for:</p>
 
              <div className="row">
                <div className="col-lg-6">
@@ -1016,12 +1017,19 @@ export const query = graphql`
         }
       }
     },
-      book_icon: file(name: { eq: "book-icon" }) {
-        childImageSharp {
-          fluid(maxWidth: 400, quality: 100) {
-            ...GatsbyImageSharpFluid
-          }
+    book_icon: file(name: { eq: "book-icon" }) {
+      childImageSharp {
+        fluid(maxWidth: 400, quality: 100) {
+          ...GatsbyImageSharpFluid
         }
-      },
+      }
+    },
+    book2_icon: file(name: { eq: "book2-icon" }) {
+      childImageSharp {
+        fluid(maxWidth: 400, quality: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
   }
 `

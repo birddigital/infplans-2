@@ -69,11 +69,11 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
               <p>
                 ** This service is not available when traveling to Canada or Mexico.
               </p>
-              <p><strong>
+              <p className="note"><strong>
                 Please note:
               </strong></p>
-              <p>Services described on this page are not affiliated with Crum & Forster SPC. </p>
-              <p>Cost of the plan includes insurance and non-insurance components</p>
+              <p className="note-content">Services described on this page are not affiliated with Crum & Forster SPC. </p>
+              <p className="note-content">Cost of the plan includes insurance and non-insurance components</p>
             </div>
           </div>
         </Container>

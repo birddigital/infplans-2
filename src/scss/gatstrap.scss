@@ -599,6 +599,7 @@ section.home-hero-section-bg::after {
   margin-top: 20px;
   min-height: 144px;
   max-height: 144px;
+  color: #888888;
 }
 
 #truspilot-section-background h3 {
@@ -1018,6 +1019,7 @@ section#home-testimonial-section {
   padding-left: 25px;
   padding-right: 25px;
   min-height: 72px;
+  color: #192D35;
 }
 
 .articles-slider .articles-container {
@@ -2310,7 +2312,7 @@ section#elite-section1 {
   font-size: 20px;
 }
 
-#elite-section1 a.read-more {
+#elite-section1 a.read-more, a.read-less {
   color: #252362;
   text-decoration: none;
   font-weight: 600;
@@ -2743,7 +2745,7 @@ section#traveler-usa-section1 {
   font-size: 20px;
 }
 
-#traveler-usa-section1 a.read-more {
+#traveler-usa-section1 a.read-more, a.read-less {
   color: #252362;
   text-decoration: none;
   font-weight: 600;
@@ -3180,7 +3182,7 @@ section#premier-section1 {
   font-size: 20px;
 }
 
-#premier-section1 a.read-more {
+#premier-section1 a.read-more, a.read-less {
   color: #252362;
   text-decoration: none;
   font-weight: 600;
@@ -3834,7 +3836,7 @@ section#standard-section1 {
   font-size: 20px;
 }
 
-#standard-section1 a.read-more {
+#standard-section1 a.read-more, a.read-less {
   color: #252362;
   text-decoration: none;
   font-weight: 600;
@@ -6842,8 +6844,8 @@ section#diplomat-international-section-3 {
 .miscellaneous-tab ul li label {
   font-family: "poppins";
   float: left;
-  padding: 15px 20px;
-  min-height: 122px;
+  padding: 5px 10px;
+  min-height: 102px;
   border-bottom: 0;
   font-weight: 600;
   width: 25%;
@@ -6922,15 +6924,15 @@ section#diplomat-international-section-3 {
 }
 
 .miscellaneous-tabone .title {
-  padding-top: 45px;
+  padding-top: 35px;
 }
 
 .miscellaneous-tabtwo .title {
-  padding-top: 45px;
+  padding-top: 35px;
 }
 
 .miscellaneous-tabthree .title {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 #diplomat-international-section-5 h3 {
@@ -7819,6 +7821,10 @@ section.plans-hero-section-bg {
 #plans-section-7 p {
   font-weight: 400;
   padding-top: 5px;
+  font-size: 18px;
+}
+
+#plans-section-8 .features-title {
   font-size: 18px;
 }
 
@@ -9056,6 +9062,12 @@ section.bmi-travel-hero-section-bg {
   margin-right: auto;
 }
 
+#bmi-travel-section-1 a.read-more, a.read-less {
+  color: #252362;
+  text-decoration: none;
+  font-weight: 600;
+}
+
 #bmi-travel-section-2 h4 {
   font-weight: 500;
   font-size: 20px;
@@ -9560,6 +9572,7 @@ section#bmi-travel-section-2 {
  min-height: 285px;
  padding-top: 20px;
  padding-bottom: 20px;
+ padding-left: 50px;
 }
 
 #bmi-travel-section-7 .row {
@@ -9849,7 +9862,7 @@ section.eyemed-hero-section-bg {
 
 #eyemed-section-1 .eyemed-form-container {
   box-shadow: 0px 0px 12px 0px #dddddd;
-  padding: 50px 50px 30px 50px;
+  padding: 60px 50px 58px 50px;
 }
 
 #eyemed-section-1 .eyemed-container {
@@ -9861,10 +9874,10 @@ section.eyemed-hero-section-bg {
   width: 107%;
 }
 
-#eyemed-section-1  .get-quote-btn {
+#eyemed-section-1 .get-quote-btn {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 40px;
   display: block;
   background: #252362;
   border: 2px solid #252362;
@@ -9893,38 +9906,42 @@ section.eyemed-hero-section-bg {
   text-align: left;
 }
 
-input[type="date"].form-control, input[type="time"].form-control, input[type="datetime-local"].form-control, input[type="month"].form-control {
+#eyemed-section-1 input[type="date"].form-control, input[type="time"].form-control, input[type="datetime-local"].form-control, input[type="month"].form-control {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
 
-.form-control {
+#eyemed-section-1 .form-control {
   display: block;
   width: 100%;
   height: 50px;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #495057;
+  color: #000000;
   background-color: #ffffff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #C6C6C6;
   border-radius: 0;
   margin-top: 30px;
 }
 
-  #eyemed-form select {
-    width: 100%;
-    color: #555;
-    border: 1px solid #ced4da !important;
-    outline: none;
-    height: 50px;
-    border-radius: 0;
-    padding-left: 5px;
-    padding-right: 5px;
-    appearance: auto;
-  }
+#eyemed-section-1 .form-control:focus {
+  box-shadow: 0px 0px 0px 1px rgba(225, 225, 225, 1);
+}
+
+#eyemed-form select {
+  width: 100%;
+  color: #000000;
+  border: 1px solid #C6C6C6 !important;
+  outline: none;
+  height: 50px;
+  border-radius: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  appearance: auto;
+}
 
 #eyemed-section-1 p {
   font-size: 18px;
@@ -9946,9 +9963,10 @@ input[type="date"].form-control, input[type="time"].form-control, input[type="da
   background: #ffffff;
   border: 2px solid #ffffff;
   color: #252362;
-  padding: 5px 70px;
+  padding: 10px 70px;
   border-radius: 50px;
   transition: .5s;
+  font-size: 20px;
 }
 
 #eyemed-section-1 .get-now-btn:hover {
@@ -9958,12 +9976,18 @@ input[type="date"].form-control, input[type="time"].form-control, input[type="da
 
 #eyemed-section-1 .flipcard-icon {
   max-width: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
+  margin: auto;
 }
 
 #eyemed-section-1 .flipcard-icon1 {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+#eyemed-section-1 .flipcard-icon2 {
   max-width: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -9973,27 +9997,28 @@ input[type="date"].form-control, input[type="time"].form-control, input[type="da
 #eyemed-section-1 h3 {
   font-weight: 500;
   font-size: 30px;
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 0;
 }
 
 #eyemed-section-1 .bright {
   font-weight: 500;
   font-size: 30px;
-  margin-top: 35px;
+  margin-top: 30px;
   margin-bottom: 0;
 }
 
 #eyemed-section-1 .bold {
   font-weight: 500;
   font-size: 30px;
-  margin-top: 15px;
+  margin-top: 30px;
   margin-bottom: 0;
 }
 
 #eyemed-section-1 .flipcard-col {
   border: 1px solid #DCDCDC;
   padding: 0;
+  margin-bottom: 15px;
 }
 
 #eyemed-section-1 .flipcard-container {
@@ -10004,7 +10029,7 @@ input[type="date"].form-control, input[type="time"].form-control, input[type="da
 
 #eyemed-section-1 .flipcard-container-inner {
   background: #fff;
-  padding: 30px 20px;
+  padding: 10px 20px;
   border-top: 10px solid;
   border-image: linear-gradient( 45deg , rgb(41,40,103), rgb(108,200,235)) 1;
   box-shadow: 0px 0px 12px 0px #666666;
@@ -10096,7 +10121,7 @@ section#eyemed-section-2 {
 
 #eyemed-section-3 .eyemed-content {
   line-height: 2;
-  font-size: 18px;
+  font-size: 16px;
   padding-bottom: 25px;
 }
 
@@ -10220,7 +10245,7 @@ section#why-inf-section-1 {
 }
 
 .why-inf-hero-section-bg {
-  background-position: bottom !important; 
+  background-position: bottom !important;
 }
 /* End of Why Inf Styles */
 
@@ -10505,7 +10530,6 @@ section#apply-hero-section {
 }
 
 #apply-section-2 p {
-  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -11147,32 +11171,40 @@ section#telemedicine-hero-section {
   margin-top: 150px;
 }
 
-.telemedicine-container {
+#telemedicine-section-1 .telemedicine-container {
   box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 30px 50px;
 }
 
-.telemedicine-container h2{
+.telemedicine-container h2 {
   color: #252362;
   font-weight: 500;
 }
 
-.telemedicine-container p{
+#telemedicine-section-1 .telemedicine-container p {
   line-height: 2.0;
+}
+
+#telemedicine-section-1 .note {
+  margin-bottom: 0;
+}
+
+#telemedicine-section-1 .note-content {
+  margin-bottom: 0;
 }
 
 #telemedicine-section-1 {
   padding-top: 100px;
 }
 
-#telemedicine-section-1 .container-fluid{
+#telemedicine-section-1 .container-fluid {
   background: #252362;
   padding: 50px 50px 70px 100px;
   color: $white;
   margin-top: 50px;
 }
 
-#telemedicine-section-1 .container-fluid h3{
+#telemedicine-section-1 .container-fluid h3 {
    font-size: 35px;
    font-weight: 400;
  }
@@ -11199,11 +11231,11 @@ section#telemedicine-hero-section {
   color: $white;
 }
 
-#telemedicine-section-1 .container-fluid .col-lg-12{
+#telemedicine-section-1 .container-fluid .col-lg-12 {
  padding-bottom: 40px;
 }
 
-#telemedicine-section-1 .container-fluid .col-lg-7 p{
+#telemedicine-section-1 .container-fluid .col-lg-7 p {
   line-height: 2.0;
   font-size: 18px;
 }
@@ -12589,6 +12621,10 @@ button.close {
     padding-bottom: 30px;
   }
 
+  #elite-section4 {
+    margin-bottom: -40px;
+  }
+
   #elite-section5 .row.mt-4 {
     margin-top: -30px!important;
   }
@@ -13462,6 +13498,7 @@ button.close {
   .testimonial-slider .slick-next {
     right: 44%;
   }
+
 }
 
 @media screen and (max-width:805px) {
@@ -13495,6 +13532,10 @@ button.close {
   .testimonial-slider .slick-next {
     right: 42%;
   }
+
+  #eyemed-section-1 .get-quote-btn {
+    padding: 8px 125px;
+  }
 }
 
 @media screen and (max-width:647px) {
@@ -13523,7 +13564,16 @@ button.close {
   .testimonial-slider .slick-next {
     right: 38%;
   }
+
+  #eyemed-section-1 .get-quote-btn {
+    padding: 8px 100px;
+  }
+
+  #eyemed-section-1 .get-now-btn {
+    padding: 5px 70px;
+  }
 }
+
 
 @media screen and (max-width: 425px) {
   .articles-slider .slick-next {
@@ -13550,6 +13600,10 @@ button.close {
 
   .testimonial-slider .slick-next {
     right: 34%;
+  }
+
+ #footer h4 {
+    text-align: center;
   }
 
   /* claims flip card responsive */
@@ -14791,31 +14845,41 @@ button.close {
     margin-top: 30px;
   }
 
+  #eyemed-form select {
+    margin-bottom: 20px;
+  }
+
+
+  #eyemed-section-1 .form-title {
+    padding-top: 15px;
+  }
+
+  #eyemed-section-1 .flipcard-icon, #eyemed-section-1 .flipcard-icon1 {
+    max-width: 80px;
+  }
+
+  #eyemed-section-1 .flipcard-icon2 {
+    max-width: 100px;
+    margin-top: 15px;
+  }
+
+  #eyemed-section-1 h3, #eyemed-section-1 .bold, #eyemed-section-1 .bright {
+    margin-top: 5px;
+  }
+
   input[type="date"].form-control, input[type="time"].form-control, input[type="datetime-local"].form-control, input[type="month"].form-control {
     width: 96%;
     margin-left: auto;
     margin-right: auto
   }
 
-  #eyemed-form select {
-    margin-bottom: 20px;
-  }
-
   #eyemed-form .any {
     width: 96%;
     margin-left: 14px;
-    margin-right: auto;
   }
 
-  #eyemed-section-1 .form-title {
-    padding-top: 15px;
-  }
-
-  #eyemed-section-1 .flipcard-icon1 {
-    max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
+  #eyemed-section-1 input[type="date"].form-control {
+    width: 96%;
   }
 
   #eyemed-section-1 h2 {
@@ -14921,6 +14985,10 @@ button.close {
   .apply-tab ul li label {
     width: 100%;
     padding: 10px 15px;
+  }
+
+  #footer h4 {
+    text-align: center;
   }
 }
 
@@ -15315,15 +15383,40 @@ button.close {
 
   #eyemed-section-1 h3 {
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 10px;
+  }
+
+  #eyemed-section-1 input[type="date"].form-control {
+    width: 86%;
+  }
+
+  #eyemed-section-1 .form-title, #eyemed-section-1 .form-title1 {
+    font-size: 16px;
+  }
+
+  #eyemed-form .any {
+    width: 85%;
+    margin-left: 15px;
+  }
+
+  #eyemed-section-1 .get-quote-btn {
+    padding: 8px 50px;
+  }
+
+  #eyemed-section-1 .get-now-btn {
+    padding: 5px 60px;
   }
 
   #eyemed-section-1 .flipcard-container-inner {
-    min-height: 240px;
+    min-height: 168px;
   }
 
-  #eyemed-section-1 .flipcard-container {
-    min-height: 230px;
+  #eyemed-section-1 .flipcard-content {
+    font-size: 16px;
+  }
+
+  #eyemed-section-1 .inner-content {
+    margin-top: auto;
   }
 
   #bmi-travel-section-7 .tab-content1 {

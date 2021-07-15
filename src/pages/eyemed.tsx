@@ -13,6 +13,7 @@ import ButtonBlack from 'components/button/button-black'
 import EyemedSlider from 'components/sliders/eyemed-slider'
 import { Helmet } from 'react-helmet'
 
+
 interface Props {
   data: IndexQueryQuery
   location: Location
@@ -129,10 +130,10 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="flip-card-inner">
                   <div className="flipcard-container flip-card-front">
                   <div className="row">
-                    <div className="col-lg-5">
+                    <div className="col-lg-4">
                       <Img fluid={eye_healthy_img} className="flipcard-icon" alt="Eyemed Healthy" />
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-lg-8">
                     <h3 className="text-center">EyeMed Healthy</h3>
                     </div>
                   </div>
@@ -147,10 +148,10 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="flip-card-inner">
                   <div className="flipcard-container flip-card-front">
                   <div className="row">
-                    <div className="col-lg-5">
-                    <Img fluid={eye_bold_img} className="flipcard-icon" alt="Eyemed Bold" />
+                    <div className="col-lg-4">
+                    <Img fluid={eye_bold_img} className="flipcard-icon1" alt="Eyemed Bold" />
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-lg-8">
                     <h3 className="text-center bold">EyeMed Bold</h3>
                     </div>
                   </div>
@@ -165,10 +166,10 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="flip-card-inner">
                   <div className="flipcard-container flip-card-front">
                   <div className="row">
-                    <div className="col-lg-5">
-                    <Img fluid={eye_bright_img} className="flipcard-icon1" alt="Eyemed Bright" />
+                    <div className="col-lg-4">
+                    <Img fluid={eye_bright_img} className="flipcard-icon2" alt="Eyemed Bright" />
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-lg-8">
                     <h3 className="text-center bright">EyeMed Bright</h3>
                     </div>
                   </div>
