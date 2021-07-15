@@ -7703,7 +7703,7 @@ section.plans-hero-section-bg {
   line-height: 2;
   list-style: disc;
   text-align: left;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .bmi-plans-tab ul li label {
@@ -14082,18 +14082,38 @@ button.close {
     margin-top: 20px;
   }
 
+  #plans-section-7 .bmi-plans-tab section div ul {
+    padding-left: 80px;
+  }
+
+  #plans-section-7 .title {
+    padding-top: 15px;
+  }
+
+  #plans-section-7 .bmi-plans-tab section div {
+    padding: 1px;
+  }
+
+  #plans-section-7 .bmi-plans-tab ul li label {
+    width: 100%;
+    min-height: 0;
+    margin-bottom: 0;
+  }
+
+  #plans-section-7 .covid-coverage {
+    padding-left: 50px;
+  }
+
   #plans-section-8 .bmi-content1 {
     padding: 10px;
   }
 
-  .bmi-plans-tab section div {
-    padding: 0;
+  #plans-section-8 .features-title {
+    padding-left: 20px;
   }
 
-  .bmi-plans-tab ul li label {
-    width: 100%;
-    min-height: 0;
-    margin-bottom: 0;
+  #plans-section-8 .plan-features {
+    padding-left: 40px;
   }
 
   #bmi-plans-tabone:checked ~ section .bmi-plans-tabone,
@@ -14122,6 +14142,10 @@ button.close {
 
   #plans-section-8 .covid-content {
     padding: 5px;
+  }
+
+  #plans-section-8 .plan-design {
+    padding-left: 20px;
   }
 
   .process-tab ul li label {
@@ -14156,14 +14180,6 @@ button.close {
   #plans-section-8 {
     padding-top: 0;
     padding-bottom: 40px;
-  }
-
-  #plans-section-8 .plan-features {
-    padding-left: 20px;
-  }
-
-  #plans-section-8 .plan-design {
-    padding: 0;
   }
 
   #diplomat-america-hero-section h1 {

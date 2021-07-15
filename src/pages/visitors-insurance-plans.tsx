@@ -126,7 +126,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
             <Img fluid={inf_logo} className="plans-logo"/>
             <p className="text-center">Elite Network</p>
               <button className="plan-btn">Plan Details </button>
-            <button className="get-btn">Get a Quote </button>
+            <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
           </div>
        </div>
       </div>
@@ -163,7 +163,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
           <Img fluid={inf_logo} className="plans-logo"/>
           <p className="text-center">Standard</p>
             <button className="plan-btn">Plan Details</button>
-            <button className="get-btn">Get a Quote </button>
+            <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
         </div>
      </div>
     </div>
@@ -202,7 +202,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
            <Img fluid={inf_logo} className="plans-logo"/>
            <p className="text-center">Premier</p>
             <button className="plan-btn">Plan Details </button>
-           <button className="get-btn">Get a Quote </button>
+            <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
          </div>
       </div>
      </div>
@@ -238,7 +238,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
          <Img fluid={inf_logo} className="plans-logo"/>
          <p className="text-center">Traveler USA</p>
           <button className="plan-btn">Plan Details </button>
-         <button className="get-btn">Get a Quote </button>
+          <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
        </div>
     </div>
    </div>
