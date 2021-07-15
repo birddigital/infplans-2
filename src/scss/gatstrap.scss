@@ -12637,6 +12637,10 @@ button.close {
     margin-top: 30px;
   }
 
+  #elite-section5 h2 {
+    padding-top: 40px;
+  }
+
   #elite-section5 .book-icon-img {
     margin-top: 15px;
   }
@@ -14400,6 +14404,14 @@ button.close {
     text-align: center;
   }
 
+  #diplomat-international-section-1 p {
+    margin-left: 10px;
+  }
+
+  #diplomat-international-section-2 p {
+    margin-left: 10px;
+  }
+
   #diplomat-international-hero-section .hero-btn {
     padding: 8px 40px;
     margin-left: auto;
@@ -14607,11 +14619,12 @@ button.close {
   }
 
   .miscellaneous-tabtwo .title {
-    padding-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .miscellaneous-tabthree .title {
-    padding-top: 15px;
+    padding-top: 10px;
   }
 
   #bmi-travel-hero-section h1 {
@@ -14818,9 +14831,13 @@ button.close {
    padding-top: 15px;
  }
 
- section#bmi-travel-section-9 {
-   padding-bottom: 30px;
- }
+   section#bmi-travel-section-9 {
+     padding-bottom: 30px;
+   }
+
+   #ihc-section-1 {
+     padding-top: 0;
+   }
 
  section#eyemed-section-1 {
     padding-top: 30px;
@@ -14865,6 +14882,9 @@ button.close {
     margin-bottom: 20px;
   }
 
+  #eyemed-section-1 .inner-content {
+    margin-top: 25px;
+  }
 
   #eyemed-section-1 .form-title {
     padding-top: 15px;
@@ -15005,6 +15025,23 @@ button.close {
 
   #footer h4 {
     text-align: center;
+  }
+
+  #premium-section-2 .fixed {
+    margin-top: 45px;
+    min-height: 300px;
+  }
+
+  #premium-section-1 h3 {
+    font-size: 40px;
+  }
+
+  #premium-section-2 .network {
+    min-height: 280px;
+  }
+
+  #premium-section-2 .pre-existing {
+    min-height: 280px;
   }
 }
 
@@ -15447,34 +15484,13 @@ button.close {
     width: 115%;
     margin-left: 0px;
   }
+}
 
 /* End of Gillian Responsiveness */
 
-/* Premium 1024 */
-@media screen and (max-width:1024px) {
-  #premium-section-2 .fixed {
-    margin-top: 45px;
-    min-height: 300px;
-  }
-
-  #premium-section-1 h3 {
-    font-size: 40px;
-  }
-
-  #premium-section-2 .network {
-    min-height: 280px;
-  }
-
-  #premium-section-2 .pre-existing {
-    min-height: 280px;
-  }
-}
-/* End of Premium 1024 */
-}
 @media screen and (min-width:1024px) {
   #footer ul {
     display: flex;
     justify-content: space-evenly;
   }
-
 }

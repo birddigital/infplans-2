@@ -58,7 +58,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
       </div>
       </BackgroundImage>
 
-      <section id="diplomat-america-section">
+      <section id="diplomat-america-section-1">
         <Container>
           <div className="col-lg-12">
             <div className="diplomat-america-container">
