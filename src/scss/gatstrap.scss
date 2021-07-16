@@ -10511,8 +10511,7 @@ section#apply-hero-section {
     background: #252362;
     border: 2px solid #252362;
     color: #ffffff;
-    padding: 8px 50px;
-    width: 80%;
+    padding: 8px 160px;
     border-radius: 50px;
     transition: .5s;
 }
@@ -13552,6 +13551,10 @@ button.close {
   #diplomat-america-section-3 .enroll-btn {
     padding: 8px 90px;
   }
+
+  #apply-section-2 .get-apply-btn {
+    padding: 8px 90px;
+  }
 }
 
 @media screen and (max-width:647px) {
@@ -15052,7 +15055,6 @@ button.close {
   }
 
   #apply-section-2 .get-apply-btn {
-    width: 40%;
     margin-bottom: 20px;
   }
 
@@ -15575,8 +15577,7 @@ button.close {
   }
 
   #apply-section-2 .get-apply-btn {
-    width: 115%;
-    margin-left: 0px;
+    padding: 8px 35px;
   }
 }
 
