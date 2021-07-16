@@ -64,7 +64,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
         Tag="section"
         className="home-hero-section-bg"
         fluid={hero_background}
-        alt="Find the right coverage for your trip"
+        alt="Find the righ  t coverage for your trip"
         id="home-hero-section-background"
       >
         <div id="home-hero-section">

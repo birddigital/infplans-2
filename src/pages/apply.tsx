@@ -124,7 +124,7 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   </p>
-                  <button className="get-apply-btn"> Get a Quote </button>
+                  <Link to="/inf-easy-select"><button className="get-apply-btn"> Get a Quote </button></Link>
                 </div>
                 <div className="col-lg-5">
                   <Img fluid={apply_right_img} className="apply-right-img"/>

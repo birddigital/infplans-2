@@ -97,7 +97,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="col-lg-7 enroll-content">
                 <h2 className="text-blue">Enroll in Diplomat America</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <button className="enroll-btn"> Enroll Now </button>
+                <Link to="/diplomat-america/#diplomat-america-section-7"><button className="enroll-btn"> Enroll Now </button></Link>
               </div>
 
               <div className="col-lg-5">
