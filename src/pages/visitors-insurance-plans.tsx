@@ -859,10 +859,10 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="col-lg-12 inf-bmi-plans">
                <div className="col-lg-12 covid-coverage">
                    <p className="covid-content">The coverage provided for chronic and / or pre-existing diseases includes the following eventualities:</p>
-                <ul>
+                <ul className="list-content1">
                    <li>Acute episode or unpredictable event</li>
                    <li>Decompensation of</li>
-                <ul className="decom">
+                <ul className="list-content2">
                   <li>A Chronic issue</li>
                   <li>A Pre-existing diseases known</li>
                   <li>A previously asymptomatic pre-existing condition </li>

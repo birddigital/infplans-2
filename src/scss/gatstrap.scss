@@ -5192,7 +5192,7 @@ section#bmi-apply-hero-section {
     .multi-step-select::after {
       content: '\25BC';
       position: absolute;
-      top: 0;
+      top: 14px;
       right: 15px;
       padding: 0 1em;
       cursor: pointer;
@@ -5201,7 +5201,6 @@ section#bmi-apply-hero-section {
       -o-transition: .25s all ease;
       transition: .25s all ease;
       color: #7DA9DA;
-      margin-top: 44px;
     }
 
     .bmi-form-content-container input[name="start_date"]:before {
@@ -6298,10 +6297,12 @@ section#diplomat-america-section-4 {
 
 #diplomat-america-section-6 .claims {
   margin-left: 30px;
+  font-size: 20px;
 }
 
 #diplomat-america-section-6 .claims2 {
-  margin-left: 65px;
+  margin-left: 55px;
+  font-size: 20px;
 }
 
 #diplomat-america-section-6 .administrator {
@@ -7007,8 +7008,9 @@ section#diplomat-international-section-3 {
   border-radius: 0;
   padding-left: 5px;
   padding-right: 5px;
-  appearance: auto;
+  appearance: none;
 }
+
 
 #diplomat-form .traveller {
   width: 100%;
@@ -7021,7 +7023,9 @@ section#diplomat-international-section-3 {
   padding-right: 5px;
   appearance: auto;
   margin-left: -14px;
+  appearance: none;
 }
+
 
 #diplomat-form .plan-selection {
   width: 100%;
@@ -7050,7 +7054,9 @@ section#diplomat-international-section-3 {
   appearance: auto;
   margin-bottom: 15px;
   margin-top: 15px;
+  appearance: none;
 }
+
 
 #diplomat-form .visitor-title {
   font-size: 25px;
@@ -9938,10 +9944,11 @@ section.eyemed-hero-section-bg {
   outline: none;
   height: 50px;
   border-radius: 0;
-  padding-left: 5px;
+  padding-left: 10px;
   padding-right: 5px;
-  appearance: auto;
+  appearance: none;
 }
+
 
 #eyemed-section-1 p {
   font-size: 18px;
@@ -14076,18 +14083,8 @@ button.close {
     padding: 20px 20px 30px 20px;
   }
 
-  #plans-section-8 h3 {
-    font-weight: 500;
-    font-size: 25px;
-    padding-bottom: 20px;
-  }
-
   #plans-section-7 .bmi-bg {
     margin-top: 20px;
-  }
-
-  #plans-section-7 .bmi-plans-tab section div ul {
-    padding-left: 80px;
   }
 
   #plans-section-7 .title {
@@ -14108,6 +14105,26 @@ button.close {
     padding-left: 50px;
   }
 
+  #plans-section-7 .bmi-plans-tab section div ul {
+    padding-left: 45px;
+  }
+
+  #plans-section-7 .expense-content {
+    margin-left: 0;
+  }
+
+  #plans-section-7 .covid-content {
+    padding-left: 20px;
+  }
+
+  #plans-section-7 .list-content1 {
+    padding-left: 45px;
+  }
+
+  #plans-section-7 .list-content2 {
+    padding-left: 25px;
+  }
+
   #plans-section-8 .bmi-content1 {
     padding: 10px;
   }
@@ -14120,10 +14137,10 @@ button.close {
     padding-left: 40px;
   }
 
-  #bmi-plans-tabone:checked ~ section .bmi-plans-tabone,
-  #bmi-plans-tabtwo:checked ~ section .bmi-plans-tabtwo,
-  #bmi-plans-tabthree:checked ~ section .bmi-plans-tabthree {
-    padding-top: 0px;
+  #plans-section-8 h3 {
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 20px;
   }
 
   #plans-section-8 .inf-bmi-plans {
@@ -14152,22 +14169,6 @@ button.close {
     padding-left: 20px;
   }
 
-  .process-tab ul li label {
-    width: 100%;
-    min-height: 0;
-    margin-bottom: 0;
-  }
-
-  .process-tabthree .title {
-    padding-top: 15px;
-  }
-
-  #process-tabone:checked ~ section .process-tabone,
-  #process-tabtwo:checked ~ section .process-tabtwo,
-  #process-tabthree:checked ~ section .process-tabthree {
-    padding-top: 0px;
-  }
-
   #plans-section-8 h2 {
     font-weight: 500;
     font-size: 25px;
@@ -14184,6 +14185,32 @@ button.close {
   #plans-section-8 {
     padding-top: 0;
     padding-bottom: 40px;
+  }
+
+  .bmi-plans-tab ul li label {
+    padding: 15px 15px;
+  }
+
+  #bmi-plans-tabone:checked ~ section .bmi-plans-tabone,
+  #bmi-plans-tabtwo:checked ~ section .bmi-plans-tabtwo,
+  #bmi-plans-tabthree:checked ~ section .bmi-plans-tabthree {
+    padding-top: 0px;
+  }
+
+  .process-tab ul li label {
+    width: 100%;
+    min-height: 0;
+    margin-bottom: 0;
+  }
+
+  .process-tabthree .title {
+    padding-top: 15px;
+  }
+
+  #process-tabone:checked ~ section .process-tabone,
+  #process-tabtwo:checked ~ section .process-tabtwo,
+  #process-tabthree:checked ~ section .process-tabthree {
+    padding-top: 0px;
   }
 
   #diplomat-america-hero-section h1 {
@@ -14918,6 +14945,10 @@ button.close {
     width: 96%;
   }
 
+  #eyemed-form .eyemed-any-select::after {
+    right: 32px;
+  }
+
   #eyemed-section-1 h2 {
     font-weight: 500;
     font-size: 25px;
@@ -14993,6 +15024,11 @@ button.close {
   #apply-section-1 .read-btn {
     width: 45%;
     font-size: 15px;
+  }
+
+  #apply-section-1 h2 {
+    font-weight: 500;
+    font-size: 25px;
   }
 
   #apply-section-1 .download-btn {
@@ -15355,6 +15391,26 @@ button.close {
     margin-left: 0;
   }
 
+  #diplomat-america-section-6 .claims {
+    margin-left: 0;
+  }
+
+  #diplomat-america-section-6 .claim-disease {
+    margin-left: 30px;
+  }
+
+  #diplomat-america-section-6 .claims2 {
+    margin-left: -15px;
+  }
+
+  #diplomat-america-section-6 .administrator {
+    margin-left: 0;
+  }
+
+  #diplomat-america-section-5 .benefits-tab ul li label {
+    padding: 15px 15px;
+  }
+
   section.diplomat-international-hero-section-bg {
     padding-bottom: 50px;
   }
@@ -15406,6 +15462,10 @@ button.close {
     padding: 8px 61px;
   }
 
+  .international-tab ul li label {
+    padding: 15px 5px;
+  }
+
   .international-tabtwo summary {
     font-size: 13px;
   }
@@ -15416,6 +15476,10 @@ button.close {
 
  .inner-content {
     font-size: 14px;
+  }
+
+  #plans-section-7 .list-content2 {
+    padding-left: 18px;
   }
 
   #about-hero-section .hero-btn {
@@ -15453,11 +15517,11 @@ button.close {
   }
 
   #eyemed-section-1 .get-quote-btn {
-    padding: 8px 50px;
+    padding: 8px 40px;
   }
 
   #eyemed-section-1 .get-now-btn {
-    padding: 5px 60px;
+    padding: 5px 50px;
   }
 
   #eyemed-section-1 .flipcard-container-inner {
@@ -15470,6 +15534,22 @@ button.close {
 
   #eyemed-section-1 .inner-content {
     margin-top: auto;
+  }
+
+  #eyemed-section-3 {
+    padding-bottom: 10px;
+  }
+
+  #eyemed-section-3 .eyemed-content {
+    margin-bottom: 0;
+  }
+
+  #bmi-travel-section-3 .blue-bg {
+    padding: 15px;
+  }
+
+  #bmi-travel-section-6 .conditions-tab ul li label {
+    padding: 15px 8px;
   }
 
   #bmi-travel-section-7 .tab-content1 {
