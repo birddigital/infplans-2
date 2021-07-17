@@ -12,6 +12,7 @@ import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { Helmet } from 'react-helmet'
 import HomeForm from 'components/HomeForm'
+import GetAQuote from 'components/forms/GetAQuote'
 
 interface Props {
   data: IndexQueryQuery
@@ -58,7 +59,7 @@ const InsuranceQuotePage: React.FC<Props> = ({ data, location }: Props) => {
       </BackgroundImage>
 
       <section id="quote-section-1">
-         <HomeForm />
+        <GetAQuote />
         <Container>
           <div className="col-lg-12">
             <div className="quote-container">

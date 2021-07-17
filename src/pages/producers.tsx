@@ -54,6 +54,11 @@ const ProducersPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="producers-section1">
         <Container>
           <div className="col-lg-12">
+            <div className="embed-container">
+              <iframe src="http://localhost:8001/forms/producers-login.php" id="members-login-form"></iframe>
+            </div>
+          </div>
+          {/*<div className="col-lg-12">
             <div className="row producers-container">
               <div className="col-lg-5">
                 <Img fluid={infplans_big_logo} className="big-logo"/>
@@ -66,7 +71,7 @@ const ProducersPage: React.FC<Props> = ({ data, location }: Props) => {
                 </form>
               </div>
             </div>
-          </div>
+          </div>*/}
         </Container>
       </section>
     </Layout>

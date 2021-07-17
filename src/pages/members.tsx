@@ -54,6 +54,11 @@ const MembersPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="members-section1">
         <Container>
           <div className="col-lg-12">
+            <div className="embed-container">
+              <iframe src="http://localhost:8001/forms/members-login.php" id="members-login-form"></iframe>
+            </div>
+          </div>
+          {/*<div className="col-lg-12">
             <div className="row members-container">
               <div className="col-lg-12">
                 <h3 className="text-blue text-center row-title">Welcome to the Insured Portal. Extend existing plans, apply new plans, print ID cards, Dental and Vision Discount cards.</h3>
@@ -73,7 +78,7 @@ const MembersPage: React.FC<Props> = ({ data, location }: Props) => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
         </Container>
       </section>
     </Layout>

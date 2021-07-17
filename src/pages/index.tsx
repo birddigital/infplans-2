@@ -13,6 +13,7 @@ import LogoSlider from 'components/sliders/logo-slider'
 import ArticlesSlider from 'components/sliders/articles-slider'
 import { Helmet } from 'react-helmet'
 import HomeForm from 'components/HomeForm'
+import GetAQuote from 'components/forms/GetAQuote'
 {/* import OGImage from '../../content/images/logo.png'*/}
 
 interface Props {
@@ -75,7 +76,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               </h1>
             </div>
           </Container>
-          <HomeForm/>
+          <GetAQuote />
         </div>
 
       </BackgroundImage>
