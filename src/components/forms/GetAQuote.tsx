@@ -11,7 +11,7 @@ const GetAQuote: React.FC<Props> = ({ path }: Props) => {
     <Container>
       <div className="col-lg-12" id="quote-form-container">
         <div className="embed-container">
-          <iframe src="https://adrienb3.sg-host.com/forms/get-a-quote.php" id="quote-form"></iframe>
+          <iframe src="https://adrienb3.sg-host.com/forms/get-a-quote.php" id="quote-form" scrolling="no"></iframe>
         </div>
       </div>
     </Container>

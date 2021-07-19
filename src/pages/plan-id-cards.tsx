@@ -57,25 +57,9 @@ const PlanIDCardsPage: React.FC<Props> = ({ data, location }: Props) => {
 
       <section id="plan-id-section1">
         <Container>
-          <div className="col-lg-12">
-            <div className="row plan-id-container">
-              <div className="col-lg-5">
-                <Img fluid={infplans_big_logo} className="big-logo"/>
-                <h3 className="text-blue text-center">Insured Log In</h3>
-              </div>
-              <div className="col-lg-7">
-                <form method="POST" action="">
-                  <input type="email" id="email" name="email" placeholder="Email Address" />
-                  <input type="submit" value="Next" />
-                </form>
-              </div>
-              <div className="row mt-5">
-                <div className="col-lg-12">
-                  <h3 className="text-blue text-center row-title">Retrieve a INF Plan ID Card, Plan Description, Visa Letter</h3>
-                  <p className="text-black text-center">When you complete an online-enrollment of a Insurance for Visitors Plan, you will get an automated email with the Plan ID card, information, and program description. It is paramount that you print these documents and keep them for safe keeping. </p>
-                  <p className="text-black text-center">If you have any additional questions or need help requesting Plan ID cards, please contact us at 408-540-3601 or email us at support@infplans.com</p>
-                </div>
-              </div>
+          <div className="col-lg-12" id="plan-id-cards">
+            <div className="embed-container">
+              <iframe src="https://adrienb3.sg-host.com/forms/plan-id-cards-form.php" id="members-login-form" scrolling="no"></iframe>
             </div>
           </div>
         </Container>

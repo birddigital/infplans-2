@@ -518,6 +518,7 @@ button {
   height: 0;
   overflow: hidden;
   max-width: 100%;
+  z-index: 9;
 }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
@@ -1345,8 +1346,8 @@ section#plan-id-hero-section {
 }
 
 section#plan-id-section1 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 70px;
+  padding-bottom: 0px;
 }
 
 .plan-id-hero-section-bg::after {
@@ -11671,6 +11672,11 @@ button.close {
   #footer {
     padding: 50px 20px 10px 20px;
   }
+  /* home flip card responsive */
+  .flip-card-doctors {
+    padding-top: 15px !important;
+  }
+  /* end of home flip card responsive */
 }
 
 /* end of footer responsive */
@@ -11725,7 +11731,6 @@ button.close {
   }
   #quote-form-container {
     max-height: 305px;
-    overflow: hidden;
   }
 }
 
@@ -11788,7 +11793,7 @@ button.close {
   }
   .mobile-nav {
     right: 85px;
-    top: 21px;
+    top: 5px !important;
   }
 
   .hidden-md-down {
@@ -11813,6 +11818,7 @@ button.close {
   #main-navigation {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 0;
   }
 
   .service-column:nth-child(2), .service-column:nth-child(3) {
@@ -11839,8 +11845,13 @@ button.close {
     width: 100%;
   }
 
-  .navibar-top .container{
+  .navibar-top .col-lg-10, .navibar-top .col-lg-2 {
     display: none;
+  }
+
+  .navibar-top {
+    background: transparent;
+    position: absolute;
   }
 
   .mobile-nav {
@@ -11961,6 +11972,16 @@ button.close {
       position: absolute !important;
     }
   /*end of navibar mobile */
+
+  /* home flip card responsive */
+
+  #home-bottom-flipcard-section .flip-card {
+    height: 250px;
+  }
+  #home-bottom-flipcard-section .flipcard-container {
+    min-height: 250px;
+  }
+/* end of home flip card responsive */
 }
 
 @media only screen and (max-width:981px) {
@@ -16296,5 +16317,37 @@ button.close {
   #footer ul {
     display: flex;
     justify-content: space-evenly;
+  }
+}
+
+/* Jomar Styles */
+
+#plan-id-cards .embed-container {
+  padding-bottom: 68.25%;
+}
+
+#plan-id-cards #members-login-form {
+  max-height: 100% !important;
+}
+
+@media only screen and (min-width: 982px) {
+  #quote-section-1 .quote-container {
+    margin-top: -70px !important;
+  }
+}
+
+@media only screen and (max-width: 981px) {
+  #plan-id-cards .embed-container {
+    padding-bottom: 135vh;
+  }
+  #quote-form-container .embed-container {
+    padding-bottom: 85vh;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+  #plan-id-cards .embed-container {
+    padding-bottom: 150vh;
   }
 }
