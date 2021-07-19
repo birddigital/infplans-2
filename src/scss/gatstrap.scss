@@ -6496,7 +6496,7 @@ section#diplomat-america-section-4 {
 #diplomat-america-section-7 .copyright {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .diplomat-embed {
@@ -11825,6 +11825,10 @@ button.close {
     border-left: 0;
   }
 
+  .diplomat-embed {
+    min-height: 1040px;
+  }
+
   /* members login embed form responsive */
 
     #members-section1 .embed-container {
@@ -13586,6 +13590,9 @@ button.close {
   #producers-section1 .embed-container {
     min-height: 410px;
   }
+  .diplomat-embed {
+    min-height: 1335px;
+  }
 /* end of members embed form responsive */
   .articles-slider .articles-container {
     max-width: 250px;
@@ -13624,6 +13631,9 @@ button.close {
     }
     #producers-section1 .embed-container {
       min-height: 335px;
+    }
+    .diplomat-embed {
+      min-height: 1285px;
     }
 /* end of members embed form responsive */
 
@@ -13670,6 +13680,9 @@ button.close {
     #producers-section1 .embed-container {
       min-height: 405px;
     }
+    .diplomat-embed {
+      min-height: 1337px;
+    }
   /* end of members embed form responsive */
 }
 
@@ -13692,6 +13705,29 @@ button.close {
     #producers-section1 .embed-container {
       min-height: 330px;
     }
+    .diplomat-embed {
+      min-height: 1288px;
+    }
+  /* end of members embed form responsive */
+}
+
+@media screen and (max-width:401px) {
+  /* members embed form responsive */
+
+    .diplomat-embed {
+      min-height: 1303px;
+    }
+
+  /* end of members embed form responsive */
+}
+
+@media screen and (max-width:379px) {
+  /* members embed form responsive */
+
+    .diplomat-embed {
+      min-height: 1331px;
+    }
+
   /* end of members embed form responsive */
 }
 
@@ -13868,6 +13904,9 @@ button.close {
     text-align: center;
   }
 
+  .diplomat-embed {
+    min-height: 1288px;
+  }
   /* claims flip card responsive */
   #claims-form-section-1 .flipcard-container1 {
     padding: 0px 50px;
@@ -13905,6 +13944,11 @@ button.close {
   }
 }
 
+@media screen and (max-width: 371px) {
+  .diplomat-embed {
+    min-height: 1303px;
+  }
+}
 
 @media screen and (max-width: 425px) {
   .articles-slider .slick-next {
