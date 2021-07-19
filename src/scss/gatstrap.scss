@@ -1668,7 +1668,7 @@ section#members-hero-section {
 }
 
 section#members-section1 {
-  padding-top: 90px;
+  // padding-top: 90px;
   padding-bottom: 90px;
 }
 
@@ -6492,6 +6492,10 @@ section#diplomat-america-section-4 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+}
+
+.diplomat-embed {
+  min-height:1330px;
 }
 
 /* End of Diplomat America Styles */
@@ -11675,15 +11679,16 @@ button.close {
   }
 }
 
-@media only screen and (max-width: 1086px) {
-  #members-section1 .embed-container, #producers-section1 .embed-container {
-    padding-bottom: 44.25%;
-  }
-}
+// @media only screen and (max-width: 1086px) {
+//   #members-section1 .embed-container, #producers-section1 .embed-container {
+//     padding-bottom: 44.25%;
+//   }
+// }
 
 @media only screen and (max-width: 1086px) {
   #members-section1 .embed-container, #producers-section1 .embed-container {
-    padding-bottom: 79.25%;
+        padding-bottom: 0;
+        min-height: 520px;
   }
 }
 
@@ -11701,7 +11706,7 @@ button.close {
 
 @media only screen and (min-width: 1087px) {
   #members-login-form {
-    max-height: 450px;
+    max-height: 520px;
   }
   section#members-section1 {
     max-height: 620px;
@@ -11806,7 +11811,13 @@ button.close {
     border-left: 0;
   }
 
+  /* members login embed form responsive */
 
+    #members-section1 .embed-container, #producers-section1 .embed-container {
+          min-height: 650px;
+    }
+
+    /* members login embed form responsive */
   /* top navibar responsive */
 
   .navibar-top p {
@@ -13502,6 +13513,12 @@ button.close {
 }
 
 @media screen and (max-width:991px) {
+  /* members embed form responsive */
+
+  #members-section1 .embed-container, #producers-section1 .embed-container {
+    min-height: 750px;
+}
+/* end of members embed form responsive */
   .articles-slider .articles-container {
     max-width: 250px;
   }
@@ -13531,6 +13548,14 @@ button.close {
 }
 
 @media screen and (max-width: 767px) {
+
+  /* members embed form responsive */
+
+    #members-section1 .embed-container, #producers-section1 .embed-container {
+      min-height: 710px;
+    }
+/* end of members embed form responsive */
+
   .articles-slider .slick-next {
     right: 0px;
   }
@@ -13563,6 +13588,96 @@ button.close {
   #apply-section-2 .get-apply-btn {
     padding: 8px 40px;
   }
+}
+
+@media screen and (max-width:575px) {
+  /* members embed form responsive */
+
+    #members-section1 .embed-container, #producers-section1 .embed-container {
+        min-height: 750px;
+    }
+
+  /* end of members embed form responsive */
+}
+
+@media screen and (max-width:561px) {
+  /* members embed form responsive */
+
+    #members-section1 .embed-container, #producers-section1 .embed-container {
+        min-height: 785px;
+    }
+
+  /* end of members embed form responsive */
+}
+
+@media screen and (max-width:560px) {
+  /* members embed form responsive */
+
+    #members-section1 .embed-container, #producers-section1 .embed-container {
+        min-height: 715px;
+    }
+
+  /* end of members embed form responsive */
+}
+
+@media screen and (max-width:463px) {
+  /* members embed form responsive */
+
+    #members-section1 .embed-container, #producers-section1 .embed-container {
+        min-height: 750px;
+    }
+
+  /* end of members embed form responsive */
+}
+
+@media screen and (max-width:386px) {
+  /* members embed form responsive */
+
+    #members-section1 .embed-container, #producers-section1 .embed-container {
+        min-height: 790px !important;
+    }
+
+  /* end of members embed form responsive */
+}
+
+@media screen and (max-width:442px) {
+  /* members embed form responsive */
+
+    #members-section1 .embed-container, #producers-section1 .embed-container {
+        min-height: 750px;
+    }
+
+  /* end of members embed form responsive */
+}
+
+@media screen and (max-width:360px) {
+  /* members embed form responsive */
+
+    #members-section1 .embed-container, #producers-section1 .embed-container {
+        min-height: 870px !important;
+    }
+
+  /* end of members embed form responsive */
+}
+
+@media screen and (max-width:348px) {
+  /* members embed form responsive */
+
+    #members-section1 .embed-container, #producers-section1 .embed-container {
+        min-height: 900px !important;
+    }
+
+  /* end of members embed form responsive */
+}
+
+@media screen and (max-width:325px) {
+  /* members embed form responsive */
+
+    #members-section1 .embed-container, #producers-section1 .embed-container {
+        min-height: 945px !important;
+    }
+
+  /* end of members embed form responsive */
 }
 
 @media screen and (max-width:647px) {

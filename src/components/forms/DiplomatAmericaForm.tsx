@@ -9,8 +9,8 @@ import { Link } from 'gatsby'
 
 const DiplomatAmericaForm = ({ action, ...props }) => (
   <div id="diplomat-america-form-container">
-    <div className="embed-container">
-      <iframe src="http://localhost:8001/forms/insurance-application" id="diplomat-america-form"></iframe>
+    <div className="embed-container diplomat-embed">
+      <iframe src="http://localhost:8001/forms/insurance-application" id="diplomat-america-form" scrolling="no"></iframe>
     </div>
   </div>
 )

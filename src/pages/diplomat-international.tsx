@@ -11,8 +11,7 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { Helmet } from 'react-helmet'
-import DiplomatForm from 'components/diplomat-form'
-
+import DiplomatAmericaForm from 'components/forms/DiplomatAmericaForm'
 
 interface Props {
   data: IndexQueryQuery
@@ -489,7 +488,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
         <Container>
           <div className="col-lg-12">
           <h2 className="text-blue text-center row-title">Enroll in Diplomat International Plan Below</h2>
-            <DiplomatForm />
+            <DiplomatAmericaForm />
              <p className="text-center copyright">© 2021, INF Health Care Services</p>
           </div>
         </Container>
