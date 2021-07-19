@@ -72,21 +72,24 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
                   </form>
                 </div>
               </div>
+
               <div className="col-lg-5 right-content">
                 <h2 className="text-white text-center">Business Hours</h2>
-                <div className="business-hours">
-                <FiClock className="contact-icon"/><h3 className="text-white hours-subtitle">Days and Time</h3>
-                <p className="text-white">Monday - Friday : 9:00 AM - 11:00 PM EST</p>
-                <p className="text-white">Saturday - Sunday : 10:00 AM - 9:00 PM EST</p>
-                </div>
-                <div className="business-hours">
-                  <FiPhoneCall className="contact-icon"/><h3 className="text-white hours-subtitle">Support Via Phone</h3>
-                  <a href="tel:14085403601" className="links">Phone: 408-540-3601 </a>
-                </div>
-                <div className="business-hours">
-                  <FiMail className="contact-icon"/><h3 className="text-white hours-subtitle">Support Via Email</h3>
-                  <a href="mailto:support@infplans.com" className="links">support@infplans.com </a>
-                </div>
+                  <div className="business-hours">
+                    <FiClock className="contact-icon"/><h3 className="text-white hours-subtitle">Days and Time</h3>
+                    <p className="text-white">Monday - Friday : 9:00 AM - 11:00 PM EST</p>
+                    <p className="text-white">Saturday - Sunday : 10:00 AM - 9:00 PM EST</p>
+                  </div>
+                  
+                  <div className="business-hours">
+                    <FiPhoneCall className="contact-icon"/><h3 className="text-white hours-subtitle">Support Via Phone</h3>
+                    <a href="tel:14085403601" className="links">Phone: 408-540-3601 </a>
+                  </div>
+
+                  <div className="business-hours">
+                    <FiMail className="contact-icon"/><h3 className="text-white hours-subtitle">Support Via Email</h3>
+                    <a href="mailto:support@infplans.com" className="links">support@infplans.com </a>
+                  </div>
               </div>
             </div>
           </div>

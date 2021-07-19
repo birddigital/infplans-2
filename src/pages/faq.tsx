@@ -37,7 +37,7 @@ const FAQPage: React.FC<Props> = ({ data, location }: Props) => {
               <h1 className="text-white text-center">
                 INSURANCE FOR VISITORS FAQS
               </h1>
-              <Link to="/inf-easy-select"><button className="hero-btn"> Get a Quote </button></Link>
+              <a href="https://8320.infplans.com/simple-quote.html" target="_blank"><button className="hero-btn"> Get a Quote </button></a>
             </div>
           </Container>
         </div>

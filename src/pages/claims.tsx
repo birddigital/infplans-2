@@ -47,7 +47,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
         <div id="claims-form-hero-section">
           <Container>
             <div className="col-lg-12">
-            <h1 className="text-white text-center">
+              <h1 className="text-white text-center">
                 CLAIMS FORM
               </h1>
               <Link to="/inf-easy-select"><button className="hero-btn"> Get a Quote </button></Link>
@@ -150,123 +150,134 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="claims-form-section-3">
         <Container>
           <div className="col-lg-12">
-           <div className="row">
+            <div className="row">
 
-           <div className="claims-info-tab">
-             <input checked="checked" id="claims-info-tabone" type="radio" name="claims-info" />
-             <input id="claims-info-tabtwo" type="radio" name="claims-info" />
+              <div className="claims-info-tab">
+                <input checked="checked" id="claims-info-tabone" type="radio" name="claims-info" />
+                <input id="claims-info-tabtwo" type="radio" name="claims-info" />
 
-           <nav>
-             <ul>
-               <li className="claims-info-tabone">
-                 <label for="claims-info-tabone">Claim Information for INF policies</label>
-               </li>
-               <li className="claims-info-tabtwo">
-                 <label for="claims-info-tabtwo">Claim Information for SRPO policies</label>
-               </li>
-             </ul>
-           </nav>
+                <nav>
+                  <ul>
+                    <li className="claims-info-tabone">
+                      <label for="claims-info-tabone">Claim Information for INF policies</label>
+                    </li>
+                    <li className="claims-info-tabtwo">
+                      <label for="claims-info-tabtwo">Claim Information for SRPO policies</label>
+                    </li>
+                  </ul>
+                </nav>
 
-           <section>
-             <div className="claims-info-tabone">
-             <div className="col-lg-12 info">
-               <div className="row">
-               <div className="col-lg-12 claims-info">
-                 <h4>Claims Office Information:</h4>
-               </div>
+                <section>
+                  <div className="claims-info-tabone">
+                    <div className="col-lg-12 info">
+                      <div className="row">
+                        <div className="col-lg-12 claims-info">
+                          <h4>Claims Office Information:</h4>
+                        </div>
 
-               <div className="col-lg-6 infor">
-                 <p className="infor-content"><strong>Mail:</strong> Administrative Concepts, Inc. (ACI)</p>
-                 <p className="infor-content">994 Old Eagle School Rd., Suite 1005, Wayne, PA 19087-1706</p>
-                 <p className="infor-content"><strong>Toll Free:</strong> 888-293-9229 (from inside the U.S.)</p>
-                 <p className="infor-content"><strong>Fax:</strong> 610-293-9299</p>
-               </div>
+                        <div className="col-lg-6 infor">
+                          <p className="infor-content"><strong>Mail:</strong> Administrative Concepts, Inc. (ACI)</p>
+                          <p className="infor-content">994 Old Eagle School Rd., Suite 1005, Wayne, PA 19087-1706</p>
+                          <p className="infor-content"><strong>Toll Free:</strong> 888-293-9229 (from inside the U.S.)</p>
+                          <p className="infor-content"><strong>Fax:</strong> 610-293-9299</p>
+                        </div>
 
-               <div className="col-lg-6 infor">
-                 <p className="infor-content"><strong>Check Claim Status:</strong> 888-293-9229</p>
-                 <p className="submit-bills"><strong>Submit Bills Online:</strong>  aciclaims@visit-aci.com</p>
-                 <strong className="web">Web:</strong> <a href="http://www.visit-aci.com" target="_blank" className="links">http://www.visit-aci.com</a>
-                 ​<p className="pay"><strong>EDI Payor#:</strong> 22384</p>
+                        <div className="col-lg-6 infor">
+                          <p className="infor-content"><strong>Check Claim Status:</strong> 888-293-9229</p>
+                          <p className="submit-bills"><strong>Submit Bills Online:</strong>  aciclaims@visit-aci.com</p>
+                          <strong className="web">Web:</strong>
+                          <a href="http://www.visit-aci.com" target="_blank" className="links">
+                            http://www.visit-aci.com
+                          </a>
+                          ​<p className="pay"><strong>EDI Payor#:</strong> 22384</p>
+                        </div>
+
+                        <div className="col-lg-12 download-claims">
+                         <div className="row">
+                          <div className="col-lg-6 pdf-download">
+                            <h4 className="download text-center">
+                              Download Claims Form<br /> Policy Numbers Starting with GLM
+                            </h4>
+                            <Img fluid={pdf_icon} className="pdf-icon"/>
+                            <a href="https://infplans.com/policy_pdf/GLM_INFHealthCare_ClaimForm.pdf" target="_blank">
+                              <button className="download-btn"> Download </button>
+                            </a>
+                          </div>
+
+                         <div className="col-lg-6 pdf-download">
+                          <h4 className="download text-center">Download Claims Form<br /> Policy Numbers Starting with INF</h4>
+                          <Img fluid={pdf_icon} className="pdf-icon"/>
+                          <a href="https://infplans.com/policy_pdf/INF_INFHealthCare_ClaimForm.pdf" target="_blank">
+                            <button className="download-btn2"> Download </button>
+                          </a>
+                        </div>
+                       </div>
+                       </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="claims-info-tabtwo">
+                    <div className="col-lg-12 information">
+                      <div className="row">
+                        <div className="col-lg-12 claims-info">
+                         <h4>Claims Office Information:</h4>
+                         </div>
+
+                        <div className="col-lg-6 infor">
+                          <p className="infor-content">WebTPA</p>
+                          <p className="infor-content">PO Box 669</p>
+                          <p className="infor-content">Grapevine, TX 76099-0669</p>
+                          <p className="infor-content"><strong>Phone:</strong> 928-494-0112</p>
+                          <p className="infor-content"><strong>Fax:</strong> 469-417-1989</p>
+                        </div>
+
+                        <div className="col-lg-6 infor">
+                          <p className="submit-bills"><strong>Submit Bills Online:</strong> helpme@webtpa.com</p>
+                          <strong className="web">Web:</strong>
+                          <a href="http://www.visit-aci.com" target="_blank" className="links">
+                            http://www.visit-aci.com
+                          </a>
+                          <p className="pay">​EDI Payor#: 22384</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
               </div>
-
-              <div className="col-lg-12 download-claims">
-               <div className="row">
-                <div className="col-lg-6 pdf-download">
-                 <h4 className="download text-center">Download Claims Form<br /> Policy Numbers Starting with GLM</h4>
-                  <Img fluid={pdf_icon} className="pdf-icon"/>
-                  <a href="https://infplans.com/policy_pdf/GLM_INFHealthCare_ClaimForm.pdf" target="_blank"><button className="download-btn"> Download </button></a>
-                 </div>
-
-                <div className="col-lg-6 pdf-download">
-                 <h4 className="download text-center">Download Claims Form<br /> Policy Numbers Starting with INF</h4>
-                 <Img fluid={pdf_icon} className="pdf-icon"/>
-                 <a href="https://infplans.com/policy_pdf/INF_INFHealthCare_ClaimForm.pdf" target="_blank"><button className="download-btn2"> Download </button></a>
-               </div>
-              </div>
-              </div>
-             </div>
             </div>
-          </div>
-
-            <div className="claims-info-tabtwo">
-              <div className="col-lg-12 information">
-               <div className="row">
-                <div className="col-lg-12 claims-info">
-                <h4>Claims Office Information:</h4>
-               </div>
-
-             <div className="col-lg-6 infor">
-               <p className="infor-content">WebTPA</p>
-               <p className="infor-content">PO Box 669</p>
-               <p className="infor-content">Grapevine, TX 76099-0669</p>
-               <p className="infor-content"><strong>Phone:</strong> 928-494-0112</p>
-               <p className="infor-content"><strong>Fax:</strong> 469-417-1989</p>
-             </div>
-
-             <div className="col-lg-6 infor">
-               <p className="submit-bills"><strong>Submit Bills Online:</strong> helpme@webtpa.com</p>
-               <strong className="web">Web:</strong> <a href="http://www.visit-aci.com" target="_blank" className="links">http://www.visit-aci.com</a>
-               <p className="pay">​EDI Payor#: 22384</p>
-             </div>
-            </div>
-            </div>
-            </div>
-          </section>
-          </div>
-          </div>
           </div>
         </Container>
       </section>
 
       <section id="claims-form-section-4">
         <Container>
-          <div className="col-lg-12">
-           <h3 className="text-blue text-center row-title">Additional Claims Information</h3>
+        <div className="col-lg-12">
+          <h3 className="text-blue text-center row-title">Additional Claims Information</h3>
 
-            <div class="additional-tab">
-              <input checked="checked" id="additional-tabone" type="radio" name="additional-claims" />
+           <div class="additional-tab">
+             <input checked="checked" id="additional-tabone" type="radio" name="additional-claims" />
 
-              <nav>
-                <ul>
-                  <li className="additional-tabone">
-                    <label for="additional-tabone">For Policies starting with INF:</label>
-                  </li>
-                </ul>
-                </nav>
+             <nav>
+               <ul>
+                 <li className="additional-tabone">
+                   <label for="additional-tabone">For Policies starting with INF:</label>
+                 </li>
+               </ul>
+             </nav>
 
-            <section>
-              <div className="additional-tabone">
-                <div className="col-lg-12 policies">
-                  <h4>For Policies starting with INF:</h4>
-                    <p>All claims must be filed by completing the claim form found above in the Plan Member portal. This form should be completed by the Insured.</p>
-                    <p>This form must be completed ONCE PER SICKNESS OR INJURY. The INF Claims Form for Providers should be completed by the Insured & Providers (Doctors office, Hospitals etc.).</p>
-                    <p>The Insured should complete Section A. Providers should complete Section B of the form. The form can be mailed to the Insurance by the Provider's office or the Insured. Providers can also submit claims online using EDI Pay#: 22384.</p>
-                 </div>
+           <section>
+             <div className="additional-tabone">
+               <div className="col-lg-12 policies">
+                 <h4>For Policies starting with INF:</h4>
+                   <p>All claims must be filed by completing the claim form found above in the Plan Member portal. This form should be completed by the Insured.</p>
+                   <p>This form must be completed ONCE PER SICKNESS OR INJURY. The INF Claims Form for Providers should be completed by the Insured & Providers (Doctors office, Hospitals etc.).</p>
+                   <p>The Insured should complete Section A. Providers should complete Section B of the form. The form can be mailed to the Insurance by the Provider's office or the Insured. Providers can also submit claims online using EDI Pay#: 22384.</p>
                 </div>
-
-              </section>
-            </div>
-           </div>
+             </div>
+           </section>
+         </div>
+        </div>
        </Container>
       </section>
 
@@ -275,43 +286,44 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12">
            <h3 className="text-blue text-center row-title">Claims Process FAQs</h3>
 
-           <div class="process-tab">
-             <input checked="checked" id="process-tabone" type="radio" name="process-faqs" />
-             <input id="process-tabtwo" type="radio" name="process-faqs" />
-             <input id="process-tabthree" type="radio" name="process-faqs" />
+             <div class="process-tab">
+               <input checked="checked" id="process-tabone" type="radio" name="process-faqs" />
+               <input id="process-tabtwo" type="radio" name="process-faqs" />
+               <input id="process-tabthree" type="radio" name="process-faqs" />
 
-             <nav>
-               <ul>
-                 <li className="process-tabone">
-                   <label for="process-tabone">I paid for my medical care up front. How can I get reimbursed?</label>
-                 </li>
+               <nav>
+                 <ul>
+                   <li className="process-tabone">
+                     <label for="process-tabone">I paid for my medical care up front. How can I get reimbursed?</label>
+                   </li>
                    <li className="process-tabtwo">
-                   <label for="process-tabtwo">I took advantage of "Direct Billing" - do I still need to file a claim?</label>
-                 </li>
-                 <li className="process-tabthree">
-                   <label for="process-tabthree" className="title">If I leave the country will my claims be paid?</label>
-                 </li>
-               </ul>
+                     <label for="process-tabtwo">I took advantage of "Direct Billing" - do I still need to file a claim?</label>
+                   </li>
+                   <li className="process-tabthree">
+                     <label for="process-tabthree" className="title">If I leave the country will my claims be paid?</label>
+                   </li>
+                 </ul>
                </nav>
 
-            <section>
-              <div className="process-tabone">
-                <div className="col-lg-12 policy">
-                  <p>Simply fill out the claim form & follow the instructions, as well as providing the additional required documentation. Make sure to complete this paperwork carefully to ensure prompt payment for eligible expenses incurred.</p>
+              <section>
+                <div className="process-tabone">
+                  <div className="col-lg-12 policy">
+                    <p>Simply fill out the claim form & follow the instructions, as well as providing the additional required documentation. Make sure to complete this paperwork carefully to ensure prompt payment for eligible expenses incurred.</p>
+                  </div>
                 </div>
-              </div>
+
                 <div className="process-tabtwo">
                   <div className="col-lg-12 policy">
                     <p>Yes. We highly advise individuals to file a claim with the insurance company, regardless of whether they have paid for the medical treatment up front. This creates a record with the insurance company, and will assist the claims process. If you do not file a claim, the payment may not go through to the health care provider, causing a delay in payment. This could result in a liability for you.</p>
                   </div>
                 </div>
 
-                  <div className="process-tabthree">
-                    <div className="col-lg-12 policy">
-                      <p>Yes, eligible claims incurred while coverage is in effect will be paid. On the claims form, you need to designate where to send the check from the insurance company.</p>
-                    </div>
+                <div className="process-tabthree">
+                  <div className="col-lg-12 policy">
+                    <p>Yes, eligible claims incurred while coverage is in effect will be paid. On the claims form, you need to designate where to send the check from the insurance company.</p>
                   </div>
-                </section>
+                </div>
+              </section>
              </div>
            </div>
          </Container>

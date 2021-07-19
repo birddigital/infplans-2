@@ -341,7 +341,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                     </ul>
                 </div>
 
-                <div className="col-lg-6">
+                <div className="col-lg-6 claims-misc">
                   <p className="claims2"><strong>Claims Administrator:</strong> </p>
                   <p className="administrator">Global Claims Administration</p>
                   <p className="administrator">3195 Linwood Rd, Suite 201</p>
