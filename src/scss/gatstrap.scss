@@ -11686,9 +11686,13 @@ button.close {
 // }
 
 @media only screen and (max-width: 1086px) {
-  #members-section1 .embed-container, #producers-section1 .embed-container {
+  #members-section1 .embed-container {
         padding-bottom: 0;
         min-height: 520px;
+  }
+  #producers-section1 .embed-container {
+        padding-bottom: 0;
+        min-height: 310px;
   }
 }
 
@@ -11813,10 +11817,12 @@ button.close {
 
   /* members login embed form responsive */
 
-    #members-section1 .embed-container, #producers-section1 .embed-container {
+    #members-section1 .embed-container {
           min-height: 650px;
     }
-
+    #producers-section1 .embed-container {
+          min-height: 490px;
+    }
     /* members login embed form responsive */
   /* top navibar responsive */
 
@@ -13549,9 +13555,12 @@ button.close {
 @media screen and (max-width:991px) {
   /* members embed form responsive */
 
-  #members-section1 .embed-container, #producers-section1 .embed-container {
+  #members-section1 .embed-container {
     min-height: 750px;
-}
+  }
+  #producers-section1 .embed-container {
+    min-height: 410px;
+  }
 /* end of members embed form responsive */
   .articles-slider .articles-container {
     max-width: 250px;
@@ -13585,8 +13594,11 @@ button.close {
 
   /* members embed form responsive */
 
-    #members-section1 .embed-container, #producers-section1 .embed-container {
+    #members-section1 .embed-container {
       min-height: 710px;
+    }
+    #producers-section1 .embed-container {
+      min-height: 335px;
     }
 /* end of members embed form responsive */
 
@@ -13627,17 +13639,19 @@ button.close {
 @media screen and (max-width:575px) {
   /* members embed form responsive */
 
-    #members-section1 .embed-container, #producers-section1 .embed-container {
+    #members-section1 .embed-container {
         min-height: 750px;
     }
-
+    #producers-section1 .embed-container {
+      min-height: 405px;
+    }
   /* end of members embed form responsive */
 }
 
 @media screen and (max-width:561px) {
   /* members embed form responsive */
 
-    #members-section1 .embed-container, #producers-section1 .embed-container {
+    #members-section1 .embed-container {
         min-height: 785px;
     }
 
@@ -13647,27 +13661,28 @@ button.close {
 @media screen and (max-width:560px) {
   /* members embed form responsive */
 
-    #members-section1 .embed-container, #producers-section1 .embed-container {
+    #members-section1 .embed-container {
         min-height: 715px;
     }
-
+    #producers-section1 .embed-container {
+      min-height: 330px;
+    }
   /* end of members embed form responsive */
 }
 
 @media screen and (max-width:463px) {
   /* members embed form responsive */
 
-    #members-section1 .embed-container, #producers-section1 .embed-container {
+    #members-section1 .embed-container {
         min-height: 750px;
     }
-
   /* end of members embed form responsive */
 }
 
 @media screen and (max-width:386px) {
   /* members embed form responsive */
 
-    #members-section1 .embed-container, #producers-section1 .embed-container {
+    #members-section1 .embed-container {
         min-height: 790px !important;
     }
 
@@ -13677,17 +13692,19 @@ button.close {
 @media screen and (max-width:442px) {
   /* members embed form responsive */
 
-    #members-section1 .embed-container, #producers-section1 .embed-container {
+    #members-section1 .embed-container {
         min-height: 750px;
     }
-
+    #producers-section1 .embed-container {
+      min-height: 330px;
+    }
   /* end of members embed form responsive */
 }
 
 @media screen and (max-width:360px) {
   /* members embed form responsive */
 
-    #members-section1 .embed-container, #producers-section1 .embed-container {
+    #members-section1 .embed-container {
         min-height: 870px !important;
     }
 
@@ -13697,7 +13714,7 @@ button.close {
 @media screen and (max-width:348px) {
   /* members embed form responsive */
 
-    #members-section1 .embed-container, #producers-section1 .embed-container {
+    #members-section1 .embed-container {
         min-height: 900px !important;
     }
 
@@ -13707,7 +13724,7 @@ button.close {
 @media screen and (max-width:325px) {
   /* members embed form responsive */
 
-    #members-section1 .embed-container, #producers-section1 .embed-container {
+    #members-section1 .embed-container {
         min-height: 945px !important;
     }
 
