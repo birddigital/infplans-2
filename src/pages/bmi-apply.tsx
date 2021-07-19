@@ -10,7 +10,7 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { Helmet } from 'react-helmet'
-import MultiStepForm from 'components/multi-step-form/bmi-apply-form-multi-step'
+import MultiStepForm from 'components/forms/bmi-apply-form'
 
 interface Props {
   data: IndexQueryQuery
