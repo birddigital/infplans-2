@@ -6494,6 +6494,10 @@ section#diplomat-america-section-4 {
   margin-top: 30px;
 }
 
+.diplomat-embed {
+  min-height: 1220px;
+}
+
 /* End of Diplomat America Styles */
 
 /* Diplomat International Styles */
@@ -11544,7 +11548,7 @@ button.close {
 }
 
 .modal-header .close {
-  padding: 1px 9px 1px 9px;
+  padding: 2px 9px 2px 9px;
   background-color: #252362;
   border-radius: 50px;
   position: absolute;
