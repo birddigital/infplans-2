@@ -88,7 +88,6 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
             <h3 className="text-black">International Accident & Sickness</h3>
             <p>We provide international visitor accident & sickness insurance for visiting parents, relatives, students, and temporary workers traveling outside of their home country to the United States, Canada or Mexico.</p>
-            <a href="#" className="service-link">Learn More <FaLongArrowAltRight className="right-arrow" /></a>
           </div>
           <div className="col-lg-4 service-column text-center">
             <div className="service-icon">
@@ -96,7 +95,6 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
             <h3 className="text-black">Travel Insurance </h3>
             <p>You are able to access international visitor accident & sickness insurance, find coverage options for pre-existing medical conditions, and help ease the possible financial burden due to unforeseen medical expenses during your stay in the United States, Canada, or Mexico.</p>
-            <a href="#" className="service-link">Learn More <FaLongArrowAltRight className="right-arrow" /></a>
           </div>
           <div className="col-lg-4 service-column text-center">
             <div className="service-icon">
@@ -104,7 +102,6 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
             <h3 className="text-black">We may cover Pre-Existing Conditions</h3>
             <p>Our A-rated underwriting partners provide the strong financial support needed from an insurance company to continue offering some International Visitor Accident and Sickness plans with pre-existing conditions coverage.</p>
-            <a href="#" className="service-link">Learn More <FaLongArrowAltRight className="right-arrow" /></a>
           </div>
         </ContainerFluid>
       </div>
