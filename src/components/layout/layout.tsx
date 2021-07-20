@@ -101,8 +101,8 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
               </div>
                 <div className="row row-1">
                   <div className="modal-body col-lg-7">
-                  <h3 className="text-center">Not sure what you need?</h3>
-                  <h2 className="text-center">We’d love to help you plan better.</h2>
+                  <h3 className="text-center">Stay confident while you travel</h3>
+                  <h2 className="text-center">Will help you get covered!</h2>
                   <form id="exit-form" method="POST" action="">
                     <div className="row">
                       <div className="col-md-6 pl-0 pr-2">

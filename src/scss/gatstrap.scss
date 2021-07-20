@@ -579,6 +579,10 @@ section.home-hero-section-bg::after {
   background-position: bottom!important;
 }
 
+#home-hero-section-background {
+  z-index: 9;
+}
+
 #home-hero-section h1 {
   font-size: 50px;
   font-weight: 500;
@@ -1364,7 +1368,7 @@ section#plan-id-hero-section {
   padding-bottom: 70px;
 }
 
-section#plan-id-section1 {
+section#plan-id-cards-insured-login {
   padding-top: 70px;
   padding-bottom: 0px;
 }
@@ -1407,33 +1411,33 @@ section#plan-id-section1 {
   margin-right: auto;
 }
 
-#plan-id-section1 h3 {
+#plan-id-cards-insured-login h3 {
   font-size: 25px;
   font-weight: 600;
 }
 
-#plan-id-section1 .big-logo {
+#plan-id-cards-insured-login .big-logo {
   max-width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#plan-id-section1  p {
+#plan-id-cards-insured-login  p {
   line-height: 2;
 }
 
-#plan-id-section1 .row-title {
+#plan-id-cards-insured-login .row-title {
   margin-top: 20px;
   margin-bottom: 30px;
 }
 
-#plan-id-section1 .plan-id-container {
+#plan-id-cards-insured-login .plan-id-container {
   box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 30px 50px;
   align-items:center;
 }
 
-#plan-id-section1 input#email {
+#plan-id-cards-insured-login input#email {
   width: 90%;
   background: #F2F2F2;
   border: 2px solid #F2F2F2;
@@ -1444,7 +1448,7 @@ section#plan-id-section1 {
   outline: none;
 }
 
-#plan-id-section1 input[type="submit"] {
+#plan-id-cards-insured-login input[type="submit"] {
   width: 90%;
   padding: 10px;
   border: 2px solid #7DA9DA;
@@ -1454,12 +1458,12 @@ section#plan-id-section1 {
   transition: .5s;
 }
 
-#plan-id-section1 input[type="submit"]:hover {
+#plan-id-cards-insured-login input[type="submit"]:hover {
   background: #ffffff;
   color: #7DA9DA;
 }
 
-#plan-id-section1 form {
+#plan-id-cards-insured-login form {
   text-align: center;
 }
 /* End of Plan ID Card page*/
@@ -1504,7 +1508,7 @@ section#provider-search-section1 {
   font-size: 50px;
   font-weight: 500;
   letter-spacing: 3px;
-  margin-top: 150px;
+  margin-top: 190px;
 }
 
 #provider-search-hero-section .hero-text {
@@ -2060,7 +2064,7 @@ section#extend-hero-section {
   padding-bottom: 70px;
 }
 
-section#extend-section1 {
+section#inf-plans-extensions {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -2103,33 +2107,33 @@ section#extend-section1 {
   margin-right: auto;
 }
 
-#extend-section1 h3 {
+#inf-plans-extensions h3 {
   font-size: 25px;
   font-weight: 600;
 }
 
-#extend-section1 .big-logo {
+#inf-plans-extensions .big-logo {
   max-width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#extend-section1  p {
+#inf-plans-extensions  p {
   line-height: 2;
 }
 
-#extend-section1 .row-title {
+#inf-plans-extensions .row-title {
   margin-top: 20px;
   margin-bottom: 30px;
 }
 
-#extend-section1 .extend-container {
+#inf-plans-extensions .extend-container {
   box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 30px 50px;
   align-items:center;
 }
 
-#extend-section1 input#email {
+#inf-plans-extensions input#email {
   width: 90%;
   background: #F2F2F2;
   border: 2px solid #F2F2F2;
@@ -2140,7 +2144,7 @@ section#extend-section1 {
   outline: none;
 }
 
-#extend-section1 input[type="submit"] {
+#inf-plans-extensions input[type="submit"] {
   width: 90%;
   padding: 10px;
   border: 2px solid #7DA9DA;
@@ -2150,16 +2154,16 @@ section#extend-section1 {
   transition: .5s;
 }
 
-#extend-section1 input[type="submit"]:hover {
+#inf-plans-extensions input[type="submit"]:hover {
   background: #ffffff;
   color: #7DA9DA;
 }
 
-#extend-section1 form {
+#inf-plans-extensions form {
   text-align: center;
 }
 
-#extend-section1 li {
+#inf-plans-extensions li {
   margin-bottom: 10px;
 }
 /* End of Extend page*/
@@ -5430,25 +5434,25 @@ section#claims-form-section-1 {
   margin-right: auto;
 }
 
-#claims-form-section-2 h2 {
+#claims-insured-login h2 {
   font-weight: 500;
 }
 
-#claims-form-section-2  {
+#claims-insured-login  {
   padding-top: 0;
 }
 
-#claims-form-section-2 .section2-container {
+#claims-insured-login .section2-container {
   box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 40px 50px;
   align-items:center;
 }
 
-#claims-form-section-2 .sign-in-container {
+#claims-insured-login .sign-in-container {
   align-items:center;
 }
 
-#claims-form-section-2 input#email {
+#claims-insured-login input#email {
   width: 90%;
   background: #F2F2F2;
   border: 2px solid #F2F2F2;
@@ -5459,7 +5463,7 @@ section#claims-form-section-1 {
   outline: none;
 }
 
-#claims-form-section-2 input[type="submit"] {
+#claims-insured-login input[type="submit"] {
   width: 90%;
   padding: 10px;
   border: 2px solid #7DA9DA;
@@ -5469,16 +5473,16 @@ section#claims-form-section-1 {
   transition: .5s;
 }
 
-#claims-form-section-2 input[type="submit"]:hover {
+#claims-insured-login input[type="submit"]:hover {
   background: #ffffff;
   color: #7DA9DA;
 }
 
-#claims-form-section-2 form {
+#claims-insured-login form {
   text-align: center;
 }
 
-#claims-form-section-2 h3 {
+#claims-insured-login h3 {
   font-size: 25px;
   font-weight: 500;
 }
@@ -12319,39 +12323,39 @@ button.close {
     padding: 8px 40px;
   }
 
-  section#plan-id-section1 {
+  section#plan-id-cards-insured-login {
     padding-top: 30px;
     padding-bottom: 30px;
   }
 
-  #plan-id-section1 .plan-id-container {
+  #plan-id-cards-insured-login .plan-id-container {
     padding: 20px 20px 0px 20px;
   }
 
-  #plan-id-section1 h3 {
+  #plan-id-cards-insured-login h3 {
     font-size: 20px;
     font-weight: 600;
   }
 
-  #plan-id-section1 input#email {
+  #plan-id-cards-insured-login input#email {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  #plan-id-section1 input[type="submit"] {
+  #plan-id-cards-insured-login input[type="submit"] {
     width: 100%;
   }
 
-  #plan-id-section1 .row-title {
+  #plan-id-cards-insured-login .row-title {
     margin-top: 0;
     margin-bottom: 10px;
   }
 
-  #plan-id-section1 .row.mt-5 {
+  #plan-id-cards-insured-login .row.mt-5 {
     margin-top: 30px!important;
   }
 
-  #plan-id-section1 .big-logo {
+  #plan-id-cards-insured-login .big-logo {
     max-width: 200px;
   }
 
@@ -12462,7 +12466,21 @@ button.close {
 
   #provider-search-hero-section h1 {
     font-size: 35px;
+    margin-top: 120px;
+  }
+
+  section.about-hero-section-bg {
+    min-height: 400px;
+  }
+
+  #about-hero-section h1 {
+    font-size: 35px;
     margin-top: 90px;
+  }
+
+  #about-hero-section .hero-btn {
+    margin-top: 10px;
+    padding: 8px 40px;
   }
 
   #provider-search-section1 .provider-search-container.mt-5 {
@@ -12624,38 +12642,38 @@ button.close {
     padding: 8px 40px;
   }
 
-  section#extend-section1 {
+  section#inf-plans-extensions {
     padding-top: 30px;
     padding-bottom: 30px;
   }
 
-  #extend-section1 .extend-container {
+  #inf-plans-extensions .extend-container {
     padding: 20px 20px 5px 20px;
   }
 
-  #extend-section1 .big-logo {
+  #inf-plans-extensions .big-logo {
     max-width: 200px;
   }
 
-  #extend-section1 h3 {
+  #inf-plans-extensions h3 {
     font-size: 20px;
   }
 
-  #extend-section1 input#email {
+  #inf-plans-extensions input#email {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  #extend-section1 input[type="submit"] {
+  #inf-plans-extensions input[type="submit"] {
     width: 100%;
   }
 
-  #extend-section1 .row-title {
+  #inf-plans-extensions .row-title {
     margin-top: 0;
     margin-bottom: 10px;
   }
 
-  #extend-section1 .row.mt-5 {
+  #inf-plans-extensions .row.mt-5 {
     margin-top: 30px!important;
   }
 
@@ -14188,7 +14206,7 @@ button.close {
     font-size: 25px;
   }
 
-  #claims-form-section-2 h2 {
+  #claims-insured-login h2 {
    font-weight: 500;
    font-size: 25px;
    margin-bottom: 0;
@@ -14235,40 +14253,40 @@ button.close {
     margin-right: auto;
   }
 
-  #claims-form-section-2 .big-logo {
+  #claims-insured-login .big-logo {
     max-width: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
   }
 
-  #claims-form-section-2 h3 {
+  #claims-insured-login h3 {
     font-weight: 500;
     font-size: 20px;
   }
 
-  #claims-form-section-2 {
+  #claims-insured-login {
     padding-top: 0px;
   }
 
-  #claims-form-section-2 h3 {
+  #claims-insured-login h3 {
     font-size: 20px;
   }
 
-  #claims-form-section-2 .section2-container {
+  #claims-insured-login .section2-container {
     padding: 20px 20px 30px 20px;
   }
 
-  #claims-form-section-2 input#email {
+  #claims-insured-login input#email {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  #claims-form-section-2 input[type="submit"] {
+  #claims-insured-login input[type="submit"] {
     width: 100%;
   }
 
-  #claims-form-section-2 .row.mt-5.sign-in-container {
+  #claims-insured-login .row.mt-5.sign-in-container {
     margin-top: 15px!important;
   }
 
@@ -15573,7 +15591,7 @@ button.close {
 
   #about-section-1 .about-container {
     padding: 20px 20px 10px 20px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
 
   #about-section-1 .sub-title {
@@ -15925,7 +15943,7 @@ button.close {
   }
 
   #about-hero-section h1 {
-    margin-top: 0;
+    margin-top: 20px;
   }
 
   #about-hero-section .hero-btn {
@@ -16349,7 +16367,7 @@ button.close {
       margin-right: auto;
     }
 
-    #claims-form-section-2 {
+    #claims-insured-login {
       padding-top: 0;
     }
 
@@ -16678,7 +16696,7 @@ button.close {
   padding-bottom: 27.25%;
 }
 
-#claims-form-section-2 {
+#claims-insured-login {
   padding-top: 0;
   padding-bottom: 15px;
 }

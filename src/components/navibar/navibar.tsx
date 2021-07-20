@@ -40,7 +40,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
         <div className="container">
           <div className="row">
             <div className="col-lg-10">
-              <span><img src={Megaphone} className="megaphone-icon"/></span><p><strong>COVID-19</strong>:For answers to frequently asked questions, please see our <a href="" target="_blank" id="resource-page">COVID-19 Resource Page</a></p>
+              <span><img src={Megaphone} className="megaphone-icon"/></span><p><strong>COVID-19</strong>: For answers to frequently asked questions, please see our <a href="" target="_blank" id="resource-page">COVID-19 Resource Page</a></p>
             </div>
             <div className="col-lg-2">
               <span><img src={Whatsapp} className="whatsapp-icon"/></span><a href="tel:4085403601"><p className="text-right">Tel:408-540-3601</p></a>

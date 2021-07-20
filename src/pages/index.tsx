@@ -309,7 +309,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 COVID-19 treated as any other sickness
               </li>
             </ul>
-            <Link to="/visitors-insurance-quote">
+            <Link to="/inf-easy-select">
               <button className="btn btn-white mt-15">
                 Get a Quote
               </button>
@@ -341,7 +341,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
         </Container>
       </section>
-
+{/*
       <section id="home-articles-slider-section">
         <Container>
           <div className="col-lg-12">
@@ -350,7 +350,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
         </Container>
       </section>
-
+*/}
       <section id="home-logo-slider-section">
         <ContainerFluid>
           <div className="col-lg-12">

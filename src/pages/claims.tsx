@@ -51,7 +51,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
               <h1 className="text-white text-center">
                 CLAIMS FORM
               </h1>
-              <Link to="/inf-easy-select"><button className="hero-btn"> Get a Quote </button></Link>
+              <Link to="#claim-steps"><button className="hero-btn"> File a Claim </button></Link>
             </div>
           </Container>
         </div>
@@ -70,10 +70,10 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
          </div>
           <div className="col-lg-4">
             <Img fluid={infplans_big_logo} className="big-logo"/>
-            <Link to="/visitors-insurance-quote"><button className="inf-btn"> Click to Get a Quote </button></Link>
+            <Link to="#claims-insured-login"><button className="inf-btn"> Flie a Claim </button></Link>
           </div>
          </div>
-         <div className="row top">
+         <div className="row top" id="claim-steps">
              <div className="col-lg-4 flipcard-col flip-card">
                  <div className="flip-card-inner">
                    <div className="flipcard-container flip-card-front">
@@ -120,7 +120,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
     </section>
 
 
-     <section id="claims-form-section-2">
+     <section id="claims-insured-login">
       <ClaimsForm />
         {/*}<Container>
        <div className="col-lg-12">
