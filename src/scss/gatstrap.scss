@@ -184,6 +184,16 @@ button {
   color: $pink;
 }
 
+/* Modals */
+
+#bmi-travel-popup {
+  overflow: auto;
+}
+
+#bmi-travel-popup .modal-dialog {
+  margin-bottom: 30px;
+}
+
 /* Navigation */
 
 .navbar {
@@ -571,6 +581,12 @@ section.home-hero-section-bg::after {
   font-size: 50px;
   font-weight: 500;
   margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 981px) {
+  #home-hero-section h1 {
+    margin-bottom: 50px;
+  }
 }
 
 #home-services-section .service-icon {
@@ -8082,7 +8098,7 @@ section.plans-hero-section-bg {
   border-right: 0;
   margin-top: -9px;
   border-bottom: 0;
-  padding-top: 30px;
+  padding-top: 6px;
 }
 
 #coverages-tabone:checked ~ nav .standard-coverages-tabone label:after,
@@ -11464,6 +11480,7 @@ button.close {
 .modal-body {
   background-color: $white;
   padding: 40px 15px 30px 40px;
+  border-radius: 10px;
 }
 
 .modal-content .row-1 {
@@ -11553,7 +11570,7 @@ button.close {
 }
 
 .modal-dialog {
-  margin: 80px auto 0 auto !important;
+  margin: 40px auto 0 auto !important;
   max-width: 1200px;
 }
 

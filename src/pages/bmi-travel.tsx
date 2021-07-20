@@ -13,6 +13,8 @@ import ButtonBlack from 'components/button/button-black'
 import { FaAngleDoubleDown } from "@react-icons/all-files/fa/FaAngleDoubleDown";
 import { FaAngleDoubleUp } from "@react-icons/all-files/fa/FaAngleDoubleUp";
 import { Helmet } from 'react-helmet'
+import PopupModal from 'components/Modals/PopupModal'
+import BmiApplyForm from 'components/forms/bmi-apply-form'
 
 interface Props {
   data: IndexQueryQuery
@@ -28,7 +30,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
   const book1_icon = data.book1_icon?.childImageSharp?.fluid
   const book2_icon = data.book2_icon?.childImageSharp?.fluid
   const [infBMIStatus, setInfBMIStatus] = useState(false);
-
+  const [popupModalVisible, setPopupModalVisible] = useState(false);
 
   function showInfBMI() {
     setInfBMIStatus(true);
@@ -37,7 +39,6 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
   function hideInfBMI() {
     setInfBMIStatus(false);
   }
-
 
   return (
     <Layout location={location}>
@@ -93,13 +94,17 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                  }
                </div>
                <div className="col-lg-4">
-                 <Img fluid={bmi_logo} className="bmi-logo"/>
-                 <p className="text-blue text-center sub-title">INF BMI Travel Brochure</p>
-                 <Link to="/visitors-insurance-quote"><button className="inf-btn"> Click to Get a Quote </button></Link>
+                  <Img fluid={bmi_logo} className="bmi-logo"/>
+                  <p className="text-blue text-center sub-title">INF BMI Travel Brochure</p>
+                  <PopupModal label="Click to Get a Quote" className="inf-btn" id="bmi-travel-popup">
+                    <BmiApplyForm />
+                  </PopupModal>
+                  {/*<Link to="/visitors-insurance-quote"><button className="inf-btn"> Click to Get a Quote </button></Link>*/}
                </div>
              </div>
            </div>
          </div>
+         
        </Container>
       </section>
 

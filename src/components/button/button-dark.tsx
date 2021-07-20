@@ -10,7 +10,7 @@ interface Props {
 const ButtonDark: React.FC<Props> = ({ path, label, primary }: Props) => {
   return (
     <Link className="link-main" to={path}>
-    	<button class="btn btn-sm btn-outline-dark contact-us-btn no-border-radius btn-black">
+    	<button className="btn btn-sm btn-outline-dark contact-us-btn no-border-radius btn-black">
     		<strong>{label}</strong>
     	</button>
     </Link>
