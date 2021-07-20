@@ -54,7 +54,12 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
 
       <section id="apply-section-1">
         <Container>
-          <div className="col-lg-12">
+          <div className="col-lg-12" id="apply-page-form">
+             <div className="embed-container">
+               <iframe src="https://adrienb3.sg-host.com/forms/applicationForm" id="apply-form" scrolling="no"></iframe>
+             </div>
+           </div>
+          {/*}<div className="col-lg-12">
             <div className="apply-container">
               <h2 className="text-blue text-center">Apply for INF Visitor Insurance</h2>
                 <Img fluid={infplans_big_logo} className="big-logo"/>
@@ -108,11 +113,11 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
                   </section>
                 </div>
               </div>
-            </div>
+            </div> */}
         </Container>
       </section>
 
-      <section id="apply-section-2">
+    {/*}  <section id="apply-section-2">
         <Container>
           <div className="col-lg-12">
             <div className="apply-container">
@@ -133,7 +138,7 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
           </div>
         </Container>
-      </section>
+      </section> */}
     </Layout>
   )
 }

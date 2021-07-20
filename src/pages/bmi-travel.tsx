@@ -15,6 +15,7 @@ import { FaAngleDoubleUp } from "@react-icons/all-files/fa/FaAngleDoubleUp";
 import { Helmet } from 'react-helmet'
 import PopupModal from 'components/Modals/PopupModal'
 import BmiApplyForm from 'components/forms/bmi-apply-form'
+import InfLogo from '../../content/images/inf-logo.png'
 
 interface Props {
   data: IndexQueryQuery
@@ -97,6 +98,10 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                   <Img fluid={bmi_logo} className="bmi-logo"/>
                   <p className="text-blue text-center sub-title">INF BMI Travel Brochure</p>
                   <PopupModal label="Click to Get a Quote" className="inf-btn" id="bmi-travel-popup">
+                    <h2 className="mb-0"> Apply for INF BMI Travel Assist </h2>
+                    <img src={InfLogo} className="mb-0"/>
+                    <p>INF Recommends enrolling for at least 61 days to get Best Price Discount</p>
+                    <h2> INF BMI Travel Plan Application</h2>
                     <BmiApplyForm />
                   </PopupModal>
                   {/*<Link to="/visitors-insurance-quote"><button className="inf-btn"> Click to Get a Quote </button></Link>*/}
@@ -104,7 +109,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
              </div>
            </div>
          </div>
-         
+
        </Container>
       </section>
 

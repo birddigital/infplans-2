@@ -88,7 +88,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
       </Container>
      </section>
 
-    <section id="diplomat-america-section-3">
+  {/*}  <section id="diplomat-america-section-3">
       <Container>
         <div className="col-lg-12">
           <div className="diplomat-america-container">
@@ -106,7 +106,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
         </div>
       </Container>
-    </section>
+    </section> */}
 
     <section id="diplomat-america-section-4">
       <Container>
@@ -394,9 +394,9 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
         <div className="col-lg-12">
           <h2 className="text-blue text-center row-title">Enroll in Diplomat America Below</h2>
           <DiplomatAmericaForm />
-          <p className="text-center copyright">
+          {/*}<p className="text-center copyright">
             © 2021, INF Health Care Services
-          </p>
+          </p> */}
        </div>
       </Container>
     </section>

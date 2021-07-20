@@ -48,15 +48,20 @@ const RenewPage: React.FC<Props> = ({ data, location }: Props) => {
               <p className="hero-text text-white text-center">
                 INF Plans can be Extended up to a maximum of 364 days. To extend coverage for you, please click on one of the links below. If you have any questions, please reach us at 408-540-3601.
               </p>
-            <Link to="#inf-plans-extensions">  <button className="hero-btn"> Get a Quote </button></Link>
+            <Link to="/inf-easy-select">  <button className="hero-btn"> Get a Quote </button></Link>
             </div>
           </Container>
         </div>
       </BackgroundImage>
 
-      <section id="inf-plans-extensions">
+      <section id="extend-section1">
         <Container>
-          <div className="col-lg-12">
+          <div className="col-lg-12" id="extend-form">
+           <div className="embed-container">
+             <iframe src="https://adrienb3.sg-host.com/forms/extend-form.php" id="extend-form" scrolling="no"></iframe>
+           </div>
+         </div>
+          {/*}<div className="col-lg-12">
             <div className="row extend-container">
               <div className="col-lg-5">
                 <Img fluid={infplans_big_logo} className="big-logo"/>
@@ -79,8 +84,7 @@ const RenewPage: React.FC<Props> = ({ data, location }: Props) => {
                   </ol>
                   </div>
               </div>
-            </div>
-          </div>
+            </div> */}
         </Container>
       </section>
     </Layout>

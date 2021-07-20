@@ -6524,10 +6524,6 @@ section#diplomat-america-section-4 {
   margin-top: 15px;
 }
 
-.diplomat-embed {
-  min-height: 1220px;
-}
-
 /* End of Diplomat America Styles */
 
 /* Diplomat International Styles */
@@ -16696,7 +16692,7 @@ button.close {
   padding-bottom: 27.25%;
 }
 
-#claims-insured-login {
+#claims-form-section-2 {
   padding-top: 0;
   padding-bottom: 15px;
 }
@@ -16743,5 +16739,34 @@ button.close {
 
 #bmi-apply-form-container .embed-container {
   padding-bottom: 82.25%;
+}
+
+#apply-page-form .embed-container {
+  padding-bottom: 0;
+  min-height: 1100px;
+}
+
+#apply-page-form {
+  box-shadow: 0px 0px 12px 0px #dddddd;
+  padding: 20px 30px 40px 30px;
+}
+/* old css edits*/
+.diplomat-embed {
+  min-height: 1265px;
+}
+
+#diplomat-america-section-7, #diplomat-international-section-6 {
+  padding-bottom: 0;
+}
+/* end of old css edits */
+#bmi-travel-section-1 .modal-body {
+  text-align: center;
+  padding: 30px 40px;
+}
+
+#bmi-travel-section-1 .modal-body p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 1.5;
 }
 /* end of Victor Stylings */
