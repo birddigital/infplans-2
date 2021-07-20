@@ -81,7 +81,7 @@ const WhyINFPage: React.FC<Props> = ({ data, location }: Props) => {
               <p>Our site uses the most advanced encryption technology to protect your data & ensure you and your family never have to worry about a transaction gone wrong. Applications can be completed in less than 5 minutes! We do not ask for any medical paperwork or immigration documents.</p>
 
               <p className="title">Unique Plan Offerings</p>
-              <p>We offer plans exclusively found on this platform. Some of our plans cover pre-existing conditions and  provides several non-insurance benefits such as Dental, Vision, Hearing, and Prescription Discounts coordinated by Careington International, and MDLive Telehealth (which are both only available in the US)</p>
+              <p>We offer plans exclusively found on this platform. Some of our plans cover pre-existing conditions and  provides several non-insurance benefits such as Dental, Vision, Hearing, and Prescription Discounts coordinated by Careington International, and MDLive Telehealth (which are both only available in the US).</p>
               <p>These non-insurance benefits are not affiliated with Crum & Forster, SPC</p>
 
             </div>

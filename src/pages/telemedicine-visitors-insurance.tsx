@@ -64,7 +64,7 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
                 Telemedicine Services are included with INF plans when traveling to the United States**
               </h2>
               <p>
-                Telemedicine services are available when enrolled in an INF Plan for plan  members & their families access to health providers instantly, from anywhere in the United States. All plan members when traveling to the United States become eligible of INF and when traveling to the United States, become eligible to take advantage of these non insurance services, which are provided at no additional cost to the plan member. Our Telemedicine service provides access to many of the same services offered by an in-person doctor visit or urgent care visit.
+                Telemedicine services are available when enrolled in an INF Plan for plan  members & their families access to health providers instantly, from anywhere in the United States. All plan members when traveling to the United States become eligible of INF and when traveling to the United States, become eligible to take advantage of these non insurance services, which are provided at no additional cost to the plan member. Our Telemedicine service provides access to many of the same services offered by an in-person doctor visit or urgent care visit. Telemed is provided by MDLive.
               </p>
               <p>
                 ** This service is not available when traveling to Canada or Mexico.
@@ -149,7 +149,7 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
                 </div>
               </details>
               <details>
-                <summary aria-describedby="How to enroll in MeMD">How to enroll in MeMD</summary>
+                <summary aria-describedby="How to enroll in MDLive">How to enroll in MDLive</summary>
                 <div className="accordion-content">
                   <p>
                     When you enroll in a plan with policy number starting with INF and are visiting the United States, you are automatically eligible for a MeMD Account as a member of INF. MeMD provides INF members with 24/7/365 access to MeMD’s highly qualified, licensed healthcare providers by phone, mobile app or computer.

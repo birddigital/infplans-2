@@ -4872,6 +4872,10 @@ section#dental-discount-section-2 {
 .right-logo-mobile.gatsby-image-wrapper {
   display: none;
 }
+
+#dental-discount-section-2 .search-link {
+  text-decoration: underline;
+}
 /* End of Dental Discount Program Page*/
 
 /* Thank You Page*/
@@ -5712,6 +5716,7 @@ section#claims-form-section-1 {
   font-weight: 600;
   width: 100%;
   font-size: 20px;
+  text-align: center;
   background: #eeeeee;
   border-left: 2px solid #C4C4C4;
   border-right: 2px solid #C4C4C4;

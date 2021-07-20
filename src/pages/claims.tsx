@@ -269,7 +269,6 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
            <section>
              <div className="additional-tabone">
                <div className="col-lg-12 policies">
-                 <h4>For Policies starting with INF:</h4>
                    <p>All claims must be filed by completing the claim form found above in the Plan Member portal. This form should be completed by the Insured.</p>
                    <p>This form must be completed ONCE PER SICKNESS OR INJURY. The INF Claims Form for Providers should be completed by the Insured & Providers (Doctors office, Hospitals etc.).</p>
                    <p>The Insured should complete Section A. Providers should complete Section B of the form. The form can be mailed to the Insurance by the Provider's office or the Insured. Providers can also submit claims online using EDI Pay#: 22384.</p>

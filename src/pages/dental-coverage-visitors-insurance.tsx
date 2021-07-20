@@ -98,7 +98,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
      <section id="dental-discount-section-2">
        <Container>
          <div className="col-lg-12">
-           <p className="text-black text-center">The services described in this page are not Insurance and are not affiliated with Crum & Forster SPC. This is not an Insurance product.</p>
+           <p className="text-black text-center"><strong>The services described in this page are not Insurance and are not affiliated with Crum & Forster SPC. This is not an Insurance product.</strong></p>
            <h2 className="text-blue text-center">Careington Dental Discount FAQ:</h2>
            <div className="dental-discount-faq1-tab">
              <input checked="checked" id="dental-discount-faq1-tab1" type="radio" name="dental-discount-faq1" />
@@ -167,7 +167,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
                   <div className="col-lg-12 bottom-p">
                     <ul>
                       <li className="text-left text-black">You may visit any participating dentist on the plan and change providers at any time</li>
-                      <li className="text-left text-black">To locate a participating provider, please call <strong>408-540-3601</strong> or visit our <a href="https://inf.solutionssimplified.com" target="_blank">INF Provider Search</a> link to access our online provider search.</li>
+                      <li className="text-left text-black">To locate a participating provider, please call <strong>408-540-3601</strong> or visit our <a href="https://inf.solutionssimplified.com" target="_blank" className="search-link">INF Provider Search</a> link to access our online provider search.</li>
                     </ul>
                   </div>
                  </div>
