@@ -423,7 +423,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 <Img fluid={bottom_icon3} className="flipcard-icon" alt="Doctors & Hospitals" />
                 <h3 className="text-center">Doctors & <br />Hospitals</h3>
               </div>
-              <div className="flipcard-container-inner flip-card-back">
+              <div className="flipcard-container-inner flip-card-back flip-card-doctors">
                 <h3 className="text-center">Doctors & <br />Hospitals</h3>
                 <p className="text-black flipcard-content">Find an In-Network Health Care Provider Nearby</p>
                 <Link to="/first-health-ppo" className="nav-link">

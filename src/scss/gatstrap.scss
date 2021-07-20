@@ -518,6 +518,7 @@ button {
   height: 0;
   overflow: hidden;
   max-width: 100%;
+  z-index: 9;
 }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
@@ -1345,8 +1346,8 @@ section#plan-id-hero-section {
 }
 
 section#plan-id-section1 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 70px;
+  padding-bottom: 0px;
 }
 
 .plan-id-hero-section-bg::after {
@@ -4987,239 +4988,243 @@ section#bmi-apply-hero-section {
 
 
 /*Multi Step Form stylings victor */
-#btn-multistep-prev {
-  padding: 10px 60px 10px 60px;
-  border: 2px solid #7DA9DA;
-  background: #7DA9DA;
-  color: #ffffff;
-  border-radius: 50px;
-  transition: .5s;
-  font-weight: 600;
-  margin-left: 10px;
-  margin-right: 10px;
-}
+// #btn-multistep-prev {
+//   padding: 10px 60px 10px 60px;
+//   border: 2px solid #7DA9DA;
+//   background: #7DA9DA;
+//   color: #ffffff;
+//   border-radius: 50px;
+//   transition: .5s;
+//   font-weight: 600;
+//   margin-left: 10px;
+//   margin-right: 10px;
+// }
+//
+// #btn-multistep-prev:hover {
+//   background: $white;
+//   color: #7DA9DA;
+// }
+// #btn-multistep-next {
+//   background: #252362;
+//   border: 2px solid #252362;
+//   color: #ffffff;
+//   padding: 10px 80px;
+//   border-radius: 50px;
+//   transition: .5s;
+//   margin-left: 10px;
+//   margin-right: 10px;
+// }
+// #btn-multistep-next:hover {
+//   background: $white;
+//   color: #252362;
+// }
+// .bmi-apply-form-container {
+//   background: #fafafa;
+//   padding: 30px;
+// }
+//
+// .bmi-form-content-container {
+//   background: $white;
+//   padding: 30px 20px;
+// }
+// .bmi-form-content-container ::placeholder {
+//   color: $black;
+//   opacity: 1; /* Firefox */
+// }
+// .bmi-form-content-container :-ms-input-placeholder { /* Internet Explorer 10-11 */
+//  color: $black;
+// }
+// .bmi-form-content-container ::-ms-input-placeholder { /* Microsoft Edge */
+//  color: $black;
+// }
+//
+// .bmi-form-content-container h5{
+//   font-weight: 500;
+//   font-size: 25px;
+// }
+//
+// #custom-radio-buttons {
+//   margin-top: 30px;
+// }
+// .bmi-form-navigation-container {
+//   margin-top: 50px;
+// }
+// .bmi-form-content-container input[type="date"], .bmi-form-content-container input[type="text"], .bmi-form-content-container input[type="email"], .bmi-form-content-container input[type="tel"], .bmi-form-content-container input[type="number"], {
+//   background: #f8f8f8 !important;
+//   border: 0;
+//   box-shadow: none !important;
+//   width: 100%;
+//   height: 50px;
+//   margin-top: 20px;
+//   padding-left: 10px;
+// }
+// .bmi-form-content-container select {
+//   background: #f8f8f8 !important;
+//   border: 0;
+//   box-shadow: none !important;
+//   width: 100%;
+//   height: 50px;
+//   position: relative;
+//   color: $black;
+// }
+//
+// #custom-radio-buttons .radio-wrapper {display: inline-block;}
+// 		#custom-radio-buttons .radio-wrapper input[name="additional_coverage"] {display: none;}
+// 		#custom-radio-buttons .radio-wrapper input[name="additional_coverage"] + label {
+// 			color: $black;
+// 			font-size: 16px;
+//       margin-left: 20px;
+//       margin-right: 20px;
+// 		}
+// 		#custom-radio-buttons .radio-wrapper input[name="additional_coverage"] + label > span.outer {
+// 			display: inline-block;
+// 			width: 20px;
+// 			height: 20px;
+// 			margin: -1px 7px 0 0;
+// 			border: 1px solid #8C8C8C;
+// 			vertical-align: middle;
+// 			cursor: pointer;
+// 			position: relative;
+// 			-moz-border-radius: 50%;
+// 			border-radius: 50%;
+// 			background-color: transparent;
+// 		}
+// 		#custom-radio-buttons .radio-wrapper input[name="additional_coverage"] + label span.inner {
+// 			display: block;
+// 			position: absolute;
+// 			display: none;
+// 			width: 14px;
+// 			height: 14px;
+// 			left: 0;
+// 			right: 0;
+// 			top: 0;
+// 			bottom: 0;
+// 			margin: auto;
+// 			vertical-align: middle;
+// 			cursor: pointer;
+// 			-moz-border-radius: 50%;
+// 			border-radius: 50%;
+// 			background-color: grey;
+// 		}
+// 		#custom-radio-buttons .radio-wrapper input[name="additional_coverage"]:checked + label span.inner {background-color: #252362; display: block;}
+//
+//     .plans-tier-container {
+//       border: solid 1px #252362;
+//       border-radius: 8px;
+//       padding: 10px 0;
+//       color: #252362;
+//       cursor: pointer;
+//       transition: .5s;
+//     }
+//     .plans-tier-container:hover {
+//       background: #252362;
+//       color: $white;
+//     }
+//     .plans-tier-container p {
+//       margin-bottom: 0px;
+//       font-size: 23px !important;
+//     }
+//     .plans-tier-container h3 {
+//       font-weight: 600;
+//       font-size: 25px;
+//     }
+//     .bmi-form-content-container input[type="checkbox"] {
+//       display: none;
+//     }
+//
+//     .custom-checkbox-label {
+//       cursor: pointer;
+//       display: block;
+//     }
+//
+//     .bmi-form-content-container input[type="checkbox"] + .custom-checkbox-label:before {
+//       border: 1px solid #8C8C8C;
+//       content: "\00a0";
+//       display: inline-block;
+//       font: 16px/1em sans-serif;
+//       height: 20px;
+//       margin: 0 .35em 0;
+//       padding: 0;
+//       vertical-align: text-top;
+//       width: 20px;
+//       background: $white;
+//     }
+//
+//     .bmi-form-content-container input[type="checkbox"]:checked + .custom-checkbox-label:before {
+//       background: $white;
+//       color: #252362;
+//       content: "\2713";
+//       text-align: center;
+//     }
+//
+//     .bmi-form-content-container input[type="checkbox"]:checked + .custom-checkbox-label:after {
+//       font-weight: bold;
+//     }
+//
+//     .bmi-form-content-container input[type="checkbox"]:focus + .custom-checkbox-label:before {
+//         outline: rgb(59, 153, 252) auto 5px;
+//     }
+//
+//     /* Reset Select */
+//     .select-option {
+//       -webkit-appearance: none;
+//       -moz-appearance: none;
+//       -ms-appearance: none;
+//       appearance: none;
+//       outline: 0;
+//       box-shadow: none;
+//       border: 0 !important;
+//       background: $white;
+//       background-image: none;
+//     }
+//     /* Remove IE arrow */
+//     select::-ms-expand {
+//       display: none;
+//     }
+//     /* Custom Select */
+//     .multi-step-select {
+//       width: 100%;
+//     }
+//     select {
+//       flex: 1;
+//       padding: 0 1.5em;
+//       color: #838383;
+//       cursor: pointer;
+//     }
+//     /* Arrow */
+//     .multi-step-select::after {
+//       content: '\25BC';
+//       position: absolute;
+//       top: 14px;
+//       right: 15px;
+//       padding: 0 1em;
+//       cursor: pointer;
+//       pointer-events: none;
+//       -webkit-transition: .25s all ease;
+//       -o-transition: .25s all ease;
+//       transition: .25s all ease;
+//       color: #7DA9DA;
+//     }
+//
+//     .bmi-form-content-container input[name="start_date"]:before {
+//       content: attr(placeholder);
+//       background: #f8f8f8;
+//       width: 90%;
+//     }
+//     .bmi-form-content-container input[name="end_date"]:before {
+//       content: attr(placeholder);
+//       background: #f8f8f8;
+//       width: 90%;
+//     }
+//     .bmi-form-content-container input[name="birthday"]:before {
+//       content: attr(placeholder);
+//       background: #f8f8f8;
+//       width: 90%;
+//     }
 
-#btn-multistep-prev:hover {
-  background: $white;
-  color: #7DA9DA;
+#bmi-apply-section-1 .embed-container {
+  min-height: 850px;
 }
-#btn-multistep-next {
-  background: #252362;
-  border: 2px solid #252362;
-  color: #ffffff;
-  padding: 10px 80px;
-  border-radius: 50px;
-  transition: .5s;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-#btn-multistep-next:hover {
-  background: $white;
-  color: #252362;
-}
-.bmi-apply-form-container {
-  background: #fafafa;
-  padding: 30px;
-}
-
-.bmi-form-content-container {
-  background: $white;
-  padding: 30px 20px;
-}
-.bmi-form-content-container ::placeholder {
-  color: $black;
-  opacity: 1; /* Firefox */
-}
-.bmi-form-content-container :-ms-input-placeholder { /* Internet Explorer 10-11 */
- color: $black;
-}
-.bmi-form-content-container ::-ms-input-placeholder { /* Microsoft Edge */
- color: $black;
-}
-
-.bmi-form-content-container h5{
-  font-weight: 500;
-  font-size: 25px;
-}
-
-#custom-radio-buttons {
-  margin-top: 30px;
-}
-.bmi-form-navigation-container {
-  margin-top: 50px;
-}
-.bmi-form-content-container input[type="date"], .bmi-form-content-container input[type="text"], .bmi-form-content-container input[type="email"], .bmi-form-content-container input[type="tel"], .bmi-form-content-container input[type="number"], {
-  background: #f8f8f8 !important;
-  border: 0;
-  box-shadow: none !important;
-  width: 100%;
-  height: 50px;
-  margin-top: 20px;
-  padding-left: 10px;
-}
-.bmi-form-content-container select {
-  background: #f8f8f8 !important;
-  border: 0;
-  box-shadow: none !important;
-  width: 100%;
-  height: 50px;
-  position: relative;
-  color: $black;
-}
-
-#custom-radio-buttons .radio-wrapper {display: inline-block;}
-		#custom-radio-buttons .radio-wrapper input[name="additional_coverage"] {display: none;}
-		#custom-radio-buttons .radio-wrapper input[name="additional_coverage"] + label {
-			color: $black;
-			font-size: 16px;
-      margin-left: 20px;
-      margin-right: 20px;
-		}
-		#custom-radio-buttons .radio-wrapper input[name="additional_coverage"] + label > span.outer {
-			display: inline-block;
-			width: 20px;
-			height: 20px;
-			margin: -1px 7px 0 0;
-			border: 1px solid #8C8C8C;
-			vertical-align: middle;
-			cursor: pointer;
-			position: relative;
-			-moz-border-radius: 50%;
-			border-radius: 50%;
-			background-color: transparent;
-		}
-		#custom-radio-buttons .radio-wrapper input[name="additional_coverage"] + label span.inner {
-			display: block;
-			position: absolute;
-			display: none;
-			width: 14px;
-			height: 14px;
-			left: 0;
-			right: 0;
-			top: 0;
-			bottom: 0;
-			margin: auto;
-			vertical-align: middle;
-			cursor: pointer;
-			-moz-border-radius: 50%;
-			border-radius: 50%;
-			background-color: grey;
-		}
-		#custom-radio-buttons .radio-wrapper input[name="additional_coverage"]:checked + label span.inner {background-color: #252362; display: block;}
-
-    .plans-tier-container {
-      border: solid 1px #252362;
-      border-radius: 8px;
-      padding: 10px 0;
-      color: #252362;
-      cursor: pointer;
-      transition: .5s;
-    }
-    .plans-tier-container:hover {
-      background: #252362;
-      color: $white;
-    }
-    .plans-tier-container p {
-      margin-bottom: 0px;
-      font-size: 23px !important;
-    }
-    .plans-tier-container h3 {
-      font-weight: 600;
-      font-size: 25px;
-    }
-    .bmi-form-content-container input[type="checkbox"] {
-      display: none;
-    }
-
-    .custom-checkbox-label {
-      cursor: pointer;
-      display: block;
-    }
-
-    .bmi-form-content-container input[type="checkbox"] + .custom-checkbox-label:before {
-      border: 1px solid #8C8C8C;
-      content: "\00a0";
-      display: inline-block;
-      font: 16px/1em sans-serif;
-      height: 20px;
-      margin: 0 .35em 0;
-      padding: 0;
-      vertical-align: text-top;
-      width: 20px;
-      background: $white;
-    }
-
-    .bmi-form-content-container input[type="checkbox"]:checked + .custom-checkbox-label:before {
-      background: $white;
-      color: #252362;
-      content: "\2713";
-      text-align: center;
-    }
-
-    .bmi-form-content-container input[type="checkbox"]:checked + .custom-checkbox-label:after {
-      font-weight: bold;
-    }
-
-    .bmi-form-content-container input[type="checkbox"]:focus + .custom-checkbox-label:before {
-        outline: rgb(59, 153, 252) auto 5px;
-    }
-
-    /* Reset Select */
-    .select-option {
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      -ms-appearance: none;
-      appearance: none;
-      outline: 0;
-      box-shadow: none;
-      border: 0 !important;
-      background: $white;
-      background-image: none;
-    }
-    /* Remove IE arrow */
-    select::-ms-expand {
-      display: none;
-    }
-    /* Custom Select */
-    .multi-step-select {
-      width: 100%;
-    }
-    select {
-      flex: 1;
-      padding: 0 1.5em;
-      color: #838383;
-      cursor: pointer;
-    }
-    /* Arrow */
-    .multi-step-select::after {
-      content: '\25BC';
-      position: absolute;
-      top: 14px;
-      right: 15px;
-      padding: 0 1em;
-      cursor: pointer;
-      pointer-events: none;
-      -webkit-transition: .25s all ease;
-      -o-transition: .25s all ease;
-      transition: .25s all ease;
-      color: #7DA9DA;
-    }
-
-    .bmi-form-content-container input[name="start_date"]:before {
-      content: attr(placeholder);
-      background: #f8f8f8;
-      width: 90%;
-    }
-    .bmi-form-content-container input[name="end_date"]:before {
-      content: attr(placeholder);
-      background: #f8f8f8;
-      width: 90%;
-    }
-    .bmi-form-content-container input[name="birthday"]:before {
-      content: attr(placeholder);
-      background: #f8f8f8;
-      width: 90%;
-    }
 /* end of Multi Step Form stylings victor */
 
 /* End of BMI Apply Page */
@@ -6491,7 +6496,7 @@ section#diplomat-america-section-4 {
 #diplomat-america-section-7 .copyright {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .diplomat-embed {
@@ -11667,6 +11672,11 @@ button.close {
   #footer {
     padding: 50px 20px 10px 20px;
   }
+  /* home flip card responsive */
+  .flip-card-doctors {
+    padding-top: 15px !important;
+  }
+  /* end of home flip card responsive */
 }
 
 /* end of footer responsive */
@@ -11721,7 +11731,6 @@ button.close {
   }
   #quote-form-container {
     max-height: 305px;
-    overflow: hidden;
   }
 }
 
@@ -11784,7 +11793,7 @@ button.close {
   }
   .mobile-nav {
     right: 85px;
-    top: 21px;
+    top: 0px !important;
   }
 
   .hidden-md-down {
@@ -11809,10 +11818,15 @@ button.close {
   #main-navigation {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 0;
   }
 
   .service-column:nth-child(2), .service-column:nth-child(3) {
     border-left: 0;
+  }
+
+  .diplomat-embed {
+    min-height: 1040px;
   }
 
   /* members login embed form responsive */
@@ -11835,8 +11849,13 @@ button.close {
     width: 100%;
   }
 
-  .navibar-top .container{
+  .navibar-top .col-lg-10, .navibar-top .col-lg-2 {
     display: none;
+  }
+
+  .navibar-top {
+    background: transparent;
+    position: absolute;
   }
 
   .mobile-nav {
@@ -11957,6 +11976,16 @@ button.close {
       position: absolute !important;
     }
   /*end of navibar mobile */
+
+  /* home flip card responsive */
+
+  #home-bottom-flipcard-section .flip-card {
+    height: 250px;
+  }
+  #home-bottom-flipcard-section .flipcard-container {
+    min-height: 250px;
+  }
+/* end of home flip card responsive */
 }
 
 @media only screen and (max-width:981px) {
@@ -13561,6 +13590,9 @@ button.close {
   #producers-section1 .embed-container {
     min-height: 410px;
   }
+  .diplomat-embed {
+    min-height: 1335px;
+  }
 /* end of members embed form responsive */
   .articles-slider .articles-container {
     max-width: 250px;
@@ -13599,6 +13631,9 @@ button.close {
     }
     #producers-section1 .embed-container {
       min-height: 335px;
+    }
+    .diplomat-embed {
+      min-height: 1285px;
     }
 /* end of members embed form responsive */
 
@@ -13645,6 +13680,9 @@ button.close {
     #producers-section1 .embed-container {
       min-height: 405px;
     }
+    .diplomat-embed {
+      min-height: 1337px;
+    }
   /* end of members embed form responsive */
 }
 
@@ -13667,6 +13705,29 @@ button.close {
     #producers-section1 .embed-container {
       min-height: 330px;
     }
+    .diplomat-embed {
+      min-height: 1288px;
+    }
+  /* end of members embed form responsive */
+}
+
+@media screen and (max-width:401px) {
+  /* members embed form responsive */
+
+    .diplomat-embed {
+      min-height: 1303px;
+    }
+
+  /* end of members embed form responsive */
+}
+
+@media screen and (max-width:379px) {
+  /* members embed form responsive */
+
+    .diplomat-embed {
+      min-height: 1331px;
+    }
+
   /* end of members embed form responsive */
 }
 
@@ -13843,6 +13904,9 @@ button.close {
     text-align: center;
   }
 
+  .diplomat-embed {
+    min-height: 1288px;
+  }
   /* claims flip card responsive */
   #claims-form-section-1 .flipcard-container1 {
     padding: 0px 50px;
@@ -13880,6 +13944,11 @@ button.close {
   }
 }
 
+@media screen and (max-width: 371px) {
+  .diplomat-embed {
+    min-height: 1303px;
+  }
+}
 
 @media screen and (max-width: 425px) {
   .articles-slider .slick-next {
@@ -16292,5 +16361,37 @@ button.close {
   #footer ul {
     display: flex;
     justify-content: space-evenly;
+  }
+}
+
+/* Jomar Styles */
+
+#plan-id-cards .embed-container {
+  padding-bottom: 68.25%;
+}
+
+#plan-id-cards #members-login-form {
+  max-height: 100% !important;
+}
+
+@media only screen and (min-width: 982px) {
+  #quote-section-1 .quote-container {
+    margin-top: -70px !important;
+  }
+}
+
+@media only screen and (max-width: 981px) {
+  #plan-id-cards .embed-container {
+    padding-bottom: 135vh;
+  }
+  #quote-form-container .embed-container {
+    padding-bottom: 85vh;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+  #plan-id-cards .embed-container {
+    padding-bottom: 150vh;
   }
 }
