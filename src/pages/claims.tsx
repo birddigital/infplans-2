@@ -11,6 +11,7 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { Helmet } from 'react-helmet'
+import ClaimsForm from 'components/forms/ClaimsForm';
 
 interface Props {
   data: IndexQueryQuery
@@ -120,7 +121,8 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
 
 
      <section id="claims-form-section-2">
-       <Container>
+      <ClaimsForm />
+        {/*}<Container>
        <div className="col-lg-12">
          <div className="row section2-container">
            <div className="col-lg-12">
@@ -144,7 +146,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
          </div>
         </div>
-       </Container>
+       </Container> */}
       </section>
 
       <section id="claims-form-section-3">

@@ -248,6 +248,7 @@ button {
 #main-navigation .mobile-menu .nav-link {
   color: $white;
   display: inline-block;
+  width: 100%;
 }
 
 #main-navigation .container {
@@ -16656,3 +16657,78 @@ button.close {
     padding-bottom: 150vh;
   }
 }
+
+/* Victor Stylings */
+
+#claims-form-container .embed-container {
+  padding-bottom: 27.25%;
+}
+#claims-form-section-2 {
+  padding-top: 0;
+  padding-bottom: 15px;
+}
+@media only screen and (max-width: 1326px) {
+
+  #claims-form-container .embed-container {
+    padding-bottom: 0;
+    height: auto;
+    min-height: 370px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+
+  #claims-form-container .embed-container {
+    padding-bottom: 0;
+    height: auto;
+    min-height: 530px;
+  }
+}
+@media only screen and (max-width: 768px) {
+
+  #claims-form-container .embed-container {
+    padding-bottom: 0;
+    height: auto;
+    min-height: 530px;
+  }
+}
+@media only screen and (max-width: 767px) {
+
+  #claims-form-container .embed-container {
+    padding-bottom: 0;
+    height: auto;
+    min-height: 540px;
+  }
+
+}
+@media only screen and (max-width: 755px) {
+
+  #claims-form-container .embed-container {
+    padding-bottom: 0;
+    height: auto;
+    min-height: 570px;
+  }
+
+}
+@media only screen and (max-width: 596px) {
+
+  #claims-form-container .embed-container {
+    padding-bottom: 0;
+    height: auto;
+    min-height: 570px;
+  }
+
+}
+@media only screen and (max-width: 375px) {
+
+  #claims-form-container .embed-container {
+    padding-bottom: 0;
+    height: auto;
+    min-height: 595px;
+  }
+
+}
+
+#bmi-apply-form-container .embed-container {
+  padding-bottom: 82.25%;
+}
+/* end of Victor Stylings */
