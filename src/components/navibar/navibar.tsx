@@ -90,7 +90,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                         }
                       >
                         <Link to="/visitors-insurance-quote" className="nav-link">
-                          Get A Quote
+                          Get a Quote
                         </Link>
                       </li>
                       <li
