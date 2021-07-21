@@ -59,7 +59,7 @@ const Footer = ({ className }) => {
             <h4>Our Plans</h4>
             <Link to="/standard"><p>Standard</p></Link>
             <Link to="/elite-network"><p>Elite Network</p></Link>
-            <Link to="/premier"><p>Premium</p></Link>
+            <Link to="/premier"><p>Premier</p></Link>
             <Link to="/traveler-usa"><p>Traveler USA</p></Link>
             <Link to="/bmi-travel"><p>INF BMI</p></Link>
           </div>
@@ -73,8 +73,8 @@ const Footer = ({ className }) => {
             <ul className="list-inline">
               <li className="list-inline-item">© INFPLANS {new Date().getFullYear()}</li>
               <Link to="/privacy-policy"><li className="list-inline-item">Privacy Policy</li></Link>
-              <Link to="/"><li className="list-inline-item">Cookies Policy</li></Link>
-              <Link to="/"><li className="list-inline-item">Terms of Use</li></Link>
+              <Link to="/cookies-policy"><li className="list-inline-item">Cookies Policy</li></Link>
+              <Link to="/terms-of-use"><li className="list-inline-item">Terms of Use</li></Link>
             </ul>
           </div>
         </ContainerFluid>
