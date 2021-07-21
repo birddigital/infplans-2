@@ -11976,6 +11976,141 @@ button.close {
 /*end of exit popup stylings
 /* end of victor css */
 
+/* Plans Popup Stylings */
+.plans-popup.modal {
+  overflow: auto;
+}
+
+.plans-popup.modal .modal-body {
+  padding: 0;
+}
+
+#plans-section-6 li:before {
+  content: none !important;
+}
+
+.plans-popup.modal  .coverages-tab .tab-row-title {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+#plans-section-6 .nav {
+  min-width: 220px;
+}
+
+.plans-popup.modal h2 {
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 8px;;
+}
+
+.coverages-tab .tab-content {
+  font-size: 16px !important;
+  border: 1px solid #A5A5A5;
+  border-top: none;
+  text-align: center !important;
+  font-weight: 400 !important;
+}
+
+/*.plans-popup .coverages-tab section > div {
+  display: block;
+}*/
+
+.coverages-tab .column-tab-title {
+    margin-bottom: 0;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    margin-top: 0;
+}
+
+.plans-popup .nav-item a {
+  font-size: 13px !important;
+}
+
+.coverages-tab ul li label {
+  padding: 6px 12px;
+}
+
+
+.plans-popup .ivas-in-tab .tab-content1 {
+  font-size: 14px;
+}
+
+.plans-popup .ivas-in-tab section p {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+.ivas-out-tab .tab-content1, .ivas-out-tab .tab-content2, .ivas-out-tab .tab-content3, .ivas-out-tab .tab-content, .ivas-other-tab .column-tab-title, .ivas-other-tab .tab-content1, .ivas-out-tab .tab-content4, .ivas-other-tab .tab-content, .ivas-other-tab .tab-content3, .ivas-other-tab .tab-content2 {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+.plans-popup .ivas-in-tab .tab-content4 {
+  padding-top: 15px;
+}
+
+.tab-row-title {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  margin-bottom: 25px !important;
+}
+
+.ivas-out-tab .column-tab-title {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+.plans-popup .modal-dialog {
+  margin-bottom: 40px !important;
+}
+
+.plans-popup .coverages-tab .column-tab-title {
+  text-align: center !important;
+}
+
+.plans-popup .read-now-btn {
+  background: #252362 !important;
+  border: 2px solid #252362 !important;
+}
+
+.plans-popup .read-now-btn:hover {
+  background: #7DA9DA !important;
+  border: 2px solid #7DA9DA !important;
+}
+
+.plans-popup #plans-section-6 .p-3 {
+  padding-bottom: 30px !important;
+}
+
+.plans-popup #plans-section-6 button.close {
+    padding: 2px 10px 2px 10px;
+    background-color: #252362;
+    border: 0;
+    cursor: pointer;
+    opacity: 1;
+    color: #fff;
+}
+
+.plans-popup #plans-section-6 button.close:hover {
+  background-color: #a0ccff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
