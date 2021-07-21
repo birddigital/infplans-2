@@ -54,14 +54,23 @@ const ShortTermInsurancePage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="ihc-section-1">
         <Container>
           <div className="col-lg-12">
-            <div className="ihc-container text-center">
+            <div className="ihc-container">
               <h2>
                 Enroll in IHC Short Term Insurance below:
               </h2>
               <p>
                 This insurance is designed for people who need medical insurance in the short term. This is great for people who are unemployed, self-employed or just need an affordable insurance that fits their budget. Contact us for more information about this plan.
               </p>
-              <p>
+                <div className="col-lg-12">
+                <iframe src="https://quote.ihcmarketplace.com/Agent/3512712/GetQuote?product=STM" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="800px" width="100%" allowfullscreen=""></iframe>
+                  <div id="sub-frame-error" jstcache="0" >
+                    <div class="icon icon-generic" jseval="updateIconClass(this.classList, iconClass)" jstcache="1"></div>
+                    <div id="sub-frame-error-details" jsselect="summary" jsvalues=".innerHTML:msg" jstcache="2"><strong jscontent="hostName" jstcache="23">
+                      quote.ihcmarketplace.com</strong> took too long to respond.
+                    </div>
+                  </div>
+                </div>
+              <p className="mt-3">
                 If you do not consent to the use of electronic transactions and electronic signatures on this site, please contact 1-800-920-7125 to receive paper copies of the application and transact with us through an alternative non-electronic method.
               </p>
               <p>

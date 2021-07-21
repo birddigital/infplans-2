@@ -5343,6 +5343,38 @@ section#ihc-hero-section {
   line-height: 2.0;
 }
 
+#sub-frame-error {
+  -webkit-align-items: center;
+  -webkit-flex-flow: column;
+  -webkit-justify-content: center;
+  background-color: #DDD;
+  display: -webkit-flex;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: background-color 200ms ease-in-out;
+  width: 100%;
+}
+
+#sub-frame-error:hover {
+  background-color: #EEE;
+}
+
+#sub-frame-error-details {
+  margin: 0 10px;
+  text-align: center;
+}
+
+#sub-frame-error-details {
+  color: #8F8F8F;
+}
+
+#sub-frame-error .icon-generic {
+  margin: 0 0 16px;
+}
+
 /* End of IHC Page */
 
 /* End of Klint css */
