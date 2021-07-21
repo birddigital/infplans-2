@@ -17172,7 +17172,7 @@ button.close {
 /* Jomar Styles */
 
 #plan-id-cards .embed-container {
-  padding-bottom: 68.25%;
+  padding-bottom: 74.25%;
 }
 
 #plan-id-cards #members-login-form {
@@ -17236,14 +17236,6 @@ button.close {
   }
 }
 
-@media only screen and (max-width: 767px) {
-  #claims-form-container .embed-container {
-    padding-bottom: 0;
-    height: auto;
-    min-height: 510px;
-  }
-}
-
 @media only screen and (max-width: 500px) {
   #claims-form-container .embed-container {
     padding-bottom: 0;
@@ -17258,7 +17250,7 @@ button.close {
 
 #apply-page-form .embed-container {
   padding-bottom: 0;
-  min-height: 1100px;
+  min-height: 1250px;
 }
 
 #apply-page-form {
@@ -17267,12 +17259,14 @@ button.close {
 }
 /* old css edits*/
 .diplomat-embed {
-  min-height: 1265px;
+  min-height: 1420px;
 }
 
 #diplomat-america-section-7, #diplomat-international-section-6 {
   padding-bottom: 0;
 }
+
+
 /* end of old css edits */
 #bmi-travel-section-1 .modal-body {
   text-align: center;
@@ -17284,7 +17278,139 @@ button.close {
   margin-bottom: 10px;
   line-height: 1.5;
 }
+
+#bmi-apply-form-container {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  #plan-id-cards .embed-container {
+    padding-bottom: 0;
+    min-height: 708px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #plan-id-cards .embed-container {
+    min-height: 850px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #claims-form-container .embed-container {
+    padding-bottom: 0;
+    height: auto;
+    min-height: 510px;
+  }
+  #plan-id-cards .embed-container {
+    min-height: 936px;
+  }
+}
+
+@media screen and (max-width:575px) {
+  /* members embed form responsive */
+    #members-section1 .embed-container {
+        min-height: 750px;
+    }
+    #producers-section1 .embed-container {
+      min-height: 405px;
+    }
+    .diplomat-embed {
+      min-height: 1337px;
+    }
+
+  /* end of members embed form responsive */
+    #plan-id-cards .embed-container {
+      min-height: 905px;
+    }
+}
+
+@media only screen and (max-width: 542px) {
+  #plan-id-cards .embed-container {
+    min-height: 940px;
+  }
+}
+
+@media only screen and (max-width: 528px) {
+  #plan-id-cards .embed-container {
+    min-height: 970px;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  #plan-id-cards .embed-container {
+    min-height: 1000px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  #plan-id-cards .embed-container {
+    min-height: 1030px;
+  }
+}
+
+@media only screen and (max-width: 419px) {
+  #plan-id-cards .embed-container {
+    min-height: 1060px;
+  }
+}
+
+@media only screen and (max-width: 389px) {
+  #plan-id-cards .embed-container {
+    min-height: 1095px;
+  }
+}
+
+@media only screen and (max-width: 382px) {
+  #plan-id-cards .embed-container {
+    min-height: 1125px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  #plan-id-cards .embed-container {
+    min-height: 1147px;
+  }
+}
+
+@media only screen and (max-width: 363px) {
+  #plan-id-cards .embed-container {
+    min-height: 1180px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #plan-id-cards .embed-container {
+    min-height: 1260px;
+  }
+}
+
+@media only screen and (max-width: 334px) {
+  #plan-id-cards .embed-container {
+    min-height: 1292px;
+  }
+}
+
+@media only screen and (max-width: 324px) {
+  #plan-id-cards .embed-container {
+    min-height: 1315px;
+  }
+}
+
+@media only screen and (max-width: 323px) {
+  #plan-id-cards .embed-container {
+    min-height: 1345px;
+  }
+}
+
+@media only screen and (max-width: 322px) {
+  #plan-id-cards .embed-container {
+    min-height: 1380px;
+  }
+}
+
 /* end of Victor Stylings */
+
 
 @media screen and (max-width:1024px) {
   .visitor-insurance-faq-hero-section-bg {
