@@ -45,7 +45,7 @@ const MembersPage: React.FC<Props> = ({ data, location }: Props) => {
               <h1 className="text-white text-center">
                 INSURED PORTAL
               </h1>
-            <Link to="/inf-easy-select"><button className="hero-btn"> Get a Quote </button></Link>
+            <Link to="#insured-login"><button className="hero-btn"> Sign In </button></Link>
             </div>
           </Container>
         </div>
@@ -53,7 +53,7 @@ const MembersPage: React.FC<Props> = ({ data, location }: Props) => {
 
       <section id="members-section1">
         <Container>
-          <div className="col-lg-12">
+          <div className="col-lg-12" id="insured-login">
             <div className="embed-container">
               <iframe src="https://adrienb3.sg-host.com/forms/members-login.php" id="members-login-form"></iframe>
             </div>

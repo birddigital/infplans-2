@@ -207,7 +207,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                           <h4 className="download text-center">Download Claims Form<br /> Policy Numbers Starting with INF</h4>
                           <Img fluid={pdf_icon} className="pdf-icon"/>
                           <a href="https://infplans.com/policy_pdf/INF_INFHealthCare_ClaimForm.pdf" target="_blank">
-                            <button className="download-btn2"> Download </button>
+                            <button className="download-btn"> Download </button>
                           </a>
                         </div>
                        </div>

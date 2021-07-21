@@ -45,7 +45,7 @@ const ShortTermInsurancePage: React.FC<Props> = ({ data, location }: Props) => {
               <h1 className="text-white">
                 IHC SHORT TERM INSURANCE
               </h1>
-              <Link to="/inf-easy-select"><button className="hero-btn"> Get a Quote </button></Link>
+              <Link to="/inf-easy-select"><button className="hero-btn"> Apply Now </button></Link>
             </div>
           </Container>
         </div>

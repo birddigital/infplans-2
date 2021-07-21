@@ -365,7 +365,6 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-4 text-right left-content">
             <h2 className="text-black">What Our Clients Have To Say</h2>
             <Img fluid={home_divider_img} className="testimonial-divider"/>
-            <hr />
             <p className="testimonial-subtitle">We pride ourselves on offering quality products and top notch service.</p>
           </div>
           <div className="col-lg-8 right-content">
@@ -387,7 +386,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 <h3 className="text-center">Extend Your <br />Plan</h3>
                 {/*}<h3 className="text-center">Extend Your <br />Policy</h3> */}
                 <p className="text-black flipcard-content">
-                  Extend Your Plan to Continue Coverage
+                  Extend Your Plan to <br /> Continue Coverage
                 </p>
                 <Link to="/extend" className="nav-link">
                   <button className="flipcard-btn"> Extend Plan </button>
@@ -422,7 +421,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               </div>
               <div className="flipcard-container-inner flip-card-back flip-card-doctors">
                 <h3 className="text-center">Doctors & <br />Hospitals</h3>
-                <p className="text-black flipcard-content">Find an In-Network Health Care Provider Nearby</p>
+                <p className="text-black flipcard-content">Find an In-Network Health Care <br /> Provider Nearby</p>
                 <Link to="/first-health-ppo" className="nav-link">
                   <button className="flipcard-btn"> Find A Provider </button>
                 </Link>
@@ -433,7 +432,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="flip-card-inner">
               <div className="flipcard-container flip-card-front">
                 <Img fluid={bottom_icon4} className="flipcard-icon" alt="Claims" />
-                <h3 className="text-center">Claims</h3>
+                <h3 className="text-center">File a <br /> Claim</h3>
               </div>
               <div className="flipcard-container-inner flip-card-back">
                 <h3 className="text-center">Claims</h3>

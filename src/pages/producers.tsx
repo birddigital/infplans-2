@@ -45,7 +45,7 @@ const ProducersPage: React.FC<Props> = ({ data, location }: Props) => {
               <h1 className="text-white text-center">
                 PRODUCERS
               </h1>
-              <Link to="/inf-easy-select"><button className="hero-btn"> Get a Quote </button></Link>
+              <Link to="#producer-login"><button className="hero-btn"> Sign In </button></Link>
             </div>
           </Container>
         </div>
@@ -53,7 +53,7 @@ const ProducersPage: React.FC<Props> = ({ data, location }: Props) => {
 
       <section id="producers-section1">
         <Container>
-          <div className="col-lg-12">
+          <div className="col-lg-12" id="producer-login">
             <div className="embed-container">
               <iframe src="https://adrienb3.sg-host.com/forms/producers-login.php" id="members-login-form"></iframe>
             </div>

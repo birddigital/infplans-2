@@ -177,7 +177,6 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
 
       {fourthStep ? (
         <div className="col-lg-12" id="filtered-section">
-          <div className="col-lg-12 ">
             <div className="blue-background">
             <div className="row">
               <div className="col-lg-3 ">
@@ -199,7 +198,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                     <a href="#"className="dropdown-item" >60-64</a>
                     <a href="#"className="dropdown-item" >75-79</a>
                     <a href="#"className="dropdown-item" >80-84</a>
-                    <a href="#"className="dropdown-item" >85-89</a>
+                    <a href=  "#"className="dropdown-item" >85-89</a>
                     <a href="#"className="dropdown-item" >90-94</a>
                     <a href="#"className="dropdown-item" >95-99</a>
                   </div>
@@ -207,7 +206,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="col-lg-3 premium-button ">
                     <a href="#" className="drop-btn2 dropdown-toggle" data-toggle="dropdown">Any</a>
                     <div className="dropdown-menu">
-                      <a href="#" className="dropdown-item" >Any</a>
+                      <a href="#  " className="dropdown-item" >Any</a>
                       <a href="#"className="dropdown-item" >Fixed</a>
                       <a href="#"className="dropdown-item" >Network</a>
                     </div>
@@ -221,146 +220,186 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                   </div>
                   </div>
                 </div>
-              </div>
-
-        <p className="table-title ">ULTRA PLUS</p>
-        <div className="col-lg-12 ">
-          <div className="row">
-            <div className="col-lg-2 ">
-                <div className="column-tab">
-                  <p className="text-white column-tab-title">PlanMax</p>
-                </div>
-              <p className="tab-contents text-black">$60000</p>
-            </div>
-
-            <div className="col-lg-2 ">
-              <div className="column-tab">
-                <p className="text-white column-tab-title">PlanDed</p>
-              </div>
-                <p className="tab-contents text-black">$0</p>
-            </div>
-
-            <div className="col-lg-2 ">
-              <div className="column-tab">
-                <p className="text-white column-tab-title">Pre-existing Maximum</p>
-              </div>
-                <p className="tab-contents text-black">$700</p>
-            </div>
-
-            <div className="col-lg-2 ">
-              <div className="column-tab">
-                <p className="text-white column-tab-title">Pre-existing Deductible</p>
-              </div>
-                <p className="tab-contents text-black">$0</p>
-            </div>
-
-            <div className="col-lg-4 ">
-              <div className="column-tab">
-                <p className="text-white column-tab-title2">60 Days Price</p>
-              </div>
-                <p className="tab-contents2">$202.80<button className="purchase-btn">Purchase</button></p>
-            </div>
-          </div>
-          </div>
-
-          <p className="table-title ">VIP</p>
-          <div className="col-lg-12 ">
+          <p className="table-title">ULTRA PLUS</p>
+          <div className="col-lg-12">
             <div className="row">
-              <div className="col-lg-2 ">
+              <div className="col-lg-2">
                   <div className="column-tab">
                     <p className="text-white column-tab-title">PlanMax</p>
                   </div>
-                <p className="tab-contents text-black">$100000</p>
+                <p className="tab-contents text-black">$60000</p>
               </div>
 
-              <div className="col-lg-2 ">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">PlanDed</p>
                 </div>
                   <p className="tab-contents text-black">$0</p>
               </div>
 
-              <div className="col-lg-2 ">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Maximum</p>
                 </div>
-                  <p className="tab-contents text-black">$2000</p>
+                  <p className="tab-contents text-black">$700</p>
               </div>
 
-              <div className="col-lg-2 ">
+              <div className="col-lg-2">
                 <div className="column-tab">
                   <p className="text-white column-tab-title">Pre-existing Deductible</p>
                 </div>
                   <p className="tab-contents text-black">$0</p>
               </div>
 
-              <div className="col-lg-4 ">
+              <div className="col-lg-4">
                 <div className="column-tab">
                   <p className="text-white column-tab-title2">60 Days Price</p>
                 </div>
-                  <p className="tab-contents2">$303.00<button className="purchase-btn">Purchase</button></p>
+                  <p className="tab-contents2">$202.80</p>
               </div>
             </div>
             </div>
 
-            <p className="table-title ">VIP PLUS</p>
-            <div className="col-lg-12 ">
+            <p className="table-title">VIP</p>
+            <div className="col-lg-12">
               <div className="row">
-                <div className="col-lg-2 ">
+                <div className="col-lg-2">
                     <div className="column-tab">
                       <p className="text-white column-tab-title">PlanMax</p>
                     </div>
-                  <p className="tab-contents text-black">$250000</p>
+                  <p className="tab-contents text-black">$100000</p>
                 </div>
 
-                <div className="col-lg-2 ">
+                <div className="col-lg-2">
                   <div className="column-tab">
                     <p className="text-white column-tab-title">PlanDed</p>
                   </div>
                     <p className="tab-contents text-black">$0</p>
                 </div>
 
-                <div className="col-lg-2 ">
+                <div className="col-lg-2">
                   <div className="column-tab">
                     <p className="text-white column-tab-title">Pre-existing Maximum</p>
                   </div>
-                    <p className="tab-contents text-black">$6000</p>
+                    <p className="tab-contents text-black">$2000</p>
                 </div>
 
-                <div className="col-lg-2 ">
+                <div className="col-lg-2">
                   <div className="column-tab">
                     <p className="text-white column-tab-title">Pre-existing Deductible</p>
                   </div>
                     <p className="tab-contents text-black">$0</p>
                 </div>
 
-                <div className="col-lg-4 ">
+                <div className="col-lg-4">
                   <div className="column-tab">
                     <p className="text-white column-tab-title2">60 Days Price</p>
                   </div>
-                    <p className="tab-contents2">$424.80<button className="purchase-btn">Purchase</button></p>
+                    <p className="tab-contents2">$303.00</p>
                 </div>
               </div>
+              </div>
 
-
-              <p className="table-title ">INF ELITE</p>
-              <div className="col-lg-12 ">
+              <p className="table-title">VIP PLUS</p>
+              <div className="col-lg-12">
                 <div className="row">
-                <div className="col-lg-2 ">
-                  <div className="column-tab">
-                    <p className="text-white column-tab-title">PlanMax</p>
+                  <div className="col-lg-2">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">PlanMax</p>
+                      </div>
+                    <p className="tab-contents text-black">$250000</p>
                   </div>
-                    <p className="tab-contents text-black">$150000</p>
+
+                  <div className="col-lg-2">
+                    <div className="column-tab">
+                      <p className="text-white column-tab-title">PlanDed</p>
+                    </div>
+                      <p className="tab-contents text-black">$0</p>
+                  </div>
+
+                  <div className="col-lg-2">
+                    <div className="column-tab">
+                      <p className="text-white column-tab-title">Pre-existing Maximum</p>
+                    </div>
+                      <p className="tab-contents text-black">$6000</p>
+                  </div>
+
+                  <div className="col-lg-2">
+                    <div className="column-tab">
+                      <p className="text-white column-tab-title">Pre-existing Deductible</p>
+                    </div>
+                      <p className="tab-contents text-black">$0</p>
+                  </div>
+
+                  <div className="col-lg-4">
+                    <div className="column-tab">
+                      <p className="text-white column-tab-title2">60 Days Price</p>
+                    </div>
+                      <p className="tab-contents2">$424.80</p>
+                  </div>
                 </div>
 
-                   <div className="col-lg-2 ">
-                     <div className="column-tab">
-                       <p className="text-white column-tab-title">PlanDed</p>
-                     </div>
-                       <p className="tab-contents text-black">$500</p>
-                   </div>
 
+                <p className="table-title">INF ELITE</p>
+                <div className="col-lg-12">
+                  <div className="row">
                   <div className="col-lg-2 ">
+                    <div className="column-tab">
+                      <p className="text-white column-tab-title">PlanMax</p>
+                    </div>
+                      <p className="tab-contents text-black">$150000</p>
+                  </div>
+
+                     <div className="col-lg-2 ">
+                       <div className="column-tab">
+                         <p className="text-white column-tab-title">PlanDed</p>
+                       </div>
+                         <p className="tab-contents text-black">$500</p>
+                     </div>
+
+                    <div className="col-lg-2 ">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">Pre-existing Maximum</p>
+                      </div>
+                        <p className="tab-contents text-black">$25000</p>
+                    </div>
+
+                    <div className="col-lg-2 ">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title">Pre-existing Deductible</p>
+                      </div>
+                        <p className="tab-contents text-black">$1500</p>
+                    </div>
+
+                    <div className="col-lg-4 ">
+                      <div className="column-tab">
+                        <p className="text-white column-tab-title2">60 Days Price</p>
+                      </div>
+                        <p className="tab-contents2">$354.60</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <p className="table-title ">INF ELITE 90</p>
+                <div className="col-lg-12 ">
+                  <div className="row">
+                  <div className="col-lg-2 ">
+                    <div className="column-tab">
+                      <p className="text-white column-tab-title">PlanMax</p>
+                    </div>
+                      <p className="tab-contents text-black">$150000</p>
+                  </div>
+
+                     <div className="col-lg-2 ">
+                       <div className="column-tab">
+                         <p className="text-white column-tab-title">PlanDed</p>
+                       </div>
+                         <p className="tab-contents text-black">$500</p>
+                     </div>
+
+                    <div className="col-lg-2 ">
+
                     <div className="column-tab">
                       <p className="text-white column-tab-title">Pre-existing Maximum</p>
                     </div>
@@ -378,48 +417,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                     <div className="column-tab">
                       <p className="text-white column-tab-title2">60 Days Price</p>
                     </div>
-                      <p className="tab-contents2">$354.60<button className="purchase-btn">Purchase</button></p>
-                  </div>
-                </div>
-              </div>
-
-
-              <p className="table-title ">INF ELITE 90</p>
-              <div className="col-lg-12 ">
-                <div className="row">
-                <div className="col-lg-2 ">
-                  <div className="column-tab">
-                    <p className="text-white column-tab-title">PlanMax</p>
-                  </div>
-                    <p className="tab-contents text-black">$150000</p>
-                </div>
-
-                   <div className="col-lg-2 ">
-                     <div className="column-tab">
-                       <p className="text-white column-tab-title">PlanDed</p>
-                     </div>
-                       <p className="tab-contents text-black">$500</p>
-                   </div>
-
-                  <div className="col-lg-2 ">
-                    <div className="column-tab">
-                      <p className="text-white column-tab-title">Pre-existing Maximum</p>
-                    </div>
-                      <p className="tab-contents text-black">$25000</p>
-                  </div>
-
-                  <div className="col-lg-2 ">
-                    <div className="column-tab">
-                      <p className="text-white column-tab-title">Pre-existing Deductible</p>
-                    </div>
-                      <p className="tab-contents text-black">$1500</p>
-                  </div>
-
-                  <div className="col-lg-4 ">
-                    <div className="column-tab">
-                      <p className="text-white column-tab-title2">60 Days Price</p>
-                    </div>
-                      <p className="tab-contents2">$354.60<button className="purchase-btn">Purchase</button></p>
+                      <p className="tab-contents2">$354.60</p>
                   </div>
                 </div>
               </div>
@@ -459,7 +457,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                     <div className="column-tab">
                       <p className="text-white column-tab-title2">60 Days Price</p>
                     </div>
-                      <p className="tab-contents2">$1309.50<button className="purchase-btn">Purchase</button></p>
+                      <p className="tab-contents2">$1309.50</p>
                   </div>
                 </div>
               </div>
@@ -499,7 +497,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                     <div className="column-tab">
                       <p className="text-white column-tab-title2">60 Days Price</p>
                     </div>
-                      <p className="tab-contents2">$119.70<button className="purchase-btn">Purchase</button></p>
+                      <p className="tab-contents2">$119.70</p>
                   </div>
                 </div>
               </div>
@@ -539,7 +537,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                     <div className="column-tab">
                       <p className="text-white column-tab-title2">60 Days Price</p>
                     </div>
-                      <p className="tab-contents2">$158.40<button className="purchase-btn">Purchase</button></p>
+                      <p className="tab-contents2">$158.40</p>
                   </div>
                 </div>
               </div>
@@ -579,7 +577,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                     <div className="column-tab">
                       <p className="text-white column-tab-title2">60 Days Price</p>
                     </div>
-                      <p className="tab-contents2">$41.55<button className="purchase-btn">Purchase</button></p>
+                      <p className="tab-contents2">$41.55</p>
                   </div>
                 </div>
               </div>
@@ -619,7 +617,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                     <div className="column-tab">
                       <p className="text-white column-tab-title2">60 Days Price</p>
                     </div>
-                      <p className="tab-contents2">$40.20<button className="purchase-btn">Purchase</button></p>
+                      <p className="tab-contents2">$40.20</p>
                   </div>
                 </div>
               </div>

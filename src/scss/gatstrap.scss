@@ -782,6 +782,7 @@ what-describes-you {
 #home-testimonial-section .testimonial-subtitle {
   color: #192D35;
   font-size: 20px;
+  padding-top: 5px;
 }
 
 #home-bottom-flipcard-section .flipcard-icon {
@@ -2384,8 +2385,8 @@ section#elite-section1 {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  background: #7DA9DA;
-  border: 2px solid #7DA9DA;
+  background: #252362;
+  border: 2px solid #252362;
   color: #ffffff;
   padding: 8px 50px;
   border-radius: 50px;
@@ -2393,9 +2394,9 @@ section#elite-section1 {
 }
 
 #elite-section5 .read-now-btn:hover {
-  background: #252362;
   color: #ffffff;
-  border: 2px solid #252362;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
 }
 
 #elite-cta-section .buy-now-btn {
@@ -2405,10 +2406,9 @@ section#elite-section1 {
   background: #ffffff;
   border: 2px solid #ffffff;
   color: #252362;
-  padding: 2px 70px;
+  padding: 8px 50px;
   border-radius: 50px;
   transition: .5s;
-  font-size: 40px;
   font-weight: 500;
   margin-top: 20px;
 }
@@ -3051,8 +3051,8 @@ section#traveler-usa-section1 {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  background: #7DA9DA;
-  border: 2px solid #7DA9DA;
+  background: #252362;
+  border: 2px solid #252362;
   color: #ffffff;
   padding: 8px 50px;
   border-radius: 50px;
@@ -3060,9 +3060,9 @@ section#traveler-usa-section1 {
 }
 
 #traveler-usa-section5 .read-now-btn:hover {
-  background: #252362;
   color: #ffffff;
-  border: 2px solid #252362;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
 }
 
 #traveler-usa-cta-section .buy-now-btn {
@@ -3072,10 +3072,9 @@ section#traveler-usa-section1 {
   background: #ffffff;
   border: 2px solid #ffffff;
   color: #252362;
-  padding: 2px 70px;
+  padding: 8px 50px;
   border-radius: 50px;
   transition: .5s;
-  font-size: 40px;
   font-weight: 500;
   margin-top: 20px;
 }
@@ -3726,10 +3725,9 @@ section#premier-section1 {
   background: #ffffff;
   border: 2px solid #ffffff;
   color: #252362;
-  padding: 2px 70px;
+  padding: 8px 50px;
   border-radius: 50px;
   transition: .5s;
-  font-size: 40px;
   font-weight: 500;
   margin-top: 20px;
 }
@@ -4512,8 +4510,8 @@ section#standard-section1 {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  background: #7DA9DA;
-  border: 2px solid #7DA9DA;
+  background: #252362;
+  border: 2px solid #252362;
   color: #ffffff;
   padding: 8px 50px;
   border-radius: 50px;
@@ -4521,9 +4519,9 @@ section#standard-section1 {
 }
 
 #standard-section5 .read-now-btn:hover {
-  background: #252362;
   color: #ffffff;
-  border: 2px solid #252362;
+  background: #7DA9DA;
+  border: 2px solid #7DA9DA;
 }
 
 #standard-cta-section .buy-now-btn {
@@ -4533,10 +4531,9 @@ section#standard-section1 {
   background: #ffffff;
   border: 2px solid #ffffff;
   color: #252362;
-  padding: 2px 70px;
+  padding: 8px 50px;
   border-radius: 50px;
   transition: .5s;
-  font-size: 40px;
   font-weight: 500;
   margin-top: 20px;
 }
@@ -9414,6 +9411,7 @@ section#bmi-travel-section-2 {
   border-top: none;
   min-height: 90px;
   padding-left: 8px;
+  padding-bottom: 0;
   padding-right: 8px;
   text-align: center;
 }
@@ -9432,8 +9430,8 @@ section#bmi-travel-section-2 {
 }
 
 .conditions-tab .content-2 {
-  padding-top: 14px;
-  min-height: 50px;
+  padding-top: 15px;
+  min-height: 74px;
 }
 
 .conditions-tab .content-3 {
