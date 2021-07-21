@@ -63,7 +63,10 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
 
       <section id="eyemed-section-1">
         <Container>
-          <div className="col-lg-7">
+          <div className="col-lg-12">
+            <iframe src="https://eyemed.memberquotes.com/Quote/LandingPage/EyeMed_1?rn=000020140-207-732&sessionStorage=345017f4-8bfc-46b3-af7d-651d0cdea6a0" style={{ border:"0px #ffffff none" }} name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="800px" width="100%"></iframe>
+          </div>
+          {/*<div className="col-lg-7">
           <div className="eyemed-form-container">
              <h2 className="text-blue text-center">Find The Perfect Vision Plan For You</h2>
 
@@ -181,7 +184,7 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
       </Container>
     </section>
 
@@ -198,12 +201,12 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
             <p className="text-center eyemed-content">Your information is governed by our privacy policy. By entering your name and information above and clicking the Get Quote button, you are consenting to receive a call or emails regarding your Insurance Health, Dental, Vision, Supplement, Medicare Advantage, Medicare Supplement, and Prescription Drug Plan options (at any phone number or email address you provide) from a SASid representative or one of our licensed insurance agent business partners, and you agree such call may use an automatic telephone dialing system or an artificial or prerecorded voice to deliver messages. This agreement is not a condition of enrollment.</p>
             <p className="text-center eyemed-content">SASid, Inc. Agency CA License #0D43589. EyeMed Vision Care & Insurance Services, LLC. Agency CA License #0F30752. Shannon Kennedy, whose principal place of business is in Wisconsin, is licensed to transact insurance business in California under license number #OD43589.</p>
 
-            <div className="col-lg-6">
+            {/*<div className="col-lg-6">
               <Img fluid={secure_img} className="secure-img" />
             </div>
             <div className="col-lg-6">
               <Img fluid={privacy_img} className="privacy-img" />
-            </div>
+            </div>*/}
 
             <p className="text-center powered">Powered by InsuranceTPA.com</p>
             <p className="text-center eyemed-content">Underwritten by Fidelity Security Life Insurance Company and Fidelity Security Life Insurance Company of New York, and administered by First American Administrators and InsuranceTPA.com and serviced by EyeMed. Policy numbers VC-133/VCN-12; form numbers M-9157/M-9159/MN-17/MN-19.</p>

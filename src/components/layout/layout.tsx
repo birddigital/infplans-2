@@ -103,7 +103,7 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
                   <div className="modal-body col-lg-7">
                   <h3 className="text-center">Stay confident while you travel</h3>
                   <h2 className="text-center">We will help you get covered!</h2>
-                  <form id="exit-form" method="POST" action="">
+                  <form id="exit-form" method="POST" action="https://www.elformo.com/forms/5f33914b-a53b-4896-91d8-fffd02e07f8e">
                     <div className="row">
                       <div className="col-md-6 pl-0 pr-2">
                         <input type="text" name="name"  placeholder="Name" required/>

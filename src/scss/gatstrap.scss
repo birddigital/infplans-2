@@ -794,7 +794,7 @@ what-describes-you {
 #home-testimonial-section .testimonial-subtitle {
   color: #192D35;
   font-size: 20px;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 #home-bottom-flipcard-section .flipcard-icon {
@@ -1384,6 +1384,30 @@ section#plan-id-hero-section {
 section#plan-id-cards-insured-login {
   padding-top: 70px;
   padding-bottom: 0px;
+}
+
+#insured-login iframe, #producer-login iframe, #claims-form-container iframe {
+  min-height: 500px;
+}
+
+#plan-id-cards iframe {
+  min-height: 710px;
+}
+
+#extend-form iframe {
+  min-height: 590px;
+}
+
+@media only screen and (max-width: 1037px) {
+  #insured-login iframe, #producer-login iframe, #claims-form-container iframe {
+    min-height: 575px;
+  }
+  #plan-id-cards iframe {
+    min-height: 850px;
+  }
+  #extend-form iframe {
+    min-height: 900px;
+  }
 }
 
 .plan-id-hero-section-bg::after {
@@ -5494,6 +5518,7 @@ section#claims-form-section-1 {
 
 #claims-insured-login  {
   padding-top: 0;
+  padding-bottom: 0;
 }
 
 #claims-insured-login .section2-container {
@@ -10211,12 +10236,12 @@ section#eyemed-section-2 {
 }
 
 #eyemed-section-3 .secure-img {
-  max-width: 298px;
+  max-width: 305px;
   margin-left: auto;
 }
 
 #eyemed-section-3 .privacy-img {
-  max-width: 191px;
+  max-width: 195px;
   margin-right: auto;
   margin-left: 60px;
 }
@@ -11962,6 +11987,7 @@ button.close {
   max-width: 210px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 20px;
 }
 /*end of exit popup stylings
 /* end of victor css */
@@ -12256,9 +12282,9 @@ button.close {
     max-height: 510px;
     overflow: hidden;
   }
-  #quote-form-container {
+  /*#quote-form-container {
     max-height: 305px;
-  }
+  }*/
 }
 
 @media only screen and (min-width: 982px) {
@@ -14790,6 +14816,7 @@ button.close {
   #claims-form-section-3 {
     padding-top: 0px;
     padding-bottom: 0px;
+    margin-top: -80px;
   }
 
   #claims-form-section-3 .pdf-icon {
@@ -16889,6 +16916,7 @@ button.close {
 
     #claims-insured-login {
       padding-top: 0;
+      padding-bottom: 0;
     }
 
     #claims-form-section-3 {
@@ -17198,9 +17226,9 @@ button.close {
   #plan-id-cards .embed-container {
     padding-bottom: 135vh;
   }
-  #quote-form-container .embed-container {
+  /*#quote-form-container .embed-container {
     padding-bottom: 85vh;
-  }
+  }*/
 
 }
 
@@ -17209,6 +17237,20 @@ button.close {
     padding-bottom: 150vh;
   }
 }
+@media only screen and (min-width: 1039px) {
+  #quote-form-container iframe {
+    min-height: 525px;
+    margin-bottom: -235px;
+  }
+}
+
+@media only screen and (max-width: 1038px) {
+  #quote-form-container iframe {
+    min-height: 685px;
+    margin-bottom: -190px;
+  }
+}
+
 
 /* Victor Stylings */
 
@@ -17580,3 +17622,201 @@ button.close {
     margin-top: 20px;
   }
 }
+
+/* Victor Stylings */
+
+#claims-form-container .embed-container {
+padding-bottom: 27.25%;
+}
+
+#claims-form-section-2 {
+padding-top: 0;
+padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 1326px) {
+#claims-form-container .embed-container {
+padding-bottom: 0;
+height: auto;
+min-height: 370px;
+}
+}
+
+@media only screen and (max-width: 1199px) {
+#claims-form-container .embed-container {
+padding-bottom: 0;
+height: auto;
+min-height: 530px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+#claims-form-container .embed-container {
+padding-bottom: 0;
+height: auto;
+min-height: 530px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+#claims-form-container .embed-container {
+padding-bottom: 0;
+height: auto;
+min-height: 430px;
+}
+}
+
+#bmi-apply-form-container .embed-container {
+padding-bottom: 82.25%;
+}
+
+#apply-page-form .embed-container {
+padding-bottom: 0;
+min-height: 1250px;
+}
+
+#apply-page-form {
+box-shadow: 0px 0px 12px 0px #dddddd;
+padding: 20px 30px 40px 30px;
+}
+/* old css edits*/
+.diplomat-embed {
+min-height: 1420px;
+}
+
+#diplomat-america-section-7, #diplomat-international-section-6 {
+padding-bottom: 0;
+}
+
+
+/* end of old css edits */
+#bmi-travel-section-1 .modal-body {
+text-align: center;
+padding: 30px 40px;
+}
+
+#bmi-travel-section-1 .modal-body p {
+font-size: 20px;
+margin-bottom: 10px;
+line-height: 1.5;
+}
+
+#bmi-apply-form-container {
+margin-top: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+#plan-id-cards .embed-container {
+padding-bottom: 0;
+min-height: 670px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+#plan-id-cards .embed-container {
+min-height: 742px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+#claims-form-container .embed-container {
+padding-bottom: 0;
+height: auto;
+min-height: 510px;
+}
+#plan-id-cards .embed-container {
+min-height: 819px;
+}
+}
+
+@media screen and (max-width:575px) {
+  /* members embed form responsive */
+  #members-section1 .embed-container {
+    min-height: 750px;
+  }
+  #producers-section1 .embed-container {
+    min-height: 405px;
+  }
+  .diplomat-embed {
+    min-height: 1337px;
+  }
+  /* end of members embed form responsive */
+  #plan-id-cards .embed-container {
+    min-height: 790px;
+  }
+}
+
+@media only screen and (max-width: 542px) {
+  #plan-id-cards .embed-container {
+    min-height: 825px;
+  }
+}
+
+@media only screen and (max-width: 528px) {
+  #plan-id-cards .embed-container {
+    min-height: 855px;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  #plan-id-cards .embed-container {
+    min-height: 880px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  #plan-id-cards .embed-container {
+    min-height: 910px;
+  }
+}
+
+@media only screen and (max-width: 419px) {
+  #plan-id-cards .embed-container {
+    min-height: 940px;
+  }
+}
+
+@media only screen and (max-width: 389px) {
+  #plan-id-cards .embed-container {
+    min-height: 980px;
+  }
+}
+
+@media only screen and (max-width: 382px) {
+  #plan-id-cards .embed-container {
+    min-height: 1010px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  #plan-id-cards .embed-container {
+    min-height: 1040px;
+  }
+}
+
+@media only screen and (max-width: 363px) {
+  #plan-id-cards .embed-container {
+    min-height: 1070px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #plan-id-cards .embed-container {
+    min-height: 1080px;
+  }
+}
+
+@media only screen and (max-width: 334px) {
+  #plan-id-cards .embed-container {
+    min-height: 1090px;
+  }
+}
+
+@media only screen and (max-width: 324px) {
+  #plan-id-cards .embed-container {
+    min-height: 1118px;
+  }
+}
+
+
+/* end of Victor Stylings */

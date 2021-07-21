@@ -126,7 +126,6 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-3">
             <Img fluid={inf_logo} className="plans-logo"/>
             <p className="text-center">Elite Network</p>
-            <EliteNetworkPopup />
             <Link to="/elite-network"><button className="plan-btn">Plan Details </button></Link>
             <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
           </div>
@@ -164,7 +163,8 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
         <div className="col-lg-3">
           <Img fluid={inf_logo} className="plans-logo"/>
           <p className="text-center">Standard</p>
-            <button className="plan-btn">Plan Details</button>
+            <EliteNetworkPopup />
+            {/*<button className="plan-btn">Plan Details</button>*/}
             <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
         </div>
      </div>

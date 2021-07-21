@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Container from 'components/pages/container'
+import IframeResizer from 'iframe-resizer-react'
 
 interface Props {
   path: string
@@ -10,9 +11,11 @@ const GetAQuote: React.FC<Props> = ({ path }: Props) => {
   return (
     <Container>
       <div className="col-lg-12" id="quote-form-container">
-        <div className="embed-container">
-          <iframe src="https://adrienb3.sg-host.com/forms/get-a-quote.php?agentno=1000000" id="quote-form" scrolling="no"></iframe>
-        </div>
+        <IframeResizer
+          log
+          src="https://adrienb3.sg-host.com/forms/get-a-quote.php?agentno=1000000"
+          style={{ width: '1px', minWidth: '100%', border: 'none'}}
+        />
       </div>
     </Container>
   )

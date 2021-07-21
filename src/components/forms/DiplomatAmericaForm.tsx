@@ -6,12 +6,15 @@ import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import { Link } from 'gatsby'
+import IframeResizer from 'iframe-resizer-react'
 
 const DiplomatAmericaForm = ({ action, ...props }) => (
   <div id="diplomat-america-form-container">
-    <div className="embed-container diplomat-embed">
-      <iframe src="https://adrienb3.sg-host.com/forms/insurance-application" id="diplomat-america-form" scrolling="no"></iframe>
-    </div>
+    <IframeResizer
+      log
+      src="https://adrienb3.sg-host.com/forms/insurance-application"
+      style={{ width: '1px', minWidth: '100%', border: 'none'}}
+    />
   </div>
 )
 export default DiplomatAmericaForm

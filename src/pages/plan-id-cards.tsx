@@ -11,6 +11,7 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { Helmet } from 'react-helmet'
+import IframeResizer from 'iframe-resizer-react'
 
 interface Props {
   data: IndexQueryQuery
@@ -58,9 +59,14 @@ const PlanIDCardsPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="plan-id-cards-insured-login">
         <Container>
           <div className="col-lg-12" id="plan-id-cards">
-            <div className="embed-container">
+            <IframeResizer
+              log
+              src="https://adrienb3.sg-host.com/forms/plan-id-cards-form.php"
+              style={{ width: '1px', minWidth: '100%', border: 'none'}}
+            />
+            {/*<div className="embed-container">
               <iframe src="https://adrienb3.sg-host.com/forms/plan-id-cards-form.php" id="members-login-form" scrolling="no"></iframe>
-            </div>
+            </div>*/}
           </div>
         </Container>
       </section>

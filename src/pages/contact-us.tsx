@@ -63,7 +63,7 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="col-lg-7">
                 <div className="left-content">
                   <h2 className="text-blue text-center">Contact Us Today</h2>
-                  <form method="POST" action="">
+                  <form method="POST" action="https://www.elformo.com/forms/1d2d8842-c4cf-4004-a02d-60ee5c4af6b9">
                     <input type="text" id="name" name="name" placeholder="Your Name*" />
                     <input type="email" id="email" name="email" placeholder="Your Email Address*" />
                     <input type="tel" id="phone" name="phone" placeholder="Your Phone Number*" />
@@ -80,7 +80,7 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
                     <p className="text-white">Monday - Friday : 9:00 AM - 11:00 PM EST</p>
                     <p className="text-white">Saturday - Sunday : 10:00 AM - 9:00 PM EST</p>
                   </div>
-                  
+
                   <div className="business-hours">
                     <FiPhoneCall className="contact-icon"/><h3 className="text-white hours-subtitle">Support Via Phone</h3>
                     <a href="tel:14085403601" className="links">Phone: 408-540-3601 </a>

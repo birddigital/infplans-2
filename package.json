@@ -36,6 +36,7 @@
     "gatsby-source-filesystem": "^2.3.10",
     "gatsby-transformer-remark": "2.8.14",
     "gatsby-transformer-sharp": "2.5.4",
+    "iframe-resizer-react": "^1.1.0",
     "preact": "^10.5.12",
     "react-bootstrap-dropdown": "^0.3.0",
     "react-bootstrap-table-next": "^4.0.3",
