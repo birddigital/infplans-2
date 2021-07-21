@@ -645,7 +645,7 @@ const PremierPage: React.FC<Props> = ({ data, location }: Props) => {
           <Container>
             <div className="col-lg-12">
               <h2 className="text-white text-center">Get Coverage Now</h2>
-              <Link to="/apply"><button className="buy-now-btn"> Buy Now </button></Link>
+              <Link to="/apply"><button className="buy-now-btn"> Apply Now </button></Link>
             </div>
           </Container>
         </div>

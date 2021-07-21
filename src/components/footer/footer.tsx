@@ -46,7 +46,7 @@ const Footer = ({ className }) => {
             <Link to="/">
               <img src={Logo} />
             </Link>
-            <p className="footer-logo-content">INFPlans.com provides innovating visitor insurance options for international travelers</p>
+            <p className="footer-logo-content">INFPlans.com provides innovating visitor insurance options for international travelers.</p>
           </div>
           <div className="col-lg-3">
             <h4>Navigate Our Site</h4>

@@ -187,7 +187,7 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
                   <div className="col-lg-12 alpha-content">
                     <ul className="alpha-list">
                       <li className="alpha">(a) necessary and customary;</li>
-                      <li className="alpha">(b) prescribed by a Physician for the therapeutic treatment of a disablement;</li>
+                      <li className="alpha">(b) Prescribed by a Physician for the therapeutic treatment of a disablement;</li>
                       <li className="alpha">(c) are not excluded under the policy;</li>
                       <li className="alpha">(d) are not more than the Usual and Customary charges (as determined by the Company); and</li>
                       <li className="alpha">(e) are incurred within 180 days from the date of the Disablement will be considered.</li>

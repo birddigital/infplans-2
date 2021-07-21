@@ -149,7 +149,7 @@ const TeleMedicinePage: React.FC<Props> = ({ data, location }: Props) => {
                 </div>
               </details>
               <details>
-                <summary aria-describedby="How to enroll in MDLive">How to enroll in MDLive</summary>
+                <summary aria-describedby="How to enroll in MDLive">How to enroll in MDLive?</summary>
                 <div className="accordion-content">
                   <p>
                     When you enroll in a plan with policy number starting with INF and are visiting the United States, you are automatically eligible for a MeMD Account as a member of INF. MeMD provides INF members with 24/7/365 access to MeMD’s highly qualified, licensed healthcare providers by phone, mobile app or computer.

@@ -70,7 +70,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
          </div>
           <div className="col-lg-4">
             <Img fluid={infplans_big_logo} className="big-logo"/>
-            <Link to="#claims-insured-login"><button className="inf-btn"> Flie a Claim </button></Link>
+            <Link to="#claims-insured-login"><button className="inf-btn"> File a Claim </button></Link>
           </div>
          </div>
          <div className="row top" id="claim-steps">
@@ -187,10 +187,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
                         <div className="col-lg-6 infor">
                           <p className="infor-content"><strong>Check Claim Status:</strong> 888-293-9229</p>
                           <p className="submit-bills"><strong>Submit Bills Online:</strong>  aciclaims@visit-aci.com</p>
-                          <strong className="web">Web:</strong>
-                          <a href="http://www.visit-aci.com" target="_blank" className="links">
-                            http://www.visit-aci.com
-                          </a>
+                          <strong className="web">Web: </strong><a href="http://www.visit-aci.com" target="_blank" className="links">http://www.visit-aci.com</a>
                           ​<p className="pay"><strong>EDI Payor#:</strong> 22384</p>
                         </div>
 
@@ -236,10 +233,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
 
                         <div className="col-lg-6 infor">
                           <p className="submit-bills"><strong>Submit Bills Online:</strong> helpme@webtpa.com</p>
-                          <strong className="web">Web:</strong>
-                          <a href="http://www.visit-aci.com" target="_blank" className="links">
-                            http://www.visit-aci.com
-                          </a>
+                          <strong className="web">Web: </strong><a href="http://www.visit-aci.com" target="_blank" className="links">http://www.visit-aci.com</a>
                           <p className="pay">​EDI Payor#: 22384</p>
                         </div>
                       </div>

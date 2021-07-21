@@ -118,7 +118,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
         <div className="col-lg-12">
           <h4 className="text-center text-white">Benefits that come with INF-BMI Plans</h4>
             <ul>
-              <li className="text-white">COVID-19 Coverage</li>
+              <li className="text-white">COVID-19 Coverage.</li>
               <li className="text-white">All plans have 100% Co-Insurance (We cover 100%) and NO DEDUCTIBLE</li>
               <li className="text-white">We make all the appointments for you- no more hassle of finding a provider who will accept you plan. We do everything on the backend to make sure it's completely cashless.</li>
               <li className="text-white">We provide all members with free Careington 500 Dental Plan ($100 value). Just send your voucher number to support@infplans.com with a request and we will issue you a dental card at no cost!</li>
@@ -134,20 +134,20 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
             <h2 className="text-blue text-center">COVID-19 Coverage</h2>
 
             <ul>
-              <li>The Beneficiary must always and without exception contact the Emergency Central, <strong>Who in turn will coordinate a virtual appointment by Telemedicine</strong></li>
-              <li>According to the o pinion provided by the Medical Department, if the Beneficiary presents symptoms related to COVID-19, the Assistance Center will coordinate the relevant medical consultation, according to the safety and health protocols of each country</li>
+              <li>The Beneficiary must always and without exception contact the Emergency Central, <strong>Who in turn will coordinate a virtual appointment by Telemedicine.</strong></li>
+              <li>According to the o pinion provided by the Medical Department, if the Beneficiary presents symptoms related to COVID-19, the Assistance Center will coordinate the relevant medical consultation, according to the safety and health protocols of each country.</li>
               <li>We will cover the expenses incurred up to the coverage limit indicated in the voucher.</li>
               <li>The following expenses will be covered under the same limit:</li>
 
               <ul>
                 <li><strong>Hospital Expenses for COVID-19:</strong> In case of requiring hospitalization to stabilize the Beneficiary's condition.</li>
-                <li><strong>Mechanical respirator fees:</strong> If the Medical Department, together with the treating doctor, considers the use of a mechanical respirator necessary, the Central will authorize and cover said expense</li>
+                <li><strong>Mechanical respirator fees:</strong> If the Medical Department, together with the treating doctor, considers the use of a mechanical respirator necessary, the Central will authorize and cover said expense.</li>
               </ul>
            </ul>
 
            <div className="blue-bg">
             <p className="text-center text-white important">**Important Notice**</p>
-            <p className="text-center text-white notice">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage</p>
+            <p className="text-center text-white notice">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage.</p>
             <p className="text-center text-white notice">Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
            </div>
           </div>

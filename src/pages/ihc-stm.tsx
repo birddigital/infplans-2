@@ -59,7 +59,7 @@ const ShortTermInsurancePage: React.FC<Props> = ({ data, location }: Props) => {
                 Enroll in IHC Short Term Insurance below:
               </h2>
               <p>
-                This insurance is designed for people who need medical insurance in the short term. This is great for people who are unemployed, self-employed or just need an affordable insurance that fits their budget. Contact us for more information about this plan. Fill out the form below to get a quote.
+                This insurance is designed for people who need medical insurance in the short term. This is great for people who are unemployed, self-employed or just need an affordable insurance that fits their budget. Contact us for more information about this plan.
               </p>
               <p>
                 If you do not consent to the use of electronic transactions and electronic signatures on this site, please contact 1-800-920-7125 to receive paper copies of the application and transact with us through an alternative non-electronic method.

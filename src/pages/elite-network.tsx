@@ -86,7 +86,7 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
                 <p className="text-black">INF Elite IVAS provides coverage for pre-existing conditions as defined in the plan, as per policy limitations, exclusions and maximums, with no benefit waiting period.</p>
                 {infBMIStatus ?
                   <>
-                    <p>Pre-existing condition means an illness, disease, or other condition of the Covered Person that in the 12-month period before the Covered Person’s coverage became effective under the Policy: 1. first manifested itself, worsened, became acute, or exhibited symptoms that would have caused a person to seek diagnosis, care, or treatment; or 2. required taking prescribed drugs or medicines, unless the condition for which the prescribed drug or medicine is taken remains controlled without any change in the required prescription; or 3. was treated by a Doctor or treatment had been recommended by a Doctor..</p>
+                    <p>Pre-existing condition means an illness, disease, or other condition of the Covered Person that in the 12-month period before the Covered Person’s coverage became effective under the Policy: 1. first manifested itself, worsened, became acute, or exhibited symptoms that would have caused a person to seek diagnosis, care, or treatment; or 2. required taking prescribed drugs or medicines, unless the condition for which the prescribed drug or medicine is taken remains controlled without any change in the required prescription; or 3. was treated by a Doctor or treatment had been recommended by a Doctor.</p>
                     <p>This means eligible expenses for out-patient, specialist, urgent care, and in-patient services are covered for pre-existing conditions as well as for new sicknesses, & accidents after the deductible has been met, for medically necessary covered expenses incurred, up to policy limits and benefit maximums. Coinsurance may apply.</p>
                     <p>In addition to accident and sickness benefits, the INF Elite IVAS program includes eligible Emergency Medical Evacuation Benefits, Repatriation of Remains Benefits, and Accidental Death and Dismemberment Benefits.</p>
                     <p>The INF Elite IVAS Plan provides coverage to non-US Citizens traveling to the US, Canada or Mexico, when purchased before the start date of your trip for at least 90 days and no more than 364 days, which is the Maximum Period of Coverage. With the INF Elite Visitor Accident and Sickness Insurance, you’ll get the coverage you want, & possible security you need during your travels. This plan is available for age 0-99, and enrollment can be completed Online.</p>
@@ -284,7 +284,7 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
               </nav>
               <section>
                 <div className="elite-co-insurance-tab1">
-                  <p className="text-black">​80% or 90% of charges up to the Total Maximum for All Accident or Sickness Expense Benefits</p>
+                  <p className="text-black">​80% or 90% of charges up to the Total Maximum for All Accident or Sickness Expense Benefits.</p>
                 </div>
                 <div className="elite-co-insurance-tab2">
                   <p className="text-black">60% or 70% of the Usual and Customary Charges up to the Total Maximum for All Accident or Sickness Expense Benefits.</p>
@@ -310,7 +310,7 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
                 </a>
               </div>
               <div className="col-lg-5 text-center">
-                <h3 className="text-black">Read INF Elite IVAS Plan<br /> Description for Age 70-79 </h3>
+                <h3 className="text-black">Read INF Elite IVAS Plan<br /> Description for Age 70-99 </h3>
                 <Img fluid={book2_icon} className="book-icon-img"/>
                 <a href="https://infplans.com/policy_pdf/INF_Elite_Network_Policy_Document_70_99.pdf" target="_blank">
                   <button className="read-now-btn"> Read Now </button>
@@ -331,7 +331,7 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
           <Container>
             <div className="col-lg-12">
               <h2 className="text-white text-center">Get Coverage Now</h2>
-              <Link to="/apply"><button className="buy-now-btn"> Buy Now </button></Link>
+              <Link to="/apply"><button className="buy-now-btn"> Apply Now </button></Link>
             </div>
           </Container>
         </div>

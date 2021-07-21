@@ -62,7 +62,7 @@ const FAQPage: React.FC<Props> = ({ data, location }: Props) => {
                   <div className="faqs-section1-column text-center">
                     <h4 className="faqs-section1-title">How to use Insurance Visitors</h4>
                     <p className="faqs-section1-content">Learn how to properly use Insurance for Your Visitor</p>
-                    <a href="https://8320.infplans.com/visitors-insurance-plans.html" target="_blank">
+                    <a href="/visitors-insurance-plans" target="_blank">
                       <button className="faqs-section1-btn"> Learn More </button>
                     </a>
                   </div>
@@ -187,7 +187,7 @@ const FAQPage: React.FC<Props> = ({ data, location }: Props) => {
                         <li className="text-black">Medical Insurance for Green Card Holders</li>
                       </a>
                       <a href="https://8320.infplans.com/top-visitors-insurance-reviews.html" target="_blank">
-                        <li className="text-black">Top Insurnace for Visitors Reviews </li>
+                        <li className="text-black">Top Insurance for Visitors Reviews </li>
                       </a>
                       <a href="https://8320.infplans.com/travel-insurance-above-80-years-of-age.html" target="_blank">
                         <li className="text-black">Travel Insurance for Visitors Above 80 years</li>

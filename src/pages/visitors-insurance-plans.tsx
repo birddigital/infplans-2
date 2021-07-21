@@ -125,7 +125,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-3">
             <Img fluid={inf_logo} className="plans-logo"/>
             <p className="text-center">Elite Network</p>
-              <button className="plan-btn">Plan Details </button>
+            <Link to="/elite-network"><button className="plan-btn">Plan Details </button></Link>
             <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
           </div>
        </div>
@@ -201,7 +201,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
          <div className="col-lg-3">
            <Img fluid={inf_logo} className="plans-logo"/>
            <p className="text-center">Premier</p>
-            <button className="plan-btn">Plan Details </button>
+            <Link to="/premier"><button className="plan-btn">Plan Details </button></Link>
             <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
          </div>
       </div>
@@ -237,7 +237,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
        <div className="col-lg-3">
          <Img fluid={inf_logo} className="plans-logo"/>
          <p className="text-center">Traveler USA</p>
-          <button className="plan-btn">Plan Details </button>
+          <Link to="/traveler-usa"><button className="plan-btn">Plan Details </button></Link>
           <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
        </div>
     </div>
@@ -824,7 +824,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
            <div className="col-lg-12 bmi-content1">
                <div className="col-lg-12 bmi-content2">
                  <p className="text-blue text-center notice">Important Notice</p>
-                 <p className="text-center notice-content">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage</p>
+                 <p className="text-center notice-content">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage.</p>
                  <p className="text-center notice-content">Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
                </div>
            </div>
@@ -841,14 +841,14 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
                  <p className="expense-content">The following expenses will be covered under the same limit:</p>
 
                  <li>Hospital Expenses for COVID-19: In case of requiring hospitalization to stabilize the Beneficiary's condition.</li>
-                 <li>Mechanical respirator fees: If the Medical Department, together with the treating doctor, considers the use of a mechanical respirator necessary, the Central will authorize and cover said expense</li>
+                 <li>Mechanical respirator fees: If the Medical Department, together with the treating doctor, considers the use of a mechanical respirator necessary, the Central will authorize and cover said expense.</li>
               </ul>
            </div>
            <div className="bmi-bg">
            <div className="col-lg-12 bmi-content1">
                <div className="col-lg-12 bmi-content2">
                  <p className="text-blue text-center notice">Important Notice</p>
-                 <p className="text-center notice-content">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage</p>
+                 <p className="text-center notice-content">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage.</p>
                  <p className="text-center notice-content">Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
                </div>
            </div>
@@ -874,7 +874,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
              <div className="col-lg-12 bmi-content1">
                  <div className="col-lg-12 bmi-content2">
                    <p className="text-blue text-center notice">Important Notice</p>
-                   <p className="text-center notice-content">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage</p>
+                   <p className="text-center notice-content">Vouchers purchased after arrival are subject to a 3-day waiting period for new sickness coverage and 15-day waiting period for COVID-19 Coverage.</p>
                    <p className="text-center notice-content">Vouchers must be extended before expiration to avoid waiting period for new sickness coverage.</p>
                  </div>
              </div>
@@ -892,7 +892,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
       <div className="col-lg-12">
       <div className="plans-container">
        <h2 className="text-blue text-center">Diplomat America</h2>
-         <p className="features-title">Diplomat America Plan Features:</p>
+         <p className="features-title"><strong>Diplomat America Plan Features:</strong></p>
            <ul className="plan-features">
              <li>Covers COVID-19 or Coronavirus like a New Sickness</li>
              <li>Emergency Medical Evacuation and Repatriation: $500,000</li>
@@ -906,7 +906,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
              <li>Athletic & Hazardous Activity Benefit Available Political and Natural Disaster Evacuation: $50,000</li>
            </ul>
 
-             <p className="features-title">This plan is designed for:</p>
+             <p className="features-title"><strong>This plan is designed for:</strong></p>
 
              <div className="row">
                <div className="col-lg-6">

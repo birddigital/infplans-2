@@ -148,7 +148,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="what-describes-you-icon">
                   <Img fluid={non_us_citizen} alt="Non US Citizen" />
                 </div>
-                <p className="text-center column-title">Non US Citizen</p>
+                <p className="text-center column-title">Non-US Citizen</p>
               </div>
               <div className="col-lg-6 bg-lightgray">
                 <div className="what-describes-you-icon">
@@ -264,11 +264,11 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
             <p className="column-title">No paperwork. Instant<br /> ID. Secure Purchase</p>
           </div>
           <div className="col-lg-12 text-center mt-30 mb-20">
-            <a href="#">
+            <Link to="/why-inf">
               <button className="btn btn-main">
                 Learn More
               </button>
-            </a>
+            </Link>
           </div>
         </Container>
       </section>

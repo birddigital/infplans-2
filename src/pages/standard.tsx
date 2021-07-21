@@ -96,7 +96,7 @@ const StandardPage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="col-lg-4">
                 <Img fluid={infplans_big_logo} className="big-logo"/>
                 <h3 className="text-blue text-center">INF Standard IVAS Plan</h3>
-                <Link to="/visitors-insurance-quote"><button className="row-btn"> Click to Get a Quote </button></Link>
+                <Link to="/inf-easy-select"><button className="row-btn"> Click to Get a Quote </button></Link>
               </div>
             </div>
           </div>
@@ -666,7 +666,7 @@ const StandardPage: React.FC<Props> = ({ data, location }: Props) => {
           <Container>
             <div className="col-lg-12">
               <h2 className="text-white text-center">Get Coverage Now</h2>
-              <Link to="/apply"><button className="buy-now-btn"> Buy Now </button></Link>
+              <Link to="/apply"><button className="buy-now-btn"> Apply Now </button></Link>
             </div>
           </Container>
         </div>
