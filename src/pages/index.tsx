@@ -82,7 +82,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
       </BackgroundImage>
       <div id="home-services-section">
         <ContainerFluid>
-          <div className="col-lg-4 service-column international text-center">
+          <div className="col-lg-4 service-column text-center">
             <div className="service-icon">
               <Img fluid={international_health_protection} alt="International Health Protection" />
             </div>
@@ -139,7 +139,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
               What best <br />describes you?
             </h2>
             <p className="text-white subtitle">
-              Select the plan that you are looking for
+              Select the plan that you are <br />looking for
             </p>
           </div>
           <div className="col-lg-8">
@@ -435,7 +435,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 <h3 className="text-center">File a <br /> Claim</h3>
               </div>
               <div className="flipcard-container-inner flip-card-back">
-                <h3 className="text-center">File a Claim</h3>
+                <h3 className="text-center">Claims</h3>
                 <p className="text-black flipcard-content">
                   Streamlined Claims <br />Process
                 </p>
