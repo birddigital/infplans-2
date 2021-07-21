@@ -64,10 +64,10 @@ const CookiesPolicyPage: React.FC<Props> = ({ data, location }: Props) => {
           </p>
 
             <ul>
-              <li className="text-white"><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Cookies Policy) refers to INF Visitor Insurance, United States.</li>
-              <li className="text-white"><strong>Cookies</strong> means small files that are placed on Your computer, mobile device or any other device by a website, containing details of your browsing history on that website among its many uses.</li>
-              <li className="text-white"><strong>Website</strong> refers to INF Visitor Insurance, accessible from infplans.com</li>
-              <li className="text-white"><strong>You</strong> means the individual accessing or using the Website, or a company, or any legal entity on behalf of which such individual is accessing or using the Website, as applicable.</li>
+              <li className="text-white purpose"><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Cookies Policy) refers to INF Visitor Insurance, United States.</li>
+              <li className="text-white purpose"><strong>Cookies</strong> means small files that are placed on Your computer, mobile device or any other device by a website, containing details of your browsing history on that website among its many uses.</li>
+              <li className="text-white purpose"><strong>Website</strong> refers to INF Visitor Insurance, accessible from infplans.com</li>
+              <li className="text-white purpose"><strong>You</strong> means the individual accessing or using the Website, or a company, or any legal entity on behalf of which such individual is accessing or using the Website, as applicable.</li>
             </ul>
 
           <h2 className="text-white">
@@ -87,13 +87,15 @@ const CookiesPolicyPage: React.FC<Props> = ({ data, location }: Props) => {
 
           <ul>
             <li className="text-white"><strong>Necessary / Essential Cookies</strong></li>
-              <li className="text-white types-content">Type: Session Cookies</li>
-              <li className="text-white types-content">Administered by: Us</li>
-              <li className="text-white types-content">Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.</li>
+            <li className="text-white types-content">Type: Session Cookies</li>
+            <li className="text-white types-content">Administered by: Us</li>
+            <li className="text-white types-content">Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.</li>
+          </ul>
+          <ul>
             <li className="text-white"><strong>Functionality Cookies</strong></li>
-              <li className="text-white types-content">Type: Persistent Cookies</li>
-              <li className="text-white types-content">Administered by: Us</li>
-              <li className="text-white types-content">Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.</li>
+            <li className="text-white types-content">Type: Persistent Cookies</li>
+            <li className="text-white types-content">Administered by: Us</li>
+            <li className="text-white types-content">Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.</li>
           </ul>
 
           <h3 className="text-white">
@@ -106,16 +108,7 @@ const CookiesPolicyPage: React.FC<Props> = ({ data, location }: Props) => {
           <p className="text-white">
             If You do not accept Our Cookies, You may experience some inconvenience in your use of the Website and some features may not function properly.
           </p>
-          <p className="text-white">
-            If You'd like to delete Cookies or instruct your web browser to delete or refuse Cookies, please visit the help pages of your web browser.
-          </p>
 
-          <ul>
-            <li className="text-white">For the Chrome web browser, please visit this page from Google: https://support.google.com/accounts/answer/32050</li>
-            <li className="text-white">For the Internet Explorer web browser, please visit this page from Microsoft: http://support.microsoft.com/kb/278835</li>
-            <li className="text-white">For the Firefox web browser, please visit this page from Mozilla: https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored</li>
-            <li className="text-white">For the Safari web browser, please visit this page from Apple: https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac</li>
-          </ul>
           <p className="text-white">
             For any other web browser, please visit your web browser's official web pages.
           </p>
@@ -137,9 +130,9 @@ const CookiesPolicyPage: React.FC<Props> = ({ data, location }: Props) => {
           </p>
 
           <ul>
-            <li className="text-white">By email: support@infplans.com</li>
-            <li className="text-white">By visiting this page on our website: infplans.com</li>
-            <li className="text-white">By phone number: 408-540-3601</li>
+            <li className="text-white contact">By email: support@infplans.com</li>
+            <li className="text-white contact">By visiting this page on our website: infplans.com</li>
+            <li className="text-white contact">By phone number: 408-540-3601</li>
           </ul>
           </div>
         </Container>

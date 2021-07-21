@@ -82,7 +82,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
       </BackgroundImage>
       <div id="home-services-section">
         <ContainerFluid>
-          <div className="col-lg-4 service-column text-center">
+          <div className="col-lg-4 service-column international text-center">
             <div className="service-icon">
               <Img fluid={international_health_protection} alt="International Health Protection" />
             </div>

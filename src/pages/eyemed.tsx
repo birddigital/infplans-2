@@ -175,7 +175,7 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
                   </div>
                   </div>
                   <div className="flipcard-container-inner flip-card-back">
-                    <h3 className="text-center inner-content">EyeMed Bright</h3>
+                    <h3 className="text-center inner-content1">EyeMed Bright</h3>
                     <p className="text-black flipcard-content">An eye exam on our highest frame and lens allowance, plus great discounts on glasses and contacts.</p>
                   </div>
                 </div>

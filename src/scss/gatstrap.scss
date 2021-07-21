@@ -601,6 +601,10 @@ section.home-hero-section-bg::after {
   margin-right: auto;
 }
 
+.international {
+  padding-top: 50px;
+}
+
 .service-column {
   border: 2px solid #E5E5E5;
   padding: 35px 20px;
@@ -688,6 +692,7 @@ section.home-hero-section-bg::after {
 #what-describes-you .bg-blue h2 {
   font-size: 40px;
   font-weight: 500;
+  line-height: 1.3;
 }
 
 #what-describes-you .subtitle {
@@ -6115,20 +6120,20 @@ section.diplomat-america-hero-section-bg {
   margin-top: 150px;
 }
 
-section#diplomat-america-section-1 {
+section#what-is-diplomat-america-plan {
     padding-top: 100px;
 }
 
-#diplomat-america-section-1 h2 {
+#what-is-diplomat-america-plan h2 {
   font-weight: 500;
 }
 
-#diplomat-america-section-1 p, #diplomat-america-section p {
+#what-is-diplomat-america-plan p, #diplomat-america-section p {
   padding-top: 30px;
   line-height: 2;
 }
 
-#diplomat-america-section-1 .diplomat-america-container {
+#what-is-diplomat-america-plan .diplomat-america-container {
   box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 40px 50px;
 }
@@ -10054,7 +10059,7 @@ section.eyemed-hero-section-bg {
   background: #ffffff;
   border: 2px solid #ffffff;
   color: #252362;
-  padding: 10px 70px;
+  padding: 4px 60px;
   border-radius: 50px;
   transition: .5s;
   font-size: 20px;
@@ -10156,7 +10161,12 @@ section.eyemed-hero-section-bg {
 
 #eyemed-section-1 .inner-content {
   font-size: 20px;
-  margin-top: 0;
+  margin-top: 20px;
+}
+
+#eyemed-section-1 .inner-content1 {
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 #eyemed-section-2 {
@@ -10638,6 +10648,10 @@ section#why-inf-section-1 {
   list-style: disc;
 }
 
+#terms-of-use li {
+  line-height: 2;
+}
+
 /*End of Terms of Use Styles */
 
 /*Cookies Policy Styles */
@@ -10673,6 +10687,11 @@ section#why-inf-section-1 {
 
 #cookies-policy .types-content {
   list-style: none;
+}
+
+#cookies-policy .purpose {
+  line-height: 2;
+  margin-bottom: 20px;
 }
 
 /*cookies Policy Styles */
@@ -11225,14 +11244,7 @@ section#premium-hero-section {
   margin-bottom: 0;
   padding-top: 20px;
   font-size: 14px;
-  padding-left: 10px;
-}
-
-#premium-section-1 .column-tab-title2 {
-  margin-bottom: 0;
-  padding-top: 20px;
-  font-size: 14px;
-  padding-left: 10px;
+  text-align: center;
 }
 
 #premium-section-1 .tab-contents {
@@ -11262,7 +11274,7 @@ section#premium-hero-section {
   border-top: none;
   min-height: 50px;
   padding-top: 11px;
-  padding-left: 30px;
+  text-align: center;
 }
 
 #premium-section-1 .purchase-btn {
@@ -12734,7 +12746,7 @@ button.close {
     padding: 8px 40px;
   }
 
-  #diplomat-america-section-1 p, #diplomat-america-section p, #diplomat-america-section-2 p {
+  #what-is-diplomat-america-plan p, #diplomat-america-section p, #diplomat-america-section-2 p {
     margin-bottom: 0;
     padding-top: 0;
   }
@@ -14343,10 +14355,6 @@ button.close {
     min-height: 323px;
   }
 
-  #eyemed-section-1 .inner-content {
-    margin-top: 0;
-  }
-
   #bmi-travel-section-8 p {
     font-size: 16px;
   }
@@ -15123,17 +15131,17 @@ button.close {
     padding-bottom: 10px;
   }
 
-  section#diplomat-america-section-1 {
+  section#what-is-diplomat-america-plan {
     padding-top: 30px;
     padding-bottom: 30px;
   }
 
-  #diplomat-america-section-1 h2 {
+  #what-is-diplomat-america-plan h2 {
     font-weight: 500;
     font-size: 25px;
   }
 
-  #diplomat-america-section-1 .diplomat-america-container {
+  #what-is-diplomat-america-plan .diplomat-america-container {
     padding: 20px 20px 20px 20px;
   }
 
@@ -16366,6 +16374,10 @@ button.close {
    min-height: 340px;
   }
 
+  #eyemed-section-1 .inner-content {
+    margin-top: 10px;
+  }
+
    /* end of claims flip card responsive */
    .international-tabtwo details {
      padding: 10px 15px 10px 10px;
@@ -16748,7 +16760,7 @@ button.close {
       padding-bottom: 50px;
     }
 
-    #diplomat-america-section-1 p {
+    #what-is-diplomat-america-plan p {
       padding-top: 15px;
     }
 
