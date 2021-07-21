@@ -48,13 +48,13 @@ const RenewPage: React.FC<Props> = ({ data, location }: Props) => {
               <p className="hero-text text-white text-center">
                 INF Plans can be Extended up to a maximum of 364 days. To extend coverage for you, please check the steps below. If you have any questions, please reach us at 408-540-3601.
               </p>
-            <Link to="/inf-easy-select">  <button className="hero-btn"> Extend your Plan </button></Link>
+            <a href="#extend-your-plan">  <button className="hero-btn"> Extend your Plan </button></a>
             </div>
           </Container>
         </div>
       </BackgroundImage>
 
-      <section id="extend-section1">
+      <section id="extend-your-plan">
         <Container>
           <div className="col-lg-12" id="extend-form">
            <div className="embed-container">

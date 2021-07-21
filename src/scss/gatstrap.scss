@@ -74,6 +74,12 @@ body {
   color: $black;
 }
 
+body {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -273,6 +279,7 @@ button {
   background: transparent;
   width: 100%;
   transition: 0.5s;
+  max-width: 1920px;
 }
 
 .navibar-top {

@@ -18,8 +18,8 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
   // change state on scroll
   useEffect(() => {
     const handleScroll = () => {
-      const isScrolled = window.scrollY > 20;
-      if (isScrolled) {
+      const isScrolled = window.scrollY;
+      if (isScrolled > 20) {
         setScrolled("navbar navbar-expand navbar-light flex-column flex-md-row fixed");
       } else {
         setScrolled("navbar navbar-expand navbar-light flex-column flex-md-row");
@@ -43,7 +43,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
               <span><img src={Megaphone} className="megaphone-icon"/></span><p><strong>COVID-19</strong>: For answers to frequently asked questions, please see our <a href="/faq" target="_blank" id="resource-page">COVID-19 Resource Page</a></p>
             </div>
             <div className="col-lg-2">
-              <span><img src={Whatsapp} className="whatsapp-icon"/></span><a href="tel:4085403601"><p className="text-right">Tel:408-540-3601</p></a>
+              <span><img src={Whatsapp} className="whatsapp-icon"/></span><a href="tel:4085403601"><p className="text-right">Tel: 408-540-3601</p></a>
             </div>
           </div>
         </div>
