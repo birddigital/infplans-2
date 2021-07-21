@@ -10321,6 +10321,7 @@ section#why-inf-section-1 {
 
 #insurance-for-visitors-faq {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #visitor-insurance-faq-hero-section  h1 {
@@ -10501,16 +10502,9 @@ section#why-inf-section-1 {
   color: #252362;
 }
 
-#travel-insurance-for-visiting-seniors-hero-section .visitors-tips-container {
-  box-shadow: 0px 0px 12px 0px #dddddd;
-  padding: 50px 50px 40px 50px;
-}
-
 #insurance-for-senior-travelers .insurance-for-senior-travelers-container {
   box-shadow: 0px 0px 12px 0px #dddddd;
   padding: 50px 50px 40px 50px;
-  margin-top: 50px;
-  align-items: center;
 }
 
 #insurance-for-senior-travelers .title {
@@ -10538,11 +10532,22 @@ section#why-inf-section-1 {
   line-height: 2;
 }
 
-#travel-insurance-for-visiting-seniors-hero-section .tips-icon {
-  width: 100%;
-  max-width: 200px;
+#insurance-for-senior-travelers .right-img {
+  max-width: 580px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
+}
+
+#insurance-for-senior-travelers .img-title {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#insurance-for-senior-travelers .list-title {
+  font-size:20px;
 }
 /* End of Travel Insurance for Elderly Page */
 
@@ -17093,3 +17098,163 @@ button.close {
   line-height: 1.5;
 }
 /* end of Victor Stylings */
+
+@media screen and (max-width:1024px) {
+  .visitor-insurance-faq-hero-section-bg {
+    min-height: 400px;
+  }
+
+  #insurance-for-visitors-faq {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #visitor-insurance-faq-hero-section  h1 {
+    font-size: 35px;
+    margin-top: 90px;
+  }
+
+  #visitor-insurance-faq-hero-section .hero-btn {
+    margin-top: 10px;
+    padding: 8px 40px;
+  }
+
+  #insurance-for-visitors-faq .insurance-for-visitors-faq-container {
+    padding: 20px 20px 5px 20px;
+  }
+
+  #insurance-for-visitors-faq .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  #insurance-for-visitors-faq p {
+    line-height: 2;
+  }
+
+  #insurance-for-visitors-faq h2 {
+    padding-bottom: 0px;
+    font-size: 25px;
+  }
+
+  #insurance-for-visitors-faq ul {
+    padding-bottom: 0px;
+  }
+
+  .visitor-insurance-tips-hero-section-bg {
+    min-height: 400px;
+  }
+
+  #insurance-for-visitors-tips {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #visitor-insurance-tips-hero-section  h1 {
+    font-size: 35px;
+    margin-top: 90px;
+  }
+
+  #visitor-insurance-tips-hero-section .hero-btn {
+    margin-top: 10px;
+    padding: 8px 40px;
+  }
+
+  #insurance-for-visitors-tips .visitors-tips-container {
+    padding: 20px 20px 10px 20px;
+  }
+
+  #insurance-for-visitors-tips .insurance-for-visitors-tips-container {
+    padding: 30px 20px 10px 20px;
+    margin-top: 30px;
+  }
+
+  #insurance-for-visitors-tips .title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  #insurance-for-visitors-tips h2 {
+    padding-bottom: 0;
+    font-size: 25px;
+  }
+
+  #insurance-for-visitors-tips .tips-icon {
+    margin-bottom: 15px;
+  }
+
+  .travel-insurance-for-visiting-seniors-hero-section-bg {
+    min-height: 400px;
+  }
+  #insurance-for-senior-travelers {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #travel-insurance-for-visiting-seniors-hero-section  h1 {
+    font-size: 35px;
+    margin-top: 90px;
+  }
+
+  #travel-insurance-for-visiting-seniors-hero-section .hero-btn {
+    margin-top: 10px;
+    padding: 8px 40px;
+  }
+
+  #insurance-for-senior-travelers .insurance-for-senior-travelers-container {
+    box-shadow: 0px 0px 12px 0px #dddddd;
+    padding: 20px 20px 10px 20px;
+  }
+
+  #insurance-for-senior-travelers .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  #insurance-for-senior-travelers h2 {
+    padding-bottom: 0px;
+    font-size: 25px;
+  }
+
+  #insurance-for-senior-travelers .right-img {
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+
+  #insurance-for-senior-travelers .img-title {
+    margin-bottom: 10px;
+  }
+
+  #insurance-for-senior-travelers .list-title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .visitor-insurance-faq-hero-section-bg {
+    min-height: auto;
+  }
+
+  #visitor-insurance-faq-hero-section h1 {
+    margin-top: 20px;
+  }
+
+  .visitor-insurance-tips-hero-section-bg {
+    min-height: auto;
+  }
+
+  #visitor-insurance-tips-hero-section  h1 {
+    margin-top: 20px;
+  }
+
+  .visitor-insurance-tips-hero-section-bg {
+    min-height: auto;
+  }
+
+  #visitor-insurance-tips-hero-section  h1 {
+    margin-top: 20px;
+  }
+}

@@ -75,9 +75,9 @@ const VisitorsInsuranceFaqPage: React.FC<Props> = ({ data, location }: Props) =>
               <p>At INF Plans, we've developed a Plan Finder tool to help you choose which plan best suits you & your families needs. The Plan Finder asks you a few questions, and shows you recommendations based on your needs.</p>
               <p>For more information on plan types to better inform your purchasing decision, check out the following articles: </p>
               <ul>
-                <li><Link to="/comprehensive-limited-visitors-insurance-parents-usa">Difference Between Comprehensive & Limited Plans</Link></li>
-                <li><Link to="/visitor-insurance-tips">Insurance for Visitors Tips</Link></li>
-                <li><Link to="/visitors-insurance-for-parents-from-india">Which Visitors Travel Insurance should I buy?</Link></li>
+                <li>Difference Between Comprehensive & Limited Plans</li>
+                <li>Insurance for Visitors Tips</li>
+                <li>Which Visitors Travel Insurance should I buy?</li>
               </ul>
 
               <p className="title">Will I get better rates if I buy directly from the Provider or from any other website or agent?</p>
