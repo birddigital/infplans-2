@@ -119,7 +119,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
           <h4 className="text-center text-white">Benefits that come with INF-BMI Plans</h4>
             <ul>
               <li className="text-white">COVID-19 Coverage.</li>
-              <li className="text-white">All plans have 100% Co-Insurance (We cover 100%) and NO DEDUCTIBLE</li>
+              <li className="text-white">All plans have 100% Co-Insurance (We cover 100%) and NO DEDUCTIBLE.</li>
               <li className="text-white">We make all the appointments for you- no more hassle of finding a provider who will accept you plan. We do everything on the backend to make sure it's completely cashless.</li>
               <li className="text-white">We provide all members with free Careington 500 Dental Plan ($100 value). Just send your voucher number to support@infplans.com with a request and we will issue you a dental card at no cost!</li>
             </ul>

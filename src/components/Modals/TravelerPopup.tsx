@@ -12,9 +12,9 @@ interface Props {
     className: string
 }
 
-const EliteNetworkPopup: React.FC<Props> = ({ label, primary, children, id, className, ...props }: Props) => {
+const TravelerPopup: React.FC<Props> = ({ label, primary, children, id, className, ...props }: Props) => {
   const data = useStaticQuery(graphql`
-      query EliteNetworkPopupQuery {
+      query TravelerPopupQuery {
         elite_network_img: file(name: { eq: "elite-network-img" }) {
           childImageSharp {
             fluid(maxWidth: 400, quality: 100) {
@@ -46,9 +46,9 @@ const EliteNetworkPopup: React.FC<Props> = ({ label, primary, children, id, clas
       }
     `)
     const [popupModalVisible, setPopupModalVisible] = useState(false);
-    const [eliteCoverageVisible, setEliteCoverageVisible] = useState(true);
-    const [eliteInsuranceVisible, setEliteInsuranceVisible] = useState(false);
-    const [eliteDescriptionVisible, setEliteDescriptionVisible] = useState(false);
+    const [travelerCoverageVisible, setTravelerCoverageVisible] = useState(true);
+    const [travelerInsuranceVisible, setTravelerInsuranceVisible] = useState(false);
+    const [travelerDescriptionVisible, setTravelerDescriptionVisible] = useState(false);
     const elite_network_img = data.elite_network_img?.childImageSharp?.fluid
     const standard_popup_logo = data.standard_popup_logo?.childImageSharp?.fluid
     const book_icon = data.book_icon?.childImageSharp?.fluid
@@ -64,21 +64,21 @@ const EliteNetworkPopup: React.FC<Props> = ({ label, primary, children, id, clas
 
 
     function showCoverage() {
-        setEliteCoverageVisible(true);
-        setEliteInsuranceVisible(false);
-        setEliteDescriptionVisible(false);
+        setTravelerCoverageVisible(true);
+        setTravelerInsuranceVisible(false);
+        setTravelerDescriptionVisible(false);
     }
 
     function showInsurance() {
-        setEliteCoverageVisible(false);
-        setEliteInsuranceVisible(true);
-        setEliteDescriptionVisible(false);
+        setTravelerCoverageVisible(false);
+        setTravelerInsuranceVisible(true);
+        setTravelerDescriptionVisible(false);
     }
 
     function showDescription() {
-        setEliteCoverageVisible(false);
-        setEliteInsuranceVisible(false);
-        setEliteDescriptionVisible(true);
+        setTravelerCoverageVisible(false);
+        setTravelerInsuranceVisible(false);
+        setTravelerDescriptionVisible(true);
     }
 
 
@@ -101,16 +101,16 @@ const EliteNetworkPopup: React.FC<Props> = ({ label, primary, children, id, clas
                            <div className="d-flex">
                               <ul id="tabsJustified" className="nav nav-pills flex-column">
                                  <Img fluid={standard_popup_logo} className="popup-logo"/>
-                                 <li className="nav-item"><a href="javascript:void(0)" onClick={showCoverage}  id="ivas-coverage" className={eliteCoverageVisible ? "nav-link small active" : "nav-link small" }>INF Elite IVAS Insurance Coverages</a></li>
-                                 <li className="nav-item"><a href="javascript:void(0)"  onClick={showInsurance} id="ivas-insurance" className={eliteInsuranceVisible ? "nav-link small active" : "nav-link small" }>INF Elite IVAS Co-Insurance</a></li>
-                                 <li className="nav-item"><a href="javascript:void(0)" onClick={showDescription} id="ivas-description" className={eliteDescriptionVisible ? "nav-link small active" : "nav-link small" }>INF Elite IVAS Plan Description</a></li>
+                                 <li className="nav-item"><a href="javascript:void(0)" onClick={showCoverage}  id="ivas-coverage" className={travelerCoverageVisible ? "nav-link small active" : "nav-link small" }>INF Traveler USA IVAS Coverages</a></li>
+                                 <li className="nav-item"><a href="javascript:void(0)"  onClick={showInsurance} id="ivas-insurance" className={travelerInsuranceVisible ? "nav-link small active" : "nav-link small" }>INF Traveler USA IVAS</a></li>
+                                 <li className="nav-item"><a href="javascript:void(0)" onClick={showDescription} id="ivas-description" className={travelerDescriptionVisible ? "nav-link small active" : "nav-link small" }>Traveler USA Plan Description</a></li>
                               </ul>
                               <div className="tab-content p-3 w-100 pb-5">
                                  <button type="button" className="close" data-dismiss="modal" onClick={modalHide}>&times;</button>
-                                 <div id="ivas-coverage" className={eliteCoverageVisible ? "tab-pane fade active show" : "tab-pane fade show" } role="tabpanel" aria-labelledby="ivas-coverage">
+                                 <div id="ivas-coverage" className={travelerCoverageVisible ? "tab-pane fade active show" : "tab-pane fade show" } role="tabpanel" aria-labelledby="ivas-coverage">
                                     <div className="tabcontent">
                                        <div className="col-lg-12 ivas-standard">
-                                          <h2 className="text-blue text-center">INF Elite IVAS Insurance Coverages</h2>
+                                          <h2 className="text-blue text-center">INF Traveler USA IVAS Coverages</h2>
                                           <div className="coverages-tab">
                                              <input checked="checked" id="coverages-tabone" type="radio" name="elite-coverages" />
                                              <input id="coverages-tabtwo" type="radio" name="elite-coverages" />
@@ -225,7 +225,7 @@ const EliteNetworkPopup: React.FC<Props> = ({ label, primary, children, id, clas
                                        </div>
                                     </div>
                                  </div>
-                                 <div id="ivas-benefits" className={eliteInsuranceVisible ? "tab-pane fade active show" : "tab-pane fade show" } role="tabpanel" aria-labelledby="ivas-insurance">
+                                 <div id="ivas-benefits" className={travelerInsuranceVisible ? "tab-pane fade active show" : "tab-pane fade show" } role="tabpanel" aria-labelledby="ivas-insurance">
                                     <div className="tabcontent">
                                        <div className="col-lg-12 ivas-standard">
                                           <h2 className="text-blue text-center">INF Elite IVAS Co-Insurance</h2>
@@ -256,7 +256,7 @@ const EliteNetworkPopup: React.FC<Props> = ({ label, primary, children, id, clas
                                       </div>
 
                                   </div>
-                                 <div id="ivas-description" className={eliteDescriptionVisible ? "tab-pane fade active show" : "tab-pane fade show" } role="tabpanel" aria-labelledby="ivas-description">
+                                 <div id="ivas-description" className={travelerDescriptionVisible ? "tab-pane fade active show" : "tab-pane fade show" } role="tabpanel" aria-labelledby="ivas-description">
                                     <div className="tabcontent">
                                        <div className="col-lg-12 ivas-standard">
                                           <h2 className="text-blue text-center">INF Elite IVAS Plan Description</h2>
@@ -298,4 +298,4 @@ const EliteNetworkPopup: React.FC<Props> = ({ label, primary, children, id, clas
     )
 }
 
-export default EliteNetworkPopup
+export default TravelerPopup

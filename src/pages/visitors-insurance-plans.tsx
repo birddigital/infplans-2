@@ -12,6 +12,9 @@ import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { Helmet } from 'react-helmet'
 import EliteNetworkPopup from 'components/Modals/EliteNetworkPopup'
+import StandardPopup from 'components/Modals/StandardPopup'
+import PremierPopup from 'components/Modals/PremierPopup'
+import TravelerPopup from 'components/Modals/TravelerPopup'
 
 
 interface Props {
@@ -126,8 +129,9 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-3">
             <Img fluid={inf_logo} className="plans-logo"/>
             <p className="text-center">Elite Network</p>
-            <Link to="/elite-network"><button className="plan-btn">Plan Details </button></Link>
-            <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
+              <EliteNetworkPopup />
+              {/*<button className="plan-btn">Plan Details </button>*/}
+              <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
           </div>
        </div>
       </div>
@@ -163,7 +167,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
         <div className="col-lg-3">
           <Img fluid={inf_logo} className="plans-logo"/>
           <p className="text-center">Standard</p>
-            <EliteNetworkPopup />
+            <StandardPopup />
             {/*<button className="plan-btn">Plan Details</button>*/}
             <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
         </div>
@@ -203,8 +207,9 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
          <div className="col-lg-3">
            <Img fluid={inf_logo} className="plans-logo"/>
            <p className="text-center">Premier</p>
-            <Link to="/premier"><button className="plan-btn">Plan Details </button></Link>
-            <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
+             <PremierPopup />
+              {/*<button className="plan-btn">Plan Details </button>*/}
+              <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
          </div>
       </div>
      </div>
@@ -239,7 +244,8 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
        <div className="col-lg-3">
          <Img fluid={inf_logo} className="plans-logo"/>
          <p className="text-center">Traveler USA</p>
-          <Link to="/traveler-usa"><button className="plan-btn">Plan Details </button></Link>
+          <TravelerPopup />
+          {/*<button className="plan-btn">Plan Details </button>*/}
           <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
        </div>
     </div>
@@ -374,7 +380,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
              <div className="row">
                <div className="col-lg-6">
                  <ul className="plan-design">
-                   <li>Non-U.S. Citizens visiting the U.S</li>
+                   <li>Non-U.S. Citizens visiting the U.S.</li>
                  </ul>
                  </div>
                  <div className="col-lg-6">

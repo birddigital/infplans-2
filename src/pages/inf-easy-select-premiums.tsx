@@ -198,7 +198,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                     <a href="#"className="dropdown-item" >60-64</a>
                     <a href="#"className="dropdown-item" >75-79</a>
                     <a href="#"className="dropdown-item" >80-84</a>
-                    <a href=  "#"className="dropdown-item" >85-89</a>
+                    <a href="#"className="dropdown-item" >85-89</a>
                     <a href="#"className="dropdown-item" >90-94</a>
                     <a href="#"className="dropdown-item" >95-99</a>
                   </div>
@@ -206,7 +206,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="col-lg-3 premium-button ">
                     <a href="#" className="drop-btn2 dropdown-toggle" data-toggle="dropdown">Any</a>
                     <div className="dropdown-menu">
-                      <a href="#  " className="dropdown-item" >Any</a>
+                      <a href="#" className="dropdown-item" >Any</a>
                       <a href="#"className="dropdown-item" >Fixed</a>
                       <a href="#"className="dropdown-item" >Network</a>
                     </div>

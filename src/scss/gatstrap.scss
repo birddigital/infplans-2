@@ -8988,6 +8988,30 @@ section.plans-hero-section-bg {
   margin-top: 30px;
 }
 
+.coverages-tabone .col-lg-3 {
+  padding: 0 !important;
+}
+
+.coverages-tabtwo .col-lg-3 {
+  padding: 0 !important;
+}
+
+.coverages-tab .column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+}
+
+.elite-column-tab {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+  min-height: 110px;
+}
+
+.column-tab-titles {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
 /* Modal Standard Plans */
 #plans-section-6 .exit-intent-trigger {
   width: 100%;
@@ -11936,7 +11960,7 @@ button.close {
   padding: 50px 30px 40px 0px;
 }
 
-.popup-image-container .row{
+.popup-image-container .row {
   margin-left: -5px;
   margin-right: -5px;
 }
@@ -12111,6 +12135,8 @@ button.close {
 .plans-popup #plans-section-6 button.close:hover {
   background-color: #a0ccff;
 }
+
+
 
 
 
@@ -13358,7 +13384,8 @@ button.close {
   }
 
   #elite-cta-section .buy-now-btn {
-    font-size: 25px;
+    font-size: 20px;
+    padding: 4px 20px;
   }
 
   section.elite-cta-hero-section-bg {

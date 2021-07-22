@@ -115,7 +115,7 @@ const DiplomatInternationalPage: React.FC<Props> = ({ data, location }: Props) =
       <div className="row mt-4">
       <div className="col-lg-6">
        <ul>
-         <li className="text-white">Non-U.S. Citizens visiting the U.S</li>
+         <li className="text-white">Non-U.S. Citizens visiting the U.S.</li>
        </ul>
       </div>
       <div className="col-lg-6">
