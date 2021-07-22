@@ -12,7 +12,7 @@ import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import EyemedSlider from 'components/sliders/eyemed-slider'
 import { Helmet } from 'react-helmet'
-
+import EyeMed from '../../content/images/eyemed-individual.png';
 
 interface Props {
   data: IndexQueryQuery
@@ -63,10 +63,10 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
 
       <section id="eyemed-section-1">
         <Container>
-          <div className="col-lg-12">
+          {/*}<div className="col-lg-12">
             <iframe src="https://eyemed.memberquotes.com/Quote/LandingPage/EyeMed_1?rn=000020140-207-732&sessionStorage=4be4c6df-7653-429b-8123-820a1f0f5dde" style={{ border:"0px #ffffff none" }} name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="800px" width="100%"></iframe>
-          </div>
-          {/*<div className="col-lg-7">
+          </div>*/}
+          {/*}<div className="col-lg-7">
           <div className="eyemed-form-container">
              <h2 className="text-blue text-center">Find The Perfect Vision Plan For You</h2>
 
@@ -120,71 +120,72 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
                    <button className="get-quote-btn"> Get My Quote </button>
              </form>
            </div>
-         </div>
+         </div>*/}
 
-          <div className="col-lg-5">
-            <div className="eyemed-container">
-              <p className="eye-title">Our Plans Starts at<br /> $5 a Month</p>
-              <button className="get-now-btn"> Get Now </button>
-            </div>
-
+          <div className="col-lg-6">
+           <div className="col-lg-12 flipcard-col flip-card">
+            <div className="flip-card-inner">
+              <div className="flipcard-container flip-card-front">
               <div className="row">
-               <div className="col-lg-12 flipcard-col flip-card">
-                <div className="flip-card-inner">
-                  <div className="flipcard-container flip-card-front">
-                  <div className="row">
-                    <div className="col-lg-4">
-                      <Img fluid={eye_healthy_img} className="flipcard-icon" alt="Eyemed Healthy" />
-                    </div>
-                    <div className="col-lg-8">
-                    <h3 className="text-center">EyeMed Healthy</h3>
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flipcard-container-inner flip-card-back">
-                  <h3 className="text-center inner-content">EyeMed Healthy</h3>
-                    <p className="text-center flipcard-content">An eye exam plus great discounts on glasses and contacts.</p>
-                  </div>
+                <div className="col-lg-4">
+                  <Img fluid={eye_healthy_img} className="flipcard-icon" alt="Eyemed Healthy" />
+                </div>
+                <div className="col-lg-8">
+                <h3 className="text-center">EyeMed Healthy</h3>
                 </div>
               </div>
-              <div className="col-lg-12 flipcard-col flip-card">
-                <div className="flip-card-inner">
-                  <div className="flipcard-container flip-card-front">
-                  <div className="row">
-                    <div className="col-lg-4">
-                    <Img fluid={eye_bold_img} className="flipcard-icon1" alt="Eyemed Bold" />
-                    </div>
-                    <div className="col-lg-8">
-                    <h3 className="text-center bold">EyeMed Bold</h3>
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flipcard-container-inner flip-card-back">
-                  <h3 className="text-center inner-content">EyeMed Bold</h3>
-                  <p className="text-center flipcard-content">An eye exam, frame and lens allowance, plus great discounts on glasses and contacts.</p>
-                  </div>
-                </div>
               </div>
-              <div className="col-lg-12 flipcard-col flip-card">
-                <div className="flip-card-inner">
-                  <div className="flipcard-container flip-card-front">
-                  <div className="row">
-                    <div className="col-lg-4">
-                    <Img fluid={eye_bright_img} className="flipcard-icon2" alt="Eyemed Bright" />
-                    </div>
-                    <div className="col-lg-8">
-                    <h3 className="text-center bright">EyeMed Bright</h3>
-                    </div>
-                  </div>
-                  </div>
-                  <div className="flipcard-container-inner flip-card-back">
-                    <h3 className="text-center inner-content1">EyeMed Bright</h3>
-                    <p className="text-black flipcard-content">An eye exam on our highest frame and lens allowance, plus great discounts on glasses and contacts.</p>
-                  </div>
-                </div>
+              <div className="flipcard-container-inner flip-card-back">
+              <h3 className="text-center inner-content">EyeMed Healthy</h3>
+                <p className="text-center flipcard-content">An eye exam plus great discounts on glasses and contacts.</p>
               </div>
             </div>
-          </div>*/}
+          </div>
+          <div className="col-lg-12 flipcard-col flip-card">
+            <div className="flip-card-inner">
+              <div className="flipcard-container flip-card-front">
+              <div className="row">
+                <div className="col-lg-4">
+                <Img fluid={eye_bold_img} className="flipcard-icon1" alt="Eyemed Bold" />
+                </div>
+                <div className="col-lg-8">
+                <h3 className="text-center bold">EyeMed Bold</h3>
+                </div>
+              </div>
+              </div>
+              <div className="flipcard-container-inner flip-card-back">
+              <h3 className="text-center inner-content">EyeMed Bold</h3>
+              <p className="text-center flipcard-content">An eye exam, frame and lens allowance, plus great discounts on glasses and contacts.</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-12 flipcard-col flip-card">
+            <div className="flip-card-inner">
+              <div className="flipcard-container flip-card-front">
+              <div className="row">
+                <div className="col-lg-4">
+                <Img fluid={eye_bright_img} className="flipcard-icon2" alt="Eyemed Bright" />
+                </div>
+                <div className="col-lg-8">
+                <h3 className="text-center bright">EyeMed Bright</h3>
+                </div>
+              </div>
+              </div>
+              <div className="flipcard-container-inner flip-card-back">
+                <h3 className="text-center inner-content1">EyeMed Bright</h3>
+                <p className="text-black flipcard-content">An eye exam on our highest frame and lens allowance, plus great discounts on glasses and contacts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6 text-center">
+          <div className="eyemed-container">
+            <img src={EyeMed} />
+            <a href="https://eyemed.memberquotes.com/Quote/LandingPage/EyeMed_1?rn=000020140-207-732&sessionStorage=4be4c6df-7653-429b-8123-820a1f0f5dde" target="_blank">
+              <button className="get-now-btn"> Get Eyemed </button>
+            </a>
+          </div>
+        </div>
       </Container>
     </section>
 

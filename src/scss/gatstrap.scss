@@ -867,7 +867,7 @@ what-describes-you {
 #eyemed-section-1 .flip-card {
   background-color:transparent;
  	width: 100%;
-  height: 170px;
+  height: 160px;
   // perspective: 1000px;
 }
 
@@ -8291,7 +8291,7 @@ section.plans-hero-section-bg {
   background: #eeeeee;
   color: #000000;
   font-weight: 600;
-  width: 33.33%;
+  width: 50%;
   min-height: 60px;
   font-size: 18px;
   border-left: 2px solid #C4C4C4;
@@ -9004,7 +9004,7 @@ section.plans-hero-section-bg {
 .elite-column-tab {
   background: #252362;
   border: 1px solid #A5A5A5;
-  min-height: 110px;
+  min-height: 125px;
 }
 
 .column-tab-titles {
@@ -10018,11 +10018,12 @@ section.eyemed-hero-section-bg {
 
 #eyemed-section-1 .eyemed-container {
   box-shadow: 0px 0px 12px 0px #dddddd;
-  padding: 30px 10px 30px 10px;
-  background-color: #252362;
+  padding: 80px 10px;
+  background-color: $white;
   margin-bottom: 15px;
-  margin-left: -15px;
-  width: 107%;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #eyemed-section-1 .get-quote-btn {
@@ -10112,18 +10113,19 @@ section.eyemed-hero-section-bg {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  background: #ffffff;
-  border: 2px solid #ffffff;
-  color: #252362;
+  background: #252362;
+  color: $white;
+  border: 2px solid #252362;
   padding: 4px 60px;
   border-radius: 50px;
   transition: .5s;
   font-size: 20px;
+  margin-top: 30px;
 }
 
 #eyemed-section-1 .get-now-btn:hover {
-  background: #252362;
-  color: #ffffff;
+  background: $white;
+  color: #252362;
 }
 
 #eyemed-section-1 .flipcard-icon {
@@ -10149,7 +10151,7 @@ section.eyemed-hero-section-bg {
 #eyemed-section-1 h3 {
   font-weight: 500;
   font-size: 30px;
-  margin-top: 30px;
+  // margin-top: 30px;
   margin-bottom: 0;
 }
 
@@ -10163,7 +10165,7 @@ section.eyemed-hero-section-bg {
 #eyemed-section-1 .bold {
   font-weight: 500;
   font-size: 30px;
-  margin-top: 30px;
+  // margin-top: 30px;
   margin-bottom: 0;
 }
 
@@ -10175,8 +10177,8 @@ section.eyemed-hero-section-bg {
 
 #eyemed-section-1 .flipcard-container {
   background: #fff;
-  padding: 30px 0px 20px 20px;
-  min-height: 145px;
+  padding: 20px 0px 20px 20px;
+  min-height: 150px;
 }
 
 #eyemed-section-1 .flipcard-container-inner {
@@ -10222,7 +10224,7 @@ section.eyemed-hero-section-bg {
 
 #eyemed-section-1 .inner-content1 {
   font-size: 20px;
-  margin-top: 10px;
+  // margin-top: 10px;
 }
 
 #eyemed-section-2 {
@@ -10281,6 +10283,14 @@ section#eyemed-section-2 {
   font-size: 16px;
   padding-bottom: 25px;
 }
+
+/* eyemed v2 styles */
+
+#eyemed-section-1 .row {
+  align-items: center;
+}
+
+/* end of eyemed v2 styles */
 
 /* End of Eyemed Styles */
 
@@ -16116,12 +16126,15 @@ button.close {
 
   #eyemed-section-1 .eyemed-container {
     width: 100%;
-    padding-left: 0;
-    margin-left: 0;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding: 30px 20px;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
+  #premium-section-1 .premium-button {
+    margin-bottom: 20px;
+  }
   section#eyemed-section-2 {
     margin-top: 0px;
   }
@@ -17245,7 +17258,7 @@ button.close {
 
 @media only screen and (min-width: 982px) {
   #quote-section-1 .quote-container {
-    margin-top: -70px !important;
+    margin-top: -50px !important;
   }
 }
 

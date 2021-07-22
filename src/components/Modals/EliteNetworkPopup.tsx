@@ -153,7 +153,7 @@ const EliteNetworkPopup: React.FC<Props> = ({ label, primary, children, id, clas
                                                       </div>
                                                       <div className="col-lg-3">
                                                         <div className="elite-column-tab">
-                                                          <p className="text-white column-tab-titles pt-2">​Maximum for Pre-Existing Conditions</p>
+                                                          <p className="text-white column-tab-titles">​Maximum for Pre-Existing Conditions</p>
                                                         </div>
                                                         <p className="tab-content text-black">$25,000</p>
                                                         <p className="tab-content text-black"></p>
@@ -164,7 +164,7 @@ const EliteNetworkPopup: React.FC<Props> = ({ label, primary, children, id, clas
                                                         <p className="tab-content text-black"></p>
                                                       </div><div className="col-lg-3">
                                                         <div className="elite-column-tab">
-                                                          <p className="text-white column-tab-titles pt-2">​Deductible for Pre-Existing Conditions</p>
+                                                          <p className="text-white column-tab-titles">​Deductible for Pre-Existing Conditions</p>
                                                         </div>
                                                         <p className="tab-content text-black">$1,500</p>
                                                         <p className="tab-content text-black"></p>
