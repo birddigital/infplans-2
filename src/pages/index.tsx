@@ -435,7 +435,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 <h3 className="text-center">File a <br /> Claim</h3>
               </div>
               <div className="flipcard-container-inner flip-card-back">
-                <h3 className="text-center">Claims</h3>
+                <h3 className="text-center">File a <br /> Claim</h3>
                 <p className="text-black flipcard-content">
                   Streamlined Claims <br />Process
                 </p>

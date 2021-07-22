@@ -17299,6 +17299,18 @@ button.close {
   padding-bottom: 82.25%;
 }
 
+@media only screen and (min-width: 1038px) {
+  #bmi-apply-form-container iframe {
+    min-height: 780px;
+  }
+}
+
+@media only screen and (max-width: 1037px) {
+  #bmi-apply-form-container iframe {
+    min-height: 850px;
+  }
+}
+
 #apply-page-form .embed-container {
   padding-bottom: 0;
   min-height: 1250px;

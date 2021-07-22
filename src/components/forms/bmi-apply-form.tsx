@@ -15,9 +15,9 @@ const BmiApplyForm = ({ action, ...props }) => (
       src="https://adrienb3.sg-host.com/forms/bmi-travel-plan-application.php"
       style={{ width: '1px', minWidth: '100%', border: 'none'}}
     />
-    <div className="embed-container">
+    {/*<div className="embed-container">
       <iframe src="https://adrienb3.sg-host.com/forms/bmi-travel-plan-application.php" id="bmi-apply-form" scrolling="no"></iframe>
-    </div>
+    </div>*/}
   </div>
 )
 export default BmiApplyForm
