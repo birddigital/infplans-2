@@ -52,13 +52,13 @@ const WhyINFPage: React.FC<Props> = ({ data, location }: Props) => {
         <Container>
           <div className="col-lg-12">
             <div className="why-inf-container">
-              <h2 className="text-blue text-center">Why choose INF Insurance ?</h2>
+              <h2 className="text-blue text-center">Why Choose INF Insurance ?</h2>
               <p className="title">We Really do Care about Our Plan Members</p>
               <p>Since our founding in 1988, INF has provided innovative Insurance for Visitors options for members in the community. At INF- we really do care about our plan members. Our dedicated staff answers your calls and emails within 24 hours.</p>
               <p>Each plan participant is assigned an account manager, who will help the insured with any of their needs. Our account managers provide you with their direct WhatsApp numbers so you have someone to talk if an emergency happens during their travel.</p>
               <p>At INF, we don't give you the runaround. You can talk to the same person each time you call our office, reach the same person whenever you have a question. We are your trusted advisor when it comes to your Insurance for Visitors, and we do not take that responsibility lightly.</p>
 
-              <p className="title">Built in Technology & With Simplicity</p>
+              <p className="title">A Simpler Experience With Built-in Technology</p>
               <p>INF was molded with technology & simplicity in mind. Our easy to use site simplifies the shopping process, and provide unprecedented access to our customer support team of licensed insurance agents.</p>
               <p>Manage your policy easily using the MyINF portal. MyINF allows you to track your purchase history, Extend or apply for new coverage, manage claims, and much more! </p>
 

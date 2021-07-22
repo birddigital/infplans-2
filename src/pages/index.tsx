@@ -179,7 +179,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12 mb-20 mt-20">
             <p className="text-center subtitle">We Really Do Care About Our Plan Members</p>
             <h2 className="text-center text-primary">
-              Why choose INF Insurance?
+              Why Choose INF Insurance?
             </h2>
           </div>
           <div className="col-lg-3 why-choose-inf-icon-container">
@@ -190,7 +190,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 imgStyle={{ objectFit: 'contain' }}
               />
             </div >
-            <p className="column-title">Built in Technology<br /> & With Simplicity</p>
+            <p className="column-title">A Simpler Experience With Built-in Technology</p>
           </div>
           <div className="col-lg-3 why-choose-inf-icon-container">
             <div className="why-choose-inf-icons">
@@ -200,7 +200,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 imgStyle={{ objectFit: 'contain' }}
               />
             </div>
-            <p className="column-title">Our 30 year<br /> Track Record</p>
+            <p className="column-title">Our 30 Year<br /> Track Record</p>
           </div>
           <div className="col-lg-3 why-choose-inf-icon-container">
             <div className="why-choose-inf-icons">
@@ -261,7 +261,7 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 imgStyle={{ objectFit: 'contain' }}
               />
             </div>
-            <p className="column-title">No paperwork. Instant<br /> ID. Secure Purchase</p>
+            <p className="column-title">No Paperwork. Instant<br /> ID. Secure Purchase</p>
           </div>
           <div className="col-lg-12 text-center mt-30 mb-20">
             <Link to="/why-inf">
