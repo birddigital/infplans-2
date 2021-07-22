@@ -117,107 +117,68 @@ const TravelerPopup: React.FC<Props> = ({ label, primary, children, id, classNam
                                              <nav>
                                                 <ul>
                                                    <li className="coverages-tabone">
-                                                      <label for="coverages-tabone">Policy Maximum  <br/> <span className="text-black age-title">Age 0-69</span></label>
+                                                      <label for="coverages-tabone">Inf Traveler USA IVAS Accident And <br/>Sickness Plan <br/> <span className="text-black age-title">Age 0-69</span></label>
                                                    </li>
                                                    <li className="coverages-tabtwo">
-                                                      <label for="coverages-tabtwo">Policy Maximum <br/> <span className="text-black age-title">Age 70-99</span></label>
+                                                      <label for="coverages-tabtwo">Inf Traveler USA IVAS Accident And <br/>Sickness Plan <br/> <span className="text-black age-title">Age 70-99</span></label>
                                                    </li>
                                                 </ul>
                                              </nav>
                                              <section>
                                                 <div className="coverages-tabone">
                                                    <div className="row">
-                                                     <div className="col-lg-3">
-                                                       <div className="elite-column-tab">
-                                                         <p className="text-white column-tab-titles">Maximum per Accident or Sickness Expense Benefits</p>
-                                                       </div>
-                                                       <p className="tab-content text-black">$150,000</p>
-                                                       <p className="tab-content text-black">$250,000</p>
-                                                       <p className="tab-content text-black">$350,000</p>
-                                                       <p className="tab-content text-black"></p>
-                                                       <p className="tab-content text-black"></p>
-                                                       <p className="tab-content text-black"></p>
-                                                       <p className="tab-content text-black"></p>
-                                                      </div>
-                                                      <div className="col-lg-3">
-                                                        <div className="elite-column-tab">
-                                                          <p className="text-white column-tab-titles">​Deductible per Accident or Sickness Expense Benefits</p>
-                                                        </div>
-                                                        <p className="tab-content text-black">$50</p>
-                                                        <p className="tab-content text-black">$100</p>
-                                                        <p className="tab-content text-black">$250</p>
-                                                        <p className="tab-content text-black">$500</p>
-                                                        <p className="tab-content text-black">$1,000</p>
-                                                        <p className="tab-content text-black">$2,500</p>
-                                                        <p className="tab-content text-black">$5,000</p>
-                                                      </div>
-                                                      <div className="col-lg-3">
-                                                        <div className="elite-column-tab">
-                                                          <p className="text-white column-tab-titles pt-2">​Maximum for Pre-Existing Conditions</p>
-                                                        </div>
-                                                        <p className="tab-content text-black">$25,000</p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                      </div><div className="col-lg-3">
-                                                        <div className="elite-column-tab">
-                                                          <p className="text-white column-tab-titles pt-2">​Deductible for Pre-Existing Conditions</p>
-                                                        </div>
-                                                        <p className="tab-content text-black">$1,500</p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                      </div>
+                                                   <div className="col-lg-6">
+                                                     <div className="column-tab">
+                                                       <p className="text-white column-tab-title">Total Maximum per Accident or <br/>Sickness Expense Benefits</p>
+                                                     </div>
+                                                     <p className="tab-content text-black">$150,000</p>
+                                                     <p className="tab-content text-black">$250,000</p>
+                                                     <p className="tab-content text-black">$300,000</p>
+                                                     <p className="tab-content text-black"></p>
+                                                     <p className="tab-content text-black"></p>
+                                                     <p className="tab-content text-black"></p>
+                                                     <p className="tab-content text-black"></p>
+                                                   </div>
+                                                   <div className="col-lg-6">
+                                                     <div className="column-tab">
+                                                       <p className="text-white column-tab-title">Deductible per Accident or <br/>Sickness Expense Benefits</p>
+                                                     </div>
+                                                     <p className="tab-content text-black">$50</p>
+                                                     <p className="tab-content text-black">$100</p>
+                                                     <p className="tab-content text-black">$250</p>
+                                                     <p className="tab-content text-black">$500</p>
+                                                     <p className="tab-content text-black">$1,000</p>
+                                                     <p className="tab-content text-black">$2,500</p>
+                                                     <p className="tab-content text-black">$5,000</p>
+                                                   </div>
                                                     </div>
                                                   </div>
                                                   <div className="coverages-tabtwo">
                                                     <div className="row">
-                                                      <div className="col-lg-3">
-                                                        <div className="elite-column-tab">
-                                                          <p className="text-white column-tab-titles">Maximum per Accident or Sickness Expense Benefits</p>
-                                                        </div>
-                                                        <p className="tab-content text-black">$75,000</p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
+                                                    <div className="col-lg-6">
+                                                      <div className="column-tab">
+                                                        <p className="text-white column-tab-title">Total Maximum per Accident or <br/>Sickness Expense Benefits</p>
                                                       </div>
-                                                      <div className="col-lg-3">
-                                                        <div className="elite-column-tab">
-                                                          <p className="text-white column-tab-titles">​Deductible per Accident or Sickness Expense Benefits</p>
-                                                        </div>
-                                                        <p className="tab-content text-black">$250</p>
-                                                        <p className="tab-content text-black">$500</p>
-                                                        <p className="tab-content text-black">$1,000</p>
-                                                        <p className="tab-content text-black">$2,500</p>
-                                                        <p className="tab-content text-black">$5,000</p>
+                                                      <p className="tab-content text-black">$75,000</p>
+                                                      <p className="tab-content text-black"></p>
+                                                      <p className="tab-content text-black"></p>
+                                                      <p className="tab-content text-black"></p>
+                                                      <p className="tab-content text-black"></p>
+                                                      <p className="tab-content text-black"></p>
+                                                      <p className="tab-content text-black"></p>
+                                                    </div>
+                                                    <div className="col-lg-6">
+                                                      <div className="column-tab">
+                                                        <p className="text-white column-tab-title">Deductible per Accident or <br/>Sickness Expense Benefits</p>
                                                       </div>
-                                                      <div className="col-lg-3">
-                                                        <div className="elite-column-tab">
-                                                          <p className="text-white column-tab-titles pt-2">​Maximum for Pre-Existing Conditions</p>
-                                                        </div>
-                                                        <p className="tab-content text-black">$20,000</p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                      </div>
-                                                      <div className="col-lg-3">
-                                                        <div className="elite-column-tab">
-                                                          <p className="text-white column-tab-titles pt-2">​Deductible for Pre-Existing Conditions</p>
-                                                        </div>
-                                                        <p className="tab-content text-black">$1,500</p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                        <p className="tab-content text-black"></p>
-                                                      </div>
+                                                      <p className="tab-content text-black">$50</p>
+                                                      <p className="tab-content text-black">$100</p>
+                                                      <p className="tab-content text-black">$250</p>
+                                                      <p className="tab-content text-black">$500</p>
+                                                      <p className="tab-content text-black">$1,000</p>
+                                                      <p className="tab-content text-black">$2,500</p>
+                                                      <p className="tab-content text-black">$5,000</p>
+                                                    </div>
                                                   </div>
                                                 </div>
                                              </section>
