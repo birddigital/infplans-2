@@ -18434,8 +18434,9 @@ min-height: 819px;
   }
 
   #premier-schedule-of-benefits label {
-    min-height: 227px;
+    min-height: 185px;
     font-size: 16px;
+    padding: 10px;
   }
 
 
@@ -18500,7 +18501,142 @@ min-height: 819px;
 
 }
 
+@media only screen and (max-width: 1024px) {
 
+  .plans-popup .modal-dialog {
+    max-width: 767px;
+  }
+
+  .coverages-tab ul li label {
+    width: 100% !important;
+  }
+
+  #premier-schedule-of-benefits label {
+    min-height: auto;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .coverages-tab .column-tab {
+    min-height: auto;
+    padding: 15px;
+    margin-top: 20px;
+  }
+
+  .plans-popup.modal .coverages-tab .tab-row-title, .ivas-standard .tab-row-title {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+  }
+
+  .ivas-out-tab .column-tab, .ivas-in-tab .column-tab {
+    margin-top: 20px;
+  }
+
+  .ivas-out-tab .tab-content, .ivas-other-tab .tab-content {
+    min-height: 55px;
+  }
+
+  #standard-schedule-of-benefits label {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .plans-popup.modal h2 {
+    padding: 0 10px;
+  }
+
+  #ivas-description .mt-4 {
+    margin-top: 0 !important;
+  }
+
+  #plans-section-6 .book-icon-img {
+    margin-top: 20px;
+  }
+
+  .elite-column-tab {
+    min-height: auto;
+    padding: 15px 10px !important;
+    margin-top: 20px;
+  }
+
+  .ivas-other-tab .column-tab {
+    margin-top: 20px;
+  }
+
+  .ivas-in-tab ul li label {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  #plans-section-6 .nav {
+    min-width: 180px;
+  }
+
+  .plans-popup .modal-dialog {
+    max-width: 500px;
+  }
+
+  #plans-section-6 .popup-logo {
+    width: 140px;
+  }
+
+  .plans-popup #plans-section-6 button.close {
+    font-size: 25px;
+    padding: 2px 7px 1px 7px;
+  }
+
+  .plans-popup.modal h2 {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+
+  .plans-popup.modal .coverages-tab .tab-row-title, .ivas-standard .tab-row-title {
+    padding-bottom: 15px;
+  }
+
+  .ivas-out-tab .row, .ivas-other-tab .row {
+    padding: 0;
+  }
+
+  .coverages-tab .row, .ivas-in-tab .row {
+    padding: 0;
+  }
+
+   .ivas-in-tab section div {
+    padding: 0 20px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  .plans-popup .modal-dialog {
+    max-width: 320px;
+  }
+
+  #plans-section-6 .nav {
+    min-width: 120px;
+  }
+
+  #plans-section-6 .popup-logo {
+    width: 100px;
+  }
+
+  .plans-popup.modal .coverages-tab .tab-row-title, .ivas-standard .tab-row-title {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #plans-section-6 .read-now-btn {
+    width: 100%;
+    padding: 8px 0;
+  }
+
+}
 
 /* end of plans popup responsive */
 

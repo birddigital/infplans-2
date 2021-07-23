@@ -126,7 +126,7 @@ const TravelerPopup: React.FC<Props> = ({ label, primary, children, id, classNam
                                              </nav>
                                              <section>
                                                 <div className="coverages-tabone">
-                                                   <div className="row">
+                                                   <div className="row p-t-20">
                                                       <div className="col-lg-6">
                                                          <div className="column-tab">
                                                             <p className="text-white column-tab-title">Total Maximum per Accident or <br />Sickness Expense Benefits</p>
@@ -154,7 +154,7 @@ const TravelerPopup: React.FC<Props> = ({ label, primary, children, id, classNam
                                                    </div>
                                                 </div>
                                                 <div className="coverages-tabtwo">
-                                                   <div className="row">
+                                                   <div className="row p-t-20">
                                                       <div className="col-lg-6">
                                                          <div className="column-tab">
                                                             <p className="text-white column-tab-title">Total Maximum per Accident or <br />Sickness Expense Benefits</p>
