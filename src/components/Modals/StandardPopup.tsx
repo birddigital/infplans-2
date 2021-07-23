@@ -130,7 +130,7 @@ const StandardPopup: React.FC<Props> = ({ label, primary, children, id, classNam
                                                    <p className="text-black text-center tab-row-title">$50,000 Total Maximum Per Accident or Sickness Expense Benefits</p>
                                                    <div className="row">
                                                       <div className="col-lg-10">
-                                                         <div className="column-tab">
+                                                         <div className="column-tab standard-column-tab">
                                                             <p className="text-white column-tab-title">Deductible Per Covered Accident or Sickness Expense</p>
                                                          </div>
                                                          <p className="tab-content text-black">$75</p>
@@ -145,7 +145,7 @@ const StandardPopup: React.FC<Props> = ({ label, primary, children, id, classNam
                                                    <p className="text-black text-center tab-row-title">$100,000 Maximum Per Accident or Sickness Expense Benefits</p>
                                                    <div className="row">
                                                       <div className="col-lg-10">
-                                                         <div className="column-tab">
+                                                         <div className="column-tab standard-column-tab">
                                                             <p className="text-white column-tab-title">Deductible Per Covered Accident or Sickness Expense</p>
                                                          </div>
                                                          <p className="tab-content text-black">$75</p>
@@ -160,7 +160,7 @@ const StandardPopup: React.FC<Props> = ({ label, primary, children, id, classNam
                                                    <p className="text-black text-center tab-row-title">$150,000 Maximum Per Accident or Sickness Expense Benefits</p>
                                                    <div className="row">
                                                       <div className="col-lg-10">
-                                                         <div className="column-tab">
+                                                         <div className="column-tab standard-column-tab">
                                                             <p className="text-white column-tab-title">Deductible Per Covered Accident or Sickness Expense</p>
                                                          </div>
                                                          <p className="tab-content text-black">$75</p>
@@ -177,7 +177,7 @@ const StandardPopup: React.FC<Props> = ({ label, primary, children, id, classNam
                                                    <p className="text-black text-center tab-row-title">$50,000 Total Maximum Per Accident or Sickness Expense Benefits</p>
                                                    <div className="row">
                                                       <div className="col-lg-10">
-                                                         <div className="column-tab">
+                                                         <div className="column-tab standard-column-tab">
                                                             <p className="text-white column-tab-title">Deductible Per Covered Accident or Sickness Expense</p>
                                                          </div>
                                                          <p className="tab-content text-black">$250</p>
@@ -187,10 +187,10 @@ const StandardPopup: React.FC<Props> = ({ label, primary, children, id, classNam
                                                          <p className="tab-content text-black">$5,000</p>
                                                       </div>
                                                    </div>
-                                                   <p className="text-black text-center tab-row-title">$100,000 Maximum Per Accident or Sickness Expense Benefits</p>
+                                                   <p className="text-black text-center tab-row-title standard-column-tab-title">$100,000 Maximum Per Accident or Sickness Expense Benefits</p>
                                                    <div className="row">
                                                       <div className="col-lg-10">
-                                                         <div className="column-tab">
+                                                         <div className="column-tab standard-column-tab">
                                                             <p className="text-white column-tab-title">Deductible Per Covered Accident or Sickness Expense</p>
                                                          </div>
                                                          <p className="tab-content text-black">$250</p>

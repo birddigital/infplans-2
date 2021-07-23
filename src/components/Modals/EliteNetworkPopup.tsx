@@ -127,7 +127,7 @@ const EliteNetworkPopup: React.FC<Props> = ({ label, primary, children, id, clas
                               </nav>
                               <section>
                                 <div className="coverages-tabone">
-                                  <div className="row">
+                                  <div className="row p-t-20">
                                     <div className="col-lg-3">
                                       <div className="elite-column-tab">
                                         <p className="text-white column-tab-titles">Maximum per Accident or Sickness Expense Benefits</p>
@@ -179,7 +179,7 @@ const EliteNetworkPopup: React.FC<Props> = ({ label, primary, children, id, clas
                                   </div>
                                 </div>
                                 <div className="coverages-tabtwo">
-                                  <div className="row">
+                                  <div className="row p-t-20">
                                     <div className="col-lg-3">
                                       <div className="elite-column-tab">
                                         <p className="text-white column-tab-titles">Maximum per Accident or Sickness Expense Benefits</p>
