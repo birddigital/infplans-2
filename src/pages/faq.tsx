@@ -111,31 +111,31 @@ const FAQPage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="row mt-4">
               <div className="col-lg-6">
                 <ul>
-                  <a href="https://8320.infplans.com/inf-standard-faq.html" target="_blank">
+                  <Link to="/standard-faq">
                     <li className="text-white">INF Standard Plan - FAQ</li>
-                  </a>
-                  <a href="https://8320.infplans.com/inf-premier-faq.html" target="_blank">
+                  </Link>
+                  <Link to="/premier-faq">
                     <li className="text-white">INF Premier Plan - FAQ</li>
-                  </a>
-                  <a href="https://8320.infplans.com/inf-elite-network-faq.html" target="_blank">
+                  </Link>
+                  <Link to="/elite-network-faq">
                     <li className="text-white">INF Elite Network Plan - FAQ</li>
-                  </a>
-                  <a href="https://8320.infplans.com/tripshield-international.html" target="_blank">
+                  </Link>
+                  <Link to="/trip-shield">
                     <li className="text-white">INF TripShield International </li>
-                  </a>
+                  </Link>
                 </ul>
               </div>
               <div className="col-lg-6">
                 <ul>
-                  <a href="https://8320.infplans.com/inf-selectcare-faq.html" target="_blank">
+                  <Link to="/select-care-plan">
                     <li className="text-white">INF SelectCare Plan - FAQ</li>
-                  </a>
-                  <a href="https://8320.infplans.com/inf-choice-faq.html" target="_blank">
+                  </Link>
+                  <Link to="/choice-plan">
                     <li className="text-white">INF Choice Plan - FAQ</li>
-                  </a>
-                  <a href="https://8320.infplans.com/inf-advantage-faq.html" target="_blank">
+                  </Link>
+                  <Link to="/advantage-plan">
                     <li className="text-white">INF Advantage Plan - FAQ</li>
-                  </a>
+                  </Link>
                 </ul>
               </div>
             </div>

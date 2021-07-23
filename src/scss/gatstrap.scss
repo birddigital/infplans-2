@@ -8652,7 +8652,7 @@ section.plans-hero-section-bg {
   justify-content: center;
   align-self: center;
   align-items: center;
-  
+
 }
 
 .ivas-out-tabtwo .tab-content1 {
@@ -10641,6 +10641,575 @@ section#why-inf-section-1 {
   font-size:20px;
 }
 /* End of Travel Insurance for Elderly Page */
+
+/* Standard Plan Faq Styles */
+.standard-faq-hero-section-bg {
+  min-height: 600px;
+}
+
+.standard-faq-hero-section-bg {
+  background-position: bottom !important;
+}
+
+#standard-faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#standard-faq-hero-section  h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#standard-faq-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#standard-faq-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#standard-faq .standard-faq-container {
+  box-shadow: 0px 0px 12px 0px #dddddd;
+  padding: 50px 50px 40px 50px;
+}
+
+#standard-faq .title {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#standard-faq .treatment {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#standard-faq .note {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+#standard-faq p {
+  line-height: 2;
+}
+
+#standard-faq .details {
+  line-height: 1;
+  margin-left: 15px;
+}
+
+#standard-faq h2 {
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+/* End of Standard Plan Faq Styles */
+
+/* Premier Plan Faq Styles */
+.premier-faq-hero-section-bg {
+  min-height: 600px;
+}
+
+.premier-faq-hero-section-bg {
+  background-position: bottom !important;
+}
+
+#premier-faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#premier-faq-hero-section  h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#premier-faq-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#premier-faq-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#premier-faq .premier-faq-container {
+  box-shadow: 0px 0px 12px 0px #dddddd;
+  padding: 50px 50px 40px 50px;
+}
+
+#premier-faq .title {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#premier-faq .treatment {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#premier-faq .note {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+#premier-faq .details {
+  line-height: 1;
+  margin-left: 15px;
+}
+
+#premier-faq .policy {
+  margin-bottom: 10px;
+  line-height: 2;
+  list-style: decimal;
+}
+
+#premier-faq p {
+  line-height: 2;
+}
+
+#premier-faq h2 {
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+/* End of Premier Plan Faq Styles */
+
+/* Elite Netwrok Plan Faq Styles */
+.elite-network-faq-hero-section-bg {
+  min-height: 600px;
+}
+
+.elite-network-faq-hero-section-bg {
+  background-position: bottom !important;
+}
+
+#elite-network-faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#elite-network-faq-hero-section  h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#elite-network-faq-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#elite-network-faq-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#elite-network-faq .elite-network-faq-container {
+  box-shadow: 0px 0px 12px 0px #dddddd;
+  padding: 50px 50px 40px 50px;
+}
+
+#elite-network-faq .title {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#elite-network-faq .treatment {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#elite-network-faq .note {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+#elite-network-faq p {
+  line-height: 2;
+}
+
+#elite-network-faq .details {
+  line-height: 1;
+  margin-left: 15px;
+}
+
+#elite-network-faq .policy {
+  margin-bottom: 10px;
+  line-height: 2;
+  list-style: decimal;
+}
+
+#elite-network-faq h2 {
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+/* End of Elite Netwrok Plan Faq Styles */
+
+/* Select Care Plan Faq Styles */
+.select-care-faq-hero-section-bg {
+  min-height: 600px;
+}
+
+.select-care-faq-hero-section-bg {
+  background-position: bottom !important;
+}
+
+#select-care-faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#select-care-faq-hero-section  h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#select-care-faq-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#select-care-faq-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#select-care-faq .select-care-faq-container {
+  box-shadow: 0px 0px 12px 0px #dddddd;
+  padding: 50px 50px 40px 50px;
+}
+
+#select-care-faq .title {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#select-care-faq p {
+  line-height: 2;
+}
+
+#select-care-faq .details {
+  line-height: 1;
+  margin-left: 15px;
+}
+
+#select-care-faq h2 {
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#select-care-faq .insurance-note {
+  padding-top: 30px;
+}
+/* End of Select Care Plan Faq Styles */
+
+/* Choice Plan Faq Styles */
+.choice-plan-faq-hero-section-bg {
+  min-height: 600px;
+}
+
+.choice-plan-faq-hero-section-bg {
+  background-position: bottom !important;
+}
+
+#choice-plan-faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#choice-plan-faq-hero-section  h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#choice-plan-faq-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#choice-plan-faq-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#choice-plan-faq .choice-plan-faq-container {
+  box-shadow: 0px 0px 12px 0px #dddddd;
+  padding: 50px 50px 40px 50px;
+}
+
+#choice-plan-faq .title {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#choice-plan-faq p {
+  line-height: 2;
+}
+
+#choice-plan-faq .details {
+  line-height: 1;
+  margin-left: 15px;
+}
+
+#choice-plan-faq h2 {
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#choice-plan-faq .insurance-note {
+  padding-top: 30px;
+}
+/* End of Choice Plan Faq Styles */
+
+/* Advantage Plan Faq Styles */
+.advantage-plan-faq-hero-section-bg {
+  min-height: 600px;
+}
+
+.advantage-plan-faq-hero-section-bg {
+  background-position: bottom !important;
+}
+
+#advantage-plan-faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#advantage-plan-faq-hero-section  h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#advantage-plan-faq-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#advantage-plan-faq-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#advantage-plan-faq .advantage-plan-faq-container {
+  box-shadow: 0px 0px 12px 0px #dddddd;
+  padding: 50px 50px 40px 50px;
+}
+
+#advantage-plan-faq .title {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#advantage-plan-faq p {
+  line-height: 2;
+}
+
+#advantage-plan-faq .details {
+  line-height: 1;
+  margin-left: 15px;
+}
+
+#advantage-plan-faq h2 {
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#advantage-plan-faq .insurance-note {
+  padding-top: 30px;
+}
+/* End of Advantage Plan Faq Styles */
+
+/* Trip Shield Styles */
+.trip-shield-hero-section-bg {
+  min-height: 600px;
+}
+
+.trip-shield-hero-section-bg {
+  background-position: bottom !important;
+}
+
+#trip-shield {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#trip-shield-hero-section  h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 150px;
+}
+
+#trip-shield-hero-section .hero-text {
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-top: 20px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#trip-shield-hero-section .hero-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#trip-shield-hero-section .hero-btn:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#why-trip-shield .trip-shield-container, #trip-shield-overview .trip-shield-container {
+  box-shadow: 0px 0px 12px 0px #dddddd;
+  padding: 50px 50px 40px 50px;
+}
+
+#trip-shield-overview p {
+  line-height: 2;
+}
+
+#why-trip-shield h2 {
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#trip-shield-overview h2 {
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#trip-shield-overview .title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#trip-shield-overview .big-logo {
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#trip-shield-overview li {
+  margin-bottom: 10px;
+  line-height: 2;
+}
+
+#trip-shield-overview .tripshield-btn1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;    display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 55px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#trip-shield-overview .tripshield-btn1:hover {
+  background: #ffffff;
+  color: #252362;
+}
+
+#trip-shield-overview .tripshield-btn2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;    display: block;
+  background: #252362;
+  border: 2px solid #252362;
+  color: #ffffff;
+  padding: 8px 24px;
+  border-radius: 50px;
+  transition: .5s;
+}
+
+#trip-shield-overview .tripshield-btn2:hover {
+  background: #ffffff;
+  color: #252362;
+}
+/* End of Trip Shield Styles */
 
 /*Privacy Policy Styles */
 
@@ -17868,8 +18437,8 @@ min-height: 819px;
     min-height: 227px;
     font-size: 16px;
   }
-  
-  
+
+
   .plans-popup.modal h2 {
     margin-top: 55px;
     font-size: 30px;
@@ -17883,7 +18452,7 @@ min-height: 819px;
     padding-top: 0;
     padding-bottom: 0;
   }
-  
+
   .coverages-tab section div, .ivas-in-tab section div {
     padding: 0 10px;
   }
@@ -17907,7 +18476,7 @@ min-height: 819px;
   #ivas-out-tabone:checked ~ section .ivas-out-tabone, #ivas-out-tabtwo:checked ~ section .ivas-out-tabtwo, #ivas-out-tabthree:checked ~ section .ivas-out-tabthree {
     padding-bottom: 0;
   }
-  
+
   .ivas-out-tab .tab-content, .ivas-other-tab .tab-content {
     min-height: 77px;
   }
