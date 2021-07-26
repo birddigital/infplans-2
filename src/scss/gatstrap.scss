@@ -8231,7 +8231,7 @@ section.plans-hero-section-bg {
 
 #premier-schedule-of-benefits label {
   width: 33.33%;
-  min-height: 195px;
+  min-height: 192px;
   font-size: 16px;
 }
 
@@ -8856,6 +8856,10 @@ section.plans-hero-section-bg {
   bottom: -1px;
 }
 
+#premier-schedule-of-benefits .ivas-out-tabthree label {
+  padding-top: 50px;
+}
+
 .ivas-other-tab .age-title {
   font-size: 16px;
 }
@@ -9013,7 +9017,7 @@ section.plans-hero-section-bg {
 }
 
 .column-tab-titles {
-  font-size: 14px !important;
+  font-size: 14px;
   font-weight: 400 !important;
   padding-top: 12px;
   margin-bottom: 0;
@@ -12621,7 +12625,7 @@ button.close {
 
 .plans-popup.modal  .coverages-tab .tab-row-title, .ivas-standard .tab-row-title {
   font-size: 18px !important;
-  font-weight: 700 !important;
+  font-weight: 600 !important;
 }
 
 #plans-section-6 .nav {
@@ -16982,7 +16986,8 @@ button.close {
   }
 
   section.plans-hero-section-bg {
-    min-height: 227px;
+    min-height: auto;
+    padding-bottom: 50px;
   }
 
   #plans-hero-section h1 {
@@ -17460,7 +17465,7 @@ button.close {
 
   @media screen and (max-width:375px) {
     #plans-hero-section {
-      min-height: 460px;
+      min-height: auto;
     }
 
     #plans-section-1 p {
@@ -18490,6 +18495,11 @@ min-height: 819px;
     min-height: 101px;
   }
 
+  .coverages-tab .column-tabs {
+    min-height: 100px;
+    margin-top: 10px;
+  }
+
   .plans-popup.modal .coverages-tab .tab-row-title, .ivas-standard .tab-row-title {
     padding-top: 15px;
   }
@@ -18513,6 +18523,8 @@ min-height: 819px;
 
   .column-tab-titles {
     margin-bottom: 0;
+    padding-top: 0;
+    font-size: 16px;
   }
 
   .p-t-20 {
@@ -18546,6 +18558,21 @@ min-height: 819px;
     min-height: auto;
     padding: 15px;
     margin-top: 20px;
+  }
+
+  .coverages-tab .column-tab-title {
+    margin-bottom: 0;
+    font-weight: 400 !important;
+    margin-top: 0;
+    font-size: 16px;
+  }
+
+  #premier-schedule-of-benefits .ivas-in-tabthree label {
+    padding-top: 15px;
+  }
+
+  #premier-schedule-of-benefits .ivas-out-tabthree label {
+    padding-top: 15px;
   }
 
   .plans-popup.modal .coverages-tab .tab-row-title, .ivas-standard .tab-row-title {
@@ -18633,7 +18660,6 @@ min-height: 819px;
    .ivas-in-tab section div {
     padding: 0 20px;
   }
-
 }
 
 @media only screen and (max-width: 500px) {
@@ -18658,6 +18684,29 @@ min-height: 819px;
   #plans-section-6 .read-now-btn {
     width: 100%;
     padding: 8px 0;
+  }
+
+  .plans-popup.modal h2 {
+    font-size: 25px;
+  }
+
+  .plans-popup.modal .coverages-tab .tab-row-title, .ivas-standard .tab-row-title {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+  }
+
+  .coverages-tab .column-tab-title {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+  .ivas-out-tab .column-tab, .ivas-in-tab .column-tab {
+    margin-top: 10px;
+  }
+
+  #plans-section-6 .close {
+    right: 0;
   }
 
 }
