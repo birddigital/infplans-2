@@ -61,11 +61,10 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
           <Container>
             <div className="col-lg-12">
               <h1 className="text-white text-center">
-                INF BMI INSURANCE
+                INF BMI TRAVEL ASSISTANCE
               </h1>
               <p className="text-white text-center hero-text">
-                INF-BMI plans provide assistance for international trips with no deductible or copayments and provides coverage for full pre-existing conditions, acute onset of pre-existing conditions, and COVID-19 as per the limits in the policy.
-              </p>
+                INF-BMI plans provide assistance for international trips with no deductible or copayments and 100% coverage to the listed maximum in the policy. INF BMI Travel Assistance covers COVID-19, some pre-existing conditions, and designed to cover one-off sicknesses for urgent care, ER, and hospitalization.               </p>
               <Link to="/bmi-apply">
                 <button className="hero-btn"> Get a Quote </button>
               </Link>
@@ -96,7 +95,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                </div>
                <div className="col-lg-4">
                   <Img fluid={bmi_logo} className="bmi-logo"/>
-                  <p className="text-blue text-center sub-title">INF BMI Travel Brochure</p>
+                  <p className="text-blue text-center sub-title"><a href="https://bmitravelassist.com/Home/Documents?doctype=3" target="_blank">INF BMI Travel Brochure</a></p>
                   <PopupModal label="Click to Get a Quote" className="inf-btn" id="bmi-travel-popup">
                     <h2 className="mb-0"> Apply for INF BMI Travel Assist </h2>
                     <img src={InfLogo} className="mb-0"/>

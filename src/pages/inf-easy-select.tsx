@@ -63,7 +63,7 @@ const InsuranceQuotePage: React.FC<Props> = ({ data, location }: Props) => {
         <Container>
           <div className="col-lg-12">
             <div className="quote-container">
-              <h2 className="text-center text-blue">Statement on COVID-19 coverage</h2>
+              <h2 className="text-center text-blue">Statement on COVID-19 Coverage</h2>
               <h3 className="text-black">Statement on COVID-19 Testing </h3>
               <p className="text-black">
                 The plans may cover medically necessary testing for COVID-19 in accordance with the plan terms, conditions and exclusions, while the person is in the US. Medically necessary COVID-19 testing and screening will be covered without any cost-sharing (deductible / copay / coinsurance).

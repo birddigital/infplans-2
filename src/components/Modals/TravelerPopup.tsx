@@ -22,7 +22,7 @@ const TravelerPopup: React.FC<Props> = ({ label, primary, children, id, classNam
             }
           }
         },
-        standard_popup_logo: file(name: { eq: "standard-popup-logo" }) {
+        traveler_popup_logo: file(name: { eq: "traveler-popup-logo" }) {
           childImageSharp {
             fluid(maxWidth: 400, quality: 100) {
               ...GatsbyImageSharpFluid
@@ -50,7 +50,7 @@ const TravelerPopup: React.FC<Props> = ({ label, primary, children, id, classNam
    const [travelerInsuranceVisible, setTravelerInsuranceVisible] = useState(false);
    const [travelerDescriptionVisible, setTravelerDescriptionVisible] = useState(false);
    const elite_network_img = data.elite_network_img?.childImageSharp?.fluid
-   const standard_popup_logo = data.standard_popup_logo?.childImageSharp?.fluid
+   const traveler_popup_logo = data.traveler_popup_logo?.childImageSharp?.fluid
    const book_icon = data.book_icon?.childImageSharp?.fluid
    const book2_icon = data.book2_icon?.childImageSharp?.fluid
 
@@ -100,10 +100,10 @@ const TravelerPopup: React.FC<Props> = ({ label, primary, children, id, classNam
                         <div id="plans-section-6">
                            <div className="d-flex">
                               <ul id="tabsJustified" className="nav nav-pills flex-column">
-                                 <Img fluid={standard_popup_logo} className="popup-logo" />
+                                 <Img fluid={traveler_popup_logo} className="popup-logo" />
                                  <li className="nav-item"><a href="javascript:void(0)" onClick={showCoverage} id="ivas-coverage" className={travelerCoverageVisible ? "nav-link small active" : "nav-link small"}>INF Traveler USA IVAS Coverages</a></li>
                                  <li className="nav-item"><a href="javascript:void(0)" onClick={showInsurance} id="ivas-insurance" className={travelerInsuranceVisible ? "nav-link small active" : "nav-link small"}>INF Traveler USA IVAS</a></li>
-                                 <li className="nav-item"><a href="javascript:void(0)" onClick={showDescription} id="ivas-description" className={travelerDescriptionVisible ? "nav-link small active" : "nav-link small"}>Traveler USA Plan Description</a></li>
+                                 <li className="nav-item"><a href="javascript:void(0)" onClick={showDescription} id="ivas-description" className={travelerDescriptionVisible ? "nav-link small active" : "nav-link small"}>INF Traveler USA Plan Description</a></li>
                               </ul>
                               <div className="tab-content p-3 w-100 pb-5">
                                  <button type="button" className="close" data-dismiss="modal" onClick={modalHide}>&times;</button>
@@ -189,8 +189,9 @@ const TravelerPopup: React.FC<Props> = ({ label, primary, children, id, classNam
                                  <div id="ivas-benefits" className={travelerInsuranceVisible ? "tab-pane fade active show" : "tab-pane fade show"} role="tabpanel" aria-labelledby="ivas-insurance">
                                     <div className="tabcontent">
                                        <div className="col-lg-12 ivas-standard">
-                                          <h2 className="text-blue text-center">INF Elite IVAS Co-Insurance</h2>
-                                          <p className="text-black text-center tab-row-title"><strong>Co-Insurance With INF Elite International Visitor Accident & Sickness Insurance</strong></p>
+                                          <h2 className="text-blue text-center">INF Traveler USA IVAS</h2>
+                                          <h3 className="text-blue text-center subtitle">Schedule of Benefits</h3>
+                                          <h3 className="text-black text-center">Co-Insurance With INF Traveler USA IVAS (Note: All Emergency Admissions Are Considered in-Network and Paid at 80% or 90%)</h3>
                                           <div className="ivas-in-tab">
                                              <input checked="checked" id="ivas-in-tabone" type="radio" name="ivas in benefits" />
                                              <input id="ivas-in-tabtwo" type="radio" name="ivas in benefits" />
@@ -221,21 +222,21 @@ const TravelerPopup: React.FC<Props> = ({ label, primary, children, id, classNam
                                  <div id="ivas-description" className={travelerDescriptionVisible ? "tab-pane fade active show" : "tab-pane fade show"} role="tabpanel" aria-labelledby="ivas-description">
                                     <div className="tabcontent">
                                        <div className="col-lg-12 ivas-standard">
-                                          <h2 className="text-blue text-center">INF Elite IVAS Plan Description</h2>
+                                          <h2 className="text-blue text-center">INF Traveler USA Plan Description</h2>
                                        </div>
                                        <div className="col-lg-12 ">
                                           <div className="row mt-4 justify-content-center">
                                              <div className="col-lg-5 text-center">
-                                                <h3 className="text-black">Read INF Elite IVAS Plan Description for Age 0-69</h3>
+                                              <h3 className="text-black">Read INF Premier Plan<br /> Description for Age 0-69  </h3>
                                                 <Img fluid={book_icon} className="book-icon-img" />
-                                                <a href="https://infplans.com/policy_pdf/INF_Elite_Network_Policy_Document_age_0_69.pdf" target="_blank">
+                                                <a href="https://infplans.com/policy_pdf/INF_Traveler_USA_Policy_Document_age_0_69.pdf" target="_blank">
                                                    <button className="read-now-btn"> Read Now </button>
                                                 </a>
                                              </div>
                                              <div className="col-lg-5 text-center">
-                                                <h3 className="text-black">Read INF Elite IVAS Plan Description for Age 70-99</h3>
+                                              <h3 className="text-black">Read INF Premier Plan<br /> Description for Age 70-99 </h3>
                                                 <Img fluid={book2_icon} className="book-icon-img" />
-                                                <a href="https://infplans.com/policy_pdf/INF_Elite_Network_Policy_Document_70_99.pdf" target="_blank">
+                                                <a href="https://infplans.com/policy_pdf/INF_Traveler_USA_Policy_Document_70_99.pdf" target="_blank">
                                                    <button className="read-now-btn"> Read Now </button>
                                                 </a>
                                              </div>

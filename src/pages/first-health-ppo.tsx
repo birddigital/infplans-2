@@ -70,7 +70,7 @@ const ProviderSearchPage: React.FC<Props> = ({ data, location }: Props) => {
             </div>
 
             <div className="provider-search-container mt-5">
-              <h2 className="text-blue text-center">Multiplan Network PPO Providers</h2>
+              <h2 className="text-blue text-center">United Healthcare Options PPO</h2>
               <div className="row mt-3">
                 <div className="col-lg-8">
                   <p className="text-black">When making an appointment with an INF International Visitor Accident and Sickness Insurance Plan make sure to say the following: <strong>"I have a United Healthcare Insurance plan. I found you in the provider directory. Do you accept United Healthcare?"</strong></p>

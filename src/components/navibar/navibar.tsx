@@ -125,7 +125,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                         }
                       >
                         <Link to="/bmi-apply" className="nav-link">
-                          Inf BMI Travel Plans
+                          INF BMI Travel Plans
                         </Link>
                       </li>
                       <li

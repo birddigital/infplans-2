@@ -22,7 +22,7 @@ const EliteNetworkPopup: React.FC<Props> = ({ label, primary, children, id, clas
             }
           }
         },
-        standard_popup_logo: file(name: { eq: "standard-popup-logo" }) {
+        elite_popup_logo: file(name: { eq: "elite-popup-logo" }) {
           childImageSharp {
             fluid(maxWidth: 400, quality: 100) {
               ...GatsbyImageSharpFluid
@@ -50,7 +50,7 @@ const EliteNetworkPopup: React.FC<Props> = ({ label, primary, children, id, clas
   const [eliteInsuranceVisible, setEliteInsuranceVisible] = useState(false);
   const [eliteDescriptionVisible, setEliteDescriptionVisible] = useState(false);
   const elite_network_img = data.elite_network_img?.childImageSharp?.fluid
-  const standard_popup_logo = data.standard_popup_logo?.childImageSharp?.fluid
+  const elite_popup_logo = data.elite_popup_logo?.childImageSharp?.fluid
   const book_icon = data.book_icon?.childImageSharp?.fluid
   const book2_icon = data.book2_icon?.childImageSharp?.fluid
 
@@ -100,7 +100,7 @@ const EliteNetworkPopup: React.FC<Props> = ({ label, primary, children, id, clas
                 <div id="plans-section-6">
                   <div className="d-flex">
                     <ul id="tabsJustified" className="nav nav-pills flex-column">
-                      <Img fluid={standard_popup_logo} className="popup-logo" />
+                      <Img fluid={elite_popup_logo} className="popup-logo" />
                       <li className="nav-item"><a href="javascript:void(0)" onClick={showCoverage} id="ivas-coverage" className={eliteCoverageVisible ? "nav-link small active" : "nav-link small"}>INF Elite IVAS Insurance Coverages</a></li>
                       <li className="nav-item"><a href="javascript:void(0)" onClick={showInsurance} id="ivas-insurance" className={eliteInsuranceVisible ? "nav-link small active" : "nav-link small"}>INF Elite IVAS Co-Insurance</a></li>
                       <li className="nav-item"><a href="javascript:void(0)" onClick={showDescription} id="ivas-description" className={eliteDescriptionVisible ? "nav-link small active" : "nav-link small"}>INF Elite IVAS Plan Description</a></li>

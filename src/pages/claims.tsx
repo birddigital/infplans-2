@@ -179,7 +179,7 @@ const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
 
                         <div className="col-lg-6 infor">
                           <p className="infor-content"><strong>Mail:</strong> Administrative Concepts, Inc. (ACI)</p>
-                          <p className="infor-content">994 Old Eagle School Rd., Suite 1005, Wayne, PA 19087-1706</p>
+                          <p className="infor-content">PO Box 4000; Collegeville, PA 19426</p>
                           <p className="infor-content"><strong>Toll Free:</strong> 888-293-9229 (from inside the U.S.)</p>
                           <p className="infor-content"><strong>Fax:</strong> 610-293-9299</p>
                         </div>

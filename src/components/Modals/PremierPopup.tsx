@@ -22,7 +22,7 @@ const PremierPopup: React.FC<Props> = ({ label, primary, children, id, className
             }
           }
         },
-        standard_popup_logo: file(name: { eq: "standard-popup-logo" }) {
+        premier_popup_logo: file(name: { eq: "premier-popup-logo" }) {
           childImageSharp {
             fluid(maxWidth: 400, quality: 100) {
               ...GatsbyImageSharpFluid
@@ -50,7 +50,7 @@ const PremierPopup: React.FC<Props> = ({ label, primary, children, id, className
    const [premierBenefitsVisible, setPremierBenefitsVisible] = useState(false);
    const [premierDescriptionVisible, setPremierDescriptionVisible] = useState(false);
    const elite_network_img = data.elite_network_img?.childImageSharp?.fluid
-   const standard_popup_logo = data.standard_popup_logo?.childImageSharp?.fluid
+   const premier_popup_logo = data.premier_popup_logo?.childImageSharp?.fluid
    const book_icon = data.book_icon?.childImageSharp?.fluid
    const book2_icon = data.book2_icon?.childImageSharp?.fluid
 
@@ -100,7 +100,7 @@ const PremierPopup: React.FC<Props> = ({ label, primary, children, id, className
                         <div id="plans-section-6">
                            <div className="d-flex">
                               <ul id="tabsJustified" className="nav nav-pills flex-column">
-                                 <Img fluid={standard_popup_logo} className="popup-logo" />
+                                 <Img fluid={premier_popup_logo} className="popup-logo" />
                                  <li className="nav-item"><a href="javascript:void(0)" onClick={showCoverage} id="ivas-coverage" className={premierCoverageVisible ? "nav-link small active" : "nav-link small"}>INF Premier IVAS Plan Coverages</a></li>
                                  <li className="nav-item"><a href="javascript:void(0)" onClick={showBenefits} id="ivas-insurance" className={premierBenefitsVisible ? "nav-link small active" : "nav-link small"}>INF Premier IVAS - Specific Schedule of Benefits</a></li>
                                  <li className="nav-item"><a href="javascript:void(0)" onClick={showDescription} id="ivas-description" className={premierDescriptionVisible ? "nav-link small active" : "nav-link small"}>INF Premier Plan Description</a></li>
