@@ -128,7 +128,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
 
           <div className="col-lg-3">
             <Img fluid={inf_logo} className="plans-logo"/>
-            <p className="text-center">Elite Network</p>
+            <p className="text-center plans-title">Elite Network</p>
               <EliteNetworkPopup />
               {/*<button className="plan-btn">Plan Details </button>*/}
               <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
@@ -168,7 +168,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
 
          <div className="col-lg-3">
            <Img fluid={inf_logo} className="plans-logo"/>
-           <p className="text-center">Premier</p>
+           <p className="text-center plans-title">Premier</p>
              <PremierPopup />
               {/*<button className="plan-btn">Plan Details </button>*/}
               <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
@@ -206,7 +206,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
 
           <div className="col-lg-3">
             <Img fluid={inf_logo} className="plans-logo"/>
-            <p className="text-center">Traveler USA</p>
+            <p className="text-center plans-title">Traveler USA</p>
              <TravelerPopup />
              {/*<button className="plan-btn">Plan Details </button>*/}
              <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>
@@ -244,7 +244,7 @@ const PlansPage: React.FC<Props> = ({ data, location }: Props) => {
 
           <div className="col-lg-3">
             <Img fluid={inf_logo} className="plans-logo"/>
-            <p className="text-center">Standard</p>
+            <p className="text-center plans-title">Standard</p>
               <StandardPopup />
               {/*<button className="plan-btn">Plan Details</button>*/}
               <Link to="/inf-easy-select"><button className="get-btn">Get a Quote </button></Link>

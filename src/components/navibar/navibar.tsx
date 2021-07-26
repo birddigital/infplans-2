@@ -135,6 +135,17 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                             : 'nav-item'
                         }
                       >
+                        <Link to="/visitors-insurance-plans" className="nav-link">
+                          INF Plans
+                        </Link>
+                      </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
                         <Link to="/diplomat-america" className="nav-link">
                           Diplomat America
                         </Link>

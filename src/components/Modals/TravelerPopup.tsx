@@ -117,10 +117,10 @@ const TravelerPopup: React.FC<Props> = ({ label, primary, children, id, classNam
                                              <nav>
                                                 <ul>
                                                    <li className="coverages-tabone">
-                                                      <label for="coverages-tabone">Inf Traveler USA IVAS Accident And <br />Sickness Plan <br /> <span className="text-black age-title">Age 0-69</span></label>
+                                                      <label for="coverages-tabone">INF Traveler USA IVAS Accident And <br />Sickness Plan <br /> <span className="text-black age-title">Age 0-69</span></label>
                                                    </li>
                                                    <li className="coverages-tabtwo">
-                                                      <label for="coverages-tabtwo">Inf Traveler USA IVAS Accident And <br />Sickness Plan <br /> <span className="text-black age-title">Age 70-99</span></label>
+                                                      <label for="coverages-tabtwo">INF Traveler USA IVAS Accident And <br />Sickness Plan <br /> <span className="text-black age-title">Age 70-99</span></label>
                                                    </li>
                                                 </ul>
                                              </nav>

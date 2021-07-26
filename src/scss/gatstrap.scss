@@ -7312,7 +7312,7 @@ section.plans-hero-section-bg {
   font-weight: 700;
 }
 
-#plans-section-2 p {
+#plans-section-2 .plans-title {
   font-size: 30px;
   font-weight: 500;
 }
@@ -7475,7 +7475,7 @@ section.plans-hero-section-bg {
   font-weight: 700;
 }
 
-#plans-section-3 p {
+#plans-section-3 .plans-title {
   font-size: 30px;
   font-weight: 500;
 }
@@ -7580,7 +7580,7 @@ section.plans-hero-section-bg {
   padding-top: 0;
 }
 
-#plans-section-4 p {
+#plans-section-4 .plans-title {
   font-size: 30px;
   font-weight: 500;
 }
@@ -7677,13 +7677,13 @@ section.plans-hero-section-bg {
   text-decoration: none;
 }
 
-#plans-section-5 p {
-  font-size: 30px;
-  font-weight: 500;
-}
-
 #plans-section-5 {
   padding-top: 0;
+}
+
+#plans-section-5 .plans-title {
+  font-size: 30px;
+  font-weight: 500;
 }
 
 #plans-section-5 .sub-title {
@@ -8207,15 +8207,36 @@ section.plans-hero-section-bg {
 .coverages-tab .column-tab {
   background: #252362;
   border: 1px solid #A5A5A5;
-  min-height: 125px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.coverages-tab .column-tabs {
+  background: #252362;
+  border: 1px solid #A5A5A5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 123px;
+}
+
+.coverages-tab .col-lg-6 {
+  padding:0;
+}
+
+.coverages-tab .col-lg-4 {
+  padding: 0;
+}
+
 #premier-schedule-of-benefits label {
   width: 33.33%;
-  min-height: 212px;
+  min-height: 195px;
+  font-size: 16px;
+}
+
+#premier-schedule-of-benefits .ivas-in-tabthree label {
+  padding-top: 50px;
 }
 
 #standard-schedule-of-benefits label {
@@ -8388,6 +8409,7 @@ section.plans-hero-section-bg {
 
 .ivas-in-tab .column-tab-title {
   margin-bottom: 0;
+  font-size: 18px;
 }
 
 .ivas-in-tab .tab-content {
@@ -8845,6 +8867,7 @@ section.plans-hero-section-bg {
 
 .ivas-other-tab .column-tab-title {
   margin-bottom: 0;
+  font-size: 18px;
 }
 
 .ivas-other-tab .tab-content {
@@ -8992,6 +9015,8 @@ section.plans-hero-section-bg {
 .column-tab-titles {
   font-size: 14px !important;
   font-weight: 400 !important;
+  padding-top: 12px;
+  margin-bottom: 0;
 }
 
 /* Modal Standard Plans */
@@ -11316,7 +11341,7 @@ section#why-inf-section-1 {
 /* Apply Styles */
 
 section.apply-hero-section-bg {
-  min-height: 600px;
+  min-height: 400px;
 }
 
 section#apply-hero-section {
@@ -11330,7 +11355,7 @@ section#apply-hero-section {
 #apply-hero-section .hero-btn {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 15px;
   display: block;
   background: #252362;
   border: 2px solid #252362;
@@ -11349,7 +11374,7 @@ section#apply-hero-section {
   font-size: 50px;
   font-weight: 500;
   letter-spacing: 3px;
-  margin-top: 150px;
+  margin-top: 80px;
 }
 
 #apply-section-1 h2 {
@@ -12596,7 +12621,7 @@ button.close {
 
 .plans-popup.modal  .coverages-tab .tab-row-title, .ivas-standard .tab-row-title {
   font-size: 18px !important;
-  font-weight: 600 !important;
+  font-weight: 700 !important;
 }
 
 #plans-section-6 .nav {
@@ -12623,9 +12648,9 @@ button.close {
 
 .coverages-tab .column-tab-title {
     margin-bottom: 0;
-    font-size: 14px !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     margin-top: 0;
+    font-size: 18px;
 }
 
 .plans-popup .nav-item a {
@@ -12642,12 +12667,11 @@ button.close {
 }
 
 .plans-popup .ivas-in-tab section p {
-  font-size: 14px !important;
   font-weight: 400 !important;
 }
 
-.ivas-out-tab .tab-content1, .ivas-out-tab .tab-content2, .ivas-out-tab .tab-content3, .ivas-out-tab .tab-content, .ivas-other-tab .column-tab-title, .ivas-other-tab .tab-content1, .ivas-out-tab .tab-content4, .ivas-other-tab .tab-content, .ivas-other-tab .tab-content3, .ivas-other-tab .tab-content2 {
-  font-size: 14px !important;
+.ivas-out-tab .tab-content1, .ivas-out-tab .tab-content2, .ivas-out-tab .tab-content3, .ivas-out-tab .tab-content, .ivas-other-tab .tab-content1, .ivas-out-tab .tab-content4, .ivas-other-tab .tab-content, .ivas-other-tab .tab-content3, .ivas-other-tab .tab-content2 {
+  font-size: 14px;
   font-weight: 400 !important;
 }
 
@@ -12662,8 +12686,8 @@ button.close {
 }
 
 .ivas-out-tab .column-tab-title {
-  font-size: 14px !important;
   font-weight: 400 !important;
+  font-size: 18px;
 }
 
 .plans-popup .modal-dialog {

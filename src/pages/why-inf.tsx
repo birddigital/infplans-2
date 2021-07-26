@@ -82,7 +82,7 @@ const WhyINFPage: React.FC<Props> = ({ data, location }: Props) => {
 
               <p className="title">Unique Plan Offerings</p>
               <p>We offer plans exclusively found on this platform. Some of our plans cover pre-existing conditions and  provides several non-insurance benefits such as Dental, Vision, Hearing, and Prescription Discounts coordinated by Careington International, and MDLive Telehealth (which are both only available in the US).</p>
-              <p>These non-insurance benefits are not affiliated with Crum & Forster, SPC</p>
+              <p>These non-insurance benefits are not affiliated with Crum & Forster, SPC.</p>
 
             </div>
           </div>

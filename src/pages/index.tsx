@@ -148,13 +148,13 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="what-describes-you-icon">
                   <Img fluid={non_us_citizen} alt="Non US Citizen" />
                 </div>
-                <p className="text-center column-title">Non-US Citizen</p>
+                <Link to="/visitors-insurance-plans"><p className="text-center column-title">Non-US Citizen</p></Link>
               </div>
               <div className="col-lg-6 bg-lightgray">
                 <div className="what-describes-you-icon">
                   <Img fluid={green_card_holder} alt="Green Card Holder" />
                 </div>
-                <p className="text-center column-title">Green Card Holder</p>
+                <Link to="/visitors-insurance-plans"><p className="text-center column-title">Green Card Holder</p></Link>
               </div>
             </div>
             <div className="row">
@@ -162,13 +162,13 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="what-describes-you-icon">
                   <Img fluid={student_or_scholar} alt="Student or Scholar on J-1, F-1, M-1, or Q-1 Visa"/>
                 </div>
-                <p className="text-center column-title">Student or Scholar on <br />J-1, F-1, M-1, or Q-1 Visa</p>
+                <Link to="/visitors-insurance-plans"><p className="text-center column-title">Student or Scholar on <br />J-1, F-1, M-1, or Q-1 Visa</p></Link>
               </div>
               <div className="col-lg-6 bg-white">
                 <div className="what-describes-you-icon">
                   <Img fluid={permanent_resident} alt="Permanent Resident" />
                 </div>
-                <p className="text-center column-title">Permanent Resident</p>
+                <Link to="/visitors-insurance-plans"><p className="text-center column-title">Permanent Resident</p></Link>
               </div>
             </div>
           </div>

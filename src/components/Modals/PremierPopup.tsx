@@ -129,7 +129,7 @@ const PremierPopup: React.FC<Props> = ({ label, primary, children, id, className
                                                    <p className="text-black text-center tab-row-title">$100,000 Total Maximum Per Accident or Sickness Expense Benefits</p>
                                                    <div className="row">
                                                       <div className="col-lg-4">
-                                                         <div className="column-tab">
+                                                         <div className="column-tabs">
                                                             <p className="text-white column-tab-title">Deductible Per Covered Accident or Sickness Expense</p>
                                                          </div>
                                                          <p className="tab-content text-black">$75</p>
@@ -149,7 +149,7 @@ const PremierPopup: React.FC<Props> = ({ label, primary, children, id, className
                                                          <p className="tab-content text-black">$5,000</p>
                                                       </div>
                                                       <div className="col-lg-4">
-                                                         <div className="column-tab">
+                                                         <div className="column-tabs">
                                                             <p className="text-white column-tab-title">Maximum for Pre-Existing Conditions</p>
                                                          </div>
                                                          <p className="tab-content text-black">$20,000</p>
@@ -169,7 +169,7 @@ const PremierPopup: React.FC<Props> = ({ label, primary, children, id, className
                                                          <p className="tab-content text-black"></p>
                                                       </div>
                                                       <div className="col-lg-4">
-                                                         <div className="column-tab">
+                                                         <div className="column-tabs">
                                                             <p className="text-white column-tab-title">Deductible for Pre-Existing Conditions</p>
                                                          </div>
                                                          <p className="tab-content text-black">$1,000</p>
@@ -192,7 +192,7 @@ const PremierPopup: React.FC<Props> = ({ label, primary, children, id, className
                                                       <p className="text-black text-center tab-row-title">$150,000 Total Maximum Per Accident or Sickness Expense Benefits</p>
                                                       <div className="row">
                                                          <div className="col-lg-4">
-                                                            <div className="column-tab">
+                                                            <div className="column-tabs">
                                                                <p className="text-white column-tab-title">Deductible Per Covered Accident or Sickness Expense</p>
                                                             </div>
                                                             <p className="tab-content text-black">$75</p>
@@ -212,7 +212,7 @@ const PremierPopup: React.FC<Props> = ({ label, primary, children, id, className
                                                             <p className="tab-content text-black">$5,000</p>
                                                          </div>
                                                          <div className="col-lg-4">
-                                                            <div className="column-tab">
+                                                            <div className="column-tabs">
                                                                <p className="text-white column-tab-title">Maximum for Pre-Existing Conditions</p>
                                                             </div>
                                                             <p className="tab-content text-black">$30,000</p>
@@ -232,7 +232,7 @@ const PremierPopup: React.FC<Props> = ({ label, primary, children, id, className
                                                             <p className="tab-content text-black"></p>
                                                          </div>
                                                          <div className="col-lg-4">
-                                                            <div className="column-tab">
+                                                            <div className="column-tabs">
                                                                <p className="text-white column-tab-title">Deductible for Pre-Existing Conditions</p>
                                                             </div>
                                                             <p className="tab-content text-black">$1,000</p>
@@ -258,7 +258,7 @@ const PremierPopup: React.FC<Props> = ({ label, primary, children, id, className
                                                    <p className="text-black text-center tab-row-title">$100,000 Total Maximum Per Accident or Sickness Expense Benefits</p>
                                                    <div className="row">
                                                       <div className="col-lg-4">
-                                                         <div className="column-tab">
+                                                         <div className="column-tabs">
                                                             <p className="text-white column-tab-title">Deductible Per Covered Accident or Sickness Expense</p>
                                                          </div>
                                                          <p className="tab-content text-black">$250</p>
@@ -274,7 +274,7 @@ const PremierPopup: React.FC<Props> = ({ label, primary, children, id, className
                                                          <p className="tab-content text-black">$5,000</p>
                                                       </div>
                                                       <div className="col-lg-4">
-                                                         <div className="column-tab">
+                                                         <div className="column-tabs">
                                                             <p className="text-white column-tab-title">Maximum for Pre-Existing Conditions</p>
                                                          </div>
                                                          <p className="tab-content text-black">$15,000</p>
@@ -290,7 +290,7 @@ const PremierPopup: React.FC<Props> = ({ label, primary, children, id, className
                                                          <p className="tab-content text-black"></p>
                                                       </div>
                                                       <div className="col-lg-4">
-                                                         <div className="column-tab">
+                                                         <div className="column-tabs">
                                                             <p className="text-white column-tab-title">Deductible for Pre-Existing Conditions</p>
                                                          </div>
                                                          <p className="tab-content text-black">$1,000</p>

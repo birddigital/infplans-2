@@ -232,7 +232,7 @@ const EliteNetworkPopup: React.FC<Props> = ({ label, primary, children, id, clas
                         <div className="tabcontent">
                           <div className="col-lg-12 ivas-standard">
                             <h2 className="text-blue text-center">INF Elite IVAS Co-Insurance</h2>
-                            <p className="text-black text-center tab-row-title"><strong>Co-Insurance With INF Elite International Visitor Accident & Sickness Insurance</strong></p>
+                            <p className="text-black text-center tab-row-title">Co-Insurance With INF Elite International Visitor Accident & Sickness Insurance</p>
                             <div className="ivas-in-tab">
                               <input checked="checked" id="ivas-in-tabone" type="radio" name="ivas in benefits" />
                               <input id="ivas-in-tabtwo" type="radio" name="ivas in benefits" />

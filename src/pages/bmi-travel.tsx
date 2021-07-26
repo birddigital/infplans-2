@@ -735,7 +735,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
        </Container>
       </section>
 
-      <section id="bmi-travel-section-9">
+      {/*<section id="bmi-travel-section-9">
         <Container>
           <div className="col-lg-12">
             <h3 className="text-blue text-center row-title">Related Articles</h3>
@@ -756,7 +756,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
           </div>
           </div>
         </Container>
-       </section>
+       </section>*/}
 
 
     </Layout>
