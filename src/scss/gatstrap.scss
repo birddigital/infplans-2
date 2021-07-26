@@ -11298,6 +11298,10 @@ section#why-inf-section-1 {
   line-height: 2;
 }
 
+#terms-of-use .address {
+  margin-bottom: 0;
+}
+
 /*End of Terms of Use Styles */
 
 /*Cookies Policy Styles */
@@ -11333,11 +11337,16 @@ section#why-inf-section-1 {
 
 #cookies-policy .types-content {
   list-style: none;
+  line-height: 2;
 }
 
 #cookies-policy .purpose {
   line-height: 2;
   margin-bottom: 20px;
+}
+
+#cookies-policy .contact {
+  line-height: 2;
 }
 
 /*cookies Policy Styles */
@@ -13770,10 +13779,6 @@ button.close {
     padding: 20px 30px 5px 30px;
   }
 
-  #quote-section-1 h3 {
-    margin-top: 10px;
-  }
-
   section.extend-hero-section-bg {
     min-height: 400px;
   }
@@ -15155,10 +15160,9 @@ button.close {
   }
 
   section#extend-your-plan {
-    padding-top: 0;
+    padding-top: 10px;
   }
 }
-
 
 @media screen and (max-width: 425px) {
   .articles-slider .slick-next {
@@ -15438,7 +15442,7 @@ button.close {
   }
 
   #claims-form-section-3 {
-    padding-top: 0px;
+    padding-top: 100px;
     padding-bottom: 0px;
     margin-top: -80px;
   }
@@ -16563,6 +16567,10 @@ button.close {
     min-height: 160px;
   }
 
+  #bmi-travel-section-7 .tab-content {
+    padding-left: 40px;
+  }
+
   .options-tab {
     padding-top: 15px;
   }
@@ -16908,6 +16916,34 @@ button.close {
     flex-basis: auto;
     padding-left: 0;
     padding-right:0;
+  }
+
+  #privacy-policy-section h1 {
+    font-size: 35px;
+  }
+
+  #privacy-policy-section h2 {
+    font-size: 25px;
+  }
+
+  #cookies-policy h1 {
+    font-size: 35px;
+  }
+
+  #cookies-policy h2 {
+    font-size: 25px;
+  }
+
+  #cookies-policy h3 {
+    font-size: 20px;
+  }
+
+  #terms-of-use h1 {
+    font-size: 35px;
+  }
+
+  #terms-of-use h2 {
+    font-size: 25px;
   }
 }
 
@@ -18335,42 +18371,42 @@ padding-bottom: 0;
 
 /* end of old css edits */
 #bmi-travel-section-1 .modal-body {
-text-align: center;
-padding: 30px 40px;
+  text-align: center;
+  padding: 30px 40px;
 }
 
 #bmi-travel-section-1 .modal-body p {
-font-size: 20px;
-margin-bottom: 10px;
-line-height: 1.5;
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 1.5;
 }
 
 #bmi-apply-form-container {
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width: 1024px) {
-#plan-id-cards .embed-container {
-padding-bottom: 0;
-min-height: 670px;
-}
+  #plan-id-cards .embed-container {
+    padding-bottom: 0;
+    min-height: 670px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
-#plan-id-cards .embed-container {
-min-height: 742px;
-}
+  #plan-id-cards .embed-container {
+    min-height: 742px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-#claims-form-container .embed-container {
-padding-bottom: 0;
-height: auto;
-min-height: 510px;
-}
+  #claims-form-container .embed-container {
+    padding-bottom: 0;
+    height: auto;
+    min-height: 510px;
+  }
 #plan-id-cards .embed-container {
-min-height: 819px;
-}
+  min-height: 819px;
+  }
 }
 
 @media screen and (max-width:575px) {
