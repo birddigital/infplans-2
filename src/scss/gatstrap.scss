@@ -1136,6 +1136,10 @@ section#home-testimonial-section {
   max-width: 1230px;
 }
 
+#quote-form-container iframe {
+  overflow-x: hidden !important;
+}
+
 #home-form h5 {
   font-weight: 500;
   margin-bottom: 0;
@@ -1396,6 +1400,10 @@ section#plan-id-cards-insured-login {
 
 #extend-form iframe {
   min-height: 590px;
+}
+
+#extend-form {
+  padding-top: 50px;
 }
 
 @media only screen and (max-width: 1037px) {
@@ -17906,17 +17914,20 @@ button.close {
   }
 }
 @media only screen and (min-width: 1039px) {
-  #quote-form-container iframe {
-    min-height: 525px;
+  /*#quote-form-container iframe {
+    min-height: 550px;
     margin-bottom: -235px;
+  }*/
+  #quote-form-container iframe {
+    min-height: 315px;
   }
 }
 
 @media only screen and (max-width: 1038px) {
-  #quote-form-container iframe {
+  /*#quote-form-container iframe {
     min-height: 685px;
     margin-bottom: -190px;
-  }
+  }*/
 }
 
 
@@ -17969,7 +17980,7 @@ button.close {
 
 @media only screen and (min-width: 1038px) {
   #bmi-apply-form-container iframe {
-    min-height: 780px;
+    min-height: 630px;
   }
 }
 
@@ -17981,7 +17992,7 @@ button.close {
 
 #apply-page-form .embed-container {
   padding-bottom: 0;
-  min-height: 1250px;
+  min-height: 1310px;
 }
 
 #apply-page-form {

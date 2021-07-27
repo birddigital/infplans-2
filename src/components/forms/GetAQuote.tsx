@@ -16,6 +16,7 @@ const GetAQuote: React.FC<Props> = ({ path }: Props) => {
             log
             src="https://adrienb3.sg-host.com/forms/get-a-quote.php?agentno=1000000"
             style={{ width: '1px', minWidth: '100%', border: 'none'}}
+            scrolling="auto"
           />
         </div>
       </Container>

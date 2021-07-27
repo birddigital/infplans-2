@@ -84,11 +84,6 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
     setPopupNumber(0);
   }
 
-  useEffect(() => {
-    emergence.init()
-  })
-
-
   return (
     <div>
       <div className="exit-intent-trigger" onMouseOver={onExitIntent}></div>

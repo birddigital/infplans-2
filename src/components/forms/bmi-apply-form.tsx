@@ -14,6 +14,7 @@ const BmiApplyForm = ({ action, ...props }) => (
       log
       src="https://adrienb3.sg-host.com/forms/bmi-travel-plan-application.php"
       style={{ width: '1px', minWidth: '100%', border: 'none'}}
+      scrolling="auto"
     />
     {/*<div className="embed-container">
       <iframe src="https://adrienb3.sg-host.com/forms/bmi-travel-plan-application.php" id="bmi-apply-form" scrolling="no"></iframe>

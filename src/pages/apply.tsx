@@ -9,8 +9,8 @@ import styled from 'styled-components'
 import Container from 'components/pages/container'
 import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
-import ButtonBlack from 'components/button/button-black'
 import { Helmet } from 'react-helmet'
+import IframeResizer from 'iframe-resizer-react'
 
 interface Props {
   data: IndexQueryQuery
@@ -55,9 +55,13 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="apply-section-1">
         <Container>
           <div className="col-lg-12" id="apply-page-form">
-             <div className="embed-container">
-               <iframe src="https://adrienb3.sg-host.com/forms/applicationForm" id="apply-form" scrolling="no"></iframe>
-             </div>
+            <IframeResizer
+              log
+              id="iFrameResizer1"
+              src="https://adrienb3.sg-host.com/forms/applicationForm"
+              style={{ width: '1px', minWidth: '100%', height: "1126px",  border: 'none'}}
+              scrolling="auto"
+            />
            </div>
           {/*}<div className="col-lg-12">
             <div className="apply-container">
