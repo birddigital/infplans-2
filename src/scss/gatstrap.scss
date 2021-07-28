@@ -17892,6 +17892,10 @@ button.close {
   max-height: 100% !important;
 }
 
+#quote-form-container {
+  z-index: 2;
+}
+
 @media only screen and (min-width: 982px) {
   #quote-section-1 .quote-container {
     margin-top: -50px !important;
@@ -17914,13 +17918,13 @@ button.close {
   }
 }
 @media only screen and (min-width: 1039px) {
-  /*#quote-form-container iframe {
+  #quote-form-container iframe {
     min-height: 550px;
     margin-bottom: -235px;
-  }*/
-  #quote-form-container iframe {
-    min-height: 315px;
   }
+  /*#quote-form-container iframe {
+    min-height: 315px;
+  }*/
 }
 
 @media only screen and (max-width: 1038px) {
