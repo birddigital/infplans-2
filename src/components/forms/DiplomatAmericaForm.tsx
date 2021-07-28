@@ -14,6 +14,7 @@ const DiplomatAmericaForm = ({ action, ...props }) => (
       log
       src="https://adrienb3.sg-host.com/forms/insurance-application"
       style={{ width: '1px', minWidth: '100%', border: 'none'}}
+      heightCalculationMethod= "lowestElement"
     />
   </div>
 )

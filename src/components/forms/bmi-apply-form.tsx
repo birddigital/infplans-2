@@ -13,7 +13,8 @@ const BmiApplyForm = ({ action, ...props }) => (
     <IframeResizer
       log
       src="https://adrienb3.sg-host.com/forms/bmi-travel-plan-application.php"
-      style={{ width: '1px', minWidth: '100%', border: 'none'}}
+      style={{ width: '1px', minWidth: '100%', minHeight: '680px',border: 'none'}}
+      heightCalculationMethod= "lowestElement"
       scrolling="auto"
     />
     {/*<div className="embed-container">
