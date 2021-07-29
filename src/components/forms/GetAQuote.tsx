@@ -47,7 +47,7 @@ const GetAQuote: React.FC<Props> = ({ path }: Props) => {
           <IframeResizer
             log
             src="https://adrienb3.sg-host.com/forms/get-a-quote.php?agentno=1000000"
-            style={{ width: '1px', minWidth: '100%', border: 'none'}}
+            style={{ width: '1px', minWidth: '100%', minHeight: '363px', border: 'none'}}
             heightCalculationMethod= "lowestElement"
           />
       </Container>
