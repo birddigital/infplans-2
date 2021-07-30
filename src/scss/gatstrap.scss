@@ -328,6 +328,10 @@ button {
   text-decoration: none;
 }
 
+.navibar-top a:hover {
+  text-decoration: underline;
+}
+
 .navibar-top #resource-page{
   text-decoration: underline;
 }
@@ -583,7 +587,8 @@ section.home-hero-section-bg {
 }
 
 #home-hero-section iframe {
-  min-height: 363px;
+  // min-height: 363px;
+  margin-bottom: 90px;
 }
 
 section.home-hero-section-bg::after {
@@ -2284,9 +2289,9 @@ section#request-a-quote-section1 {
   height: 670px;
 }
 
-#quote-section-1 iframe {
-  min-height: 250px;
-}
+// #quote-section-1 iframe {
+//   min-height: 300px;
+// }
 /* End of Request A Quote Page*/
 
 /* Elite Page*/

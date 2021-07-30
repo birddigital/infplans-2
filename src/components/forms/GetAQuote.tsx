@@ -42,7 +42,6 @@ const GetAQuote: React.FC<Props> = ({ path }: Props) => {
   </Container>
 </section> */
   return (
-    <section className="pb-0">
       <Container>
           <IframeResizer
             log
@@ -51,7 +50,6 @@ const GetAQuote: React.FC<Props> = ({ path }: Props) => {
             heightCalculationMethod= "lowestElement"
           />
       </Container>
-    </section>
   )
 }
 
