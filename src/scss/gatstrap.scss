@@ -582,6 +582,10 @@ section.home-hero-section-bg {
   padding-top: 140px;
 }
 
+#home-hero-section iframe {
+  min-height: 363px;
+}
+
 section.home-hero-section-bg::after {
   background-position: bottom!important;
 }
@@ -2280,8 +2284,8 @@ section#request-a-quote-section1 {
   height: 670px;
 }
 
-#quote-page-container {
-  min-height: 320px;
+#quote-section-1 iframe {
+  min-height: 250px;
 }
 /* End of Request A Quote Page*/
 

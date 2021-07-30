@@ -58,8 +58,8 @@ const InsuranceQuotePage: React.FC<Props> = ({ data, location }: Props) => {
         </div>
       </BackgroundImage>
 
-      <section id="quote-section-1">
-        <GetAQuote id="quote-page-container"/>
+      <section id="quote-section-1" className="pt-0">
+        <GetAQuote/>
         <Container>
           <div className="col-lg-12">
             <div className="quote-container">
