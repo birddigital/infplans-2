@@ -11,6 +11,7 @@ import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
 import ButtonBlack from 'components/button/button-black'
 import { Helmet } from 'react-helmet'
+import IframeResizer from 'iframe-resizer-react'
 
 interface Props {
   data: IndexQueryQuery
@@ -111,7 +112,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="select-container">
                   <div className="text-center select">
                     <select id="premium-selector" onChange={showThirdStep}>
-                      <option>Select Age Group</option>
+                      <option hidden>Select Age Group</option>
                       <option value="0-15" >0-15</option>
                       <option value="16-20" >16-20</option>
                       <option value="20-24" >20-24</option>
@@ -176,7 +177,15 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
       }
 
       {fourthStep ? (
-        <div className="col-lg-12" id="filtered-section">
+
+        <IframeResizer
+          log
+          src="https://adrienb3.sg-host.com/forms/premiums"
+          style={{ width: '1px', minWidth: '100%', border: 'none', minHeight:'900px'}}
+          heightCalculationMethod= "lowestElement"
+          scrolling="auto"
+        />
+        /*}<div className="col-lg-12" id="filtered-section">
             <div className="blue-background">
             <div className="row">
               <div className="col-lg-3 ">
@@ -609,7 +618,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                   </div>
                 </div>
               </div>
-           </div>
+           </div> */
       ) : (
         null)
       }
