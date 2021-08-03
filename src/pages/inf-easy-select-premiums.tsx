@@ -77,8 +77,17 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
         </div>
       </BackgroundImage>
 
-
       <section id="premium-section-1">
+          <IframeResizer
+            log
+            src="https://adrienb3.sg-host.com/forms/premiums/inf-easy-select-premiums.php"
+            style={{ width: '1px', minWidth: '100%', border: 'none', minHeight:'900px'}}
+            heightCalculationMethod= "lowestElement"
+            scrolling="auto"
+          />
+      </section>
+
+    {/* <section id="premium-section-1">
        <Container>
          { firstStep ? (
            <div className="col-lg-12 ">
@@ -174,17 +183,10 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
       ): (
         null
       )
-      }
+    }
 
       {fourthStep ? (
 
-        <IframeResizer
-          log
-          src="https://adrienb3.sg-host.com/premiums/index.php"
-          style={{ width: '1px', minWidth: '100%', border: 'none', minHeight:'900px'}}
-          heightCalculationMethod= "lowestElement"
-          scrolling="auto"
-        />
         /*}<div className="col-lg-12" id="filtered-section">
             <div className="blue-background">
             <div className="row">
@@ -618,13 +620,12 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
                   </div>
                 </div>
               </div>
-           </div> */
+           </div>
       ) : (
         null)
       }
-
        </Container>
-      </section>
+      </section> */}
 
       <section id="premium-section-2">
        <Container>
