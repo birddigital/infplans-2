@@ -8,9 +8,9 @@ import "slick-carousel/slick/slick-theme.css";
 import { FaChevronLeft } from "@react-icons/all-files/fa/FaChevronLeft";
 import { FaChevronRight } from "@react-icons/all-files/fa/FaChevronRight";
 
-const TestimonialHomeSlider = ({ className }) => {
+const TestimonialHomeSliderOld = ({ className }) => {
   const data = useStaticQuery ( graphql`
-    query TestimonialHomeSliderQuery {
+    query TestimonialHomeSliderOldQuery {
       quote_testimonial_img: file(name: { eq: "quote-testimonial-img" }) {
         childImageSharp {
           fluid(maxWidth: 500, quality: 100) {
@@ -25,7 +25,7 @@ const TestimonialHomeSlider = ({ className }) => {
           }
         }
       },
-      testi1_img: file(name: { eq: "testi-1-2" }) {
+      testi1_img: file(name: { eq: "testi-1" }) {
         childImageSharp {
           fluid(maxWidth: 300, quality: 100) {
             ...GatsbyImageSharpFluid
@@ -143,8 +143,8 @@ const TestimonialHomeSlider = ({ className }) => {
               <Img fluid={testi1_img} className="testi-img" />
             </div>
             <div className="col-lg-9">
-              <h3 className="testi-name text-white">Ravikanth J </h3>
-              <p className="text-white testi-content">I’ve been using INF every time my parents have come and visited for the last 18 years, or pretty much since Y2K. They are a community-based company and I can really tell they care for their customers. I’ve met many of their team members throughout the years, all of them are courteous and helpful in getting the claims paid and going the extra mile if there’s some sort of paperwork issue. Overall, I’m really happy that this company exists for traveling Indian parents because no other company is covering pre-existing conditions. And I know without this plan, I wouldn’t feel comfortable bringing my parents over.</p>
+              <h3 className="testi-name text-white">SHANTI RAM</h3>
+              <p className="text-white testi-content">I had a pretty pleasant experience. I bought the elite plan for my mom who is visiting from India. She had recently had a major skin infection- but it was covered thru their UHC Doctor.. They were very responsive and helped me with all the paperwork. Praveen and Peter are the go to people if u need help.</p>
               <div className="star-icons">
                 <i class="fa fa-star" aria-hidden="true"></i>
                 <i class="fa fa-star" aria-hidden="true"></i>
@@ -179,4 +179,4 @@ const TestimonialHomeSlider = ({ className }) => {
   )
 }
 
-export default TestimonialHomeSlider
+export default TestimonialHomeSliderOld

@@ -5,6 +5,7 @@ import Logo from '../../../content/images/logo.png'
 import Megaphone from '../../../content/images/megaphone-navi.png'
 import Whatsapp from '../../../content/images/whatsapp-navi.png'
 import MobileDropdown from 'components/navibar/navibar-mobile'
+import { HiOutlineMailOpen } from "@react-icons/all-files/hi/HiOutlineMailOpen";
 
 interface Props {
   title: string
@@ -41,7 +42,13 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
           <div className="row">
             <div className="col-lg-10">
               {/*<span><img src={Megaphone} className="megaphone-icon"/></span><p><strong>COVID-19</strong>: For answers to frequently asked questions, please see our <Link to="/diplomat-america#what-is-diplomat-america-plan" id="resource-page">COVID-19 Resource Page</Link></p>*/}
-              <span><img src={Megaphone} className="megaphone-icon"/></span><p> Email: <a href="mailto:support@infplans.com">support@infplans.com</a></p>
+              {/*<span><img src={Megaphone} className="megaphone-icon"/></span><p> Email: <a href="mailto:support@infplans.com">support@infplans.com</a></p> */}
+              <a href="mailto:support@infplans.com">
+                <button id="email-button">
+                  <HiOutlineMailOpen size="22" className="email-icon"/>
+                  Email Us
+                </button>
+              </a>
             </div>
             <div className="col-lg-2">
               <span><img src={Whatsapp} className="whatsapp-icon"/></span><a href="tel:4085403601"><p className="text-right">Tel: 408-540-3601</p></a>
@@ -136,7 +143,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                             : 'nav-item'
                         }
                       >
-                        <Link to="/visitors-insurance-plans" className="nav-link">
+                        <Link to="/apply" className="nav-link">
                           INF Plans
                         </Link>
                       </li>
@@ -264,9 +271,19 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                           Diplomat America
                         </Link>
                       </li>
+                      <li
+                        className={
+                          location.pathname === '/'
+                            ? 'nav-item active'
+                            : 'nav-item'
+                        }
+                      >
+                        <Link to="/eyemed" className="nav-link">
+                          EyeMed
+                        </Link>
+                      </li>
                     </ul>
-                    </li>
-
+                  </li>
                   <li
                     className={
                       location.pathname === ''
@@ -362,7 +379,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                             : 'nav-item'
                         }
                       >
-                        <Link to="/dental-coverage-visitors-insurance" className="nav-link">
+                        <Link to="/dental-discounts-from-inf" className="nav-link">
                           Dental Discount Program
                         </Link>
                       </li>
@@ -402,11 +419,6 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
-                  <li>
-                    <Link to="/eyemed">
-                      <button id="btn-2">EyeMed</button>
-                    </Link>
                   </li>
                   <li>
                     <Link to="/visitors-insurance-plans">

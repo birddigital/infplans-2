@@ -93,8 +93,8 @@ const HomePage: React.FC<Props> = ({ data, location }: Props) => {
             <div className="service-icon">
               <Img fluid={travel_insurance} alt="Travel Insurance"/>
             </div>
-            <h3 className="text-black">Travel Insurance </h3>
-            <p>You are able to access international visitor accident & sickness insurance, find coverage options for pre-existing medical conditions, and help ease the possible financial burden due to unforeseen medical expenses during your stay in the United States, Canada, or Mexico.</p>
+            <h3 className="text-black">International Travel Assistance </h3>
+            <p>You are able to access travel assistance benefits, find coverage options for pre-existing medical conditions, and help ease the possible financial burden due to unforeseen medical expenses during your stay in the United States, Canada, Mexico, Doha, Costa Rica, or any country Worldwide.</p>
           </div>
           <div className="col-lg-4 service-column text-center">
             <div className="service-icon">

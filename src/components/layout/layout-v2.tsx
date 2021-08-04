@@ -60,27 +60,12 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
   const [popupStatus, setPopupStatus] = useState(false);
   const [popupNumber, setPopupNumber] = useState(1);
   const [popupReady, setPopupReady] = useState(false);
-  const [modalCount,setModalCount] = useState(3);
-
-  const decrease = () => {
-   setModalCount(prevModalCount => {
-     const newCount = Number(prevModalCount) - 1;
-     localStorage.setItem("modalCount", newCount);
-     return newCount;
-   });
- };
 
   useEffect(
     () => {
       setTimeout(() => {
         setPopupReady(true);
-      }, 5000);
-      setTimeout(() => {
-        setPopupStatus(true);
-      }, 45000);
-      const initialValue = localStorage.getItem("modalCount");
-      if (initialValue) setModalCount(initialValue);
-       // localStorage.clear();
+      }, 3000);
     },
     // useEffect will run only one time with empty []
     // if you pass a value to array,
@@ -92,25 +77,17 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
 
   function onExitIntent() {
     setPopupStatus(true);
-
   }
 
   function closeModal() {
     setPopupStatus(false);
     setPopupNumber(0);
-    decrease();
   }
 
-  // console.log("Modal Count: ",modalCount);
   return (
     <div>
-      { popupReady ? (
-        <div className="exit-intent-trigger" onMouseOver={onExitIntent} ></div>
-      ) : (
-        <div className="exit-intent-trigger"></div>
-      )
-      }
-      {popupStatus && popupNumber == 1 && popupReady && modalCount > 0 ? (
+      <div className="exit-intent-trigger" onMouseOver={onExitIntent}></div>
+      {popupStatus && popupNumber == 1 && popupReady ? (
         <div className="modal show" id="myModal" role="dialog">
           <div className="modal-dialog">
             <div className="modal-content">

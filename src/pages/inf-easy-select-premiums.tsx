@@ -81,7 +81,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
           <IframeResizer
             log
             src="https://adrienb3.sg-host.com/forms/premiums/inf-easy-select-premiums.php"
-            style={{ width: '1px', minWidth: '100%', border: 'none', minHeight:'900px'}}
+            style={{ width: '1px', minWidth: '100%', border: 'none', minHeight: '900px'}}
             heightCalculationMethod= "lowestElement"
             scrolling="auto"
           />

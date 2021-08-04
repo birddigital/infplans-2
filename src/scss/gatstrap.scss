@@ -337,8 +337,26 @@ button {
 }
 
 .navibar-top .row{
-  align-items: center;
   padding-top: 20px;
+}
+
+#email-button {
+  border-radius: 50px;
+  padding: 8px 45px;
+  color: $white;
+  border: solid 2px $white;
+  background: transparent;
+  margin-top: -8px;
+}
+
+.navibar-top .email-icon {
+  vertical-align: text-top;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+#email-button:hover {
+  background: $white;
+  color: #252362;
 }
 
 .navibar-top .col-lg-2, .navibar-top .col-lg-10 {
@@ -11683,7 +11701,7 @@ section#apply-hero-section {
 /* Premium Styles */
 
 section.premium-hero-section-bg {
-  min-height: 600px;
+  min-height: 556px;
 }
 
 section#premium-hero-section {
