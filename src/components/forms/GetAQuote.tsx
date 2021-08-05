@@ -34,7 +34,7 @@ const GetAQuote: React.FC<Props> = ({ path }: Props) => {
     <div className="col-lg-12" id="quote-form-container" >
       <IframeResizer
         log
-        src="https://adrienb3.sg-host.com/forms/get-a-quote.php?agentno=1000000"
+        src="https://sec.infplans.com/forms/get-a-quote.php?agentno=1000000"
         style={{ width: '1px', minWidth: '100%', border: 'none', minHeight: '100%'}}
         scrolling="auto"
       />
@@ -45,7 +45,7 @@ const GetAQuote: React.FC<Props> = ({ path }: Props) => {
       <Container>
           <IframeResizer
             log
-            src="https://adrienb3.sg-host.com/forms/get-a-quote.php?agentno=1000000"
+            src="https://sec.infplans.com/forms/get-a-quote.php?agentno=1000000"
             style={{ width: '1px', minWidth: '100%', border: 'none'}}
             heightCalculationMethod= "lowestElement"
           />

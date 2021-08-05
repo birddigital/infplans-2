@@ -57,7 +57,7 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12" id="apply-page-form">
             <IframeResizer
               log
-              src="https://adrienb3.sg-host.com/forms/applicationForm"
+              src="https://sec.infplans.com/forms/applicationForm"
               style={{ width: '1px', minWidth: '100%',  border: 'none'}}
               heightCalculationMethod= "lowestElement"
               scrolling= "no"

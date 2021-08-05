@@ -60,11 +60,11 @@ const RenewPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12" id="extend-form">
             <IframeResizer
               log
-              src="https://adrienb3.sg-host.com/forms/extend-form.php"
+              src="https://sec.infplans.com/forms/extend-form.php"
               style={{ width: '1px', minWidth: '100%', border: 'none'}}
             />
            {/*<div className="embed-container">
-             <iframe src="https://adrienb3.sg-host.com/forms/extend-form.php" id="extend-form" scrolling="no"></iframe>
+             <iframe src="https://sec.infplans.com/forms/extend-form.php" id="extend-form" scrolling="no"></iframe>
            </div>*/}
          </div>
           {/*}<div className="col-lg-12">

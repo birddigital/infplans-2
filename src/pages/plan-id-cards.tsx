@@ -61,11 +61,11 @@ const PlanIDCardsPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12" id="plan-id-cards">
             <IframeResizer
               log
-              src="https://adrienb3.sg-host.com/forms/plan-id-cards-form.php"
+              src="https://sec.infplans.com/forms/plan-id-cards-form.php"
               style={{ width: '1px', minWidth: '100%', border: 'none'}}
             />
             {/*<div className="embed-container">
-              <iframe src="https://adrienb3.sg-host.com/forms/plan-id-cards-form.php" id="members-login-form" scrolling="no"></iframe>
+              <iframe src="https://sec.infplans.com/forms/plan-id-cards-form.php" id="members-login-form" scrolling="no"></iframe>
             </div>*/}
           </div>
         </Container>
