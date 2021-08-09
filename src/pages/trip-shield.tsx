@@ -21,7 +21,6 @@ const TripShieldPage: React.FC<Props> = ({ data, location }: Props) => {
   const hero_background = data.hero_background?.childImageSharp?.fluid
   const infplans_big_logo = data.infplans_big_logo?.childImageSharp?.fluid
 
-
   return (
     <Layout location={location}>
       <Helmet>

@@ -10,7 +10,9 @@ module.exports = {
     author: '',
     twitter: '',
     adsense: '',
-    backendUrl: '',
+    backendUrl: 'https://adrienb3.sg-host.com',
+    phoneNumber: '800-490-9678',
+    emailAddress: 'support@infplans.com',
   },
   flags: {
     DEV_SSR: false,

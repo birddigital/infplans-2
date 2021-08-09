@@ -21,6 +21,11 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
   const data = useStaticQuery(
     graphql`
       query {
+        site {
+          siteMetadata {
+            backendUrl
+          }
+        },
         popup1_img: file(name: { eq: "popup-img1" }) {
           childImageSharp {
             fluid(maxWidth: 400, quality: 100) {
@@ -61,6 +66,8 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
   const [popupNumber, setPopupNumber] = useState(1);
   const [popupReady, setPopupReady] = useState(false);
   const [modalCount,setModalCount] = useState(3);
+  const backendUrl = data.site.siteMetadata.backendUrl
+  const contactFormUrl = backendUrl + "/contact/"
 
   const decrease = () => {
    setModalCount(prevModalCount => {
@@ -101,6 +108,12 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
     decrease();
   }
 
+  function modalHide() {
+    setPopupNumber(0);
+  }
+
+  
+
   // console.log("Modal Count: ",modalCount);
   return (
     <div>
@@ -121,7 +134,7 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
                   <div className="modal-body col-lg-7">
                   <h3 className="text-center">Stay confident while you travel</h3>
                   <h2 className="text-center">We will help you get covered!</h2>
-                  <form id="exit-form" method="POST" action="https://www.elformo.com/forms/5f33914b-a53b-4896-91d8-fffd02e07f8e">
+                  <form id="exit-form" method="POST" action={contactFormUrl}>
                     <div className="row">
                       <div className="col-md-6 pl-0 pr-2">
                         <input type="text" name="name"  placeholder="Name" required/>
@@ -132,7 +145,7 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
                     </div>
                     <input type="email" name="email" placeholder="Email" required/>
                     <textarea name="message" placeholder="Message" required></textarea>
-                    <button type="input">Submit </button>
+                    <button type="input" onClick={modalHide}>Submit </button>
                   </form>
                   </div>
                   <div className=" col-lg-5 popup-image-container">

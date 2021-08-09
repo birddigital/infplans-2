@@ -22,12 +22,15 @@ interface Props {
 
 const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) => {
   const meta = data.site?.meta
-  const posts = data.remark.posts
-  const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
   const care_pos_logo = data.care_pos_logo?.childImageSharp?.fluid
   const unoa_logo = data.unoa_logo?.childImageSharp?.fluid
   const eyemed_logo = data.eyemed_logo?.childImageSharp?.fluid
+
+  const phoneNumber = meta.phoneNumber
+  const emailAddress = meta.emailAddress
+  const emailAddressUrl = "mailto:"+emailAddress
+  const phoneNumberUrl = "tel:"+phoneNumber
 
   return (
     <Layout location={location}>
@@ -83,7 +86,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
               You may visit any participating dentist on the plan and change providers at any time.
             </p>
             <p className="text-center">
-              To locate a participating provider in the United States, please call 408-540-3601 or visit our INF Provider Search link to access our online provider search.
+              To locate a participating provider in the United States, please call {phoneNumber} or visit our INF Provider Search link to access our online provider search.
             </p>
             <p className="text-center">
               The cost of the plan includes insurance and non-insurance components.
@@ -167,7 +170,7 @@ const DentalDiscountProgramPage: React.FC<Props> = ({ data, location }: Props) =
                   <div className="col-lg-12 bottom-p">
                     <ul>
                       <li className="text-left text-black">You may visit any participating dentist on the plan and change providers at any time</li>
-                      <li className="text-left text-black">To locate a participating provider, please call <strong>408-540-3601</strong> or visit our <a href="https://inf.solutionssimplified.com" target="_blank" className="search-link">INF Provider Search</a> link to access our online provider search.</li>
+                      <li className="text-left text-black">To locate a participating provider, please call <strong>{phoneNumber}</strong> or visit our <a href="https://inf.solutionssimplified.com" target="_blank" className="search-link">INF Provider Search</a> link to access our online provider search.</li>
                     </ul>
                   </div>
                  </div>
@@ -245,33 +248,8 @@ export const query = graphql`
         siteUrl
         author
         twitter
-        adsense
-      }
-    },
-    remark: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      posts: edges {
-        post: node {
-          html
-          frontmatter {
-            layout
-            title
-            path
-            category
-            author
-            tags
-            description
-            date(formatString: "YYYY/MM/DD")
-            image {
-              childImageSharp {
-                fluid(maxHeight: 362) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
+        phoneNumber
+        emailAddress
       }
     },
     hero_background: file(name: { eq: "dental-discount-hero-bg-1" }) {

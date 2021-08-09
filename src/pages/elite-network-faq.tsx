@@ -20,6 +20,11 @@ const EliteNetworkFaqPage: React.FC<Props> = ({ data, location }: Props) => {
   const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
 
+  const phoneNumber = meta.phoneNumber
+  const emailAddress = meta.emailAddress
+  const emailAddressUrl = "mailto:"+emailAddress
+  const phoneNumberUrl = "tel:"+phoneNumber
+
   return (
     <Layout location={location}>
       <Helmet>
@@ -89,7 +94,7 @@ const EliteNetworkFaqPage: React.FC<Props> = ({ data, location }: Props) => {
               <p>You are able to renew the Elite Travel Insurance Plan for any amount of time after the initial coverage period. We send email, text, and phone call reminders to you 1 week & 1 day before the policy expiration.</p>
 
               <p className="title">How do I apply for the Elite Travel Insurance Plan?</p>
-              <p>We have an Online application available where you can apply for this plan. Or, you can reach us at 408-540-3601 and we will be able to help you complete the application over the phone.</p>
+              <p>We have an Online application available where you can apply for this plan. Or, you can reach us at {phoneNumber} and we will be able to help you complete the application over the phone.</p>
 
               <p className="title">Will this plan cover pre-existing conditions?</p>
               <p>Under the INF Elite Travel Insurance plan, pre-existing conditions may be covered according to the terms of the policy. A Preexisting Condition is defined as: “Preexisting Condition” means an illness, disease, or other condition of the Covered Person that in the 12-month period before the Covered Person’s coverage became effective under the Policy:</p>
@@ -146,6 +151,8 @@ const EliteNetworkFaqPage: React.FC<Props> = ({ data, location }: Props) => {
           title
           description
           siteUrl
+          phoneNumber
+          emailAddress
         }
       },
       hero_background: file(name: { eq: "why-inf-hero-bg" }) {

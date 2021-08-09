@@ -1,15 +1,9 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
-import Img, { FixedObject } from 'gatsby-image'
 import { IndexQueryQuery, PostByPathQuery } from '../../types/graphql-types'
-import Post from '../templates/post/post'
-import Meta from 'components/meta/meta'
 import Layout from 'components/layout/layout'
-import styled from 'styled-components'
 import Container from 'components/pages/container'
-import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
-import ButtonBlack from 'components/button/button-black'
 import { Helmet } from 'react-helmet'
 import IframeResizer from 'iframe-resizer-react'
 
@@ -20,10 +14,10 @@ interface Props {
 
 const MembersPage: React.FC<Props> = ({ data, location }: Props) => {
   const meta = data.site?.meta
-  const posts = data.remark.posts
-  const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
-  const infplans_big_logo = data.infplans_big_logo?.childImageSharp?.fluid
+
+  const backendUrl = meta.backendUrl
+  const membersLoginFormUrl = backendUrl + "/memberHub/logIn/"
 
   return (
     <Layout location={location}>
@@ -57,34 +51,10 @@ const MembersPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12" id="insured-login">
             <IframeResizer
               log
-              src="https://adrienb3.sg-host.com/memberHub/logIn/"
+              src={membersLoginFormUrl}
               style={{ width: '1px', minWidth: '100%', border: 'none'}}
             />
-            {/*<div className="embed-container">
-              <iframe src="https://sec.infplans.com/forms/members-login.php" id="members-login-form"></iframe>
-            </div>*/}
           </div>
-          {/*<div className="col-lg-12">
-            <div className="row members-container">
-              <div className="col-lg-12">
-                <h3 className="text-blue text-center row-title">Welcome to the Insured Portal. Extend existing plans, apply new plans, print ID cards, Dental and Vision Discount cards.</h3>
-              </div>
-              <div className="col-lg-12">
-                <div className="row mt-5 members-row-container">
-                  <div className="col-lg-5">
-                    <Img fluid={infplans_big_logo} className="big-logo"/>
-                    <h3 className="text-blue text-center">Insured Login</h3>
-                  </div>
-                  <div className="col-lg-7">
-                    <form method="POST" action="">
-                      <input type="email" id="email" name="email" placeholder="Email Address" />
-                      <input type="submit" value="Next" />
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>*/}
         </Container>
       </section>
     </Layout>
@@ -102,33 +72,7 @@ export const query = graphql`
         siteUrl
         author
         twitter
-        adsense
-      }
-    },
-    remark: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      posts: edges {
-        post: node {
-          html
-          frontmatter {
-            layout
-            title
-            path
-            category
-            author
-            tags
-            description
-            date(formatString: "YYYY/MM/DD")
-            image {
-              childImageSharp {
-                fluid(maxHeight: 362) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
+        backendUrl
       }
     },
     hero_background: file(name: { eq: "members-hero-bg" }) {

@@ -17,10 +17,12 @@ interface Props {
 
 const AboutPage: React.FC<Props> = ({ data, location }: Props) => {
   const meta = data.site?.meta
-  const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
   const infplans_big_logo = data.infplans_big_logo?.childImageSharp?.fluid
-
+  const phoneNumber = meta.phoneNumber
+  const emailAddress = meta.emailAddress
+  const emailAddressUrl = "mailto:"+emailAddress
+  const phoneNumberUrl = "tel:"+phoneNumber
 
   return (
     <Layout location={location}>
@@ -62,7 +64,7 @@ const AboutPage: React.FC<Props> = ({ data, location }: Props) => {
               <p>INF offers insurance programs for non-US citizens.</p>
               <p>Some INF plans use United HealthCare.</p>
               <p>Most INF International Visitor Accident and Sickness plans provide coverage for pre-existing conditions. Our A-rated underwriting partners provide the strong financial support needed from an insurance company to continue offering International Visitor Accident and Sickness plans with pre-existing conditions coverage.</p>
-              <p>If you have any questions about INF IVAS or our organization, please email us at support@infplans.com.</p>
+              <p>If you have any questions about INF IVAS or our organization, please email us at {emailAddress}.</p>
             </div>
           </div>
         </Container>
@@ -81,6 +83,10 @@ export const query = graphql`
         title
         description
         siteUrl
+        author
+        twitter
+        emailAddress
+        phoneNumber
       }
     },
     hero_background: file(name: { eq: "request-a-quote-hero-bg" }) {

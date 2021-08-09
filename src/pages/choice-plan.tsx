@@ -1,14 +1,9 @@
-import { graphql } from 'gatsby'
-import Img, { FixedObject } from 'gatsby-image'
-import { Link } from 'gatsby'
 import React from 'react'
-import Meta from 'components/meta/meta'
+import { graphql } from 'gatsby'
+import { Link } from 'gatsby'
 import Layout from 'components/layout/layout'
-import styled from 'styled-components'
 import Container from 'components/pages/container'
-import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
-import ButtonBlack from 'components/button/button-black'
 import { Helmet } from 'react-helmet'
 
 interface Props {
@@ -16,8 +11,6 @@ interface Props {
 }
 
 const ChoicePlanPage: React.FC<Props> = ({ data, location }: Props) => {
-  const meta = data.site?.meta
-  const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
 
   return (
@@ -131,13 +124,6 @@ export default ChoicePlanPage
 
 export const query = graphql`
   query ChoicePlanPageQuery {
-    site {
-      meta: siteMetadata {
-        title
-        description
-        siteUrl
-      }
-    },
     hero_background: file(name: { eq: "why-inf-hero-bg" }) {
       childImageSharp {
         fluid(maxWidth: 1400, quality: 100) {

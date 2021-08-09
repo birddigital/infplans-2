@@ -88,26 +88,6 @@ const DiplomatAmericaPage: React.FC<Props> = ({ data, location }: Props) => {
       </Container>
      </section>
 
-  {/*}  <section id="diplomat-america-section-3">
-      <Container>
-        <div className="col-lg-12">
-          <div className="diplomat-america-container">
-            <div className="row">
-              <div className="col-lg-7 enroll-content">
-                <h2 className="text-blue">Enroll in Diplomat America</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <Link to="/diplomat-america/#diplomat-america-section-7"><button className="enroll-btn"> Enroll Now </button></Link>
-              </div>
-
-              <div className="col-lg-5">
-                <Img fluid={apply_right_img} className="america-right-img"/>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Container>
-    </section> */}
-
     <section id="diplomat-america-section-4">
       <Container>
         <div className="col-lg-12">

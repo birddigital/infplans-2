@@ -368,6 +368,11 @@ button {
 .navibar-top p{
   padding-top: 5px;
   padding-left: 10px;
+  display: inline-block;
+}
+
+.whatsapp-icon {
+  margin-bottom: 5px;
 }
 
 .nav-submenu {
@@ -13039,6 +13044,7 @@ button.close {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
+    top: 10px;
   }
 
   .service-column:nth-child(2), .service-column:nth-child(3) {

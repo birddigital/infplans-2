@@ -22,6 +22,9 @@ const CookiesPolicyPage: React.FC<Props> = ({ data, location }: Props) => {
   const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
 
+  const phoneNumber = meta.phoneNumber
+  const emailAddress = meta.emailAddress
+
   return (
     <Layout location={location}>
     <Meta site={meta} title="Cookies Policy" />
@@ -130,9 +133,9 @@ const CookiesPolicyPage: React.FC<Props> = ({ data, location }: Props) => {
           </p>
 
           <ul>
-            <li className="text-white contact">By email: support@infplans.com</li>
+            <li className="text-white contact">By email: {emailAddress}</li>
             <li className="text-white contact">By visiting this page on our website: infplans.com</li>
-            <li className="text-white contact">By phone number: 408-540-3601</li>
+            <li className="text-white contact">By phone number: {phoneNumber}</li>
           </ul>
           </div>
         </Container>

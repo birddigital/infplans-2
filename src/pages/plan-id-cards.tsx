@@ -25,6 +25,9 @@ const PlanIDCardsPage: React.FC<Props> = ({ data, location }: Props) => {
   const hero_background = data.hero_background?.childImageSharp?.fluid
   const infplans_big_logo = data.infplans_big_logo?.childImageSharp?.fluid
 
+  const backendUrl = meta.backendUrl
+  const planIdCardsFormUrl = backendUrl + "/memberHub/logIn/plan-id-cards.php"
+
   return (
     <Layout location={location}>
       <Helmet>
@@ -61,7 +64,7 @@ const PlanIDCardsPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12" id="plan-id-cards">
             <IframeResizer
               log
-              src="https://adrienb3.sg-host.com/memberHub/logIn/plan-id-cards.php"
+              src={planIdCardsFormUrl}
               style={{ width: '1px', minWidth: '100%', border: 'none'}}
             />
             {/*<div className="embed-container">
@@ -85,7 +88,7 @@ export const query = graphql`
         siteUrl
         author
         twitter
-        adsense
+        backendUrl
       }
     },
     remark: allMarkdownRemark(

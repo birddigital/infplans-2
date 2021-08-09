@@ -2,14 +2,9 @@ import React, {useState, useEffect} from 'react'
 import { graphql, Link } from 'gatsby'
 import Img, { FixedObject } from 'gatsby-image'
 import { IndexQueryQuery, PostByPathQuery } from '../../types/graphql-types'
-import Post from '../templates/post/post'
-import Meta from 'components/meta/meta'
 import Layout from 'components/layout/layout'
-import styled from 'styled-components'
 import Container from 'components/pages/container'
-import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
-import ButtonBlack from 'components/button/button-black'
 import { FaAngleDoubleDown } from "@react-icons/all-files/fa/FaAngleDoubleDown";
 import { FaAngleDoubleUp } from "@react-icons/all-files/fa/FaAngleDoubleUp";
 import { Helmet } from 'react-helmet'
@@ -24,14 +19,15 @@ interface Props {
 
 const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
   const meta = data.site?.meta
-  const posts = data.remark.posts
-  const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
   const bmi_logo = data.bmi_logo?.childImageSharp?.fluid
-  const book1_icon = data.book1_icon?.childImageSharp?.fluid
-  const book2_icon = data.book2_icon?.childImageSharp?.fluid
   const [infBMIStatus, setInfBMIStatus] = useState(false);
   const [popupModalVisible, setPopupModalVisible] = useState(false);
+
+  const phoneNumber = meta.phoneNumber
+  const emailAddress = meta.emailAddress
+  const emailAddressUrl = "mailto:"+emailAddress
+  const phoneNumberUrl = "tel:"+phoneNumber
 
   function showInfBMI() {
     setInfBMIStatus(true);
@@ -103,8 +99,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
                     <h2> INF BMI Travel Plan Application</h2>
                     <BmiApplyForm />
                   </PopupModal>
-                  {/*<Link to="/visitors-insurance-quote"><button className="inf-btn"> Click to Get a Quote </button></Link>*/}
-               </div>
+                </div>
              </div>
            </div>
          </div>
@@ -120,7 +115,7 @@ const BMITravelPage: React.FC<Props> = ({ data, location }: Props) => {
               <li className="text-white">COVID-19 Coverage.</li>
               <li className="text-white">All plans have 100% Co-Insurance (We cover 100%) and NO DEDUCTIBLE.</li>
               <li className="text-white">We make all the appointments for you- no more hassle of finding a provider who will accept you plan. We do everything on the backend to make sure it's completely cashless.</li>
-              <li className="text-white">We provide all members with free Careington 500 Dental Plan ($100 value). Just send your voucher number to support@infplans.com with a request and we will issue you a dental card at no cost!</li>
+              <li className="text-white">We provide all members with free Careington 500 Dental Plan ($100 value). Just send your voucher number to {emailAddress} with a request and we will issue you a dental card at no cost!</li>
             </ul>
          </div>
       </Container>
@@ -774,33 +769,8 @@ export const query = graphql`
         siteUrl
         author
         twitter
-        adsense
-      }
-    },
-    remark: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      posts: edges {
-        post: node {
-          html
-          frontmatter {
-            layout
-            title
-            path
-            category
-            author
-            tags
-            description
-            date(formatString: "YYYY/MM/DD")
-            image {
-              childImageSharp {
-                fluid(maxHeight: 362) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
+        phoneNumber
+        emailAddress
       }
     },
     hero_background: file(name: { eq: "bmi-travel-hero-bg" }) {

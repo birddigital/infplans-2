@@ -25,6 +25,9 @@ const ProducersPage: React.FC<Props> = ({ data, location }: Props) => {
   const hero_background = data.hero_background?.childImageSharp?.fluid
   const infplans_big_logo = data.infplans_big_logo?.childImageSharp?.fluid
 
+  const backendUrl = meta.backendUrl
+  const producersLoginFormUrl = backendUrl + "/producers/logIn/"
+
   return (
     <Layout location={location}>
       <Helmet>
@@ -57,27 +60,10 @@ const ProducersPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12" id="producer-login">
             <IframeResizer
               log
-              src="https://adrienb3.sg-host.com/producers/logIn/"
+              src={producersLoginFormUrl}
               style={{ width: '1px', minWidth: '100%', border: 'none'}}
             />
-            {/*<div className="embed-container">
-              <iframe src="https://sec.infplans.com/forms/producers-login.php" id="members-login-form"></iframe>
-            </div>*/}
           </div>
-          {/*<div className="col-lg-12">
-            <div className="row producers-container">
-              <div className="col-lg-5">
-                <Img fluid={infplans_big_logo} className="big-logo"/>
-                <h3 className="text-blue text-center">Producer Sign In</h3>
-              </div>
-              <div className="col-lg-7">
-                <form method="POST" action="">
-                  <input type="email" id="email" name="email" placeholder="Email Address" />
-                  <input type="submit" value="Next" />
-                </form>
-              </div>
-            </div>
-          </div>*/}
         </Container>
       </section>
     </Layout>
@@ -95,7 +81,7 @@ export const query = graphql`
         siteUrl
         author
         twitter
-        adsense
+        backendUrl
       }
     },
     remark: allMarkdownRemark(

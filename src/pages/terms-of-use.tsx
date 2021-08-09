@@ -22,6 +22,11 @@ const TermsofUsePage: React.FC<Props> = ({ data, location }: Props) => {
   const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
 
+  const phoneNumber = meta.phoneNumber
+  const emailAddress = meta.emailAddress
+  const emailAddressUrl = "mailto:"+emailAddress
+  const phoneNumberUrl = "tel:"+phoneNumber
+
   return (
     <Layout location={location}>
     <Meta site={meta} title="Terms of Use" />
@@ -206,7 +211,7 @@ const TermsofUsePage: React.FC<Props> = ({ data, location }: Props) => {
                 Address: United States
               </p>
               <p className="text-white">
-                Email: support@infplans.com
+                Email: {emailAddress}
               </p>
             </div>
           </Container>
@@ -226,7 +231,8 @@ export const query = graphql`
         siteUrl
         author
         twitter
-        adsense
+        emailAddress
+        phoneNumber
       }
     },
     remark: allMarkdownRemark(

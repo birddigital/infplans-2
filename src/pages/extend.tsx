@@ -25,6 +25,14 @@ const RenewPage: React.FC<Props> = ({ data, location }: Props) => {
   const hero_background = data.hero_background?.childImageSharp?.fluid
   const infplans_big_logo = data.infplans_big_logo?.childImageSharp?.fluid
 
+  const phoneNumber = meta.phoneNumber
+  const emailAddress = meta.emailAddress
+  const emailAddressUrl = "mailto:"+emailAddress
+  const phoneNumberUrl = "tel:"+phoneNumber
+  const backendUrl = meta.backendUrl
+  const extendFormUrl = backendUrl + "/memberHub/logIn/extend.php"
+
+
   return (
     <Layout location={location}>
       <Helmet>
@@ -47,7 +55,7 @@ const RenewPage: React.FC<Props> = ({ data, location }: Props) => {
                 EXTENSION
               </h1>
               <p className="hero-text text-white text-center">
-                INF Plans can be Extended up to a maximum of 364 days. To extend coverage for you, please check the steps below. If you have any questions, please reach us at 408-540-3601.
+                INF Plans can be Extended up to a maximum of 364 days. To extend coverage for you, please check the steps below. If you have any questions, please reach us at {phoneNumber}.
               </p>
             <a href="#extend-your-plan">  <button className="hero-btn"> Extend Your Plan </button></a>
             </div>
@@ -60,7 +68,7 @@ const RenewPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12" id="extend-form">
             <IframeResizer
               log
-              src="https://adrienb3.sg-host.com/memberHub/logIn/extend.php"
+              src={extendFormUrl}
               style={{ width: '1px', minWidth: '100%', border: 'none'}}
             />
            {/*<div className="embed-container">
@@ -108,7 +116,9 @@ export const query = graphql`
         siteUrl
         author
         twitter
-        adsense
+        backendUrl
+        emailAddress
+        phoneNumber
       }
     },
     remark: allMarkdownRemark(

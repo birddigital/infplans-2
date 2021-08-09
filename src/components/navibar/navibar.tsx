@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'gatsby'
+import { graphql, useStaticQuery, Link } from 'gatsby'
 import 'components/navibar/style.scss'
 import Logo from '../../../content/images/logo.png'
 import Megaphone from '../../../content/images/megaphone-navi.png'
@@ -13,6 +13,23 @@ interface Props {
 }
 
 const Navibar: React.FC<Props> = ({ location, title }: Props) => {
+  const data = useStaticQuery ( graphql`
+    query NavibarQuery {
+      site {
+        siteMetadata {
+          backendUrl
+          emailAddress
+          phoneNumber
+        }
+      }
+    }
+  `
+  )
+  
+  const phoneNumber = data.site.siteMetadata.phoneNumber
+  const emailAddress = data.site.siteMetadata.emailAddress
+  const emailAddressUrl = "mailto:"+emailAddress
+  const phoneNumberUrl = "tel:"+phoneNumber
 
   const [scrolled, setScrolled] = useState("navbar navbar-expand navbar-light flex-column flex-md-row");
 
@@ -35,23 +52,25 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
     };
   }, [scrolled]);
 
+  
+
   return (
     <>
       <div className="navibar-top">
         <div className="container">
           <div className="row">
-            <div className="col-lg-10">
+            <div className="col-lg-9">
               {/*<span><img src={Megaphone} className="megaphone-icon"/></span><p><strong>COVID-19</strong>: For answers to frequently asked questions, please see our <Link to="/diplomat-america#what-is-diplomat-america-plan" id="resource-page">COVID-19 Resource Page</Link></p>*/}
               {/*<span><img src={Megaphone} className="megaphone-icon"/></span><p> Email: <a href="mailto:support@infplans.com">support@infplans.com</a></p> */}
-              <a href="mailto:support@infplans.com">
+              <a href={emailAddressUrl}>
                 <button id="email-button">
                   <HiOutlineMailOpen size="22" className="email-icon"/>
                   Email Us
                 </button>
               </a>
             </div>
-            <div className="col-lg-2">
-              <span><img src={Whatsapp} className="whatsapp-icon"/></span><a href="tel:4085403601"><p className="text-right">Tel: 408-540-3601</p></a>
+            <div className="col-lg-3">
+              <span><img src={Whatsapp} className="whatsapp-icon"/></span><a href={phoneNumberUrl}><p className="text-right">Tel: {phoneNumber}</p></a>
             </div>
           </div>
         </div>

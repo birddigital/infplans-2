@@ -26,14 +26,21 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
   const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
 
+  const backendUrl = meta.backendUrl
+  const contactFormUrl = backendUrl + "/contact/"
+  const phoneNumber = meta.phoneNumber
+  const emailAddress = meta.emailAddress
+  const emailAddressUrl = "mailto:"+emailAddress
+  const phoneNumberUrl = "tel:"+phoneNumber
+
   return (
     <Layout location={location}>
       <Helmet>
         <title>Contact Us about Insurance for Visitors Questions</title>
         <meta property="og:site_name" content="INF Visitor Insurance"/>
         <meta property="og:title" content="Contact Us for Insurance for Visitors Questions &amp; Needs"/>
-        <meta property="og:description" content="Monday - Friday : 9:00 AM - 11:00 PM EST Saturday - Sunday : 10:00 AM - 9:00 PM EST ​ Support Via Phone: 408-540-3601 Support Via Email: support @infplans.com"/>
-        <meta name="description" content="Contact INF: 408-540-3601 or email support@infplans.com "/>
+        <meta property="og:description" content="Monday - Friday : 9:00 AM - 11:00 PM EST Saturday - Sunday : 10:00 AM - 9:00 PM EST ​ Support Via Phone: 800-490-9678 Support Via Email: support @infplans.com"/>
+        <meta name="description" content="Contact INF: 800-490-9678 or email support@infplans.com "/>
         <meta name="keywords" content="travel insurance, Insurance for Visitors, visitor insurance, pre-existing medical conditions, visitor medical insurance"/>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -63,7 +70,7 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="col-lg-7">
                 <div className="left-content">
                   <h2 className="text-blue text-center">Contact Us Today</h2>
-                  <form method="POST" action="https://adrienb3.sg-host.com/contact/">
+                  <form method="POST" action={contactFormUrl}>
                     <input type="text" id="name" name="name" placeholder="Your Name*" />
                     <input type="email" id="email" name="email" placeholder="Your Email Address*" />
                     <input type="tel" id="phone" name="phone" placeholder="Your Phone Number*" />
@@ -83,12 +90,12 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
 
                   <div className="business-hours">
                     <FiPhoneCall className="contact-icon"/><h3 className="text-white hours-subtitle">Support Via Phone</h3>
-                    <a href="tel:14085403601" className="links">Phone: 408-540-3601 </a>
+                    <a href={phoneNumberUrl} className="links">Phone: {phoneNumber} </a>
                   </div>
 
                   <div className="business-hours">
                     <FiMail className="contact-icon"/><h3 className="text-white hours-subtitle">Support Via Email</h3>
-                    <a href="mailto:support@infplans.com" className="links">support@infplans.com </a>
+                    <a href={emailAddressUrl} className="links">{emailAddress} </a>
                   </div>
               </div>
             </div>
@@ -110,7 +117,9 @@ export const query = graphql`
         siteUrl
         author
         twitter
-        adsense
+        backendUrl
+        phoneNumber
+        emailAddress
       }
     },
     remark: allMarkdownRemark(

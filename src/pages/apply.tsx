@@ -25,6 +25,9 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
   const infplans_big_logo = data.infplans_big_logo?.childImageSharp?.fluid
   const apply_right_img = data.apply_right_img?.childImageSharp?.fluid
 
+  const backendUrl = meta.backendUrl
+  const applyFormUrl = backendUrl + "/applicationForm/index.php?agentno=1000000"
+
   return (
     <Layout location={location}>
       <Helmet>
@@ -57,7 +60,7 @@ const ApplyPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12" id="apply-page-form">
             <IframeResizer
               log
-              src="https://adrienb3.sg-host.com/applicationForm/index.php?agentno=1000000"
+              src={applyFormUrl}
               style={{ width: '1px', minWidth: '100%',  border: 'none'}}
               heightCalculationMethod= "lowestElement"
               scrolling= "no"
@@ -158,7 +161,7 @@ export const query = graphql`
         siteUrl
         author
         twitter
-        adsense
+        backendUrl
       }
     },
     remark: allMarkdownRemark(

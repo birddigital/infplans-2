@@ -32,6 +32,11 @@ const StandardPage: React.FC<Props> = ({ data, location }: Props) => {
   const cta_bg = data.cta_bg?.childImageSharp?.fluid
   const [infBMIStatus, setInfBMIStatus] = useState(false);
 
+  const phoneNumber = meta.phoneNumber
+  const emailAddress = meta.emailAddress
+  const emailAddressUrl = "mailto:"+emailAddress
+  const phoneNumberUrl = "tel:"+phoneNumber
+
 
   function showInfBMI() {
     setInfBMIStatus(true);
@@ -686,7 +691,7 @@ const StandardPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12">
             <div className="white-bg text-center">
               <h3 className="text-blue">Complaints:</h3>
-              <p className="text-black">In the event that you remain dissatisfied and wish to make a complaint you can do so to the Complaints team at support@infplans.com</p>
+              <p className="text-black">In the event that you remain dissatisfied and wish to make a complaint you can do so to the Complaints team at {emailAddress}</p>
             </div>
           </div>
           <div className="col-lg-12">
@@ -718,7 +723,8 @@ export const query = graphql`
         siteUrl
         author
         twitter
-        adsense
+        phoneNumber
+        emailAddress
       }
     },
     remark: allMarkdownRemark(

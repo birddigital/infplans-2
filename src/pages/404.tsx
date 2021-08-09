@@ -1,15 +1,10 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
-import Img, { FixedObject } from 'gatsby-image'
 import { IndexQueryQuery, PostByPathQuery } from '../../types/graphql-types'
-import Post from '../templates/post/post'
 import Meta from 'components/meta/meta'
 import Layout from 'components/layout/layout'
-import styled from 'styled-components'
 import Container from 'components/pages/container'
-import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
-import ButtonBlack from 'components/button/button-black'
 
 interface Props {
   data: IndexQueryQuery
@@ -18,8 +13,6 @@ interface Props {
 
 const PageNotFoundPage: React.FC<Props> = ({ data, location }: Props) => {
   const meta = data.site?.meta
-  const posts = data.remark.posts
-  const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
 
   return (
@@ -55,33 +48,6 @@ export const query = graphql`
         siteUrl
         author
         twitter
-        adsense
-      }
-    },
-    remark: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      posts: edges {
-        post: node {
-          html
-          frontmatter {
-            layout
-            title
-            path
-            category
-            author
-            tags
-            description
-            date(formatString: "YYYY/MM/DD")
-            image {
-              childImageSharp {
-                fluid(maxHeight: 362) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
       }
     },
     hero_background: file(name: { eq: "home-hero-bg" }) {

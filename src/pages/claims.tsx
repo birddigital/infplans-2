@@ -1,15 +1,10 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
-import Img, { FixedObject } from 'gatsby-image'
-import { IndexQueryQuery, PostByPathQuery } from '../../types/graphql-types'
-import Post from '../templates/post/post'
-import Meta from 'components/meta/meta'
+import Img from 'gatsby-image'
+import { IndexQueryQuery } from '../../types/graphql-types'
 import Layout from 'components/layout/layout'
-import styled from 'styled-components'
 import Container from 'components/pages/container'
-import ContainerFluid from 'components/pages/container-fluid'
 import BackgroundImage from 'gatsby-background-image'
-import ButtonBlack from 'components/button/button-black'
 import { Helmet } from 'react-helmet'
 import ClaimsForm from 'components/forms/ClaimsForm';
 
@@ -19,9 +14,6 @@ interface Props {
 }
 
 const ClaimsPage: React.FC<Props> = ({ data, location }: Props) => {
-  const meta = data.site?.meta
-  const posts = data.remark.posts
-  const hero = data.hero?.childImageSharp?.fluid
   const hero_background = data.hero_background?.childImageSharp?.fluid
   const infplans_big_logo = data.infplans_big_logo?.childImageSharp?.fluid
   const pdf_icon = data.pdf_icon?.childImageSharp?.fluid

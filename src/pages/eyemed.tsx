@@ -63,65 +63,6 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
 
       <section id="eyemed-section-1">
         <Container>
-          {/*}<div className="col-lg-12">
-            <iframe src="https://eyemed.memberquotes.com/Quote/LandingPage/EyeMed_1?rn=000020140-207-732&sessionStorage=4be4c6df-7653-429b-8123-820a1f0f5dde" style={{ border:"0px #ffffff none" }} name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="800px" width="100%"></iframe>
-          </div>*/}
-          {/*}<div className="col-lg-7">
-          <div className="eyemed-form-container">
-             <h2 className="text-blue text-center">Find The Perfect Vision Plan For You</h2>
-
-               <form id="eyemed-form" method="POST" action="">
-                 <div className="row">
-                   <div className="col-lg-6">
-                     <input type="email" id="email" name="email" class="form-control" placeholder="Email Address" />
-                   </div>
-
-                   <div className="col-lg-6">
-                     <input type="zipcode" id="zipcode" name="code" class="form-control" placeholder="Zip Code" />
-                   </div>
-                 </div>
-
-                 <input type="date" name="date" class="form-control" placeholder="When would you like your coverage to start?" />
-
-                 <p className="form-title1">Who Needs Coverage?</p>
-                   <div className="row">
-                     <div className="col-lg-6">
-                       <select id="spouse" name="spouse">
-                         <option value="spouse">No Spouse</option>
-                         <option value="spouse">Include Spouse</option>
-                       </select>
-                     </div>
-
-                     <div className="col-lg-6">
-                       <select id="children" name="children">
-                         <option value="children">0 Children</option>
-                         <option value="children">1 Child</option>
-                         <option value="children">2 Children</option>
-                         <option value="children">3 Children</option>
-                         <option value="children">4 Children</option>
-                         <option value="children">5 Children</option>
-                         <option value="children">6 Children</option>
-                         <option value="children">7 Children</option>
-                         <option value="children">8 Children</option>
-                         <option value="children">9 Children</option>
-                         <option value="children">10 Children</option>
-                       </select>
-                     </div>
-                   </div>
-
-                   <p className="form-title">Please select how or if you would like to be contacted by a product specialist for assistance</p>
-
-                   <select id="any" name="any" class="any">
-                     <option value="any">Any</option>
-                     <option value="any">Email</option>
-                     <option value="any">Phone</option>
-                     <option value="any">None</option>
-                   </select>
-                   <button className="get-quote-btn"> Get My Quote </button>
-             </form>
-           </div>
-         </div>*/}
-
           <div className="col-lg-6">
            <div className="col-lg-12 flipcard-col flip-card">
             <div className="flip-card-inner">

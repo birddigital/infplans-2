@@ -33,6 +33,11 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
   const cta_bg = data.cta_bg?.childImageSharp?.fluid
   const [infBMIStatus, setInfBMIStatus] = useState(false);
 
+  const phoneNumber = meta.phoneNumber
+  const emailAddress = meta.emailAddress
+  const emailAddressUrl = "mailto:"+emailAddress
+  const phoneNumberUrl = "tel:"+phoneNumber
+
 
   function showInfBMI() {
     setInfBMIStatus(true);
@@ -345,13 +350,13 @@ const ElitePage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12">
             <div className="blue-bg text-center">
               <h3 className="text-white">Privacy Statement:</h3>
-              <p className="text-white">We know that your privacy is important to you and we strive to protect the confidentiality of your non-public personal information. We do not disclose any non-public personal information about our insureds or former insureds to anyone, except as permitted or required by law. We maintain appropriate physical, electronic and procedural safeguards to ensure the security of your non-public personal information. You may obtain a detailed copy of our privacy policy by calling 408-540-3601.</p>
+              <p className="text-white">We know that your privacy is important to you and we strive to protect the confidentiality of your non-public personal information. We do not disclose any non-public personal information about our insureds or former insureds to anyone, except as permitted or required by law. We maintain appropriate physical, electronic and procedural safeguards to ensure the security of your non-public personal information. You may obtain a detailed copy of our privacy policy by calling {phoneNumber}.</p>
             </div>
           </div>
           <div className="col-lg-12">
             <div className="white-bg text-center">
               <h3 className="text-blue">Complaints:</h3>
-              <p className="text-black">In the event that you remain dissatisfied and wish to make a complaint you can do so to the Complaints team at support@infplans.com</p>
+              <p className="text-black">In the event that you remain dissatisfied and wish to make a complaint you can do so to the Complaints team at {emailAddress}</p>
             </div>
           </div>
           <div className="col-lg-12">
@@ -383,7 +388,8 @@ export const query = graphql`
         siteUrl
         author
         twitter
-        adsense
+        phoneNumber
+        emailAddress
       }
     },
     remark: allMarkdownRemark(
