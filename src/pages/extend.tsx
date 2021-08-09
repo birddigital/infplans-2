@@ -60,7 +60,7 @@ const RenewPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12" id="extend-form">
             <IframeResizer
               log
-              src="https://sec.infplans.com/forms/extend-form.php"
+              src="https://adrienb3.sg-host.com/memberHub/logIn/extend.php"
               style={{ width: '1px', minWidth: '100%', border: 'none'}}
             />
            {/*<div className="embed-container">

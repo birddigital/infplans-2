@@ -57,7 +57,7 @@ const MembersPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12" id="insured-login">
             <IframeResizer
               log
-              src="https://sec.infplans.com/forms/members-login.php"
+              src="https://adrienb3.sg-host.com/memberHub/logIn/"
               style={{ width: '1px', minWidth: '100%', border: 'none'}}
             />
             {/*<div className="embed-container">

@@ -12,7 +12,7 @@ const ClaimsForm = ({ action, ...props }) => (
   <div id="claims-form-container">
     <IframeResizer
       log
-      src="https://sec.infplans.com/forms/claims-form.php"
+      src="https://adrienb3.sg-host.com/memberHub/logIn/claims.php"
       style={{ width: '1px', minWidth: '100%', border: 'none'}}
     />
     {/*<div className="embed-container">

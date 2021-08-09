@@ -10,6 +10,7 @@ module.exports = {
     author: '',
     twitter: '',
     adsense: '',
+    backendUrl: '',
   },
   flags: {
     DEV_SSR: false,

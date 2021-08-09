@@ -281,7 +281,7 @@ class MobileNavigation extends Component {
                       Support
                     </Link>
                     <ul className="nav-submenu">
-                      <li
+                      {/*<li
                         className={
                           location.pathname === '/'
                             ? 'nav-item active'
@@ -291,7 +291,7 @@ class MobileNavigation extends Component {
                         <Link to="/faq" className="nav-link">
                           FAQ
                         </Link>
-                      </li>
+                      </li>*/}
                       <li
                         className={
                           location.pathname === '/'

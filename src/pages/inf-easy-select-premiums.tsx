@@ -80,7 +80,7 @@ const PremiumsPage: React.FC<Props> = ({ data, location }: Props) => {
       <section id="premium-section-1">
           <IframeResizer
             log
-            src="https://sec.infplans.com/forms/premiums/inf-easy-select-premiums.php"
+            src="https://adrienb3.sg-host.com/forms/premiums/inf-easy-select-premiums.php"
             style={{ width: '1px', minWidth: '100%', border: 'none'}}
             heightCalculationMethod= "lowestElement"
           />

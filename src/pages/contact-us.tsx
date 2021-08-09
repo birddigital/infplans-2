@@ -63,7 +63,7 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
               <div className="col-lg-7">
                 <div className="left-content">
                   <h2 className="text-blue text-center">Contact Us Today</h2>
-                  <form method="POST" action="https://www.elformo.com/forms/1d2d8842-c4cf-4004-a02d-60ee5c4af6b9">
+                  <form method="POST" action="https://adrienb3.sg-host.com/contact/">
                     <input type="text" id="name" name="name" placeholder="Your Name*" />
                     <input type="email" id="email" name="email" placeholder="Your Email Address*" />
                     <input type="tel" id="phone" name="phone" placeholder="Your Phone Number*" />

@@ -12,7 +12,7 @@ const DiplomatAmericaForm = ({ action, ...props }) => (
   <div id="diplomat-america-form-container">
     <IframeResizer
       log
-      src="https://sec.infplans.com/forms/insurance-application"
+      src="https://adrienb3.sg-host.com/insurance-application/quote.php"
       style={{ width: '1px', minWidth: '100%', border: 'none'}}
       heightCalculationMethod= "lowestElement"
     />

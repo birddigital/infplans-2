@@ -61,7 +61,7 @@ const PlanIDCardsPage: React.FC<Props> = ({ data, location }: Props) => {
           <div className="col-lg-12" id="plan-id-cards">
             <IframeResizer
               log
-              src="https://sec.infplans.com/forms/plan-id-cards-form.php"
+              src="https://adrienb3.sg-host.com/memberHub/logIn/plan-id-cards.php"
               style={{ width: '1px', minWidth: '100%', border: 'none'}}
             />
             {/*<div className="embed-container">

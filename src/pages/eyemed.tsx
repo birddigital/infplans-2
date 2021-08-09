@@ -181,7 +181,7 @@ const EyemedPage: React.FC<Props> = ({ data, location }: Props) => {
         <div className="col-lg-6 text-center">
           <div className="eyemed-container">
             <img src={EyeMed} />
-            <a href="https://infplans.com/eyemed" target="_blank">
+            <a href="https://eyemed.memberquotes.com/Quote/LandingPage/EyeMed_1?rn=000020140-207-732" target="_blank">
               <button className="get-now-btn"> Get Eyemed </button>
             </a>
           </div>

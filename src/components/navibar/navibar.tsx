@@ -295,7 +295,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                       Support
                     </Link>
                     <ul className="nav-submenu">
-                      <li
+                      {/*<li
                         className={
                           location.pathname === '/'
                             ? 'nav-item active'
@@ -305,7 +305,7 @@ const Navibar: React.FC<Props> = ({ location, title }: Props) => {
                         <Link to="/faq" className="nav-link">
                           FAQ
                         </Link>
-                      </li>
+                      </li>*/}
                       <li
                         className={
                           location.pathname === '/'
