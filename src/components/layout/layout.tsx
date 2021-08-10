@@ -147,7 +147,7 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
                     </div>
                     <input type="email" name="cemail" placeholder="Email" required/>
                     <textarea name="cmsg" placeholder="Message" required></textarea>
-                    <button type="input" onClick={modalHide}>Submit </button>
+                    <button type="input" name="csubmit" onClick={modalHide}>Submit </button>
                   </form>
                   </div>
                   <div className=" col-lg-5 popup-image-container">

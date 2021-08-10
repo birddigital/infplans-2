@@ -75,7 +75,7 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
                     <input type="email" id="cemail" name="cemail" placeholder="Your Email Address*" />
                     <input type="tel" id="cphone" name="cphone" placeholder="Your Phone Number*" />
                     <textarea id="cmsg" name="cmsg" placeholder="Your Message*" />
-                    <input type="submit" value="Submit" />
+                    <input type="submit" name="csubmit" value="Submit" />
                   </form>
                 </div>
               </div>
