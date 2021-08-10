@@ -110,9 +110,11 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
 
   function modalHide() {
     setPopupNumber(0);
+    setPopupStatus(false);
+    localStorage.setItem("modalCount", 0);
   }
 
-  
+
 
   // console.log("Modal Count: ",modalCount);
   return (
