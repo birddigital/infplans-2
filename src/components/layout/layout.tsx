@@ -139,14 +139,14 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
                   <form id="exit-form" method="POST" action={contactFormUrl}>
                     <div className="row">
                       <div className="col-md-6 pl-0 pr-2">
-                        <input type="text" name="name"  placeholder="Name" required/>
+                        <input type="text" name="cname"  placeholder="Name" required/>
                       </div>
                       <div className="col-md-6 pr-0 pl-2">
-                        <input type="tel" name="phone" placeholder="Phone" required/>
+                        <input type="tel" name="cphone" placeholder="Phone" required/>
                       </div>
                     </div>
-                    <input type="email" name="email" placeholder="Email" required/>
-                    <textarea name="message" placeholder="Message" required></textarea>
+                    <input type="email" name="cemail" placeholder="Email" required/>
+                    <textarea name="cmsg" placeholder="Message" required></textarea>
                     <button type="input" onClick={modalHide}>Submit </button>
                   </form>
                   </div>

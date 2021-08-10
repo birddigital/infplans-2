@@ -71,10 +71,10 @@ const ContactUsPage: React.FC<Props> = ({ data, location }: Props) => {
                 <div className="left-content">
                   <h2 className="text-blue text-center">Contact Us Today</h2>
                   <form method="POST" action={contactFormUrl}>
-                    <input type="text" id="name" name="name" placeholder="Your Name*" />
-                    <input type="email" id="email" name="email" placeholder="Your Email Address*" />
-                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number*" />
-                    <textarea id="message" name="message" placeholder="Your Message*" />
+                    <input type="text" id="cname" name="cname" placeholder="Your Name*" />
+                    <input type="email" id="cemail" name="cemail" placeholder="Your Email Address*" />
+                    <input type="tel" id="cphone" name="cphone" placeholder="Your Phone Number*" />
+                    <textarea id="cmsg" name="cmsg" placeholder="Your Message*" />
                     <input type="submit" value="Submit" />
                   </form>
                 </div>
