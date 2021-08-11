@@ -632,6 +632,7 @@ section.home-hero-section-bg::after {
   #home-hero-section h1 {
     margin-bottom: 50px;
   }
+
 }
 
 #home-services-section .service-icon {
@@ -7872,6 +7873,12 @@ section.plans-hero-section-bg {
   padding-left: 30px;
 }
 
+@media only screen and (min-width: 1023px) {
+  .bmi-plans-tab ul li label {
+    font-size: 20px;
+  }
+}
+
 .bmi-plans-tab ul li label {
   font-family: "poppins";
   float: left;
@@ -7879,7 +7886,6 @@ section.plans-hero-section-bg {
   border-bottom: 0;
   font-weight: 600;
   width: 33.33%;
-  font-size: 20px;
   min-height: 92px;
   background: #eeeeee;
   border-left: 2px solid #C4C4C4;
@@ -12975,7 +12981,6 @@ button.close {
 }
 
 @media only screen and (max-width:1024px) {
-
   .col {
    width: 100% !important;
  }
@@ -13039,12 +13044,12 @@ button.close {
     margin-top: 0;
   }
 
-
   #main-navigation {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
     top: 10px;
+    background: transparent !important;
   }
 
   .service-column:nth-child(2), .service-column:nth-child(3) {
@@ -13284,6 +13289,15 @@ button.close {
 
   section.members-hero-section-bg {
     min-height: 400px;
+  }
+
+  #plans-section-1 .d-flex, #plans-section-2 .d-flex, #plans-section-3 .d-flex, #plans-section-4 .d-flex, #plans-section-5 .d-flex, #plans-section-6 .d-flex, #plans-section-7 .d-flex {
+    display: block !important;
+  }
+
+  #plans-section-1 ul, #plans-section-2 ul, #plans-section-3 ul, #plans-section-4 ul, #plans-section-5 ul, #plans-section-6 ul, #plans-section-7 ul {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #members-hero-section h1 {
@@ -14579,10 +14593,15 @@ button.close {
   section.home-hero-section-bg {
     min-height: 400px;
     padding-top: 100px;
+    padding-bottom: 0;
   }
 
   #home-hero-section h1 {
     font-size: 35px;
+  }
+
+  #home-hero-section iframe {
+    margin-bottom: 0 !important;
   }
 
   .service-column {
@@ -17018,6 +17037,11 @@ button.close {
 @media screen and (max-width: 768px) {
   section.premium-hero-section-bg {
     min-height: auto;
+  }
+
+  div#apply-page-form {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   #premium-hero-section h1 {
